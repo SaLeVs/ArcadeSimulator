@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Arcade.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Arcade.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\ArcadeEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.ignore" />
+    <None Include="..\..\.vsconfig" />
+    <None Include="..\..\Arcade.code-workspace" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\Arcade">
+      <UniqueIdentifier>{EBBBC136-5A3F-37F9-8DC0-5574CB131C99}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Arcade\APlayer.cpp">
+      <Filter>Source\Arcade</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Arcade\APlayer.h">
+      <Filter>Source\Arcade</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\Arcade\Arcade.Build.cs">
+      <Filter>Source\Arcade</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Arcade\Arcade.cpp">
+      <Filter>Source\Arcade</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Arcade\Arcade.h">
+      <Filter>Source\Arcade</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Arcade\NewActorComponent.cpp">
+      <Filter>Source\Arcade</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Arcade\NewActorComponent.h">
+      <Filter>Source\Arcade</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
