@@ -4456,3 +4456,507 @@ Scale3D: 1.000000 1.000000 1.000000
 [2024.10.06-22.33.19:226][998]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2024.10.06-22.33.19:233][998]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
 [2024.10.06-22.33.19:270][999]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2024.10.06-22.33.47:317][ 37]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.06-22.33.47:372][ 37]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Builder/BPC_BuildSystem" FILE="F:/UnrealProjects/ArcadeSimulator/Arcade/Content/Blueprints/Builder/BPC_BuildSystem.uasset" SILENT=true
+[2024.10.06-22.33.47:382][ 37]LogSavePackage: Moving output files for package: /Game/Blueprints/Builder/BPC_BuildSystem
+[2024.10.06-22.33.47:383][ 37]LogSavePackage: Moving 'F:/UnrealProjects/ArcadeSimulator/Arcade/Saved/BPC_BuildSystem219AF23B4C39CD759B2822BC81D902C4.tmp' to 'F:/UnrealProjects/ArcadeSimulator/Arcade/Content/Blueprints/Builder/BPC_BuildSystem.uasset'
+[2024.10.06-22.33.47:390][ 37]LogFileHelpers: InternalPromptForCheckoutAndSave took 73 ms (total: 3.43 sec)
+[2024.10.06-22.33.47:390][ 37]AssetCheck: New page: Asset Save: BPC_BuildSystem
+[2024.10.06-22.33.47:390][ 37]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Builder/BPC_BuildSystem.BPC_BuildSystem
+[2024.10.06-22.33.47:746][ 46]BlueprintLog: New page: Compile BPC_BuildSystem
+[2024.10.06-22.33.47:799][ 46]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2024.10.06-22.33.50:018][177]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.10.06-22.33.50:025][177]LogContentBundle: [TestingBuilder(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.10.06-22.33.50:025][177]LogWorldPartition: Display: GenerateStreaming for 'TestingBuilder' started...
+[2024.10.06-22.33.50:029][177]LogWorldPartition: Display: GenerateStreaming for 'TestingBuilder' took 4 ms (total: 160 ms)
+[2024.10.06-22.33.50:029][177]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.10.06-22.33.50:029][177]PIE: New page: PIE session: TestingBuilder (Oct 6, 2024, 4:33:50 PM)
+[2024.10.06-22.33.50:029][177]LogPlayLevel: Display: Creating online subsystem for client :Context_25
+[2024.10.06-22.33.50:031][177]LogOnline: OSS: Created online subsystem instance for: :Context_25
+[2024.10.06-22.33.50:070][178]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TestingBuilder
+[2024.10.06-22.33.50:072][178]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002389s)
+[2024.10.06-22.33.50:072][178]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TestingBuilder.TestingBuilder to /Game/Levels/UEDPIE_0_TestingBuilder.TestingBuilder (0.002425s)
+[2024.10.06-22.33.50:085][178]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2024.10.06-22.33.50:087][178]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.06-22.33.50:087][178]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.06-22.33.50:087][178]LogAIModule: Creating AISystem for world TestingBuilder
+[2024.10.06-22.33.50:088][178]LogWorldPartition: ULevel::OnLevelLoaded(TestingBuilder)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.10.06-22.33.50:088][178]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.10.06-22.33.50:088][178]LogWorldPartition: UWorldPartition::Initialize : World = TestingBuilder, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.10.06-22.33.50:088][178]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.10.06-22.33.50:088][178]LogContentBundle: [TestingBuilder(Standalone)] Creating new contrainer.
+[2024.10.06-22.33.50:088][178]LogWorldPartition: Display: WorldPartition initialize took 693 us (total: 6.98 sec)
+[2024.10.06-22.33.50:088][178]LogPlayLevel: PIE: World Init took: (0.001544s)
+[2024.10.06-22.33.50:088][178]LogAudio: Display: Creating Audio Device:                 Id: 16, Scope: Unique, Realtime: True
+[2024.10.06-22.33.50:088][178]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.10.06-22.33.50:088][178]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.10.06-22.33.50:088][178]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.10.06-22.33.50:088][178]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.10.06-22.33.50:088][178]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.10.06-22.33.50:088][178]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.10.06-22.33.50:088][178]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.10.06-22.33.50:088][178]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.10.06-22.33.50:089][178]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.10.06-22.33.50:089][178]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.10.06-22.33.50:089][178]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.10.06-22.33.50:090][178]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.10.06-22.33.50:111][178]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (Realtek(R) Audio)
+[2024.10.06-22.33.50:112][178]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.10.06-22.33.50:112][178]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.10.06-22.33.50:112][178]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.10.06-22.33.50:117][178]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=16
+[2024.10.06-22.33.50:117][178]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=16
+[2024.10.06-22.33.50:118][178]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=16
+[2024.10.06-22.33.50:118][178]LogInit: FAudioDevice initialized with ID 16.
+[2024.10.06-22.33.50:118][178]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=16
+[2024.10.06-22.33.50:118][178]LogAudio: Display: Audio Device (ID: 16) registered with world 'TestingBuilder'.
+[2024.10.06-22.33.50:118][178]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 16
+[2024.10.06-22.33.50:151][178]LogLoad: Game class is 'MyGameGamemode_C'
+[2024.10.06-22.33.50:151][178]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TestingBuilder.TestingBuilder up for play (max tick rate 0) at 2024.10.06-19.33.50
+[2024.10.06-22.33.50:151][178]LogWorld: Bringing up level for play took: 0.000304
+[2024.10.06-22.33.50:151][178]LogWorldPartition: UWorldPartitionStreamingPolicy: CellsToActivate(45), CellsToLoad(0), CellsToUnload(0)
+[2024.10.06-22.33.50:152][178]LogWorldPartition: UWorldPartitionStreamingPolicy: Sources[0] = X=-1120.738 Y=-780.018 Z=158.911,P=-0.000000 Y=-12.237390 R=0.000000
+[2024.10.06-22.33.50:153][178]LogStreaming: Display: FlushAsyncLoading(): 60 QueuedPackages, 0 AsyncPackages
+[2024.10.06-22.33.50:330][178]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.10.06-22.33.50:331][178]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.10.06-22.33.50:331][178]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.10.06-22.33.50:331][178]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.10.06-22.33.50:331][178]PIE: Server logged in
+[2024.10.06-22.33.50:332][178]PIE: Play in editor total start time 0.307 seconds.
+[2024.10.06-22.33.53:423][540]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.06-22.33.53:423][540]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TestingBuilder
+[2024.10.06-22.33.53:433][540]LogWorld: UWorld::CleanupWorld for TestingBuilder, bSessionEnded=true, bCleanupResources=true
+[2024.10.06-22.33.53:433][540]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.06-22.33.53:434][540]LogContentBundle: [TestingBuilder(Standalone)] Deleting container.
+[2024.10.06-22.33.53:436][540]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.10.06-22.33.53:439][540]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.06-22.33.53:451][540]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.10.06-22.33.53:451][540]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 16
+[2024.10.06-22.33.53:451][540]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2024.10.06-22.33.53:453][540]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2024.10.06-22.33.53:456][540]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.06-22.33.53:463][540]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2024.10.06-22.33.53:517][542]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2024.10.06-22.37.19:594][159]BlueprintLog: New page: Compile BPC_BuildSystem
+[2024.10.06-22.37.19:641][159]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2024.10.06-22.37.19:668][159]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.06-22.37.19:726][159]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Builder/BPC_BuildSystem" FILE="F:/UnrealProjects/ArcadeSimulator/Arcade/Content/Blueprints/Builder/BPC_BuildSystem.uasset" SILENT=true
+[2024.10.06-22.37.19:737][159]LogSavePackage: Moving output files for package: /Game/Blueprints/Builder/BPC_BuildSystem
+[2024.10.06-22.37.19:737][159]LogSavePackage: Moving 'F:/UnrealProjects/ArcadeSimulator/Arcade/Saved/BPC_BuildSystem46F3BC1041164840763263A34F0EB93E.tmp' to 'F:/UnrealProjects/ArcadeSimulator/Arcade/Content/Blueprints/Builder/BPC_BuildSystem.uasset'
+[2024.10.06-22.37.19:745][159]LogFileHelpers: InternalPromptForCheckoutAndSave took 76 ms (total: 3.50 sec)
+[2024.10.06-22.37.19:748][159]AssetCheck: New page: Asset Save: BPC_BuildSystem
+[2024.10.06-22.37.19:748][159]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Builder/BPC_BuildSystem.BPC_BuildSystem
+[2024.10.06-22.37.20:111][169]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.06-22.37.20:238][169]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Builder/BPC_BuildSystem" FILE="F:/UnrealProjects/ArcadeSimulator/Arcade/Content/Blueprints/Builder/BPC_BuildSystem.uasset" SILENT=true
+[2024.10.06-22.37.20:248][169]LogSavePackage: Moving output files for package: /Game/Blueprints/Builder/BPC_BuildSystem
+[2024.10.06-22.37.20:249][169]LogSavePackage: Moving 'F:/UnrealProjects/ArcadeSimulator/Arcade/Saved/BPC_BuildSystem16DA949949C82F7D85C5D3A762F178CB.tmp' to 'F:/UnrealProjects/ArcadeSimulator/Arcade/Content/Blueprints/Builder/BPC_BuildSystem.uasset'
+[2024.10.06-22.37.20:255][169]LogFileHelpers: InternalPromptForCheckoutAndSave took 143 ms (total: 3.65 sec)
+[2024.10.06-22.37.20:257][169]AssetCheck: New page: Asset Save: BPC_BuildSystem
+[2024.10.06-22.37.20:257][169]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Builder/BPC_BuildSystem.BPC_BuildSystem
+[2024.10.06-22.37.31:253][284]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.10.06-22.37.31:260][284]LogContentBundle: [TestingBuilder(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.10.06-22.37.31:260][284]LogWorldPartition: Display: GenerateStreaming for 'TestingBuilder' started...
+[2024.10.06-22.37.31:264][284]LogWorldPartition: Display: GenerateStreaming for 'TestingBuilder' took 4 ms (total: 165 ms)
+[2024.10.06-22.37.31:264][284]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.10.06-22.37.31:264][284]PIE: New page: PIE session: TestingBuilder (Oct 6, 2024, 4:37:31 PM)
+[2024.10.06-22.37.31:264][284]LogPlayLevel: Display: Creating online subsystem for client :Context_26
+[2024.10.06-22.37.31:266][284]LogOnline: OSS: Created online subsystem instance for: :Context_26
+[2024.10.06-22.37.31:307][285]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TestingBuilder
+[2024.10.06-22.37.31:311][285]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003414s)
+[2024.10.06-22.37.31:311][285]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TestingBuilder.TestingBuilder to /Game/Levels/UEDPIE_0_TestingBuilder.TestingBuilder (0.003466s)
+[2024.10.06-22.37.31:322][285]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2024.10.06-22.37.31:325][285]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.06-22.37.31:325][285]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.06-22.37.31:326][285]LogAIModule: Creating AISystem for world TestingBuilder
+[2024.10.06-22.37.31:327][285]LogWorldPartition: ULevel::OnLevelLoaded(TestingBuilder)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.10.06-22.37.31:327][285]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.10.06-22.37.31:327][285]LogWorldPartition: UWorldPartition::Initialize : World = TestingBuilder, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.10.06-22.37.31:327][285]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.10.06-22.37.31:328][285]LogContentBundle: [TestingBuilder(Standalone)] Creating new contrainer.
+[2024.10.06-22.37.31:328][285]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 6.99 sec)
+[2024.10.06-22.37.31:328][285]LogPlayLevel: PIE: World Init took: (0.002562s)
+[2024.10.06-22.37.31:328][285]LogAudio: Display: Creating Audio Device:                 Id: 17, Scope: Unique, Realtime: True
+[2024.10.06-22.37.31:328][285]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.10.06-22.37.31:328][285]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.10.06-22.37.31:328][285]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.10.06-22.37.31:328][285]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.10.06-22.37.31:328][285]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.10.06-22.37.31:328][285]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.10.06-22.37.31:328][285]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.10.06-22.37.31:328][285]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.10.06-22.37.31:329][285]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.10.06-22.37.31:329][285]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.10.06-22.37.31:329][285]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.10.06-22.37.31:331][285]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.10.06-22.37.31:350][285]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (Realtek(R) Audio)
+[2024.10.06-22.37.31:350][285]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.10.06-22.37.31:350][285]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.10.06-22.37.31:350][285]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.10.06-22.37.31:351][285]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=17
+[2024.10.06-22.37.31:351][285]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=17
+[2024.10.06-22.37.31:352][285]LogInit: FAudioDevice initialized with ID 17.
+[2024.10.06-22.37.31:352][285]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=17
+[2024.10.06-22.37.31:352][285]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=17
+[2024.10.06-22.37.31:352][285]LogAudio: Display: Audio Device (ID: 17) registered with world 'TestingBuilder'.
+[2024.10.06-22.37.31:352][285]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 17
+[2024.10.06-22.37.31:381][285]LogLoad: Game class is 'MyGameGamemode_C'
+[2024.10.06-22.37.31:382][285]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TestingBuilder.TestingBuilder up for play (max tick rate 0) at 2024.10.06-19.37.31
+[2024.10.06-22.37.31:382][285]LogWorld: Bringing up level for play took: 0.000340
+[2024.10.06-22.37.31:383][285]LogWorldPartition: UWorldPartitionStreamingPolicy: CellsToActivate(45), CellsToLoad(0), CellsToUnload(0)
+[2024.10.06-22.37.31:383][285]LogWorldPartition: UWorldPartitionStreamingPolicy: Sources[0] = X=-1290.921 Y=-590.548 Z=158.911,P=0.000000 Y=14.205921 R=-0.000000
+[2024.10.06-22.37.31:385][285]LogStreaming: Display: FlushAsyncLoading(): 60 QueuedPackages, 0 AsyncPackages
+[2024.10.06-22.37.31:561][285]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.10.06-22.37.31:561][285]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.10.06-22.37.31:561][285]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.10.06-22.37.31:562][285]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.10.06-22.37.31:562][285]PIE: Server logged in
+[2024.10.06-22.37.31:562][285]PIE: Play in editor total start time 0.303 seconds.
+[2024.10.06-22.37.34:192][593]LogScript: Warning: Accessed None trying to read property Preview Mesh
+	BPC_BuildSystem_C /Game/Levels/UEDPIE_0_TestingBuilder.TestingBuilder:PersistentLevel.BP_Player_C_0.BPC_BuildSystem
+	Function /Game/Blueprints/Builder/BPC_BuildSystem.BPC_BuildSystem_C:ExecuteUbergraph_BPC_BuildSystem:0580
+[2024.10.06-22.37.34:193][593]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Preview Mesh". Node:  Set World Transform Graph:  EventGraph Function:  Execute Ubergraph BPC Build System Blueprint:  BPC_BuildSystem
+[2024.10.06-22.37.34:200][594]LogScript: Warning: Accessed None trying to read property Preview Mesh
+	BPC_BuildSystem_C /Game/Levels/UEDPIE_0_TestingBuilder.TestingBuilder:PersistentLevel.BP_Player_C_0.BPC_BuildSystem
+	Function /Game/Blueprints/Builder/BPC_BuildSystem.BPC_BuildSystem_C:ExecuteUbergraph_BPC_BuildSystem:0580
+[2024.10.06-22.37.34:200][594]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Preview Mesh". Node:  Set World Transform Graph:  EventGraph Function:  Execute Ubergraph BPC Build System Blueprint:  BPC_BuildSystem
+[2024.10.06-22.37.34:209][595]LogScript: Warning: Accessed None trying to read property Preview Mesh
+	BPC_BuildSystem_C /Game/Levels/UEDPIE_0_TestingBuilder.TestingBuilder:PersistentLevel.BP_Player_C_0.BPC_BuildSystem
+	Function /Game/Blueprints/Builder/BPC_BuildSystem.BPC_BuildSystem_C:ExecuteUbergraph_BPC_BuildSystem:0580
+[2024.10.06-22.37.34:209][595]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Preview Mesh". Node:  Set World Transform Graph:  EventGraph Function:  Execute Ubergraph BPC Build System Blueprint:  BPC_BuildSystem
+[2024.10.06-22.37.34:217][596]LogScript: Warning: Accessed None trying to read property Preview Mesh
+	BPC_BuildSystem_C /Game/Levels/UEDPIE_0_TestingBuilder.TestingBuilder:PersistentLevel.BP_Player_C_0.BPC_BuildSystem
+	Function /Game/Blueprints/Builder/BPC_BuildSystem.BPC_BuildSystem_C:ExecuteUbergraph_BPC_BuildSystem:0580
+[2024.10.06-22.37.34:217][596]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Preview Mesh". Node:  Set World Transform Graph:  EventGraph Function:  Execute Ubergraph BPC Build System Blueprint:  BPC_BuildSystem
+[2024.10.06-22.37.34:225][597]LogScript: Warning: Accessed None trying to read property Preview Mesh
+	BPC_BuildSystem_C /Game/Levels/UEDPIE_0_TestingBuilder.TestingBuilder:PersistentLevel.BP_Player_C_0.BPC_BuildSystem
+	Function /Game/Blueprints/Builder/BPC_BuildSystem.BPC_BuildSystem_C:ExecuteUbergraph_BPC_BuildSystem:0580
+[2024.10.06-22.37.34:225][597]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Preview Mesh". Node:  Set World Transform Graph:  EventGraph Function:  Execute Ubergraph BPC Build System Blueprint:  BPC_BuildSystem
+[2024.10.06-22.37.34:233][598]LogScript: Warning: Accessed None trying to read property Preview Mesh
+	BPC_BuildSystem_C /Game/Levels/UEDPIE_0_TestingBuilder.TestingBuilder:PersistentLevel.BP_Player_C_0.BPC_BuildSystem
+	Function /Game/Blueprints/Builder/BPC_BuildSystem.BPC_BuildSystem_C:ExecuteUbergraph_BPC_BuildSystem:0580
+[2024.10.06-22.37.34:233][598]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Preview Mesh". Node:  Set World Transform Graph:  EventGraph Function:  Execute Ubergraph BPC Build System Blueprint:  BPC_BuildSystem
+[2024.10.06-22.37.34:242][599]LogScript: Warning: Accessed None trying to read property Preview Mesh
+	BPC_BuildSystem_C /Game/Levels/UEDPIE_0_TestingBuilder.TestingBuilder:PersistentLevel.BP_Player_C_0.BPC_BuildSystem
+	Function /Game/Blueprints/Builder/BPC_BuildSystem.BPC_BuildSystem_C:ExecuteUbergraph_BPC_BuildSystem:0580
+[2024.10.06-22.37.34:242][599]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Preview Mesh". Node:  Set World Transform Graph:  EventGraph Function:  Execute Ubergraph BPC Build System Blueprint:  BPC_BuildSystem
+[2024.10.06-22.37.34:251][600]LogScript: Warning: Accessed None trying to read property Preview Mesh
+	BPC_BuildSystem_C /Game/Levels/UEDPIE_0_TestingBuilder.TestingBuilder:PersistentLevel.BP_Player_C_0.BPC_BuildSystem
+	Function /Game/Blueprints/Builder/BPC_BuildSystem.BPC_BuildSystem_C:ExecuteUbergraph_BPC_BuildSystem:0580
+[2024.10.06-22.37.34:251][600]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Preview Mesh". Node:  Set World Transform Graph:  EventGraph Function:  Execute Ubergraph BPC Build System Blueprint:  BPC_BuildSystem
+[2024.10.06-22.37.34:259][601]LogScript: Warning: Accessed None trying to read property Preview Mesh
+	BPC_BuildSystem_C /Game/Levels/UEDPIE_0_TestingBuilder.TestingBuilder:PersistentLevel.BP_Player_C_0.BPC_BuildSystem
+	Function /Game/Blueprints/Builder/BPC_BuildSystem.BPC_BuildSystem_C:ExecuteUbergraph_BPC_BuildSystem:0580
+[2024.10.06-22.37.34:259][601]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Preview Mesh". Node:  Set World Transform Graph:  EventGraph Function:  Execute Ubergraph BPC Build System Blueprint:  BPC_BuildSystem
+[2024.10.06-22.37.34:267][602]LogScript: Warning: Accessed None trying to read property Preview Mesh
+	BPC_BuildSystem_C /Game/Levels/UEDPIE_0_TestingBuilder.TestingBuilder:PersistentLevel.BP_Player_C_0.BPC_BuildSystem
+	Function /Game/Blueprints/Builder/BPC_BuildSystem.BPC_BuildSystem_C:ExecuteUbergraph_BPC_BuildSystem:0580
+[2024.10.06-22.37.34:267][602]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Preview Mesh". Node:  Set World Transform Graph:  EventGraph Function:  Execute Ubergraph BPC Build System Blueprint:  BPC_BuildSystem
+[2024.10.06-22.37.34:276][603]LogScript: Warning: Accessed None trying to read property Preview Mesh
+	BPC_BuildSystem_C /Game/Levels/UEDPIE_0_TestingBuilder.TestingBuilder:PersistentLevel.BP_Player_C_0.BPC_BuildSystem
+	Function /Game/Blueprints/Builder/BPC_BuildSystem.BPC_BuildSystem_C:ExecuteUbergraph_BPC_BuildSystem:0580
+[2024.10.06-22.37.34:276][603]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Preview Mesh". Node:  Set World Transform Graph:  EventGraph Function:  Execute Ubergraph BPC Build System Blueprint:  BPC_BuildSystem
+[2024.10.06-22.37.34:284][604]LogScript: Warning: Accessed None trying to read property Preview Mesh
+	BPC_BuildSystem_C /Game/Levels/UEDPIE_0_TestingBuilder.TestingBuilder:PersistentLevel.BP_Player_C_0.BPC_BuildSystem
+	Function /Game/Blueprints/Builder/BPC_BuildSystem.BPC_BuildSystem_C:ExecuteUbergraph_BPC_BuildSystem:0580
+[2024.10.06-22.37.34:284][604]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Preview Mesh". Node:  Set World Transform Graph:  EventGraph Function:  Execute Ubergraph BPC Build System Blueprint:  BPC_BuildSystem
+[2024.10.06-22.37.34:292][605]LogScript: Warning: Accessed None trying to read property Preview Mesh
+	BPC_BuildSystem_C /Game/Levels/UEDPIE_0_TestingBuilder.TestingBuilder:PersistentLevel.BP_Player_C_0.BPC_BuildSystem
+	Function /Game/Blueprints/Builder/BPC_BuildSystem.BPC_BuildSystem_C:ExecuteUbergraph_BPC_BuildSystem:0580
+[2024.10.06-22.37.34:292][605]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Preview Mesh". Node:  Set World Transform Graph:  EventGraph Function:  Execute Ubergraph BPC Build System Blueprint:  BPC_BuildSystem
+[2024.10.06-22.37.34:301][606]LogScript: Warning: Accessed None trying to read property Preview Mesh
+	BPC_BuildSystem_C /Game/Levels/UEDPIE_0_TestingBuilder.TestingBuilder:PersistentLevel.BP_Player_C_0.BPC_BuildSystem
+	Function /Game/Blueprints/Builder/BPC_BuildSystem.BPC_BuildSystem_C:ExecuteUbergraph_BPC_BuildSystem:0580
+[2024.10.06-22.37.34:301][606]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Preview Mesh". Node:  Set World Transform Graph:  EventGraph Function:  Execute Ubergraph BPC Build System Blueprint:  BPC_BuildSystem
+[2024.10.06-22.37.34:309][607]LogScript: Warning: Accessed None trying to read property Preview Mesh
+	BPC_BuildSystem_C /Game/Levels/UEDPIE_0_TestingBuilder.TestingBuilder:PersistentLevel.BP_Player_C_0.BPC_BuildSystem
+	Function /Game/Blueprints/Builder/BPC_BuildSystem.BPC_BuildSystem_C:ExecuteUbergraph_BPC_BuildSystem:0580
+[2024.10.06-22.37.34:309][607]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Preview Mesh". Node:  Set World Transform Graph:  EventGraph Function:  Execute Ubergraph BPC Build System Blueprint:  BPC_BuildSystem
+[2024.10.06-22.37.34:317][608]LogScript: Warning: Accessed None trying to read property Preview Mesh
+	BPC_BuildSystem_C /Game/Levels/UEDPIE_0_TestingBuilder.TestingBuilder:PersistentLevel.BP_Player_C_0.BPC_BuildSystem
+	Function /Game/Blueprints/Builder/BPC_BuildSystem.BPC_BuildSystem_C:ExecuteUbergraph_BPC_BuildSystem:0580
+[2024.10.06-22.37.34:317][608]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Preview Mesh". Node:  Set World Transform Graph:  EventGraph Function:  Execute Ubergraph BPC Build System Blueprint:  BPC_BuildSystem
+[2024.10.06-22.37.34:326][609]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Preview Mesh". Node:  Set World Transform Graph:  EventGraph Function:  Execute Ubergraph BPC Build System Blueprint:  BPC_BuildSystem
+[2024.10.06-22.37.34:334][610]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Preview Mesh". Node:  Set World Transform Graph:  EventGraph Function:  Execute Ubergraph BPC Build System Blueprint:  BPC_BuildSystem
+[2024.10.06-22.37.34:342][611]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Preview Mesh". Node:  Set World Transform Graph:  EventGraph Function:  Execute Ubergraph BPC Build System Blueprint:  BPC_BuildSystem
+[2024.10.06-22.37.34:351][612]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Preview Mesh". Node:  Set World Transform Graph:  EventGraph Function:  Execute Ubergraph BPC Build System Blueprint:  BPC_BuildSystem
+[2024.10.06-22.37.34:359][613]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Preview Mesh". Node:  Set World Transform Graph:  EventGraph Function:  Execute Ubergraph BPC Build System Blueprint:  BPC_BuildSystem
+[2024.10.06-22.37.34:368][614]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Preview Mesh". Node:  Set World Transform Graph:  EventGraph Function:  Execute Ubergraph BPC Build System Blueprint:  BPC_BuildSystem
+[2024.10.06-22.37.34:376][615]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Preview Mesh". Node:  Set World Transform Graph:  EventGraph Function:  Execute Ubergraph BPC Build System Blueprint:  BPC_BuildSystem
+[2024.10.06-22.37.34:384][616]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Preview Mesh". Node:  Set World Transform Graph:  EventGraph Function:  Execute Ubergraph BPC Build System Blueprint:  BPC_BuildSystem
+[2024.10.06-22.37.34:392][617]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Preview Mesh". Node:  Set World Transform Graph:  EventGraph Function:  Execute Ubergraph BPC Build System Blueprint:  BPC_BuildSystem
+[2024.10.06-22.37.34:400][618]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Preview Mesh". Node:  Set World Transform Graph:  EventGraph Function:  Execute Ubergraph BPC Build System Blueprint:  BPC_BuildSystem
+[2024.10.06-22.37.34:409][619]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Preview Mesh". Node:  Set World Transform Graph:  EventGraph Function:  Execute Ubergraph BPC Build System Blueprint:  BPC_BuildSystem
+[2024.10.06-22.37.34:417][620]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Preview Mesh". Node:  Set World Transform Graph:  EventGraph Function:  Execute Ubergraph BPC Build System Blueprint:  BPC_BuildSystem
+[2024.10.06-22.37.34:425][621]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Preview Mesh". Node:  Set World Transform Graph:  EventGraph Function:  Execute Ubergraph BPC Build System Blueprint:  BPC_BuildSystem
+[2024.10.06-22.37.34:435][622]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Preview Mesh". Node:  Set World Transform Graph:  EventGraph Function:  Execute Ubergraph BPC Build System Blueprint:  BPC_BuildSystem
+[2024.10.06-22.37.34:443][623]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Preview Mesh". Node:  Set World Transform Graph:  EventGraph Function:  Execute Ubergraph BPC Build System Blueprint:  BPC_BuildSystem
+[2024.10.06-22.37.34:451][624]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Preview Mesh". Node:  Set World Transform Graph:  EventGraph Function:  Execute Ubergraph BPC Build System Blueprint:  BPC_BuildSystem
+[2024.10.06-22.37.34:460][625]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Preview Mesh". Node:  Set World Transform Graph:  EventGraph Function:  Execute Ubergraph BPC Build System Blueprint:  BPC_BuildSystem
+[2024.10.06-22.37.34:468][626]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Preview Mesh". Node:  Set World Transform Graph:  EventGraph Function:  Execute Ubergraph BPC Build System Blueprint:  BPC_BuildSystem
+[2024.10.06-22.37.34:945][683]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Preview Mesh". Node:  Set World Transform Graph:  EventGraph Function:  Execute Ubergraph BPC Build System Blueprint:  BPC_BuildSystem
+[2024.10.06-22.37.34:954][684]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Preview Mesh". Node:  Set World Transform Graph:  EventGraph Function:  Execute Ubergraph BPC Build System Blueprint:  BPC_BuildSystem
+[2024.10.06-22.37.34:962][685]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Preview Mesh". Node:  Set World Transform Graph:  EventGraph Function:  Execute Ubergraph BPC Build System Blueprint:  BPC_BuildSystem
+[2024.10.06-22.37.34:970][686]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Preview Mesh". Node:  Set World Transform Graph:  EventGraph Function:  Execute Ubergraph BPC Build System Blueprint:  BPC_BuildSystem
+[2024.10.06-22.37.34:979][687]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Preview Mesh". Node:  Set World Transform Graph:  EventGraph Function:  Execute Ubergraph BPC Build System Blueprint:  BPC_BuildSystem
+[2024.10.06-22.37.34:987][688]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Preview Mesh". Node:  Set World Transform Graph:  EventGraph Function:  Execute Ubergraph BPC Build System Blueprint:  BPC_BuildSystem
+[2024.10.06-22.37.34:995][689]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Preview Mesh". Node:  Set World Transform Graph:  EventGraph Function:  Execute Ubergraph BPC Build System Blueprint:  BPC_BuildSystem
+[2024.10.06-22.37.35:004][690]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Preview Mesh". Node:  Set World Transform Graph:  EventGraph Function:  Execute Ubergraph BPC Build System Blueprint:  BPC_BuildSystem
+[2024.10.06-22.37.35:012][691]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Preview Mesh". Node:  Set World Transform Graph:  EventGraph Function:  Execute Ubergraph BPC Build System Blueprint:  BPC_BuildSystem
+[2024.10.06-22.37.35:021][692]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Preview Mesh". Node:  Set World Transform Graph:  EventGraph Function:  Execute Ubergraph BPC Build System Blueprint:  BPC_BuildSystem
+[2024.10.06-22.37.35:029][693]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Preview Mesh". Node:  Set World Transform Graph:  EventGraph Function:  Execute Ubergraph BPC Build System Blueprint:  BPC_BuildSystem
+[2024.10.06-22.37.35:037][694]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Preview Mesh". Node:  Set World Transform Graph:  EventGraph Function:  Execute Ubergraph BPC Build System Blueprint:  BPC_BuildSystem
+[2024.10.06-22.37.35:045][695]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Preview Mesh". Node:  Set World Transform Graph:  EventGraph Function:  Execute Ubergraph BPC Build System Blueprint:  BPC_BuildSystem
+[2024.10.06-22.37.35:054][696]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Preview Mesh". Node:  Set World Transform Graph:  EventGraph Function:  Execute Ubergraph BPC Build System Blueprint:  BPC_BuildSystem
+[2024.10.06-22.37.35:062][697]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Preview Mesh". Node:  Set World Transform Graph:  EventGraph Function:  Execute Ubergraph BPC Build System Blueprint:  BPC_BuildSystem
+[2024.10.06-22.37.35:070][698]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Preview Mesh". Node:  Set World Transform Graph:  EventGraph Function:  Execute Ubergraph BPC Build System Blueprint:  BPC_BuildSystem
+[2024.10.06-22.37.35:079][699]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Preview Mesh". Node:  Set World Transform Graph:  EventGraph Function:  Execute Ubergraph BPC Build System Blueprint:  BPC_BuildSystem
+[2024.10.06-22.37.35:087][700]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Preview Mesh". Node:  Set World Transform Graph:  EventGraph Function:  Execute Ubergraph BPC Build System Blueprint:  BPC_BuildSystem
+[2024.10.06-22.37.35:096][701]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Preview Mesh". Node:  Set World Transform Graph:  EventGraph Function:  Execute Ubergraph BPC Build System Blueprint:  BPC_BuildSystem
+[2024.10.06-22.37.35:104][702]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Preview Mesh". Node:  Set World Transform Graph:  EventGraph Function:  Execute Ubergraph BPC Build System Blueprint:  BPC_BuildSystem
+[2024.10.06-22.37.35:112][703]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Preview Mesh". Node:  Set World Transform Graph:  EventGraph Function:  Execute Ubergraph BPC Build System Blueprint:  BPC_BuildSystem
+[2024.10.06-22.37.35:121][704]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Preview Mesh". Node:  Set World Transform Graph:  EventGraph Function:  Execute Ubergraph BPC Build System Blueprint:  BPC_BuildSystem
+[2024.10.06-22.37.35:129][705]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Preview Mesh". Node:  Set World Transform Graph:  EventGraph Function:  Execute Ubergraph BPC Build System Blueprint:  BPC_BuildSystem
+[2024.10.06-22.37.35:137][706]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Preview Mesh". Node:  Set World Transform Graph:  EventGraph Function:  Execute Ubergraph BPC Build System Blueprint:  BPC_BuildSystem
+[2024.10.06-22.37.35:146][707]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Preview Mesh". Node:  Set World Transform Graph:  EventGraph Function:  Execute Ubergraph BPC Build System Blueprint:  BPC_BuildSystem
+[2024.10.06-22.37.35:154][708]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Preview Mesh". Node:  Set World Transform Graph:  EventGraph Function:  Execute Ubergraph BPC Build System Blueprint:  BPC_BuildSystem
+[2024.10.06-22.37.35:162][709]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Preview Mesh". Node:  Set World Transform Graph:  EventGraph Function:  Execute Ubergraph BPC Build System Blueprint:  BPC_BuildSystem
+[2024.10.06-22.37.35:171][710]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Preview Mesh". Node:  Set World Transform Graph:  EventGraph Function:  Execute Ubergraph BPC Build System Blueprint:  BPC_BuildSystem
+[2024.10.06-22.37.35:179][711]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Preview Mesh". Node:  Set World Transform Graph:  EventGraph Function:  Execute Ubergraph BPC Build System Blueprint:  BPC_BuildSystem
+[2024.10.06-22.37.35:187][712]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Preview Mesh". Node:  Set World Transform Graph:  EventGraph Function:  Execute Ubergraph BPC Build System Blueprint:  BPC_BuildSystem
+[2024.10.06-22.37.35:195][713]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Preview Mesh". Node:  Set World Transform Graph:  EventGraph Function:  Execute Ubergraph BPC Build System Blueprint:  BPC_BuildSystem
+[2024.10.06-22.37.35:203][714]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Preview Mesh". Node:  Set Static Mesh Graph:  EventGraph Function:  Execute Ubergraph BPC Build System Blueprint:  BPC_BuildSystem
+[2024.10.06-22.37.36:899][917]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Preview Mesh". Node:  Set World Transform Graph:  EventGraph Function:  Execute Ubergraph BPC Build System Blueprint:  BPC_BuildSystem
+[2024.10.06-22.37.36:907][918]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Preview Mesh". Node:  Set World Transform Graph:  EventGraph Function:  Execute Ubergraph BPC Build System Blueprint:  BPC_BuildSystem
+[2024.10.06-22.37.36:915][919]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Preview Mesh". Node:  Set World Transform Graph:  EventGraph Function:  Execute Ubergraph BPC Build System Blueprint:  BPC_BuildSystem
+[2024.10.06-22.37.36:924][920]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Preview Mesh". Node:  Set World Transform Graph:  EventGraph Function:  Execute Ubergraph BPC Build System Blueprint:  BPC_BuildSystem
+[2024.10.06-22.37.36:932][921]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Preview Mesh". Node:  Set World Transform Graph:  EventGraph Function:  Execute Ubergraph BPC Build System Blueprint:  BPC_BuildSystem
+[2024.10.06-22.37.36:940][922]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Preview Mesh". Node:  Set World Transform Graph:  EventGraph Function:  Execute Ubergraph BPC Build System Blueprint:  BPC_BuildSystem
+[2024.10.06-22.37.36:949][923]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Preview Mesh". Node:  Set World Transform Graph:  EventGraph Function:  Execute Ubergraph BPC Build System Blueprint:  BPC_BuildSystem
+[2024.10.06-22.37.36:957][924]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Preview Mesh". Node:  Set World Transform Graph:  EventGraph Function:  Execute Ubergraph BPC Build System Blueprint:  BPC_BuildSystem
+[2024.10.06-22.37.36:965][925]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Preview Mesh". Node:  Set World Transform Graph:  EventGraph Function:  Execute Ubergraph BPC Build System Blueprint:  BPC_BuildSystem
+[2024.10.06-22.37.36:974][926]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Preview Mesh". Node:  Set World Transform Graph:  EventGraph Function:  Execute Ubergraph BPC Build System Blueprint:  BPC_BuildSystem
+[2024.10.06-22.37.36:983][927]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Preview Mesh". Node:  Set World Transform Graph:  EventGraph Function:  Execute Ubergraph BPC Build System Blueprint:  BPC_BuildSystem
+[2024.10.06-22.37.36:991][928]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Preview Mesh". Node:  Set World Transform Graph:  EventGraph Function:  Execute Ubergraph BPC Build System Blueprint:  BPC_BuildSystem
+[2024.10.06-22.37.36:999][929]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Preview Mesh". Node:  Set World Transform Graph:  EventGraph Function:  Execute Ubergraph BPC Build System Blueprint:  BPC_BuildSystem
+[2024.10.06-22.37.37:007][930]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Preview Mesh". Node:  Set World Transform Graph:  EventGraph Function:  Execute Ubergraph BPC Build System Blueprint:  BPC_BuildSystem
+[2024.10.06-22.37.37:015][931]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Preview Mesh". Node:  Set World Transform Graph:  EventGraph Function:  Execute Ubergraph BPC Build System Blueprint:  BPC_BuildSystem
+[2024.10.06-22.37.37:024][932]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Preview Mesh". Node:  Set World Transform Graph:  EventGraph Function:  Execute Ubergraph BPC Build System Blueprint:  BPC_BuildSystem
+[2024.10.06-22.37.37:032][933]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Preview Mesh". Node:  Set World Transform Graph:  EventGraph Function:  Execute Ubergraph BPC Build System Blueprint:  BPC_BuildSystem
+[2024.10.06-22.37.37:040][934]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Preview Mesh". Node:  Set World Transform Graph:  EventGraph Function:  Execute Ubergraph BPC Build System Blueprint:  BPC_BuildSystem
+[2024.10.06-22.37.37:049][935]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Preview Mesh". Node:  Set World Transform Graph:  EventGraph Function:  Execute Ubergraph BPC Build System Blueprint:  BPC_BuildSystem
+[2024.10.06-22.37.37:058][936]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Preview Mesh". Node:  Set World Transform Graph:  EventGraph Function:  Execute Ubergraph BPC Build System Blueprint:  BPC_BuildSystem
+[2024.10.06-22.37.37:066][937]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Preview Mesh". Node:  Set World Transform Graph:  EventGraph Function:  Execute Ubergraph BPC Build System Blueprint:  BPC_BuildSystem
+[2024.10.06-22.37.37:074][938]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Preview Mesh". Node:  Set World Transform Graph:  EventGraph Function:  Execute Ubergraph BPC Build System Blueprint:  BPC_BuildSystem
+[2024.10.06-22.37.37:082][939]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Preview Mesh". Node:  Set World Transform Graph:  EventGraph Function:  Execute Ubergraph BPC Build System Blueprint:  BPC_BuildSystem
+[2024.10.06-22.37.37:091][940]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Preview Mesh". Node:  Set World Transform Graph:  EventGraph Function:  Execute Ubergraph BPC Build System Blueprint:  BPC_BuildSystem
+[2024.10.06-22.37.37:099][941]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Preview Mesh". Node:  Set World Transform Graph:  EventGraph Function:  Execute Ubergraph BPC Build System Blueprint:  BPC_BuildSystem
+[2024.10.06-22.37.37:107][942]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Preview Mesh". Node:  Set World Transform Graph:  EventGraph Function:  Execute Ubergraph BPC Build System Blueprint:  BPC_BuildSystem
+[2024.10.06-22.37.37:116][943]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Preview Mesh". Node:  Set World Transform Graph:  EventGraph Function:  Execute Ubergraph BPC Build System Blueprint:  BPC_BuildSystem
+[2024.10.06-22.37.37:124][944]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Preview Mesh". Node:  Set World Transform Graph:  EventGraph Function:  Execute Ubergraph BPC Build System Blueprint:  BPC_BuildSystem
+[2024.10.06-22.37.37:133][945]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Preview Mesh". Node:  Set World Transform Graph:  EventGraph Function:  Execute Ubergraph BPC Build System Blueprint:  BPC_BuildSystem
+[2024.10.06-22.37.37:141][946]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Preview Mesh". Node:  Set World Transform Graph:  EventGraph Function:  Execute Ubergraph BPC Build System Blueprint:  BPC_BuildSystem
+[2024.10.06-22.37.37:149][947]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Preview Mesh". Node:  Set World Transform Graph:  EventGraph Function:  Execute Ubergraph BPC Build System Blueprint:  BPC_BuildSystem
+[2024.10.06-22.37.37:158][948]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Preview Mesh". Node:  Set World Transform Graph:  EventGraph Function:  Execute Ubergraph BPC Build System Blueprint:  BPC_BuildSystem
+[2024.10.06-22.37.37:166][949]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Preview Mesh". Node:  Set World Transform Graph:  EventGraph Function:  Execute Ubergraph BPC Build System Blueprint:  BPC_BuildSystem
+[2024.10.06-22.37.37:174][950]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Preview Mesh". Node:  Set World Transform Graph:  EventGraph Function:  Execute Ubergraph BPC Build System Blueprint:  BPC_BuildSystem
+[2024.10.06-22.37.37:182][951]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Preview Mesh". Node:  Set World Transform Graph:  EventGraph Function:  Execute Ubergraph BPC Build System Blueprint:  BPC_BuildSystem
+[2024.10.06-22.37.37:191][952]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Preview Mesh". Node:  Set World Transform Graph:  EventGraph Function:  Execute Ubergraph BPC Build System Blueprint:  BPC_BuildSystem
+[2024.10.06-22.37.37:199][953]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Preview Mesh". Node:  Set World Transform Graph:  EventGraph Function:  Execute Ubergraph BPC Build System Blueprint:  BPC_BuildSystem
+[2024.10.06-22.37.37:207][954]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Preview Mesh". Node:  Set World Transform Graph:  EventGraph Function:  Execute Ubergraph BPC Build System Blueprint:  BPC_BuildSystem
+[2024.10.06-22.37.37:216][955]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Preview Mesh". Node:  Set World Transform Graph:  EventGraph Function:  Execute Ubergraph BPC Build System Blueprint:  BPC_BuildSystem
+[2024.10.06-22.37.37:225][956]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Preview Mesh". Node:  Set World Transform Graph:  EventGraph Function:  Execute Ubergraph BPC Build System Blueprint:  BPC_BuildSystem
+[2024.10.06-22.37.37:233][957]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Preview Mesh". Node:  Set World Transform Graph:  EventGraph Function:  Execute Ubergraph BPC Build System Blueprint:  BPC_BuildSystem
+[2024.10.06-22.37.37:241][958]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Preview Mesh". Node:  Set World Transform Graph:  EventGraph Function:  Execute Ubergraph BPC Build System Blueprint:  BPC_BuildSystem
+[2024.10.06-22.37.37:250][959]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property Preview Mesh". Node:  Set World Transform Graph:  EventGraph Function:  Execute Ubergraph BPC Build System Blueprint:  BPC_BuildSystem
+[2024.10.06-22.37.38:213][ 69]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.06-22.37.38:213][ 69]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TestingBuilder
+[2024.10.06-22.37.38:222][ 69]LogWorld: UWorld::CleanupWorld for TestingBuilder, bSessionEnded=true, bCleanupResources=true
+[2024.10.06-22.37.38:223][ 69]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.06-22.37.38:223][ 69]LogContentBundle: [TestingBuilder(Standalone)] Deleting container.
+[2024.10.06-22.37.38:225][ 69]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.10.06-22.37.38:229][ 69]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.06-22.37.38:273][ 69]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.10.06-22.37.38:274][ 69]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 17
+[2024.10.06-22.37.38:274][ 69]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2024.10.06-22.37.38:275][ 69]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2024.10.06-22.37.38:278][ 69]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.06-22.37.38:286][ 69]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2024.10.06-22.37.38:388][ 70]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2024.10.06-22.37.41:001][106]LogSlate: Window 'Message Log' being destroyed
+[2024.10.06-22.37.41:107][106]LogSlate: Window 'Message Log' being destroyed
+[2024.10.06-22.38.20:750][975]BlueprintLog: New page: Compile BPC_BuildSystem
+[2024.10.06-22.38.20:803][975]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2024.10.06-22.38.20:832][975]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.06-22.38.20:903][975]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Builder/BPC_BuildSystem" FILE="F:/UnrealProjects/ArcadeSimulator/Arcade/Content/Blueprints/Builder/BPC_BuildSystem.uasset" SILENT=true
+[2024.10.06-22.38.20:917][975]LogSavePackage: Moving output files for package: /Game/Blueprints/Builder/BPC_BuildSystem
+[2024.10.06-22.38.20:917][975]LogSavePackage: Moving 'F:/UnrealProjects/ArcadeSimulator/Arcade/Saved/BPC_BuildSystem64FEBE0740EDBF03DAA29D8415D1C0EC.tmp' to 'F:/UnrealProjects/ArcadeSimulator/Arcade/Content/Blueprints/Builder/BPC_BuildSystem.uasset'
+[2024.10.06-22.38.20:925][975]LogFileHelpers: InternalPromptForCheckoutAndSave took 92 ms (total: 3.74 sec)
+[2024.10.06-22.38.20:931][975]AssetCheck: New page: Asset Save: BPC_BuildSystem
+[2024.10.06-22.38.20:931][975]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Builder/BPC_BuildSystem.BPC_BuildSystem
+[2024.10.06-22.38.55:723][133]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.10.06-22.38.55:730][133]LogContentBundle: [TestingBuilder(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.10.06-22.38.55:730][133]LogWorldPartition: Display: GenerateStreaming for 'TestingBuilder' started...
+[2024.10.06-22.38.55:733][133]LogWorldPartition: Display: GenerateStreaming for 'TestingBuilder' took 3 ms (total: 168 ms)
+[2024.10.06-22.38.55:733][133]BlueprintLog: New page: Pre-Play auto-recompile
+[2024.10.06-22.38.55:734][133]LogPlayLevel: [PlayLevel] Compiling BPC_BuildSystem before play...
+[2024.10.06-22.38.55:777][133]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.06-22.38.55:829][133]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Builder/BPC_BuildSystem" FILE="F:/UnrealProjects/ArcadeSimulator/Arcade/Content/Blueprints/Builder/BPC_BuildSystem.uasset" SILENT=true
+[2024.10.06-22.38.55:840][133]LogSavePackage: Moving output files for package: /Game/Blueprints/Builder/BPC_BuildSystem
+[2024.10.06-22.38.55:841][133]LogSavePackage: Moving 'F:/UnrealProjects/ArcadeSimulator/Arcade/Saved/BPC_BuildSystem35E401B74C795B75622EDF86ED2D372D.tmp' to 'F:/UnrealProjects/ArcadeSimulator/Arcade/Content/Blueprints/Builder/BPC_BuildSystem.uasset'
+[2024.10.06-22.38.55:848][133]LogFileHelpers: InternalPromptForCheckoutAndSave took 72 ms (total: 3.81 sec)
+[2024.10.06-22.38.55:860][133]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2024.10.06-22.38.55:862][133]LogPlayLevel: PlayLevel: Blueprint regeneration took 128 ms (1 blueprints)
+[2024.10.06-22.38.55:862][133]PIE: New page: PIE session: TestingBuilder (Oct 6, 2024, 4:38:55 PM)
+[2024.10.06-22.38.55:862][133]LogPlayLevel: Display: Creating online subsystem for client :Context_27
+[2024.10.06-22.38.55:864][133]LogOnline: OSS: Created online subsystem instance for: :Context_27
+[2024.10.06-22.38.55:917][134]AssetCheck: New page: Asset Save: BPC_BuildSystem
+[2024.10.06-22.38.55:917][134]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Builder/BPC_BuildSystem.BPC_BuildSystem
+[2024.10.06-22.38.55:917][134]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TestingBuilder
+[2024.10.06-22.38.55:919][134]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002397s)
+[2024.10.06-22.38.55:919][134]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TestingBuilder.TestingBuilder to /Game/Levels/UEDPIE_0_TestingBuilder.TestingBuilder (0.002424s)
+[2024.10.06-22.38.55:929][134]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2024.10.06-22.38.55:930][134]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.06-22.38.55:931][134]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.06-22.38.55:931][134]LogAIModule: Creating AISystem for world TestingBuilder
+[2024.10.06-22.38.55:931][134]LogWorldPartition: ULevel::OnLevelLoaded(TestingBuilder)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.10.06-22.38.55:931][134]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.10.06-22.38.55:931][134]LogWorldPartition: UWorldPartition::Initialize : World = TestingBuilder, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.10.06-22.38.55:931][134]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.10.06-22.38.55:932][134]LogContentBundle: [TestingBuilder(Standalone)] Creating new contrainer.
+[2024.10.06-22.38.55:932][134]LogWorldPartition: Display: WorldPartition initialize took 751 us (total: 6.99 sec)
+[2024.10.06-22.38.55:932][134]LogPlayLevel: PIE: World Init took: (0.001811s)
+[2024.10.06-22.38.55:932][134]LogAudio: Display: Creating Audio Device:                 Id: 18, Scope: Unique, Realtime: True
+[2024.10.06-22.38.55:932][134]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.10.06-22.38.55:932][134]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.10.06-22.38.55:932][134]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.10.06-22.38.55:932][134]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.10.06-22.38.55:932][134]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.10.06-22.38.55:932][134]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.10.06-22.38.55:932][134]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.10.06-22.38.55:932][134]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.10.06-22.38.55:933][134]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.10.06-22.38.55:933][134]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.10.06-22.38.55:933][134]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.10.06-22.38.55:934][134]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.10.06-22.38.55:949][134]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (Realtek(R) Audio)
+[2024.10.06-22.38.55:949][134]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.10.06-22.38.55:949][134]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.10.06-22.38.55:949][134]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.10.06-22.38.55:950][134]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=18
+[2024.10.06-22.38.55:950][134]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=18
+[2024.10.06-22.38.55:951][134]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=18
+[2024.10.06-22.38.55:951][134]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=18
+[2024.10.06-22.38.55:951][134]LogInit: FAudioDevice initialized with ID 18.
+[2024.10.06-22.38.55:951][134]LogAudio: Display: Audio Device (ID: 18) registered with world 'TestingBuilder'.
+[2024.10.06-22.38.55:951][134]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 18
+[2024.10.06-22.38.55:975][134]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.06-22.38.55:975][134]LogLoad: Game class is 'MyGameGamemode_C'
+[2024.10.06-22.38.55:976][134]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TestingBuilder.TestingBuilder up for play (max tick rate 0) at 2024.10.06-19.38.55
+[2024.10.06-22.38.55:976][134]LogWorld: Bringing up level for play took: 0.000556
+[2024.10.06-22.38.55:976][134]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2024.10.06-22.38.55:976][134]LogWorldPartition: UWorldPartitionStreamingPolicy: CellsToActivate(45), CellsToLoad(0), CellsToUnload(0)
+[2024.10.06-22.38.55:976][134]LogWorldPartition: UWorldPartitionStreamingPolicy: Sources[0] = X=0.000 Y=0.000 Z=0.000,P=0.000000 Y=0.000000 R=-0.000000
+[2024.10.06-22.38.55:978][134]LogStreaming: Display: FlushAsyncLoading(): 60 QueuedPackages, 0 AsyncPackages
+[2024.10.06-22.38.56:145][134]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.10.06-22.38.56:145][134]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.10.06-22.38.56:145][134]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.10.06-22.38.56:145][134]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=0.000 Y=0.000 Z=0.000] for [BP_Player_C]
+[2024.10.06-22.38.56:145][134]LogGameMode: Warning: SpawnDefaultPawnAtTransform: Couldn't spawn Pawn of type BP_Player_C at Rotation: Pitch 0.000000 Yaw 0.000000 Roll 0.000000
+Translation: 0.000000 0.000000 0.000000
+Scale3D: 1.000000 1.000000 1.000000
+
+[2024.10.06-22.38.56:146][134]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.10.06-22.38.56:147][134]PIE: Server logged in
+[2024.10.06-22.38.56:149][134]PIE: Play in editor total start time 0.419 seconds.
+[2024.10.06-22.38.56:162][134]LogViewport: Scene viewport resized to 1280x720, mode Windowed.
+[2024.10.06-22.38.57:843][169]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.06-22.38.57:843][169]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TestingBuilder
+[2024.10.06-22.38.57:843][169]LogSlate: Window 'Arcade Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2024.10.06-22.38.57:897][169]LogWorld: UWorld::CleanupWorld for TestingBuilder, bSessionEnded=true, bCleanupResources=true
+[2024.10.06-22.38.57:897][169]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.06-22.38.57:897][169]LogContentBundle: [TestingBuilder(Standalone)] Deleting container.
+[2024.10.06-22.38.57:899][169]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.10.06-22.38.57:903][169]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.06-22.38.57:912][169]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 18
+[2024.10.06-22.38.57:912][169]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2024.10.06-22.38.57:913][169]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2024.10.06-22.38.57:926][169]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2024.10.06-22.38.57:938][170]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2024.10.06-22.39.01:073][446]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.10.06-22.39.01:080][446]LogContentBundle: [TestingBuilder(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.10.06-22.39.01:080][446]LogWorldPartition: Display: GenerateStreaming for 'TestingBuilder' started...
+[2024.10.06-22.39.01:083][446]LogWorldPartition: Display: GenerateStreaming for 'TestingBuilder' took 4 ms (total: 172 ms)
+[2024.10.06-22.39.01:083][446]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.10.06-22.39.01:083][446]PIE: New page: PIE session: TestingBuilder (Oct 6, 2024, 4:39:01 PM)
+[2024.10.06-22.39.01:083][446]LogPlayLevel: Display: Creating online subsystem for client :Context_28
+[2024.10.06-22.39.01:085][446]LogOnline: OSS: Created online subsystem instance for: :Context_28
+[2024.10.06-22.39.01:115][447]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TestingBuilder
+[2024.10.06-22.39.01:117][447]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002337s)
+[2024.10.06-22.39.01:117][447]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TestingBuilder.TestingBuilder to /Game/Levels/UEDPIE_0_TestingBuilder.TestingBuilder (0.002376s)
+[2024.10.06-22.39.01:127][447]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2024.10.06-22.39.01:129][447]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.06-22.39.01:130][447]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.06-22.39.01:130][447]LogAIModule: Creating AISystem for world TestingBuilder
+[2024.10.06-22.39.01:130][447]LogWorldPartition: ULevel::OnLevelLoaded(TestingBuilder)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.10.06-22.39.01:130][447]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.10.06-22.39.01:130][447]LogWorldPartition: UWorldPartition::Initialize : World = TestingBuilder, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.10.06-22.39.01:130][447]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.10.06-22.39.01:131][447]LogContentBundle: [TestingBuilder(Standalone)] Creating new contrainer.
+[2024.10.06-22.39.01:131][447]LogWorldPartition: Display: WorldPartition initialize took 691 us (total: 6.99 sec)
+[2024.10.06-22.39.01:131][447]LogPlayLevel: PIE: World Init took: (0.001513s)
+[2024.10.06-22.39.01:131][447]LogAudio: Display: Creating Audio Device:                 Id: 19, Scope: Unique, Realtime: True
+[2024.10.06-22.39.01:131][447]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.10.06-22.39.01:131][447]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.10.06-22.39.01:131][447]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.10.06-22.39.01:131][447]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.10.06-22.39.01:131][447]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.10.06-22.39.01:131][447]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.10.06-22.39.01:131][447]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.10.06-22.39.01:131][447]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.10.06-22.39.01:131][447]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.10.06-22.39.01:131][447]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.10.06-22.39.01:131][447]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.10.06-22.39.01:132][447]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.10.06-22.39.01:150][447]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (Realtek(R) Audio)
+[2024.10.06-22.39.01:151][447]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.10.06-22.39.01:151][447]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.10.06-22.39.01:151][447]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.10.06-22.39.01:152][447]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=19
+[2024.10.06-22.39.01:152][447]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=19
+[2024.10.06-22.39.01:153][447]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=19
+[2024.10.06-22.39.01:153][447]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=19
+[2024.10.06-22.39.01:153][447]LogInit: FAudioDevice initialized with ID 19.
+[2024.10.06-22.39.01:153][447]LogAudio: Display: Audio Device (ID: 19) registered with world 'TestingBuilder'.
+[2024.10.06-22.39.01:153][447]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 19
+[2024.10.06-22.39.01:184][447]LogLoad: Game class is 'MyGameGamemode_C'
+[2024.10.06-22.39.01:185][447]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TestingBuilder.TestingBuilder up for play (max tick rate 0) at 2024.10.06-19.39.01
+[2024.10.06-22.39.01:185][447]LogWorld: Bringing up level for play took: 0.000303
+[2024.10.06-22.39.01:185][447]LogWorldPartition: UWorldPartitionStreamingPolicy: CellsToActivate(45), CellsToLoad(0), CellsToUnload(0)
+[2024.10.06-22.39.01:185][447]LogWorldPartition: UWorldPartitionStreamingPolicy: Sources[0] = X=-1204.422 Y=-512.786 Z=158.911,P=-0.000000 Y=-99.371820 R=0.000000
+[2024.10.06-22.39.01:187][447]LogStreaming: Display: FlushAsyncLoading(): 60 QueuedPackages, 0 AsyncPackages
+[2024.10.06-22.39.01:365][447]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.10.06-22.39.01:365][447]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.10.06-22.39.01:365][447]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.10.06-22.39.01:366][447]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.10.06-22.39.01:366][447]PIE: Server logged in
+[2024.10.06-22.39.01:367][447]PIE: Play in editor total start time 0.287 seconds.
+[2024.10.06-22.39.19:692][629]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.06-22.39.19:692][629]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TestingBuilder
+[2024.10.06-22.39.19:702][629]LogWorld: UWorld::CleanupWorld for TestingBuilder, bSessionEnded=true, bCleanupResources=true
+[2024.10.06-22.39.19:702][629]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.06-22.39.19:702][629]LogContentBundle: [TestingBuilder(Standalone)] Deleting container.
+[2024.10.06-22.39.19:704][629]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.10.06-22.39.19:708][629]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.06-22.39.19:719][629]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.06-22.39.19:719][629]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 19
+[2024.10.06-22.39.19:719][629]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2024.10.06-22.39.19:720][629]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2024.10.06-22.39.19:730][629]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2024.10.06-22.39.19:766][630]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2024.10.06-22.47.29:935][219]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.06-22.47.30:047][219]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Builder/BPC_BuildSystem" FILE="F:/UnrealProjects/ArcadeSimulator/Arcade/Content/Blueprints/Builder/BPC_BuildSystem.uasset" SILENT=true
+[2024.10.06-22.47.30:058][219]LogSavePackage: Moving output files for package: /Game/Blueprints/Builder/BPC_BuildSystem
+[2024.10.06-22.47.30:059][219]LogSavePackage: Moving 'F:/UnrealProjects/ArcadeSimulator/Arcade/Saved/BPC_BuildSystemD5E81B204A2BEFCEBCDDD4A5A6BC2317.tmp' to 'F:/UnrealProjects/ArcadeSimulator/Arcade/Content/Blueprints/Builder/BPC_BuildSystem.uasset'
+[2024.10.06-22.47.30:064][219]LogFileHelpers: InternalPromptForCheckoutAndSave took 129 ms (total: 3.94 sec)
+[2024.10.06-22.47.30:065][219]AssetCheck: New page: Asset Save: BPC_BuildSystem
+[2024.10.06-22.47.30:065][219]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Builder/BPC_BuildSystem.BPC_BuildSystem
