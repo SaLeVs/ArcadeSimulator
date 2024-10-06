@@ -4076,3 +4076,383 @@ Scale3D: 1.000000 1.000000 1.000000
 [2024.10.06-22.12.27:685][452]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
 [2024.10.06-22.12.27:695][452]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
 [2024.10.06-22.12.27:703][452]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2024.10.06-22.21.28:408][784]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.10.06-22.21.28:415][784]LogContentBundle: [TestingBuilder(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.10.06-22.21.28:415][784]LogWorldPartition: Display: GenerateStreaming for 'TestingBuilder' started...
+[2024.10.06-22.21.28:420][784]LogWorldPartition: Display: GenerateStreaming for 'TestingBuilder' took 4 ms (total: 152 ms)
+[2024.10.06-22.21.28:420][784]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.10.06-22.21.28:420][784]PIE: New page: PIE session: TestingBuilder (Oct 6, 2024, 4:21:28 PM)
+[2024.10.06-22.21.28:420][784]LogPlayLevel: Display: Creating online subsystem for client :Context_22
+[2024.10.06-22.21.28:422][784]LogOnline: OSS: Created online subsystem instance for: :Context_22
+[2024.10.06-22.21.28:468][785]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TestingBuilder
+[2024.10.06-22.21.28:471][785]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003724s)
+[2024.10.06-22.21.28:472][785]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TestingBuilder.TestingBuilder to /Game/Levels/UEDPIE_0_TestingBuilder.TestingBuilder (0.003780s)
+[2024.10.06-22.21.28:482][785]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
+[2024.10.06-22.21.28:484][785]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.06-22.21.28:484][785]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.06-22.21.28:484][785]LogAIModule: Creating AISystem for world TestingBuilder
+[2024.10.06-22.21.28:485][785]LogWorldPartition: ULevel::OnLevelLoaded(TestingBuilder)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.10.06-22.21.28:485][785]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.10.06-22.21.28:485][785]LogWorldPartition: UWorldPartition::Initialize : World = TestingBuilder, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.10.06-22.21.28:485][785]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.10.06-22.21.28:486][785]LogContentBundle: [TestingBuilder(Standalone)] Creating new contrainer.
+[2024.10.06-22.21.28:486][785]LogWorldPartition: Display: WorldPartition initialize took 863 us (total: 6.98 sec)
+[2024.10.06-22.21.28:486][785]LogPlayLevel: PIE: World Init took: (0.002206s)
+[2024.10.06-22.21.28:486][785]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2024.10.06-22.21.28:486][785]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.10.06-22.21.28:486][785]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.10.06-22.21.28:486][785]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.10.06-22.21.28:486][785]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.10.06-22.21.28:486][785]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.10.06-22.21.28:486][785]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.10.06-22.21.28:486][785]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.10.06-22.21.28:486][785]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.10.06-22.21.28:486][785]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.10.06-22.21.28:486][785]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.10.06-22.21.28:486][785]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.10.06-22.21.28:488][785]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.10.06-22.21.28:514][785]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (Realtek(R) Audio)
+[2024.10.06-22.21.28:514][785]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.10.06-22.21.28:514][785]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.10.06-22.21.28:514][785]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.10.06-22.21.28:515][785]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=14
+[2024.10.06-22.21.28:515][785]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=14
+[2024.10.06-22.21.28:517][785]LogInit: FAudioDevice initialized with ID 14.
+[2024.10.06-22.21.28:517][785]LogAudio: Display: Audio Device (ID: 14) registered with world 'TestingBuilder'.
+[2024.10.06-22.21.28:517][785]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=14
+[2024.10.06-22.21.28:517][785]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=14
+[2024.10.06-22.21.28:517][785]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 14
+[2024.10.06-22.21.28:552][785]LogLoad: Game class is 'MyGameGamemode_C'
+[2024.10.06-22.21.28:553][785]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TestingBuilder.TestingBuilder up for play (max tick rate 0) at 2024.10.06-19.21.28
+[2024.10.06-22.21.28:553][785]LogWorld: Bringing up level for play took: 0.000448
+[2024.10.06-22.21.28:553][785]LogWorldPartition: UWorldPartitionStreamingPolicy: CellsToActivate(45), CellsToLoad(0), CellsToUnload(0)
+[2024.10.06-22.21.28:553][785]LogWorldPartition: UWorldPartitionStreamingPolicy: Sources[0] = X=-727.768 Y=-548.694 Z=168.450,P=0.000000 Y=80.424995 R=-0.000000
+[2024.10.06-22.21.28:556][785]LogStreaming: Display: FlushAsyncLoading(): 60 QueuedPackages, 0 AsyncPackages
+[2024.10.06-22.21.28:749][785]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.10.06-22.21.28:749][785]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.10.06-22.21.28:749][785]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.10.06-22.21.28:750][785]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.10.06-22.21.28:750][785]PIE: Server logged in
+[2024.10.06-22.21.28:750][785]PIE: Play in editor total start time 0.335 seconds.
+[2024.10.06-22.21.39:254][  5]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.06-22.21.39:254][  5]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TestingBuilder
+[2024.10.06-22.21.39:265][  5]LogWorld: UWorld::CleanupWorld for TestingBuilder, bSessionEnded=true, bCleanupResources=true
+[2024.10.06-22.21.39:265][  5]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.06-22.21.39:265][  5]LogContentBundle: [TestingBuilder(Standalone)] Deleting container.
+[2024.10.06-22.21.39:268][  5]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.10.06-22.21.39:271][  5]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.06-22.21.39:280][  5]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.06-22.21.39:282][  5]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 14
+[2024.10.06-22.21.39:282][  5]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2024.10.06-22.21.39:284][  5]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2024.10.06-22.21.39:295][  5]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2024.10.06-22.21.39:335][  6]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2024.10.06-22.25.46:277][525]LogContentBrowser: Deferred new asset file creation: NewMaterial1
+[2024.10.06-22.25.46:285][525]LogContentBrowser: Creating deferred item: NewMaterial1
+[2024.10.06-22.25.46:295][526]LogContentBrowser: Renaming the item being created (Deferred Item: NewMaterial1).
+[2024.10.06-22.25.54:186][472]LogContentBrowser: Attempting asset rename: NewMaterial1 -> M_BuildingPreview
+[2024.10.06-22.25.54:186][472]LogContentBrowser: End creating deferred item NewMaterial1
+[2024.10.06-22.26.52:451][788]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2024.10.06-22.26.52:453][788]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/TestingBuilder' took 0.015
+[2024.10.06-22.26.52:453][788]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Materials/M_BuildingPreview] ([1] browsable assets)...
+[2024.10.06-22.26.52:492][788]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Materials/M_BuildingPreview.M_BuildingPreview]
+[2024.10.06-22.26.52:492][788]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/M_BuildingPreview]
+[2024.10.06-22.26.52:492][788]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/M_BuildingPreview" FILE="F:/UnrealProjects/ArcadeSimulator/Arcade/Saved/Autosaves/Game/Materials/M_BuildingPreview_Auto7.uasset" SILENT=false AUTOSAVING=true
+[2024.10.06-22.26.52:495][788]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Materials/M_BuildingPreview_Auto7
+[2024.10.06-22.26.52:495][788]LogSavePackage: Moving 'F:/UnrealProjects/ArcadeSimulator/Arcade/Saved/M_BuildingPreview_Auto7E082E238411D782BA68E39B97F002122.tmp' to 'F:/UnrealProjects/ArcadeSimulator/Arcade/Saved/Autosaves/Game/Materials/M_BuildingPreview_Auto7.uasset'
+[2024.10.06-22.26.52:496][788]LogFileHelpers: Auto-saving content packages took 0.043
+[2024.10.06-22.27.09:957][841]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Materials/M_BuildingPreview.M_BuildingPreview
+[2024.10.06-22.27.09:977][841]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.06-22.27.09:978][841]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.06-22.27.10:167][841]MaterialEditorStats: Texture samplers: 0/16
+[2024.10.06-22.27.10:167][841]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.10.06-22.27.10:167][841]MaterialEditorStats: Shader Count: 0
+[2024.10.06-22.27.10:174][841]LogViewport: Scene viewport resized to 504x628, mode Windowed.
+[2024.10.06-22.27.10:224][842]LogShaderCompilers: Display: ================================================
+[2024.10.06-22.27.10:224][842]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.10.06-22.27.10:224][842]LogShaderCompilers: Display: Total job queries 10, among them cache hits 6 (60.00%)
+[2024.10.06-22.27.10:224][842]LogShaderCompilers: Display: Tracking 4 distinct input hashes that result in 4 distinct outputs (100.00%)
+[2024.10.06-22.27.10:224][842]LogShaderCompilers: Display: RAM used: 81.12 KiB of 1.60 GiB budget. Usage: 0.00%
+[2024.10.06-22.27.10:224][842]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.10.06-22.27.10:224][842]LogShaderCompilers: Display: Shaders Compiled: 0
+[2024.10.06-22.27.10:224][842]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0%)
+[2024.10.06-22.27.10:224][842]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2024.10.06-22.27.10:224][842]LogShaderCompilers: Display: ================================================
+[2024.10.06-22.27.10:256][843]MaterialEditorStats: Base pass shader: 187 instructions
+[2024.10.06-22.27.10:257][843]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.10.06-22.27.10:257][843]MaterialEditorStats: Texture samplers: 2/16
+[2024.10.06-22.27.10:257][843]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.10.06-22.27.10:257][843]MaterialEditorStats: Shader Count: 4
+[2024.10.06-22.27.41:918][831]MaterialEditorStats: Texture samplers: 0/16
+[2024.10.06-22.27.41:918][831]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.10.06-22.27.41:918][831]MaterialEditorStats: Shader Count: 0
+[2024.10.06-22.27.41:951][834]MaterialEditorStats: Base pass shader: 187 instructions
+[2024.10.06-22.27.41:951][834]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.10.06-22.27.41:951][834]MaterialEditorStats: Texture samplers: 2/16
+[2024.10.06-22.27.41:951][834]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.10.06-22.27.41:951][834]MaterialEditorStats: Shader Count: 4
+[2024.10.06-22.28.37:069][850]MaterialEditorStats: Texture samplers: 0/16
+[2024.10.06-22.28.37:069][850]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.10.06-22.28.37:069][850]MaterialEditorStats: Shader Count: 0
+[2024.10.06-22.28.37:094][852]MaterialEditorStats: Base pass shader: 187 instructions
+[2024.10.06-22.28.37:094][852]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.10.06-22.28.37:094][852]MaterialEditorStats: Texture samplers: 2/16
+[2024.10.06-22.28.37:094][852]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.10.06-22.28.37:094][852]MaterialEditorStats: Shader Count: 4
+[2024.10.06-22.28.51:984][243]MaterialEditorStats: Texture samplers: 0/16
+[2024.10.06-22.28.51:984][243]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.10.06-22.28.51:984][243]MaterialEditorStats: Shader Count: 0
+[2024.10.06-22.28.52:517][305]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.10.06-22.28.52:517][305]MaterialEditorStats: Texture samplers: 0/16
+[2024.10.06-22.28.52:517][305]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.10.06-22.28.52:517][305]MaterialEditorStats: Shader Count: 3
+[2024.10.06-22.28.52:616][317]MaterialEditorStats: Base pass shader: 187 instructions
+[2024.10.06-22.28.52:617][317]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.10.06-22.28.52:617][317]MaterialEditorStats: Texture samplers: 2/16
+[2024.10.06-22.28.52:617][317]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.10.06-22.28.52:617][317]MaterialEditorStats: Shader Count: 4
+[2024.10.06-22.28.55:156][368]MaterialEditorStats: Texture samplers: 0/16
+[2024.10.06-22.28.55:156][368]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.10.06-22.28.55:156][368]MaterialEditorStats: Shader Count: 0
+[2024.10.06-22.28.55:571][377]MaterialEditorStats: Base pass shader: 190 instructions
+[2024.10.06-22.28.55:572][377]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.10.06-22.28.55:572][377]MaterialEditorStats: Texture samplers: 2/16
+[2024.10.06-22.28.55:572][377]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.10.06-22.28.55:572][377]MaterialEditorStats: Shader Count: 4
+[2024.10.06-22.28.57:520][406]MaterialEditorStats: Texture samplers: 0/16
+[2024.10.06-22.28.57:520][406]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.10.06-22.28.57:520][406]MaterialEditorStats: Shader Count: 0
+[2024.10.06-22.28.57:970][416]MaterialEditorStats: Base pass shader: 190 instructions
+[2024.10.06-22.28.57:970][416]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.10.06-22.28.57:970][416]MaterialEditorStats: Texture samplers: 2/16
+[2024.10.06-22.28.57:970][416]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.10.06-22.28.57:970][416]MaterialEditorStats: Shader Count: 4
+[2024.10.06-22.28.59:770][439]MaterialEditorStats: Texture samplers: 0/16
+[2024.10.06-22.28.59:770][439]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.10.06-22.28.59:770][439]MaterialEditorStats: Shader Count: 0
+[2024.10.06-22.29.00:769][453]MaterialEditorStats: Base pass shader: 190 instructions
+[2024.10.06-22.29.00:770][453]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.10.06-22.29.00:770][453]MaterialEditorStats: Texture samplers: 2/16
+[2024.10.06-22.29.00:770][453]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.10.06-22.29.00:770][453]MaterialEditorStats: Shader Count: 4
+[2024.10.06-22.29.01:564][466]LogSlate: Window 'Color Picker' being destroyed
+[2024.10.06-22.29.01:575][466]MaterialEditorStats: Texture samplers: 0/16
+[2024.10.06-22.29.01:575][466]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.10.06-22.29.01:575][466]MaterialEditorStats: Shader Count: 0
+[2024.10.06-22.29.01:590][468]MaterialEditorStats: Base pass shader: 190 instructions
+[2024.10.06-22.29.01:590][468]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.10.06-22.29.01:590][468]MaterialEditorStats: Texture samplers: 2/16
+[2024.10.06-22.29.01:590][468]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.10.06-22.29.01:590][468]MaterialEditorStats: Shader Count: 4
+[2024.10.06-22.29.15:328][793]MaterialEditorStats: Texture samplers: 0/16
+[2024.10.06-22.29.15:328][793]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.10.06-22.29.15:328][793]MaterialEditorStats: Shader Count: 0
+[2024.10.06-22.29.15:782][802]MaterialEditorStats: Base pass shader: 189 instructions
+[2024.10.06-22.29.15:782][802]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.10.06-22.29.15:782][802]MaterialEditorStats: Texture samplers: 2/16
+[2024.10.06-22.29.15:782][802]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.10.06-22.29.15:782][802]MaterialEditorStats: Shader Count: 4
+[2024.10.06-22.29.16:190][807]MaterialEditorStats: Texture samplers: 0/16
+[2024.10.06-22.29.16:190][807]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.10.06-22.29.16:190][807]MaterialEditorStats: Shader Count: 0
+[2024.10.06-22.29.16:637][817]MaterialEditorStats: Base pass shader: 189 instructions
+[2024.10.06-22.29.16:637][817]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.10.06-22.29.16:637][817]MaterialEditorStats: Texture samplers: 2/16
+[2024.10.06-22.29.16:637][817]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.10.06-22.29.16:637][817]MaterialEditorStats: Shader Count: 4
+[2024.10.06-22.29.17:905][840]LogSlate: Window 'Color Picker' being destroyed
+[2024.10.06-22.29.17:914][840]MaterialEditorStats: Texture samplers: 0/16
+[2024.10.06-22.29.17:914][840]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.10.06-22.29.17:914][840]MaterialEditorStats: Shader Count: 0
+[2024.10.06-22.29.17:929][842]MaterialEditorStats: Base pass shader: 189 instructions
+[2024.10.06-22.29.17:929][842]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.10.06-22.29.17:929][842]MaterialEditorStats: Texture samplers: 2/16
+[2024.10.06-22.29.17:929][842]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.10.06-22.29.17:929][842]MaterialEditorStats: Shader Count: 4
+[2024.10.06-22.30.54:269][388]MaterialEditorStats: Texture samplers: 0/16
+[2024.10.06-22.30.54:269][388]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.10.06-22.30.54:269][388]MaterialEditorStats: Shader Count: 0
+[2024.10.06-22.30.54:844][455]LogShaderCompilers: Display: ================================================
+[2024.10.06-22.30.54:844][455]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.10.06-22.30.54:844][455]LogShaderCompilers: Display: Total job queries 122, among them cache hits 74 (60.66%)
+[2024.10.06-22.30.54:844][455]LogShaderCompilers: Display: Tracking 47 distinct input hashes that result in 25 distinct outputs (53.19%)
+[2024.10.06-22.30.54:844][455]LogShaderCompilers: Display: RAM used: 963.11 KiB of 1.60 GiB budget. Usage: 0.06%
+[2024.10.06-22.30.54:844][455]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.10.06-22.30.54:844][455]LogShaderCompilers: Display: Shaders Compiled: 43
+[2024.10.06-22.30.54:844][455]LogShaderCompilers: Display: Jobs assigned 44, completed 43 (97.73%)
+[2024.10.06-22.30.54:844][455]LogShaderCompilers: Display: Average time worker was idle: 12.16 s
+[2024.10.06-22.30.54:844][455]LogShaderCompilers: Display: Time job spent in pending queue: average 0.03 s, longest 0.10 s
+[2024.10.06-22.30.54:844][455]LogShaderCompilers: Display: Job execution time: average 0.34 s, max 0.63 s
+[2024.10.06-22.30.54:844][455]LogShaderCompilers: Display: Job life time (pending + execution): average 0.38 s, max 0.63
+[2024.10.06-22.30.54:844][455]LogShaderCompilers: Display: Shader code size: average 34.337 KiB, min 29.613 KiB, max 67.051 KiB
+[2024.10.06-22.30.54:844][455]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 4.20 s
+[2024.10.06-22.30.54:844][455]LogShaderCompilers: Display: Jobs were issued in 44 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.10.06-22.30.54:844][455]LogShaderCompilers: Display: Average processing rate: 10.23 jobs/sec
+[2024.10.06-22.30.54:844][455]LogShaderCompilers: Display: Total thread time: 9.882 s
+[2024.10.06-22.30.54:844][455]LogShaderCompilers: Display: Total thread preprocess time: 1.438 s
+[2024.10.06-22.30.54:844][455]LogShaderCompilers: Display: Percentage time preprocessing: 14.55%
+[2024.10.06-22.30.54:844][455]LogShaderCompilers: Display: Effective parallelization: 2.35 (times faster than compiling all shaders on one thread). Compare with number of workers: 12
+[2024.10.06-22.30.54:844][455]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.10.06-22.30.54:844][455]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled    1 times, average 0.33 sec, max 0.33 sec, min 0.33 sec)
+[2024.10.06-22.30.54:844][455]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled   14 times, average 0.25 sec, max 0.29 sec, min 0.21 sec)
+[2024.10.06-22.30.54:844][455]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled   14 times, average 0.25 sec, max 0.28 sec, min 0.23 sec)
+[2024.10.06-22.30.54:844][455]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    7 times, average 0.24 sec, max 0.26 sec, min 0.22 sec)
+[2024.10.06-22.30.54:844][455]LogShaderCompilers: Display:                                          FLumenCardPS<false> (compiled    7 times, average 0.12 sec, max 0.14 sec, min 0.11 sec)
+[2024.10.06-22.30.54:844][455]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.10.06-22.30.54:844][455]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 35.66% of total time (compiled   14 times, average 0.25 sec, max 0.29 sec, min 0.21 sec)
+[2024.10.06-22.30.54:844][455]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 35.17% of total time (compiled   14 times, average 0.25 sec, max 0.28 sec, min 0.23 sec)
+[2024.10.06-22.30.54:844][455]LogShaderCompilers: Display:                                                 FLumenCardVS - 17.18% of total time (compiled    7 times, average 0.24 sec, max 0.26 sec, min 0.22 sec)
+[2024.10.06-22.30.54:844][455]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 8.69% of total time (compiled    7 times, average 0.12 sec, max 0.14 sec, min 0.11 sec)
+[2024.10.06-22.30.54:844][455]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 3.29% of total time (compiled    1 times, average 0.33 sec, max 0.33 sec, min 0.33 sec)
+[2024.10.06-22.30.54:844][455]LogShaderCompilers: Display: ================================================
+[2024.10.06-22.30.54:850][456]MaterialEditorStats: Texture samplers: 2/16
+[2024.10.06-22.30.54:850][456]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.10.06-22.30.54:850][456]MaterialEditorStats: Shader Count: 1
+[2024.10.06-22.30.55:288][469]MaterialEditorStats: Base pass vertex shader: 282 instructions
+[2024.10.06-22.30.55:288][469]MaterialEditorStats: Texture samplers: 3/16
+[2024.10.06-22.30.55:288][469]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.10.06-22.30.55:288][469]MaterialEditorStats: Shader Count: 2
+[2024.10.06-22.31.02:517][634]MaterialEditorStats: Texture samplers: 0/16
+[2024.10.06-22.31.02:517][634]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.10.06-22.31.02:517][634]MaterialEditorStats: Shader Count: 0
+[2024.10.06-22.31.02:952][685]MaterialEditorStats: Texture samplers: 2/16
+[2024.10.06-22.31.02:952][685]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.10.06-22.31.02:952][685]MaterialEditorStats: Shader Count: 1
+[2024.10.06-22.31.03:383][697]MaterialEditorStats: Base pass vertex shader: 282 instructions
+[2024.10.06-22.31.03:383][697]MaterialEditorStats: Texture samplers: 3/16
+[2024.10.06-22.31.03:383][697]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.10.06-22.31.03:383][697]MaterialEditorStats: Shader Count: 2
+[2024.10.06-22.31.07:323][887]MaterialEditorStats: Texture samplers: 0/16
+[2024.10.06-22.31.07:323][887]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.10.06-22.31.07:323][887]MaterialEditorStats: Shader Count: 0
+[2024.10.06-22.31.07:703][933]MaterialEditorStats: Texture samplers: 2/16
+[2024.10.06-22.31.07:703][933]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.10.06-22.31.07:703][933]MaterialEditorStats: Shader Count: 1
+[2024.10.06-22.31.07:803][945]MaterialEditorStats: Base pass vertex shader: 282 instructions
+[2024.10.06-22.31.07:803][945]MaterialEditorStats: Texture samplers: 3/16
+[2024.10.06-22.31.07:803][945]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.10.06-22.31.07:803][945]MaterialEditorStats: Shader Count: 2
+[2024.10.06-22.31.11:821][268]MaterialEditorStats: Texture samplers: 0/16
+[2024.10.06-22.31.11:821][268]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.10.06-22.31.11:821][268]MaterialEditorStats: Shader Count: 0
+[2024.10.06-22.31.12:289][279]MaterialEditorStats: Texture samplers: 2/16
+[2024.10.06-22.31.12:289][279]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.10.06-22.31.12:289][279]MaterialEditorStats: Shader Count: 1
+[2024.10.06-22.31.12:479][282]MaterialEditorStats: Base pass vertex shader: 282 instructions
+[2024.10.06-22.31.12:479][282]MaterialEditorStats: Texture samplers: 3/16
+[2024.10.06-22.31.12:479][282]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.10.06-22.31.12:479][282]MaterialEditorStats: Shader Count: 2
+[2024.10.06-22.31.13:600][301]MaterialEditorStats: Texture samplers: 0/16
+[2024.10.06-22.31.13:600][301]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.10.06-22.31.13:600][301]MaterialEditorStats: Shader Count: 0
+[2024.10.06-22.31.14:058][311]MaterialEditorStats: Texture samplers: 2/16
+[2024.10.06-22.31.14:058][311]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.10.06-22.31.14:058][311]MaterialEditorStats: Shader Count: 1
+[2024.10.06-22.31.14:138][313]MaterialEditorStats: Base pass vertex shader: 282 instructions
+[2024.10.06-22.31.14:138][313]MaterialEditorStats: Texture samplers: 3/16
+[2024.10.06-22.31.14:138][313]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.10.06-22.31.14:138][313]MaterialEditorStats: Shader Count: 2
+[2024.10.06-22.31.15:757][480]LogMaterialEditor: Saving and Compiling material M_BuildingPreview
+[2024.10.06-22.31.15:921][480]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2024.10.06-22.31.16:410][480]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2024.10.06-22.31.16:416][480]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.06-22.31.17:568][480]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/M_BuildingPreview" FILE="F:/UnrealProjects/ArcadeSimulator/Arcade/Content/Materials/M_BuildingPreview.uasset" SILENT=true
+[2024.10.06-22.31.17:571][480]LogSavePackage: Moving output files for package: /Game/Materials/M_BuildingPreview
+[2024.10.06-22.31.17:571][480]LogSavePackage: Moving 'F:/UnrealProjects/ArcadeSimulator/Arcade/Saved/M_BuildingPreview3F4E8BDB4970D96D0A7F6C89D69E11D8.tmp' to 'F:/UnrealProjects/ArcadeSimulator/Arcade/Content/Materials/M_BuildingPreview.uasset'
+[2024.10.06-22.31.17:575][480]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.15 sec (total: 3.16 sec)
+[2024.10.06-22.31.17:575][480]AssetCheck: New page: Asset Save: M_BuildingPreview
+[2024.10.06-22.31.17:575][480]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Materials/M_BuildingPreview.M_BuildingPreview
+[2024.10.06-22.31.17:576][480]MaterialEditorStats: Base pass shader: 189 instructions
+[2024.10.06-22.31.17:576][480]MaterialEditorStats: Base pass vertex shader: 282 instructions
+[2024.10.06-22.31.17:577][480]MaterialEditorStats: Texture samplers: 3/16
+[2024.10.06-22.31.17:577][480]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.10.06-22.31.17:577][480]MaterialEditorStats: Shader Count: 20
+[2024.10.06-22.32.13:147][796]LogMaterialEditor: Saving and Compiling material M_BuildingPreview
+[2024.10.06-22.32.13:149][796]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.06-22.32.13:259][796]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/M_BuildingPreview" FILE="F:/UnrealProjects/ArcadeSimulator/Arcade/Content/Materials/M_BuildingPreview.uasset" SILENT=true
+[2024.10.06-22.32.13:261][796]LogSavePackage: Moving output files for package: /Game/Materials/M_BuildingPreview
+[2024.10.06-22.32.13:262][796]LogSavePackage: Moving 'F:/UnrealProjects/ArcadeSimulator/Arcade/Saved/M_BuildingPreview998B056E474A4E1E6DABD893338E33AE.tmp' to 'F:/UnrealProjects/ArcadeSimulator/Arcade/Content/Materials/M_BuildingPreview.uasset'
+[2024.10.06-22.32.13:268][796]LogFileHelpers: InternalPromptForCheckoutAndSave took 119 ms (total: 3.28 sec)
+[2024.10.06-22.32.13:268][796]AssetCheck: New page: Asset Save: M_BuildingPreview
+[2024.10.06-22.32.13:268][796]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Materials/M_BuildingPreview.M_BuildingPreview
+[2024.10.06-22.33.11:570][261]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.06-22.33.11:631][261]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Builder/BPC_BuildSystem" FILE="F:/UnrealProjects/ArcadeSimulator/Arcade/Content/Blueprints/Builder/BPC_BuildSystem.uasset" SILENT=true
+[2024.10.06-22.33.11:641][261]LogSavePackage: Moving output files for package: /Game/Blueprints/Builder/BPC_BuildSystem
+[2024.10.06-22.33.11:641][261]LogSavePackage: Moving 'F:/UnrealProjects/ArcadeSimulator/Arcade/Saved/BPC_BuildSystem3E5EA778405DC5E666C14C8C26191E07.tmp' to 'F:/UnrealProjects/ArcadeSimulator/Arcade/Content/Blueprints/Builder/BPC_BuildSystem.uasset'
+[2024.10.06-22.33.11:648][261]LogFileHelpers: InternalPromptForCheckoutAndSave took 78 ms (total: 3.35 sec)
+[2024.10.06-22.33.11:649][261]AssetCheck: New page: Asset Save: BPC_BuildSystem
+[2024.10.06-22.33.11:649][261]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Builder/BPC_BuildSystem.BPC_BuildSystem
+[2024.10.06-22.33.12:183][276]BlueprintLog: New page: Compile BPC_BuildSystem
+[2024.10.06-22.33.12:252][276]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2024.10.06-22.33.13:521][369]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.10.06-22.33.13:528][369]LogContentBundle: [TestingBuilder(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.10.06-22.33.13:528][369]LogWorldPartition: Display: GenerateStreaming for 'TestingBuilder' started...
+[2024.10.06-22.33.13:532][369]LogWorldPartition: Display: GenerateStreaming for 'TestingBuilder' took 4 ms (total: 156 ms)
+[2024.10.06-22.33.13:532][369]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.10.06-22.33.13:532][369]PIE: New page: PIE session: TestingBuilder (Oct 6, 2024, 4:33:13 PM)
+[2024.10.06-22.33.13:532][369]LogPlayLevel: Display: Creating online subsystem for client :Context_24
+[2024.10.06-22.33.13:534][369]LogOnline: OSS: Created online subsystem instance for: :Context_24
+[2024.10.06-22.33.13:564][370]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TestingBuilder
+[2024.10.06-22.33.13:567][370]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002973s)
+[2024.10.06-22.33.13:567][370]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TestingBuilder.TestingBuilder to /Game/Levels/UEDPIE_0_TestingBuilder.TestingBuilder (0.003015s)
+[2024.10.06-22.33.13:578][370]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2024.10.06-22.33.13:580][370]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.06-22.33.13:580][370]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.06-22.33.13:580][370]LogAIModule: Creating AISystem for world TestingBuilder
+[2024.10.06-22.33.13:581][370]LogWorldPartition: ULevel::OnLevelLoaded(TestingBuilder)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.10.06-22.33.13:581][370]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.10.06-22.33.13:581][370]LogWorldPartition: UWorldPartition::Initialize : World = TestingBuilder, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.10.06-22.33.13:581][370]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.10.06-22.33.13:581][370]LogContentBundle: [TestingBuilder(Standalone)] Creating new contrainer.
+[2024.10.06-22.33.13:582][370]LogWorldPartition: Display: WorldPartition initialize took 711 us (total: 6.98 sec)
+[2024.10.06-22.33.13:582][370]LogPlayLevel: PIE: World Init took: (0.001700s)
+[2024.10.06-22.33.13:582][370]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2024.10.06-22.33.13:582][370]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.10.06-22.33.13:582][370]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.10.06-22.33.13:582][370]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.10.06-22.33.13:582][370]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.10.06-22.33.13:582][370]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.10.06-22.33.13:582][370]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.10.06-22.33.13:582][370]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.10.06-22.33.13:582][370]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.10.06-22.33.13:582][370]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.10.06-22.33.13:582][370]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.10.06-22.33.13:582][370]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.10.06-22.33.13:583][370]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.10.06-22.33.13:603][370]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (Realtek(R) Audio)
+[2024.10.06-22.33.13:603][370]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.10.06-22.33.13:603][370]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.10.06-22.33.13:603][370]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.10.06-22.33.13:607][370]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=15
+[2024.10.06-22.33.13:607][370]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=15
+[2024.10.06-22.33.13:609][370]LogInit: FAudioDevice initialized with ID 15.
+[2024.10.06-22.33.13:609][370]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=15
+[2024.10.06-22.33.13:609][370]LogAudio: Display: Audio Device (ID: 15) registered with world 'TestingBuilder'.
+[2024.10.06-22.33.13:609][370]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=15
+[2024.10.06-22.33.13:609][370]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 15
+[2024.10.06-22.33.13:638][370]LogLoad: Game class is 'MyGameGamemode_C'
+[2024.10.06-22.33.13:638][370]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TestingBuilder.TestingBuilder up for play (max tick rate 0) at 2024.10.06-19.33.13
+[2024.10.06-22.33.13:638][370]LogWorld: Bringing up level for play took: 0.000333
+[2024.10.06-22.33.13:639][370]LogWorldPartition: UWorldPartitionStreamingPolicy: CellsToActivate(45), CellsToLoad(0), CellsToUnload(0)
+[2024.10.06-22.33.13:639][370]LogWorldPartition: UWorldPartitionStreamingPolicy: Sources[0] = X=-455.105 Y=-533.656 Z=158.911,P=0.000000 Y=60.600003 R=-0.000000
+[2024.10.06-22.33.13:641][370]LogStreaming: Display: FlushAsyncLoading(): 60 QueuedPackages, 0 AsyncPackages
+[2024.10.06-22.33.13:853][370]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.10.06-22.33.13:853][370]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.10.06-22.33.13:853][370]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.10.06-22.33.13:854][370]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.10.06-22.33.13:854][370]PIE: Server logged in
+[2024.10.06-22.33.13:855][370]PIE: Play in editor total start time 0.327 seconds.
+[2024.10.06-22.33.19:193][998]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.06-22.33.19:193][998]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TestingBuilder
+[2024.10.06-22.33.19:202][998]LogWorld: UWorld::CleanupWorld for TestingBuilder, bSessionEnded=true, bCleanupResources=true
+[2024.10.06-22.33.19:203][998]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.06-22.33.19:203][998]LogContentBundle: [TestingBuilder(Standalone)] Deleting container.
+[2024.10.06-22.33.19:205][998]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.10.06-22.33.19:208][998]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.06-22.33.19:222][998]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.10.06-22.33.19:222][998]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 15
+[2024.10.06-22.33.19:222][998]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2024.10.06-22.33.19:224][998]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2024.10.06-22.33.19:226][998]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.06-22.33.19:233][998]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2024.10.06-22.33.19:270][999]LogPlayLevel: Display: Destroying online subsystem :Context_24
