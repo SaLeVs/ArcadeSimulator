@@ -74,15 +74,15 @@ void EmptyLinkFunctionForGeneratedCodeAPlayer() {}
 	}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AAPlayer);
 	AAPlayer::~AAPlayer() {}
-	struct Z_CompiledInDeferFile_FID_Users_User_Documents_GitKrakenProjects_ArcadeSimulator_Arcade_Source_Arcade_APlayer_h_Statics
+	struct Z_CompiledInDeferFile_FID_Users_RA00331197_Desktop_arcade_ArcadeSimulator_Arcade_Source_Arcade_APlayer_h_Statics
 	{
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_User_Documents_GitKrakenProjects_ArcadeSimulator_Arcade_Source_Arcade_APlayer_h_Statics::ClassInfo[] = {
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_RA00331197_Desktop_arcade_ArcadeSimulator_Arcade_Source_Arcade_APlayer_h_Statics::ClassInfo[] = {
 		{ Z_Construct_UClass_AAPlayer, AAPlayer::StaticClass, TEXT("AAPlayer"), &Z_Registration_Info_UClass_AAPlayer, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AAPlayer), 3000651115U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_User_Documents_GitKrakenProjects_ArcadeSimulator_Arcade_Source_Arcade_APlayer_h_2924123571(TEXT("/Script/Arcade"),
-		Z_CompiledInDeferFile_FID_Users_User_Documents_GitKrakenProjects_ArcadeSimulator_Arcade_Source_Arcade_APlayer_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_User_Documents_GitKrakenProjects_ArcadeSimulator_Arcade_Source_Arcade_APlayer_h_Statics::ClassInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_RA00331197_Desktop_arcade_ArcadeSimulator_Arcade_Source_Arcade_APlayer_h_2924123571(TEXT("/Script/Arcade"),
+		Z_CompiledInDeferFile_FID_Users_RA00331197_Desktop_arcade_ArcadeSimulator_Arcade_Source_Arcade_APlayer_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_RA00331197_Desktop_arcade_ArcadeSimulator_Arcade_Source_Arcade_APlayer_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
