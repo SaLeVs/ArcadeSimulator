@@ -1,4 +1,4 @@
-﻿Log file open, 10/21/24 08:15:49
+Log file open, 10/21/24 08:15:49
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogProfilingDebugging: Loading WinPixEventRuntime.dll for PIX profiling (from ../../../Engine/Binaries/ThirdParty/Windows/WinPixEventRuntime/x64).
@@ -167,6 +167,7 @@ LogPluginManager: Mounting Engine plugin GooglePAD
 LogPluginManager: Mounting Engine plugin InputDebugging
 LogPluginManager: Found config from plugin[InputDebugging] Input
 LogPluginManager: Mounting Engine plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin LinuxDeviceProfileSelector
 LogPluginManager: Mounting Engine plugin LocationServicesBPLibrary
 LogPluginManager: Mounting Engine plugin MsQuic
 LogPluginManager: Mounting Engine plugin MeshModelingToolset
@@ -175,7 +176,6 @@ LogPluginManager: Mounting Engine plugin LinuxDeviceProfileSelector
 LogPluginManager: Mounting Engine plugin MobilePatchingUtils
 LogPluginManager: Mounting Engine plugin ProceduralMeshComponent
 LogPluginManager: Mounting Engine plugin ResonanceAudio
-LogPluginManager: Mounting Engine plugin RigVM
 LogPluginManager: Mounting Engine plugin SoundFields
 LogPluginManager: Mounting Engine plugin WaveTable
 LogPluginManager: Mounting Engine plugin Synthesis
@@ -204,6 +204,7 @@ LogPluginManager: Mounting Engine plugin LightMixer
 LogPluginManager: Mounting Engine plugin ObjectMixer
 LogPluginManager: Mounting Engine plugin OnlineSubsystemIOS
 LogPluginManager: Mounting Engine plugin ContentBrowserAssetDataSource
+LogPluginManager: Mounting Engine plugin ContentBrowserClassDataSource
 LogPluginManager: Mounting Engine plugin ContentBrowserFileDataSource
 LogPluginManager: Mounting Engine plugin OnlineSubsystemGooglePlay
 LogPluginManager: Mounting Engine plugin ContentBrowserClassDataSource
@@ -291,7 +292,7 @@ LogInit: Architecture: x64
 LogInit: Compiled with Visual C++: 19.36.32537.00
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE5+Release-5.3
-LogInit: Command Line: 
+LogInit: Command Line: -AUTH_LOGIN=unused -AUTH_PASSWORD=0782fa66c311406a842028382ae90913 -AUTH_TYPE=exchangecode -epicapp=UE_5.3 -epicenv=Prod -EpicPortal -epicusername=Minicrazy05 -epicuserid=348509588dfa4f30974adfae8fb2b35f -epiclocale=pt-BR -epicsandboxid=ue
 LogInit: Base Directory: C:/Program Files/Epic Games/UE_5.3/Engine/Binaries/Win64/
 LogInit: Allocator: Mimalloc
 LogInit: Installed Engine Build: 1
