@@ -2035,3 +2035,852 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.10.22-13.07.22:379][318]LogFileHelpers: InternalPromptForCheckoutAndSave took 106 ms (total: 6.24 sec)
 [2024.10.22-13.07.22:380][318]AssetCheck: New page: Asset Save: Arcade
 [2024.10.22-13.07.22:380][318]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Arcade.Arcade
+[2024.10.22-13.07.53:976][  5]LogContentBrowser: Deferred new asset file creation: NewMaterial
+[2024.10.22-13.07.53:981][  5]LogContentBrowser: Creating deferred item: NewMaterial
+[2024.10.22-13.07.54:000][  7]LogContentBrowser: Renaming the item being created (Deferred Item: NewMaterial).
+[2024.10.22-13.09.34:831][370]LogContentBrowser: Attempting asset rename: NewMaterial -> NewMaterial
+[2024.10.22-13.09.34:832][370]LogContentBrowser: End creating deferred item NewMaterial
+[2024.10.22-13.09.39:369][700]LogContentBrowser: Attempting asset rename: NewMaterial -> M_Neons
+[2024.10.22-13.09.39:397][700]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.22-13.09.39:444][700]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Shaders/Neons/M_Neons" FILE="../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Content/Shaders/Neons/M_Neons.uasset" SILENT=true
+[2024.10.22-13.09.39:445][700]LogSavePackage: Moving output files for package: /Game/Shaders/Neons/M_Neons
+[2024.10.22-13.09.39:445][700]LogSavePackage: Moving '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Saved/M_NeonsD288689A44E16BF512BCF6B905556534.tmp' to '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Content/Shaders/Neons/M_Neons.uasset'
+[2024.10.22-13.09.39:452][700]LogFileHelpers: InternalPromptForCheckoutAndSave took 54 ms (total: 6.29 sec)
+[2024.10.22-13.09.39:458][700]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2024.10.22-13.09.39:462][700]LogUObjectHash: Compacting FUObjectHashTables data took   0.27ms
+[2024.10.22-13.09.39:465][700]LogUObjectHash: Compacting FUObjectHashTables data took   0.19ms
+[2024.10.22-13.09.39:466][700]AssetCheck: New page: Asset Save: M_Neons
+[2024.10.22-13.09.39:466][700]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Shaders/Neons/M_Neons.M_Neons
+[2024.10.22-13.09.40:779][794]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Shaders/Neons/M_Neons.M_Neons
+[2024.10.22-13.09.40:794][794]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.22-13.09.40:794][794]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.22-13.09.40:980][794]MaterialEditorStats: Texture samplers: 0/16
+[2024.10.22-13.09.40:980][794]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.10.22-13.09.40:980][794]MaterialEditorStats: Shader Count: 0
+[2024.10.22-13.09.40:985][794]LogSlate: Took 0.000450 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2024.10.22-13.09.40:989][794]LogViewport: Scene viewport resized to 494x448, mode Windowed.
+[2024.10.22-13.09.41:583][827]LogShaderCompilers: Display: ================================================
+[2024.10.22-13.09.41:583][827]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.10.22-13.09.41:583][827]LogShaderCompilers: Display: Total job queries 12, among them cache hits 4 (33.33%)
+[2024.10.22-13.09.41:583][827]LogShaderCompilers: Display: Tracking 5 distinct input hashes that result in 5 distinct outputs (100.00%)
+[2024.10.22-13.09.41:583][827]LogShaderCompilers: Display: RAM used: 100,67 KiB of 819,20 MiB budget. Usage: 0.01%
+[2024.10.22-13.09.41:583][827]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.10.22-13.09.41:583][827]LogShaderCompilers: Display: Shaders Compiled: 1
+[2024.10.22-13.09.41:583][827]LogShaderCompilers: Display: Jobs assigned 4, completed 1 (25.00%)
+[2024.10.22-13.09.41:583][827]LogShaderCompilers: Display: Time job spent in pending queue: average 0.06 s, longest 0.06 s
+[2024.10.22-13.09.41:583][827]LogShaderCompilers: Display: Job execution time: average 0.53 s, max 0.53 s
+[2024.10.22-13.09.41:583][827]LogShaderCompilers: Display: Job life time (pending + execution): average 0.58 s, max 0.58
+[2024.10.22-13.09.41:583][827]LogShaderCompilers: Display: Shader code size: average 29,613 KiB, min 29,613 KiB, max 29,613 KiB
+[2024.10.22-13.09.41:583][827]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.58 s
+[2024.10.22-13.09.41:583][827]LogShaderCompilers: Display: Jobs were issued in 4 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.10.22-13.09.41:583][827]LogShaderCompilers: Display: Average processing rate: 1.72 jobs/sec
+[2024.10.22-13.09.41:583][827]LogShaderCompilers: Display: Total thread time: 0,131 s
+[2024.10.22-13.09.41:583][827]LogShaderCompilers: Display: Total thread preprocess time: 0,025 s
+[2024.10.22-13.09.41:583][827]LogShaderCompilers: Display: Percentage time preprocessing: 18.95%
+[2024.10.22-13.09.41:583][827]LogShaderCompilers: Display: Effective parallelization: 0.23 (times faster than compiling all shaders on one thread). Compare with number of workers: 10
+[2024.10.22-13.09.41:583][827]LogShaderCompilers: Display: Top 1 most expensive shader types by average time:
+[2024.10.22-13.09.41:583][827]LogShaderCompilers: Display:                                          FLumenCardPS<false> (compiled    1 times, average 0.13 sec, max 0.13 sec, min 0.13 sec)
+[2024.10.22-13.09.41:583][827]LogShaderCompilers: Display: Top 1 shader types by total compile time:
+[2024.10.22-13.09.41:583][827]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 100.00% of total time (compiled    1 times, average 0.13 sec, max 0.13 sec, min 0.13 sec)
+[2024.10.22-13.09.41:583][827]LogShaderCompilers: Display: ================================================
+[2024.10.22-13.09.41:707][834]MaterialEditorStats: Base pass shader: 187 instructions
+[2024.10.22-13.09.41:707][834]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.10.22-13.09.41:707][834]MaterialEditorStats: Texture samplers: 2/16
+[2024.10.22-13.09.41:707][834]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.10.22-13.09.41:707][834]MaterialEditorStats: Shader Count: 4
+[2024.10.22-13.09.57:093][ 45]LogViewport: Scene viewport resized to 493x460, mode Windowed.
+[2024.10.22-13.09.57:158][ 47]LogViewport: Scene viewport resized to 268x227, mode Windowed.
+[2024.10.22-13.09.57:176][ 48]LogViewport: Scene viewport resized to 199x157, mode Windowed.
+[2024.10.22-13.09.57:378][ 72]LogViewport: Scene viewport resized to 494x448, mode Windowed.
+[2024.10.22-13.09.57:801][122]LogSlate: Window 'M_Neons' being destroyed
+[2024.10.22-13.09.59:640][342]LogMaterialEditor: Saving and Compiling material M_Neons
+[2024.10.22-13.09.59:642][342]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.22-13.09.59:700][342]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Shaders/Neons/M_Neons" FILE="../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Content/Shaders/Neons/M_Neons.uasset" SILENT=true
+[2024.10.22-13.09.59:700][342]LogSavePackage: Moving output files for package: /Game/Shaders/Neons/M_Neons
+[2024.10.22-13.09.59:701][342]LogSavePackage: Moving '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Saved/M_Neons4AB52A8941F655D3C3538D9725FBC1CD.tmp' to '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Content/Shaders/Neons/M_Neons.uasset'
+[2024.10.22-13.09.59:707][342]LogFileHelpers: InternalPromptForCheckoutAndSave took 64 ms (total: 6.35 sec)
+[2024.10.22-13.09.59:708][342]AssetCheck: New page: Asset Save: M_Neons
+[2024.10.22-13.09.59:708][342]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Shaders/Neons/M_Neons.M_Neons
+[2024.10.22-13.13.28:526][  4]MaterialEditorStats: Texture samplers: 0/16
+[2024.10.22-13.13.28:526][  4]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.10.22-13.13.28:526][  4]MaterialEditorStats: Shader Count: 0
+[2024.10.22-13.13.28:554][  5]LogShaderCompilers: Display: ================================================
+[2024.10.22-13.13.28:554][  5]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.10.22-13.13.28:554][  5]LogShaderCompilers: Display: Total job queries 20, among them cache hits 12 (60.00%)
+[2024.10.22-13.13.28:554][  5]LogShaderCompilers: Display: Tracking 8 distinct input hashes that result in 6 distinct outputs (75.00%)
+[2024.10.22-13.13.28:554][  5]LogShaderCompilers: Display: RAM used: 164,15 KiB of 819,20 MiB budget. Usage: 0.02%
+[2024.10.22-13.13.28:554][  5]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.10.22-13.13.28:554][  5]LogShaderCompilers: Display: Shaders Compiled: 4
+[2024.10.22-13.13.28:554][  5]LogShaderCompilers: Display: Jobs assigned 4, completed 4 (100%)
+[2024.10.22-13.13.28:554][  5]LogShaderCompilers: Display: Time job spent in pending queue: average 0.06 s, longest 0.06 s
+[2024.10.22-13.13.28:554][  5]LogShaderCompilers: Display: Job execution time: average 0.60 s, max 0.63 s
+[2024.10.22-13.13.28:554][  5]LogShaderCompilers: Display: Job life time (pending + execution): average 0.66 s, max 0.69
+[2024.10.22-13.13.28:554][  5]LogShaderCompilers: Display: Shader code size: average 33,845 KiB, min 29,613 KiB, max 35,809 KiB
+[2024.10.22-13.13.28:554][  5]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.69 s
+[2024.10.22-13.13.28:554][  5]LogShaderCompilers: Display: Jobs were issued in 4 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.10.22-13.13.28:554][  5]LogShaderCompilers: Display: Average processing rate: 5.82 jobs/sec
+[2024.10.22-13.13.28:554][  5]LogShaderCompilers: Display: Total thread time: 1,003 s
+[2024.10.22-13.13.28:554][  5]LogShaderCompilers: Display: Total thread preprocess time: 0,121 s
+[2024.10.22-13.13.28:554][  5]LogShaderCompilers: Display: Percentage time preprocessing: 12.03%
+[2024.10.22-13.13.28:554][  5]LogShaderCompilers: Display: Effective parallelization: 1.46 (times faster than compiling all shaders on one thread). Compare with number of workers: 10
+[2024.10.22-13.13.28:554][  5]LogShaderCompilers: Display: Top 4 most expensive shader types by average time:
+[2024.10.22-13.13.28:554][  5]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    1 times, average 0.33 sec, max 0.33 sec, min 0.33 sec)
+[2024.10.22-13.13.28:554][  5]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    1 times, average 0.27 sec, max 0.27 sec, min 0.27 sec)
+[2024.10.22-13.13.28:554][  5]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    1 times, average 0.27 sec, max 0.27 sec, min 0.27 sec)
+[2024.10.22-13.13.28:554][  5]LogShaderCompilers: Display:                                          FLumenCardPS<false> (compiled    1 times, average 0.13 sec, max 0.13 sec, min 0.13 sec)
+[2024.10.22-13.13.28:554][  5]LogShaderCompilers: Display: Top 4 shader types by total compile time:
+[2024.10.22-13.13.28:554][  5]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 32.69% of total time (compiled    1 times, average 0.33 sec, max 0.33 sec, min 0.33 sec)
+[2024.10.22-13.13.28:554][  5]LogShaderCompilers: Display:                                                 FLumenCardVS - 27.38% of total time (compiled    1 times, average 0.27 sec, max 0.27 sec, min 0.27 sec)
+[2024.10.22-13.13.28:554][  5]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 26.87% of total time (compiled    1 times, average 0.27 sec, max 0.27 sec, min 0.27 sec)
+[2024.10.22-13.13.28:554][  5]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 13.06% of total time (compiled    1 times, average 0.13 sec, max 0.13 sec, min 0.13 sec)
+[2024.10.22-13.13.28:555][  5]LogShaderCompilers: Display: ================================================
+[2024.10.22-13.13.28:567][  6]MaterialEditorStats: Base pass shader: 187 instructions
+[2024.10.22-13.13.28:567][  6]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.10.22-13.13.28:567][  6]MaterialEditorStats: Texture samplers: 2/16
+[2024.10.22-13.13.28:567][  6]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.10.22-13.13.28:567][  6]MaterialEditorStats: Shader Count: 4
+[2024.10.22-13.13.39:134][249]MaterialEditorStats: Texture samplers: 0/16
+[2024.10.22-13.13.39:134][249]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.10.22-13.13.39:134][249]MaterialEditorStats: Shader Count: 0
+[2024.10.22-13.13.39:158][251]MaterialEditorStats: Base pass shader: 187 instructions
+[2024.10.22-13.13.39:158][251]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.10.22-13.13.39:158][251]MaterialEditorStats: Texture samplers: 2/16
+[2024.10.22-13.13.39:158][251]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.10.22-13.13.39:158][251]MaterialEditorStats: Shader Count: 4
+[2024.10.22-13.13.40:219][371]MaterialEditorStats: Texture samplers: 0/16
+[2024.10.22-13.13.40:219][371]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.10.22-13.13.40:219][371]MaterialEditorStats: Shader Count: 0
+[2024.10.22-13.13.40:792][439]MaterialEditorStats: Base pass shader: 191 instructions
+[2024.10.22-13.13.40:792][439]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.10.22-13.13.40:792][439]MaterialEditorStats: Texture samplers: 2/16
+[2024.10.22-13.13.40:792][439]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.10.22-13.13.40:792][439]MaterialEditorStats: Shader Count: 4
+[2024.10.22-13.13.42:955][688]MaterialEditorStats: Texture samplers: 0/16
+[2024.10.22-13.13.42:955][688]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.10.22-13.13.42:955][688]MaterialEditorStats: Shader Count: 0
+[2024.10.22-13.13.42:977][690]MaterialEditorStats: Base pass shader: 191 instructions
+[2024.10.22-13.13.42:977][690]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.10.22-13.13.42:977][690]MaterialEditorStats: Texture samplers: 2/16
+[2024.10.22-13.13.42:977][690]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.10.22-13.13.42:977][690]MaterialEditorStats: Shader Count: 4
+[2024.10.22-13.13.49:778][494]MaterialEditorStats: Texture samplers: 0/16
+[2024.10.22-13.13.49:778][494]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.10.22-13.13.49:778][494]MaterialEditorStats: Shader Count: 0
+[2024.10.22-13.13.49:801][495]MaterialEditorStats: Base pass shader: 191 instructions
+[2024.10.22-13.13.49:801][495]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.10.22-13.13.49:801][495]MaterialEditorStats: Texture samplers: 2/16
+[2024.10.22-13.13.49:801][495]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.10.22-13.13.49:801][495]MaterialEditorStats: Shader Count: 2
+[2024.10.22-13.13.54:659][ 67]MaterialEditorStats: Texture samplers: 0/16
+[2024.10.22-13.13.54:659][ 67]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.10.22-13.13.54:659][ 67]MaterialEditorStats: Shader Count: 0
+[2024.10.22-13.13.55:041][112]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.10.22-13.13.55:041][112]MaterialEditorStats: Texture samplers: 0/16
+[2024.10.22-13.13.55:041][112]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.10.22-13.13.55:042][112]MaterialEditorStats: Shader Count: 3
+[2024.10.22-13.13.55:141][124]MaterialEditorStats: Base pass shader: 191 instructions
+[2024.10.22-13.13.55:141][124]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.10.22-13.13.55:141][124]MaterialEditorStats: Texture samplers: 2/16
+[2024.10.22-13.13.55:142][124]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.10.22-13.13.55:142][124]MaterialEditorStats: Shader Count: 4
+[2024.10.22-13.13.57:510][406]LogMaterialEditor: Saving and Compiling material M_Neons
+[2024.10.22-13.13.57:579][406]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2024.10.22-13.13.58:053][406]LogUObjectHash: Compacting FUObjectHashTables data took   0.24ms
+[2024.10.22-13.13.58:059][406]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.22-13.13.59:174][406]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Shaders/Neons/M_Neons" FILE="../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Content/Shaders/Neons/M_Neons.uasset" SILENT=true
+[2024.10.22-13.13.59:176][406]LogSavePackage: Moving output files for package: /Game/Shaders/Neons/M_Neons
+[2024.10.22-13.13.59:176][406]LogSavePackage: Moving '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Saved/M_Neons7977BCB14A2D36590F40EDB605128025.tmp' to '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Content/Shaders/Neons/M_Neons.uasset'
+[2024.10.22-13.13.59:180][406]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.12 sec (total: 7.47 sec)
+[2024.10.22-13.13.59:181][406]AssetCheck: New page: Asset Save: M_Neons
+[2024.10.22-13.13.59:181][406]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Shaders/Neons/M_Neons.M_Neons
+[2024.10.22-13.13.59:182][406]MaterialEditorStats: Base pass shader: 191 instructions
+[2024.10.22-13.13.59:182][406]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.10.22-13.13.59:182][406]MaterialEditorStats: MaxSampler: 239 instructions
+[2024.10.22-13.13.59:182][406]MaterialEditorStats: Texture samplers: 3/16
+[2024.10.22-13.13.59:182][406]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.10.22-13.13.59:182][406]MaterialEditorStats: Shader Count: 16
+[2024.10.22-13.14.58:165][117]LogSlate: Window 'Color Picker' being destroyed
+[2024.10.22-13.14.58:171][117]MaterialEditorStats: Texture samplers: 0/16
+[2024.10.22-13.14.58:171][117]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.10.22-13.14.58:171][117]MaterialEditorStats: Shader Count: 0
+[2024.10.22-13.14.58:185][119]MaterialEditorStats: Base pass shader: 191 instructions
+[2024.10.22-13.14.58:185][119]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.10.22-13.14.58:185][119]MaterialEditorStats: Texture samplers: 2/16
+[2024.10.22-13.14.58:185][119]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.10.22-13.14.58:185][119]MaterialEditorStats: Shader Count: 4
+[2024.10.22-13.15.00:046][341]LogMaterialEditor: Saving and Compiling material M_Neons
+[2024.10.22-13.15.00:075][341]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2024.10.22-13.15.00:232][341]LogUObjectHash: Compacting FUObjectHashTables data took   0.27ms
+[2024.10.22-13.15.00:241][341]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.22-13.15.00:305][341]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Shaders/Neons/M_Neons" FILE="../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Content/Shaders/Neons/M_Neons.uasset" SILENT=true
+[2024.10.22-13.15.00:306][341]LogSavePackage: Moving output files for package: /Game/Shaders/Neons/M_Neons
+[2024.10.22-13.15.00:306][341]LogSavePackage: Moving '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Saved/M_Neons109659064803A321870031BAE6F42340.tmp' to '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Content/Shaders/Neons/M_Neons.uasset'
+[2024.10.22-13.15.00:311][341]LogFileHelpers: InternalPromptForCheckoutAndSave took 69 ms (total: 7.54 sec)
+[2024.10.22-13.15.00:312][341]AssetCheck: New page: Asset Save: M_Neons
+[2024.10.22-13.15.00:312][341]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Shaders/Neons/M_Neons.M_Neons
+[2024.10.22-13.15.00:312][341]MaterialEditorStats: Base pass shader: 191 instructions
+[2024.10.22-13.15.00:312][341]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.10.22-13.15.00:313][341]MaterialEditorStats: MaxSampler: 239 instructions
+[2024.10.22-13.15.00:313][341]MaterialEditorStats: Texture samplers: 3/16
+[2024.10.22-13.15.00:313][341]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.10.22-13.15.00:313][341]MaterialEditorStats: Shader Count: 16
+[2024.10.22-13.15.03:223][684]MaterialEditorStats: Texture samplers: 0/16
+[2024.10.22-13.15.03:223][684]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.10.22-13.15.03:223][684]MaterialEditorStats: Shader Count: 0
+[2024.10.22-13.15.03:236][686]MaterialEditorStats: Base pass shader: 191 instructions
+[2024.10.22-13.15.03:236][686]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.10.22-13.15.03:236][686]MaterialEditorStats: Texture samplers: 2/16
+[2024.10.22-13.15.03:236][686]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.10.22-13.15.03:236][686]MaterialEditorStats: Shader Count: 4
+[2024.10.22-13.15.08:749][344]MaterialEditorStats: Texture samplers: 0/16
+[2024.10.22-13.15.08:749][344]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.10.22-13.15.08:749][344]MaterialEditorStats: Shader Count: 0
+[2024.10.22-13.15.08:762][346]MaterialEditorStats: Base pass shader: 191 instructions
+[2024.10.22-13.15.08:762][346]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.10.22-13.15.08:762][346]MaterialEditorStats: Texture samplers: 2/16
+[2024.10.22-13.15.08:762][346]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.10.22-13.15.08:762][346]MaterialEditorStats: Shader Count: 4
+[2024.10.22-13.15.25:253][870]LogMaterialEditor: Saving and Compiling material M_Neons
+[2024.10.22-13.15.25:283][870]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2024.10.22-13.15.25:433][870]LogUObjectHash: Compacting FUObjectHashTables data took   0.26ms
+[2024.10.22-13.15.25:443][870]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.22-13.15.25:510][870]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Shaders/Neons/M_Neons" FILE="../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Content/Shaders/Neons/M_Neons.uasset" SILENT=true
+[2024.10.22-13.15.25:511][870]LogSavePackage: Moving output files for package: /Game/Shaders/Neons/M_Neons
+[2024.10.22-13.15.25:511][870]LogSavePackage: Moving '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Saved/M_NeonsA60CEB6A4A79BBABBC10C0B495AE13D4.tmp' to '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Content/Shaders/Neons/M_Neons.uasset'
+[2024.10.22-13.15.25:516][870]LogFileHelpers: InternalPromptForCheckoutAndSave took 73 ms (total: 7.62 sec)
+[2024.10.22-13.15.25:517][870]AssetCheck: New page: Asset Save: M_Neons
+[2024.10.22-13.15.25:517][870]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Shaders/Neons/M_Neons.M_Neons
+[2024.10.22-13.15.25:517][870]MaterialEditorStats: Base pass shader: 191 instructions
+[2024.10.22-13.15.25:517][870]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.10.22-13.15.25:517][870]MaterialEditorStats: MaxSampler: 239 instructions
+[2024.10.22-13.15.25:517][870]MaterialEditorStats: Texture samplers: 3/16
+[2024.10.22-13.15.25:517][870]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.10.22-13.15.25:517][870]MaterialEditorStats: Shader Count: 16
+[2024.10.22-13.15.26:678][  0]LogMaterialEditor: Saving and Compiling material M_Neons
+[2024.10.22-13.15.26:680][  0]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.22-13.15.26:707][  0]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Shaders/Neons/M_Neons" FILE="../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Content/Shaders/Neons/M_Neons.uasset" SILENT=true
+[2024.10.22-13.15.26:709][  0]LogSavePackage: Moving output files for package: /Game/Shaders/Neons/M_Neons
+[2024.10.22-13.15.26:709][  0]LogSavePackage: Moving '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Saved/M_Neons0F95CAE541902E69FC1B5CADFF0F8048.tmp' to '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Content/Shaders/Neons/M_Neons.uasset'
+[2024.10.22-13.15.26:713][  0]LogFileHelpers: InternalPromptForCheckoutAndSave took 33 ms (total: 7.65 sec)
+[2024.10.22-13.15.26:714][  0]AssetCheck: New page: Asset Save: M_Neons
+[2024.10.22-13.15.26:714][  0]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Shaders/Neons/M_Neons.M_Neons
+[2024.10.22-13.15.43:425][322]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2024.10.22-13.15.55:048][263]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.22-13.15.55:152][263]LogUObjectHash: Compacting FUObjectHashTables data took   0.26ms
+[2024.10.22-13.15.55:165][263]LogSavePackage: Moving output files for package: /Game/Levels/Arcade
+[2024.10.22-13.15.55:166][263]LogSavePackage: Moving '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Saved/Arcade00A4735848AFA26FBFFA4BA642FC5558.tmp' to '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Content/Levels/Arcade.umap'
+[2024.10.22-13.15.55:170][263]LogFileHelpers: Saving map 'Arcade' took 0.040
+[2024.10.22-13.15.55:178][263]LogFileHelpers: InternalPromptForCheckoutAndSave took 129 ms (total: 7.78 sec)
+[2024.10.22-13.15.55:179][263]AssetCheck: New page: Asset Save: Arcade
+[2024.10.22-13.15.55:179][263]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Arcade.Arcade
+[2024.10.22-13.16.15:974][925]MaterialEditorStats: Texture samplers: 0/16
+[2024.10.22-13.16.15:974][925]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.10.22-13.16.15:974][925]MaterialEditorStats: Shader Count: 0
+[2024.10.22-13.16.15:988][927]MaterialEditorStats: Base pass shader: 191 instructions
+[2024.10.22-13.16.15:988][927]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.10.22-13.16.15:988][927]MaterialEditorStats: Texture samplers: 2/16
+[2024.10.22-13.16.15:988][927]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.10.22-13.16.15:988][927]MaterialEditorStats: Shader Count: 4
+[2024.10.22-13.16.17:163][ 65]LogMaterialEditor: Applying material M_Neons
+[2024.10.22-13.16.17:193][ 65]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2024.10.22-13.16.17:369][ 65]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2024.10.22-13.16.58:049][183]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.22-13.16.58:139][183]LogUObjectHash: Compacting FUObjectHashTables data took   0.16ms
+[2024.10.22-13.16.58:152][183]LogSavePackage: Moving output files for package: /Game/Levels/Arcade
+[2024.10.22-13.16.58:152][183]LogSavePackage: Moving '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Saved/Arcade1745038247BD63E523FAEF88CC628B2C.tmp' to '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Content/Levels/Arcade.umap'
+[2024.10.22-13.16.58:157][183]LogFileHelpers: Saving map 'Arcade' took 0.043
+[2024.10.22-13.16.58:164][183]LogFileHelpers: InternalPromptForCheckoutAndSave took 115 ms (total: 7.90 sec)
+[2024.10.22-13.16.58:165][183]AssetCheck: New page: Asset Save: Arcade
+[2024.10.22-13.16.58:165][183]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Arcade.Arcade
+[2024.10.22-13.17.02:148][502]LogMaterialEditor: Saving and Compiling material M_Neons
+[2024.10.22-13.17.02:150][502]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.22-13.17.02:185][502]LogShaderCompilers: Display: ================================================
+[2024.10.22-13.17.02:185][502]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.10.22-13.17.02:185][502]LogShaderCompilers: Display: Total job queries 168, among them cache hits 138 (82.14%)
+[2024.10.22-13.17.02:185][502]LogShaderCompilers: Display: Tracking 30 distinct input hashes that result in 21 distinct outputs (70.00%)
+[2024.10.22-13.17.02:185][502]LogShaderCompilers: Display: RAM used: 676,87 KiB of 819,20 MiB budget. Usage: 0.08%
+[2024.10.22-13.17.02:185][502]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.10.22-13.17.02:185][502]LogShaderCompilers: Display: Shaders Compiled: 26
+[2024.10.22-13.17.02:185][502]LogShaderCompilers: Display: Jobs assigned 26, completed 26 (100%)
+[2024.10.22-13.17.02:185][502]LogShaderCompilers: Display: Average time worker was idle: 63.86 s
+[2024.10.22-13.17.02:185][502]LogShaderCompilers: Display: Time job spent in pending queue: average 0.05 s, longest 0.11 s
+[2024.10.22-13.17.02:186][502]LogShaderCompilers: Display: Job execution time: average 0.58 s, max 1.04 s
+[2024.10.22-13.17.02:186][502]LogShaderCompilers: Display: Job life time (pending + execution): average 0.63 s, max 1.06
+[2024.10.22-13.17.02:186][502]LogShaderCompilers: Display: Shader code size: average 38,738 KiB, min 29,613 KiB, max 60,719 KiB
+[2024.10.22-13.17.02:186][502]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 3.56 s
+[2024.10.22-13.17.02:186][502]LogShaderCompilers: Display: Jobs were issued in 26 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.10.22-13.17.02:186][502]LogShaderCompilers: Display: Average processing rate: 7.30 jobs/sec
+[2024.10.22-13.17.02:186][502]LogShaderCompilers: Display: Total thread time: 9,712 s
+[2024.10.22-13.17.02:186][502]LogShaderCompilers: Display: Total thread preprocess time: 1,317 s
+[2024.10.22-13.17.02:186][502]LogShaderCompilers: Display: Percentage time preprocessing: 13.56%
+[2024.10.22-13.17.02:186][502]LogShaderCompilers: Display: Effective parallelization: 2.73 (times faster than compiling all shaders on one thread). Compare with number of workers: 10
+[2024.10.22-13.17.02:186][502]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.10.22-13.17.02:186][502]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled    1 times, average 0.72 sec, max 0.72 sec, min 0.72 sec)
+[2024.10.22-13.17.02:186][502]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight (compiled    1 times, average 0.71 sec, max 0.71 sec, min 0.71 sec)
+[2024.10.22-13.17.02:186][502]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled    1 times, average 0.64 sec, max 0.64 sec, min 0.64 sec)
+[2024.10.22-13.17.02:186][502]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight (compiled    1 times, average 0.60 sec, max 0.60 sec, min 0.60 sec)
+[2024.10.22-13.17.02:186][502]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy (compiled    1 times, average 0.59 sec, max 0.59 sec, min 0.59 sec)
+[2024.10.22-13.17.02:186][502]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.10.22-13.17.02:186][502]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 11.84% of total time (compiled    4 times, average 0.29 sec, max 0.33 sec, min 0.24 sec)
+[2024.10.22-13.17.02:186][502]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 10.82% of total time (compiled    4 times, average 0.26 sec, max 0.27 sec, min 0.25 sec)
+[2024.10.22-13.17.02:186][502]LogShaderCompilers: Display:                                                 FLumenCardVS - 7.95% of total time (compiled    3 times, average 0.26 sec, max 0.27 sec, min 0.24 sec)
+[2024.10.22-13.17.02:186][502]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight - 7.36% of total time (compiled    1 times, average 0.72 sec, max 0.72 sec, min 0.72 sec)
+[2024.10.22-13.17.02:186][502]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight - 7.28% of total time (compiled    1 times, average 0.71 sec, max 0.71 sec, min 0.71 sec)
+[2024.10.22-13.17.02:186][502]LogShaderCompilers: Display: ================================================
+[2024.10.22-13.17.02:190][502]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Shaders/Neons/M_Neons" FILE="../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Content/Shaders/Neons/M_Neons.uasset" SILENT=true
+[2024.10.22-13.17.02:192][502]LogSavePackage: Moving output files for package: /Game/Shaders/Neons/M_Neons
+[2024.10.22-13.17.02:192][502]LogSavePackage: Moving '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Saved/M_Neons0B23F1DC4BFAA6EBDA43608593ABE88D.tmp' to '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Content/Shaders/Neons/M_Neons.uasset'
+[2024.10.22-13.17.02:197][502]LogFileHelpers: InternalPromptForCheckoutAndSave took 47 ms (total: 7.94 sec)
+[2024.10.22-13.17.02:198][502]AssetCheck: New page: Asset Save: M_Neons
+[2024.10.22-13.17.02:198][502]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Shaders/Neons/M_Neons.M_Neons
+[2024.10.22-13.17.02:199][502]MaterialEditorStats: Base pass shader: 191 instructions
+[2024.10.22-13.17.02:199][502]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.10.22-13.17.02:199][502]MaterialEditorStats: MaxSampler: 239 instructions
+[2024.10.22-13.17.02:199][502]MaterialEditorStats: Texture samplers: 3/16
+[2024.10.22-13.17.02:199][502]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.10.22-13.17.02:199][502]MaterialEditorStats: Shader Count: 16
+[2024.10.22-13.17.15:065][678]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.22-13.17.15:120][678]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2024.10.22-13.17.15:132][678]LogSavePackage: Moving output files for package: /Game/Levels/Arcade
+[2024.10.22-13.17.15:133][678]LogSavePackage: Moving '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Saved/ArcadeD51F64AF40A9C42A210868A312507FBD.tmp' to '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Content/Levels/Arcade.umap'
+[2024.10.22-13.17.15:137][678]LogFileHelpers: Saving map 'Arcade' took 0.041
+[2024.10.22-13.17.15:141][678]LogFileHelpers: InternalPromptForCheckoutAndSave took 76 ms (total: 8.02 sec)
+[2024.10.22-13.17.15:142][678]AssetCheck: New page: Asset Save: Arcade
+[2024.10.22-13.17.15:142][678]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Arcade.Arcade
+[2024.10.22-13.17.24:224][447]Cmd: TRANSACTION UNDO
+[2024.10.22-13.17.24:224][447]LogEditorTransaction: Undo Create Actors
+[2024.10.22-13.17.29:219][830]Cmd: TRANSACTION UNDO
+[2024.10.22-13.17.29:219][830]LogEditorTransaction: Undo Create Actors
+[2024.10.22-13.17.31:957][ 39]Cmd: TRANSACTION UNDO
+[2024.10.22-13.17.31:957][ 39]LogEditorTransaction: Undo Create Actors
+[2024.10.22-13.17.35:895][369]Cmd: TRANSACTION UNDO
+[2024.10.22-13.17.35:895][369]LogEditorTransaction: Undo Create Actors
+[2024.10.22-13.17.42:701][867]Cmd: TRANSACTION UNDO
+[2024.10.22-13.17.42:701][867]LogEditorTransaction: Undo Create Actors
+[2024.10.22-13.17.48:464][279]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.22-13.17.48:516][279]LogUObjectHash: Compacting FUObjectHashTables data took   0.19ms
+[2024.10.22-13.17.48:529][279]LogSavePackage: Moving output files for package: /Game/Levels/Arcade
+[2024.10.22-13.17.48:529][279]LogSavePackage: Moving '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Saved/Arcade823549354AA416B017EF6897711F48F5.tmp' to '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Content/Levels/Arcade.umap'
+[2024.10.22-13.17.48:534][279]LogFileHelpers: Saving map 'Arcade' took 0.039
+[2024.10.22-13.17.48:538][279]LogFileHelpers: InternalPromptForCheckoutAndSave took 74 ms (total: 8.10 sec)
+[2024.10.22-13.17.48:539][279]AssetCheck: New page: Asset Save: Arcade
+[2024.10.22-13.17.48:539][279]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Arcade.Arcade
+[2024.10.22-13.17.54:161][712]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.22-13.17.54:251][712]LogUObjectHash: Compacting FUObjectHashTables data took   0.31ms
+[2024.10.22-13.17.54:264][712]LogSavePackage: Moving output files for package: /Game/Levels/Arcade
+[2024.10.22-13.17.54:264][712]LogSavePackage: Moving '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Saved/ArcadeBD3D1870421326407D142E9C1E41FA95.tmp' to '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Content/Levels/Arcade.umap'
+[2024.10.22-13.17.54:269][712]LogFileHelpers: Saving map 'Arcade' took 0.040
+[2024.10.22-13.17.54:274][712]LogFileHelpers: InternalPromptForCheckoutAndSave took 112 ms (total: 8.21 sec)
+[2024.10.22-13.17.54:275][712]AssetCheck: New page: Asset Save: Arcade
+[2024.10.22-13.17.54:275][712]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Arcade.Arcade
+[2024.10.22-13.18.06:801][ 73]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.22-13.18.06:882][ 73]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2024.10.22-13.18.06:894][ 73]LogSavePackage: Moving output files for package: /Game/Levels/Arcade
+[2024.10.22-13.18.06:894][ 73]LogSavePackage: Moving '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Saved/ArcadeB68A8E344ED2A889FDCF7AB515CF1961.tmp' to '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Content/Levels/Arcade.umap'
+[2024.10.22-13.18.06:899][ 73]LogFileHelpers: Saving map 'Arcade' took 0.039
+[2024.10.22-13.18.06:904][ 73]LogFileHelpers: InternalPromptForCheckoutAndSave took 102 ms (total: 8.31 sec)
+[2024.10.22-13.18.06:905][ 73]AssetCheck: New page: Asset Save: Arcade
+[2024.10.22-13.18.06:905][ 73]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Arcade.Arcade
+[2024.10.22-13.18.49:836][210]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.22-13.18.49:920][210]LogUObjectHash: Compacting FUObjectHashTables data took   0.17ms
+[2024.10.22-13.18.49:933][210]LogSavePackage: Moving output files for package: /Game/Levels/Arcade
+[2024.10.22-13.18.49:933][210]LogSavePackage: Moving '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Saved/ArcadeBDF95C4A4C075990162D03939C96E98C.tmp' to '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Content/Levels/Arcade.umap'
+[2024.10.22-13.18.49:938][210]LogFileHelpers: Saving map 'Arcade' took 0.043
+[2024.10.22-13.18.49:942][210]LogFileHelpers: InternalPromptForCheckoutAndSave took 106 ms (total: 8.42 sec)
+[2024.10.22-13.18.49:943][210]AssetCheck: New page: Asset Save: Arcade
+[2024.10.22-13.18.49:943][210]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Arcade.Arcade
+[2024.10.22-13.18.57:491][778]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.22-13.18.57:582][778]LogUObjectHash: Compacting FUObjectHashTables data took   0.25ms
+[2024.10.22-13.18.57:595][778]LogSavePackage: Moving output files for package: /Game/Levels/Arcade
+[2024.10.22-13.18.57:595][778]LogSavePackage: Moving '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Saved/ArcadeD6E832E24B48F751D82CF5BB5FBA89C9.tmp' to '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Content/Levels/Arcade.umap'
+[2024.10.22-13.18.57:600][778]LogFileHelpers: Saving map 'Arcade' took 0.040
+[2024.10.22-13.18.57:606][778]LogFileHelpers: InternalPromptForCheckoutAndSave took 114 ms (total: 8.53 sec)
+[2024.10.22-13.18.57:607][778]AssetCheck: New page: Asset Save: Arcade
+[2024.10.22-13.18.57:607][778]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Arcade.Arcade
+[2024.10.22-13.22.43:740][754]LogDerivedDataCache: C:/Users/ra00333610/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:01.079 and deleted 0 files with total size 0 MiB and 498 empty folders. Scanned 746 files in 1809 folders with total size 67 MiB.
+[2024.10.22-13.25.02:645][241]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.22-13.25.02:737][241]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2024.10.22-13.25.02:750][241]LogSavePackage: Moving output files for package: /Game/Levels/Arcade
+[2024.10.22-13.25.02:750][241]LogSavePackage: Moving '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Saved/Arcade939FF2ED4ABC20C5A4ED75A63F005AFB.tmp' to '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Content/Levels/Arcade.umap'
+[2024.10.22-13.25.02:755][241]LogFileHelpers: Saving map 'Arcade' took 0.043
+[2024.10.22-13.25.02:760][241]LogFileHelpers: InternalPromptForCheckoutAndSave took 115 ms (total: 8.65 sec)
+[2024.10.22-13.25.02:761][241]AssetCheck: New page: Asset Save: Arcade
+[2024.10.22-13.25.02:761][241]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Arcade.Arcade
+[2024.10.22-13.25.18:492][495]LogEditorFactories: Performing atomic reimport of [C:/Users/ra00333610/Downloads/Arcade/NeonArcade.fbx]
+[2024.10.22-13.25.18:505][495]LogFbx: Loading FBX Scene from C:/Users/ra00333610/Downloads/Arcade/NeonArcade.fbx
+[2024.10.22-13.25.18:510][495]LogFbx: FBX Scene Loaded Succesfully
+[2024.10.22-13.25.18:578][495]LogFbx: Display: Triangulating static mesh Plane.004
+[2024.10.22-13.25.18:614][495]LogEditorFactories: -- imported successfully
+[2024.10.22-13.25.29:456][278]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.22-13.25.29:518][278]LogSavePackage: Moving output files for package: /Game/Meshs/Scenery/DecorationWalls/SM_NeonArcade
+[2024.10.22-13.25.29:518][278]LogSavePackage: Moving '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Saved/SM_NeonArcadeC115FF704A69B3DB506D68989C4158A2.tmp' to '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Content/Meshs/Scenery/DecorationWalls/SM_NeonArcade.uasset'
+[2024.10.22-13.25.29:526][278]LogFileHelpers: InternalPromptForCheckoutAndSave took 70 ms (total: 8.72 sec)
+[2024.10.22-13.25.29:527][278]AssetCheck: New page: Asset Save: SM_NeonArcade
+[2024.10.22-13.25.29:527][278]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Meshs/Scenery/DecorationWalls/SM_NeonArcade.SM_NeonArcade
+[2024.10.22-13.25.35:388][705]Cmd: TRANSACTION UNDO
+[2024.10.22-13.25.35:388][705]LogEditorTransaction: Undo Move Elements
+[2024.10.22-13.26.41:311][821]LogEditorFactories: Performing atomic reimport of [C:/Users/ra00333610/Downloads/Arcade/NeonNameArcade.fbx]
+[2024.10.22-13.26.41:319][821]LogFbx: Loading FBX Scene from C:/Users/ra00333610/Downloads/Arcade/NeonNameArcade.fbx
+[2024.10.22-13.26.41:322][821]LogFbx: FBX Scene Loaded Succesfully
+[2024.10.22-13.26.41:377][821]LogFbx: Display: Triangulating static mesh ARCADE.002
+[2024.10.22-13.26.41:408][821]LogStaticMesh: Warning: SM_NeonNameArcade has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2024.10.22-13.26.41:408][821]LogStaticMesh: Warning: SM_NeonNameArcade has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2024.10.22-13.26.41:414][821]LogEditorFactories: -- imported successfully
+[2024.10.22-13.26.41:414][821]FBXImport: Warning: SM_NeonNameArcade has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2024.10.22-13.26.41:415][821]FBXImport: Warning: SM_NeonNameArcade has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2024.10.22-13.26.53:000][194]LogEditorFactories: Performing atomic reimport of [C:/Users/ra00333610/Downloads/Arcade/SM_NeonNameArcade.fbx]
+[2024.10.22-13.26.53:004][194]LogFbx: Loading FBX Scene from C:/Users/ra00333610/Downloads/Arcade/SM_NeonNameArcade.fbx
+[2024.10.22-13.26.53:008][194]LogFbx: FBX Scene Loaded Succesfully
+[2024.10.22-13.26.53:065][194]LogFbx: Display: Triangulating static mesh ARCADE.002
+[2024.10.22-13.26.53:085][194]LogFbx: Display: Triangulating static mesh ARCADE.004
+[2024.10.22-13.26.53:096][194]LogStaticMesh: Display: Building static mesh SM_NeonNameArcade...
+[2024.10.22-13.26.53:160][194]LogStaticMesh: Built static mesh [0.06s] /Game/Meshs/Scenery/DecorationWalls/SM_NeonNameArcade.SM_NeonNameArcade
+[2024.10.22-13.26.53:169][194]LogStaticMesh: Warning: SM_NeonNameArcade has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2024.10.22-13.26.53:169][194]LogStaticMesh: Warning: SM_NeonNameArcade has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2024.10.22-13.26.53:175][194]LogEditorFactories: -- imported successfully
+[2024.10.22-13.26.53:176][194]FBXImport: Warning: SM_NeonNameArcade has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2024.10.22-13.26.53:176][194]FBXImport: Warning: SM_NeonNameArcade has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2024.10.22-13.27.01:918][788]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Meshs/Scenery/DecorationWalls/SM_NeonNameArcade.SM_NeonNameArcade
+[2024.10.22-13.27.01:918][788]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Meshs/Scenery/DecorationWalls/SM_NeonNameArcade.SM_NeonNameArcade
+[2024.10.22-13.27.01:919][788]LogActorFactory: Actor Factory spawned StaticMesh /Game/Meshs/Scenery/DecorationWalls/SM_NeonNameArcade.SM_NeonNameArcade as actor: StaticMeshActor /Game/Levels/Arcade.Arcade:PersistentLevel.StaticMeshActor_134
+[2024.10.22-13.27.03:057][923]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Meshs/Scenery/DecorationWalls/SM_NeonNameArcade.SM_NeonNameArcade
+[2024.10.22-13.27.03:057][923]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Meshs/Scenery/DecorationWalls/SM_NeonNameArcade.SM_NeonNameArcade
+[2024.10.22-13.27.03:058][923]LogActorFactory: Actor Factory spawned StaticMesh /Game/Meshs/Scenery/DecorationWalls/SM_NeonNameArcade.SM_NeonNameArcade as actor: StaticMeshActor /Game/Levels/Arcade.Arcade:PersistentLevel.StaticMeshActor_135
+[2024.10.22-13.27.04:637][ 38]Cmd: TRANSACTION UNDO
+[2024.10.22-13.27.04:637][ 38]LogEditorTransaction: Undo Create Actors
+[2024.10.22-13.27.10:171][410]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Meshs/Scenery/DecorationWalls/SM_NeonNameArcade.SM_NeonNameArcade
+[2024.10.22-13.27.10:171][410]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Meshs/Scenery/DecorationWalls/SM_NeonNameArcade.SM_NeonNameArcade
+[2024.10.22-13.27.10:172][410]LogActorFactory: Actor Factory spawned StaticMesh /Game/Meshs/Scenery/DecorationWalls/SM_NeonNameArcade.SM_NeonNameArcade as actor: StaticMeshActor /Game/Levels/Arcade.Arcade:PersistentLevel.StaticMeshActor_136
+[2024.10.22-13.27.10:912][497]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Meshs/Scenery/DecorationWalls/SM_NeonNameArcade.SM_NeonNameArcade
+[2024.10.22-13.27.10:912][497]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Meshs/Scenery/DecorationWalls/SM_NeonNameArcade.SM_NeonNameArcade
+[2024.10.22-13.27.10:913][497]LogActorFactory: Actor Factory spawned StaticMesh /Game/Meshs/Scenery/DecorationWalls/SM_NeonNameArcade.SM_NeonNameArcade as actor: StaticMeshActor /Game/Levels/Arcade.Arcade:PersistentLevel.StaticMeshActor_137
+[2024.10.22-13.27.12:228][598]Cmd: TRANSACTION UNDO
+[2024.10.22-13.27.12:228][598]LogEditorTransaction: Undo Create Actors
+[2024.10.22-13.27.12:558][603]Cmd: TRANSACTION UNDO
+[2024.10.22-13.27.12:558][603]LogEditorTransaction: Undo Clicking on Elements
+[2024.10.22-13.27.54:083][100]LogEditorFactories: Performing atomic reimport of [C:/Users/ra00333610/Downloads/Arcade/SM_NeonNameArcade.fbx]
+[2024.10.22-13.27.54:087][100]LogFbx: Loading FBX Scene from C:/Users/ra00333610/Downloads/Arcade/SM_NeonNameArcade.fbx
+[2024.10.22-13.27.54:090][100]LogFbx: FBX Scene Loaded Succesfully
+[2024.10.22-13.27.54:151][100]LogFbx: Display: Triangulating static mesh ARCADE.002
+[2024.10.22-13.27.54:170][100]LogFbx: Display: Triangulating static mesh ARCADE.004
+[2024.10.22-13.27.54:178][100]LogStaticMesh: Display: Building static mesh SM_NeonNameArcade...
+[2024.10.22-13.27.54:244][100]LogStaticMesh: Built static mesh [0.07s] /Game/Meshs/Scenery/DecorationWalls/SM_NeonNameArcade.SM_NeonNameArcade
+[2024.10.22-13.27.54:252][100]LogStaticMesh: Warning: SM_NeonNameArcade has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2024.10.22-13.27.54:252][100]LogStaticMesh: Warning: SM_NeonNameArcade has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2024.10.22-13.27.54:257][100]LogEditorFactories: -- imported successfully
+[2024.10.22-13.27.54:258][100]FBXImport: Warning: SM_NeonNameArcade has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2024.10.22-13.27.54:258][100]FBXImport: Warning: SM_NeonNameArcade has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2024.10.22-13.28.06:666][973]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.22-13.28.06:731][973]LogSavePackage: Moving output files for package: /Game/Meshs/Scenery/DecorationWalls/SM_NeonNameArcade
+[2024.10.22-13.28.06:731][973]LogSavePackage: Moving '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Saved/SM_NeonNameArcade6AFFA78F4F0D5827B2FC41BF1B88329F.tmp' to '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Content/Meshs/Scenery/DecorationWalls/SM_NeonNameArcade.uasset'
+[2024.10.22-13.28.06:737][973]LogFileHelpers: InternalPromptForCheckoutAndSave took 71 ms (total: 8.79 sec)
+[2024.10.22-13.28.06:737][973]AssetCheck: New page: Asset Save: SM_NeonNameArcade
+[2024.10.22-13.28.06:738][973]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Meshs/Scenery/DecorationWalls/SM_NeonNameArcade.SM_NeonNameArcade
+[2024.10.22-13.28.13:444][231]LogEditorFactories: Performing atomic reimport of [C:/Users/ra00333610/Downloads/Arcade/SM_NeonNameArcade.fbx]
+[2024.10.22-13.28.13:447][231]LogFbx: Loading FBX Scene from C:/Users/ra00333610/Downloads/Arcade/SM_NeonNameArcade.fbx
+[2024.10.22-13.28.13:451][231]LogFbx: FBX Scene Loaded Succesfully
+[2024.10.22-13.28.13:506][231]LogFbx: Display: Triangulating static mesh ARCADE.002
+[2024.10.22-13.28.13:524][231]LogFbx: Display: Triangulating static mesh ARCADE.004
+[2024.10.22-13.28.13:535][231]LogStaticMesh: Warning: SM_NeonNameArcade has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2024.10.22-13.28.13:535][231]LogStaticMesh: Warning: SM_NeonNameArcade has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2024.10.22-13.28.13:540][231]LogEditorFactories: -- imported successfully
+[2024.10.22-13.28.13:540][231]FBXImport: Warning: SM_NeonNameArcade has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2024.10.22-13.28.13:540][231]FBXImport: Warning: SM_NeonNameArcade has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2024.10.22-13.28.18:320][545]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.22-13.28.18:397][545]LogSavePackage: Moving output files for package: /Game/Meshs/Scenery/DecorationWalls/SM_NeonNameArcade
+[2024.10.22-13.28.18:398][545]LogSavePackage: Moving '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Saved/SM_NeonNameArcade412079334C578B26D2BFA496FD41FE38.tmp' to '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Content/Meshs/Scenery/DecorationWalls/SM_NeonNameArcade.uasset'
+[2024.10.22-13.28.18:404][545]LogFileHelpers: InternalPromptForCheckoutAndSave took 84 ms (total: 8.87 sec)
+[2024.10.22-13.28.18:405][545]AssetCheck: New page: Asset Save: SM_NeonNameArcade
+[2024.10.22-13.28.18:405][545]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Meshs/Scenery/DecorationWalls/SM_NeonNameArcade.SM_NeonNameArcade
+[2024.10.22-13.28.25:456][128]LogContentBrowser: Deferred new asset file creation: M_Neons_Inst
+[2024.10.22-13.28.25:477][128]LogContentBrowser: Creating deferred item: M_Neons_Inst
+[2024.10.22-13.28.25:486][129]LogContentBrowser: Renaming the item being created (Deferred Item: M_Neons_Inst).
+[2024.10.22-13.28.41:954][362]LogContentBrowser: Attempting asset rename: M_Neons_Inst -> MI_Blue
+[2024.10.22-13.28.41:955][362]LogContentBrowser: End creating deferred item M_Neons_Inst
+[2024.10.22-13.28.43:556][474]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.22-13.28.43:626][474]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Shaders/Neons/MI_Blue" FILE="../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Content/Shaders/Neons/MI_Blue.uasset" SILENT=true
+[2024.10.22-13.28.43:627][474]LogSavePackage: Moving output files for package: /Game/Shaders/Neons/MI_Blue
+[2024.10.22-13.28.43:627][474]LogSavePackage: Moving '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Saved/MI_Blue74FB196F4A3C8A0598128EB35CD788D5.tmp' to '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Content/Shaders/Neons/MI_Blue.uasset'
+[2024.10.22-13.28.43:634][474]LogFileHelpers: InternalPromptForCheckoutAndSave took 78 ms (total: 8.95 sec)
+[2024.10.22-13.28.43:634][474]AssetCheck: New page: Asset Save: MI_Blue
+[2024.10.22-13.28.43:634][474]LogContentValidation: Display: Validating /Script/Engine.MaterialInstanceConstant /Game/Shaders/Neons/MI_Blue.MI_Blue
+[2024.10.22-13.28.43:969][503]LogAssetEditorSubsystem: Opening Asset editor for MaterialInstanceConstant /Game/Shaders/Neons/MI_Blue.MI_Blue
+[2024.10.22-13.28.43:972][503]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.22-13.28.43:972][503]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.22-13.28.44:077][503]LogViewport: Scene viewport resized to 1335x902, mode Windowed.
+[2024.10.22-13.28.44:089][503]LogSlate: Took 0.000182 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2024.10.22-13.29.17:913][971]LogSlate: Window 'Color Picker' being destroyed
+[2024.10.22-13.29.19:172][122]Cmd: TRANSACTION UNDO
+[2024.10.22-13.29.19:172][122]LogEditorTransaction: Undo Edit Cor
+[2024.10.22-13.29.22:097][405]LogSlate: Window 'Color Picker' being destroyed
+[2024.10.22-13.29.27:329][ 22]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.22-13.29.27:395][ 22]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Shaders/Neons/MI_Blue" FILE="../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Content/Shaders/Neons/MI_Blue.uasset" SILENT=true
+[2024.10.22-13.29.27:416][ 22]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2024.10.22-13.29.27:420][ 22]LogUObjectHash: Compacting FUObjectHashTables data took   0.16ms
+[2024.10.22-13.29.27:422][ 22]LogSavePackage: Moving output files for package: /Game/Shaders/Neons/MI_Blue
+[2024.10.22-13.29.27:422][ 22]LogSavePackage: Moving '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Saved/MI_Blue4FAD5AC647DCF11DDEAFB5A52451F161.tmp' to '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Content/Shaders/Neons/MI_Blue.uasset'
+[2024.10.22-13.29.27:427][ 22]LogFileHelpers: InternalPromptForCheckoutAndSave took 97 ms (total: 9.05 sec)
+[2024.10.22-13.29.27:428][ 22]AssetCheck: New page: Asset Save: MI_Blue
+[2024.10.22-13.29.27:428][ 22]LogContentValidation: Display: Validating /Script/Engine.MaterialInstanceConstant /Game/Shaders/Neons/MI_Blue.MI_Blue
+[2024.10.22-13.29.31:684][417]Cmd: TRANSACTION UNDO
+[2024.10.22-13.29.31:684][417]LogEditorTransaction: Undo Create Actors
+[2024.10.22-13.29.42:984][260]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.22-13.29.43:076][260]LogUObjectHash: Compacting FUObjectHashTables data took   0.36ms
+[2024.10.22-13.29.43:089][260]LogSavePackage: Moving output files for package: /Game/Levels/Arcade
+[2024.10.22-13.29.43:090][260]LogSavePackage: Moving '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Saved/Arcade3E1CCE26446019619411DB986C9A550F.tmp' to '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Content/Levels/Arcade.umap'
+[2024.10.22-13.29.43:094][260]LogFileHelpers: Saving map 'Arcade' took 0.041
+[2024.10.22-13.29.43:100][260]LogFileHelpers: InternalPromptForCheckoutAndSave took 116 ms (total: 9.17 sec)
+[2024.10.22-13.29.43:101][260]AssetCheck: New page: Asset Save: Arcade
+[2024.10.22-13.29.43:101][260]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Arcade.Arcade
+[2024.10.22-13.29.48:443][739]LogContentBrowser: Deferred new asset file creation: M_Neons_Inst
+[2024.10.22-13.29.48:464][739]LogContentBrowser: Creating deferred item: M_Neons_Inst
+[2024.10.22-13.29.48:472][740]LogContentBrowser: Renaming the item being created (Deferred Item: M_Neons_Inst).
+[2024.10.22-13.29.56:068][271]LogContentBrowser: Attempting asset rename: M_Neons_Inst -> MI_Pink
+[2024.10.22-13.29.56:068][271]LogContentBrowser: End creating deferred item M_Neons_Inst
+[2024.10.22-13.29.57:695][380]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.22-13.29.57:762][380]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Shaders/Neons/MI_Pink" FILE="../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Content/Shaders/Neons/MI_Pink.uasset" SILENT=true
+[2024.10.22-13.29.57:763][380]LogSavePackage: Moving output files for package: /Game/Shaders/Neons/MI_Pink
+[2024.10.22-13.29.57:763][380]LogSavePackage: Moving '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Saved/MI_Pink47DD2ECF493F2ED95EF435A4D96F8A20.tmp' to '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Content/Shaders/Neons/MI_Pink.uasset'
+[2024.10.22-13.29.57:770][380]LogFileHelpers: InternalPromptForCheckoutAndSave took 74 ms (total: 9.24 sec)
+[2024.10.22-13.29.57:770][380]AssetCheck: New page: Asset Save: MI_Pink
+[2024.10.22-13.29.57:770][380]LogContentValidation: Display: Validating /Script/Engine.MaterialInstanceConstant /Game/Shaders/Neons/MI_Pink.MI_Pink
+[2024.10.22-13.30.01:961][785]LogContentBrowser: Deferred new asset file creation: M_Neons_Inst
+[2024.10.22-13.30.01:982][785]LogContentBrowser: Creating deferred item: M_Neons_Inst
+[2024.10.22-13.30.01:990][786]LogContentBrowser: Renaming the item being created (Deferred Item: M_Neons_Inst).
+[2024.10.22-13.30.10:092][386]LogContentBrowser: Attempting asset rename: M_Neons_Inst -> MI_Green
+[2024.10.22-13.30.10:093][386]LogContentBrowser: End creating deferred item M_Neons_Inst
+[2024.10.22-13.30.11:803][508]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.22-13.30.11:859][508]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Shaders/Neons/MI_Green" FILE="../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Content/Shaders/Neons/MI_Green.uasset" SILENT=true
+[2024.10.22-13.30.11:860][508]LogSavePackage: Moving output files for package: /Game/Shaders/Neons/MI_Green
+[2024.10.22-13.30.11:860][508]LogSavePackage: Moving '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Saved/MI_Green4522F4534A3083C9C3E1A3B89382DA3C.tmp' to '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Content/Shaders/Neons/MI_Green.uasset'
+[2024.10.22-13.30.11:866][508]LogFileHelpers: InternalPromptForCheckoutAndSave took 63 ms (total: 9.30 sec)
+[2024.10.22-13.30.11:867][508]AssetCheck: New page: Asset Save: MI_Green
+[2024.10.22-13.30.11:867][508]LogContentValidation: Display: Validating /Script/Engine.MaterialInstanceConstant /Game/Shaders/Neons/MI_Green.MI_Green
+[2024.10.22-13.30.12:422][552]LogAssetEditorSubsystem: Opening Asset editor for MaterialInstanceConstant /Game/Shaders/Neons/MI_Green.MI_Green
+[2024.10.22-13.30.12:423][552]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.22-13.30.12:423][552]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.22-13.30.12:523][552]LogViewport: Scene viewport resized to 1335x902, mode Windowed.
+[2024.10.22-13.30.23:907][201]LogSlate: Window 'Color Picker' being destroyed
+[2024.10.22-13.30.25:632][399]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.22-13.30.25:695][399]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Shaders/Neons/MI_Green" FILE="../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Content/Shaders/Neons/MI_Green.uasset" SILENT=true
+[2024.10.22-13.30.25:699][399]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2024.10.22-13.30.25:704][399]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2024.10.22-13.30.25:706][399]LogSavePackage: Moving output files for package: /Game/Shaders/Neons/MI_Green
+[2024.10.22-13.30.25:706][399]LogSavePackage: Moving '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Saved/MI_Green29BDB0E74D2BE6FED607A59C18C5E11C.tmp' to '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Content/Shaders/Neons/MI_Green.uasset'
+[2024.10.22-13.30.25:711][399]LogFileHelpers: InternalPromptForCheckoutAndSave took 78 ms (total: 9.38 sec)
+[2024.10.22-13.30.25:711][399]AssetCheck: New page: Asset Save: MI_Green
+[2024.10.22-13.30.25:711][399]LogContentValidation: Display: Validating /Script/Engine.MaterialInstanceConstant /Game/Shaders/Neons/MI_Green.MI_Green
+[2024.10.22-13.30.33:511][ 33]LogContentBrowser: Deferred new asset file creation: M_Neons_Inst
+[2024.10.22-13.30.33:533][ 33]LogContentBrowser: Creating deferred item: M_Neons_Inst
+[2024.10.22-13.30.33:541][ 34]LogContentBrowser: Renaming the item being created (Deferred Item: M_Neons_Inst).
+[2024.10.22-13.30.39:641][483]LogContentBrowser: Attempting asset rename: M_Neons_Inst -> MI_Yellow
+[2024.10.22-13.30.39:641][483]LogContentBrowser: End creating deferred item M_Neons_Inst
+[2024.10.22-13.30.41:278][601]LogAssetEditorSubsystem: Opening Asset editor for MaterialInstanceConstant /Game/Shaders/Neons/MI_Yellow.MI_Yellow
+[2024.10.22-13.30.41:279][601]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.22-13.30.41:279][601]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.22-13.30.41:382][601]LogViewport: Scene viewport resized to 1335x902, mode Windowed.
+[2024.10.22-13.30.58:468][312]LogSlate: Window 'Color Picker' being destroyed
+[2024.10.22-13.31.05:858][191]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.22-13.31.05:896][191]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Shaders/Neons/MI_Yellow" FILE="../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Content/Shaders/Neons/MI_Yellow.uasset" SILENT=true
+[2024.10.22-13.31.05:900][191]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2024.10.22-13.31.05:904][191]LogUObjectHash: Compacting FUObjectHashTables data took   0.19ms
+[2024.10.22-13.31.05:906][191]LogSavePackage: Moving output files for package: /Game/Shaders/Neons/MI_Yellow
+[2024.10.22-13.31.05:906][191]LogSavePackage: Moving '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Saved/MI_YellowEF0A3EF74FA56BBBD4EF91846F051F3D.tmp' to '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Content/Shaders/Neons/MI_Yellow.uasset'
+[2024.10.22-13.31.05:912][191]LogFileHelpers: InternalPromptForCheckoutAndSave took 54 ms (total: 9.44 sec)
+[2024.10.22-13.31.05:912][191]AssetCheck: New page: Asset Save: MI_Yellow
+[2024.10.22-13.31.05:912][191]LogContentValidation: Display: Validating /Script/Engine.MaterialInstanceConstant /Game/Shaders/Neons/MI_Yellow.MI_Yellow
+[2024.10.22-13.31.12:841][787]LogContentBrowser: Attempting asset rename: MI_Yellow -> MI_Orange
+[2024.10.22-13.31.12:870][787]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.22-13.31.12:926][787]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Shaders/Neons/MI_Orange" FILE="../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Content/Shaders/Neons/MI_Orange.uasset" SILENT=true
+[2024.10.22-13.31.12:930][787]LogUObjectHash: Compacting FUObjectHashTables data took   0.31ms
+[2024.10.22-13.31.12:933][787]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2024.10.22-13.31.12:935][787]LogSavePackage: Moving output files for package: /Game/Shaders/Neons/MI_Orange
+[2024.10.22-13.31.12:935][787]LogSavePackage: Moving '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Saved/MI_Orange4A0C07E9452C90EF353AD885E62A43CE.tmp' to '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Content/Shaders/Neons/MI_Orange.uasset'
+[2024.10.22-13.31.12:942][787]LogFileHelpers: InternalPromptForCheckoutAndSave took 72 ms (total: 9.51 sec)
+[2024.10.22-13.31.12:948][787]LogUObjectHash: Compacting FUObjectHashTables data took   0.21ms
+[2024.10.22-13.31.12:953][787]LogUObjectHash: Compacting FUObjectHashTables data took   0.38ms
+[2024.10.22-13.31.12:956][787]LogUObjectHash: Compacting FUObjectHashTables data took   0.25ms
+[2024.10.22-13.31.12:957][787]AssetCheck: New page: Asset Save: MI_Orange
+[2024.10.22-13.31.12:957][787]LogContentValidation: Display: Validating /Script/Engine.MaterialInstanceConstant /Game/Shaders/Neons/MI_Orange.MI_Orange
+[2024.10.22-13.31.13:949][858]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.22-13.31.14:023][858]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Shaders/Neons/MI_Orange" FILE="../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Content/Shaders/Neons/MI_Orange.uasset" SILENT=true
+[2024.10.22-13.31.14:027][858]LogUObjectHash: Compacting FUObjectHashTables data took   0.16ms
+[2024.10.22-13.31.14:031][858]LogUObjectHash: Compacting FUObjectHashTables data took   0.19ms
+[2024.10.22-13.31.14:032][858]LogSavePackage: Moving output files for package: /Game/Shaders/Neons/MI_Orange
+[2024.10.22-13.31.14:032][858]LogSavePackage: Moving '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Saved/MI_Orange2C8592964991106A94DAAC860245C9B2.tmp' to '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Content/Shaders/Neons/MI_Orange.uasset'
+[2024.10.22-13.31.14:039][858]LogFileHelpers: InternalPromptForCheckoutAndSave took 89 ms (total: 9.60 sec)
+[2024.10.22-13.31.14:039][858]AssetCheck: New page: Asset Save: MI_Orange
+[2024.10.22-13.31.14:039][858]LogContentValidation: Display: Validating /Script/Engine.MaterialInstanceConstant /Game/Shaders/Neons/MI_Orange.MI_Orange
+[2024.10.22-13.31.22:271][324]LogSlate: Window 'Color Picker' being destroyed
+[2024.10.22-13.31.22:290][326]LogShaderCompilers: Display: ================================================
+[2024.10.22-13.31.22:290][326]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.10.22-13.31.22:290][326]LogShaderCompilers: Display: Total job queries 172, among them cache hits 142 (82.56%)
+[2024.10.22-13.31.22:290][326]LogShaderCompilers: Display: Tracking 30 distinct input hashes that result in 21 distinct outputs (70.00%)
+[2024.10.22-13.31.22:290][326]LogShaderCompilers: Display: RAM used: 676,87 KiB of 819,20 MiB budget. Usage: 0.08%
+[2024.10.22-13.31.22:290][326]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.10.22-13.31.22:290][326]LogShaderCompilers: Display: Shaders Compiled: 26
+[2024.10.22-13.31.22:290][326]LogShaderCompilers: Display: Jobs assigned 26, completed 26 (100%)
+[2024.10.22-13.31.22:290][326]LogShaderCompilers: Display: Average time worker was idle: 63.86 s
+[2024.10.22-13.31.22:290][326]LogShaderCompilers: Display: Time job spent in pending queue: average 0.05 s, longest 0.11 s
+[2024.10.22-13.31.22:290][326]LogShaderCompilers: Display: Job execution time: average 0.58 s, max 1.04 s
+[2024.10.22-13.31.22:290][326]LogShaderCompilers: Display: Job life time (pending + execution): average 0.63 s, max 1.06
+[2024.10.22-13.31.22:290][326]LogShaderCompilers: Display: Shader code size: average 38,738 KiB, min 29,613 KiB, max 60,719 KiB
+[2024.10.22-13.31.22:290][326]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 3.56 s
+[2024.10.22-13.31.22:290][326]LogShaderCompilers: Display: Jobs were issued in 26 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.10.22-13.31.22:290][326]LogShaderCompilers: Display: Average processing rate: 7.30 jobs/sec
+[2024.10.22-13.31.22:290][326]LogShaderCompilers: Display: Total thread time: 9,712 s
+[2024.10.22-13.31.22:290][326]LogShaderCompilers: Display: Total thread preprocess time: 1,317 s
+[2024.10.22-13.31.22:290][326]LogShaderCompilers: Display: Percentage time preprocessing: 13.56%
+[2024.10.22-13.31.22:290][326]LogShaderCompilers: Display: Effective parallelization: 2.73 (times faster than compiling all shaders on one thread). Compare with number of workers: 10
+[2024.10.22-13.31.22:290][326]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.10.22-13.31.22:290][326]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled    1 times, average 0.72 sec, max 0.72 sec, min 0.72 sec)
+[2024.10.22-13.31.22:290][326]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight (compiled    1 times, average 0.71 sec, max 0.71 sec, min 0.71 sec)
+[2024.10.22-13.31.22:290][326]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled    1 times, average 0.64 sec, max 0.64 sec, min 0.64 sec)
+[2024.10.22-13.31.22:290][326]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight (compiled    1 times, average 0.60 sec, max 0.60 sec, min 0.60 sec)
+[2024.10.22-13.31.22:290][326]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy (compiled    1 times, average 0.59 sec, max 0.59 sec, min 0.59 sec)
+[2024.10.22-13.31.22:290][326]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.10.22-13.31.22:290][326]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 11.84% of total time (compiled    4 times, average 0.29 sec, max 0.33 sec, min 0.24 sec)
+[2024.10.22-13.31.22:290][326]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 10.82% of total time (compiled    4 times, average 0.26 sec, max 0.27 sec, min 0.25 sec)
+[2024.10.22-13.31.22:290][326]LogShaderCompilers: Display:                                                 FLumenCardVS - 7.95% of total time (compiled    3 times, average 0.26 sec, max 0.27 sec, min 0.24 sec)
+[2024.10.22-13.31.22:290][326]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight - 7.36% of total time (compiled    1 times, average 0.72 sec, max 0.72 sec, min 0.72 sec)
+[2024.10.22-13.31.22:290][326]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight - 7.28% of total time (compiled    1 times, average 0.71 sec, max 0.71 sec, min 0.71 sec)
+[2024.10.22-13.31.22:290][326]LogShaderCompilers: Display: ================================================
+[2024.10.22-13.31.23:377][448]MaterialEditorStats: Base pass shader: 191 instructions
+[2024.10.22-13.31.23:377][448]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.10.22-13.31.23:377][448]MaterialEditorStats: Texture samplers: 2/16
+[2024.10.22-13.31.23:377][448]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.10.22-13.31.23:377][448]MaterialEditorStats: Shader Count: 4
+[2024.10.22-13.31.26:811][708]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.22-13.31.26:879][708]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2024.10.22-13.31.26:891][708]LogSavePackage: Moving output files for package: /Game/Levels/Arcade
+[2024.10.22-13.31.26:891][708]LogSavePackage: Moving '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Saved/ArcadeC68B64974941B3CD29359EB944900E41.tmp' to '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Content/Levels/Arcade.umap'
+[2024.10.22-13.31.26:896][708]LogFileHelpers: Saving map 'Arcade' took 0.038
+[2024.10.22-13.31.26:901][708]LogFileHelpers: InternalPromptForCheckoutAndSave took 89 ms (total: 9.69 sec)
+[2024.10.22-13.31.26:902][708]AssetCheck: New page: Asset Save: Arcade
+[2024.10.22-13.31.26:902][708]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Arcade.Arcade
+[2024.10.22-13.31.39:124][325]LogContentBrowser: Deferred new asset file creation: M_Neons_Inst
+[2024.10.22-13.31.39:153][325]LogContentBrowser: Creating deferred item: M_Neons_Inst
+[2024.10.22-13.31.39:161][326]LogContentBrowser: Renaming the item being created (Deferred Item: M_Neons_Inst).
+[2024.10.22-13.31.44:101][692]LogContentBrowser: Attempting asset rename: M_Neons_Inst -> MI_Purple
+[2024.10.22-13.31.44:101][692]LogContentBrowser: End creating deferred item M_Neons_Inst
+[2024.10.22-13.31.45:440][789]LogAssetEditorSubsystem: Opening Asset editor for MaterialInstanceConstant /Game/Shaders/Neons/MI_Purple.MI_Purple
+[2024.10.22-13.31.45:441][789]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.22-13.31.45:441][789]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.22-13.31.45:542][789]LogViewport: Scene viewport resized to 1335x902, mode Windowed.
+[2024.10.22-13.31.58:212][599]LogSlate: Window 'Color Picker' being destroyed
+[2024.10.22-13.32.02:011][ 44]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.22-13.32.02:064][ 44]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Shaders/Neons/MI_Purple" FILE="../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Content/Shaders/Neons/MI_Purple.uasset" SILENT=true
+[2024.10.22-13.32.02:068][ 44]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
+[2024.10.22-13.32.02:072][ 44]LogUObjectHash: Compacting FUObjectHashTables data took   0.16ms
+[2024.10.22-13.32.02:073][ 44]LogSavePackage: Moving output files for package: /Game/Shaders/Neons/MI_Purple
+[2024.10.22-13.32.02:073][ 44]LogSavePackage: Moving '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Saved/MI_Purple7EE2AF7344D308EACDB9AF9D669D805B.tmp' to '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Content/Shaders/Neons/MI_Purple.uasset'
+[2024.10.22-13.32.02:078][ 44]LogFileHelpers: InternalPromptForCheckoutAndSave took 66 ms (total: 9.76 sec)
+[2024.10.22-13.32.02:078][ 44]AssetCheck: New page: Asset Save: MI_Purple
+[2024.10.22-13.32.02:079][ 44]LogContentValidation: Display: Validating /Script/Engine.MaterialInstanceConstant /Game/Shaders/Neons/MI_Purple.MI_Purple
+[2024.10.22-13.32.06:700][430]LogAssetEditorSubsystem: Opening Asset editor for MaterialInstanceConstant /Game/Shaders/Neons/MI_Pink.MI_Pink
+[2024.10.22-13.32.06:701][430]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.22-13.32.06:701][430]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.22-13.32.06:810][430]LogViewport: Scene viewport resized to 1335x902, mode Windowed.
+[2024.10.22-13.32.09:529][747]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.22-13.32.09:582][747]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Shaders/Neons/MI_Pink" FILE="../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Content/Shaders/Neons/MI_Pink.uasset" SILENT=true
+[2024.10.22-13.32.09:585][747]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2024.10.22-13.32.09:589][747]LogUObjectHash: Compacting FUObjectHashTables data took   0.16ms
+[2024.10.22-13.32.09:591][747]LogSavePackage: Moving output files for package: /Game/Shaders/Neons/MI_Pink
+[2024.10.22-13.32.09:591][747]LogSavePackage: Moving '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Saved/MI_PinkB31C6783460DA4943F3877A9E8F8FCD1.tmp' to '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Content/Shaders/Neons/MI_Pink.uasset'
+[2024.10.22-13.32.09:596][747]LogFileHelpers: InternalPromptForCheckoutAndSave took 67 ms (total: 9.82 sec)
+[2024.10.22-13.32.09:597][747]AssetCheck: New page: Asset Save: MI_Pink
+[2024.10.22-13.32.09:597][747]LogContentValidation: Display: Validating /Script/Engine.MaterialInstanceConstant /Game/Shaders/Neons/MI_Pink.MI_Pink
+[2024.10.22-13.32.30:179][947]LogSlate: Window 'Color Picker' being destroyed
+[2024.10.22-13.32.37:387][672]Cmd: TRANSACTION UNDO
+[2024.10.22-13.32.37:387][672]LogEditorTransaction: Undo Create Actors
+[2024.10.22-13.32.49:457][215]LogContentBrowser: Attempting asset rename: MI_Purple -> MI_Red
+[2024.10.22-13.32.49:486][215]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.22-13.32.49:516][215]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Shaders/Neons/MI_Red" FILE="../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Content/Shaders/Neons/MI_Red.uasset" SILENT=true
+[2024.10.22-13.32.49:519][215]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2024.10.22-13.32.49:524][215]LogUObjectHash: Compacting FUObjectHashTables data took   0.16ms
+[2024.10.22-13.32.49:526][215]LogSavePackage: Moving output files for package: /Game/Shaders/Neons/MI_Red
+[2024.10.22-13.32.49:526][215]LogSavePackage: Moving '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Saved/MI_Red7630BA134B91881297C064B2210640EA.tmp' to '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Content/Shaders/Neons/MI_Red.uasset'
+[2024.10.22-13.32.49:532][215]LogFileHelpers: InternalPromptForCheckoutAndSave took 46 ms (total: 9.87 sec)
+[2024.10.22-13.32.49:545][215]LogUObjectHash: Compacting FUObjectHashTables data took   0.31ms
+[2024.10.22-13.32.49:548][215]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2024.10.22-13.32.49:550][215]LogUObjectHash: Compacting FUObjectHashTables data took   0.17ms
+[2024.10.22-13.32.49:551][215]AssetCheck: New page: Asset Save: MI_Red
+[2024.10.22-13.32.49:551][215]LogContentValidation: Display: Validating /Script/Engine.MaterialInstanceConstant /Game/Shaders/Neons/MI_Red.MI_Red
+[2024.10.22-13.32.49:861][235]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.22-13.32.49:915][235]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Shaders/Neons/MI_Red" FILE="../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Content/Shaders/Neons/MI_Red.uasset" SILENT=true
+[2024.10.22-13.32.49:919][235]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2024.10.22-13.32.49:925][235]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2024.10.22-13.32.49:926][235]LogSavePackage: Moving output files for package: /Game/Shaders/Neons/MI_Red
+[2024.10.22-13.32.49:926][235]LogSavePackage: Moving '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Saved/MI_Red026D41C648ABA14C012C559AE18EE0B6.tmp' to '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Content/Shaders/Neons/MI_Red.uasset'
+[2024.10.22-13.32.49:931][235]LogFileHelpers: InternalPromptForCheckoutAndSave took 70 ms (total: 9.94 sec)
+[2024.10.22-13.32.49:932][235]AssetCheck: New page: Asset Save: MI_Red
+[2024.10.22-13.32.49:932][235]LogContentValidation: Display: Validating /Script/Engine.MaterialInstanceConstant /Game/Shaders/Neons/MI_Red.MI_Red
+[2024.10.22-13.32.54:498][711]LogSlate: Window 'Color Picker' being destroyed
+[2024.10.22-13.32.55:847][866]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.22-13.32.55:900][866]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Shaders/Neons/MI_Red" FILE="../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Content/Shaders/Neons/MI_Red.uasset" SILENT=true
+[2024.10.22-13.32.55:903][866]LogUObjectHash: Compacting FUObjectHashTables data took   0.24ms
+[2024.10.22-13.32.55:907][866]LogUObjectHash: Compacting FUObjectHashTables data took   0.24ms
+[2024.10.22-13.32.55:909][866]LogSavePackage: Moving output files for package: /Game/Shaders/Neons/MI_Red
+[2024.10.22-13.32.55:909][866]LogSavePackage: Moving '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Saved/MI_RedA9B91DCD45701A5C95E6A7BD56093DFC.tmp' to '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Content/Shaders/Neons/MI_Red.uasset'
+[2024.10.22-13.32.55:914][866]LogFileHelpers: InternalPromptForCheckoutAndSave took 67 ms (total: 10.0 sec)
+[2024.10.22-13.32.55:915][866]AssetCheck: New page: Asset Save: MI_Red
+[2024.10.22-13.32.55:915][866]LogContentValidation: Display: Validating /Script/Engine.MaterialInstanceConstant /Game/Shaders/Neons/MI_Red.MI_Red
+[2024.10.22-13.32.59:312][160]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.22-13.32.59:386][160]LogUObjectHash: Compacting FUObjectHashTables data took   0.17ms
+[2024.10.22-13.32.59:399][160]LogSavePackage: Moving output files for package: /Game/Levels/Arcade
+[2024.10.22-13.32.59:399][160]LogSavePackage: Moving '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Saved/ArcadeD799C651418EEB7FB598FF9C3C9311C4.tmp' to '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Content/Levels/Arcade.umap'
+[2024.10.22-13.32.59:403][160]LogFileHelpers: Saving map 'Arcade' took 0.038
+[2024.10.22-13.32.59:408][160]LogFileHelpers: InternalPromptForCheckoutAndSave took 96 ms (total: 10.1 sec)
+[2024.10.22-13.32.59:410][160]AssetCheck: New page: Asset Save: Arcade
+[2024.10.22-13.32.59:410][160]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Arcade.Arcade
+[2024.10.22-13.33.09:942][984]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.22-13.33.10:019][984]LogUObjectHash: Compacting FUObjectHashTables data took   0.24ms
+[2024.10.22-13.33.10:031][984]LogSavePackage: Moving output files for package: /Game/Levels/Arcade
+[2024.10.22-13.33.10:031][984]LogSavePackage: Moving '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Saved/Arcade250B19BE4033DAAC3C0EE88F1A3E1D1F.tmp' to '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Content/Levels/Arcade.umap'
+[2024.10.22-13.33.10:036][984]LogFileHelpers: Saving map 'Arcade' took 0.039
+[2024.10.22-13.33.10:041][984]LogFileHelpers: InternalPromptForCheckoutAndSave took 98 ms (total: 10.2 sec)
+[2024.10.22-13.33.10:042][984]AssetCheck: New page: Asset Save: Arcade
+[2024.10.22-13.33.10:042][984]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Arcade.Arcade
+[2024.10.22-13.33.29:888][646]LogEditorFactories: Performing atomic reimport of [C:/Users/ra00333610/Downloads/Arcade/SM_NeonArcade.fbx]
+[2024.10.22-13.33.29:892][646]LogFbx: Loading FBX Scene from C:/Users/ra00333610/Downloads/Arcade/SM_NeonArcade.fbx
+[2024.10.22-13.33.29:896][646]LogFbx: FBX Scene Loaded Succesfully
+[2024.10.22-13.33.29:946][646]LogFbx: Display: Triangulating static mesh Plane.010
+[2024.10.22-13.33.29:952][646]LogFbx: Display: Triangulating static mesh Plane.005
+[2024.10.22-13.33.29:953][646]LogFbx: Display: Triangulating static mesh Plane.007
+[2024.10.22-13.33.29:955][646]LogFbx: Display: Triangulating static mesh Plane.008
+[2024.10.22-13.33.29:956][646]LogFbx: Display: Triangulating static mesh Plane.009
+[2024.10.22-13.33.29:958][646]LogFbx: Display: Triangulating static mesh Plane.011
+[2024.10.22-13.33.29:959][646]LogFbx: Display: Triangulating static mesh Plane.012
+[2024.10.22-13.33.29:960][646]LogFbx: Display: Triangulating static mesh Plane.013
+[2024.10.22-13.33.29:962][646]LogFbx: Display: Triangulating static mesh Plane.014
+[2024.10.22-13.33.29:962][646]LogFbx: Display: Triangulating static mesh Plane.015
+[2024.10.22-13.33.29:963][646]LogFbx: Display: Triangulating static mesh Plane.016
+[2024.10.22-13.33.29:969][646]LogStaticMesh: Display: Building static mesh SM_NeonArcade...
+[2024.10.22-13.33.30:031][646]LogStaticMesh: Built static mesh [0.06s] /Game/Meshs/Scenery/DecorationWalls/SM_NeonArcade.SM_NeonArcade
+[2024.10.22-13.33.30:040][646]LogEditorFactories: -- imported successfully
+[2024.10.22-13.33.37:351][ 17]Cmd: TRANSACTION UNDO
+[2024.10.22-13.33.37:352][ 17]LogEditorTransaction: Undo Move Elements
+[2024.10.22-13.33.39:606][157]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Meshs/Scenery/DecorationWalls/SM_NeonArcade.SM_NeonArcade
+[2024.10.22-13.33.39:606][157]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Meshs/Scenery/DecorationWalls/SM_NeonArcade.SM_NeonArcade
+[2024.10.22-13.33.39:606][157]LogActorFactory: Actor Factory spawned StaticMesh /Game/Meshs/Scenery/DecorationWalls/SM_NeonArcade.SM_NeonArcade as actor: StaticMeshActor /Game/Levels/Arcade.Arcade:PersistentLevel.StaticMeshActor_138
+[2024.10.22-13.33.40:480][260]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Meshs/Scenery/DecorationWalls/SM_NeonArcade.SM_NeonArcade
+[2024.10.22-13.33.40:480][260]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Meshs/Scenery/DecorationWalls/SM_NeonArcade.SM_NeonArcade
+[2024.10.22-13.33.40:481][260]LogActorFactory: Actor Factory spawned StaticMesh /Game/Meshs/Scenery/DecorationWalls/SM_NeonArcade.SM_NeonArcade as actor: StaticMeshActor /Game/Levels/Arcade.Arcade:PersistentLevel.StaticMeshActor_139
+[2024.10.22-13.33.42:819][436]Cmd: TRANSACTION UNDO
+[2024.10.22-13.33.42:819][436]LogEditorTransaction: Undo Move Elements
+[2024.10.22-13.33.43:329][445]Cmd: TRANSACTION UNDO
+[2024.10.22-13.33.43:329][445]LogEditorTransaction: Undo Create Actors
+[2024.10.22-13.34.12:531][796]LogEditorFactories: Performing atomic reimport of [C:/Users/ra00333610/Downloads/Arcade/SM_NeonArcade.fbx]
+[2024.10.22-13.34.12:536][796]LogFbx: Loading FBX Scene from C:/Users/ra00333610/Downloads/Arcade/SM_NeonArcade.fbx
+[2024.10.22-13.34.12:541][796]LogFbx: FBX Scene Loaded Succesfully
+[2024.10.22-13.34.12:598][796]LogFbx: Display: Triangulating static mesh Plane.010
+[2024.10.22-13.34.12:607][796]LogFbx: Display: Triangulating static mesh Plane.005
+[2024.10.22-13.34.12:608][796]LogFbx: Display: Triangulating static mesh Plane.007
+[2024.10.22-13.34.12:610][796]LogFbx: Display: Triangulating static mesh Plane.008
+[2024.10.22-13.34.12:611][796]LogFbx: Display: Triangulating static mesh Plane.009
+[2024.10.22-13.34.12:612][796]LogFbx: Display: Triangulating static mesh Plane.011
+[2024.10.22-13.34.12:613][796]LogFbx: Display: Triangulating static mesh Plane.012
+[2024.10.22-13.34.12:614][796]LogFbx: Display: Triangulating static mesh Plane.013
+[2024.10.22-13.34.12:616][796]LogFbx: Display: Triangulating static mesh Plane.014
+[2024.10.22-13.34.12:616][796]LogFbx: Display: Triangulating static mesh Plane.015
+[2024.10.22-13.34.12:617][796]LogFbx: Display: Triangulating static mesh Plane.016
+[2024.10.22-13.34.12:623][796]LogStaticMesh: Display: Building static mesh SM_NeonArcade...
+[2024.10.22-13.34.12:696][796]LogStaticMesh: Built static mesh [0.07s] /Game/Meshs/Scenery/DecorationWalls/SM_NeonArcade.SM_NeonArcade
+[2024.10.22-13.34.12:711][796]LogEditorFactories: -- imported successfully
+[2024.10.22-13.34.16:449][981]Cmd: TRANSACTION UNDO
+[2024.10.22-13.34.16:449][981]LogEditorTransaction: Undo Clicking on Elements
+[2024.10.22-13.34.17:120][  1]Cmd: TRANSACTION UNDO
+[2024.10.22-13.34.17:120][  1]LogEditorTransaction: Undo Move Elements
+[2024.10.22-13.34.31:542][ 51]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Meshs/Scenery/DecorationWalls/SM_NeonArcade.SM_NeonArcade
+[2024.10.22-13.34.31:546][ 51]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.22-13.34.31:546][ 51]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.22-13.34.31:908][ 51]LogViewport: Scene viewport resized to 1405x902, mode Windowed.
+[2024.10.22-13.36.32:893][670]LogEditorFactories: Performing atomic reimport of [C:/Users/ra00333610/Downloads/Arcade/SM_NeonArcade.fbx]
+[2024.10.22-13.36.32:896][670]LogFbx: Loading FBX Scene from C:/Users/ra00333610/Downloads/Arcade/SM_NeonArcade.fbx
+[2024.10.22-13.36.32:903][670]LogFbx: FBX Scene Loaded Succesfully
+[2024.10.22-13.36.32:962][670]LogFbx: Display: Triangulating static mesh Plane.010
+[2024.10.22-13.36.32:967][670]LogFbx: Display: Triangulating static mesh Plane.005
+[2024.10.22-13.36.32:969][670]LogFbx: Display: Triangulating static mesh Plane.007
+[2024.10.22-13.36.32:970][670]LogFbx: Display: Triangulating static mesh Plane.008
+[2024.10.22-13.36.32:972][670]LogFbx: Display: Triangulating static mesh Plane.009
+[2024.10.22-13.36.32:974][670]LogFbx: Display: Triangulating static mesh Plane.011
+[2024.10.22-13.36.32:975][670]LogFbx: Display: Triangulating static mesh Plane.012
+[2024.10.22-13.36.32:977][670]LogFbx: Display: Triangulating static mesh Plane.013
+[2024.10.22-13.36.32:978][670]LogFbx: Display: Triangulating static mesh Plane.014
+[2024.10.22-13.36.32:979][670]LogFbx: Display: Triangulating static mesh Plane.015
+[2024.10.22-13.36.32:980][670]LogFbx: Display: Triangulating static mesh Plane.016
+[2024.10.22-13.36.32:986][670]LogStaticMesh: Display: Building static mesh SM_NeonArcade...
+[2024.10.22-13.36.33:045][670]LogStaticMesh: Built static mesh [0.06s] /Game/Meshs/Scenery/DecorationWalls/SM_NeonArcade.SM_NeonArcade
+[2024.10.22-13.36.39:918][670]LogSlate: Window 'Reimport Material Conflicts Resolution' being destroyed
+[2024.10.22-13.36.39:924][670]LogEditorFactories: -- imported successfully
+[2024.10.22-13.37.00:624][917]LogEditorFactories: Performing atomic reimport of [C:/Users/ra00333610/Downloads/Arcade/SM_NeonArcade.fbx]
+[2024.10.22-13.37.00:627][917]LogFbx: Loading FBX Scene from C:/Users/ra00333610/Downloads/Arcade/SM_NeonArcade.fbx
+[2024.10.22-13.37.00:632][917]LogFbx: FBX Scene Loaded Succesfully
+[2024.10.22-13.37.00:678][917]LogFbx: Display: Triangulating static mesh Plane.010
+[2024.10.22-13.37.00:684][917]LogFbx: Display: Triangulating static mesh Plane.005
+[2024.10.22-13.37.00:686][917]LogFbx: Display: Triangulating static mesh Plane.007
+[2024.10.22-13.37.00:687][917]LogFbx: Display: Triangulating static mesh Plane.008
+[2024.10.22-13.37.00:689][917]LogFbx: Display: Triangulating static mesh Plane.009
+[2024.10.22-13.37.00:690][917]LogFbx: Display: Triangulating static mesh Plane.011
+[2024.10.22-13.37.00:692][917]LogFbx: Display: Triangulating static mesh Plane.012
+[2024.10.22-13.37.00:693][917]LogFbx: Display: Triangulating static mesh Plane.013
+[2024.10.22-13.37.00:695][917]LogFbx: Display: Triangulating static mesh Plane.014
+[2024.10.22-13.37.00:695][917]LogFbx: Display: Triangulating static mesh Plane.015
+[2024.10.22-13.37.00:697][917]LogFbx: Display: Triangulating static mesh Plane.016
+[2024.10.22-13.37.00:708][917]LogEditorFactories: -- imported successfully
+[2024.10.22-13.37.11:405][539]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.22-13.37.11:474][539]LogSavePackage: Moving output files for package: /Game/Meshs/Scenery/DecorationWalls/SM_NeonArcade
+[2024.10.22-13.37.11:474][539]LogSavePackage: Moving '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Saved/SM_NeonArcade338BAFF6434B8936A39F9AA4054D6010.tmp' to '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Content/Meshs/Scenery/DecorationWalls/SM_NeonArcade.uasset'
+[2024.10.22-13.37.11:481][539]LogFileHelpers: InternalPromptForCheckoutAndSave took 76 ms (total: 10.2 sec)
+[2024.10.22-13.37.11:482][539]AssetCheck: New page: Asset Save: SM_NeonArcade
+[2024.10.22-13.37.11:482][539]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Meshs/Scenery/DecorationWalls/SM_NeonArcade.SM_NeonArcade
+[2024.10.22-13.37.20:225][224]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.22-13.37.20:324][224]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2024.10.22-13.37.20:336][224]LogSavePackage: Moving output files for package: /Game/Levels/Arcade
+[2024.10.22-13.37.20:337][224]LogSavePackage: Moving '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Saved/ArcadeDC83F3C244B9EDD0056DFD8E85A2EF6E.tmp' to '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Content/Levels/Arcade.umap'
+[2024.10.22-13.37.20:342][224]LogFileHelpers: Saving map 'Arcade' took 0.042
+[2024.10.22-13.37.20:355][224]LogFileHelpers: InternalPromptForCheckoutAndSave took 129 ms (total: 10.4 sec)
+[2024.10.22-13.37.20:356][224]AssetCheck: New page: Asset Save: Arcade
+[2024.10.22-13.37.20:356][224]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Arcade.Arcade
+[2024.10.22-13.37.27:308][729]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.22-13.37.27:406][729]LogUObjectHash: Compacting FUObjectHashTables data took   0.17ms
+[2024.10.22-13.37.27:419][729]LogSavePackage: Moving output files for package: /Game/Levels/Arcade
+[2024.10.22-13.37.27:419][729]LogSavePackage: Moving '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Saved/ArcadeB80655194445D9C56C8C1E88B414D70B.tmp' to '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Content/Levels/Arcade.umap'
+[2024.10.22-13.37.27:423][729]LogFileHelpers: Saving map 'Arcade' took 0.041
+[2024.10.22-13.37.27:437][729]LogFileHelpers: InternalPromptForCheckoutAndSave took 129 ms (total: 10.5 sec)
+[2024.10.22-13.37.27:438][729]AssetCheck: New page: Asset Save: Arcade
+[2024.10.22-13.37.27:438][729]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Arcade.Arcade
+[2024.10.22-13.37.36:993][439]Cmd: TRANSACTION UNDO
+[2024.10.22-13.37.36:993][439]LogEditorTransaction: Undo Create Actors
+[2024.10.22-13.37.40:445][685]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.22-13.37.40:539][685]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2024.10.22-13.37.40:550][685]LogSavePackage: Moving output files for package: /Game/Levels/Arcade
+[2024.10.22-13.37.40:551][685]LogSavePackage: Moving '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Saved/Arcade26F2A2354CD68D890C40FEAA6612A432.tmp' to '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Content/Levels/Arcade.umap'
+[2024.10.22-13.37.40:555][685]LogFileHelpers: Saving map 'Arcade' took 0.038
+[2024.10.22-13.37.40:569][685]LogFileHelpers: InternalPromptForCheckoutAndSave took 124 ms (total: 10.6 sec)
+[2024.10.22-13.37.40:571][685]AssetCheck: New page: Asset Save: Arcade
+[2024.10.22-13.37.40:571][685]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Arcade.Arcade
+[2024.10.22-13.37.48:389][301]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.22-13.37.48:470][301]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2024.10.22-13.37.48:482][301]LogSavePackage: Moving output files for package: /Game/Levels/Arcade
+[2024.10.22-13.37.48:482][301]LogSavePackage: Moving '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Saved/Arcade824F7CCC4DE6FB44B5E5B7B36CEEACDD.tmp' to '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Content/Levels/Arcade.umap'
+[2024.10.22-13.37.48:486][301]LogFileHelpers: Saving map 'Arcade' took 0.038
+[2024.10.22-13.37.48:495][301]LogFileHelpers: InternalPromptForCheckoutAndSave took 106 ms (total: 10.7 sec)
+[2024.10.22-13.37.48:497][301]AssetCheck: New page: Asset Save: Arcade
+[2024.10.22-13.37.48:497][301]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Arcade.Arcade
+[2024.10.22-13.37.57:026][974]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.22-13.37.57:128][974]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2024.10.22-13.37.57:141][974]LogSavePackage: Moving output files for package: /Game/Levels/Arcade
+[2024.10.22-13.37.57:141][974]LogSavePackage: Moving '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Saved/ArcadeCBE3C9E04E9EFB10371E2F8E7D58A084.tmp' to '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Content/Levels/Arcade.umap'
+[2024.10.22-13.37.57:146][974]LogFileHelpers: Saving map 'Arcade' took 0.047
+[2024.10.22-13.37.57:159][974]LogFileHelpers: InternalPromptForCheckoutAndSave took 134 ms (total: 10.9 sec)
+[2024.10.22-13.37.57:160][974]AssetCheck: New page: Asset Save: Arcade
+[2024.10.22-13.37.57:160][974]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Arcade.Arcade
+[2024.10.22-13.38.01:320][296]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.22-13.38.01:423][296]LogUObjectHash: Compacting FUObjectHashTables data took   0.17ms
+[2024.10.22-13.38.01:436][296]LogSavePackage: Moving output files for package: /Game/Levels/Arcade
+[2024.10.22-13.38.01:436][296]LogSavePackage: Moving '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Saved/Arcade380B82B942CB6332527DA7B65763926A.tmp' to '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Content/Levels/Arcade.umap'
+[2024.10.22-13.38.01:441][296]LogFileHelpers: Saving map 'Arcade' took 0.041
+[2024.10.22-13.38.01:454][296]LogFileHelpers: InternalPromptForCheckoutAndSave took 134 ms (total: 11.0 sec)
+[2024.10.22-13.38.01:455][296]AssetCheck: New page: Asset Save: Arcade
+[2024.10.22-13.38.01:455][296]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Arcade.Arcade
