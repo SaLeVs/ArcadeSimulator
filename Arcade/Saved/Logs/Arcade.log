@@ -3831,3 +3831,573 @@ Scale3D: 1.000000 1.000000 1.000000
 [2024.10.23-11.30.33:101][417]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2024.10.23-11.30.33:110][417]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
 [2024.10.23-11.30.33:152][418]LogPlayLevel: Display: Destroying online subsystem :Context_40
+[2024.10.23-11.30.54:227][752]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.10.23-11.30.54:234][752]LogContentBundle: [TestingPlayer1(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.10.23-11.30.54:234][752]LogWorldPartition: Display: GenerateStreaming for 'TestingPlayer1' started...
+[2024.10.23-11.30.54:236][752]LogWorldPartition: Display: GenerateStreaming for 'TestingPlayer1' took 2 ms (total: 67 ms)
+[2024.10.23-11.30.54:237][752]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.10.23-11.30.54:237][752]PIE: New page: PIE session: TestingPlayer1 (Oct 23, 2024, 5:30:54 AM)
+[2024.10.23-11.30.54:237][752]LogPlayLevel: Display: Creating online subsystem for client :Context_41
+[2024.10.23-11.30.54:239][752]LogOnline: OSS: Created online subsystem instance for: :Context_41
+[2024.10.23-11.30.54:259][753]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TestingPlayer1
+[2024.10.23-11.30.54:262][753]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003027s)
+[2024.10.23-11.30.54:262][753]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TestingPlayer1.TestingPlayer1 to /Game/Levels/UEDPIE_0_TestingPlayer1.TestingPlayer1 (0.003066s)
+[2024.10.23-11.30.54:270][753]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2024.10.23-11.30.54:271][753]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.23-11.30.54:271][753]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.23-11.30.54:271][753]LogAIModule: Creating AISystem for world TestingPlayer1
+[2024.10.23-11.30.54:272][753]LogWorldPartition: ULevel::OnLevelLoaded(TestingPlayer1)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.10.23-11.30.54:272][753]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.10.23-11.30.54:272][753]LogWorldPartition: UWorldPartition::Initialize : World = TestingPlayer1, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.10.23-11.30.54:272][753]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.10.23-11.30.54:272][753]LogContentBundle: [TestingPlayer1(Standalone)] Creating new contrainer.
+[2024.10.23-11.30.54:273][753]LogWorldPartition: Display: WorldPartition initialize took 836 us (total: 1.32 sec)
+[2024.10.23-11.30.54:273][753]LogPlayLevel: PIE: World Init took: (0.001665s)
+[2024.10.23-11.30.54:273][753]LogAudio: Display: Creating Audio Device:                 Id: 25, Scope: Unique, Realtime: True
+[2024.10.23-11.30.54:273][753]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.10.23-11.30.54:273][753]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.10.23-11.30.54:273][753]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.10.23-11.30.54:273][753]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.10.23-11.30.54:273][753]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.10.23-11.30.54:273][753]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.10.23-11.30.54:273][753]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.10.23-11.30.54:273][753]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.10.23-11.30.54:273][753]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.10.23-11.30.54:273][753]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.10.23-11.30.54:273][753]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.10.23-11.30.54:274][753]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.10.23-11.30.54:298][753]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (Realtek(R) Audio)
+[2024.10.23-11.30.54:298][753]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.10.23-11.30.54:298][753]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.10.23-11.30.54:298][753]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.10.23-11.30.54:299][753]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=25
+[2024.10.23-11.30.54:299][753]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=25
+[2024.10.23-11.30.54:301][753]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=25
+[2024.10.23-11.30.54:301][753]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=25
+[2024.10.23-11.30.54:301][753]LogInit: FAudioDevice initialized with ID 25.
+[2024.10.23-11.30.54:301][753]LogAudio: Display: Audio Device (ID: 25) registered with world 'TestingPlayer1'.
+[2024.10.23-11.30.54:301][753]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 25
+[2024.10.23-11.30.54:303][753]LogLoad: Game class is 'MyGameGamemode_C'
+[2024.10.23-11.30.54:303][753]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TestingPlayer1.TestingPlayer1 up for play (max tick rate 0) at 2024.10.23-08.30.54
+[2024.10.23-11.30.54:303][753]LogWorld: Bringing up level for play took: 0.000372
+[2024.10.23-11.30.54:304][753]LogWorldPartition: UWorldPartitionStreamingPolicy: CellsToActivate(42), CellsToLoad(0), CellsToUnload(0)
+[2024.10.23-11.30.54:304][753]LogWorldPartition: UWorldPartitionStreamingPolicy: Sources[0] = X=-2753.652 Y=4140.330 Z=158.911,P=-0.000000 Y=-67.013129 R=0.000000
+[2024.10.23-11.30.54:306][753]LogStreaming: Display: FlushAsyncLoading(): 73 QueuedPackages, 0 AsyncPackages
+[2024.10.23-11.30.54:609][753]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.10.23-11.30.54:609][753]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.10.23-11.30.54:609][753]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.10.23-11.30.54:612][753]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.10.23-11.30.54:612][753]PIE: Server logged in
+[2024.10.23-11.30.54:617][753]PIE: Play in editor total start time 0.383 seconds.
+[2024.10.23-11.30.54:959][754]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.054267 > MaxSimulationTimeStep (0.050) for 'BP_Player_C_0', movement 'Walking'
+[2024.10.23-11.31.00:807][433]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.23-11.31.00:808][433]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TestingPlayer1
+[2024.10.23-11.31.00:815][433]LogWorld: UWorld::CleanupWorld for TestingPlayer1, bSessionEnded=true, bCleanupResources=true
+[2024.10.23-11.31.00:815][433]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.23-11.31.00:815][433]LogContentBundle: [TestingPlayer1(Standalone)] Deleting container.
+[2024.10.23-11.31.00:818][433]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.10.23-11.31.00:821][433]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.23-11.31.00:837][433]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.23-11.31.00:837][433]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 25
+[2024.10.23-11.31.00:837][433]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=25
+[2024.10.23-11.31.00:839][433]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=25
+[2024.10.23-11.31.00:852][433]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2024.10.23-11.31.00:894][434]LogPlayLevel: Display: Destroying online subsystem :Context_41
+[2024.10.23-11.31.33:233][ 84]BlueprintLog: New page: Compile BP_Build_ArcadeV1
+[2024.10.23-11.31.33:254][ 84]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2024.10.23-11.31.33:262][ 84]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.23-11.31.33:331][ 84]LogSavePackage: Moving output files for package: /Game/Blueprints/Builder/Builds/BP_Build_ArcadeV1
+[2024.10.23-11.31.33:331][ 84]LogSavePackage: Moving '../../../../../../Users/RA00331197/Desktop/arcade/ArcadeSimulator/Arcade/Saved/BP_Build_ArcadeV1FFE8ED594D81EFC4F111DB95AEDE3C88.tmp' to '../../../../../../Users/RA00331197/Desktop/arcade/ArcadeSimulator/Arcade/Content/Blueprints/Builder/Builds/BP_Build_ArcadeV1.uasset'
+[2024.10.23-11.31.33:337][ 84]LogFileHelpers: InternalPromptForCheckoutAndSave took 75 ms (total: 1.99 sec)
+[2024.10.23-11.31.33:353][ 84]AssetCheck: New page: Asset Save: BP_Build_ArcadeV1
+[2024.10.23-11.31.33:353][ 84]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Builder/Builds/BP_Build_ArcadeV1.BP_Build_ArcadeV1
+[2024.10.23-11.31.34:583][220]BlueprintLog: New page: Compile BP_BuilderPreview_ArcadeV1
+[2024.10.23-11.31.34:599][220]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2024.10.23-11.31.34:606][220]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.23-11.31.34:670][220]LogSavePackage: Moving output files for package: /Game/Blueprints/Builder/BuildsPreview/BP_BuilderPreview_ArcadeV1
+[2024.10.23-11.31.34:670][220]LogSavePackage: Moving '../../../../../../Users/RA00331197/Desktop/arcade/ArcadeSimulator/Arcade/Saved/BP_BuilderPreview_ArcadeV14984DDA148892DA57E26B2A5C8BC17A5.tmp' to '../../../../../../Users/RA00331197/Desktop/arcade/ArcadeSimulator/Arcade/Content/Blueprints/Builder/BuildsPreview/BP_BuilderPreview_ArcadeV1.uasset'
+[2024.10.23-11.31.34:676][220]LogFileHelpers: InternalPromptForCheckoutAndSave took 70 ms (total: 2.06 sec)
+[2024.10.23-11.31.34:692][220]AssetCheck: New page: Asset Save: BP_BuilderPreview_ArcadeV1
+[2024.10.23-11.31.34:692][220]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Builder/BuildsPreview/BP_BuilderPreview_ArcadeV1.BP_BuilderPreview_ArcadeV1
+[2024.10.23-11.31.35:766][282]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.10.23-11.31.35:772][282]LogContentBundle: [TestingPlayer1(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.10.23-11.31.35:772][282]LogWorldPartition: Display: GenerateStreaming for 'TestingPlayer1' started...
+[2024.10.23-11.31.35:775][282]LogWorldPartition: Display: GenerateStreaming for 'TestingPlayer1' took 3 ms (total: 70 ms)
+[2024.10.23-11.31.35:775][282]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.10.23-11.31.35:775][282]PIE: New page: PIE session: TestingPlayer1 (Oct 23, 2024, 5:31:35 AM)
+[2024.10.23-11.31.35:775][282]LogPlayLevel: Display: Creating online subsystem for client :Context_42
+[2024.10.23-11.31.35:777][282]LogOnline: OSS: Created online subsystem instance for: :Context_42
+[2024.10.23-11.31.35:796][283]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TestingPlayer1
+[2024.10.23-11.31.35:799][283]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002927s)
+[2024.10.23-11.31.35:799][283]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TestingPlayer1.TestingPlayer1 to /Game/Levels/UEDPIE_0_TestingPlayer1.TestingPlayer1 (0.002962s)
+[2024.10.23-11.31.35:807][283]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2024.10.23-11.31.35:808][283]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.23-11.31.35:808][283]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.23-11.31.35:808][283]LogAIModule: Creating AISystem for world TestingPlayer1
+[2024.10.23-11.31.35:808][283]LogWorldPartition: ULevel::OnLevelLoaded(TestingPlayer1)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.10.23-11.31.35:808][283]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.10.23-11.31.35:808][283]LogWorldPartition: UWorldPartition::Initialize : World = TestingPlayer1, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.10.23-11.31.35:808][283]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.10.23-11.31.35:809][283]LogContentBundle: [TestingPlayer1(Standalone)] Creating new contrainer.
+[2024.10.23-11.31.35:809][283]LogWorldPartition: Display: WorldPartition initialize took 842 us (total: 1.32 sec)
+[2024.10.23-11.31.35:809][283]LogPlayLevel: PIE: World Init took: (0.001733s)
+[2024.10.23-11.31.35:809][283]LogAudio: Display: Creating Audio Device:                 Id: 26, Scope: Unique, Realtime: True
+[2024.10.23-11.31.35:809][283]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.10.23-11.31.35:809][283]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.10.23-11.31.35:809][283]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.10.23-11.31.35:809][283]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.10.23-11.31.35:809][283]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.10.23-11.31.35:809][283]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.10.23-11.31.35:809][283]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.10.23-11.31.35:809][283]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.10.23-11.31.35:810][283]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.10.23-11.31.35:810][283]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.10.23-11.31.35:810][283]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.10.23-11.31.35:811][283]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.10.23-11.31.35:837][283]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (Realtek(R) Audio)
+[2024.10.23-11.31.35:837][283]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.10.23-11.31.35:837][283]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.10.23-11.31.35:837][283]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.10.23-11.31.35:838][283]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=26
+[2024.10.23-11.31.35:838][283]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=26
+[2024.10.23-11.31.35:839][283]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=26
+[2024.10.23-11.31.35:839][283]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=26
+[2024.10.23-11.31.35:839][283]LogInit: FAudioDevice initialized with ID 26.
+[2024.10.23-11.31.35:839][283]LogAudio: Display: Audio Device (ID: 26) registered with world 'TestingPlayer1'.
+[2024.10.23-11.31.35:839][283]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 26
+[2024.10.23-11.31.35:841][283]LogLoad: Game class is 'MyGameGamemode_C'
+[2024.10.23-11.31.35:842][283]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TestingPlayer1.TestingPlayer1 up for play (max tick rate 0) at 2024.10.23-08.31.35
+[2024.10.23-11.31.35:842][283]LogWorld: Bringing up level for play took: 0.000381
+[2024.10.23-11.31.35:843][283]LogWorldPartition: UWorldPartitionStreamingPolicy: CellsToActivate(43), CellsToLoad(0), CellsToUnload(0)
+[2024.10.23-11.31.35:843][283]LogWorldPartition: UWorldPartitionStreamingPolicy: Sources[0] = X=-2275.736 Y=3662.904 Z=158.911,P=0.000000 Y=92.586874 R=-0.000000
+[2024.10.23-11.31.35:845][283]LogStreaming: Display: FlushAsyncLoading(): 74 QueuedPackages, 0 AsyncPackages
+[2024.10.23-11.31.36:160][283]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.10.23-11.31.36:161][283]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.10.23-11.31.36:161][283]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.10.23-11.31.36:163][283]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.10.23-11.31.36:163][283]PIE: Server logged in
+[2024.10.23-11.31.36:167][283]PIE: Play in editor total start time 0.395 seconds.
+[2024.10.23-11.34.06:218][221]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.23-11.34.06:218][221]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TestingPlayer1
+[2024.10.23-11.34.06:225][221]LogWorld: UWorld::CleanupWorld for TestingPlayer1, bSessionEnded=true, bCleanupResources=true
+[2024.10.23-11.34.06:225][221]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.23-11.34.06:225][221]LogContentBundle: [TestingPlayer1(Standalone)] Deleting container.
+[2024.10.23-11.34.06:228][221]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.10.23-11.34.06:232][221]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.23-11.34.06:241][221]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.23-11.34.06:241][221]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 26
+[2024.10.23-11.34.06:241][221]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=26
+[2024.10.23-11.34.06:243][221]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=26
+[2024.10.23-11.34.06:276][221]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2024.10.23-11.34.06:317][222]LogPlayLevel: Display: Destroying online subsystem :Context_42
+[2024.10.23-11.34.14:316][993]BlueprintLog: New page: Compile BP_BuilderPreview_ArcadeV1
+[2024.10.23-11.34.14:332][993]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2024.10.23-11.34.27:858][535]LogContentBrowser: Deferred new asset file creation: BP_BuilderPreviewMaster_Child
+[2024.10.23-11.34.27:897][535]LogContentBrowser: Creating deferred item: BP_BuilderPreviewMaster_Child
+[2024.10.23-11.34.27:909][536]LogContentBrowser: Renaming the item being created (Deferred Item: BP_BuilderPreviewMaster_Child).
+[2024.10.23-11.34.43:752][429]LogContentBrowser: Attempting asset rename: BP_BuilderPreviewMaster_Child -> BP_BuilderPreview_ArcadeV2
+[2024.10.23-11.34.43:757][429]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.23-11.34.43:805][429]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.23-11.34.43:829][429]LogAssetRegistry: Warning: ScanPathsSynchronous: Package /Game/Blueprints/Builder/BuildsPreview/BP_BuilderPreview_ArcadeV2 does not exist, will not scan.
+[2024.10.23-11.34.43:833][429]LogSavePackage: Moving output files for package: /Game/Blueprints/Builder/BuildsPreview/BP_BuilderPreview_ArcadeV2
+[2024.10.23-11.34.43:833][429]LogSavePackage: Moving '../../../../../../Users/RA00331197/Desktop/arcade/ArcadeSimulator/Arcade/Saved/BP_BuilderPreview_ArcadeV248D5E2BF45D61F9320D3AAA84589E57E.tmp' to '../../../../../../Users/RA00331197/Desktop/arcade/ArcadeSimulator/Arcade/Content/Blueprints/Builder/BuildsPreview/BP_BuilderPreview_ArcadeV2.uasset'
+[2024.10.23-11.34.43:841][429]LogFileHelpers: InternalPromptForCheckoutAndSave took 84 ms (total: 2.15 sec)
+[2024.10.23-11.34.43:843][429]LogContentBrowser: End creating deferred item BP_BuilderPreviewMaster_Child
+[2024.10.23-11.34.43:844][429]AssetCheck: New page: Asset Save: BP_BuilderPreview_ArcadeV2
+[2024.10.23-11.34.43:844][429]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Builder/BuildsPreview/BP_BuilderPreview_ArcadeV2.BP_BuilderPreview_ArcadeV2
+[2024.10.23-11.34.45:238][588]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Builder/BuildsPreview/BP_BuilderPreview_ArcadeV2.BP_BuilderPreview_ArcadeV2
+[2024.10.23-11.34.45:238][588]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.23-11.34.45:238][588]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.23-11.34.45:343][588]LogViewport: Scene viewport resized to 1141x875, mode Windowed.
+[2024.10.23-11.34.47:888][849]LogSlate: Took 0.000115 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2024.10.23-11.34.51:308][219]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.23-11.34.51:363][219]LogSavePackage: Moving output files for package: /Game/Blueprints/Builder/BuildsPreview/BP_BuilderPreview_ArcadeV2
+[2024.10.23-11.34.51:363][219]LogSavePackage: Moving '../../../../../../Users/RA00331197/Desktop/arcade/ArcadeSimulator/Arcade/Saved/BP_BuilderPreview_ArcadeV26F8720B6404E376BA54AE78838F1EE2C.tmp' to '../../../../../../Users/RA00331197/Desktop/arcade/ArcadeSimulator/Arcade/Content/Blueprints/Builder/BuildsPreview/BP_BuilderPreview_ArcadeV2.uasset'
+[2024.10.23-11.34.51:369][219]LogFileHelpers: InternalPromptForCheckoutAndSave took 60 ms (total: 2.21 sec)
+[2024.10.23-11.34.51:370][219]AssetCheck: New page: Asset Save: BP_BuilderPreview_ArcadeV2
+[2024.10.23-11.34.51:370][219]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Builder/BuildsPreview/BP_BuilderPreview_ArcadeV2.BP_BuilderPreview_ArcadeV2
+[2024.10.23-11.34.51:685][257]BlueprintLog: New page: Compile BP_BuilderPreview_ArcadeV2
+[2024.10.23-11.34.51:701][257]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2024.10.23-11.34.54:075][513]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2024.10.23-11.34.54:075][513]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.23-11.35.04:799][741]LogEditorTransaction: Undo Paste Scale
+[2024.10.23-11.35.26:431][124]LogEditorTransaction: Undo Paste Location
+[2024.10.23-11.35.33:507][847]LogEditorTransaction: Undo Paste Scale
+[2024.10.23-11.35.41:206][669]BlueprintLog: New page: Compile BP_BuilderPreview_ArcadeV2
+[2024.10.23-11.35.41:224][669]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2024.10.23-11.35.41:232][669]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.23-11.35.41:278][669]LogSavePackage: Moving output files for package: /Game/Blueprints/Builder/BuildsPreview/BP_BuilderPreview_ArcadeV2
+[2024.10.23-11.35.41:278][669]LogSavePackage: Moving '../../../../../../Users/RA00331197/Desktop/arcade/ArcadeSimulator/Arcade/Saved/BP_BuilderPreview_ArcadeV2A74FB990431096D7BF2DFDBA5B07886E.tmp' to '../../../../../../Users/RA00331197/Desktop/arcade/ArcadeSimulator/Arcade/Content/Blueprints/Builder/BuildsPreview/BP_BuilderPreview_ArcadeV2.uasset'
+[2024.10.23-11.35.41:285][669]LogFileHelpers: InternalPromptForCheckoutAndSave took 52 ms (total: 2.26 sec)
+[2024.10.23-11.35.41:302][669]AssetCheck: New page: Asset Save: BP_BuilderPreview_ArcadeV2
+[2024.10.23-11.35.41:302][669]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Builder/BuildsPreview/BP_BuilderPreview_ArcadeV2.BP_BuilderPreview_ArcadeV2
+[2024.10.23-11.35.41:751][716]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.23-11.35.41:795][716]LogSavePackage: Moving output files for package: /Game/Blueprints/Builder/BuildsPreview/BP_BuilderPreview_ArcadeV2
+[2024.10.23-11.35.41:795][716]LogSavePackage: Moving '../../../../../../Users/RA00331197/Desktop/arcade/ArcadeSimulator/Arcade/Saved/BP_BuilderPreview_ArcadeV257C057ED4F796F18044365963AFE0FC4.tmp' to '../../../../../../Users/RA00331197/Desktop/arcade/ArcadeSimulator/Arcade/Content/Blueprints/Builder/BuildsPreview/BP_BuilderPreview_ArcadeV2.uasset'
+[2024.10.23-11.35.41:802][716]LogFileHelpers: InternalPromptForCheckoutAndSave took 51 ms (total: 2.31 sec)
+[2024.10.23-11.35.41:803][716]AssetCheck: New page: Asset Save: BP_BuilderPreview_ArcadeV2
+[2024.10.23-11.35.41:803][716]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Builder/BuildsPreview/BP_BuilderPreview_ArcadeV2.BP_BuilderPreview_ArcadeV2
+[2024.10.23-11.35.51:179][770]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.23-11.35.51:238][770]LogSavePackage: Moving output files for package: /Game/Blueprints/Builder/DT_BuildParts
+[2024.10.23-11.35.51:238][770]LogSavePackage: Moving '../../../../../../Users/RA00331197/Desktop/arcade/ArcadeSimulator/Arcade/Saved/DT_BuildParts14A4A51045C498D16AB92ABA7FC6CD06.tmp' to '../../../../../../Users/RA00331197/Desktop/arcade/ArcadeSimulator/Arcade/Content/Blueprints/Builder/DT_BuildParts.uasset'
+[2024.10.23-11.35.51:244][770]LogFileHelpers: InternalPromptForCheckoutAndSave took 65 ms (total: 2.38 sec)
+[2024.10.23-11.35.51:244][770]AssetCheck: New page: Asset Save: DT_BuildParts
+[2024.10.23-11.35.51:245][770]LogContentValidation: Display: Validating /Script/Engine.DataTable /Game/Blueprints/Builder/DT_BuildParts.DT_BuildParts
+[2024.10.23-11.35.58:562][623]LogAssetEditorSubsystem: Opening Asset editor for UserDefinedStruct /Game/Blueprints/Builder/S_BuildParts.S_BuildParts
+[2024.10.23-11.36.00:736][870]LogAssetRegistry: Warning: ScanPathsSynchronous: Package /Engine/Transient does not exist, will not scan.
+[2024.10.23-11.36.01:921][  3]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.23-11.36.01:970][  3]LogSavePackage: Moving output files for package: /Game/Blueprints/Builder/S_BuildParts
+[2024.10.23-11.36.01:970][  3]LogSavePackage: Moving '../../../../../../Users/RA00331197/Desktop/arcade/ArcadeSimulator/Arcade/Saved/S_BuildParts86B58A964DCB31F325C04AA1BF90A83E.tmp' to '../../../../../../Users/RA00331197/Desktop/arcade/ArcadeSimulator/Arcade/Content/Blueprints/Builder/S_BuildParts.uasset'
+[2024.10.23-11.36.01:976][  3]LogFileHelpers: InternalPromptForCheckoutAndSave took 55 ms (total: 2.43 sec)
+[2024.10.23-11.36.01:976][  3]AssetCheck: New page: Asset Save: S_BuildParts
+[2024.10.23-11.36.01:976][  3]LogContentValidation: Display: Validating /Script/Engine.UserDefinedStruct /Game/Blueprints/Builder/S_BuildParts.S_BuildParts
+[2024.10.23-11.36.06:870][562]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.23-11.36.06:904][562]LogSavePackage: Moving output files for package: /Game/Blueprints/Builder/DT_BuildParts
+[2024.10.23-11.36.06:904][562]LogSavePackage: Moving '../../../../../../Users/RA00331197/Desktop/arcade/ArcadeSimulator/Arcade/Saved/DT_BuildPartsAA2950EA4E2BB5499904459BF6978E40.tmp' to '../../../../../../Users/RA00331197/Desktop/arcade/ArcadeSimulator/Arcade/Content/Blueprints/Builder/DT_BuildParts.uasset'
+[2024.10.23-11.36.06:910][562]LogFileHelpers: InternalPromptForCheckoutAndSave took 40 ms (total: 2.47 sec)
+[2024.10.23-11.36.06:911][562]AssetCheck: New page: Asset Save: DT_BuildParts
+[2024.10.23-11.36.06:911][562]LogContentValidation: Display: Validating /Script/Engine.DataTable /Game/Blueprints/Builder/DT_BuildParts.DT_BuildParts
+[2024.10.23-11.36.20:243][124]BlueprintLog: New page: Compile BP_BuilderPreview_ArcadeV2
+[2024.10.23-11.36.20:260][124]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2024.10.23-11.36.20:991][204]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.23-11.36.21:044][204]LogSavePackage: Moving output files for package: /Game/Blueprints/Builder/BuildsPreview/BP_BuilderPreview_ArcadeV2
+[2024.10.23-11.36.21:044][204]LogSavePackage: Moving '../../../../../../Users/RA00331197/Desktop/arcade/ArcadeSimulator/Arcade/Saved/BP_BuilderPreview_ArcadeV208DFC2A34A66F419DA25CEA16F4D197D.tmp' to '../../../../../../Users/RA00331197/Desktop/arcade/ArcadeSimulator/Arcade/Content/Blueprints/Builder/BuildsPreview/BP_BuilderPreview_ArcadeV2.uasset'
+[2024.10.23-11.36.21:051][204]LogFileHelpers: InternalPromptForCheckoutAndSave took 59 ms (total: 2.53 sec)
+[2024.10.23-11.36.21:052][204]AssetCheck: New page: Asset Save: BP_BuilderPreview_ArcadeV2
+[2024.10.23-11.36.21:052][204]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Builder/BuildsPreview/BP_BuilderPreview_ArcadeV2.BP_BuilderPreview_ArcadeV2
+[2024.10.23-11.36.39:439][333]BlueprintLog: New page: Compile BP_BuilderPreview_ArcadeV2
+[2024.10.23-11.36.39:459][333]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2024.10.23-11.36.40:650][466]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2024.10.23-11.36.40:650][466]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2024.10.23-11.36.40:650][466]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.23-11.36.41:902][610]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2024.10.23-11.36.41:902][610]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2024.10.23-11.36.41:903][610]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.23-11.36.44:800][942]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2024.10.23-11.36.44:800][942]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2024.10.23-11.36.44:800][942]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.23-11.36.46:493][136]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2024.10.23-11.36.46:493][136]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2024.10.23-11.36.46:493][136]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.23-11.36.51:581][674]BlueprintLog: New page: Compile BPC_BuildSystem
+[2024.10.23-11.36.51:610][674]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2024.10.23-11.36.51:641][674]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.23-11.36.51:712][674]LogSavePackage: Moving output files for package: /Game/Blueprints/Builder/BPC_BuildSystem
+[2024.10.23-11.36.51:712][674]LogSavePackage: Moving '../../../../../../Users/RA00331197/Desktop/arcade/ArcadeSimulator/Arcade/Saved/BPC_BuildSystem6071394945C10B56B223D2A0CBDF2FAA.tmp' to '../../../../../../Users/RA00331197/Desktop/arcade/ArcadeSimulator/Arcade/Content/Blueprints/Builder/BPC_BuildSystem.uasset'
+[2024.10.23-11.36.51:718][674]LogFileHelpers: InternalPromptForCheckoutAndSave took 77 ms (total: 2.61 sec)
+[2024.10.23-11.36.51:725][674]AssetCheck: New page: Asset Save: BPC_BuildSystem
+[2024.10.23-11.36.51:725][674]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Builder/BPC_BuildSystem.BPC_BuildSystem
+[2024.10.23-11.36.56:923][251]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Builder/Builds/BP_Build_ArcadeV1.BP_Build_ArcadeV1
+[2024.10.23-11.36.56:923][251]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.23-11.36.56:923][251]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.23-11.37.00:313][618]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Builder/BuildsPreview/BP_BuilderPreview_ArcadeV1.BP_BuilderPreview_ArcadeV1
+[2024.10.23-11.37.00:313][618]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.23-11.37.00:314][618]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.23-11.37.02:599][861]LogViewport: Scene viewport resized to 1141x875, mode Windowed.
+[2024.10.23-11.37.04:200][ 43]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.23-11.37.04:244][ 43]LogSavePackage: Moving output files for package: /Game/Blueprints/Builder/BuildsPreview/BP_BuilderPreview_ArcadeV1
+[2024.10.23-11.37.04:244][ 43]LogSavePackage: Moving '../../../../../../Users/RA00331197/Desktop/arcade/ArcadeSimulator/Arcade/Saved/BP_BuilderPreview_ArcadeV13B68BF17483F0FBE2A3EFB8D76BB3077.tmp' to '../../../../../../Users/RA00331197/Desktop/arcade/ArcadeSimulator/Arcade/Content/Blueprints/Builder/BuildsPreview/BP_BuilderPreview_ArcadeV1.uasset'
+[2024.10.23-11.37.04:250][ 43]LogFileHelpers: InternalPromptForCheckoutAndSave took 50 ms (total: 2.66 sec)
+[2024.10.23-11.37.04:251][ 43]AssetCheck: New page: Asset Save: BP_BuilderPreview_ArcadeV1
+[2024.10.23-11.37.04:251][ 43]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Builder/BuildsPreview/BP_BuilderPreview_ArcadeV1.BP_BuilderPreview_ArcadeV1
+[2024.10.23-11.37.04:926][122]LogWorld: UWorld::CleanupWorld for World_20, bSessionEnded=true, bCleanupResources=true
+[2024.10.23-11.37.04:926][122]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.23-11.37.07:849][456]LogViewport: Scene viewport resized to 1141x583, mode Windowed.
+[2024.10.23-11.37.11:221][833]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Builder/Builds/BP_BuilderMaster.BP_BuilderMaster
+[2024.10.23-11.37.11:221][833]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.23-11.37.11:221][833]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.23-11.37.12:603][975]LogViewport: Scene viewport resized to 1141x875, mode Windowed.
+[2024.10.23-11.37.37:359][799]LogEditorTransaction: Undo Paste Location
+[2024.10.23-11.37.45:960][714]BlueprintLog: New page: Compile BP_BuilderMaster
+[2024.10.23-11.37.45:986][714]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2024.10.23-11.37.46:000][714]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.23-11.37.46:051][714]LogSavePackage: Moving output files for package: /Game/Blueprints/Builder/Builds/BP_BuilderMaster
+[2024.10.23-11.37.46:051][714]LogSavePackage: Moving '../../../../../../Users/RA00331197/Desktop/arcade/ArcadeSimulator/Arcade/Saved/BP_BuilderMasterD1066CAF4CAC3C11AD70E5A6B061DBA0.tmp' to '../../../../../../Users/RA00331197/Desktop/arcade/ArcadeSimulator/Arcade/Content/Blueprints/Builder/Builds/BP_BuilderMaster.uasset'
+[2024.10.23-11.37.46:059][714]LogSavePackage: Moving output files for package: /Game/Blueprints/Builder/Builds/BP_Build_ArcadeV1
+[2024.10.23-11.37.46:059][714]LogSavePackage: Moving '../../../../../../Users/RA00331197/Desktop/arcade/ArcadeSimulator/Arcade/Saved/BP_Build_ArcadeV16DE61BCD4442F72415E37E9176D2BCAD.tmp' to '../../../../../../Users/RA00331197/Desktop/arcade/ArcadeSimulator/Arcade/Content/Blueprints/Builder/Builds/BP_Build_ArcadeV1.uasset'
+[2024.10.23-11.37.46:065][714]LogFileHelpers: InternalPromptForCheckoutAndSave took 64 ms (total: 2.73 sec)
+[2024.10.23-11.37.46:081][714]AssetCheck: New page: Asset Save: multiple assets
+[2024.10.23-11.37.46:081][714]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Builder/Builds/BP_BuilderMaster.BP_BuilderMaster
+[2024.10.23-11.37.46:081][714]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Builder/Builds/BP_Build_ArcadeV1.BP_Build_ArcadeV1
+[2024.10.23-11.37.48:578][983]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.23-11.37.48:628][983]LogSavePackage: Moving output files for package: /Game/Blueprints/Builder/Builds/BP_BuilderMaster
+[2024.10.23-11.37.48:629][983]LogSavePackage: Moving '../../../../../../Users/RA00331197/Desktop/arcade/ArcadeSimulator/Arcade/Saved/BP_BuilderMaster93A95C724DADA0B0FC17ADB792BCCF91.tmp' to '../../../../../../Users/RA00331197/Desktop/arcade/ArcadeSimulator/Arcade/Content/Blueprints/Builder/Builds/BP_BuilderMaster.uasset'
+[2024.10.23-11.37.48:635][983]LogFileHelpers: InternalPromptForCheckoutAndSave took 56 ms (total: 2.78 sec)
+[2024.10.23-11.37.48:636][983]AssetCheck: New page: Asset Save: BP_BuilderMaster
+[2024.10.23-11.37.48:636][983]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Builder/Builds/BP_BuilderMaster.BP_BuilderMaster
+[2024.10.23-11.37.50:542][195]BlueprintLog: New page: Compile BP_Build_ArcadeV1
+[2024.10.23-11.37.50:558][195]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2024.10.23-11.38.17:356][332]LogWorld: UWorld::CleanupWorld for World_21, bSessionEnded=true, bCleanupResources=true
+[2024.10.23-11.38.17:356][332]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.23-11.38.19:561][582]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Builder/Builds/BP_Build_ArcadeV2.BP_Build_ArcadeV2
+[2024.10.23-11.38.19:562][582]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.23-11.38.19:562][582]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.23-11.38.21:066][737]LogSlate: Window 'BP_Build_ArcadeV2' being destroyed
+[2024.10.23-11.38.21:075][737]LogWorld: UWorld::CleanupWorld for World_22, bSessionEnded=true, bCleanupResources=true
+[2024.10.23-11.38.21:075][737]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.23-11.38.21:090][737]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Builder/Builds/BP_Build_ArcadeV2.BP_Build_ArcadeV2
+[2024.10.23-11.38.21:090][737]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.23-11.38.21:090][737]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.23-11.38.22:397][852]LogViewport: Scene viewport resized to 988x745, mode Windowed.
+[2024.10.23-11.38.25:376][121]LogSlate: Window 'BP_Build_ArcadeV2' being destroyed
+[2024.10.23-11.38.25:383][121]LogSlate: Window 'BP_Build_ArcadeV2' being destroyed
+[2024.10.23-11.38.25:386][121]LogWorld: UWorld::CleanupWorld for World_23, bSessionEnded=true, bCleanupResources=true
+[2024.10.23-11.38.25:386][121]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.23-11.38.27:999][425]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Builder/Builds/BP_Build_ClawMachine.BP_Build_ClawMachine
+[2024.10.23-11.38.28:000][425]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.23-11.38.28:000][425]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.23-11.38.29:504][584]LogSlate: Window 'BP_Build_ClawMachine' being destroyed
+[2024.10.23-11.38.29:512][584]LogWorld: UWorld::CleanupWorld for World_24, bSessionEnded=true, bCleanupResources=true
+[2024.10.23-11.38.29:512][584]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.23-11.38.29:528][584]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Builder/Builds/BP_Build_ClawMachine.BP_Build_ClawMachine
+[2024.10.23-11.38.29:528][584]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.23-11.38.29:528][584]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.23-11.38.30:906][701]LogViewport: Scene viewport resized to 988x745, mode Windowed.
+[2024.10.23-11.38.31:569][756]LogViewport: Scene viewport resized to 985x768, mode Windowed.
+[2024.10.23-11.38.31:653][758]LogViewport: Scene viewport resized to 566x386, mode Windowed.
+[2024.10.23-11.38.31:677][759]LogViewport: Scene viewport resized to 467x296, mode Windowed.
+[2024.10.23-11.38.31:690][760]LogViewport: Scene viewport resized to 1141x875, mode Windowed.
+[2024.10.23-11.38.31:984][792]LogSlate: Window 'BP_Build_ClawMachine' being destroyed
+[2024.10.23-11.40.04:714][471]BlueprintLog: New page: Compile BP_Build_ClawMachine
+[2024.10.23-11.40.04:764][471]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2024.10.23-11.40.04:775][471]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.23-11.40.04:842][471]LogSavePackage: Moving output files for package: /Game/Blueprints/Builder/Builds/BP_Build_ClawMachine
+[2024.10.23-11.40.04:842][471]LogSavePackage: Moving '../../../../../../Users/RA00331197/Desktop/arcade/ArcadeSimulator/Arcade/Saved/BP_Build_ClawMachineBAD5021D4B513C6AEEDFC490572207B0.tmp' to '../../../../../../Users/RA00331197/Desktop/arcade/ArcadeSimulator/Arcade/Content/Blueprints/Builder/Builds/BP_Build_ClawMachine.uasset'
+[2024.10.23-11.40.04:848][471]LogFileHelpers: InternalPromptForCheckoutAndSave took 73 ms (total: 2.86 sec)
+[2024.10.23-11.40.04:864][471]AssetCheck: New page: Asset Save: BP_Build_ClawMachine
+[2024.10.23-11.40.04:864][471]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Builder/Builds/BP_Build_ClawMachine.BP_Build_ClawMachine
+[2024.10.23-11.40.05:973][586]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.23-11.40.06:035][586]LogSavePackage: Moving output files for package: /Game/Blueprints/Builder/Builds/BP_Build_ClawMachine
+[2024.10.23-11.40.06:035][586]LogSavePackage: Moving '../../../../../../Users/RA00331197/Desktop/arcade/ArcadeSimulator/Arcade/Saved/BP_Build_ClawMachineFD22E8BE4CC82E0E49EBBEADC632667D.tmp' to '../../../../../../Users/RA00331197/Desktop/arcade/ArcadeSimulator/Arcade/Content/Blueprints/Builder/Builds/BP_Build_ClawMachine.uasset'
+[2024.10.23-11.40.06:041][586]LogFileHelpers: InternalPromptForCheckoutAndSave took 66 ms (total: 2.92 sec)
+[2024.10.23-11.40.06:042][586]AssetCheck: New page: Asset Save: BP_Build_ClawMachine
+[2024.10.23-11.40.06:042][586]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Builder/Builds/BP_Build_ClawMachine.BP_Build_ClawMachine
+[2024.10.23-11.40.21:800][709]LogContentBrowser: Deferred new asset file creation: BP_BuilderPreviewMaster_Child
+[2024.10.23-11.40.21:826][709]LogContentBrowser: Creating deferred item: BP_BuilderPreviewMaster_Child
+[2024.10.23-11.40.21:834][710]LogContentBrowser: Renaming the item being created (Deferred Item: BP_BuilderPreviewMaster_Child).
+[2024.10.23-11.40.36:216][397]LogContentBrowser: Attempting asset rename: BP_BuilderPreviewMaster_Child -> BP_BuilderPreview_ClawMachine
+[2024.10.23-11.40.36:220][397]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.23-11.40.36:303][397]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.23-11.40.36:316][397]LogAssetRegistry: Warning: ScanPathsSynchronous: Package /Game/Blueprints/Builder/BuildsPreview/BP_BuilderPreview_ClawMachine does not exist, will not scan.
+[2024.10.23-11.40.36:319][397]LogSavePackage: Moving output files for package: /Game/Blueprints/Builder/BuildsPreview/BP_BuilderPreview_ClawMachine
+[2024.10.23-11.40.36:319][397]LogSavePackage: Moving '../../../../../../Users/RA00331197/Desktop/arcade/ArcadeSimulator/Arcade/Saved/BP_BuilderPreview_ClawMachine376F770B4F07AC83D71219A703968057.tmp' to '../../../../../../Users/RA00331197/Desktop/arcade/ArcadeSimulator/Arcade/Content/Blueprints/Builder/BuildsPreview/BP_BuilderPreview_ClawMachine.uasset'
+[2024.10.23-11.40.36:329][397]LogFileHelpers: InternalPromptForCheckoutAndSave took 108 ms (total: 3.03 sec)
+[2024.10.23-11.40.36:329][397]LogContentBrowser: End creating deferred item BP_BuilderPreviewMaster_Child
+[2024.10.23-11.40.36:330][397]AssetCheck: New page: Asset Save: BP_BuilderPreview_ClawMachine
+[2024.10.23-11.40.36:330][397]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Builder/BuildsPreview/BP_BuilderPreview_ClawMachine.BP_BuilderPreview_ClawMachine
+[2024.10.23-11.40.38:389][495]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Builder/BuildsPreview/BP_BuilderPreview_ClawMachine.BP_BuilderPreview_ClawMachine
+[2024.10.23-11.40.38:389][495]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.23-11.40.38:389][495]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.23-11.40.38:504][495]LogViewport: Scene viewport resized to 1141x875, mode Windowed.
+[2024.10.23-11.41.03:706][272]Cmd: TRANSACTION UNDO
+[2024.10.23-11.41.03:706][272]LogEditorTransaction: Undo Paste Location
+[2024.10.23-11.41.32:814][488]BlueprintLog: New page: Compile BP_BuilderPreview_ClawMachine
+[2024.10.23-11.41.32:832][488]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2024.10.23-11.41.32:840][488]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.23-11.41.32:877][488]LogSavePackage: Moving output files for package: /Game/Blueprints/Builder/BuildsPreview/BP_BuilderPreview_ClawMachine
+[2024.10.23-11.41.32:877][488]LogSavePackage: Moving '../../../../../../Users/RA00331197/Desktop/arcade/ArcadeSimulator/Arcade/Saved/BP_BuilderPreview_ClawMachineAED467F448CED9D0A1228EA457EA8FB8.tmp' to '../../../../../../Users/RA00331197/Desktop/arcade/ArcadeSimulator/Arcade/Content/Blueprints/Builder/BuildsPreview/BP_BuilderPreview_ClawMachine.uasset'
+[2024.10.23-11.41.32:883][488]LogFileHelpers: InternalPromptForCheckoutAndSave took 43 ms (total: 3.08 sec)
+[2024.10.23-11.41.32:900][488]AssetCheck: New page: Asset Save: BP_BuilderPreview_ClawMachine
+[2024.10.23-11.41.32:900][488]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Builder/BuildsPreview/BP_BuilderPreview_ClawMachine.BP_BuilderPreview_ClawMachine
+[2024.10.23-11.41.34:783][691]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.23-11.41.34:842][691]LogSavePackage: Moving output files for package: /Game/Blueprints/Builder/BuildsPreview/BP_BuilderPreview_ClawMachine
+[2024.10.23-11.41.34:842][691]LogSavePackage: Moving '../../../../../../Users/RA00331197/Desktop/arcade/ArcadeSimulator/Arcade/Saved/BP_BuilderPreview_ClawMachine323058BD49E719D31B6F4894ED78D010.tmp' to '../../../../../../Users/RA00331197/Desktop/arcade/ArcadeSimulator/Arcade/Content/Blueprints/Builder/BuildsPreview/BP_BuilderPreview_ClawMachine.uasset'
+[2024.10.23-11.41.34:849][691]LogFileHelpers: InternalPromptForCheckoutAndSave took 66 ms (total: 3.14 sec)
+[2024.10.23-11.41.34:850][691]AssetCheck: New page: Asset Save: BP_BuilderPreview_ClawMachine
+[2024.10.23-11.41.34:850][691]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Builder/BuildsPreview/BP_BuilderPreview_ClawMachine.BP_BuilderPreview_ClawMachine
+[2024.10.23-11.41.44:062][748]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.23-11.41.44:122][748]LogSavePackage: Moving output files for package: /Game/Blueprints/Builder/DT_BuildParts
+[2024.10.23-11.41.44:123][748]LogSavePackage: Moving '../../../../../../Users/RA00331197/Desktop/arcade/ArcadeSimulator/Arcade/Saved/DT_BuildParts4CE71EB34C339E2B382657AA83D1083F.tmp' to '../../../../../../Users/RA00331197/Desktop/arcade/ArcadeSimulator/Arcade/Content/Blueprints/Builder/DT_BuildParts.uasset'
+[2024.10.23-11.41.44:128][748]LogFileHelpers: InternalPromptForCheckoutAndSave took 66 ms (total: 3.21 sec)
+[2024.10.23-11.41.44:129][748]AssetCheck: New page: Asset Save: DT_BuildParts
+[2024.10.23-11.41.44:129][748]LogContentValidation: Display: Validating /Script/Engine.DataTable /Game/Blueprints/Builder/DT_BuildParts.DT_BuildParts
+[2024.10.23-11.41.45:034][807]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.10.23-11.41.45:040][807]LogContentBundle: [TestingPlayer1(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.10.23-11.41.45:040][807]LogWorldPartition: Display: GenerateStreaming for 'TestingPlayer1' started...
+[2024.10.23-11.41.45:043][807]LogWorldPartition: Display: GenerateStreaming for 'TestingPlayer1' took 3 ms (total: 73 ms)
+[2024.10.23-11.41.45:043][807]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.10.23-11.41.45:043][807]PIE: New page: PIE session: TestingPlayer1 (Oct 23, 2024, 5:41:45 AM)
+[2024.10.23-11.41.45:043][807]LogPlayLevel: Display: Creating online subsystem for client :Context_54
+[2024.10.23-11.41.45:045][807]LogOnline: OSS: Created online subsystem instance for: :Context_54
+[2024.10.23-11.41.45:067][808]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TestingPlayer1
+[2024.10.23-11.41.45:070][808]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003009s)
+[2024.10.23-11.41.45:070][808]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TestingPlayer1.TestingPlayer1 to /Game/Levels/UEDPIE_0_TestingPlayer1.TestingPlayer1 (0.003044s)
+[2024.10.23-11.41.45:078][808]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2024.10.23-11.41.45:079][808]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.23-11.41.45:079][808]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.23-11.41.45:080][808]LogAIModule: Creating AISystem for world TestingPlayer1
+[2024.10.23-11.41.45:080][808]LogWorldPartition: ULevel::OnLevelLoaded(TestingPlayer1)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.10.23-11.41.45:080][808]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.10.23-11.41.45:080][808]LogWorldPartition: UWorldPartition::Initialize : World = TestingPlayer1, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.10.23-11.41.45:080][808]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.10.23-11.41.45:081][808]LogContentBundle: [TestingPlayer1(Standalone)] Creating new contrainer.
+[2024.10.23-11.41.45:081][808]LogWorldPartition: Display: WorldPartition initialize took 855 us (total: 1.32 sec)
+[2024.10.23-11.41.45:081][808]LogPlayLevel: PIE: World Init took: (0.001708s)
+[2024.10.23-11.41.45:081][808]LogAudio: Display: Creating Audio Device:                 Id: 27, Scope: Unique, Realtime: True
+[2024.10.23-11.41.45:081][808]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.10.23-11.41.45:081][808]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.10.23-11.41.45:081][808]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.10.23-11.41.45:081][808]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.10.23-11.41.45:081][808]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.10.23-11.41.45:081][808]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.10.23-11.41.45:081][808]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.10.23-11.41.45:081][808]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.10.23-11.41.45:081][808]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.10.23-11.41.45:081][808]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.10.23-11.41.45:081][808]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.10.23-11.41.45:083][808]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.10.23-11.41.45:108][808]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (Realtek(R) Audio)
+[2024.10.23-11.41.45:108][808]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.10.23-11.41.45:108][808]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.10.23-11.41.45:108][808]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.10.23-11.41.45:109][808]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=27
+[2024.10.23-11.41.45:109][808]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=27
+[2024.10.23-11.41.45:110][808]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=27
+[2024.10.23-11.41.45:110][808]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=27
+[2024.10.23-11.41.45:110][808]LogInit: FAudioDevice initialized with ID 27.
+[2024.10.23-11.41.45:110][808]LogAudio: Display: Audio Device (ID: 27) registered with world 'TestingPlayer1'.
+[2024.10.23-11.41.45:110][808]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 27
+[2024.10.23-11.41.45:113][808]LogLoad: Game class is 'MyGameGamemode_C'
+[2024.10.23-11.41.45:113][808]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TestingPlayer1.TestingPlayer1 up for play (max tick rate 0) at 2024.10.23-08.41.45
+[2024.10.23-11.41.45:113][808]LogWorld: Bringing up level for play took: 0.000386
+[2024.10.23-11.41.45:114][808]LogWorldPartition: UWorldPartitionStreamingPolicy: CellsToActivate(43), CellsToLoad(0), CellsToUnload(0)
+[2024.10.23-11.41.45:114][808]LogWorldPartition: UWorldPartitionStreamingPolicy: Sources[0] = X=-2504.651 Y=3818.299 Z=158.911,P=0.000000 Y=114.610047 R=-0.000000
+[2024.10.23-11.41.45:116][808]LogStreaming: Display: FlushAsyncLoading(): 74 QueuedPackages, 0 AsyncPackages
+[2024.10.23-11.41.45:426][808]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.10.23-11.41.45:426][808]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.10.23-11.41.45:426][808]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.10.23-11.41.45:429][808]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.10.23-11.41.45:429][808]PIE: Server logged in
+[2024.10.23-11.41.45:429][808]PIE: Play in editor total start time 0.389 seconds.
+[2024.10.23-11.41.45:819][809]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.056003 > MaxSimulationTimeStep (0.050) for 'BP_Player_C_0', movement 'Walking'
+[2024.10.23-11.41.55:396][930]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.23-11.41.55:396][930]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TestingPlayer1
+[2024.10.23-11.41.55:403][930]LogWorld: UWorld::CleanupWorld for TestingPlayer1, bSessionEnded=true, bCleanupResources=true
+[2024.10.23-11.41.55:403][930]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.23-11.41.55:403][930]LogContentBundle: [TestingPlayer1(Standalone)] Deleting container.
+[2024.10.23-11.41.55:406][930]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.10.23-11.41.55:409][930]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.23-11.41.55:425][930]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.23-11.41.55:426][930]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 27
+[2024.10.23-11.41.55:426][930]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=27
+[2024.10.23-11.41.55:427][930]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=27
+[2024.10.23-11.41.55:440][930]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2024.10.23-11.41.55:483][931]LogPlayLevel: Display: Destroying online subsystem :Context_54
+[2024.10.23-11.41.58:861][230]BlueprintLog: New page: Compile BP_Build_ClawMachine
+[2024.10.23-11.41.58:877][230]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2024.10.23-11.42.00:991][445]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2024.10.23-11.42.02:060][568]LogWorld: UWorld::CleanupWorld for World_25, bSessionEnded=true, bCleanupResources=true
+[2024.10.23-11.42.02:060][568]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.23-11.42.02:841][655]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2024.10.23-11.42.02:841][655]LogWorld: UWorld::CleanupWorld for World_27, bSessionEnded=true, bCleanupResources=true
+[2024.10.23-11.42.02:841][655]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.23-11.42.04:219][812]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2024.10.23-11.42.04:219][812]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2024.10.23-11.42.04:219][812]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.23-11.42.19:831][571]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.10.23-11.42.19:837][571]LogContentBundle: [TestingPlayer1(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.10.23-11.42.19:837][571]LogWorldPartition: Display: GenerateStreaming for 'TestingPlayer1' started...
+[2024.10.23-11.42.19:841][571]LogWorldPartition: Display: GenerateStreaming for 'TestingPlayer1' took 3 ms (total: 77 ms)
+[2024.10.23-11.42.19:841][571]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.10.23-11.42.19:841][571]PIE: New page: PIE session: TestingPlayer1 (Oct 23, 2024, 5:42:19 AM)
+[2024.10.23-11.42.19:841][571]LogPlayLevel: Display: Creating online subsystem for client :Context_55
+[2024.10.23-11.42.19:843][571]LogOnline: OSS: Created online subsystem instance for: :Context_55
+[2024.10.23-11.42.19:862][572]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TestingPlayer1
+[2024.10.23-11.42.19:866][572]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003160s)
+[2024.10.23-11.42.19:866][572]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TestingPlayer1.TestingPlayer1 to /Game/Levels/UEDPIE_0_TestingPlayer1.TestingPlayer1 (0.003195s)
+[2024.10.23-11.42.19:876][572]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2024.10.23-11.42.19:884][572]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.23-11.42.19:884][572]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.23-11.42.19:885][572]LogAIModule: Creating AISystem for world TestingPlayer1
+[2024.10.23-11.42.19:885][572]LogWorldPartition: ULevel::OnLevelLoaded(TestingPlayer1)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.10.23-11.42.19:885][572]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.10.23-11.42.19:885][572]LogWorldPartition: UWorldPartition::Initialize : World = TestingPlayer1, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.10.23-11.42.19:885][572]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.10.23-11.42.19:886][572]LogContentBundle: [TestingPlayer1(Standalone)] Creating new contrainer.
+[2024.10.23-11.42.19:886][572]LogWorldPartition: Display: WorldPartition initialize took 852 us (total: 1.32 sec)
+[2024.10.23-11.42.19:886][572]LogPlayLevel: PIE: World Init took: (0.001719s)
+[2024.10.23-11.42.19:886][572]LogAudio: Display: Creating Audio Device:                 Id: 28, Scope: Unique, Realtime: True
+[2024.10.23-11.42.19:886][572]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.10.23-11.42.19:886][572]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.10.23-11.42.19:886][572]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.10.23-11.42.19:886][572]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.10.23-11.42.19:886][572]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.10.23-11.42.19:886][572]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.10.23-11.42.19:886][572]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.10.23-11.42.19:886][572]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.10.23-11.42.19:886][572]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.10.23-11.42.19:886][572]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.10.23-11.42.19:886][572]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.10.23-11.42.19:888][572]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.10.23-11.42.19:913][572]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (Realtek(R) Audio)
+[2024.10.23-11.42.19:913][572]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.10.23-11.42.19:913][572]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.10.23-11.42.19:913][572]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.10.23-11.42.19:914][572]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=28
+[2024.10.23-11.42.19:914][572]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=28
+[2024.10.23-11.42.19:915][572]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=28
+[2024.10.23-11.42.19:915][572]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=28
+[2024.10.23-11.42.19:915][572]LogInit: FAudioDevice initialized with ID 28.
+[2024.10.23-11.42.19:915][572]LogAudio: Display: Audio Device (ID: 28) registered with world 'TestingPlayer1'.
+[2024.10.23-11.42.19:915][572]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 28
+[2024.10.23-11.42.19:918][572]LogLoad: Game class is 'MyGameGamemode_C'
+[2024.10.23-11.42.19:918][572]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TestingPlayer1.TestingPlayer1 up for play (max tick rate 0) at 2024.10.23-08.42.19
+[2024.10.23-11.42.19:918][572]LogWorld: Bringing up level for play took: 0.000436
+[2024.10.23-11.42.19:919][572]LogWorldPartition: UWorldPartitionStreamingPolicy: CellsToActivate(43), CellsToLoad(0), CellsToUnload(0)
+[2024.10.23-11.42.19:919][572]LogWorldPartition: UWorldPartitionStreamingPolicy: Sources[0] = X=-2381.483 Y=3540.371 Z=158.911,P=0.000000 Y=84.489346 R=-0.000000
+[2024.10.23-11.42.19:921][572]LogStreaming: Display: FlushAsyncLoading(): 74 QueuedPackages, 0 AsyncPackages
+[2024.10.23-11.42.20:232][572]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.10.23-11.42.20:232][572]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.10.23-11.42.20:232][572]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.10.23-11.42.20:235][572]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.10.23-11.42.20:235][572]PIE: Server logged in
+[2024.10.23-11.42.20:236][572]PIE: Play in editor total start time 0.398 seconds.
+[2024.10.23-11.42.20:589][573]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.054149 > MaxSimulationTimeStep (0.050) for 'BP_Player_C_0', movement 'Walking'
+[2024.10.23-11.42.36:816][496]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.23-11.42.36:816][496]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TestingPlayer1
+[2024.10.23-11.42.36:822][496]LogWorld: UWorld::CleanupWorld for TestingPlayer1, bSessionEnded=true, bCleanupResources=true
+[2024.10.23-11.42.36:823][496]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.23-11.42.36:823][496]LogContentBundle: [TestingPlayer1(Standalone)] Deleting container.
+[2024.10.23-11.42.36:826][496]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.10.23-11.42.36:829][496]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.23-11.42.36:841][496]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.10.23-11.42.36:846][496]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 28
+[2024.10.23-11.42.36:846][496]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=28
+[2024.10.23-11.42.36:847][496]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=28
+[2024.10.23-11.42.36:853][496]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.23-11.42.36:860][496]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2024.10.23-11.42.36:903][497]LogPlayLevel: Display: Destroying online subsystem :Context_55
+[2024.10.23-11.42.42:948][107]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2024.10.23-11.42.42:948][107]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2024.10.23-11.42.42:948][107]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.23-11.43.14:619][838]LogEditorTransaction: Undo Move Node
+[2024.10.23-11.43.18:475][226]BlueprintLog: New page: Compile BPC_BuildSystem
+[2024.10.23-11.43.18:499][226]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2024.10.23-11.43.18:531][226]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.23-11.43.18:612][226]LogSavePackage: Moving output files for package: /Game/Blueprints/Builder/BPC_BuildSystem
+[2024.10.23-11.43.18:612][226]LogSavePackage: Moving '../../../../../../Users/RA00331197/Desktop/arcade/ArcadeSimulator/Arcade/Saved/BPC_BuildSystemB411E9164C1BDB8E42FC2AA029679EB0.tmp' to '../../../../../../Users/RA00331197/Desktop/arcade/ArcadeSimulator/Arcade/Content/Blueprints/Builder/BPC_BuildSystem.uasset'
+[2024.10.23-11.43.18:616][226]LogFileHelpers: InternalPromptForCheckoutAndSave took 85 ms (total: 3.29 sec)
+[2024.10.23-11.43.18:618][226]AssetCheck: New page: Asset Save: BPC_BuildSystem
+[2024.10.23-11.43.18:618][226]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Builder/BPC_BuildSystem.BPC_BuildSystem
+[2024.10.23-11.44.14:481][737]BlueprintLog: New page: Compile BPC_BuildSystem
+[2024.10.23-11.44.14:504][737]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2024.10.23-11.44.14:533][737]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.23-11.44.14:610][737]LogSavePackage: Moving output files for package: /Game/Blueprints/Builder/BPC_BuildSystem
+[2024.10.23-11.44.14:610][737]LogSavePackage: Moving '../../../../../../Users/RA00331197/Desktop/arcade/ArcadeSimulator/Arcade/Saved/BPC_BuildSystemAD58AB4941B9C6B67BF1F7A3BE7FC3B7.tmp' to '../../../../../../Users/RA00331197/Desktop/arcade/ArcadeSimulator/Arcade/Content/Blueprints/Builder/BPC_BuildSystem.uasset'
+[2024.10.23-11.44.14:616][737]LogFileHelpers: InternalPromptForCheckoutAndSave took 82 ms (total: 3.38 sec)
+[2024.10.23-11.44.14:617][737]AssetCheck: New page: Asset Save: BPC_BuildSystem
+[2024.10.23-11.44.14:617][737]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Builder/BPC_BuildSystem.BPC_BuildSystem
+[2024.10.23-11.44.30:506][592]BlueprintLog: New page: Compile BPC_BuildSystem
+[2024.10.23-11.44.30:530][592]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2024.10.23-11.44.30:559][592]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.23-11.44.30:647][592]LogSavePackage: Moving output files for package: /Game/Blueprints/Builder/BPC_BuildSystem
+[2024.10.23-11.44.30:647][592]LogSavePackage: Moving '../../../../../../Users/RA00331197/Desktop/arcade/ArcadeSimulator/Arcade/Saved/BPC_BuildSystem04764BBE4134EB6BA27B8792E4AE7FEB.tmp' to '../../../../../../Users/RA00331197/Desktop/arcade/ArcadeSimulator/Arcade/Content/Blueprints/Builder/BPC_BuildSystem.uasset'
+[2024.10.23-11.44.30:653][592]LogFileHelpers: InternalPromptForCheckoutAndSave took 93 ms (total: 3.47 sec)
+[2024.10.23-11.44.30:659][592]AssetCheck: New page: Asset Save: BPC_BuildSystem
+[2024.10.23-11.44.30:659][592]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Builder/BPC_BuildSystem.BPC_BuildSystem
+[2024.10.23-11.44.31:143][630]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.23-11.44.31:208][630]LogSavePackage: Moving output files for package: /Game/Blueprints/Builder/BPC_BuildSystem
+[2024.10.23-11.44.31:209][630]LogSavePackage: Moving '../../../../../../Users/RA00331197/Desktop/arcade/ArcadeSimulator/Arcade/Saved/BPC_BuildSystemB79909E44B2C001B298FCEA706622AFB.tmp' to '../../../../../../Users/RA00331197/Desktop/arcade/ArcadeSimulator/Arcade/Content/Blueprints/Builder/BPC_BuildSystem.uasset'
+[2024.10.23-11.44.31:214][630]LogFileHelpers: InternalPromptForCheckoutAndSave took 70 ms (total: 3.54 sec)
+[2024.10.23-11.44.31:215][630]AssetCheck: New page: Asset Save: BPC_BuildSystem
+[2024.10.23-11.44.31:215][630]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Builder/BPC_BuildSystem.BPC_BuildSystem
