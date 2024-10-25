@@ -6824,3 +6824,854 @@ Scale3D: 1.000000 1.000000 1.000000
 [2024.10.25-13.21.13:595][225]LogEditorTransaction: Undo Remove Components
 [2024.10.25-13.21.14:877][285]BlueprintLog: New page: Compile BP_Atm
 [2024.10.25-13.21.14:929][285]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2024.10.25-13.34.47:283][169]BlueprintLog: New page: Compile BP_Atm
+[2024.10.25-13.34.47:327][169]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2024.10.25-13.34.47:344][169]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.25-13.34.47:373][169]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Cashier/BP_Atm" FILE="../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/Blueprints/Cashier/BP_Atm.uasset" SILENT=true
+[2024.10.25-13.34.47:388][169]LogSavePackage: Moving output files for package: /Game/Blueprints/Cashier/BP_Atm
+[2024.10.25-13.34.47:389][169]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Saved/BP_Atm51CC23E54C5237ADC0875789BC3B87C5.tmp' to '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/Blueprints/Cashier/BP_Atm.uasset'
+[2024.10.25-13.34.47:398][169]LogFileHelpers: InternalPromptForCheckoutAndSave took 53 ms (total: 7.24 sec)
+[2024.10.25-13.34.47:400][169]AssetCheck: New page: Asset Save: BP_Atm
+[2024.10.25-13.34.47:400][169]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Cashier/BP_Atm.BP_Atm
+[2024.10.25-13.35.19:889][424]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.10.25-13.35.19:900][424]LogContentBundle: [TestingPlayer(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.10.25-13.35.19:900][424]LogWorldPartition: Display: GenerateStreaming for 'TestingPlayer' started...
+[2024.10.25-13.35.19:905][424]LogWorldPartition: Display: GenerateStreaming for 'TestingPlayer' took 4 ms (total: 213 ms)
+[2024.10.25-13.35.19:905][424]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.10.25-13.35.19:905][424]PIE: New page: PIE session: TestingPlayer (25 de out de 2024 07:35:19)
+[2024.10.25-13.35.19:906][424]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TestingPlayer
+[2024.10.25-13.35.19:910][424]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004823s)
+[2024.10.25-13.35.19:910][424]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TestingPlayer.TestingPlayer to /Game/Levels/UEDPIE_0_TestingPlayer.TestingPlayer (0.004860s)
+[2024.10.25-13.35.19:927][424]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2024.10.25-13.35.19:931][424]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.25-13.35.19:932][424]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.25-13.35.19:932][424]LogAIModule: Creating AISystem for world TestingPlayer
+[2024.10.25-13.35.19:933][424]LogWorldPartition: ULevel::OnLevelLoaded(TestingPlayer)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.10.25-13.35.19:933][424]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.10.25-13.35.19:933][424]LogWorldPartition: UWorldPartition::Initialize : World = TestingPlayer, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.10.25-13.35.19:933][424]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.10.25-13.35.19:934][424]LogContentBundle: [TestingPlayer(Standalone)] Creating new contrainer.
+[2024.10.25-13.35.19:934][424]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 4.52 sec)
+[2024.10.25-13.35.19:934][424]LogPlayLevel: PIE: World Init took: (0.002670s)
+[2024.10.25-13.35.19:934][424]LogAudio: Display: Creating Audio Device:                 Id: 51, Scope: Unique, Realtime: True
+[2024.10.25-13.35.19:934][424]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.10.25-13.35.19:934][424]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.10.25-13.35.19:934][424]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.10.25-13.35.19:934][424]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.10.25-13.35.19:934][424]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.10.25-13.35.19:934][424]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.10.25-13.35.19:934][424]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.10.25-13.35.19:934][424]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.10.25-13.35.19:934][424]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.10.25-13.35.19:934][424]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.10.25-13.35.19:934][424]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.10.25-13.35.19:937][424]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.10.25-13.35.19:971][424]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (USB Audio Device)
+[2024.10.25-13.35.19:971][424]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.10.25-13.35.19:971][424]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.10.25-13.35.19:971][424]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.10.25-13.35.19:972][424]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=51
+[2024.10.25-13.35.19:972][424]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=51
+[2024.10.25-13.35.19:974][424]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=51
+[2024.10.25-13.35.19:974][424]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=51
+[2024.10.25-13.35.19:974][424]LogInit: FAudioDevice initialized with ID 51.
+[2024.10.25-13.35.19:974][424]LogAudio: Display: Audio Device (ID: 51) registered with world 'TestingPlayer'.
+[2024.10.25-13.35.19:974][424]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 51
+[2024.10.25-13.35.19:979][424]LogLoad: Game class is 'MyGameGamemode_C'
+[2024.10.25-13.35.19:979][424]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TestingPlayer.TestingPlayer up for play (max tick rate 0) at 2024.10.25-10.35.19
+[2024.10.25-13.35.19:980][424]LogWorld: Bringing up level for play took: 0.000548
+[2024.10.25-13.35.19:982][424]LogOnline: OSS: Created online subsystem instance for: :Context_87
+[2024.10.25-13.35.19:982][424]LogWorldPartition: UWorldPartitionStreamingPolicy: CellsToActivate(41), CellsToLoad(0), CellsToUnload(0)
+[2024.10.25-13.35.19:982][424]LogWorldPartition: UWorldPartitionStreamingPolicy: Sources[0] = X=-11020.878 Y=-6863.970 Z=147.751,P=-0.000000 Y=-87.075000 R=0.000000
+[2024.10.25-13.35.19:986][424]LogStreaming: Display: FlushAsyncLoading(): 74 QueuedPackages, 0 AsyncPackages
+[2024.10.25-13.35.20:451][424]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.10.25-13.35.20:451][424]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.10.25-13.35.20:451][424]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.10.25-13.35.20:454][424]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.10.25-13.35.20:454][424]PIE: Server logged in
+[2024.10.25-13.35.20:456][424]PIE: Play in editor total start time 0,555 seconds.
+[2024.10.25-13.35.21:046][425]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.066590 > MaxSimulationTimeStep (0.050) for 'BP_Player_C_0', movement 'Walking'
+[2024.10.25-13.35.22:604][491]LogBlueprintUserMessages: [BP_Player_C_0] LandscapeStreamingProxy_3_3_0.LandscapeHeightfieldCollisionComponent_3
+[2024.10.25-13.35.23:070][542]LogBlueprintUserMessages: [BP_Player_C_0] LandscapeStreamingProxy_3_3_0.LandscapeHeightfieldCollisionComponent_3
+[2024.10.25-13.35.23:273][564]LogBlueprintUserMessages: [BP_Player_C_0] LandscapeStreamingProxy_3_3_0.LandscapeHeightfieldCollisionComponent_3
+[2024.10.25-13.35.23:540][591]LogBlueprintUserMessages: [BP_Player_C_0] LandscapeStreamingProxy_3_3_0.LandscapeHeightfieldCollisionComponent_3
+[2024.10.25-13.35.23:749][612]LogBlueprintUserMessages: [BP_Player_C_0] LandscapeStreamingProxy_3_3_0.LandscapeHeightfieldCollisionComponent_3
+[2024.10.25-13.35.23:939][631]LogBlueprintUserMessages: [BP_Player_C_0] LandscapeStreamingProxy_3_3_0.LandscapeHeightfieldCollisionComponent_3
+[2024.10.25-13.35.24:200][657]LogBlueprintUserMessages: [BP_Player_C_0] LandscapeStreamingProxy_3_3_0.LandscapeHeightfieldCollisionComponent_3
+[2024.10.25-13.35.24:391][677]LogBlueprintUserMessages: [BP_Player_C_0] LandscapeStreamingProxy_3_3_0.LandscapeHeightfieldCollisionComponent_3
+[2024.10.25-13.35.24:570][695]LogBlueprintUserMessages: [BP_Player_C_0] LandscapeStreamingProxy_3_3_0.LandscapeHeightfieldCollisionComponent_3
+[2024.10.25-13.35.24:758][715]LogBlueprintUserMessages: [BP_Player_C_0] LandscapeStreamingProxy_3_3_0.LandscapeHeightfieldCollisionComponent_3
+[2024.10.25-13.35.24:951][735]LogBlueprintUserMessages: [BP_Player_C_0] LandscapeStreamingProxy_3_3_0.LandscapeHeightfieldCollisionComponent_3
+[2024.10.25-13.35.25:140][754]LogBlueprintUserMessages: [BP_Player_C_0] LandscapeStreamingProxy_3_3_0.LandscapeHeightfieldCollisionComponent_3
+[2024.10.25-13.35.25:878][829]LogBlueprintUserMessages: [BP_Player_C_0] LandscapeStreamingProxy_3_3_0.LandscapeHeightfieldCollisionComponent_3
+[2024.10.25-13.35.26:071][846]LogBlueprintUserMessages: [BP_Player_C_0] LandscapeStreamingProxy_3_3_0.LandscapeHeightfieldCollisionComponent_3
+[2024.10.25-13.35.26:323][871]LogBlueprintUserMessages: [BP_Player_C_0] LandscapeStreamingProxy_3_3_0.LandscapeHeightfieldCollisionComponent_3
+[2024.10.25-13.35.27:015][945]LogBlueprintUserMessages: [BP_Player_C_0] LandscapeStreamingProxy_3_3_0.LandscapeHeightfieldCollisionComponent_3
+[2024.10.25-13.35.27:427][988]LogBlueprintUserMessages: [BP_Player_C_0] LandscapeStreamingProxy_3_3_0.LandscapeHeightfieldCollisionComponent_3
+[2024.10.25-13.35.27:612][  7]LogBlueprintUserMessages: [BP_Player_C_0] 
+[2024.10.25-13.35.27:769][ 23]LogBlueprintUserMessages: [BP_Player_C_0] 
+[2024.10.25-13.35.27:941][ 40]LogBlueprintUserMessages: [BP_Player_C_0] 
+[2024.10.25-13.35.28:122][ 56]LogBlueprintUserMessages: [BP_Player_C_0] 
+[2024.10.25-13.35.28:285][ 72]LogBlueprintUserMessages: [BP_Player_C_0] LandscapeStreamingProxy_3_3_0.LandscapeHeightfieldCollisionComponent_3
+[2024.10.25-13.35.28:441][ 89]LogBlueprintUserMessages: [BP_Player_C_0] LandscapeStreamingProxy_3_3_0.LandscapeHeightfieldCollisionComponent_3
+[2024.10.25-13.35.28:596][105]LogBlueprintUserMessages: [BP_Player_C_0] LandscapeStreamingProxy_3_3_0.LandscapeHeightfieldCollisionComponent_3
+[2024.10.25-13.35.28:758][121]LogBlueprintUserMessages: [BP_Player_C_0] LandscapeStreamingProxy_3_3_0.LandscapeHeightfieldCollisionComponent_3
+[2024.10.25-13.35.28:924][137]LogBlueprintUserMessages: [BP_Player_C_0] 
+[2024.10.25-13.35.29:091][154]LogBlueprintUserMessages: [BP_Player_C_0] 
+[2024.10.25-13.35.29:256][171]LogBlueprintUserMessages: [BP_Player_C_0] LandscapeStreamingProxy_3_3_0.LandscapeHeightfieldCollisionComponent_3
+[2024.10.25-13.35.29:426][188]LogBlueprintUserMessages: [BP_Player_C_0] LandscapeStreamingProxy_3_3_0.LandscapeHeightfieldCollisionComponent_3
+[2024.10.25-13.35.29:605][205]LogBlueprintUserMessages: [BP_Player_C_0] LandscapeStreamingProxy_3_3_0.LandscapeHeightfieldCollisionComponent_3
+[2024.10.25-13.35.29:768][221]LogBlueprintUserMessages: [BP_Player_C_0] LandscapeStreamingProxy_3_3_0.LandscapeHeightfieldCollisionComponent_3
+[2024.10.25-13.35.29:953][239]LogBlueprintUserMessages: [BP_Player_C_0] 
+[2024.10.25-13.35.30:121][254]LogBlueprintUserMessages: [BP_Player_C_0] 
+[2024.10.25-13.35.30:317][274]LogBlueprintUserMessages: [BP_Player_C_0] LandscapeStreamingProxy_3_3_0.LandscapeHeightfieldCollisionComponent_3
+[2024.10.25-13.35.30:769][321]LogBlueprintUserMessages: [BP_Player_C_0] LandscapeStreamingProxy_3_3_0.LandscapeHeightfieldCollisionComponent_3
+[2024.10.25-13.35.31:066][352]LogBlueprintUserMessages: [BP_Player_C_0] LandscapeStreamingProxy_3_3_0.LandscapeHeightfieldCollisionComponent_3
+[2024.10.25-13.35.31:293][375]LogBlueprintUserMessages: [BP_Player_C_0] LandscapeStreamingProxy_3_3_0.LandscapeHeightfieldCollisionComponent_3
+[2024.10.25-13.35.31:504][396]LogBlueprintUserMessages: [BP_Player_C_0] 
+[2024.10.25-13.35.31:672][413]LogBlueprintUserMessages: [BP_Player_C_0] 
+[2024.10.25-13.35.31:864][433]LogBlueprintUserMessages: [BP_Player_C_0] 
+[2024.10.25-13.35.32:040][451]LogBlueprintUserMessages: [BP_Player_C_0] 
+[2024.10.25-13.35.32:257][471]LogBlueprintUserMessages: [BP_Player_C_0] 
+[2024.10.25-13.35.32:485][495]LogBlueprintUserMessages: [BP_Player_C_0] 
+[2024.10.25-13.35.32:689][516]LogBlueprintUserMessages: [BP_Player_C_0] 
+[2024.10.25-13.35.33:167][568]LogBlueprintUserMessages: [BP_Player_C_0] 
+[2024.10.25-13.35.33:363][588]LogBlueprintUserMessages: [BP_Player_C_0] 
+[2024.10.25-13.35.33:566][609]LogBlueprintUserMessages: [BP_Player_C_0] 
+[2024.10.25-13.35.34:418][698]LogBlueprintUserMessages: [BP_Player_C_0] 
+[2024.10.25-13.35.34:682][726]LogBlueprintUserMessages: [BP_Player_C_0] Cube5.StaticMeshComponent0 Cube
+[2024.10.25-13.35.34:852][744]LogBlueprintUserMessages: [BP_Player_C_0] Cube5.StaticMeshComponent0 Cube
+[2024.10.25-13.35.35:041][763]LogBlueprintUserMessages: [BP_Player_C_0] Cube5.StaticMeshComponent0 Cube
+[2024.10.25-13.35.35:231][783]LogBlueprintUserMessages: [BP_Player_C_0] Cube5.StaticMeshComponent0 Cube
+[2024.10.25-13.35.35:614][822]LogBlueprintUserMessages: [BP_Player_C_0] Cube5.StaticMeshComponent0 Cube
+[2024.10.25-13.35.35:780][840]LogBlueprintUserMessages: [BP_Player_C_0] 
+[2024.10.25-13.35.35:950][857]LogBlueprintUserMessages: [BP_Player_C_0] LandscapeStreamingProxy_3_3_0.LandscapeHeightfieldCollisionComponent_3
+[2024.10.25-13.35.36:114][873]LogBlueprintUserMessages: [BP_Player_C_0] LandscapeStreamingProxy_3_3_0.LandscapeHeightfieldCollisionComponent_3
+[2024.10.25-13.35.36:252][886]LogBlueprintUserMessages: [BP_Player_C_0] LandscapeStreamingProxy_3_3_0.LandscapeHeightfieldCollisionComponent_3
+[2024.10.25-13.35.36:593][918]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.25-13.35.36:593][918]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TestingPlayer
+[2024.10.25-13.35.36:606][918]LogWorld: UWorld::CleanupWorld for TestingPlayer, bSessionEnded=true, bCleanupResources=true
+[2024.10.25-13.35.36:606][918]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.25-13.35.36:606][918]LogContentBundle: [TestingPlayer(Standalone)] Deleting container.
+[2024.10.25-13.35.36:609][918]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.10.25-13.35.36:615][918]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.25-13.35.36:636][918]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.25-13.35.36:636][918]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 51
+[2024.10.25-13.35.36:636][918]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=51
+[2024.10.25-13.35.36:638][918]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=51
+[2024.10.25-13.35.36:659][918]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2024.10.25-13.35.36:743][919]LogPlayLevel: Display: Destroying online subsystem :Context_87
+[2024.10.25-13.35.46:826][940]BlueprintLog: New page: Compile BP_Atm
+[2024.10.25-13.35.46:873][940]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2024.10.25-13.35.46:918][940]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.25-13.35.46:992][940]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Cashier/BP_Atm" FILE="../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/Blueprints/Cashier/BP_Atm.uasset" SILENT=true
+[2024.10.25-13.35.47:009][940]LogSavePackage: Moving output files for package: /Game/Blueprints/Cashier/BP_Atm
+[2024.10.25-13.35.47:010][940]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Saved/BP_Atm495887154A3A04721EE626BF01843D16.tmp' to '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/Blueprints/Cashier/BP_Atm.uasset'
+[2024.10.25-13.35.47:018][940]LogFileHelpers: InternalPromptForCheckoutAndSave took 100 ms (total: 7.34 sec)
+[2024.10.25-13.35.47:041][940]AssetCheck: New page: Asset Save: BP_Atm
+[2024.10.25-13.35.47:041][940]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Cashier/BP_Atm.BP_Atm
+[2024.10.25-13.35.50:079][176]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.10.25-13.35.50:092][176]LogContentBundle: [TestingPlayer(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.10.25-13.35.50:092][176]LogWorldPartition: Display: GenerateStreaming for 'TestingPlayer' started...
+[2024.10.25-13.35.50:097][176]LogWorldPartition: Display: GenerateStreaming for 'TestingPlayer' took 3 ms (total: 217 ms)
+[2024.10.25-13.35.50:097][176]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.10.25-13.35.50:097][176]PIE: New page: PIE session: TestingPlayer (25 de out de 2024 07:35:50)
+[2024.10.25-13.35.50:097][176]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TestingPlayer
+[2024.10.25-13.35.50:101][176]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004359s)
+[2024.10.25-13.35.50:101][176]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TestingPlayer.TestingPlayer to /Game/Levels/UEDPIE_0_TestingPlayer.TestingPlayer (0.004393s)
+[2024.10.25-13.35.50:117][176]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2024.10.25-13.35.50:126][176]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.25-13.35.50:126][176]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.25-13.35.50:127][176]LogAIModule: Creating AISystem for world TestingPlayer
+[2024.10.25-13.35.50:128][176]LogWorldPartition: ULevel::OnLevelLoaded(TestingPlayer)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.10.25-13.35.50:128][176]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.10.25-13.35.50:128][176]LogWorldPartition: UWorldPartition::Initialize : World = TestingPlayer, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.10.25-13.35.50:128][176]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.10.25-13.35.50:129][176]LogContentBundle: [TestingPlayer(Standalone)] Creating new contrainer.
+[2024.10.25-13.35.50:129][176]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 4.52 sec)
+[2024.10.25-13.35.50:129][176]LogPlayLevel: PIE: World Init took: (0.002900s)
+[2024.10.25-13.35.50:129][176]LogAudio: Display: Creating Audio Device:                 Id: 52, Scope: Unique, Realtime: True
+[2024.10.25-13.35.50:129][176]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.10.25-13.35.50:129][176]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.10.25-13.35.50:129][176]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.10.25-13.35.50:129][176]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.10.25-13.35.50:129][176]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.10.25-13.35.50:129][176]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.10.25-13.35.50:129][176]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.10.25-13.35.50:129][176]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.10.25-13.35.50:130][176]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.10.25-13.35.50:130][176]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.10.25-13.35.50:130][176]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.10.25-13.35.50:131][176]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.10.25-13.35.50:161][176]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (USB Audio Device)
+[2024.10.25-13.35.50:161][176]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.10.25-13.35.50:161][176]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.10.25-13.35.50:161][176]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.10.25-13.35.50:161][176]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=52
+[2024.10.25-13.35.50:161][176]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=52
+[2024.10.25-13.35.50:164][176]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=52
+[2024.10.25-13.35.50:164][176]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=52
+[2024.10.25-13.35.50:164][176]LogInit: FAudioDevice initialized with ID 52.
+[2024.10.25-13.35.50:164][176]LogAudio: Display: Audio Device (ID: 52) registered with world 'TestingPlayer'.
+[2024.10.25-13.35.50:164][176]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 52
+[2024.10.25-13.35.50:168][176]LogLoad: Game class is 'MyGameGamemode_C'
+[2024.10.25-13.35.50:168][176]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TestingPlayer.TestingPlayer up for play (max tick rate 0) at 2024.10.25-10.35.50
+[2024.10.25-13.35.50:168][176]LogWorld: Bringing up level for play took: 0.000528
+[2024.10.25-13.35.50:170][176]LogOnline: OSS: Created online subsystem instance for: :Context_88
+[2024.10.25-13.35.50:171][176]LogWorldPartition: UWorldPartitionStreamingPolicy: CellsToActivate(40), CellsToLoad(0), CellsToUnload(0)
+[2024.10.25-13.35.50:172][176]LogWorldPartition: UWorldPartitionStreamingPolicy: Sources[0] = X=-10693.547 Y=-7805.845 Z=147.751,P=0.000000 Y=73.925002 R=-0.000000
+[2024.10.25-13.35.50:175][176]LogStreaming: Display: FlushAsyncLoading(): 73 QueuedPackages, 0 AsyncPackages
+[2024.10.25-13.35.50:419][176]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.10.25-13.35.50:419][176]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.10.25-13.35.50:419][176]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.10.25-13.35.50:422][176]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.10.25-13.35.50:422][176]PIE: Server logged in
+[2024.10.25-13.35.50:423][176]PIE: Play in editor total start time 0,331 seconds.
+[2024.10.25-13.35.50:874][177]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.076156 > MaxSimulationTimeStep (0.050) for 'BP_Player_C_0', movement 'Walking'
+[2024.10.25-13.35.51:882][182]LogStreaming: Display: UWorld::AddToWorld: updating components for /Memory/UEDPIE_0_8NN37T66QRRX88H7RBIRAT6B4 took (less than) 57.86 ms
+[2024.10.25-13.35.52:624][254]LogBlueprintUserMessages: [BP_Player_C_0] Cube5.StaticMeshComponent0 Cube
+[2024.10.25-13.35.53:815][371]LogBlueprintUserMessages: [BP_Player_C_0] BP_ATM.Cube Cube
+[2024.10.25-13.35.56:240][630]LogBlueprintUserMessages: [BP_Player_C_0] BP_ATM.Cube Cube
+[2024.10.25-13.35.56:863][698]LogBlueprintUserMessages: [BP_ATM_C_UAID_5C60BAB11AB55E2802_1173891280] 
+[2024.10.25-13.35.57:245][740]LogBlueprintUserMessages: [BP_ATM_C_UAID_5C60BAB11AB55E2802_1173891280] 
+[2024.10.25-13.35.57:616][778]LogBlueprintUserMessages: [BP_ATM_C_UAID_5C60BAB11AB55E2802_1173891280] 
+[2024.10.25-13.35.58:072][828]LogBlueprintUserMessages: [BP_ATM_C_UAID_5C60BAB11AB55E2802_1173891280] 
+[2024.10.25-13.35.58:377][860]LogBlueprintUserMessages: [BP_ATM_C_UAID_5C60BAB11AB55E2802_1173891280] LandscapeStreamingProxy_3_3_0.LandscapeHeightfieldCollisionComponent_3
+[2024.10.25-13.35.58:722][895]LogBlueprintUserMessages: [BP_ATM_C_UAID_5C60BAB11AB55E2802_1173891280] LandscapeStreamingProxy_3_3_0.LandscapeHeightfieldCollisionComponent_3
+[2024.10.25-13.35.58:928][916]LogBlueprintUserMessages: [BP_ATM_C_UAID_5C60BAB11AB55E2802_1173891280] LandscapeStreamingProxy_3_3_0.LandscapeHeightfieldCollisionComponent_3
+[2024.10.25-13.35.59:285][952]LogBlueprintUserMessages: [BP_ATM_C_UAID_5C60BAB11AB55E2802_1173891280] 
+[2024.10.25-13.35.59:989][ 27]LogBlueprintUserMessages: [BP_ATM_C_UAID_5C60BAB11AB55E2802_1173891280] 
+[2024.10.25-13.36.00:152][ 44]LogBlueprintUserMessages: [BP_ATM_C_UAID_5C60BAB11AB55E2802_1173891280] 
+[2024.10.25-13.36.00:326][ 61]LogBlueprintUserMessages: [BP_ATM_C_UAID_5C60BAB11AB55E2802_1173891280] 
+[2024.10.25-13.36.00:483][ 77]LogBlueprintUserMessages: [BP_ATM_C_UAID_5C60BAB11AB55E2802_1173891280] 
+[2024.10.25-13.36.04:423][484]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.25-13.36.04:423][484]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TestingPlayer
+[2024.10.25-13.36.04:436][484]LogWorld: UWorld::CleanupWorld for TestingPlayer, bSessionEnded=true, bCleanupResources=true
+[2024.10.25-13.36.04:437][484]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.25-13.36.04:437][484]LogContentBundle: [TestingPlayer(Standalone)] Deleting container.
+[2024.10.25-13.36.04:441][484]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.10.25-13.36.04:447][484]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.25-13.36.04:472][484]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.10.25-13.36.04:473][484]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 52
+[2024.10.25-13.36.04:473][484]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=52
+[2024.10.25-13.36.04:474][484]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=52
+[2024.10.25-13.36.04:478][484]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.25-13.36.04:492][484]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2024.10.25-13.36.04:577][485]LogPlayLevel: Display: Destroying online subsystem :Context_88
+[2024.10.25-13.36.08:001][679]Cmd: TRANSACTION UNDO
+[2024.10.25-13.36.08:001][679]LogEditorTransaction: Undo Move Elements
+[2024.10.25-13.36.24:571][ 57]BlueprintLog: New page: Compile BP_Atm
+[2024.10.25-13.36.24:624][ 57]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2024.10.25-13.36.24:673][ 57]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.25-13.36.24:712][ 57]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Cashier/BP_Atm" FILE="../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/Blueprints/Cashier/BP_Atm.uasset" SILENT=true
+[2024.10.25-13.36.24:729][ 57]LogSavePackage: Moving output files for package: /Game/Blueprints/Cashier/BP_Atm
+[2024.10.25-13.36.24:731][ 57]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Saved/BP_Atm35A55D8C4C31D04ABAD37DBA16C46227.tmp' to '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/Blueprints/Cashier/BP_Atm.uasset'
+[2024.10.25-13.36.24:741][ 57]LogFileHelpers: InternalPromptForCheckoutAndSave took 68 ms (total: 7.41 sec)
+[2024.10.25-13.36.24:770][ 57]AssetCheck: New page: Asset Save: BP_Atm
+[2024.10.25-13.36.24:770][ 57]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Cashier/BP_Atm.BP_Atm
+[2024.10.25-13.36.25:745][111]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.10.25-13.36.25:756][111]LogContentBundle: [TestingPlayer(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.10.25-13.36.25:756][111]LogWorldPartition: Display: GenerateStreaming for 'TestingPlayer' started...
+[2024.10.25-13.36.25:761][111]LogWorldPartition: Display: GenerateStreaming for 'TestingPlayer' took 4 ms (total: 221 ms)
+[2024.10.25-13.36.25:761][111]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.10.25-13.36.25:761][111]PIE: New page: PIE session: TestingPlayer (25 de out de 2024 07:36:25)
+[2024.10.25-13.36.25:761][111]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TestingPlayer
+[2024.10.25-13.36.25:773][111]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011331s)
+[2024.10.25-13.36.25:773][111]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TestingPlayer.TestingPlayer to /Game/Levels/UEDPIE_0_TestingPlayer.TestingPlayer (0.011375s)
+[2024.10.25-13.36.25:787][111]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2024.10.25-13.36.25:795][111]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.25-13.36.25:795][111]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.25-13.36.25:796][111]LogAIModule: Creating AISystem for world TestingPlayer
+[2024.10.25-13.36.25:796][111]LogWorldPartition: ULevel::OnLevelLoaded(TestingPlayer)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.10.25-13.36.25:796][111]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.10.25-13.36.25:796][111]LogWorldPartition: UWorldPartition::Initialize : World = TestingPlayer, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.10.25-13.36.25:796][111]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.10.25-13.36.25:798][111]LogContentBundle: [TestingPlayer(Standalone)] Creating new contrainer.
+[2024.10.25-13.36.25:798][111]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 4.52 sec)
+[2024.10.25-13.36.25:798][111]LogPlayLevel: PIE: World Init took: (0.002548s)
+[2024.10.25-13.36.25:798][111]LogAudio: Display: Creating Audio Device:                 Id: 53, Scope: Unique, Realtime: True
+[2024.10.25-13.36.25:798][111]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.10.25-13.36.25:798][111]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.10.25-13.36.25:798][111]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.10.25-13.36.25:798][111]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.10.25-13.36.25:798][111]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.10.25-13.36.25:798][111]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.10.25-13.36.25:798][111]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.10.25-13.36.25:798][111]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.10.25-13.36.25:798][111]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.10.25-13.36.25:798][111]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.10.25-13.36.25:798][111]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.10.25-13.36.25:800][111]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.10.25-13.36.25:829][111]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (USB Audio Device)
+[2024.10.25-13.36.25:829][111]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.10.25-13.36.25:829][111]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.10.25-13.36.25:829][111]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.10.25-13.36.25:829][111]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=53
+[2024.10.25-13.36.25:829][111]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=53
+[2024.10.25-13.36.25:831][111]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=53
+[2024.10.25-13.36.25:831][111]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=53
+[2024.10.25-13.36.25:831][111]LogInit: FAudioDevice initialized with ID 53.
+[2024.10.25-13.36.25:832][111]LogAudio: Display: Audio Device (ID: 53) registered with world 'TestingPlayer'.
+[2024.10.25-13.36.25:832][111]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 53
+[2024.10.25-13.36.25:835][111]LogLoad: Game class is 'MyGameGamemode_C'
+[2024.10.25-13.36.25:835][111]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TestingPlayer.TestingPlayer up for play (max tick rate 0) at 2024.10.25-10.36.25
+[2024.10.25-13.36.25:835][111]LogWorld: Bringing up level for play took: 0.000491
+[2024.10.25-13.36.25:837][111]LogOnline: OSS: Created online subsystem instance for: :Context_89
+[2024.10.25-13.36.25:839][111]LogWorldPartition: UWorldPartitionStreamingPolicy: CellsToActivate(41), CellsToLoad(0), CellsToUnload(0)
+[2024.10.25-13.36.25:839][111]LogWorldPartition: UWorldPartitionStreamingPolicy: Sources[0] = X=-11062.836 Y=-7491.603 Z=175.806,P=0.000000 Y=0.550001 R=-0.000000
+[2024.10.25-13.36.25:857][111]LogStreaming: Display: FlushAsyncLoading(): 52 QueuedPackages, 0 AsyncPackages
+[2024.10.25-13.36.26:072][111]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.10.25-13.36.26:072][111]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.10.25-13.36.26:072][111]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.10.25-13.36.26:076][111]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.10.25-13.36.26:076][111]PIE: Server logged in
+[2024.10.25-13.36.26:077][111]PIE: Play in editor total start time 0,32 seconds.
+[2024.10.25-13.36.27:843][151]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.25-13.36.27:843][151]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TestingPlayer
+[2024.10.25-13.36.27:857][151]LogWorld: UWorld::CleanupWorld for TestingPlayer, bSessionEnded=true, bCleanupResources=true
+[2024.10.25-13.36.27:857][151]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.25-13.36.27:857][151]LogContentBundle: [TestingPlayer(Standalone)] Deleting container.
+[2024.10.25-13.36.27:861][151]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.10.25-13.36.27:867][151]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.25-13.36.27:890][151]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.10.25-13.36.27:890][151]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 53
+[2024.10.25-13.36.27:890][151]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=53
+[2024.10.25-13.36.27:893][151]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=53
+[2024.10.25-13.36.27:896][151]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.25-13.36.27:913][151]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
+[2024.10.25-13.36.27:983][152]LogPlayLevel: Display: Destroying online subsystem :Context_89
+[2024.10.25-13.36.29:049][217]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Itens/TestingInteractions.TestingInteractions_C
+[2024.10.25-13.36.29:049][217]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Itens/TestingInteractions.TestingInteractions_C
+[2024.10.25-13.36.29:051][217]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Itens/TestingInteractions.TestingInteractions as actor: TestingInteractions_C /Game/Levels/TestingPlayer.TestingPlayer:PersistentLevel.TestingInteractions_C_1
+[2024.10.25-13.36.29:053][217]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Itens/TestingInteractions.TestingInteractions as actor: TestingInteractions_C /Game/Levels/TestingPlayer.TestingPlayer:PersistentLevel.TestingInteractions_C_1
+[2024.10.25-13.36.29:660][261]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Itens/TestingInteractions.TestingInteractions_C
+[2024.10.25-13.36.29:660][261]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Itens/TestingInteractions.TestingInteractions_C
+[2024.10.25-13.36.29:662][261]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Itens/TestingInteractions.TestingInteractions as actor: TestingInteractions_C /Game/Levels/TestingPlayer.TestingPlayer:PersistentLevel.TestingInteractions_C_2
+[2024.10.25-13.36.29:663][261]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Itens/TestingInteractions.TestingInteractions as actor: TestingInteractions_C /Game/Levels/TestingPlayer.TestingPlayer:PersistentLevel.TestingInteractions_C_2
+[2024.10.25-13.36.29:866][272]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Itens/TestingInteractions.TestingInteractions_C
+[2024.10.25-13.36.29:866][272]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Itens/TestingInteractions.TestingInteractions_C
+[2024.10.25-13.36.29:872][272]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Itens/TestingInteractions.TestingInteractions as actor: TestingInteractions_C /Game/Levels/TestingPlayer.TestingPlayer:PersistentLevel.TestingInteractions_C_UAID_C87F5454B60D072902_1864875025
+[2024.10.25-13.36.29:874][272]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Itens/TestingInteractions.TestingInteractions as actor: TestingInteractions_C /Game/Levels/TestingPlayer.TestingPlayer:PersistentLevel.TestingInteractions_C_UAID_C87F5454B60D072902_1864875025
+[2024.10.25-13.36.30:561][317]Cmd: DELETE
+[2024.10.25-13.36.30:561][317]Cmd: ACTOR DELETE
+[2024.10.25-13.36.30:597][317]LogEditorActor: Deleted Actor: TestingInteractions_C
+[2024.10.25-13.36.30:619][317]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2024.10.25-13.36.30:626][317]LogEditorActor: Deleted 1 Actors (0.042 secs)
+[2024.10.25-13.36.34:429][556]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Cashier/BP_Atm.BP_Atm_C
+[2024.10.25-13.36.34:429][556]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Cashier/BP_Atm.BP_Atm_C
+[2024.10.25-13.36.34:431][556]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Cashier/BP_Atm.BP_Atm as actor: BP_Atm_C /Game/Levels/TestingPlayer.TestingPlayer:PersistentLevel.BP_Atm_C_0
+[2024.10.25-13.36.34:433][556]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Cashier/BP_Atm.BP_Atm as actor: BP_Atm_C /Game/Levels/TestingPlayer.TestingPlayer:PersistentLevel.BP_Atm_C_0
+[2024.10.25-13.36.35:408][620]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Cashier/BP_Atm.BP_Atm_C
+[2024.10.25-13.36.35:408][620]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/Cashier/BP_Atm.BP_Atm_C
+[2024.10.25-13.36.35:412][620]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Cashier/BP_Atm.BP_Atm as actor: BP_Atm_C /Game/Levels/TestingPlayer.TestingPlayer:PersistentLevel.BP_Atm_C_UAID_C87F5454B60D072902_1870417026
+[2024.10.25-13.36.35:414][620]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/Cashier/BP_Atm.BP_Atm as actor: BP_Atm_C /Game/Levels/TestingPlayer.TestingPlayer:PersistentLevel.BP_Atm_C_UAID_C87F5454B60D072902_1870417026
+[2024.10.25-13.36.37:497][766]Cmd: DELETE
+[2024.10.25-13.36.37:497][766]Cmd: ACTOR DELETE
+[2024.10.25-13.36.37:500][766]LogEditorActor: Deleted Actor: BP_Atm_C
+[2024.10.25-13.36.37:525][766]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2024.10.25-13.36.37:533][766]LogEditorActor: Deleted 1 Actors (0.037 secs)
+[2024.10.25-13.36.38:424][830]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2024.10.25-13.36.38:430][830]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.25-13.36.38:496][830]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2024.10.25-13.36.38:514][830]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2024.10.25-13.36.38:535][830]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2024.10.25-13.36.38:540][830]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/TestingPlayer/B/A0/49LJSKYQQGFDH90YH7SE38
+[2024.10.25-13.36.38:540][830]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Saved/49LJSKYQQGFDH90YH7SE389390ED684F0661F502C318856A8E12BA.tmp' to '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/__ExternalActors__/Levels/TestingPlayer/B/A0/49LJSKYQQGFDH90YH7SE38.uasset'
+[2024.10.25-13.36.38:551][830]LogFileHelpers: InternalPromptForCheckoutAndSave took 121 ms (total: 7.53 sec)
+[2024.10.25-13.36.38:553][830]AssetCheck: New page: Asset Save: BP_Atm_C_UAID_C87F5454B60D072902_1870417026
+[2024.10.25-13.36.38:553][830]LogContentValidation: Display: Validating /Game/Blueprints/Cashier/BP_Atm.BP_Atm_C /Game/Levels/TestingPlayer.TestingPlayer:PersistentLevel.BP_Atm_C_UAID_C87F5454B60D072902_1870417026
+[2024.10.25-13.36.40:342][959]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.10.25-13.36.40:352][959]LogContentBundle: [TestingPlayer(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.10.25-13.36.40:352][959]LogWorldPartition: Display: GenerateStreaming for 'TestingPlayer' started...
+[2024.10.25-13.36.40:357][959]LogWorldPartition: Display: GenerateStreaming for 'TestingPlayer' took 3 ms (total: 225 ms)
+[2024.10.25-13.36.40:357][959]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.10.25-13.36.40:357][959]PIE: New page: PIE session: TestingPlayer (25 de out de 2024 07:36:40)
+[2024.10.25-13.36.40:357][959]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TestingPlayer
+[2024.10.25-13.36.40:361][959]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004302s)
+[2024.10.25-13.36.40:361][959]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TestingPlayer.TestingPlayer to /Game/Levels/UEDPIE_0_TestingPlayer.TestingPlayer (0.004334s)
+[2024.10.25-13.36.40:379][959]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2024.10.25-13.36.40:381][959]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.25-13.36.40:381][959]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.25-13.36.40:381][959]LogAIModule: Creating AISystem for world TestingPlayer
+[2024.10.25-13.36.40:383][959]LogWorldPartition: ULevel::OnLevelLoaded(TestingPlayer)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.10.25-13.36.40:383][959]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.10.25-13.36.40:383][959]LogWorldPartition: UWorldPartition::Initialize : World = TestingPlayer, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.10.25-13.36.40:383][959]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.10.25-13.36.40:384][959]LogContentBundle: [TestingPlayer(Standalone)] Creating new contrainer.
+[2024.10.25-13.36.40:384][959]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 4.52 sec)
+[2024.10.25-13.36.40:384][959]LogPlayLevel: PIE: World Init took: (0.002450s)
+[2024.10.25-13.36.40:384][959]LogAudio: Display: Creating Audio Device:                 Id: 54, Scope: Unique, Realtime: True
+[2024.10.25-13.36.40:384][959]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.10.25-13.36.40:384][959]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.10.25-13.36.40:384][959]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.10.25-13.36.40:384][959]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.10.25-13.36.40:384][959]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.10.25-13.36.40:384][959]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.10.25-13.36.40:384][959]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.10.25-13.36.40:384][959]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.10.25-13.36.40:384][959]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.10.25-13.36.40:384][959]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.10.25-13.36.40:385][959]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.10.25-13.36.40:386][959]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.10.25-13.36.40:415][959]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (USB Audio Device)
+[2024.10.25-13.36.40:415][959]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.10.25-13.36.40:415][959]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.10.25-13.36.40:415][959]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.10.25-13.36.40:415][959]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=54
+[2024.10.25-13.36.40:415][959]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=54
+[2024.10.25-13.36.40:418][959]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=54
+[2024.10.25-13.36.40:418][959]LogInit: FAudioDevice initialized with ID 54.
+[2024.10.25-13.36.40:418][959]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=54
+[2024.10.25-13.36.40:418][959]LogAudio: Display: Audio Device (ID: 54) registered with world 'TestingPlayer'.
+[2024.10.25-13.36.40:418][959]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 54
+[2024.10.25-13.36.40:421][959]LogLoad: Game class is 'MyGameGamemode_C'
+[2024.10.25-13.36.40:421][959]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TestingPlayer.TestingPlayer up for play (max tick rate 0) at 2024.10.25-10.36.40
+[2024.10.25-13.36.40:421][959]LogWorld: Bringing up level for play took: 0.000541
+[2024.10.25-13.36.40:424][959]LogOnline: OSS: Created online subsystem instance for: :Context_90
+[2024.10.25-13.36.40:425][959]LogWorldPartition: UWorldPartitionStreamingPolicy: CellsToActivate(41), CellsToLoad(0), CellsToUnload(0)
+[2024.10.25-13.36.40:425][959]LogWorldPartition: UWorldPartitionStreamingPolicy: Sources[0] = X=-11062.836 Y=-7491.603 Z=147.751,P=0.000000 Y=0.550001 R=-0.000000
+[2024.10.25-13.36.40:429][959]LogStreaming: Display: FlushAsyncLoading(): 74 QueuedPackages, 0 AsyncPackages
+[2024.10.25-13.36.40:682][959]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.10.25-13.36.40:682][959]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.10.25-13.36.40:682][959]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.10.25-13.36.40:685][959]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.10.25-13.36.40:685][959]PIE: Server logged in
+[2024.10.25-13.36.40:686][959]PIE: Play in editor total start time 0,333 seconds.
+[2024.10.25-13.36.42:139][ 32]LogBlueprintUserMessages: [BP_Player_C_0] BP_Atm2.Cube Cube
+[2024.10.25-13.36.43:225][143]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] 
+[2024.10.25-13.36.43:489][171]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] 
+[2024.10.25-13.36.43:718][193]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] 
+[2024.10.25-13.36.44:023][224]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] LandscapeStreamingProxy_3_3_0.LandscapeHeightfieldCollisionComponent_3
+[2024.10.25-13.36.44:246][247]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] LandscapeStreamingProxy_3_3_0.LandscapeHeightfieldCollisionComponent_3
+[2024.10.25-13.36.44:481][271]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] LandscapeStreamingProxy_3_3_0.LandscapeHeightfieldCollisionComponent_3
+[2024.10.25-13.36.44:659][288]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] LandscapeStreamingProxy_3_3_0.LandscapeHeightfieldCollisionComponent_3
+[2024.10.25-13.36.44:835][305]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] LandscapeStreamingProxy_3_3_0.LandscapeHeightfieldCollisionComponent_3
+[2024.10.25-13.36.45:002][321]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] LandscapeStreamingProxy_3_3_0.LandscapeHeightfieldCollisionComponent_3
+[2024.10.25-13.36.45:169][337]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] LandscapeStreamingProxy_3_3_0.LandscapeHeightfieldCollisionComponent_3
+[2024.10.25-13.36.45:330][353]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] LandscapeStreamingProxy_3_3_0.LandscapeHeightfieldCollisionComponent_3
+[2024.10.25-13.36.45:471][367]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] LandscapeStreamingProxy_3_3_0.LandscapeHeightfieldCollisionComponent_3
+[2024.10.25-13.36.49:993][843]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.25-13.36.49:993][843]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TestingPlayer
+[2024.10.25-13.36.50:005][843]LogWorld: UWorld::CleanupWorld for TestingPlayer, bSessionEnded=true, bCleanupResources=true
+[2024.10.25-13.36.50:006][843]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.25-13.36.50:006][843]LogContentBundle: [TestingPlayer(Standalone)] Deleting container.
+[2024.10.25-13.36.50:009][843]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.10.25-13.36.50:016][843]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.25-13.36.50:038][843]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.25-13.36.50:038][843]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 54
+[2024.10.25-13.36.50:038][843]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=54
+[2024.10.25-13.36.50:040][843]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=54
+[2024.10.25-13.36.50:062][843]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2024.10.25-13.36.50:129][844]LogPlayLevel: Display: Destroying online subsystem :Context_90
+[2024.10.25-13.37.12:911][ 75]BlueprintLog: New page: Compile BP_Atm
+[2024.10.25-13.37.12:949][ 75]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2024.10.25-13.37.13:591][131]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.25-13.37.13:638][131]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Cashier/BP_Atm" FILE="../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/Blueprints/Cashier/BP_Atm.uasset" SILENT=true
+[2024.10.25-13.37.13:653][131]LogSavePackage: Moving output files for package: /Game/Blueprints/Cashier/BP_Atm
+[2024.10.25-13.37.13:656][131]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Saved/BP_Atm76FB90AE405FDA441271909C7BA5BF96.tmp' to '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/Blueprints/Cashier/BP_Atm.uasset'
+[2024.10.25-13.37.13:665][131]LogFileHelpers: InternalPromptForCheckoutAndSave took 74 ms (total: 7.60 sec)
+[2024.10.25-13.37.13:668][131]AssetCheck: New page: Asset Save: BP_Atm
+[2024.10.25-13.37.13:668][131]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Cashier/BP_Atm.BP_Atm
+[2024.10.25-13.37.18:041][560]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.10.25-13.37.18:054][560]LogContentBundle: [TestingPlayer(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.10.25-13.37.18:054][560]LogWorldPartition: Display: GenerateStreaming for 'TestingPlayer' started...
+[2024.10.25-13.37.18:057][560]LogWorldPartition: Display: GenerateStreaming for 'TestingPlayer' took 3 ms (total: 229 ms)
+[2024.10.25-13.37.18:058][560]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.10.25-13.37.18:058][560]PIE: New page: PIE session: TestingPlayer (25 de out de 2024 07:37:18)
+[2024.10.25-13.37.18:081][560]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TestingPlayer
+[2024.10.25-13.37.18:086][560]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004420s)
+[2024.10.25-13.37.18:086][560]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TestingPlayer.TestingPlayer to /Game/Levels/UEDPIE_0_TestingPlayer.TestingPlayer (0.004507s)
+[2024.10.25-13.37.18:103][560]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2024.10.25-13.37.18:108][560]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.25-13.37.18:108][560]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.25-13.37.18:109][560]LogAIModule: Creating AISystem for world TestingPlayer
+[2024.10.25-13.37.18:109][560]LogWorldPartition: ULevel::OnLevelLoaded(TestingPlayer)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.10.25-13.37.18:109][560]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.10.25-13.37.18:109][560]LogWorldPartition: UWorldPartition::Initialize : World = TestingPlayer, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.10.25-13.37.18:109][560]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.10.25-13.37.18:111][560]LogContentBundle: [TestingPlayer(Standalone)] Creating new contrainer.
+[2024.10.25-13.37.18:111][560]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 4.52 sec)
+[2024.10.25-13.37.18:111][560]LogPlayLevel: PIE: World Init took: (0.002407s)
+[2024.10.25-13.37.18:111][560]LogAudio: Display: Creating Audio Device:                 Id: 55, Scope: Unique, Realtime: True
+[2024.10.25-13.37.18:111][560]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.10.25-13.37.18:111][560]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.10.25-13.37.18:111][560]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.10.25-13.37.18:111][560]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.10.25-13.37.18:111][560]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.10.25-13.37.18:111][560]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.10.25-13.37.18:111][560]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.10.25-13.37.18:111][560]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.10.25-13.37.18:111][560]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.10.25-13.37.18:111][560]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.10.25-13.37.18:111][560]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.10.25-13.37.18:113][560]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.10.25-13.37.18:143][560]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (USB Audio Device)
+[2024.10.25-13.37.18:144][560]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.10.25-13.37.18:144][560]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.10.25-13.37.18:144][560]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.10.25-13.37.18:145][560]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=55
+[2024.10.25-13.37.18:145][560]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=55
+[2024.10.25-13.37.18:146][560]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=55
+[2024.10.25-13.37.18:146][560]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=55
+[2024.10.25-13.37.18:146][560]LogInit: FAudioDevice initialized with ID 55.
+[2024.10.25-13.37.18:146][560]LogAudio: Display: Audio Device (ID: 55) registered with world 'TestingPlayer'.
+[2024.10.25-13.37.18:146][560]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 55
+[2024.10.25-13.37.18:150][560]LogLoad: Game class is 'MyGameGamemode_C'
+[2024.10.25-13.37.18:151][560]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TestingPlayer.TestingPlayer up for play (max tick rate 0) at 2024.10.25-10.37.18
+[2024.10.25-13.37.18:151][560]LogWorld: Bringing up level for play took: 0.000510
+[2024.10.25-13.37.18:153][560]LogOnline: OSS: Created online subsystem instance for: :Context_91
+[2024.10.25-13.37.18:154][560]LogWorldPartition: UWorldPartitionStreamingPolicy: CellsToActivate(41), CellsToLoad(0), CellsToUnload(0)
+[2024.10.25-13.37.18:154][560]LogWorldPartition: UWorldPartitionStreamingPolicy: Sources[0] = X=-10910.346 Y=-7704.227 Z=147.751,P=0.000000 Y=123.900000 R=-0.000000
+[2024.10.25-13.37.18:157][560]LogStreaming: Display: FlushAsyncLoading(): 74 QueuedPackages, 0 AsyncPackages
+[2024.10.25-13.37.18:410][560]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.10.25-13.37.18:410][560]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.10.25-13.37.18:410][560]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.10.25-13.37.18:413][560]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.10.25-13.37.18:413][560]PIE: Server logged in
+[2024.10.25-13.37.18:414][560]PIE: Play in editor total start time 0,361 seconds.
+[2024.10.25-13.37.18:844][561]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.066718 > MaxSimulationTimeStep (0.050) for 'BP_Player_C_0', movement 'Walking'
+[2024.10.25-13.37.22:086][807]LogBlueprintUserMessages: [BP_Player_C_0] BP_Atm2.Cube Cube
+[2024.10.25-13.37.23:879][996]LogBlueprintUserMessages: [BP_Player_C_0] BP_Atm2.Cube Cube
+[2024.10.25-13.37.24:531][ 65]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] 
+[2024.10.25-13.37.24:705][ 84]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] 
+[2024.10.25-13.37.24:867][101]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] 
+[2024.10.25-13.37.25:032][117]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] 
+[2024.10.25-13.37.25:193][135]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] 
+[2024.10.25-13.37.26:192][238]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.25-13.37.26:192][238]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TestingPlayer
+[2024.10.25-13.37.26:206][238]LogWorld: UWorld::CleanupWorld for TestingPlayer, bSessionEnded=true, bCleanupResources=true
+[2024.10.25-13.37.26:206][238]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.25-13.37.26:206][238]LogContentBundle: [TestingPlayer(Standalone)] Deleting container.
+[2024.10.25-13.37.26:210][238]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.10.25-13.37.26:217][238]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.25-13.37.26:236][238]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.10.25-13.37.26:236][238]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 55
+[2024.10.25-13.37.26:236][238]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=55
+[2024.10.25-13.37.26:237][238]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=55
+[2024.10.25-13.37.26:242][238]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.25-13.37.26:259][238]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2024.10.25-13.37.26:329][239]LogPlayLevel: Display: Destroying online subsystem :Context_91
+[2024.10.25-13.37.56:658][223]BlueprintLog: New page: Compile BP_Atm
+[2024.10.25-13.37.56:703][223]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2024.10.25-13.37.56:745][223]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.25-13.37.56:787][223]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Cashier/BP_Atm" FILE="../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/Blueprints/Cashier/BP_Atm.uasset" SILENT=true
+[2024.10.25-13.37.56:806][223]LogSavePackage: Moving output files for package: /Game/Blueprints/Cashier/BP_Atm
+[2024.10.25-13.37.56:807][223]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Saved/BP_Atm8C4E657E4540DD527243C3A127D342B6.tmp' to '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/Blueprints/Cashier/BP_Atm.uasset'
+[2024.10.25-13.37.56:821][223]LogFileHelpers: InternalPromptForCheckoutAndSave took 76 ms (total: 7.68 sec)
+[2024.10.25-13.37.56:835][223]AssetCheck: New page: Asset Save: BP_Atm
+[2024.10.25-13.37.56:836][223]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Cashier/BP_Atm.BP_Atm
+[2024.10.25-13.39.33:804][712]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2024.10.25-13.39.33:814][712]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/TestingPlayer' took 0.026
+[2024.10.25-13.39.33:814][712]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Cashier/BP_Atm] ([2] browsable assets)...
+[2024.10.25-13.39.33:814][712]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Cashier/BP_Atm]
+[2024.10.25-13.39.33:829][712]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/Cashier/BP_Atm_Auto3
+[2024.10.25-13.39.33:829][712]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Saved/BP_Atm_Auto3D3EF123A4FD037A6CA11D08469FCCF06.tmp' to '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Saved/Autosaves/Game/Blueprints/Cashier/BP_Atm_Auto3.uasset'
+[2024.10.25-13.39.33:832][712]LogFileHelpers: Auto-saving content packages took 0.018
+[2024.10.25-13.39.34:654][796]BlueprintLog: New page: Compile BP_Atm
+[2024.10.25-13.39.34:699][796]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2024.10.25-13.39.34:741][796]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.25-13.39.34:788][796]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Cashier/BP_Atm" FILE="../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/Blueprints/Cashier/BP_Atm.uasset" SILENT=true
+[2024.10.25-13.39.34:805][796]LogSavePackage: Moving output files for package: /Game/Blueprints/Cashier/BP_Atm
+[2024.10.25-13.39.34:806][796]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Saved/BP_AtmBA9F0D644C2BBC8C62F34DACB69E8A95.tmp' to '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/Blueprints/Cashier/BP_Atm.uasset'
+[2024.10.25-13.39.34:817][796]LogFileHelpers: InternalPromptForCheckoutAndSave took 76 ms (total: 7.76 sec)
+[2024.10.25-13.39.34:819][796]AssetCheck: New page: Asset Save: BP_Atm
+[2024.10.25-13.39.34:819][796]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Cashier/BP_Atm.BP_Atm
+[2024.10.25-13.40.33:150][220]BlueprintLog: New page: Compile BP_Atm
+[2024.10.25-13.40.33:196][220]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2024.10.25-13.40.33:236][220]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.25-13.40.33:277][220]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Cashier/BP_Atm" FILE="../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/Blueprints/Cashier/BP_Atm.uasset" SILENT=true
+[2024.10.25-13.40.33:294][220]LogSavePackage: Moving output files for package: /Game/Blueprints/Cashier/BP_Atm
+[2024.10.25-13.40.33:295][220]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Saved/BP_Atm2E97C365469550E24970C6B59FE153B9.tmp' to '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/Blueprints/Cashier/BP_Atm.uasset'
+[2024.10.25-13.40.33:305][220]LogFileHelpers: InternalPromptForCheckoutAndSave took 68 ms (total: 7.83 sec)
+[2024.10.25-13.40.33:305][220]AssetCheck: New page: Asset Save: BP_Atm
+[2024.10.25-13.40.33:305][220]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Cashier/BP_Atm.BP_Atm
+[2024.10.25-13.40.44:768][ 27]BlueprintLog: New page: Compile BP_Atm
+[2024.10.25-13.40.44:815][ 27]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2024.10.25-13.40.44:859][ 27]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.25-13.40.44:902][ 27]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Cashier/BP_Atm" FILE="../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/Blueprints/Cashier/BP_Atm.uasset" SILENT=true
+[2024.10.25-13.40.44:918][ 27]LogSavePackage: Moving output files for package: /Game/Blueprints/Cashier/BP_Atm
+[2024.10.25-13.40.44:919][ 27]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Saved/BP_AtmB3C243CD43845827FF8E1383BE23787F.tmp' to '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/Blueprints/Cashier/BP_Atm.uasset'
+[2024.10.25-13.40.44:928][ 27]LogFileHelpers: InternalPromptForCheckoutAndSave took 68 ms (total: 7.89 sec)
+[2024.10.25-13.40.44:952][ 27]AssetCheck: New page: Asset Save: BP_Atm
+[2024.10.25-13.40.44:952][ 27]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Cashier/BP_Atm.BP_Atm
+[2024.10.25-13.40.47:832][223]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.10.25-13.40.47:845][223]LogContentBundle: [TestingPlayer(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.10.25-13.40.47:845][223]LogWorldPartition: Display: GenerateStreaming for 'TestingPlayer' started...
+[2024.10.25-13.40.47:848][223]LogWorldPartition: Display: GenerateStreaming for 'TestingPlayer' took 3 ms (total: 232 ms)
+[2024.10.25-13.40.47:848][223]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.10.25-13.40.47:848][223]PIE: New page: PIE session: TestingPlayer (25 de out de 2024 07:40:47)
+[2024.10.25-13.40.47:849][223]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TestingPlayer
+[2024.10.25-13.40.47:852][223]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004339s)
+[2024.10.25-13.40.47:852][223]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TestingPlayer.TestingPlayer to /Game/Levels/UEDPIE_0_TestingPlayer.TestingPlayer (0.004375s)
+[2024.10.25-13.40.47:870][223]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2024.10.25-13.40.47:878][223]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.25-13.40.47:878][223]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.25-13.40.47:878][223]LogAIModule: Creating AISystem for world TestingPlayer
+[2024.10.25-13.40.47:879][223]LogWorldPartition: ULevel::OnLevelLoaded(TestingPlayer)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.10.25-13.40.47:879][223]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.10.25-13.40.47:879][223]LogWorldPartition: UWorldPartition::Initialize : World = TestingPlayer, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.10.25-13.40.47:879][223]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.10.25-13.40.47:880][223]LogContentBundle: [TestingPlayer(Standalone)] Creating new contrainer.
+[2024.10.25-13.40.47:880][223]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 4.52 sec)
+[2024.10.25-13.40.47:880][223]LogPlayLevel: PIE: World Init took: (0.002446s)
+[2024.10.25-13.40.47:880][223]LogAudio: Display: Creating Audio Device:                 Id: 56, Scope: Unique, Realtime: True
+[2024.10.25-13.40.47:880][223]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.10.25-13.40.47:880][223]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.10.25-13.40.47:880][223]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.10.25-13.40.47:880][223]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.10.25-13.40.47:880][223]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.10.25-13.40.47:880][223]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.10.25-13.40.47:880][223]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.10.25-13.40.47:880][223]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.10.25-13.40.47:882][223]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.10.25-13.40.47:882][223]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.10.25-13.40.47:882][223]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.10.25-13.40.47:884][223]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.10.25-13.40.47:913][223]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (USB Audio Device)
+[2024.10.25-13.40.47:913][223]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.10.25-13.40.47:913][223]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.10.25-13.40.47:913][223]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.10.25-13.40.47:914][223]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=56
+[2024.10.25-13.40.47:914][223]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=56
+[2024.10.25-13.40.47:916][223]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=56
+[2024.10.25-13.40.47:916][223]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=56
+[2024.10.25-13.40.47:916][223]LogInit: FAudioDevice initialized with ID 56.
+[2024.10.25-13.40.47:916][223]LogAudio: Display: Audio Device (ID: 56) registered with world 'TestingPlayer'.
+[2024.10.25-13.40.47:916][223]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 56
+[2024.10.25-13.40.47:919][223]LogLoad: Game class is 'MyGameGamemode_C'
+[2024.10.25-13.40.47:919][223]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TestingPlayer.TestingPlayer up for play (max tick rate 0) at 2024.10.25-10.40.47
+[2024.10.25-13.40.47:919][223]LogWorld: Bringing up level for play took: 0.000531
+[2024.10.25-13.40.47:923][223]LogOnline: OSS: Created online subsystem instance for: :Context_92
+[2024.10.25-13.40.47:923][223]LogWorldPartition: UWorldPartitionStreamingPolicy: CellsToActivate(41), CellsToLoad(0), CellsToUnload(0)
+[2024.10.25-13.40.47:923][223]LogWorldPartition: UWorldPartitionStreamingPolicy: Sources[0] = X=-10827.884 Y=-7655.012 Z=147.751,P=0.000000 Y=64.750001 R=-0.000000
+[2024.10.25-13.40.47:927][223]LogStreaming: Display: FlushAsyncLoading(): 74 QueuedPackages, 0 AsyncPackages
+[2024.10.25-13.40.48:183][223]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.10.25-13.40.48:183][223]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.10.25-13.40.48:183][223]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.10.25-13.40.48:186][223]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.10.25-13.40.48:186][223]PIE: Server logged in
+[2024.10.25-13.40.48:187][223]PIE: Play in editor total start time 0,343 seconds.
+[2024.10.25-13.40.48:678][224]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.070615 > MaxSimulationTimeStep (0.050) for 'BP_Player_C_0', movement 'Walking'
+[2024.10.25-13.40.50:082][278]LogBlueprintUserMessages: [BP_Player_C_0] BP_Atm2.Cube Cube
+[2024.10.25-13.40.53:306][614]LogBlueprintUserMessages: [BP_Player_C_0] BP_Atm2.Cube Cube
+[2024.10.25-13.40.54:832][773]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.25-13.40.54:832][773]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TestingPlayer
+[2024.10.25-13.40.54:845][773]LogWorld: UWorld::CleanupWorld for TestingPlayer, bSessionEnded=true, bCleanupResources=true
+[2024.10.25-13.40.54:846][773]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.25-13.40.54:846][773]LogContentBundle: [TestingPlayer(Standalone)] Deleting container.
+[2024.10.25-13.40.54:849][773]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.10.25-13.40.54:856][773]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.25-13.40.54:875][773]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.10.25-13.40.54:875][773]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 56
+[2024.10.25-13.40.54:875][773]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=56
+[2024.10.25-13.40.54:878][773]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=56
+[2024.10.25-13.40.54:882][773]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.25-13.40.54:899][773]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2024.10.25-13.40.54:966][774]LogPlayLevel: Display: Destroying online subsystem :Context_92
+[2024.10.25-13.41.02:648][351]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.10.25-13.41.02:659][351]LogContentBundle: [TestingPlayer(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.10.25-13.41.02:659][351]LogWorldPartition: Display: GenerateStreaming for 'TestingPlayer' started...
+[2024.10.25-13.41.02:664][351]LogWorldPartition: Display: GenerateStreaming for 'TestingPlayer' took 4 ms (total: 237 ms)
+[2024.10.25-13.41.02:664][351]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.10.25-13.41.02:664][351]PIE: New page: PIE session: TestingPlayer (25 de out de 2024 07:41:02)
+[2024.10.25-13.41.02:664][351]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TestingPlayer
+[2024.10.25-13.41.02:675][351]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010406s)
+[2024.10.25-13.41.02:675][351]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TestingPlayer.TestingPlayer to /Game/Levels/UEDPIE_0_TestingPlayer.TestingPlayer (0.010446s)
+[2024.10.25-13.41.02:692][351]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2024.10.25-13.41.02:698][351]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.25-13.41.02:698][351]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.25-13.41.02:698][351]LogAIModule: Creating AISystem for world TestingPlayer
+[2024.10.25-13.41.02:699][351]LogWorldPartition: ULevel::OnLevelLoaded(TestingPlayer)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.10.25-13.41.02:699][351]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.10.25-13.41.02:699][351]LogWorldPartition: UWorldPartition::Initialize : World = TestingPlayer, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.10.25-13.41.02:699][351]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.10.25-13.41.02:701][351]LogContentBundle: [TestingPlayer(Standalone)] Creating new contrainer.
+[2024.10.25-13.41.02:701][351]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 4.52 sec)
+[2024.10.25-13.41.02:701][351]LogPlayLevel: PIE: World Init took: (0.002889s)
+[2024.10.25-13.41.02:701][351]LogAudio: Display: Creating Audio Device:                 Id: 57, Scope: Unique, Realtime: True
+[2024.10.25-13.41.02:701][351]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.10.25-13.41.02:701][351]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.10.25-13.41.02:701][351]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.10.25-13.41.02:701][351]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.10.25-13.41.02:701][351]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.10.25-13.41.02:701][351]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.10.25-13.41.02:701][351]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.10.25-13.41.02:701][351]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.10.25-13.41.02:701][351]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.10.25-13.41.02:701][351]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.10.25-13.41.02:701][351]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.10.25-13.41.02:703][351]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.10.25-13.41.02:733][351]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (USB Audio Device)
+[2024.10.25-13.41.02:733][351]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.10.25-13.41.02:733][351]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.10.25-13.41.02:733][351]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.10.25-13.41.02:733][351]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=57
+[2024.10.25-13.41.02:733][351]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=57
+[2024.10.25-13.41.02:736][351]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=57
+[2024.10.25-13.41.02:736][351]LogInit: FAudioDevice initialized with ID 57.
+[2024.10.25-13.41.02:736][351]LogAudio: Display: Audio Device (ID: 57) registered with world 'TestingPlayer'.
+[2024.10.25-13.41.02:736][351]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=57
+[2024.10.25-13.41.02:736][351]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 57
+[2024.10.25-13.41.02:739][351]LogLoad: Game class is 'MyGameGamemode_C'
+[2024.10.25-13.41.02:740][351]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TestingPlayer.TestingPlayer up for play (max tick rate 0) at 2024.10.25-10.41.02
+[2024.10.25-13.41.02:740][351]LogWorld: Bringing up level for play took: 0.000524
+[2024.10.25-13.41.02:742][351]LogOnline: OSS: Created online subsystem instance for: :Context_93
+[2024.10.25-13.41.02:742][351]LogWorldPartition: UWorldPartitionStreamingPolicy: CellsToActivate(41), CellsToLoad(0), CellsToUnload(0)
+[2024.10.25-13.41.02:742][351]LogWorldPartition: UWorldPartitionStreamingPolicy: Sources[0] = X=-11302.207 Y=-6056.444 Z=789.234,P=-0.000000 Y=-55.775001 R=0.000000
+[2024.10.25-13.41.02:763][351]LogStreaming: Display: FlushAsyncLoading(): 52 QueuedPackages, 0 AsyncPackages
+[2024.10.25-13.41.03:011][351]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.10.25-13.41.03:011][351]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.10.25-13.41.03:011][351]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.10.25-13.41.03:014][351]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.10.25-13.41.03:014][351]PIE: Server logged in
+[2024.10.25-13.41.03:015][351]PIE: Play in editor total start time 0,356 seconds.
+[2024.10.25-13.41.05:159][431]LogBlueprintUserMessages: [BP_Player_C_0] BP_Atm2.Cube Cube
+[2024.10.25-13.41.05:716][487]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] 
+[2024.10.25-13.41.05:934][510]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] 
+[2024.10.25-13.41.06:118][528]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] 
+[2024.10.25-13.41.06:273][543]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] 
+[2024.10.25-13.41.06:454][562]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] LandscapeStreamingProxy_3_3_0.LandscapeHeightfieldCollisionComponent_3
+[2024.10.25-13.41.08:790][800]LogBlueprintUserMessages: [BP_Player_C_0] BP_Atm2.Cube Cube
+[2024.10.25-13.41.10:332][957]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.25-13.41.10:332][957]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TestingPlayer
+[2024.10.25-13.41.10:346][957]LogWorld: UWorld::CleanupWorld for TestingPlayer, bSessionEnded=true, bCleanupResources=true
+[2024.10.25-13.41.10:346][957]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.25-13.41.10:347][957]LogContentBundle: [TestingPlayer(Standalone)] Deleting container.
+[2024.10.25-13.41.10:350][957]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.10.25-13.41.10:356][957]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.25-13.41.10:381][957]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.10.25-13.41.10:381][957]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 57
+[2024.10.25-13.41.10:381][957]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=57
+[2024.10.25-13.41.10:383][957]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=57
+[2024.10.25-13.41.10:388][957]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.25-13.41.10:400][957]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2024.10.25-13.41.10:488][958]LogPlayLevel: Display: Destroying online subsystem :Context_93
+[2024.10.25-13.41.12:609][112]Cmd: SELECT NONE
+[2024.10.25-13.41.33:815][675]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.10.25-13.41.33:827][675]LogContentBundle: [TestingPlayer(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.10.25-13.41.33:827][675]LogWorldPartition: Display: GenerateStreaming for 'TestingPlayer' started...
+[2024.10.25-13.41.33:831][675]LogWorldPartition: Display: GenerateStreaming for 'TestingPlayer' took 3 ms (total: 240 ms)
+[2024.10.25-13.41.33:831][675]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.10.25-13.41.33:831][675]PIE: New page: PIE session: TestingPlayer (25 de out de 2024 07:41:33)
+[2024.10.25-13.41.33:831][675]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TestingPlayer
+[2024.10.25-13.41.33:841][675]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009918s)
+[2024.10.25-13.41.33:841][675]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TestingPlayer.TestingPlayer to /Game/Levels/UEDPIE_0_TestingPlayer.TestingPlayer (0.009956s)
+[2024.10.25-13.41.33:860][675]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2024.10.25-13.41.33:864][675]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.25-13.41.33:864][675]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.25-13.41.33:865][675]LogAIModule: Creating AISystem for world TestingPlayer
+[2024.10.25-13.41.33:865][675]LogWorldPartition: ULevel::OnLevelLoaded(TestingPlayer)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.10.25-13.41.33:865][675]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.10.25-13.41.33:865][675]LogWorldPartition: UWorldPartition::Initialize : World = TestingPlayer, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.10.25-13.41.33:865][675]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.10.25-13.41.33:866][675]LogContentBundle: [TestingPlayer(Standalone)] Creating new contrainer.
+[2024.10.25-13.41.33:867][675]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 4.53 sec)
+[2024.10.25-13.41.33:867][675]LogPlayLevel: PIE: World Init took: (0.002618s)
+[2024.10.25-13.41.33:867][675]LogAudio: Display: Creating Audio Device:                 Id: 58, Scope: Unique, Realtime: True
+[2024.10.25-13.41.33:867][675]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.10.25-13.41.33:867][675]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.10.25-13.41.33:867][675]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.10.25-13.41.33:867][675]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.10.25-13.41.33:867][675]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.10.25-13.41.33:867][675]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.10.25-13.41.33:867][675]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.10.25-13.41.33:867][675]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.10.25-13.41.33:867][675]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.10.25-13.41.33:867][675]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.10.25-13.41.33:867][675]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.10.25-13.41.33:869][675]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.10.25-13.41.33:898][675]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (USB Audio Device)
+[2024.10.25-13.41.33:899][675]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.10.25-13.41.33:899][675]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.10.25-13.41.33:899][675]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.10.25-13.41.33:899][675]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=58
+[2024.10.25-13.41.33:899][675]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=58
+[2024.10.25-13.41.33:902][675]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=58
+[2024.10.25-13.41.33:902][675]LogInit: FAudioDevice initialized with ID 58.
+[2024.10.25-13.41.33:902][675]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=58
+[2024.10.25-13.41.33:902][675]LogAudio: Display: Audio Device (ID: 58) registered with world 'TestingPlayer'.
+[2024.10.25-13.41.33:902][675]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 58
+[2024.10.25-13.41.33:905][675]LogLoad: Game class is 'MyGameGamemode_C'
+[2024.10.25-13.41.33:906][675]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TestingPlayer.TestingPlayer up for play (max tick rate 0) at 2024.10.25-10.41.33
+[2024.10.25-13.41.33:906][675]LogWorld: Bringing up level for play took: 0.000539
+[2024.10.25-13.41.33:909][675]LogOnline: OSS: Created online subsystem instance for: :Context_94
+[2024.10.25-13.41.33:909][675]LogWorldPartition: UWorldPartitionStreamingPolicy: CellsToActivate(41), CellsToLoad(0), CellsToUnload(0)
+[2024.10.25-13.41.33:909][675]LogWorldPartition: UWorldPartitionStreamingPolicy: Sources[0] = X=-11548.588 Y=-8049.658 Z=1985.421,P=0.000000 Y=50.000001 R=-0.000000
+[2024.10.25-13.41.33:929][675]LogStreaming: Display: FlushAsyncLoading(): 52 QueuedPackages, 0 AsyncPackages
+[2024.10.25-13.41.34:175][675]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.10.25-13.41.34:175][675]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.10.25-13.41.34:175][675]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.10.25-13.41.34:178][675]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.10.25-13.41.34:178][675]PIE: Server logged in
+[2024.10.25-13.41.34:179][675]PIE: Play in editor total start time 0,351 seconds.
+[2024.10.25-13.41.38:594][996]LogBlueprintUserMessages: [BP_Player_C_0] BP_Atm2.Cube Cube
+[2024.10.25-13.41.40:293][172]LogBlueprintUserMessages: [BP_Player_C_0] BP_Atm2.Cube Cube
+[2024.10.25-13.41.41:802][328]LogBlueprintUserMessages: [BP_Player_C_0] BP_Atm2.Cube Cube
+[2024.10.25-13.41.42:182][366]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] 
+[2024.10.25-13.41.42:360][385]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] 
+[2024.10.25-13.41.42:541][404]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] 
+[2024.10.25-13.41.43:795][530]LogBlueprintUserMessages: [BP_Player_C_0] BP_Atm2.Cube Cube
+[2024.10.25-13.41.49:076][ 67]LogBlueprintUserMessages: [BP_Player_C_0] BP_Atm2.Cube Cube
+[2024.10.25-13.41.50:662][230]LogBlueprintUserMessages: [BP_Player_C_0] BP_Atm2.Cube Cube
+[2024.10.25-13.41.52:440][415]LogBlueprintUserMessages: [BP_Player_C_0] BP_Atm2.Cube Cube
+[2024.10.25-13.41.54:883][666]LogBlueprintUserMessages: [BP_Player_C_0] BP_Atm2.Cube Cube
+[2024.10.25-13.41.55:856][766]LogBlueprintUserMessages: [BP_Player_C_0] BP_Atm2.Cube Cube
+[2024.10.25-13.41.56:505][836]LogBlueprintUserMessages: [BP_Player_C_0] BP_Atm2.Cube Cube
+[2024.10.25-13.41.56:991][889]LogBlueprintUserMessages: [BP_Player_C_0] BP_Atm2.Cube Cube
+[2024.10.25-13.41.57:405][932]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] 
+[2024.10.25-13.41.57:563][947]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] 
+[2024.10.25-13.41.57:717][962]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] 
+[2024.10.25-13.41.57:889][980]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] LandscapeStreamingProxy_3_3_0.LandscapeHeightfieldCollisionComponent_3
+[2024.10.25-13.41.58:059][998]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] LandscapeStreamingProxy_3_3_0.LandscapeHeightfieldCollisionComponent_3
+[2024.10.25-13.41.58:208][ 13]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] LandscapeStreamingProxy_3_3_0.LandscapeHeightfieldCollisionComponent_3
+[2024.10.25-13.41.58:378][ 30]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] LandscapeStreamingProxy_3_3_0.LandscapeHeightfieldCollisionComponent_3
+[2024.10.25-13.41.58:536][ 45]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] 
+[2024.10.25-13.41.58:709][ 63]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] LandscapeStreamingProxy_3_3_0.LandscapeHeightfieldCollisionComponent_3
+[2024.10.25-13.41.58:877][ 80]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] LandscapeStreamingProxy_3_3_0.LandscapeHeightfieldCollisionComponent_3
+[2024.10.25-13.41.59:040][ 97]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] LandscapeStreamingProxy_3_3_0.LandscapeHeightfieldCollisionComponent_3
+[2024.10.25-13.41.59:201][114]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] LandscapeStreamingProxy_3_3_0.LandscapeHeightfieldCollisionComponent_3
+[2024.10.25-13.41.59:366][131]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] LandscapeStreamingProxy_3_3_0.LandscapeHeightfieldCollisionComponent_3
+[2024.10.25-13.41.59:533][147]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] LandscapeStreamingProxy_3_3_0.LandscapeHeightfieldCollisionComponent_3
+[2024.10.25-13.41.59:699][162]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] LandscapeStreamingProxy_3_3_0.LandscapeHeightfieldCollisionComponent_3
+[2024.10.25-13.41.59:860][179]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] LandscapeStreamingProxy_3_3_0.LandscapeHeightfieldCollisionComponent_3
+[2024.10.25-13.41.59:996][193]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] LandscapeStreamingProxy_3_3_0.LandscapeHeightfieldCollisionComponent_3
+[2024.10.25-13.42.00:157][209]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] LandscapeStreamingProxy_3_3_0.LandscapeHeightfieldCollisionComponent_3
+[2024.10.25-13.42.00:323][226]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] LandscapeStreamingProxy_3_3_0.LandscapeHeightfieldCollisionComponent_3
+[2024.10.25-13.42.00:498][244]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] LandscapeStreamingProxy_3_3_0.LandscapeHeightfieldCollisionComponent_3
+[2024.10.25-13.42.00:659][260]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] LandscapeStreamingProxy_3_3_0.LandscapeHeightfieldCollisionComponent_3
+[2024.10.25-13.42.00:816][276]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] LandscapeStreamingProxy_3_3_0.LandscapeHeightfieldCollisionComponent_3
+[2024.10.25-13.42.00:995][295]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] LandscapeStreamingProxy_3_3_0.LandscapeHeightfieldCollisionComponent_3
+[2024.10.25-13.42.01:141][310]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] LandscapeStreamingProxy_3_3_0.LandscapeHeightfieldCollisionComponent_3
+[2024.10.25-13.42.01:312][328]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] LandscapeStreamingProxy_3_3_0.LandscapeHeightfieldCollisionComponent_3
+[2024.10.25-13.42.01:495][346]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] LandscapeStreamingProxy_3_3_0.LandscapeHeightfieldCollisionComponent_3
+[2024.10.25-13.42.01:669][362]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] LandscapeStreamingProxy_3_3_0.LandscapeHeightfieldCollisionComponent_3
+[2024.10.25-13.42.01:828][378]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] LandscapeStreamingProxy_3_3_0.LandscapeHeightfieldCollisionComponent_3
+[2024.10.25-13.42.02:002][396]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] LandscapeStreamingProxy_3_3_0.LandscapeHeightfieldCollisionComponent_3
+[2024.10.25-13.42.02:177][414]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] LandscapeStreamingProxy_3_3_0.LandscapeHeightfieldCollisionComponent_3
+[2024.10.25-13.42.02:365][433]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] LandscapeStreamingProxy_3_3_0.LandscapeHeightfieldCollisionComponent_3
+[2024.10.25-13.42.02:528][449]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] LandscapeStreamingProxy_3_3_0.LandscapeHeightfieldCollisionComponent_3
+[2024.10.25-13.42.02:708][467]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] LandscapeStreamingProxy_3_3_0.LandscapeHeightfieldCollisionComponent_3
+[2024.10.25-13.42.02:853][481]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] LandscapeStreamingProxy_3_3_0.LandscapeHeightfieldCollisionComponent_3
+[2024.10.25-13.42.03:019][498]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] LandscapeStreamingProxy_3_3_0.LandscapeHeightfieldCollisionComponent_3
+[2024.10.25-13.42.03:224][519]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] LandscapeStreamingProxy_3_3_0.LandscapeHeightfieldCollisionComponent_3
+[2024.10.25-13.42.03:399][536]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] LandscapeStreamingProxy_3_3_0.LandscapeHeightfieldCollisionComponent_3
+[2024.10.25-13.42.03:558][551]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] LandscapeStreamingProxy_3_3_0.LandscapeHeightfieldCollisionComponent_3
+[2024.10.25-13.42.03:724][566]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] LandscapeStreamingProxy_3_3_0.LandscapeHeightfieldCollisionComponent_3
+[2024.10.25-13.42.03:890][583]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] LandscapeStreamingProxy_3_3_0.LandscapeHeightfieldCollisionComponent_3
+[2024.10.25-13.42.04:051][599]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] LandscapeStreamingProxy_3_3_0.LandscapeHeightfieldCollisionComponent_3
+[2024.10.25-13.42.07:721][971]LogBlueprintUserMessages: [BP_Player_C_0] BP_Atm2.Cube Cube
+[2024.10.25-13.42.11:052][316]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.25-13.42.11:052][316]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TestingPlayer
+[2024.10.25-13.42.11:065][316]LogWorld: UWorld::CleanupWorld for TestingPlayer, bSessionEnded=true, bCleanupResources=true
+[2024.10.25-13.42.11:065][316]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.25-13.42.11:065][316]LogContentBundle: [TestingPlayer(Standalone)] Deleting container.
+[2024.10.25-13.42.11:069][316]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.10.25-13.42.11:076][316]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.25-13.42.11:101][316]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.25-13.42.11:101][316]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 58
+[2024.10.25-13.42.11:101][316]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=58
+[2024.10.25-13.42.11:103][316]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=58
+[2024.10.25-13.42.11:122][316]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2024.10.25-13.42.11:193][317]LogPlayLevel: Display: Destroying online subsystem :Context_94
+[2024.10.25-13.42.20:016][902]BlueprintLog: New page: Compile BP_Atm
+[2024.10.25-13.42.20:059][902]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
