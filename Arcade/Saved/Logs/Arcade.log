@@ -5613,3 +5613,733 @@ LogConfig: CVar [[r.Occlusion.SingleRHIThreadStall:1]] deferred - dummy variable
 [2024.10.26-02.46.13:175][284]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2024.10.26-02.46.13:190][284]LogUObjectHash: Compacting FUObjectHashTables data took   2.36ms
 [2024.10.26-02.46.13:271][285]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2024.10.26-02.47.36:850][934]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.10.26-02.47.36:861][934]LogContentBundle: [TestingPlayer1(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.10.26-02.47.36:861][934]LogWorldPartition: Display: GenerateStreaming for 'TestingPlayer1' started...
+[2024.10.26-02.47.36:864][934]LogWorldPartition: Display: GenerateStreaming for 'TestingPlayer1' took 3 ms (total: 95 ms)
+[2024.10.26-02.47.36:865][934]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.10.26-02.47.36:865][934]PIE: New page: PIE session: TestingPlayer1 (25 de out de 2024 20:47:36)
+[2024.10.26-02.47.36:903][934]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TestingPlayer1
+[2024.10.26-02.47.36:907][934]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004717s)
+[2024.10.26-02.47.36:908][934]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TestingPlayer1.TestingPlayer1 to /Game/Levels/UEDPIE_0_TestingPlayer1.TestingPlayer1 (0.004775s)
+[2024.10.26-02.47.36:922][934]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2024.10.26-02.47.36:926][934]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.26-02.47.36:926][934]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.26-02.47.36:926][934]LogAIModule: Creating AISystem for world TestingPlayer1
+[2024.10.26-02.47.36:926][934]LogWorldPartition: ULevel::OnLevelLoaded(TestingPlayer1)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.10.26-02.47.36:926][934]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.10.26-02.47.36:927][934]LogWorldPartition: UWorldPartition::Initialize : World = TestingPlayer1, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.10.26-02.47.36:927][934]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.10.26-02.47.36:928][934]LogContentBundle: [TestingPlayer1(Standalone)] Creating new contrainer.
+[2024.10.26-02.47.36:928][934]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 812 ms)
+[2024.10.26-02.47.36:928][934]LogPlayLevel: PIE: World Init took: (0.002520s)
+[2024.10.26-02.47.36:928][934]LogAudio: Display: Creating Audio Device:                 Id: 21, Scope: Unique, Realtime: True
+[2024.10.26-02.47.36:928][934]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.10.26-02.47.36:928][934]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.10.26-02.47.36:928][934]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.10.26-02.47.36:928][934]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.10.26-02.47.36:928][934]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.10.26-02.47.36:928][934]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.10.26-02.47.36:928][934]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.10.26-02.47.36:928][934]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.10.26-02.47.36:928][934]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.10.26-02.47.36:928][934]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.10.26-02.47.36:928][934]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.10.26-02.47.36:931][934]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.10.26-02.47.36:960][934]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (USB Audio Device)
+[2024.10.26-02.47.36:961][934]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.10.26-02.47.36:961][934]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.10.26-02.47.36:961][934]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.10.26-02.47.36:962][934]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=21
+[2024.10.26-02.47.36:962][934]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=21
+[2024.10.26-02.47.36:964][934]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=21
+[2024.10.26-02.47.36:964][934]LogInit: FAudioDevice initialized with ID 21.
+[2024.10.26-02.47.36:964][934]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=21
+[2024.10.26-02.47.36:964][934]LogAudio: Display: Audio Device (ID: 21) registered with world 'TestingPlayer1'.
+[2024.10.26-02.47.36:964][934]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 21
+[2024.10.26-02.47.36:967][934]LogLoad: Game class is 'MyGameGamemode_C'
+[2024.10.26-02.47.36:967][934]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TestingPlayer1.TestingPlayer1 up for play (max tick rate 0) at 2024.10.25-23.47.36
+[2024.10.26-02.47.36:968][934]LogWorld: Bringing up level for play took: 0.000581
+[2024.10.26-02.47.36:970][934]LogOnline: OSS: Created online subsystem instance for: :Context_30
+[2024.10.26-02.47.36:970][934]LogWorldPartition: UWorldPartitionStreamingPolicy: CellsToActivate(41), CellsToLoad(0), CellsToUnload(0)
+[2024.10.26-02.47.36:970][934]LogWorldPartition: UWorldPartitionStreamingPolicy: Sources[0] = X=-8192.854 Y=-6941.060 Z=72.458,P=0.000000 Y=0.000000 R=-0.000000
+[2024.10.26-02.47.36:974][934]LogStreaming: Display: FlushAsyncLoading(): 73 QueuedPackages, 0 AsyncPackages
+[2024.10.26-02.47.37:462][934]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.10.26-02.47.37:462][934]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.10.26-02.47.37:462][934]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.10.26-02.47.37:466][934]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.10.26-02.47.37:466][934]PIE: Server logged in
+[2024.10.26-02.47.37:467][934]PIE: Play in editor total start time 0,606 seconds.
+[2024.10.26-02.47.38:988][ 88]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.38:999][ 89]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.39:009][ 90]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.39:020][ 91]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.39:029][ 92]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.39:039][ 93]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.39:050][ 94]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.39:060][ 95]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.39:068][ 96]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.39:078][ 97]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.39:088][ 98]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.39:099][ 99]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.39:110][100]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.39:120][101]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.39:130][102]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.39:141][103]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.39:150][104]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.39:160][105]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.39:170][106]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.39:178][107]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.39:189][108]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.39:198][109]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.39:208][110]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.39:218][111]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.39:231][112]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.39:243][113]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.39:253][114]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.39:262][115]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.39:272][116]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.39:285][117]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.39:294][118]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.39:303][119]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.39:311][120]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.39:320][121]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.39:328][122]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.39:337][123]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.39:346][124]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.39:355][125]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.39:364][126]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.39:372][127]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.39:384][128]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.39:392][129]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.39:400][130]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.39:408][131]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.39:417][132]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.39:426][133]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.39:436][134]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.39:445][135]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.39:455][136]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.39:463][137]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.39:472][138]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.39:481][139]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.39:488][140]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.39:497][141]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.39:506][142]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.39:516][143]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.39:524][144]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.39:533][145]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.39:541][146]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.39:550][147]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.39:559][148]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.39:568][149]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.39:575][150]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.39:585][151]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.39:594][152]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.39:603][153]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.39:612][154]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.39:621][155]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.39:630][156]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.39:638][157]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.39:648][158]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.39:657][159]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.39:666][160]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.39:674][161]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.39:682][162]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.39:691][163]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.39:701][164]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.39:711][165]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.39:720][166]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.39:729][167]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.39:738][168]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.39:748][169]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.39:758][170]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.39:766][171]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.39:775][172]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.39:785][173]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.39:794][174]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.39:804][175]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.39:812][176]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.39:821][177]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.39:830][178]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.39:839][179]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.39:847][180]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.39:857][181]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.39:865][182]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.39:875][183]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.39:885][184]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.39:895][185]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.39:905][186]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.39:914][187]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.39:923][188]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.39:932][189]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.39:941][190]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.39:952][191]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.39:961][192]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.39:972][193]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.39:982][194]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.39:992][195]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.40:002][196]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.40:013][197]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.40:023][198]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.40:032][199]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.40:042][200]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.40:051][201]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.40:059][202]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.40:068][203]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.40:078][204]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.40:086][205]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.40:095][206]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.40:105][207]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.40:114][208]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.40:123][209]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.40:132][210]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.40:142][211]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.40:151][212]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.40:161][213]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.40:171][214]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.40:180][215]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.40:188][216]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.40:197][217]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.40:207][218]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.40:216][219]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.40:226][220]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.40:234][221]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.40:244][222]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.40:253][223]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.40:263][224]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.40:271][225]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.40:280][226]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.40:289][227]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.40:298][228]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.40:306][229]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.40:316][230]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.40:324][231]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.40:333][232]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.40:342][233]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.40:351][234]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.40:360][235]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.40:369][236]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.40:378][237]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.40:385][238]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.40:395][239]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.40:404][240]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.40:413][241]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.40:422][242]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.40:430][243]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.40:439][244]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.40:448][245]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.40:457][246]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.40:466][247]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.40:475][248]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.40:483][249]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.40:492][250]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.40:501][251]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.40:510][252]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.40:519][253]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.40:528][254]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.40:537][255]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.40:544][256]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.40:553][257]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.40:562][258]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.40:571][259]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.40:580][260]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.40:589][261]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.40:598][262]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.40:606][263]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.40:615][264]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.40:624][265]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.40:633][266]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.40:642][267]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.40:651][268]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.40:660][269]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.40:668][270]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.40:677][271]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.40:685][272]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.40:694][273]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.40:703][274]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.40:713][275]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.40:722][276]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.40:730][277]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.40:741][278]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.40:750][279]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.40:759][280]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.40:768][281]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.40:777][282]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.40:785][283]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.40:795][284]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.40:804][285]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.40:813][286]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.40:822][287]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.40:831][288]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.40:840][289]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.40:851][290]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.40:859][291]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.40:867][292]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.40:876][293]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.40:886][294]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.40:895][295]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.40:905][296]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.40:915][297]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.40:923][298]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.40:933][299]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.40:943][300]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.40:952][301]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.40:962][302]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.40:974][303]LogBlueprintUserMessages: [BP_Player_C_0] FINALMENTE DEU CERTO
+[2024.10.26-02.47.41:952][407]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.41:961][408]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.41:970][409]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.41:979][410]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.41:989][411]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.41:998][412]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.42:008][413]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.42:017][414]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.42:026][415]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.42:035][416]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.42:044][417]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.42:052][418]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.42:061][419]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.42:070][420]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.42:078][421]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.42:088][422]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.42:097][423]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.42:106][424]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.42:114][425]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.42:122][426]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.42:131][427]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.42:140][428]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.42:149][429]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.42:158][430]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.42:168][431]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.42:178][432]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.42:188][433]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.42:198][434]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.42:206][435]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.42:217][436]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.42:226][437]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.42:234][438]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.42:243][439]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.42:253][440]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.42:262][441]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.42:271][442]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.42:279][443]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.42:288][444]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.42:297][445]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.42:306][446]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.42:314][447]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.42:324][448]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.42:332][449]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.42:342][450]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.42:351][451]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.42:360][452]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.42:369][453]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.42:378][454]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.42:385][455]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.42:394][456]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.42:403][457]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.42:413][458]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.42:422][459]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.42:432][460]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.42:442][461]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.42:451][462]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.42:461][463]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.42:471][464]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.42:481][465]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.42:490][466]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.42:500][467]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.42:509][468]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.42:518][469]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.42:530][470]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.42:538][471]LogBlueprintUserMessages: [BP_Player_C_0] esta errando
+[2024.10.26-02.47.44:157][648]LogBlueprintUserMessages: [BP_Player_C_0] esta errando
+[2024.10.26-02.47.45:246][768]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.45:256][769]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.45:268][770]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.45:279][771]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.45:287][772]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.45:298][773]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.45:306][774]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.45:314][775]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.45:323][776]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.45:332][777]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.45:341][778]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.45:349][779]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.45:359][780]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.45:369][781]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.45:380][782]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.45:390][783]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.45:400][784]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.45:411][785]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.45:421][786]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.45:431][787]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.45:443][788]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.45:453][789]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.45:464][790]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.45:475][791]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.45:486][792]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.45:496][793]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.45:506][794]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.45:516][795]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.45:525][796]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.45:536][797]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.45:545][798]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.45:555][799]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.45:565][800]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.45:575][801]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.45:584][802]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.45:595][803]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.45:603][804]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.45:612][805]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.45:621][806]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.45:629][807]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.45:638][808]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.45:646][809]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.45:656][810]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.45:665][811]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.45:673][812]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.45:682][813]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.45:691][814]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.45:701][815]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.45:709][816]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.45:719][817]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.45:726][818]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.45:736][819]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.45:743][820]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.45:752][821]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.45:761][822]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.45:769][823]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.45:778][824]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.45:786][825]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.45:794][826]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.45:804][827]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.45:811][828]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.45:821][829]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.45:830][830]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.45:838][831]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.45:847][832]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.45:855][833]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.45:864][834]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.45:873][835]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.45:882][836]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.45:891][837]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.45:900][838]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.45:908][839]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.45:917][840]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.45:926][841]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.45:935][842]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.45:945][843]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.45:953][844]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.45:962][845]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.45:970][846]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.45:980][847]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.45:990][848]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.45:998][849]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.46:007][850]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.46:017][851]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.46:024][852]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.46:033][853]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.46:042][854]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.46:050][855]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.46:060][856]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.46:067][857]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.46:076][858]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.46:085][859]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.46:093][860]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.46:102][861]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.46:111][862]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.46:119][863]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.46:128][864]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.46:137][865]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.46:146][866]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.46:155][867]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.46:164][868]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.46:173][869]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.46:181][870]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.46:190][871]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.46:198][872]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.46:208][873]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.46:216][874]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.46:226][875]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.46:233][876]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.46:242][877]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.46:251][878]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.46:259][879]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.46:268][880]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.46:277][881]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.46:285][882]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.46:294][883]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.46:303][884]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.46:311][885]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.46:320][886]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.46:329][887]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.46:337][888]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.46:347][889]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.46:355][890]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.46:363][891]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.46:372][892]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.46:381][893]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.46:390][894]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.46:399][895]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.46:407][896]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.46:416][897]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.46:424][898]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.46:433][899]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.46:442][900]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.46:451][901]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.46:459][902]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.46:468][903]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.46:477][904]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.46:487][905]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.46:494][906]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.46:503][907]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.46:512][908]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.46:521][909]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.46:529][910]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.46:538][911]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.46:547][912]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.46:556][913]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.46:566][914]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.46:576][915]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.46:585][916]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.46:594][917]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.46:603][918]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.46:613][919]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.46:622][920]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.46:631][921]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.46:639][922]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.46:648][923]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.46:656][924]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.46:665][925]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.46:673][926]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.46:683][927]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.46:691][928]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.46:700][929]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.46:709][930]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.46:718][931]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.46:725][932]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.46:735][933]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.46:743][934]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.46:752][935]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.46:760][936]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.46:770][937]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.46:778][938]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.46:786][939]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.46:795][940]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.46:804][941]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.46:812][942]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.46:821][943]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.46:829][944]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.46:838][945]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.46:846][946]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.46:855][947]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.46:864][948]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.46:873][949]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.46:881][950]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.46:891][951]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.46:905][952]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.46:916][953]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.46:928][954]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.46:938][955]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.46:950][956]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.46:960][957]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.46:974][958]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.46:984][959]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.46:992][960]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.47:002][961]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.47:013][962]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.47:022][963]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.47:031][964]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.47:040][965]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.47:049][966]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.47:057][967]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.47:067][968]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.47:076][969]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.47:086][970]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.47:095][971]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.47:104][972]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.47:113][973]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.47:123][974]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.47:132][975]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.47:142][976]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.47:152][977]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.47:161][978]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.47:172][979]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.47:181][980]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.47:192][981]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.47:201][982]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.47:210][983]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.47:219][984]LogBlueprintUserMessages: [BP_Player_C_0] esta acertando
+[2024.10.26-02.47.47:228][985]LogBlueprintUserMessages: [BP_Player_C_0] FINALMENTE DEU CERTO
+[2024.10.26-02.47.48:233][ 94]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.26-02.47.48:233][ 94]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TestingPlayer1
+[2024.10.26-02.47.48:243][ 94]LogWorld: UWorld::CleanupWorld for TestingPlayer1, bSessionEnded=true, bCleanupResources=true
+[2024.10.26-02.47.48:243][ 94]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.26-02.47.48:243][ 94]LogContentBundle: [TestingPlayer1(Standalone)] Deleting container.
+[2024.10.26-02.47.48:246][ 94]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.10.26-02.47.48:253][ 94]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.26-02.47.48:277][ 94]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.26-02.47.48:278][ 94]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 21
+[2024.10.26-02.47.48:278][ 94]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2024.10.26-02.47.48:280][ 94]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2024.10.26-02.47.48:297][ 94]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2024.10.26-02.47.48:370][ 95]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2024.10.26-02.49.16:258][795]BlueprintLog: New page: Compile BP_Player
+[2024.10.26-02.49.16:313][795]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2024.10.26-02.49.16:364][795]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.26-02.49.16:429][795]LogSavePackage: Moving output files for package: /Game/Blueprints/Player/BP_Player
+[2024.10.26-02.49.16:431][795]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Saved/BP_Player35921F8E4758B80EF0511E9817CE10CA.tmp' to '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/Blueprints/Player/BP_Player.uasset'
+[2024.10.26-02.49.16:442][795]LogFileHelpers: InternalPromptForCheckoutAndSave took 78 ms (total: 1.45 sec)
+[2024.10.26-02.49.16:445][795]AssetCheck: New page: Asset Save: BP_Player
+[2024.10.26-02.49.16:445][795]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Player/BP_Player.BP_Player
+[2024.10.26-02.49.51:432][437]BlueprintLog: New page: Compile BP_Player
+[2024.10.26-02.49.51:488][437]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2024.10.26-02.49.51:534][437]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.26-02.49.51:586][437]LogSavePackage: Moving output files for package: /Game/Blueprints/Player/BP_Player
+[2024.10.26-02.49.51:588][437]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Saved/BP_Player5713ECE44D80BF7E21458F8CD3D28DED.tmp' to '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/Blueprints/Player/BP_Player.uasset'
+[2024.10.26-02.49.51:598][437]LogFileHelpers: InternalPromptForCheckoutAndSave took 63 ms (total: 1.51 sec)
+[2024.10.26-02.49.51:600][437]AssetCheck: New page: Asset Save: BP_Player
+[2024.10.26-02.49.51:600][437]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Player/BP_Player.BP_Player
+[2024.10.26-02.50.01:382][403]BlueprintLog: New page: Compile BP_Player
+[2024.10.26-02.50.01:437][403]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2024.10.26-02.50.01:483][403]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.26-02.50.01:541][403]LogSavePackage: Moving output files for package: /Game/Blueprints/Player/BP_Player
+[2024.10.26-02.50.01:542][403]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Saved/BP_Player0B1B3BFF48DFE1141CFEEB8FE85BB7B3.tmp' to '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/Blueprints/Player/BP_Player.uasset'
+[2024.10.26-02.50.01:552][403]LogFileHelpers: InternalPromptForCheckoutAndSave took 69 ms (total: 1.58 sec)
+[2024.10.26-02.50.01:555][403]AssetCheck: New page: Asset Save: BP_Player
+[2024.10.26-02.50.01:555][403]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Player/BP_Player.BP_Player
+[2024.10.26-02.50.06:954][817]LogSlate: Window 'Color Picker' being destroyed
+[2024.10.26-02.50.27:006][433]BlueprintLog: New page: Compile BP_Player
+[2024.10.26-02.50.27:067][433]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
+[2024.10.26-02.50.27:114][433]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.26-02.50.27:173][433]LogSavePackage: Moving output files for package: /Game/Blueprints/Player/BP_Player
+[2024.10.26-02.50.27:175][433]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Saved/BP_Player42C6B1264617DB2CDA9923AAFB8E72D0.tmp' to '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/Blueprints/Player/BP_Player.uasset'
+[2024.10.26-02.50.27:184][433]LogFileHelpers: InternalPromptForCheckoutAndSave took 70 ms (total: 1.65 sec)
+[2024.10.26-02.50.27:187][433]AssetCheck: New page: Asset Save: BP_Player
+[2024.10.26-02.50.27:187][433]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Player/BP_Player.BP_Player
+[2024.10.26-02.50.45:723][343]LogEditorTransaction: Undo Resize Node
+[2024.10.26-02.50.46:313][362]LogEditorTransaction: Undo Resize Node
+[2024.10.26-02.50.46:896][403]LogEditorTransaction: Undo Rename Node
+[2024.10.26-02.50.47:483][450]LogEditorTransaction: Undo Add Node
+[2024.10.26-02.52.29:220][201]BlueprintLog: New page: Compile BP_Player
+[2024.10.26-02.52.29:276][201]LogUObjectHash: Compacting FUObjectHashTables data took   1.92ms
+[2024.10.26-02.52.29:322][201]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.26-02.52.29:379][201]LogSavePackage: Moving output files for package: /Game/Blueprints/Player/BP_Player
+[2024.10.26-02.52.29:380][201]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Saved/BP_Player0E819BDD47F6166B5EB9A7B3D4D3BB57.tmp' to '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/Blueprints/Player/BP_Player.uasset'
+[2024.10.26-02.52.29:389][201]LogFileHelpers: InternalPromptForCheckoutAndSave took 68 ms (total: 1.72 sec)
+[2024.10.26-02.52.29:393][201]AssetCheck: New page: Asset Save: BP_Player
+[2024.10.26-02.52.29:393][201]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Player/BP_Player.BP_Player
+[2024.10.26-02.52.40:278][283]LogSlate: Window 'Color Picker' being destroyed
+[2024.10.26-02.52.53:760][716]LogEditorTransaction: Undo Delete current selection
+[2024.10.26-02.52.54:530][759]LogEditorTransaction: Undo Add Node
+[2024.10.26-02.52.55:142][811]LogEditorTransaction: Undo Add Node
+[2024.10.26-02.53.02:220][563]LogEditorTransaction: Undo Move Node
+[2024.10.26-02.53.04:030][714]LogEditorTransaction: Undo Move Node
+[2024.10.26-02.54.54:072][ 59]BlueprintLog: New page: Compile BP_Player
+[2024.10.26-02.54.54:137][ 59]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2024.10.26-02.54.54:184][ 59]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.26-02.54.54:244][ 59]LogSavePackage: Moving output files for package: /Game/Blueprints/Player/BP_Player
+[2024.10.26-02.54.54:246][ 59]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Saved/BP_Player9C900D0348166A7A244A7781D71DE952.tmp' to '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/Blueprints/Player/BP_Player.uasset'
+[2024.10.26-02.54.54:255][ 59]LogFileHelpers: InternalPromptForCheckoutAndSave took 70 ms (total: 1.79 sec)
+[2024.10.26-02.54.54:257][ 59]AssetCheck: New page: Asset Save: BP_Player
+[2024.10.26-02.54.54:258][ 59]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Player/BP_Player.BP_Player
+[2024.10.26-02.55.00:063][727]BlueprintLog: New page: Compile BP_Player
+[2024.10.26-02.55.00:117][727]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2024.10.26-02.55.00:163][727]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.26-02.55.00:219][727]LogSavePackage: Moving output files for package: /Game/Blueprints/Player/BP_Player
+[2024.10.26-02.55.00:221][727]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Saved/BP_Player039284C245DE1025A643E8AAA1BD8189.tmp' to '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/Blueprints/Player/BP_Player.uasset'
+[2024.10.26-02.55.00:231][727]LogFileHelpers: InternalPromptForCheckoutAndSave took 68 ms (total: 1.86 sec)
+[2024.10.26-02.55.00:231][727]AssetCheck: New page: Asset Save: BP_Player
+[2024.10.26-02.55.00:231][727]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Player/BP_Player.BP_Player
+[2024.10.26-02.55.32:793][463]LogEditorTransaction: Undo Move Node
+[2024.10.26-02.55.34:921][587]LogEditorTransaction: Undo Move Node
+[2024.10.26-02.55.35:430][611]LogEditorTransaction: Undo Paste clipboard contents
+[2024.10.26-02.55.41:782][128]LogEditorTransaction: Undo Resize Node
+[2024.10.26-02.55.42:391][146]LogEditorTransaction: Undo Paste clipboard contents
+[2024.10.26-02.55.43:197][194]LogEditorTransaction: Undo Move Node
+[2024.10.26-02.55.43:849][231]LogEditorTransaction: Undo Rename Node
+[2024.10.26-02.55.44:642][274]LogEditorTransaction: Undo Rename Node
+[2024.10.26-02.56.19:334][ 75]LogEditorTransaction: Undo Move Node
+[2024.10.26-02.56.20:098][103]LogEditorTransaction: Undo Move Node
+[2024.10.26-02.56.20:677][129]LogEditorTransaction: Undo Move Node
+[2024.10.26-02.56.21:316][166]LogEditorTransaction: Undo Resize Node
+[2024.10.26-02.56.21:898][196]LogEditorTransaction: Undo Resize Node
+[2024.10.26-02.56.22:593][237]LogEditorTransaction: Undo Paste clipboard contents
+[2024.10.26-02.57.16:128][349]LogEditorTransaction: Undo Move Nodes
+[2024.10.26-02.58.38:623][177]BlueprintLog: New page: Compile BP_Player
+[2024.10.26-02.58.38:688][177]LogUObjectHash: Compacting FUObjectHashTables data took   2.39ms
+[2024.10.26-02.58.38:734][177]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.26-02.58.38:790][177]LogSavePackage: Moving output files for package: /Game/Blueprints/Player/BP_Player
+[2024.10.26-02.58.38:792][177]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Saved/BP_Player8EB5143A4E271AA03A48759B633B94BF.tmp' to '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/Blueprints/Player/BP_Player.uasset'
+[2024.10.26-02.58.38:802][177]LogFileHelpers: InternalPromptForCheckoutAndSave took 68 ms (total: 1.92 sec)
+[2024.10.26-02.58.38:805][177]AssetCheck: New page: Asset Save: BP_Player
+[2024.10.26-02.58.38:805][177]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Player/BP_Player.BP_Player
+[2024.10.26-02.58.47:116][913]LogEditorTransaction: Undo Paste clipboard contents
+[2024.10.26-02.58.49:161][ 52]LogEditorTransaction: Undo Paste clipboard contents
+[2024.10.26-02.59.09:838][976]LogEditorTransaction: Undo Move Node
+[2024.10.26-02.59.12:185][129]LogEditorTransaction: Undo Resize Node
+[2024.10.26-02.59.55:289][715]LogEditorTransaction: Undo Move Node
+[2024.10.26-03.00.18:807][ 81]LogEditorTransaction: Undo Nudge Node
+[2024.10.26-03.00.19:504][113]LogEditorTransaction: Undo Nudge Node
+[2024.10.26-03.00.20:058][161]LogEditorTransaction: Undo Nudge Node
+[2024.10.26-03.00.20:607][209]LogEditorTransaction: Undo Nudge Node
+[2024.10.26-03.03.23:925][497]LogEditorTransaction: Undo Straighten Connection(s)
+[2024.10.26-03.03.25:664][651]BlueprintLog: New page: Compile BP_Player
+[2024.10.26-03.03.25:733][651]LogUObjectHash: Compacting FUObjectHashTables data took   2.51ms
+[2024.10.26-03.03.25:785][651]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.26-03.03.25:851][651]LogSavePackage: Moving output files for package: /Game/Blueprints/Player/BP_Player
+[2024.10.26-03.03.25:852][651]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Saved/BP_Player7090711641679AE0EBA1CD98E9664440.tmp' to '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/Blueprints/Player/BP_Player.uasset'
+[2024.10.26-03.03.25:865][651]LogFileHelpers: InternalPromptForCheckoutAndSave took 80 ms (total: 2.00 sec)
+[2024.10.26-03.03.25:868][651]AssetCheck: New page: Asset Save: BP_Player
+[2024.10.26-03.03.25:868][651]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Player/BP_Player.BP_Player
+[2024.10.26-03.03.32:099][270]BlueprintLog: New page: Compile BP_Player
+[2024.10.26-03.03.32:162][270]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2024.10.26-03.03.32:207][270]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.26-03.03.32:266][270]LogSavePackage: Moving output files for package: /Game/Blueprints/Player/BP_Player
+[2024.10.26-03.03.32:267][270]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Saved/BP_Player0812625641C97BD9285399A6D47F76CB.tmp' to '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/Blueprints/Player/BP_Player.uasset'
+[2024.10.26-03.03.32:276][270]LogFileHelpers: InternalPromptForCheckoutAndSave took 70 ms (total: 2.08 sec)
+[2024.10.26-03.03.32:279][270]AssetCheck: New page: Asset Save: BP_Player
+[2024.10.26-03.03.32:279][270]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Player/BP_Player.BP_Player
+[2024.10.26-03.04.41:713][576]BlueprintLog: New page: Compile BP_Player
+[2024.10.26-03.04.41:771][576]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2024.10.26-03.04.41:818][576]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.26-03.04.41:882][576]LogSavePackage: Moving output files for package: /Game/Blueprints/Player/BP_Player
+[2024.10.26-03.04.41:884][576]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Saved/BP_PlayerCA97A3974F3655F0F785C4B848509C45.tmp' to '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/Blueprints/Player/BP_Player.uasset'
+[2024.10.26-03.04.41:893][576]LogFileHelpers: InternalPromptForCheckoutAndSave took 74 ms (total: 2.15 sec)
+[2024.10.26-03.04.41:896][576]AssetCheck: New page: Asset Save: BP_Player
+[2024.10.26-03.04.41:896][576]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Player/BP_Player.BP_Player
+[2024.10.26-03.04.48:116][  5]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.26-03.04.48:172][  5]LogSavePackage: Moving output files for package: /Game/Blueprints/Player/BP_Player
+[2024.10.26-03.04.48:174][  5]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Saved/BP_PlayerF8EA94A54582D3AE9122D7ADA7CF4CCE.tmp' to '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/Blueprints/Player/BP_Player.uasset'
+[2024.10.26-03.04.48:183][  5]LogFileHelpers: InternalPromptForCheckoutAndSave took 67 ms (total: 2.22 sec)
+[2024.10.26-03.04.48:186][  5]AssetCheck: New page: Asset Save: BP_Player
+[2024.10.26-03.04.48:186][  5]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Player/BP_Player.BP_Player
+[2024.10.26-03.05.03:659][301]BlueprintLog: New page: Compile BP_Player
+[2024.10.26-03.05.03:718][301]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2024.10.26-03.05.03:765][301]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.26-03.05.03:819][301]LogSavePackage: Moving output files for package: /Game/Blueprints/Player/BP_Player
+[2024.10.26-03.05.03:821][301]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Saved/BP_PlayerE4366955408E9F089209F6B9DE605B7A.tmp' to '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/Blueprints/Player/BP_Player.uasset'
+[2024.10.26-03.05.03:829][301]LogFileHelpers: InternalPromptForCheckoutAndSave took 63 ms (total: 2.28 sec)
+[2024.10.26-03.05.03:832][301]AssetCheck: New page: Asset Save: BP_Player
+[2024.10.26-03.05.03:832][301]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Player/BP_Player.BP_Player
+[2024.10.26-03.05.18:207][737]BlueprintLog: New page: Compile BP_Player
+[2024.10.26-03.05.18:266][737]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2024.10.26-03.05.18:312][737]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.26-03.05.18:376][737]LogSavePackage: Moving output files for package: /Game/Blueprints/Player/BP_Player
+[2024.10.26-03.05.18:377][737]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Saved/BP_Player75A82B564FCF6FB5729207B8D940ACDC.tmp' to '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/Blueprints/Player/BP_Player.uasset'
+[2024.10.26-03.05.18:389][737]LogFileHelpers: InternalPromptForCheckoutAndSave took 76 ms (total: 2.36 sec)
+[2024.10.26-03.05.18:391][737]AssetCheck: New page: Asset Save: BP_Player
+[2024.10.26-03.05.18:391][737]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Player/BP_Player.BP_Player
+[2024.10.26-03.05.30:801][992]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.26-03.05.31:215][ 22]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.26-03.05.31:305][ 23]LogShaderCompilers: Display: ================================================
+[2024.10.26-03.05.31:305][ 23]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.10.26-03.05.31:305][ 23]LogShaderCompilers: Display: Total job queries 4, among them cache hits 0 (0.00%)
+[2024.10.26-03.05.31:305][ 23]LogShaderCompilers: Display: Tracking 3 distinct input hashes that result in 2 distinct outputs (66.67%)
+[2024.10.26-03.05.31:305][ 23]LogShaderCompilers: Display: RAM used: 106,76 KiB of 819,20 MiB budget. Usage: 0.01%
+[2024.10.26-03.05.31:305][ 23]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.10.26-03.05.31:305][ 23]LogShaderCompilers: Display: Shaders Compiled: 0
+[2024.10.26-03.05.31:305][ 23]LogShaderCompilers: Display: Jobs assigned 1, completed 0 (0.00%)
+[2024.10.26-03.05.31:305][ 23]LogShaderCompilers: Display: Time job spent in pending queue: average 0.00 s, longest 0.00 s
+[2024.10.26-03.05.31:305][ 23]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2024.10.26-03.05.31:305][ 23]LogShaderCompilers: Display: Jobs were issued in 1 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.10.26-03.05.31:305][ 23]LogShaderCompilers: Display: ================================================
