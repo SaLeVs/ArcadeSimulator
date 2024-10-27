@@ -4129,3 +4129,162 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.10.27-04.11.17:702][507]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2024.10.27-04.11.17:716][507]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
 [2024.10.27-04.11.17:797][508]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2024.10.27-04.12.23:651][918]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.10.27-04.12.23:660][918]LogContentBundle: [TestingPlayer(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.10.27-04.12.23:660][918]LogWorldPartition: Display: GenerateStreaming for 'TestingPlayer' started...
+[2024.10.27-04.12.23:665][918]LogWorldPartition: Display: GenerateStreaming for 'TestingPlayer' took 4 ms (total: 101 ms)
+[2024.10.27-04.12.23:665][918]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.10.27-04.12.23:665][918]PIE: New page: PIE session: TestingPlayer (26 de out de 2024 22:12:23)
+[2024.10.27-04.12.23:689][918]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TestingPlayer
+[2024.10.27-04.12.23:694][918]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005167s)
+[2024.10.27-04.12.23:694][918]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TestingPlayer.TestingPlayer to /Game/Levels/UEDPIE_0_TestingPlayer.TestingPlayer (0.005220s)
+[2024.10.27-04.12.23:708][918]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2024.10.27-04.12.23:712][918]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.27-04.12.23:712][918]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.27-04.12.23:713][918]LogAIModule: Creating AISystem for world TestingPlayer
+[2024.10.27-04.12.23:713][918]LogWorldPartition: ULevel::OnLevelLoaded(TestingPlayer)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.10.27-04.12.23:713][918]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.10.27-04.12.23:713][918]LogWorldPartition: UWorldPartition::Initialize : World = TestingPlayer, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.10.27-04.12.23:713][918]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.10.27-04.12.23:715][918]LogContentBundle: [TestingPlayer(Standalone)] Creating new contrainer.
+[2024.10.27-04.12.23:715][918]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 1.98 sec)
+[2024.10.27-04.12.23:715][918]LogPlayLevel: PIE: World Init took: (0.002520s)
+[2024.10.27-04.12.23:715][918]LogAudio: Display: Creating Audio Device:                 Id: 25, Scope: Unique, Realtime: True
+[2024.10.27-04.12.23:715][918]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.10.27-04.12.23:715][918]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.10.27-04.12.23:715][918]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.10.27-04.12.23:715][918]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.10.27-04.12.23:715][918]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.10.27-04.12.23:715][918]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.10.27-04.12.23:715][918]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.10.27-04.12.23:715][918]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.10.27-04.12.23:715][918]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.10.27-04.12.23:715][918]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.10.27-04.12.23:715][918]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.10.27-04.12.23:717][918]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.10.27-04.12.23:751][918]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (USB Audio Device)
+[2024.10.27-04.12.23:752][918]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.10.27-04.12.23:752][918]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.10.27-04.12.23:752][918]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.10.27-04.12.23:752][918]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=25
+[2024.10.27-04.12.23:752][918]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=25
+[2024.10.27-04.12.23:755][918]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=25
+[2024.10.27-04.12.23:755][918]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=25
+[2024.10.27-04.12.23:755][918]LogInit: FAudioDevice initialized with ID 25.
+[2024.10.27-04.12.23:755][918]LogAudio: Display: Audio Device (ID: 25) registered with world 'TestingPlayer'.
+[2024.10.27-04.12.23:755][918]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 25
+[2024.10.27-04.12.23:757][918]LogLoad: Game class is 'MyGameGamemode_C'
+[2024.10.27-04.12.23:759][918]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TestingPlayer.TestingPlayer up for play (max tick rate 0) at 2024.10.27-01.12.23
+[2024.10.27-04.12.23:759][918]LogWorld: Bringing up level for play took: 0.000634
+[2024.10.27-04.12.23:761][918]LogOnline: OSS: Created online subsystem instance for: :Context_26
+[2024.10.27-04.12.23:762][918]LogWorldPartition: UWorldPartitionStreamingPolicy: CellsToActivate(41), CellsToLoad(0), CellsToUnload(0)
+[2024.10.27-04.12.23:762][918]LogWorldPartition: UWorldPartitionStreamingPolicy: Sources[0] = X=-10311.239 Y=-6681.237 Z=92.000,P=0.000000 Y=0.000000 R=-0.000000
+[2024.10.27-04.12.23:766][918]LogStreaming: Display: FlushAsyncLoading(): 76 QueuedPackages, 0 AsyncPackages
+[2024.10.27-04.12.24:031][918]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.10.27-04.12.24:031][918]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.10.27-04.12.24:031][918]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.10.27-04.12.24:033][918]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.10.27-04.12.24:033][918]PIE: Server logged in
+[2024.10.27-04.12.24:034][918]PIE: Play in editor total start time 0,374 seconds.
+[2024.10.27-04.12.25:933][104]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] 
+[2024.10.27-04.12.25:933][104]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] 0.0
+[2024.10.27-04.12.26:239][137]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] 
+[2024.10.27-04.12.26:544][171]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] 
+[2024.10.27-04.12.26:850][205]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] 
+[2024.10.27-04.12.27:015][222]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] 10.0
+[2024.10.27-04.12.27:151][237]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] 
+[2024.10.27-04.12.27:398][264]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] 20.0
+[2024.10.27-04.12.27:455][270]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] 
+[2024.10.27-04.12.27:762][304]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] 
+[2024.10.27-04.12.27:917][320]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] 10.0
+[2024.10.27-04.12.28:071][334]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] 
+[2024.10.27-04.12.28:257][353]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] 0.0
+[2024.10.27-04.12.28:376][366]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] 
+[2024.10.27-04.12.28:686][401]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] 
+[2024.10.27-04.12.28:716][404]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] -10.0
+[2024.10.27-04.12.28:992][434]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] 
+[2024.10.27-04.12.29:297][468]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] 
+[2024.10.27-04.12.29:404][480]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] 0.0
+[2024.10.27-04.12.29:596][500]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] 10.0
+[2024.10.27-04.12.29:606][501]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] 
+[2024.10.27-04.12.29:772][520]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] 20.0
+[2024.10.27-04.12.29:906][535]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] 
+[2024.10.27-04.12.29:924][537]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] 30.0
+[2024.10.27-04.12.30:207][567]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] 
+[2024.10.27-04.12.30:510][600]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] 
+[2024.10.27-04.12.30:558][605]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] 40.0
+[2024.10.27-04.12.30:813][632]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] 
+[2024.10.27-04.12.31:131][663]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] 
+[2024.10.27-04.12.31:143][664]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] 45.0
+[2024.10.27-04.12.31:327][683]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] 50.0
+[2024.10.27-04.12.31:422][693]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] 
+[2024.10.27-04.12.31:494][701]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] 55.0
+[2024.10.27-04.12.31:727][727]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] 
+[2024.10.27-04.12.32:032][761]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] 
+[2024.10.27-04.12.32:112][770]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] 56.0
+[2024.10.27-04.12.32:283][790]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] 57.0
+[2024.10.27-04.12.32:336][796]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] 
+[2024.10.27-04.12.32:608][827]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] 56.0
+[2024.10.27-04.12.32:643][831]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] 
+[2024.10.27-04.12.32:816][851]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] 55.0
+[2024.10.27-04.12.32:945][866]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] 
+[2024.10.27-04.12.33:006][873]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] 54.0
+[2024.10.27-04.12.33:160][891]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] 53.0
+[2024.10.27-04.12.33:248][901]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] 
+[2024.10.27-04.12.33:325][910]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] 52.0
+[2024.10.27-04.12.33:484][928]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] 51.0
+[2024.10.27-04.12.33:558][936]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] 
+[2024.10.27-04.12.33:857][971]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] 
+[2024.10.27-04.12.33:973][984]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] 50.0
+[2024.10.27-04.12.34:160][  6]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] 
+[2024.10.27-04.12.34:171][  7]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] 49.0
+[2024.10.27-04.12.34:384][ 32]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] 48.0
+[2024.10.27-04.12.34:461][ 41]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] 
+[2024.10.27-04.12.34:524][ 48]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] 47.0
+[2024.10.27-04.12.34:763][ 74]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] 
+[2024.10.27-04.12.35:070][108]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] 
+[2024.10.27-04.12.35:342][139]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] 47.01
+[2024.10.27-04.12.35:375][143]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] 
+[2024.10.27-04.12.35:614][170]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] 47.02
+[2024.10.27-04.12.35:678][177]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] 
+[2024.10.27-04.12.35:783][189]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] 47.03
+[2024.10.27-04.12.35:928][206]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] 47.04
+[2024.10.27-04.12.35:980][212]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] 
+[2024.10.27-04.12.36:289][246]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] 
+[2024.10.27-04.12.36:457][265]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] 46.99
+[2024.10.27-04.12.36:590][280]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] 
+[2024.10.27-04.12.36:648][286]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] 46.94
+[2024.10.27-04.12.36:806][303]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] 46.89
+[2024.10.27-04.12.36:895][313]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] 
+[2024.10.27-04.12.36:955][320]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] 46.84
+[2024.10.27-04.12.37:199][347]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] 
+[2024.10.27-04.12.37:364][365]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] 46.94
+[2024.10.27-04.12.37:501][381]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] 
+[2024.10.27-04.12.37:544][386]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] 47.04
+[2024.10.27-04.12.37:712][406]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] 47.14
+[2024.10.27-04.12.37:808][417]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] 
+[2024.10.27-04.12.37:867][423]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] 47.24
+[2024.10.27-04.12.38:021][440]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] 47.34
+[2024.10.27-04.12.38:111][450]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] 
+[2024.10.27-04.12.38:172][457]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] 47.44
+[2024.10.27-04.12.38:322][474]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] 47.54
+[2024.10.27-04.12.38:413][484]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] 
+[2024.10.27-04.12.38:480][491]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] 47.64
+[2024.10.27-04.12.38:656][510]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] 47.74
+[2024.10.27-04.12.38:719][517]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] 
+[2024.10.27-04.12.38:808][527]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] 47.84
+[2024.10.27-04.12.39:027][548]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] 
+[2024.10.27-04.12.39:331][578]LogBlueprintUserMessages: [BP_Atm_C_UAID_C87F5454B60D072902_1870417026] 
+[2024.10.27-04.12.39:480][591]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.27-04.12.39:480][591]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TestingPlayer
+[2024.10.27-04.12.39:499][591]LogWorld: UWorld::CleanupWorld for TestingPlayer, bSessionEnded=true, bCleanupResources=true
+[2024.10.27-04.12.39:499][591]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.27-04.12.39:500][591]LogContentBundle: [TestingPlayer(Standalone)] Deleting container.
+[2024.10.27-04.12.39:504][591]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.10.27-04.12.39:509][591]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.27-04.12.39:535][591]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.27-04.12.39:536][591]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 25
+[2024.10.27-04.12.39:536][591]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=25
+[2024.10.27-04.12.39:537][591]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=25
+[2024.10.27-04.12.39:555][591]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2024.10.27-04.12.39:630][592]LogPlayLevel: Display: Destroying online subsystem :Context_26
