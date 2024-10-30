@@ -7327,3 +7327,414 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.10.30-12.24.24:903][859]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/UI_Assets/OptMenu/check_boxFill.check_boxFill
 [2024.10.30-12.24.24:903][859]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/UI_Assets/OptMenu/menu_asset__options_background.menu_asset__options_background
 [2024.10.30-12.24.24:903][859]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/UI_Assets/OptMenu/slide_barEmpty.slide_barEmpty
+[2024.10.30-12.28.33:221][840]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/UI_Assets/OptMenu/check_boxFill.check_boxFill
+[2024.10.30-12.28.33:278][840]LogViewport: Scene viewport resized to 1424x898, mode Windowed.
+[2024.10.30-12.28.35:163][ 59]LogInterchangeEngine: [Pending] Importing
+[2024.10.30-12.28.35:163][ 59]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/ra00339799/Downloads/check_boxFill.png]
+[2024.10.30-12.28.35:164][ 59]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background, due to setting PNGInfill == OnlyOnBinaryTransparency
+[2024.10.30-12.28.35:168][ 60]LogTexture: Display: Building textures: /Game/UI_Assets/OptMenu/check_boxFill.check_boxFill (BGRA8, 96x83 x1x1x1) (Required Memory Estimate: 0.295532 MB), EncodeSpeed: Final
+[2024.10.30-12.28.35:188][ 60]LogInterchangeEngine: [Success] Import Done
+[2024.10.30-12.28.35:190][ 60]LogInterchangeEngine: [Success] Import Done
+[2024.10.30-12.28.35:241][ 61]LogInterchangeEngine: [Success] Import Done
+[2024.10.30-12.28.39:895][555]BlueprintLog: New page: Compile WB_OptionsMenu
+[2024.10.30-12.28.39:921][555]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2024.10.30-12.28.40:962][675]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.10.30-12.28.40:967][675]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.10.30-12.28.40:967][675]PIE: New page: PIE session: MainMenu_lvl (30 de out de 2024 06:28:40)
+[2024.10.30-12.28.40:967][675]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainMenu_lvl
+[2024.10.30-12.28.40:968][675]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000803s)
+[2024.10.30-12.28.40:968][675]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainMenu_lvl.MainMenu_lvl to /Game/Levels/UEDPIE_0_MainMenu_lvl.MainMenu_lvl (0.000830s)
+[2024.10.30-12.28.40:981][675]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2024.10.30-12.28.40:983][675]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.30-12.28.40:983][675]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.30-12.28.40:983][675]LogAIModule: Creating AISystem for world MainMenu_lvl
+[2024.10.30-12.28.40:983][675]LogPlayLevel: PIE: World Init took: (0.000847s)
+[2024.10.30-12.28.40:983][675]LogAudio: Display: Creating Audio Device:                 Id: 51, Scope: Unique, Realtime: True
+[2024.10.30-12.28.40:984][675]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.10.30-12.28.40:984][675]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.10.30-12.28.40:984][675]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.10.30-12.28.40:984][675]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.10.30-12.28.40:984][675]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.10.30-12.28.40:984][675]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.10.30-12.28.40:984][675]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.10.30-12.28.40:984][675]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.10.30-12.28.40:984][675]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.10.30-12.28.40:984][675]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.10.30-12.28.40:984][675]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.10.30-12.28.40:986][675]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.10.30-12.28.41:009][675]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (Realtek(R) Audio)
+[2024.10.30-12.28.41:009][675]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.10.30-12.28.41:009][675]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.10.30-12.28.41:009][675]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.10.30-12.28.41:009][675]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=51
+[2024.10.30-12.28.41:009][675]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=51
+[2024.10.30-12.28.41:010][675]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=51
+[2024.10.30-12.28.41:010][675]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=51
+[2024.10.30-12.28.41:010][675]LogInit: FAudioDevice initialized with ID 51.
+[2024.10.30-12.28.41:010][675]LogAudio: Display: Audio Device (ID: 51) registered with world 'MainMenu_lvl'.
+[2024.10.30-12.28.41:010][675]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 51
+[2024.10.30-12.28.41:065][675]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.30-12.28.41:065][675]LogLoad: Game class is 'GameModeBase'
+[2024.10.30-12.28.41:065][675]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainMenu_lvl.MainMenu_lvl up for play (max tick rate 0) at 2024.10.30-09.28.41
+[2024.10.30-12.28.41:066][675]LogWorld: Bringing up level for play took: 0.000528
+[2024.10.30-12.28.41:068][675]LogOnline: OSS: Created online subsystem instance for: :Context_65
+[2024.10.30-12.28.41:069][675]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2024.10.30-12.28.41:071][675]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.10.30-12.28.41:071][675]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2024.10.30-12.28.41:072][675]PIE: Server logged in
+[2024.10.30-12.28.41:072][675]PIE: Play in editor total start time 0,106 seconds.
+[2024.10.30-12.28.41:077][675]LogViewport: Scene viewport resized to 1914x1000, mode Windowed.
+[2024.10.30-12.28.53:347][ 26]LogNet: Browse: /Game/Levels/MainMenu_lvl
+[2024.10.30-12.28.53:347][ 26]LogLoad: LoadMap: /Game/Levels/MainMenu_lvl
+[2024.10.30-12.28.53:347][ 26]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_MainMenu_lvl
+[2024.10.30-12.28.53:347][ 26]LogWorld: UWorld::CleanupWorld for MainMenu_lvl, bSessionEnded=true, bCleanupResources=true
+[2024.10.30-12.28.53:347][ 26]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.30-12.28.53:359][ 26]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.10.30-12.28.53:382][ 26]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2024.10.30-12.28.53:383][ 26]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainMenu_lvl
+[2024.10.30-12.28.53:384][ 26]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000809s)
+[2024.10.30-12.28.53:384][ 26]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainMenu_lvl.MainMenu_lvl to /Game/Levels/UEDPIE_0_MainMenu_lvl.MainMenu_lvl (0.000845s)
+[2024.10.30-12.28.53:384][ 26]LogAudio: Display: Audio Device (ID: 51) registered with world 'MainMenu_lvl'.
+[2024.10.30-12.28.53:384][ 26]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.30-12.28.53:384][ 26]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.30-12.28.53:384][ 26]LogAIModule: Creating AISystem for world MainMenu_lvl
+[2024.10.30-12.28.53:384][ 26]LogPlayLevel: PIE: World Init took: (0.000656s)
+[2024.10.30-12.28.53:384][ 26]LogLoad: Game class is 'GameModeBase'
+[2024.10.30-12.28.53:384][ 26]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainMenu_lvl.MainMenu_lvl up for play (max tick rate 0) at 2024.10.30-09.28.53
+[2024.10.30-12.28.53:385][ 26]LogWorld: Bringing up level for play took: 0.000209
+[2024.10.30-12.28.53:385][ 26]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2024.10.30-12.28.53:386][ 26]LogLoad: Took 0.039221 seconds to LoadMap(/Game/Levels/UEDPIE_0_MainMenu_lvl)
+[2024.10.30-12.28.54:253][ 52]Cmd: quit
+[2024.10.30-12.28.54:254][ 52]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.30-12.28.54:254][ 52]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_MainMenu_lvl
+[2024.10.30-12.28.54:254][ 52]LogSlate: Window 'Arcade Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2024.10.30-12.28.54:292][ 52]LogWorld: UWorld::CleanupWorld for MainMenu_lvl, bSessionEnded=true, bCleanupResources=true
+[2024.10.30-12.28.54:292][ 52]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.30-12.28.54:294][ 52]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.10.30-12.28.54:297][ 52]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.30-12.28.54:309][ 52]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 51
+[2024.10.30-12.28.54:309][ 52]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=51
+[2024.10.30-12.28.54:311][ 52]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=51
+[2024.10.30-12.28.54:317][ 52]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2024.10.30-12.28.54:362][ 57]LogPlayLevel: Display: Destroying online subsystem :Context_65
+[2024.10.30-12.30.30:525][591]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2024.10.30-12.30.30:527][591]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/MainMenu_lvl' took 0.015
+[2024.10.30-12.30.30:527][591]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Widgets/WB_OptionsMenu] ([2] browsable assets)...
+[2024.10.30-12.30.30:532][591]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Widgets/WB_OptionsMenu.WB_OptionsMenu]
+[2024.10.30-12.30.30:532][591]OBJ SavePackage: Finished generating thumbnails for package [/Game/Widgets/WB_OptionsMenu]
+[2024.10.30-12.30.30:539][591]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Widgets/WB_OptionsMenu_Auto8
+[2024.10.30-12.30.30:539][591]LogSavePackage: Moving '../../../../../../Users/ra00339799/Documents/Unreal Projects/ArcadeSimulator/Arcade/Saved/WB_OptionsMenu_Auto81374E6E0454DE9E4C81D2FB966767F77.tmp' to '../../../../../../Users/ra00339799/Documents/Unreal Projects/ArcadeSimulator/Arcade/Saved/Autosaves/Game/Widgets/WB_OptionsMenu_Auto8.uasset'
+[2024.10.30-12.30.30:540][591]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/UI_Assets/OptMenu/check_boxFill] ([1] browsable assets)...
+[2024.10.30-12.30.30:542][591]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/UI_Assets/OptMenu/check_boxFill.check_boxFill]
+[2024.10.30-12.30.30:542][591]OBJ SavePackage: Finished generating thumbnails for package [/Game/UI_Assets/OptMenu/check_boxFill]
+[2024.10.30-12.30.30:543][591]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/UI_Assets/OptMenu/check_boxFill_Auto8
+[2024.10.30-12.30.30:543][591]LogSavePackage: Moving '../../../../../../Users/ra00339799/Documents/Unreal Projects/ArcadeSimulator/Arcade/Saved/check_boxFill_Auto85E6E061143E2ED62D7C9EFAD664B46EC.tmp' to '../../../../../../Users/ra00339799/Documents/Unreal Projects/ArcadeSimulator/Arcade/Saved/Autosaves/Game/UI_Assets/OptMenu/check_boxFill_Auto8.uasset'
+[2024.10.30-12.30.30:544][591]LogFileHelpers: Auto-saving content packages took 0.017
+[2024.10.30-12.34.09:034][637]LogInterchangeEngine: [Pending] Importing
+[2024.10.30-12.34.09:034][637]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/ra00339799/Downloads/arrowL.png]
+[2024.10.30-12.34.09:035][637]LogInterchangeEngine: [Pending] Importing -  (2)
+[2024.10.30-12.34.09:035][637]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/ra00339799/Downloads/arrowR.png]
+[2024.10.30-12.34.09:037][637]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background, due to setting PNGInfill == OnlyOnBinaryTransparency
+[2024.10.30-12.34.09:037][637]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background, due to setting PNGInfill == OnlyOnBinaryTransparency
+[2024.10.30-12.34.09:043][637]LogAutomationController: Ignoring very large delta of 2.36 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.10.30-12.34.09:045][638]LogTexture: Display: Building textures: /Game/UI_Assets/OptMenu/arrowL.arrowL (BGRA8, 96x83 x1x1x1) (Required Memory Estimate: 0.295532 MB), EncodeSpeed: Fast
+[2024.10.30-12.34.09:047][638]LogTexture: Display: Building textures: /Game/UI_Assets/OptMenu/arrowR.arrowR (BGRA8, 96x83 x1x1x1) (Required Memory Estimate: 0.295532 MB), EncodeSpeed: Fast
+[2024.10.30-12.34.09:054][638]LogInterchangeEngine: [Pending] Importing -  (1)
+[2024.10.30-12.34.09:054][638]LogInterchangeEngine: [Success] Import Done
+[2024.10.30-12.34.09:061][638]LogInterchangeEngine: [Success] Import Done
+[2024.10.30-12.34.09:105][639]LogInterchangeEngine: [Success] Import Done
+[2024.10.30-12.34.11:126][788]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/UI_Assets/OptMenu/arrowL.arrowL
+[2024.10.30-12.34.11:191][788]LogViewport: Scene viewport resized to 1424x898, mode Windowed.
+[2024.10.30-12.34.16:548][237]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/UI_Assets/OptMenu/arrowR.arrowR
+[2024.10.30-12.34.16:613][237]LogViewport: Scene viewport resized to 1424x898, mode Windowed.
+[2024.10.30-12.35.04:253][790]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.10.30-12.35.04:258][790]BlueprintLog: New page: Pre-Play auto-recompile
+[2024.10.30-12.35.04:259][790]LogPlayLevel: [PlayLevel] Compiling WB_OptionsMenu before play...
+[2024.10.30-12.35.04:318][790]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.30-12.35.04:362][790]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/WB_OptionsMenu" FILE="../../../../../../Users/ra00339799/Documents/Unreal Projects/ArcadeSimulator/Arcade/Content/Widgets/WB_OptionsMenu.uasset" SILENT=true
+[2024.10.30-12.35.04:369][790]LogSavePackage: Moving output files for package: /Game/Widgets/WB_OptionsMenu
+[2024.10.30-12.35.04:369][790]LogSavePackage: Moving '../../../../../../Users/ra00339799/Documents/Unreal Projects/ArcadeSimulator/Arcade/Saved/WB_OptionsMenu86D0FAE74B52B3EC83B9D8B3A460CD12.tmp' to '../../../../../../Users/ra00339799/Documents/Unreal Projects/ArcadeSimulator/Arcade/Content/Widgets/WB_OptionsMenu.uasset'
+[2024.10.30-12.35.04:373][790]LogFileHelpers: InternalPromptForCheckoutAndSave took 55 ms (total: 3.91 sec)
+[2024.10.30-12.35.04:383][790]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2024.10.30-12.35.04:386][790]LogPlayLevel: PlayLevel: Blueprint regeneration took 127 ms (1 blueprints)
+[2024.10.30-12.35.04:386][790]PIE: New page: PIE session: MainMenu_lvl (30 de out de 2024 06:35:04)
+[2024.10.30-12.35.04:386][790]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainMenu_lvl
+[2024.10.30-12.35.04:387][790]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000876s)
+[2024.10.30-12.35.04:387][790]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainMenu_lvl.MainMenu_lvl to /Game/Levels/UEDPIE_0_MainMenu_lvl.MainMenu_lvl (0.000905s)
+[2024.10.30-12.35.04:395][790]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2024.10.30-12.35.04:396][790]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.30-12.35.04:396][790]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.30-12.35.04:396][790]LogAIModule: Creating AISystem for world MainMenu_lvl
+[2024.10.30-12.35.04:397][790]LogPlayLevel: PIE: World Init took: (0.000837s)
+[2024.10.30-12.35.04:397][790]LogAudio: Display: Creating Audio Device:                 Id: 52, Scope: Unique, Realtime: True
+[2024.10.30-12.35.04:397][790]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.10.30-12.35.04:397][790]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.10.30-12.35.04:397][790]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.10.30-12.35.04:397][790]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.10.30-12.35.04:397][790]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.10.30-12.35.04:397][790]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.10.30-12.35.04:397][790]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.10.30-12.35.04:397][790]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.10.30-12.35.04:397][790]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.10.30-12.35.04:397][790]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.10.30-12.35.04:397][790]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.10.30-12.35.04:399][790]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.10.30-12.35.04:423][790]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (Realtek(R) Audio)
+[2024.10.30-12.35.04:423][790]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.10.30-12.35.04:423][790]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.10.30-12.35.04:423][790]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.10.30-12.35.04:424][790]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=52
+[2024.10.30-12.35.04:424][790]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=52
+[2024.10.30-12.35.04:425][790]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=52
+[2024.10.30-12.35.04:425][790]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=52
+[2024.10.30-12.35.04:425][790]LogInit: FAudioDevice initialized with ID 52.
+[2024.10.30-12.35.04:425][790]LogAudio: Display: Audio Device (ID: 52) registered with world 'MainMenu_lvl'.
+[2024.10.30-12.35.04:425][790]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 52
+[2024.10.30-12.35.04:478][790]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.30-12.35.04:478][790]LogLoad: Game class is 'GameModeBase'
+[2024.10.30-12.35.04:478][790]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainMenu_lvl.MainMenu_lvl up for play (max tick rate 0) at 2024.10.30-09.35.04
+[2024.10.30-12.35.04:478][790]LogWorld: Bringing up level for play took: 0.000293
+[2024.10.30-12.35.04:480][790]LogOnline: OSS: Created online subsystem instance for: :Context_66
+[2024.10.30-12.35.04:480][790]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2024.10.30-12.35.04:481][790]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.10.30-12.35.04:481][790]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2024.10.30-12.35.04:483][790]PIE: Server logged in
+[2024.10.30-12.35.04:484][790]PIE: Play in editor total start time 0,226 seconds.
+[2024.10.30-12.35.04:523][790]LogViewport: Scene viewport resized to 1914x1000, mode Windowed.
+[2024.10.30-12.35.04:534][791]AssetCheck: New page: Asset Save: WB_OptionsMenu
+[2024.10.30-12.35.04:534][791]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/WB_OptionsMenu.WB_OptionsMenu
+[2024.10.30-12.35.08:900][913]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.30-12.35.08:900][913]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_MainMenu_lvl
+[2024.10.30-12.35.08:900][913]LogSlate: Window 'Arcade Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2024.10.30-12.35.08:904][913]LogWorld: UWorld::CleanupWorld for MainMenu_lvl, bSessionEnded=true, bCleanupResources=true
+[2024.10.30-12.35.08:904][913]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.30-12.35.08:906][913]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.10.30-12.35.08:909][913]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.30-12.35.08:917][913]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 52
+[2024.10.30-12.35.08:917][913]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=52
+[2024.10.30-12.35.08:918][913]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=52
+[2024.10.30-12.35.08:925][913]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2024.10.30-12.35.08:968][917]LogPlayLevel: Display: Destroying online subsystem :Context_66
+[2024.10.30-12.35.29:488][347]LogDerivedDataCache: C:/Users/ra00339799/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:01.053 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 1045 files in 1801 folders with total size 83 MiB.
+[2024.10.30-12.35.34:448][921]LogEditorTransaction: Undo Edit Size Rule
+[2024.10.30-12.35.34:827][927]LogEditorTransaction: Undo Edit Size Rule
+[2024.10.30-12.35.35:344][969]LogEditorTransaction: Undo Edit Size Rule
+[2024.10.30-12.35.55:494][322]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.10.30-12.35.55:499][322]BlueprintLog: New page: Pre-Play auto-recompile
+[2024.10.30-12.35.55:500][322]LogPlayLevel: [PlayLevel] Compiling WB_OptionsMenu before play...
+[2024.10.30-12.35.55:558][322]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.30-12.35.55:612][322]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/WB_OptionsMenu" FILE="../../../../../../Users/ra00339799/Documents/Unreal Projects/ArcadeSimulator/Arcade/Content/Widgets/WB_OptionsMenu.uasset" SILENT=true
+[2024.10.30-12.35.55:619][322]LogSavePackage: Moving output files for package: /Game/Widgets/WB_OptionsMenu
+[2024.10.30-12.35.55:620][322]LogSavePackage: Moving '../../../../../../Users/ra00339799/Documents/Unreal Projects/ArcadeSimulator/Arcade/Saved/WB_OptionsMenuA9A98FD54DB26FC85C6D5C99944A3CB1.tmp' to '../../../../../../Users/ra00339799/Documents/Unreal Projects/ArcadeSimulator/Arcade/Content/Widgets/WB_OptionsMenu.uasset'
+[2024.10.30-12.35.55:625][322]LogFileHelpers: InternalPromptForCheckoutAndSave took 66 ms (total: 3.97 sec)
+[2024.10.30-12.35.55:634][322]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2024.10.30-12.35.55:635][322]LogPlayLevel: PlayLevel: Blueprint regeneration took 136 ms (1 blueprints)
+[2024.10.30-12.35.55:636][322]PIE: New page: PIE session: MainMenu_lvl (30 de out de 2024 06:35:55)
+[2024.10.30-12.35.55:636][322]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainMenu_lvl
+[2024.10.30-12.35.55:637][322]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000817s)
+[2024.10.30-12.35.55:637][322]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainMenu_lvl.MainMenu_lvl to /Game/Levels/UEDPIE_0_MainMenu_lvl.MainMenu_lvl (0.000856s)
+[2024.10.30-12.35.55:645][322]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2024.10.30-12.35.55:646][322]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.30-12.35.55:646][322]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.30-12.35.55:646][322]LogAIModule: Creating AISystem for world MainMenu_lvl
+[2024.10.30-12.35.55:646][322]LogPlayLevel: PIE: World Init took: (0.000732s)
+[2024.10.30-12.35.55:646][322]LogAudio: Display: Creating Audio Device:                 Id: 53, Scope: Unique, Realtime: True
+[2024.10.30-12.35.55:646][322]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.10.30-12.35.55:646][322]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.10.30-12.35.55:646][322]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.10.30-12.35.55:646][322]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.10.30-12.35.55:646][322]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.10.30-12.35.55:646][322]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.10.30-12.35.55:646][322]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.10.30-12.35.55:646][322]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.10.30-12.35.55:647][322]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.10.30-12.35.55:647][322]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.10.30-12.35.55:647][322]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.10.30-12.35.55:648][322]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.10.30-12.35.55:672][322]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (Realtek(R) Audio)
+[2024.10.30-12.35.55:673][322]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.10.30-12.35.55:673][322]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.10.30-12.35.55:673][322]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.10.30-12.35.55:673][322]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=53
+[2024.10.30-12.35.55:673][322]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=53
+[2024.10.30-12.35.55:675][322]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=53
+[2024.10.30-12.35.55:675][322]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=53
+[2024.10.30-12.35.55:675][322]LogInit: FAudioDevice initialized with ID 53.
+[2024.10.30-12.35.55:675][322]LogAudio: Display: Audio Device (ID: 53) registered with world 'MainMenu_lvl'.
+[2024.10.30-12.35.55:675][322]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 53
+[2024.10.30-12.35.55:726][322]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.30-12.35.55:726][322]LogLoad: Game class is 'GameModeBase'
+[2024.10.30-12.35.55:727][322]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainMenu_lvl.MainMenu_lvl up for play (max tick rate 0) at 2024.10.30-09.35.55
+[2024.10.30-12.35.55:727][322]LogWorld: Bringing up level for play took: 0.000383
+[2024.10.30-12.35.55:729][322]LogOnline: OSS: Created online subsystem instance for: :Context_67
+[2024.10.30-12.35.55:729][322]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2024.10.30-12.35.55:730][322]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.10.30-12.35.55:730][322]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2024.10.30-12.35.55:732][322]PIE: Server logged in
+[2024.10.30-12.35.55:733][322]PIE: Play in editor total start time 0,234 seconds.
+[2024.10.30-12.35.55:776][322]LogViewport: Scene viewport resized to 1914x1000, mode Windowed.
+[2024.10.30-12.35.55:787][323]AssetCheck: New page: Asset Save: WB_OptionsMenu
+[2024.10.30-12.35.55:787][323]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/WB_OptionsMenu.WB_OptionsMenu
+[2024.10.30-12.36.47:841][ 24]LogNet: Browse: /Game/Levels/MainMenu_lvl
+[2024.10.30-12.36.47:841][ 24]LogLoad: LoadMap: /Game/Levels/MainMenu_lvl
+[2024.10.30-12.36.47:841][ 24]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_MainMenu_lvl
+[2024.10.30-12.36.47:841][ 24]LogWorld: UWorld::CleanupWorld for MainMenu_lvl, bSessionEnded=true, bCleanupResources=true
+[2024.10.30-12.36.47:841][ 24]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.30-12.36.47:853][ 24]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.10.30-12.36.47:876][ 24]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2024.10.30-12.36.47:877][ 24]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainMenu_lvl
+[2024.10.30-12.36.47:878][ 24]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000823s)
+[2024.10.30-12.36.47:878][ 24]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainMenu_lvl.MainMenu_lvl to /Game/Levels/UEDPIE_0_MainMenu_lvl.MainMenu_lvl (0.000858s)
+[2024.10.30-12.36.47:878][ 24]LogAudio: Display: Audio Device (ID: 53) registered with world 'MainMenu_lvl'.
+[2024.10.30-12.36.47:878][ 24]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.30-12.36.47:878][ 24]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.30-12.36.47:879][ 24]LogAIModule: Creating AISystem for world MainMenu_lvl
+[2024.10.30-12.36.47:879][ 24]LogPlayLevel: PIE: World Init took: (0.000631s)
+[2024.10.30-12.36.47:879][ 24]LogLoad: Game class is 'GameModeBase'
+[2024.10.30-12.36.47:879][ 24]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainMenu_lvl.MainMenu_lvl up for play (max tick rate 0) at 2024.10.30-09.36.47
+[2024.10.30-12.36.47:879][ 24]LogWorld: Bringing up level for play took: 0.000195
+[2024.10.30-12.36.47:879][ 24]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2024.10.30-12.36.47:880][ 24]LogLoad: Took 0.039545 seconds to LoadMap(/Game/Levels/UEDPIE_0_MainMenu_lvl)
+[2024.10.30-12.36.55:580][244]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.30-12.36.55:580][244]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_MainMenu_lvl
+[2024.10.30-12.36.55:581][244]LogSlate: Window 'Arcade Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2024.10.30-12.36.55:596][244]LogWorld: UWorld::CleanupWorld for MainMenu_lvl, bSessionEnded=true, bCleanupResources=true
+[2024.10.30-12.36.55:597][244]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.30-12.36.55:599][244]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.10.30-12.36.55:604][244]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.30-12.36.55:624][244]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 53
+[2024.10.30-12.36.55:624][244]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=53
+[2024.10.30-12.36.55:625][244]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=53
+[2024.10.30-12.36.55:632][244]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2024.10.30-12.36.55:886][245]LogPlayLevel: Display: Destroying online subsystem :Context_67
+[2024.10.30-12.37.48:787][136]BlueprintLog: New page: Compile WB_OptionsMenu
+[2024.10.30-12.37.48:808][136]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2024.10.30-12.37.48:885][136]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.30-12.37.48:926][136]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/WB_OptionsMenu" FILE="../../../../../../Users/ra00339799/Documents/Unreal Projects/ArcadeSimulator/Arcade/Content/Widgets/WB_OptionsMenu.uasset" SILENT=true
+[2024.10.30-12.37.48:933][136]LogSavePackage: Moving output files for package: /Game/Widgets/WB_OptionsMenu
+[2024.10.30-12.37.48:934][136]LogSavePackage: Moving '../../../../../../Users/ra00339799/Documents/Unreal Projects/ArcadeSimulator/Arcade/Saved/WB_OptionsMenu3FB4BA2140290806D3E64A9DC08305E9.tmp' to '../../../../../../Users/ra00339799/Documents/Unreal Projects/ArcadeSimulator/Arcade/Content/Widgets/WB_OptionsMenu.uasset'
+[2024.10.30-12.37.48:940][136]LogFileHelpers: InternalPromptForCheckoutAndSave took 55 ms (total: 4.03 sec)
+[2024.10.30-12.37.48:957][136]AssetCheck: New page: Asset Save: WB_OptionsMenu
+[2024.10.30-12.37.48:957][136]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/WB_OptionsMenu.WB_OptionsMenu
+[2024.10.30-12.37.49:837][234]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.30-12.37.49:892][234]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/WB_OptionsMenu" FILE="../../../../../../Users/ra00339799/Documents/Unreal Projects/ArcadeSimulator/Arcade/Content/Widgets/WB_OptionsMenu.uasset" SILENT=true
+[2024.10.30-12.37.49:902][234]LogSavePackage: Moving output files for package: /Game/Widgets/WB_OptionsMenu
+[2024.10.30-12.37.49:902][234]LogSavePackage: Moving '../../../../../../Users/ra00339799/Documents/Unreal Projects/ArcadeSimulator/Arcade/Saved/WB_OptionsMenu4B75300B4FB37A48A316318CDD407B4A.tmp' to '../../../../../../Users/ra00339799/Documents/Unreal Projects/ArcadeSimulator/Arcade/Content/Widgets/WB_OptionsMenu.uasset'
+[2024.10.30-12.37.49:908][234]LogFileHelpers: InternalPromptForCheckoutAndSave took 71 ms (total: 4.10 sec)
+[2024.10.30-12.37.49:908][234]AssetCheck: New page: Asset Save: WB_OptionsMenu
+[2024.10.30-12.37.49:908][234]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/WB_OptionsMenu.WB_OptionsMenu
+[2024.10.30-12.37.51:019][365]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2024.10.30-12.37.52:399][365]LogSlate: Window 'Save Content' being destroyed
+[2024.10.30-12.37.52:406][365]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.30-12.37.52:441][365]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI_Assets/OptMenu/arrowL" FILE="../../../../../../Users/ra00339799/Documents/Unreal Projects/ArcadeSimulator/Arcade/Content/UI_Assets/OptMenu/arrowL.uasset" SILENT=true
+[2024.10.30-12.37.52:443][365]LogSavePackage: Moving output files for package: /Game/UI_Assets/OptMenu/arrowL
+[2024.10.30-12.37.52:443][365]LogSavePackage: Moving '../../../../../../Users/ra00339799/Documents/Unreal Projects/ArcadeSimulator/Arcade/Saved/arrowL90267E4A45F6A3038F5BE6ACE206184F.tmp' to '../../../../../../Users/ra00339799/Documents/Unreal Projects/ArcadeSimulator/Arcade/Content/UI_Assets/OptMenu/arrowL.uasset'
+[2024.10.30-12.37.52:445][365]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI_Assets/OptMenu/arrowR" FILE="../../../../../../Users/ra00339799/Documents/Unreal Projects/ArcadeSimulator/Arcade/Content/UI_Assets/OptMenu/arrowR.uasset" SILENT=true
+[2024.10.30-12.37.52:447][365]LogSavePackage: Moving output files for package: /Game/UI_Assets/OptMenu/arrowR
+[2024.10.30-12.37.52:447][365]LogSavePackage: Moving '../../../../../../Users/ra00339799/Documents/Unreal Projects/ArcadeSimulator/Arcade/Saved/arrowR7B50FBA84FB751CFA8B516815CAA3BD3.tmp' to '../../../../../../Users/ra00339799/Documents/Unreal Projects/ArcadeSimulator/Arcade/Content/UI_Assets/OptMenu/arrowR.uasset'
+[2024.10.30-12.37.52:450][365]LogSavePackage: Moving output files for package: /Game/UI_Assets/OptMenu/check_boxFill
+[2024.10.30-12.37.52:450][365]LogSavePackage: Moving '../../../../../../Users/ra00339799/Documents/Unreal Projects/ArcadeSimulator/Arcade/Saved/check_boxFill6FCB692C40D08715E8B140B3B0F05265.tmp' to '../../../../../../Users/ra00339799/Documents/Unreal Projects/ArcadeSimulator/Arcade/Content/UI_Assets/OptMenu/check_boxFill.uasset'
+[2024.10.30-12.37.52:456][365]LogFileHelpers: InternalPromptForCheckoutAndSave took 50 ms (total: 4.15 sec)
+[2024.10.30-12.37.52:457][365]AssetCheck: New page: Asset Save: multiple assets
+[2024.10.30-12.37.52:457][365]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/UI_Assets/OptMenu/arrowL.arrowL
+[2024.10.30-12.37.52:457][365]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/UI_Assets/OptMenu/arrowR.arrowR
+[2024.10.30-12.37.52:457][365]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/UI_Assets/OptMenu/check_boxFill.check_boxFill
+[2024.10.30-12.38.25:171][199]LogSlate: Window 'Color Picker' being destroyed
+[2024.10.30-12.40.23:253][ 54]LogSlate: Window 'Color Picker' being destroyed
+[2024.10.30-12.40.29:887][821]LogSlate: Window 'Color Picker' being destroyed
+[2024.10.30-12.42.01:652][626]BlueprintLog: New page: Compile WB_OptionsMenu
+[2024.10.30-12.42.01:673][626]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2024.10.30-12.42.01:750][626]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.30-12.42.01:793][626]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/WB_OptionsMenu" FILE="../../../../../../Users/ra00339799/Documents/Unreal Projects/ArcadeSimulator/Arcade/Content/Widgets/WB_OptionsMenu.uasset" SILENT=true
+[2024.10.30-12.42.01:800][626]LogSavePackage: Moving output files for package: /Game/Widgets/WB_OptionsMenu
+[2024.10.30-12.42.01:800][626]LogSavePackage: Moving '../../../../../../Users/ra00339799/Documents/Unreal Projects/ArcadeSimulator/Arcade/Saved/WB_OptionsMenu64709C884D207A0A54A5278AD001695B.tmp' to '../../../../../../Users/ra00339799/Documents/Unreal Projects/ArcadeSimulator/Arcade/Content/Widgets/WB_OptionsMenu.uasset'
+[2024.10.30-12.42.01:806][626]LogFileHelpers: InternalPromptForCheckoutAndSave took 55 ms (total: 4.21 sec)
+[2024.10.30-12.42.01:823][626]AssetCheck: New page: Asset Save: WB_OptionsMenu
+[2024.10.30-12.42.01:823][626]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/WB_OptionsMenu.WB_OptionsMenu
+[2024.10.30-12.42.07:535][296]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.10.30-12.42.07:540][296]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.10.30-12.42.07:540][296]PIE: New page: PIE session: MainMenu_lvl (30 de out de 2024 06:42:07)
+[2024.10.30-12.42.07:540][296]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainMenu_lvl
+[2024.10.30-12.42.07:541][296]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000828s)
+[2024.10.30-12.42.07:541][296]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainMenu_lvl.MainMenu_lvl to /Game/Levels/UEDPIE_0_MainMenu_lvl.MainMenu_lvl (0.000856s)
+[2024.10.30-12.42.07:553][296]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2024.10.30-12.42.07:556][296]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.30-12.42.07:556][296]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.30-12.42.07:557][296]LogAIModule: Creating AISystem for world MainMenu_lvl
+[2024.10.30-12.42.07:557][296]LogPlayLevel: PIE: World Init took: (0.000825s)
+[2024.10.30-12.42.07:557][296]LogAudio: Display: Creating Audio Device:                 Id: 54, Scope: Unique, Realtime: True
+[2024.10.30-12.42.07:557][296]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.10.30-12.42.07:557][296]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.10.30-12.42.07:557][296]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.10.30-12.42.07:557][296]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.10.30-12.42.07:557][296]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.10.30-12.42.07:557][296]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.10.30-12.42.07:557][296]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.10.30-12.42.07:557][296]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.10.30-12.42.07:557][296]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.10.30-12.42.07:558][296]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.10.30-12.42.07:558][296]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.10.30-12.42.07:559][296]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.10.30-12.42.07:583][296]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (Realtek(R) Audio)
+[2024.10.30-12.42.07:583][296]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.10.30-12.42.07:583][296]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.10.30-12.42.07:583][296]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.10.30-12.42.07:584][296]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=54
+[2024.10.30-12.42.07:584][296]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=54
+[2024.10.30-12.42.07:585][296]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=54
+[2024.10.30-12.42.07:585][296]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=54
+[2024.10.30-12.42.07:585][296]LogInit: FAudioDevice initialized with ID 54.
+[2024.10.30-12.42.07:585][296]LogAudio: Display: Audio Device (ID: 54) registered with world 'MainMenu_lvl'.
+[2024.10.30-12.42.07:585][296]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 54
+[2024.10.30-12.42.07:642][296]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.30-12.42.07:642][296]LogLoad: Game class is 'GameModeBase'
+[2024.10.30-12.42.07:643][296]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainMenu_lvl.MainMenu_lvl up for play (max tick rate 0) at 2024.10.30-09.42.07
+[2024.10.30-12.42.07:643][296]LogWorld: Bringing up level for play took: 0.000332
+[2024.10.30-12.42.07:645][296]LogOnline: OSS: Created online subsystem instance for: :Context_68
+[2024.10.30-12.42.07:645][296]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2024.10.30-12.42.07:646][296]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.10.30-12.42.07:646][296]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2024.10.30-12.42.07:647][296]PIE: Server logged in
+[2024.10.30-12.42.07:649][296]PIE: Play in editor total start time 0,109 seconds.
+[2024.10.30-12.42.07:655][296]LogViewport: Scene viewport resized to 1914x1000, mode Windowed.
+[2024.10.30-12.42.19:756][639]LogNet: Browse: /Game/Levels/MainMenu_lvl
+[2024.10.30-12.42.19:756][639]LogLoad: LoadMap: /Game/Levels/MainMenu_lvl
+[2024.10.30-12.42.19:756][639]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_MainMenu_lvl
+[2024.10.30-12.42.19:756][639]LogWorld: UWorld::CleanupWorld for MainMenu_lvl, bSessionEnded=true, bCleanupResources=true
+[2024.10.30-12.42.19:756][639]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.30-12.42.19:767][639]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.10.30-12.42.19:791][639]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2024.10.30-12.42.19:792][639]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainMenu_lvl
+[2024.10.30-12.42.19:793][639]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000762s)
+[2024.10.30-12.42.19:793][639]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainMenu_lvl.MainMenu_lvl to /Game/Levels/UEDPIE_0_MainMenu_lvl.MainMenu_lvl (0.000796s)
+[2024.10.30-12.42.19:793][639]LogAudio: Display: Audio Device (ID: 54) registered with world 'MainMenu_lvl'.
+[2024.10.30-12.42.19:793][639]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.30-12.42.19:793][639]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.30-12.42.19:794][639]LogAIModule: Creating AISystem for world MainMenu_lvl
+[2024.10.30-12.42.19:794][639]LogPlayLevel: PIE: World Init took: (0.000646s)
+[2024.10.30-12.42.19:794][639]LogLoad: Game class is 'GameModeBase'
+[2024.10.30-12.42.19:794][639]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainMenu_lvl.MainMenu_lvl up for play (max tick rate 0) at 2024.10.30-09.42.19
+[2024.10.30-12.42.19:794][639]LogWorld: Bringing up level for play took: 0.000190
+[2024.10.30-12.42.19:794][639]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2024.10.30-12.42.19:795][639]LogLoad: Took 0.039453 seconds to LoadMap(/Game/Levels/UEDPIE_0_MainMenu_lvl)
+[2024.10.30-12.42.20:611][663]Cmd: quit
+[2024.10.30-12.42.20:611][663]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.30-12.42.20:611][663]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_MainMenu_lvl
+[2024.10.30-12.42.20:611][663]LogSlate: Window 'Arcade Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2024.10.30-12.42.20:652][663]LogWorld: UWorld::CleanupWorld for MainMenu_lvl, bSessionEnded=true, bCleanupResources=true
+[2024.10.30-12.42.20:652][663]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.30-12.42.20:654][663]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.10.30-12.42.20:657][663]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.30-12.42.20:668][663]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.10.30-12.42.20:668][663]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 54
+[2024.10.30-12.42.20:668][663]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=54
+[2024.10.30-12.42.20:670][663]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=54
+[2024.10.30-12.42.20:676][663]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2024.10.30-12.42.20:715][667]LogPlayLevel: Display: Destroying online subsystem :Context_68
+[2024.10.30-12.42.22:311][857]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.30-12.42.22:342][857]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/WB_OptionsMenu" FILE="../../../../../../Users/ra00339799/Documents/Unreal Projects/ArcadeSimulator/Arcade/Content/Widgets/WB_OptionsMenu.uasset" SILENT=true
+[2024.10.30-12.42.22:349][857]LogSavePackage: Moving output files for package: /Game/Widgets/WB_OptionsMenu
+[2024.10.30-12.42.22:350][857]LogSavePackage: Moving '../../../../../../Users/ra00339799/Documents/Unreal Projects/ArcadeSimulator/Arcade/Saved/WB_OptionsMenu547329CA4B9728017C82D1B38F3EB2B9.tmp' to '../../../../../../Users/ra00339799/Documents/Unreal Projects/ArcadeSimulator/Arcade/Content/Widgets/WB_OptionsMenu.uasset'
+[2024.10.30-12.42.22:354][857]LogFileHelpers: InternalPromptForCheckoutAndSave took 43 ms (total: 4.25 sec)
+[2024.10.30-12.42.22:355][857]AssetCheck: New page: Asset Save: WB_OptionsMenu
+[2024.10.30-12.42.22:355][857]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/WB_OptionsMenu.WB_OptionsMenu
