@@ -4033,3 +4033,387 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2024.10.31-12.43.47:645][355]LogEOSSDK: Warning: LogEOS: Failed to connect to the backend. ServiceName=[SDKConfig], OperationName=[GetPlatformConfigRoute], Url=[<Redacted>]
 [2024.10.31-12.43.47:979][356]LogEOSSDK: Warning: LogEOS: SDK Config Platform Update Request Failed, Result Code: EOS_NoConnection, Retrying after 14.320017 seconds
 [2024.10.31-12.43.48:645][358]LogEOSSDK: Warning: LogEOSAnalytics: Unable to get the client auth token. Last result: EOS_NoConnection.
+[2024.10.31-12.44.01:985][398]LogEOSSDK: LogEOS: Updating Platform SDK Config, Time: 2395.115723
+[2024.10.31-12.44.07:318][414]LogEOSSDK: Warning: LogHttp: 00000A7A3E1CBA00: invalid HTTP response code received. URL: https://api.epicgames.dev/telemetry/data/datarouter/api/v1/public/data?SessionID=%7B4BB0EDB8-40A2-C95F-10B0-E79DFF126077%7D&AppID=EOSSDK.PhaseRelease.ReleaseBuild&AppVersion=1.16.1-27379709%20-%20%2B%2BEOSSDK%2BRelease-1.16.1-new-CL-27379709&UserID=&AppEnvironment=Production&UploadType=sdkevents, HTTP code: 0, content length: 0, actual payload size: 0
+[2024.10.31-12.44.07:319][414]LogEOSSDK: Warning: LogHttp: 00000A7A3E1CBA00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2024.10.31-12.44.07:319][414]LogEOSSDK: Warning: LogHttp: 00000A7A3E1CBA00: libcurl info message cache 0 (Found bundle for host api.epicgames.dev: 0xa79b4080c30 [serially])
+[2024.10.31-12.44.07:319][414]LogEOSSDK: Warning: LogHttp: 00000A7A3E1CBA00: libcurl info message cache 1 (Could not resolve host: api.epicgames.dev)
+[2024.10.31-12.44.07:319][414]LogEOSSDK: Warning: LogHttp: 00000A7A3E1CBA00: libcurl info message cache 2 (Closing connection 259)
+[2024.10.31-12.44.07:652][415]LogHttp: Warning: 00000A7A46C95F00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2024.10.31-12.44.07:652][415]LogHttp: Warning: 00000A7A46C95F00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2024.10.31-12.44.07:652][415]LogHttp: Warning: 00000A7A46C95F00: libcurl info message cache 1 (Closing connection)
+[2024.10.31-12.44.07:652][415]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/telemetry/data/datarouter/api/v1/public/data?SessionID=%7B4BB0EDB8-40A2-C95F-10B0-E79DFF126077%7D&AppID=EOSSDK.PhaseRelease.ReleaseBuild&AppVersion=1.16.1-27379709%20-%20%2B%2BEOSSDK%2BRelease-1.16.1-new-CL-27379709&UserID=&AppEnvironment=Production&UploadType=sdkevents
+[2024.10.31-12.44.07:652][415]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B7C6A0B0B-43AB-0298-6835-048055DD5A0D%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=095611734d5fed83e7246ea81acb1b51%7C348509588dfa4f30974adfae8fb2b35f%7Ce178c3fa-3ba8-48d3-9903-e3e775231f60&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.10.31-12.44.14:652][436]LogEOSSDK: Warning: LogHttp: 00000A7A3E1CA200: invalid HTTP response code received. URL: https://api.epicgames.dev/sdk/v1/default?platformId=WIN, HTTP code: 0, content length: 0, actual payload size: 0
+[2024.10.31-12.44.14:652][436]LogEOSSDK: Warning: LogHttp: 00000A7A3E1CA200: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2024.10.31-12.44.14:652][436]LogEOSSDK: Warning: LogHttp: 00000A7A3E1CA200: libcurl info message cache 0 (Could not resolve host: api.epicgames.dev)
+[2024.10.31-12.44.14:652][436]LogEOSSDK: Warning: LogHttp: 00000A7A3E1CA200: libcurl info message cache 1 (Closing connection 258)
+[2024.10.31-12.44.14:652][436]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/sdk/v1/default?platformId=WIN
+[2024.10.31-12.44.14:652][436]LogEOSSDK: Warning: LogEOS: Failed to connect to the backend. ServiceName=[SDKConfig], OperationName=[GetPlatformConfigRoute], Url=[<Redacted>]
+[2024.10.31-12.44.14:985][437]LogEOSSDK: Warning: LogEOS: SDK Config Platform Update Request Failed, Result Code: EOS_NoConnection, Retrying after 3.738945 seconds
+[2024.10.31-12.44.18:652][448]LogEOSSDK: LogEOS: Updating Platform SDK Config, Time: 2411.782471
+[2024.10.31-12.44.19:319][450]LogEOSSDK: Warning: LogHttp: 00000A7A3E1CC600: invalid HTTP response code received. URL: https://api.epicgames.dev/sdk/v1/default?platformId=WIN, HTTP code: 0, content length: 0, actual payload size: 0
+[2024.10.31-12.44.19:319][450]LogEOSSDK: Warning: LogHttp: 00000A7A3E1CC600: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2024.10.31-12.44.19:319][450]LogEOSSDK: Warning: LogHttp: 00000A7A3E1CC600: libcurl info message cache 0 (Could not resolve host: api.epicgames.dev)
+[2024.10.31-12.44.19:319][450]LogEOSSDK: Warning: LogHttp: 00000A7A3E1CC600: libcurl info message cache 1 (Closing connection 260)
+[2024.10.31-12.44.19:320][450]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/sdk/v1/default?platformId=WIN
+[2024.10.31-12.44.19:320][450]LogEOSSDK: Warning: LogEOS: Failed to connect to the backend. ServiceName=[SDKConfig], OperationName=[GetPlatformConfigRoute], Url=[<Redacted>]
+[2024.10.31-12.44.19:653][451]LogEOSSDK: Warning: LogEOS: SDK Config Platform Update Request Failed, Result Code: EOS_NoConnection, Retrying after 7.906003 seconds
+[2024.10.31-12.44.27:320][474]LogEOSSDK: LogEOS: Updating Platform SDK Config, Time: 2420.450195
+[2024.10.31-12.44.39:990][512]LogEOSSDK: Warning: LogHttp: 00000A7A3E1CBA00: invalid HTTP response code received. URL: https://api.epicgames.dev/sdk/v1/default?platformId=WIN, HTTP code: 0, content length: 0, actual payload size: 0
+[2024.10.31-12.44.39:990][512]LogEOSSDK: Warning: LogHttp: 00000A7A3E1CBA00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2024.10.31-12.44.39:990][512]LogEOSSDK: Warning: LogHttp: 00000A7A3E1CBA00: libcurl info message cache 0 (Could not resolve host: api.epicgames.dev)
+[2024.10.31-12.44.39:990][512]LogEOSSDK: Warning: LogHttp: 00000A7A3E1CBA00: libcurl info message cache 1 (Closing connection 261)
+[2024.10.31-12.44.39:990][512]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/sdk/v1/default?platformId=WIN
+[2024.10.31-12.44.39:990][512]LogEOSSDK: Warning: LogEOS: Failed to connect to the backend. ServiceName=[SDKConfig], OperationName=[GetPlatformConfigRoute], Url=[<Redacted>]
+[2024.10.31-12.44.40:323][513]LogEOSSDK: Warning: LogEOS: SDK Config Platform Update Request Failed, Result Code: EOS_NoConnection, Retrying after 9.650929 seconds
+[2024.10.31-12.44.40:991][515]LogEOSSDK: Warning: LogEOSAnalytics: Unable to get the client auth token. Last result: EOS_NoConnection.
+[2024.10.31-12.44.49:657][541]LogEOSSDK: LogEOS: Updating Platform SDK Config, Time: 2442.786621
+[2024.10.31-12.44.50:324][543]LogEOSSDK: Warning: LogHttp: 00000A7A3E1CA200: invalid HTTP response code received. URL: https://api.epicgames.dev/sdk/v1/default?platformId=WIN, HTTP code: 0, content length: 0, actual payload size: 0
+[2024.10.31-12.44.50:324][543]LogEOSSDK: Warning: LogHttp: 00000A7A3E1CA200: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2024.10.31-12.44.50:324][543]LogEOSSDK: Warning: LogHttp: 00000A7A3E1CA200: libcurl info message cache 0 (Could not resolve host: api.epicgames.dev)
+[2024.10.31-12.44.50:325][543]LogEOSSDK: Warning: LogHttp: 00000A7A3E1CA200: libcurl info message cache 1 (Closing connection 262)
+[2024.10.31-12.44.50:325][543]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/sdk/v1/default?platformId=WIN
+[2024.10.31-12.44.50:325][543]LogEOSSDK: Warning: LogEOS: Failed to connect to the backend. ServiceName=[SDKConfig], OperationName=[GetPlatformConfigRoute], Url=[<Redacted>]
+[2024.10.31-12.44.50:657][544]LogEOSSDK: Warning: LogEOS: SDK Config Platform Update Request Failed, Result Code: EOS_NoConnection, Retrying after 2.894436 seconds
+[2024.10.31-12.44.53:323][552]LogEOSSDK: LogEOS: Updating Platform SDK Config, Time: 2446.453125
+[2024.10.31-12.44.53:991][554]LogEOSSDK: Warning: LogHttp: 00000A7A3E1CC600: invalid HTTP response code received. URL: https://api.epicgames.dev/sdk/v1/default?platformId=WIN, HTTP code: 0, content length: 0, actual payload size: 0
+[2024.10.31-12.44.53:991][554]LogEOSSDK: Warning: LogHttp: 00000A7A3E1CC600: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2024.10.31-12.44.53:991][554]LogEOSSDK: Warning: LogHttp: 00000A7A3E1CC600: libcurl info message cache 0 (Could not resolve host: api.epicgames.dev)
+[2024.10.31-12.44.53:991][554]LogEOSSDK: Warning: LogHttp: 00000A7A3E1CC600: libcurl info message cache 1 (Closing connection 263)
+[2024.10.31-12.44.53:991][554]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/sdk/v1/default?platformId=WIN
+[2024.10.31-12.44.53:991][554]LogEOSSDK: Warning: LogEOS: Failed to connect to the backend. ServiceName=[SDKConfig], OperationName=[GetPlatformConfigRoute], Url=[<Redacted>]
+[2024.10.31-12.44.54:325][555]LogEOSSDK: Warning: LogEOS: SDK Config Platform Update Request Failed, Result Code: EOS_NoConnection, Retrying after 5.824397 seconds
+[2024.10.31-12.44.58:520][635]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.10.31-12.44.58:531][635]LogContentBundle: [TestingPlayer(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.10.31-12.44.58:531][635]LogWorldPartition: Display: GenerateStreaming for 'TestingPlayer' started...
+[2024.10.31-12.44.58:535][635]LogWorldPartition: Display: GenerateStreaming for 'TestingPlayer' took 4 ms (total: 13 ms)
+[2024.10.31-12.44.58:535][635]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.10.31-12.44.58:536][635]PIE: New page: PIE session: TestingPlayer (31 de out de 2024 06:44:58)
+[2024.10.31-12.44.58:536][635]LogPlayLevel: Display: Creating online subsystem for client :Context_6
+[2024.10.31-12.44.58:537][635]LogOnline: OSS: Created online subsystem instance for: :Context_6
+[2024.10.31-12.44.58:548][636]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TestingPlayer
+[2024.10.31-12.44.58:554][636]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006219s)
+[2024.10.31-12.44.58:554][636]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TestingPlayer.TestingPlayer to /Game/Levels/UEDPIE_0_TestingPlayer.TestingPlayer (0.006267s)
+[2024.10.31-12.44.58:574][636]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2024.10.31-12.44.58:578][636]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.31-12.44.58:578][636]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.31-12.44.58:579][636]LogAIModule: Creating AISystem for world TestingPlayer
+[2024.10.31-12.44.58:579][636]LogWorldPartition: ULevel::OnLevelLoaded(TestingPlayer)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.10.31-12.44.58:579][636]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.10.31-12.44.58:579][636]LogWorldPartition: UWorldPartition::Initialize : World = TestingPlayer, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.10.31-12.44.58:579][636]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.10.31-12.44.58:580][636]LogContentBundle: [TestingPlayer(Standalone)] Creating new contrainer.
+[2024.10.31-12.44.58:580][636]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 2.10 sec)
+[2024.10.31-12.44.58:580][636]LogPlayLevel: PIE: World Init took: (0.002785s)
+[2024.10.31-12.44.58:580][636]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2024.10.31-12.44.58:580][636]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.10.31-12.44.58:580][636]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.10.31-12.44.58:580][636]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.10.31-12.44.58:580][636]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.10.31-12.44.58:580][636]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.10.31-12.44.58:580][636]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.10.31-12.44.58:581][636]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.10.31-12.44.58:581][636]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.10.31-12.44.58:581][636]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.10.31-12.44.58:581][636]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.10.31-12.44.58:581][636]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.10.31-12.44.58:583][636]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.10.31-12.44.58:596][636]LogAudioMixer: Display: Using Audio Hardware Device Speakers/Headphones (Realtek(R) Audio)
+[2024.10.31-12.44.58:596][636]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.10.31-12.44.58:596][636]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.10.31-12.44.58:596][636]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.10.31-12.44.58:597][636]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2024.10.31-12.44.58:597][636]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2024.10.31-12.44.58:599][636]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2024.10.31-12.44.58:599][636]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2024.10.31-12.44.58:599][636]LogInit: FAudioDevice initialized with ID 4.
+[2024.10.31-12.44.58:599][636]LogAudio: Display: Audio Device (ID: 4) registered with world 'TestingPlayer'.
+[2024.10.31-12.44.58:599][636]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 4
+[2024.10.31-12.44.58:677][636]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.31-12.44.58:677][636]LogLoad: Game class is 'MyGameGamemode_C'
+[2024.10.31-12.44.58:678][636]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TestingPlayer.TestingPlayer up for play (max tick rate 60) at 2024.10.31-09.44.58
+[2024.10.31-12.44.58:678][636]LogWorld: Bringing up level for play took: 0.000644
+[2024.10.31-12.44.58:679][636]LogWorldPartition: UWorldPartitionStreamingPolicy: CellsToActivate(41), CellsToLoad(0), CellsToUnload(0)
+[2024.10.31-12.44.58:679][636]LogWorldPartition: UWorldPartitionStreamingPolicy: Sources[0] = X=-11940.435 Y=-6681.237 Z=92.000,P=0.000000 Y=0.000000 R=-0.000000
+[2024.10.31-12.44.58:682][636]LogStreaming: Display: FlushAsyncLoading(): 85 QueuedPackages, 0 AsyncPackages
+[2024.10.31-12.44.59:011][636]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.10.31-12.44.59:011][636]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.10.31-12.44.59:011][636]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.10.31-12.44.59:015][636]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.10.31-12.44.59:021][636]PIE: Server logged in
+[2024.10.31-12.44.59:025][636]PIE: Play in editor total start time 0,493 seconds.
+[2024.10.31-12.44.59:049][636]LogViewport: Scene viewport resized to 1912x970, mode Windowed.
+[2024.10.31-12.44.59:824][678]LogEOSSDK: LogEOS: Updating Platform SDK Config, Time: 2452.954590
+[2024.10.31-12.44.59:876][681]LogEOSSDK: Warning: LogHttp: 00000A7A4F15D800: invalid HTTP response code received. URL: https://api.epicgames.dev/sdk/v1/default?platformId=WIN, HTTP code: 0, content length: 0, actual payload size: 0
+[2024.10.31-12.44.59:876][681]LogEOSSDK: Warning: LogHttp: 00000A7A4F15D800: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2024.10.31-12.44.59:876][681]LogEOSSDK: Warning: LogHttp: 00000A7A4F15D800: libcurl info message cache 0 (Could not resolve host: api.epicgames.dev)
+[2024.10.31-12.44.59:876][681]LogEOSSDK: Warning: LogHttp: 00000A7A4F15D800: libcurl info message cache 1 (Closing connection 264)
+[2024.10.31-12.44.59:876][681]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/sdk/v1/default?platformId=WIN
+[2024.10.31-12.44.59:876][681]LogEOSSDK: Warning: LogEOS: Failed to connect to the backend. ServiceName=[SDKConfig], OperationName=[GetPlatformConfigRoute], Url=[<Redacted>]
+[2024.10.31-12.44.59:893][682]LogEOSSDK: Warning: LogEOS: SDK Config Platform Update Request Failed, Result Code: EOS_NoConnection, Retrying after 10.033265 seconds
+[2024.10.31-12.45.00:454][714]LogWindows: WindowsPlatformFeatures enabled
+[2024.10.31-12.45.00:456][714]LogBlueprintUserMessages: [BP_Player_C_0] New Save
+[2024.10.31-12.45.01:662][784]LogBlueprintUserMessages: [BP_Player_C_0] Loaded Save
+[2024.10.31-12.45.03:859][911]LogBlueprintUserMessages: [BP_Player_C_0] Loaded Save
+[2024.10.31-12.45.08:856][203]LogBlueprintUserMessages: [BP_Player_C_0] Loaded Save
+[2024.10.31-12.45.09:923][266]LogEOSSDK: LogEOS: Updating Platform SDK Config, Time: 2463.055664
+[2024.10.31-12.45.11:984][351]LogBlueprintUserMessages: [BP_Player_C_0] Game Saved
+[2024.10.31-12.45.13:066][377]LogStreaming: Display: UWorld::AddToWorld: updating components for /Memory/UEDPIE_0_BDGMGSQP17O8UEYY77HJETZ8U took (less than) 39.49 ms
+[2024.10.31-12.45.15:088][450]LogBlueprintUserMessages: [BP_Player_C_0] Game Saved
+[2024.10.31-12.45.17:401][584]LogBlueprintUserMessages: [BP_Player_C_0] Game Saved
+[2024.10.31-12.45.17:577][590]LogBlueprintUserMessages: [BP_Player_C_0] Game Saved
+[2024.10.31-12.45.17:742][593]LogBlueprintUserMessages: [BP_Player_C_0] Game Saved
+[2024.10.31-12.45.17:872][596]LogBlueprintUserMessages: [BP_Player_C_0] Game Saved
+[2024.10.31-12.45.18:951][621]LogEOSSDK: Warning: LogHttp: 00000A7A4F15C600: invalid HTTP response code received. URL: https://api.epicgames.dev/telemetry/data/datarouter/api/v1/public/data?SessionID=%7B4BB0EDB8-40A2-C95F-10B0-E79DFF126077%7D&AppID=EOSSDK.PhaseRelease.ReleaseBuild&AppVersion=1.16.1-27379709%20-%20%2B%2BEOSSDK%2BRelease-1.16.1-new-CL-27379709&UserID=&AppEnvironment=Production&UploadType=sdkevents, HTTP code: 0, content length: 0, actual payload size: 0
+[2024.10.31-12.45.18:951][621]LogEOSSDK: Warning: LogHttp: 00000A7A4F15C600: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2024.10.31-12.45.18:951][621]LogEOSSDK: Warning: LogHttp: 00000A7A4F15C600: libcurl info message cache 0 (Could not resolve host: api.epicgames.dev)
+[2024.10.31-12.45.18:951][621]LogEOSSDK: Warning: LogHttp: 00000A7A4F15C600: libcurl info message cache 1 (Closing connection 265)
+[2024.10.31-12.45.18:951][621]LogEOSSDK: Warning: LogHttp: 00000A7A4F15B400: invalid HTTP response code received. URL: https://api.epicgames.dev/sdk/v1/default?platformId=WIN, HTTP code: 0, content length: 0, actual payload size: 0
+[2024.10.31-12.45.18:951][621]LogEOSSDK: Warning: LogHttp: 00000A7A4F15B400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2024.10.31-12.45.18:951][621]LogEOSSDK: Warning: LogHttp: 00000A7A4F15B400: libcurl info message cache 0 (Found bundle for host api.epicgames.dev: 0xa79b4080690 [serially])
+[2024.10.31-12.45.18:951][621]LogEOSSDK: Warning: LogHttp: 00000A7A4F15B400: libcurl info message cache 1 (Could not resolve host: api.epicgames.dev)
+[2024.10.31-12.45.18:951][621]LogEOSSDK: Warning: LogHttp: 00000A7A4F15B400: libcurl info message cache 2 (Closing connection 266)
+[2024.10.31-12.45.18:951][621]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/telemetry/data/datarouter/api/v1/public/data?SessionID=%7B4BB0EDB8-40A2-C95F-10B0-E79DFF126077%7D&AppID=EOSSDK.PhaseRelease.ReleaseBuild&AppVersion=1.16.1-27379709%20-%20%2B%2BEOSSDK%2BRelease-1.16.1-new-CL-27379709&UserID=&AppEnvironment=Production&UploadType=sdkevents
+[2024.10.31-12.45.18:951][621]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/sdk/v1/default?platformId=WIN
+[2024.10.31-12.45.18:951][621]LogEOSSDK: Warning: LogEOS: Failed to connect to the backend. ServiceName=[SDKConfig], OperationName=[GetPlatformConfigRoute], Url=[<Redacted>]
+[2024.10.31-12.45.18:995][622]LogEOSSDK: Warning: LogEOS: SDK Config Platform Update Request Failed, Result Code: EOS_NoConnection, Retrying after 3.186743 seconds
+[2024.10.31-12.45.19:399][631]LogHttp: Warning: 00000A7A52863700: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2024.10.31-12.45.19:399][631]LogHttp: Warning: 00000A7A52863700: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2024.10.31-12.45.19:399][631]LogHttp: Warning: 00000A7A52863700: libcurl info message cache 1 (Closing connection)
+[2024.10.31-12.45.19:399][631]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B7C6A0B0B-43AB-0298-6835-048055DD5A0D%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=095611734d5fed83e7246ea81acb1b51%7C348509588dfa4f30974adfae8fb2b35f%7Ce178c3fa-3ba8-48d3-9903-e3e775231f60&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.10.31-12.45.19:843][641]LogBlueprintUserMessages: [BP_Player_C_0] Game Loaded
+[2024.10.31-12.45.22:145][719]LogEOSSDK: LogEOS: Updating Platform SDK Config, Time: 2475.274658
+[2024.10.31-12.45.22:195][722]LogEOSSDK: Warning: LogHttp: 00000A7A4F15A800: invalid HTTP response code received. URL: https://api.epicgames.dev/sdk/v1/default?platformId=WIN, HTTP code: 0, content length: 0, actual payload size: 0
+[2024.10.31-12.45.22:195][722]LogEOSSDK: Warning: LogHttp: 00000A7A4F15A800: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2024.10.31-12.45.22:195][722]LogEOSSDK: Warning: LogHttp: 00000A7A4F15A800: libcurl info message cache 0 (Could not resolve host: api.epicgames.dev)
+[2024.10.31-12.45.22:195][722]LogEOSSDK: Warning: LogHttp: 00000A7A4F15A800: libcurl info message cache 1 (Closing connection 267)
+[2024.10.31-12.45.22:195][722]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/sdk/v1/default?platformId=WIN
+[2024.10.31-12.45.22:195][722]LogEOSSDK: Warning: LogEOS: Failed to connect to the backend. ServiceName=[SDKConfig], OperationName=[GetPlatformConfigRoute], Url=[<Redacted>]
+[2024.10.31-12.45.22:212][723]LogEOSSDK: Warning: LogEOS: SDK Config Platform Update Request Failed, Result Code: EOS_NoConnection, Retrying after 7.818720 seconds
+[2024.10.31-12.45.22:382][733]LogBlueprintUserMessages: [BP_Player_C_0] Game Loaded
+[2024.10.31-12.45.23:621][786]LogBlueprintUserMessages: [BP_Player_C_0] Game Loaded
+[2024.10.31-12.45.26:865][877]LogBlueprintUserMessages: [BP_Player_C_0] Game Loaded
+[2024.10.31-12.45.28:080][908]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.31-12.45.28:080][908]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TestingPlayer
+[2024.10.31-12.45.28:081][908]LogSlate: Window 'Arcade Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2024.10.31-12.45.28:107][908]LogWorld: UWorld::CleanupWorld for TestingPlayer, bSessionEnded=true, bCleanupResources=true
+[2024.10.31-12.45.28:108][908]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.31-12.45.28:108][908]LogContentBundle: [TestingPlayer(Standalone)] Deleting container.
+[2024.10.31-12.45.28:110][908]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.10.31-12.45.28:116][908]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.31-12.45.28:134][908]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.10.31-12.45.28:140][908]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 4
+[2024.10.31-12.45.28:140][908]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2024.10.31-12.45.28:142][908]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2024.10.31-12.45.28:163][908]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
+[2024.10.31-12.45.28:190][909]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2024.10.31-12.45.30:022][ 19]LogEOSSDK: LogEOS: Updating Platform SDK Config, Time: 2483.154297
+[2024.10.31-12.45.42:099][743]LogEOSSDK: Warning: LogHttp: 00000A7A4F15EA00: invalid HTTP response code received. URL: https://api.epicgames.dev/sdk/v1/default?platformId=WIN, HTTP code: 0, content length: 0, actual payload size: 0
+[2024.10.31-12.45.42:099][743]LogEOSSDK: Warning: LogHttp: 00000A7A4F15EA00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2024.10.31-12.45.42:099][743]LogEOSSDK: Warning: LogHttp: 00000A7A4F15EA00: libcurl info message cache 0 (Could not resolve host: api.epicgames.dev)
+[2024.10.31-12.45.42:099][743]LogEOSSDK: Warning: LogHttp: 00000A7A4F15EA00: libcurl info message cache 1 (Closing connection 268)
+[2024.10.31-12.45.42:099][743]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/sdk/v1/default?platformId=WIN
+[2024.10.31-12.45.42:099][743]LogEOSSDK: Warning: LogEOS: Failed to connect to the backend. ServiceName=[SDKConfig], OperationName=[GetPlatformConfigRoute], Url=[<Redacted>]
+[2024.10.31-12.45.42:115][744]LogEOSSDK: Warning: LogEOS: SDK Config Platform Update Request Failed, Result Code: EOS_NoConnection, Retrying after 15.542467 seconds
+[2024.10.31-12.45.42:148][746]LogEOSSDK: Warning: LogEOSAnalytics: Unable to get the client auth token. Last result: EOS_NoConnection.
+[2024.10.31-12.45.57:648][671]LogEOSSDK: LogEOS: Updating Platform SDK Config, Time: 2510.781006
+[2024.10.31-12.46.05:946][116]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.10.31-12.46.05:956][116]LogContentBundle: [TestingPlayer(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.10.31-12.46.05:956][116]LogWorldPartition: Display: GenerateStreaming for 'TestingPlayer' started...
+[2024.10.31-12.46.05:961][116]LogWorldPartition: Display: GenerateStreaming for 'TestingPlayer' took 4 ms (total: 18 ms)
+[2024.10.31-12.46.05:961][116]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.10.31-12.46.05:961][116]PIE: New page: PIE session: TestingPlayer (31 de out de 2024 06:46:05)
+[2024.10.31-12.46.05:961][116]LogPlayLevel: Display: Creating online subsystem for client :Context_7
+[2024.10.31-12.46.05:964][116]LogOnline: OSS: Created online subsystem instance for: :Context_7
+[2024.10.31-12.46.05:997][117]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TestingPlayer
+[2024.10.31-12.46.06:003][117]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005426s)
+[2024.10.31-12.46.06:003][117]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TestingPlayer.TestingPlayer to /Game/Levels/UEDPIE_0_TestingPlayer.TestingPlayer (0.005470s)
+[2024.10.31-12.46.06:019][117]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2024.10.31-12.46.06:021][117]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.31-12.46.06:021][117]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.31-12.46.06:021][117]LogAIModule: Creating AISystem for world TestingPlayer
+[2024.10.31-12.46.06:022][117]LogWorldPartition: ULevel::OnLevelLoaded(TestingPlayer)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.10.31-12.46.06:022][117]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.10.31-12.46.06:022][117]LogWorldPartition: UWorldPartition::Initialize : World = TestingPlayer, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.10.31-12.46.06:022][117]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.10.31-12.46.06:023][117]LogContentBundle: [TestingPlayer(Standalone)] Creating new contrainer.
+[2024.10.31-12.46.06:023][117]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 2.10 sec)
+[2024.10.31-12.46.06:023][117]LogPlayLevel: PIE: World Init took: (0.002733s)
+[2024.10.31-12.46.06:023][117]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2024.10.31-12.46.06:023][117]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.10.31-12.46.06:023][117]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.10.31-12.46.06:023][117]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.10.31-12.46.06:023][117]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.10.31-12.46.06:023][117]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.10.31-12.46.06:023][117]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.10.31-12.46.06:023][117]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.10.31-12.46.06:023][117]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.10.31-12.46.06:024][117]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.10.31-12.46.06:024][117]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.10.31-12.46.06:024][117]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.10.31-12.46.06:026][117]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.10.31-12.46.06:040][117]LogAudioMixer: Display: Using Audio Hardware Device Speakers/Headphones (Realtek(R) Audio)
+[2024.10.31-12.46.06:040][117]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.10.31-12.46.06:040][117]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.10.31-12.46.06:040][117]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.10.31-12.46.06:041][117]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2024.10.31-12.46.06:041][117]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=5
+[2024.10.31-12.46.06:043][117]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2024.10.31-12.46.06:043][117]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2024.10.31-12.46.06:043][117]LogInit: FAudioDevice initialized with ID 5.
+[2024.10.31-12.46.06:043][117]LogAudio: Display: Audio Device (ID: 5) registered with world 'TestingPlayer'.
+[2024.10.31-12.46.06:043][117]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 5
+[2024.10.31-12.46.06:066][117]LogLoad: Game class is 'MyGameGamemode_C'
+[2024.10.31-12.46.06:066][117]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TestingPlayer.TestingPlayer up for play (max tick rate 60) at 2024.10.31-09.46.06
+[2024.10.31-12.46.06:067][117]LogWorld: Bringing up level for play took: 0.000544
+[2024.10.31-12.46.06:067][117]LogWorldPartition: UWorldPartitionStreamingPolicy: CellsToActivate(41), CellsToLoad(0), CellsToUnload(0)
+[2024.10.31-12.46.06:067][117]LogWorldPartition: UWorldPartitionStreamingPolicy: Sources[0] = X=-11940.435 Y=-6681.237 Z=92.000,P=0.000000 Y=0.000000 R=-0.000000
+[2024.10.31-12.46.06:070][117]LogStreaming: Display: FlushAsyncLoading(): 85 QueuedPackages, 0 AsyncPackages
+[2024.10.31-12.46.06:426][117]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.10.31-12.46.06:426][117]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.10.31-12.46.06:426][117]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.10.31-12.46.06:429][117]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.10.31-12.46.06:429][117]PIE: Server logged in
+[2024.10.31-12.46.06:430][117]PIE: Play in editor total start time 0,474 seconds.
+[2024.10.31-12.46.06:929][126]LogEOSSDK: Warning: LogHttp: 00000A7A52EDA200: invalid HTTP response code received. URL: https://api.epicgames.dev/telemetry/data/datarouter/api/v1/public/data?SessionID=%7B4BB0EDB8-40A2-C95F-10B0-E79DFF126077%7D&AppID=EOSSDK.PhaseRelease.ReleaseBuild&AppVersion=1.16.1-27379709%20-%20%2B%2BEOSSDK%2BRelease-1.16.1-new-CL-27379709&UserID=&AppEnvironment=Production&UploadType=sdkevents, HTTP code: 0, content length: 0, actual payload size: 0
+[2024.10.31-12.46.06:929][126]LogEOSSDK: Warning: LogHttp: 00000A7A52EDA200: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2024.10.31-12.46.06:929][126]LogEOSSDK: Warning: LogHttp: 00000A7A52EDA200: libcurl info message cache 0 (Found bundle for host api.epicgames.dev: 0xa79b40807b0 [serially])
+[2024.10.31-12.46.06:929][126]LogEOSSDK: Warning: LogHttp: 00000A7A52EDA200: libcurl info message cache 1 (Could not resolve host: api.epicgames.dev)
+[2024.10.31-12.46.06:929][126]LogEOSSDK: Warning: LogHttp: 00000A7A52EDA200: libcurl info message cache 2 (Closing connection 270)
+[2024.10.31-12.46.06:975][127]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/telemetry/data/datarouter/api/v1/public/data?SessionID=%7B4BB0EDB8-40A2-C95F-10B0-E79DFF126077%7D&AppID=EOSSDK.PhaseRelease.ReleaseBuild&AppVersion=1.16.1-27379709%20-%20%2B%2BEOSSDK%2BRelease-1.16.1-new-CL-27379709&UserID=&AppEnvironment=Production&UploadType=sdkevents
+[2024.10.31-12.46.07:366][135]LogHttp: Warning: 00000A7A52EEDC00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2024.10.31-12.46.07:366][135]LogHttp: Warning: 00000A7A52EEDC00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2024.10.31-12.46.07:366][135]LogHttp: Warning: 00000A7A52EEDC00: libcurl info message cache 1 (Closing connection)
+[2024.10.31-12.46.07:366][135]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B7C6A0B0B-43AB-0298-6835-048055DD5A0D%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=095611734d5fed83e7246ea81acb1b51%7C348509588dfa4f30974adfae8fb2b35f%7Ce178c3fa-3ba8-48d3-9903-e3e775231f60&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.10.31-12.46.09:367][178]LogBlueprintUserMessages: [BP_Player_C_0] Loaded Save
+[2024.10.31-12.46.09:549][180]LogStreaming: Display: UWorld::AddToWorld: updating components for /Memory/UEDPIE_0_BDGMGSQP17O8UEYY77HJETZ8U took (less than) 84.21 ms
+[2024.10.31-12.46.09:760][186]LogEOSSDK: Warning: LogHttp: 00000A7A4F158A00: invalid HTTP response code received. URL: https://api.epicgames.dev/sdk/v1/default?platformId=WIN, HTTP code: 0, content length: 0, actual payload size: 0
+[2024.10.31-12.46.09:761][186]LogEOSSDK: Warning: LogHttp: 00000A7A4F158A00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2024.10.31-12.46.09:761][186]LogEOSSDK: Warning: LogHttp: 00000A7A4F158A00: libcurl info message cache 0 (Could not resolve host: api.epicgames.dev)
+[2024.10.31-12.46.09:761][186]LogEOSSDK: Warning: LogHttp: 00000A7A4F158A00: libcurl info message cache 1 (Closing connection 269)
+[2024.10.31-12.46.09:761][186]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/sdk/v1/default?platformId=WIN
+[2024.10.31-12.46.09:761][186]LogEOSSDK: Warning: LogEOS: Failed to connect to the backend. ServiceName=[SDKConfig], OperationName=[GetPlatformConfigRoute], Url=[<Redacted>]
+[2024.10.31-12.46.09:811][187]LogEOSSDK: Warning: LogEOS: SDK Config Platform Update Request Failed, Result Code: EOS_NoConnection, Retrying after 2.400525 seconds
+[2024.10.31-12.46.10:571][202]LogBlueprintUserMessages: [BP_Player_C_0] Loaded Save
+[2024.10.31-12.46.12:174][234]LogEOSSDK: LogEOS: Updating Platform SDK Config, Time: 2525.308105
+[2024.10.31-12.46.12:272][236]LogEOSSDK: Warning: LogHttp: 00000A7A52EDA800: invalid HTTP response code received. URL: https://api.epicgames.dev/sdk/v1/default?platformId=WIN, HTTP code: 0, content length: 0, actual payload size: 0
+[2024.10.31-12.46.12:272][236]LogEOSSDK: Warning: LogHttp: 00000A7A52EDA800: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2024.10.31-12.46.12:272][236]LogEOSSDK: Warning: LogHttp: 00000A7A52EDA800: libcurl info message cache 0 (Could not resolve host: api.epicgames.dev)
+[2024.10.31-12.46.12:272][236]LogEOSSDK: Warning: LogHttp: 00000A7A52EDA800: libcurl info message cache 1 (Closing connection 271)
+[2024.10.31-12.46.12:272][236]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/sdk/v1/default?platformId=WIN
+[2024.10.31-12.46.12:272][236]LogEOSSDK: Warning: LogEOS: Failed to connect to the backend. ServiceName=[SDKConfig], OperationName=[GetPlatformConfigRoute], Url=[<Redacted>]
+[2024.10.31-12.46.12:316][237]LogEOSSDK: Warning: LogEOS: SDK Config Platform Update Request Failed, Result Code: EOS_NoConnection, Retrying after 5.016144 seconds
+[2024.10.31-12.46.15:256][301]LogBlueprintUserMessages: [BP_Player_C_0] Game Saved
+[2024.10.31-12.46.16:408][326]LogBlueprintUserMessages: [BP_Player_C_0] Game Saved
+[2024.10.31-12.46.17:326][346]LogEOSSDK: LogEOS: Updating Platform SDK Config, Time: 2530.460938
+[2024.10.31-12.46.17:410][346]LogStreaming: Display: UWorld::AddToWorld: updating components for /Memory/UEDPIE_0_8NN37T66QRRX88H7RBIRAT6B4 took (less than) 77.07 ms
+[2024.10.31-12.46.18:796][376]LogStreaming: Display: UWorld::AddToWorld: updating components for /Memory/UEDPIE_0_2WQU7OZ8HUY6VTV6BYLAKAO78 took (less than) 77.63 ms
+[2024.10.31-12.46.18:901][380]LogBlueprintUserMessages: [BP_Player_C_0] Game Saved
+[2024.10.31-12.46.19:540][394]LogBlueprintUserMessages: [BP_Player_C_0] Game Saved
+[2024.10.31-12.46.20:209][408]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.31-12.46.20:209][408]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TestingPlayer
+[2024.10.31-12.46.20:228][408]LogWorld: UWorld::CleanupWorld for TestingPlayer, bSessionEnded=true, bCleanupResources=true
+[2024.10.31-12.46.20:228][408]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.31-12.46.20:228][408]LogContentBundle: [TestingPlayer(Standalone)] Deleting container.
+[2024.10.31-12.46.20:277][408]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.10.31-12.46.20:282][408]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.31-12.46.20:314][408]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.31-12.46.20:314][408]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 5
+[2024.10.31-12.46.20:314][408]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2024.10.31-12.46.20:316][408]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2024.10.31-12.46.20:334][408]LogUObjectHash: Compacting FUObjectHashTables data took   2.13ms
+[2024.10.31-12.46.20:406][409]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2024.10.31-12.46.25:109][632]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.10.31-12.46.25:119][632]LogContentBundle: [TestingPlayer(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.10.31-12.46.25:119][632]LogWorldPartition: Display: GenerateStreaming for 'TestingPlayer' started...
+[2024.10.31-12.46.25:123][632]LogWorldPartition: Display: GenerateStreaming for 'TestingPlayer' took 4 ms (total: 22 ms)
+[2024.10.31-12.46.25:123][632]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.10.31-12.46.25:123][632]PIE: New page: PIE session: TestingPlayer (31 de out de 2024 06:46:25)
+[2024.10.31-12.46.25:123][632]LogPlayLevel: Display: Creating online subsystem for client :Context_8
+[2024.10.31-12.46.25:126][632]LogOnline: OSS: Created online subsystem instance for: :Context_8
+[2024.10.31-12.46.25:135][633]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TestingPlayer
+[2024.10.31-12.46.25:140][633]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005744s)
+[2024.10.31-12.46.25:140][633]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TestingPlayer.TestingPlayer to /Game/Levels/UEDPIE_0_TestingPlayer.TestingPlayer (0.005786s)
+[2024.10.31-12.46.25:159][633]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2024.10.31-12.46.25:160][633]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.10.31-12.46.25:160][633]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.10.31-12.46.25:161][633]LogAIModule: Creating AISystem for world TestingPlayer
+[2024.10.31-12.46.25:161][633]LogWorldPartition: ULevel::OnLevelLoaded(TestingPlayer)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.10.31-12.46.25:161][633]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.10.31-12.46.25:161][633]LogWorldPartition: UWorldPartition::Initialize : World = TestingPlayer, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.10.31-12.46.25:161][633]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.10.31-12.46.25:163][633]LogContentBundle: [TestingPlayer(Standalone)] Creating new contrainer.
+[2024.10.31-12.46.25:163][633]LogWorldPartition: Display: WorldPartition initialize took 1 ms (total: 2.10 sec)
+[2024.10.31-12.46.25:163][633]LogPlayLevel: PIE: World Init took: (0.002723s)
+[2024.10.31-12.46.25:163][633]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2024.10.31-12.46.25:163][633]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.10.31-12.46.25:163][633]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.10.31-12.46.25:163][633]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.10.31-12.46.25:163][633]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.10.31-12.46.25:163][633]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.10.31-12.46.25:163][633]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.10.31-12.46.25:163][633]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.10.31-12.46.25:163][633]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.10.31-12.46.25:163][633]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.10.31-12.46.25:163][633]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.10.31-12.46.25:163][633]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.10.31-12.46.25:165][633]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.10.31-12.46.25:179][633]LogAudioMixer: Display: Using Audio Hardware Device Speakers/Headphones (Realtek(R) Audio)
+[2024.10.31-12.46.25:179][633]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.10.31-12.46.25:179][633]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.10.31-12.46.25:179][633]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.10.31-12.46.25:181][633]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=6
+[2024.10.31-12.46.25:181][633]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=6
+[2024.10.31-12.46.25:183][633]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=6
+[2024.10.31-12.46.25:183][633]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=6
+[2024.10.31-12.46.25:183][633]LogInit: FAudioDevice initialized with ID 6.
+[2024.10.31-12.46.25:183][633]LogAudio: Display: Audio Device (ID: 6) registered with world 'TestingPlayer'.
+[2024.10.31-12.46.25:183][633]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 6
+[2024.10.31-12.46.25:255][633]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.31-12.46.25:255][633]LogLoad: Game class is 'MyGameGamemode_C'
+[2024.10.31-12.46.25:256][633]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TestingPlayer.TestingPlayer up for play (max tick rate 60) at 2024.10.31-09.46.25
+[2024.10.31-12.46.25:256][633]LogWorld: Bringing up level for play took: 0.000583
+[2024.10.31-12.46.25:257][633]LogWorldPartition: UWorldPartitionStreamingPolicy: CellsToActivate(41), CellsToLoad(0), CellsToUnload(0)
+[2024.10.31-12.46.25:257][633]LogWorldPartition: UWorldPartitionStreamingPolicy: Sources[0] = X=-11940.435 Y=-6681.237 Z=92.000,P=0.000000 Y=0.000000 R=-0.000000
+[2024.10.31-12.46.25:260][633]LogStreaming: Display: FlushAsyncLoading(): 85 QueuedPackages, 0 AsyncPackages
+[2024.10.31-12.46.25:620][633]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.10.31-12.46.25:620][633]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.10.31-12.46.25:620][633]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.10.31-12.46.25:624][633]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.10.31-12.46.25:629][633]PIE: Server logged in
+[2024.10.31-12.46.25:634][633]PIE: Play in editor total start time 0,515 seconds.
+[2024.10.31-12.46.25:658][633]LogViewport: Scene viewport resized to 1912x970, mode Windowed.
+[2024.10.31-12.46.26:872][644]LogBlueprintUserMessages: [BP_Player_C_0] Loaded Save
+[2024.10.31-12.46.27:216][646]LogStreaming: Display: UWorld::AddToWorld: updating components for /Memory/UEDPIE_0_BDGMGSQP17O8UEYY77HJETZ8U took (less than) 116.06 ms
+[2024.10.31-12.46.29:157][665]LogBlueprintUserMessages: [BP_Player_C_0] Loaded Save
+[2024.10.31-12.46.29:476][668]LogEOSSDK: Warning: LogHttp: 00000A7A52EDD200: invalid HTTP response code received. URL: https://api.epicgames.dev/sdk/v1/default?platformId=WIN, HTTP code: 0, content length: 0, actual payload size: 0
+[2024.10.31-12.46.29:476][668]LogEOSSDK: Warning: LogHttp: 00000A7A52EDD200: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2024.10.31-12.46.29:476][668]LogEOSSDK: Warning: LogHttp: 00000A7A52EDD200: libcurl info message cache 0 (Could not resolve host: api.epicgames.dev)
+[2024.10.31-12.46.29:476][668]LogEOSSDK: Warning: LogHttp: 00000A7A52EDD200: libcurl info message cache 1 (Closing connection 272)
+[2024.10.31-12.46.29:477][668]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/sdk/v1/default?platformId=WIN
+[2024.10.31-12.46.29:477][668]LogEOSSDK: Warning: LogEOS: Failed to connect to the backend. ServiceName=[SDKConfig], OperationName=[GetPlatformConfigRoute], Url=[<Redacted>]
+[2024.10.31-12.46.29:583][669]LogEOSSDK: Warning: LogEOS: SDK Config Platform Update Request Failed, Result Code: EOS_NoConnection, Retrying after 11.014008 seconds
+[2024.10.31-12.46.31:881][692]LogBlueprintUserMessages: [BP_Player_C_0] Loaded Save
+[2024.10.31-12.46.33:799][723]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.10.31-12.46.33:800][723]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TestingPlayer
+[2024.10.31-12.46.33:800][723]LogSlate: Window 'Arcade Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2024.10.31-12.46.33:860][723]LogWorld: UWorld::CleanupWorld for TestingPlayer, bSessionEnded=true, bCleanupResources=true
+[2024.10.31-12.46.33:861][723]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.31-12.46.33:861][723]LogContentBundle: [TestingPlayer(Standalone)] Deleting container.
+[2024.10.31-12.46.33:863][723]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.10.31-12.46.33:868][723]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.10.31-12.46.33:895][723]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 6
+[2024.10.31-12.46.33:895][723]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2024.10.31-12.46.33:896][723]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2024.10.31-12.46.33:915][723]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
+[2024.10.31-12.46.33:944][724]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2024.10.31-12.46.40:804][832]LogEOSSDK: LogEOS: Updating Platform SDK Config, Time: 2553.939941
+[2024.10.31-12.46.41:471][834]LogEOSSDK: Warning: LogHttp: 00000A7A50026C00: invalid HTTP response code received. URL: https://api.epicgames.dev/sdk/v1/default?platformId=WIN, HTTP code: 0, content length: 0, actual payload size: 0
+[2024.10.31-12.46.41:471][834]LogEOSSDK: Warning: LogHttp: 00000A7A50026C00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2024.10.31-12.46.41:471][834]LogEOSSDK: Warning: LogHttp: 00000A7A50026C00: libcurl info message cache 0 (Could not resolve host: api.epicgames.dev)
+[2024.10.31-12.46.41:471][834]LogEOSSDK: Warning: LogHttp: 00000A7A50026C00: libcurl info message cache 1 (Closing connection 273)
+[2024.10.31-12.46.41:471][834]LogEOSSDK: Warning: LogHttp: Retry exhausted on https://api.epicgames.dev/sdk/v1/default?platformId=WIN
+[2024.10.31-12.46.41:471][834]LogEOSSDK: Warning: LogEOS: Failed to connect to the backend. ServiceName=[SDKConfig], OperationName=[GetPlatformConfigRoute], Url=[<Redacted>]
+[2024.10.31-12.46.41:804][835]LogEOSSDK: Warning: LogEOS: SDK Config Platform Update Request Failed, Result Code: EOS_NoConnection, Retrying after 2.373425 seconds
+[2024.10.31-12.46.44:136][842]LogEOSSDK: LogEOS: Updating Platform SDK Config, Time: 2557.272217
