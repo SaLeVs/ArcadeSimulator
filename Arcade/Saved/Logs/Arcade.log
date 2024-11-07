@@ -15466,3 +15466,1050 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.11.07-00.52.02:590][467]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=41
 [2024.11.07-00.52.02:625][467]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
 [2024.11.07-00.52.02:722][468]LogPlayLevel: Display: Destroying online subsystem :Context_81
+[2024.11.07-00.52.54:012][966]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.07-00.52.54:027][966]LogContentBundle: [TestingPlayerV3(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.11.07-00.52.54:027][966]LogWorldPartition: Display: GenerateStreaming for 'TestingPlayerV3' started...
+[2024.11.07-00.52.54:393][966]LogWorldPartition: Display: GenerateStreaming for 'TestingPlayerV3' took 365 ms (total: 18.2 sec)
+[2024.11.07-00.52.54:397][966]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.07-00.52.54:397][966]PIE: New page: PIE session: TestingPlayerV3 (6 de nov de 2024 18:52:54)
+[2024.11.07-00.52.54:397][966]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TestingPlayerV3
+[2024.11.07-00.52.54:411][966]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013961s)
+[2024.11.07-00.52.54:412][966]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TestingPlayerV3.TestingPlayerV3 to /Game/Levels/UEDPIE_0_TestingPlayerV3.TestingPlayerV3 (0.014004s)
+[2024.11.07-00.52.54:425][966]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2024.11.07-00.52.54:431][966]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.07-00.52.54:431][966]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.07-00.52.54:432][966]LogAIModule: Creating AISystem for world TestingPlayerV3
+[2024.11.07-00.52.54:432][966]LogWorldPartition: ULevel::OnLevelLoaded(TestingPlayerV3)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.11.07-00.52.54:432][966]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.11.07-00.52.54:432][966]LogWorldPartition: UWorldPartition::Initialize : World = TestingPlayerV3, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.11.07-00.52.54:432][966]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.11.07-00.52.54:435][966]LogContentBundle: [TestingPlayerV3(Standalone)] Creating new contrainer.
+[2024.11.07-00.52.54:435][966]LogWorldPartition: Display: WorldPartition initialize took 3 ms (total: 4.38 sec)
+[2024.11.07-00.52.54:435][966]LogPlayLevel: PIE: World Init took: (0.004608s)
+[2024.11.07-00.52.54:435][966]LogAudio: Display: Creating Audio Device:                 Id: 42, Scope: Unique, Realtime: True
+[2024.11.07-00.52.54:435][966]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.07-00.52.54:436][966]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.07-00.52.54:436][966]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.07-00.52.54:436][966]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.07-00.52.54:436][966]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.07-00.52.54:436][966]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.07-00.52.54:436][966]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.07-00.52.54:436][966]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.07-00.52.54:436][966]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.07-00.52.54:436][966]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.07-00.52.54:436][966]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.07-00.52.54:439][966]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.07-00.52.54:476][966]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (2- USB Audio Device)
+[2024.11.07-00.52.54:477][966]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.07-00.52.54:477][966]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.07-00.52.54:477][966]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.07-00.52.54:477][966]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=42
+[2024.11.07-00.52.54:477][966]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=42
+[2024.11.07-00.52.54:480][966]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=42
+[2024.11.07-00.52.54:480][966]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=42
+[2024.11.07-00.52.54:480][966]LogInit: FAudioDevice initialized with ID 42.
+[2024.11.07-00.52.54:480][966]LogAudio: Display: Audio Device (ID: 42) registered with world 'TestingPlayerV3'.
+[2024.11.07-00.52.54:480][966]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 42
+[2024.11.07-00.52.54:484][966]LogLoad: Game class is 'MyGameGamemode_C'
+[2024.11.07-00.52.54:485][966]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TestingPlayerV3.TestingPlayerV3 up for play (max tick rate 0) at 2024.11.06-21.52.54
+[2024.11.07-00.52.54:485][966]LogWorld: Bringing up level for play took: 0.001051
+[2024.11.07-00.52.54:488][966]LogOnline: OSS: Created online subsystem instance for: :Context_82
+[2024.11.07-00.52.54:489][966]LogWorldPartition: UWorldPartitionStreamingPolicy: CellsToActivate(41), CellsToLoad(0), CellsToUnload(0)
+[2024.11.07-00.52.54:489][966]LogWorldPartition: UWorldPartitionStreamingPolicy: Sources[0] = X=-11940.435 Y=-6681.237 Z=92.000,P=0.000000 Y=0.000000 R=-0.000000
+[2024.11.07-00.52.54:492][966]LogStreaming: Display: FlushAsyncLoading(): 92 QueuedPackages, 0 AsyncPackages
+[2024.11.07-00.52.54:773][966]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/F/3V/SGXHP7QS5GRT1JBHT33KQ0.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.07-00.52.54:773][966]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/E/VL/X5Q085BFSP21DDX5UIEABG.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.07-00.52.54:773][966]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/E/H6/S0WC83HTY3H1Q6ZIEHXIDA.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.07-00.52.54:773][966]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/D/ZL/1M0AVZH3IH9U4BHF3XWLRB.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.07-00.52.54:773][966]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/D/VQ/LN8O9M33QV1LRFSFAGYGQE.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.07-00.52.54:773][966]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/D/PB/ITGTQXTF3W42FMEJUDC86F.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.07-00.52.54:773][966]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/D/PB/ITGTQXTF3W42FMEJUDC86F.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.07-00.52.54:773][966]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/D/MM/9NZ17YYZ7CIJDL9YCKJLAB.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.07-00.52.54:773][966]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/D/HK/9Q6DJT0B2S4K5Y3XK0XARX.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.07-00.52.54:773][966]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/D/0Q/HVZS5ZMERV3TW98Y0DX6SC.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.07-00.52.54:773][966]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/C/S3/H9GBJD0ENTCLGLFPYRVBNN.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.07-00.52.54:773][966]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/C/RQ/Q3BMFHGD4NV0OO8O87ZWR9.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.07-00.52.54:773][966]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/C/IZ/4BHZVNE3HLV86YURX5I32Q.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.07-00.52.54:773][966]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/C/IZ/4BHZVNE3HLV86YURX5I32Q.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.07-00.52.54:773][966]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/B/XF/53570J3X5SQKO6IXAICG05.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.07-00.52.54:773][966]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/B/VS/6IAPNLB1TA49NVF9V5T6LO.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.07-00.52.54:773][966]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/B/4S/7YHACLFH9MIU6FU0V2J82F.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.07-00.52.54:773][966]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/B/2E/1PY734PC1GI5QUQYSG9PY5.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.07-00.52.54:773][966]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/A/YJ/S3P81HND5RPWJ98FILI9US.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.07-00.52.54:773][966]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/A/N8/0OSA4YEZEY0SAJDMM533QP.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.07-00.52.54:773][966]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/A/3V/39S28UELJ8RROZ43YVMS9I.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.07-00.52.54:773][966]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/A/2W/7UVZO6XUMEB5HNHV8G3RAD.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.07-00.52.54:773][966]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/A/0B/58344MYAVPMKOGBBTY9GHF.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.07-00.52.54:773][966]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/A/0B/58344MYAVPMKOGBBTY9GHF.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.07-00.52.54:773][966]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/9/QN/U0FIVVDR1FD83DD800E9OE.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.07-00.52.54:773][966]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/9/MN/5OG9KQ7PPP6SC8Y7HAPU9W.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.07-00.52.54:773][966]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/8/WS/8DWMRN3YHHDRCG251BIVG9.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.07-00.52.54:773][966]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/8/WS/8DWMRN3YHHDRCG251BIVG9.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.07-00.52.54:773][966]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/8/RW/JI6IWZ8USTTA382KYB7AE5.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.07-00.52.54:773][966]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/8/RW/JI6IWZ8USTTA382KYB7AE5.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.07-00.52.54:773][966]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/8/OO/70ASEH7LQG8LAF3X7WJ4OE.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.07-00.52.54:773][966]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/8/OO/70ASEH7LQG8LAF3X7WJ4OE.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.07-00.52.54:773][966]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/8/IW/B9L9R56UDOKPEY2FYIVA84.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.07-00.52.54:774][966]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/8/IW/B9L9R56UDOKPEY2FYIVA84.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.07-00.52.54:774][966]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/8/A7/D1A0TDUF3P1P1RGDPQNXBP.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.07-00.52.54:774][966]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/8/A7/D1A0TDUF3P1P1RGDPQNXBP.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.07-00.52.54:774][966]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/7/ZL/Z4E57TBCO86Q8WUA96R6R4.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.07-00.52.54:774][966]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/7/ER/0CLB5CRJP6YGHJ5GPU3LRC.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.07-00.52.54:774][966]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/7/1M/LGSFCU0DFTR385FGLFLDIU.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.07-00.52.54:774][966]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/7/1M/LGSFCU0DFTR385FGLFLDIU.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.07-00.52.54:774][966]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/6/F5/CRBFSZI9KXO1Z3X9PE8JJ0.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.07-00.52.54:774][966]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/6/60/8BFJB4BK2XQ54I6TV7P3Z8.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.07-00.52.54:774][966]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/5/Y7/VJD4QITZGJ1SH7PZVIEZEX.StaticMesh_TestingPlayer_HLOD0_Instancing_7 being ready before playing
+[2024.11.07-00.52.54:774][966]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/5/Y7/VJD4QITZGJ1SH7PZVIEZEX.StaticMesh_TestingPlayer_HLOD0_Instancing_6 being ready before playing
+[2024.11.07-00.52.54:774][966]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/5/Y7/VJD4QITZGJ1SH7PZVIEZEX.StaticMesh_TestingPlayer_HLOD0_Instancing_5 being ready before playing
+[2024.11.07-00.52.54:774][966]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/5/Y7/VJD4QITZGJ1SH7PZVIEZEX.StaticMesh_TestingPlayer_HLOD0_Instancing_4 being ready before playing
+[2024.11.07-00.52.54:774][966]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/5/W9/65VMTCNFIT90VWA7RT2ENZ.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.07-00.52.54:774][966]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/5/N7/CMCF25TEG58RLN82SSAZ9M.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.07-00.52.54:774][966]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/5/LW/KH0EFZB35LZJE3HL6YTSPF.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.07-00.52.54:774][966]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/5/LW/KH0EFZB35LZJE3HL6YTSPF.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.07-00.52.54:774][966]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/2/D9/1AWAXE32A0Z461CFDKLF52.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.07-00.52.54:774][966]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/2/BP/QK49DVY62Z0FWRN0VBWHHE.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.07-00.52.54:774][966]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/2/BP/QK49DVY62Z0FWRN0VBWHHE.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.07-00.52.54:774][966]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/2/87/VQNVO7UZWUQP4Y0B1VA7T7.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.07-00.52.54:774][966]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/1/NR/DL6PX7RRS0GIZFUFDQZNVK.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.07-00.52.54:774][966]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/1/MK/L87UU7CRFBGRO8Q1YZYKBW.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.07-00.52.54:774][966]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/1/J2/036XKETCC6O300PIDLNXUN.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.07-00.52.54:774][966]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/1/G8/2LYN577GRGR8X783YCKF56.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.07-00.52.54:774][966]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/1/2L/60252UNVPG0VY69MOSQWSY.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.07-00.52.54:774][966]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/0/YT/0COB3VRMPDP3O4KDPL0NX0.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.07-00.52.54:774][966]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/0/YT/0COB3VRMPDP3O4KDPL0NX0.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.07-00.52.54:774][966]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/0/B4/KG7KFX7NG6MWAAQ87237GG.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.07-00.52.54:774][966]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/0/3W/1P5ZXA2I6LMI4NAG0UB1SV.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.07-00.52.54:774][966]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/0/2S/9O10TOMKEG3NRO8TDA9CWX.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.07-00.52.55:031][966]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.07-00.52.55:031][966]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.07-00.52.55:031][966]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.11.07-00.52.55:032][966]LogBlueprintUserMessages: [BP_Player_C_0] Current money is 18.970916
+[2024.11.07-00.52.55:033][966]LogScript: Warning: UGameplayStatics::BeginDeferredActorSpawnFromClass: can not spawn an actor from a NULL class
+[2024.11.07-00.52.55:033][966]LogScript: Warning: UGameplayStatics::BeginDeferredActorSpawnFromClass: can not spawn an actor from a NULL class
+[2024.11.07-00.52.55:035][966]LogBehaviorTree: Warning: BT_NPC::Blackboard Based Condition[0]> Failed to find key 'npcCantInteract' in BB asset BlackboardData /Game/Blueprints/AI/BBD_NPC.BBD_NPC. BB Key Selector will be set to 'Invalid'
+[2024.11.07-00.52.55:035][966]LogBehaviorTree: Warning: BT_NPC::Blackboard Based Condition[0]> Failed to find key 'npcCantInteract' in BB asset BlackboardData /Game/Blueprints/AI/BBD_NPC.BBD_NPC. BB Key Selector will be set to 'Invalid'
+[2024.11.07-00.52.55:036][966]LogWorldPartition: UWorldPartitionStreamingPolicy: CellsToActivate(1), CellsToLoad(0), CellsToUnload(0)
+[2024.11.07-00.52.55:036][966]LogWorldPartition: UWorldPartitionStreamingPolicy: Sources[0] = X=-9925.319 Y=-6168.168 Z=90.150,P=-0.000000 Y=-142.300001 R=0.000000
+[2024.11.07-00.52.55:047][966]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.11.07-00.52.55:048][966]PIE: Server logged in
+[2024.11.07-00.52.55:048][966]PIE: Play in editor total start time 1,021 seconds.
+[2024.11.07-00.52.56:784][ 99]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.52.56:845][104]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.52.56:906][109]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.52.56:957][113]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.52.57:009][117]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.52.57:065][121]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.52.57:124][126]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.52.57:184][131]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.52.57:247][136]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.52.57:307][141]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.52.57:368][146]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.52.57:426][151]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.52.57:461][154]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 1
+[2024.11.07-00.52.57:484][156]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.52.57:542][161]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.52.57:601][166]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.52.57:657][171]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.52.57:716][176]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.52.57:778][181]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.52.57:835][186]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.52.57:857][188]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 1
+[2024.11.07-00.52.57:895][191]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.52.57:951][196]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.52.58:008][201]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.52.58:069][206]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.52.58:121][210]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.52.58:179][214]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.52.58:230][218]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.52.58:281][222]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.52.58:340][226]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.52.58:398][231]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.52.58:456][236]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.52.58:511][241]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.52.58:567][246]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.52.58:624][251]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.52.58:683][256]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.52.58:746][261]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.52.58:806][266]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.52.58:858][270]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.52.58:914][274]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.52.58:965][278]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.52.59:020][283]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.52.59:076][288]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.52.59:134][293]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.52.59:195][298]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.52.59:252][303]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.52.59:308][308]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.52.59:366][313]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.52.59:425][318]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.52.59:485][323]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.52.59:540][328]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.52.59:598][333]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.52.59:654][338]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.52.59:716][343]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.52.59:778][348]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.52.59:836][353]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.52.59:895][358]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.52.59:950][363]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.00:008][368]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.00:058][372]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.00:116][377]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.00:169][381]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.00:229][386]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.00:283][390]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.00:338][394]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.00:395][399]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.00:445][403]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.00:494][407]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 1
+[2024.11.07-00.53.00:495][407]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 3
+[2024.11.07-00.53.00:508][408]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.00:564][413]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.00:621][418]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.00:676][423]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.00:732][428]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.00:788][433]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.00:846][438]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.00:908][443]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.00:954][447]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 1
+[2024.11.07-00.53.00:966][448]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.01:023][453]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.01:080][458]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.01:137][463]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.01:192][468]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.01:250][473]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.01:309][478]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.01:373][483]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.01:400][485]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 1
+[2024.11.07-00.53.01:425][487]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.01:484][492]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.01:542][497]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.01:601][502]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.01:660][507]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.01:719][512]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.01:779][517]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.01:837][522]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.01:895][527]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.01:952][532]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.02:008][537]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.02:064][542]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.02:124][547]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.02:176][551]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.02:229][555]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.02:280][559]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.02:334][563]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.02:385][567]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.02:442][572]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.02:505][577]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.02:556][581]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.02:614][586]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.02:648][589]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 1
+[2024.11.07-00.53.02:672][591]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.02:727][596]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.02:785][601]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.02:840][606]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.02:903][611]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.02:962][616]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.03:017][621]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.03:074][626]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.03:132][631]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.03:187][636]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.03:243][641]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.03:300][646]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.03:358][651]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.03:414][656]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.03:471][661]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.03:530][666]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.03:583][670]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.03:638][674]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.03:701][679]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.03:757][684]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.03:815][689]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.03:873][694]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.03:929][699]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.03:988][704]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.04:049][709]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.04:111][714]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.04:174][719]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.04:229][723]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.04:282][727]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.04:334][731]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.04:394][736]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.04:449][741]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.04:509][745]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.04:560][749]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.04:619][754]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.04:671][758]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.04:723][762]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.04:783][767]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.04:840][772]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.04:897][777]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.04:958][782]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.05:018][787]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.05:075][792]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.05:133][797]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.05:188][802]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.05:247][807]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.05:306][812]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.05:364][817]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.05:420][822]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.05:476][827]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.05:530][832]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.05:588][837]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.05:645][842]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.05:704][847]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.05:766][852]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.05:816][856]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.05:874][861]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.05:934][866]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.05:991][871]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.06:045][876]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.06:101][881]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.06:157][886]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.06:210][890]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.06:269][895]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.06:333][900]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.06:387][904]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.06:441][909]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.06:496][914]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.06:552][919]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.06:607][924]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.06:661][929]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.06:715][934]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.06:770][939]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.06:825][944]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.06:877][948]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.06:926][952]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.06:981][957]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.07:036][962]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.07:091][967]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.07:146][972]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.07:158][973]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 1
+[2024.11.07-00.53.07:204][977]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.07:258][982]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.07:316][987]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.07:370][992]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.07:425][997]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.07:480][  2]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.07:537][  7]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.07:591][ 12]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.07:646][ 17]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.07:703][ 22]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.07:758][ 27]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.07:816][ 32]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.07:872][ 37]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.07:929][ 42]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.07:981][ 46]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.08:040][ 51]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.08:104][ 56]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.08:167][ 61]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.08:223][ 65]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.08:278][ 69]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.08:324][ 70]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.07-00.53.08:324][ 70]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TestingPlayerV3
+[2024.11.07-00.53.08:338][ 70]LogWorld: UWorld::CleanupWorld for TestingPlayerV3, bSessionEnded=true, bCleanupResources=true
+[2024.11.07-00.53.08:338][ 70]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.07-00.53.08:338][ 70]LogContentBundle: [TestingPlayerV3(Standalone)] Deleting container.
+[2024.11.07-00.53.08:343][ 70]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.07-00.53.08:350][ 70]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.07-00.53.08:380][ 70]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.07-00.53.08:381][ 70]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 42
+[2024.11.07-00.53.08:381][ 70]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=42
+[2024.11.07-00.53.08:385][ 70]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=42
+[2024.11.07-00.53.08:418][ 70]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
+[2024.11.07-00.53.08:516][ 71]LogPlayLevel: Display: Destroying online subsystem :Context_82
+[2024.11.07-00.53.44:955][260]BlueprintLog: New page: Compile BP_Atm
+[2024.11.07-00.53.45:064][260]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2024.11.07-00.53.45:225][260]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.07-00.53.45:281][260]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Cashier/BP_Atm" FILE="../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/Blueprints/Cashier/BP_Atm.uasset" SILENT=true
+[2024.11.07-00.53.45:371][260]LogSavePackage: Moving output files for package: /Game/Blueprints/Cashier/BP_Atm
+[2024.11.07-00.53.45:371][260]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Saved/BP_AtmA3B3DAEE4C904E5F20AEA582C8E91426.tmp' to '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/Blueprints/Cashier/BP_Atm.uasset'
+[2024.11.07-00.53.45:380][260]LogFileHelpers: InternalPromptForCheckoutAndSave took 154 ms (total: 7.61 sec)
+[2024.11.07-00.53.45:384][260]AssetCheck: New page: Asset Save: BP_Atm
+[2024.11.07-00.53.45:384][260]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Cashier/BP_Atm.BP_Atm
+[2024.11.07-00.53.47:974][427]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.07-00.53.47:989][427]LogContentBundle: [TestingPlayerV3(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.11.07-00.53.47:989][427]LogWorldPartition: Display: GenerateStreaming for 'TestingPlayerV3' started...
+[2024.11.07-00.53.48:335][427]LogWorldPartition: Display: GenerateStreaming for 'TestingPlayerV3' took 344 ms (total: 18.5 sec)
+[2024.11.07-00.53.48:339][427]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.07-00.53.48:339][427]PIE: New page: PIE session: TestingPlayerV3 (6 de nov de 2024 18:53:48)
+[2024.11.07-00.53.48:360][427]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TestingPlayerV3
+[2024.11.07-00.53.48:375][427]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015144s)
+[2024.11.07-00.53.48:375][427]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TestingPlayerV3.TestingPlayerV3 to /Game/Levels/UEDPIE_0_TestingPlayerV3.TestingPlayerV3 (0.015212s)
+[2024.11.07-00.53.48:393][427]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2024.11.07-00.53.48:399][427]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.07-00.53.48:399][427]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.07-00.53.48:400][427]LogAIModule: Creating AISystem for world TestingPlayerV3
+[2024.11.07-00.53.48:400][427]LogWorldPartition: ULevel::OnLevelLoaded(TestingPlayerV3)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.11.07-00.53.48:400][427]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.11.07-00.53.48:400][427]LogWorldPartition: UWorldPartition::Initialize : World = TestingPlayerV3, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.11.07-00.53.48:400][427]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.11.07-00.53.48:404][427]LogContentBundle: [TestingPlayerV3(Standalone)] Creating new contrainer.
+[2024.11.07-00.53.48:404][427]LogWorldPartition: Display: WorldPartition initialize took 3 ms (total: 4.38 sec)
+[2024.11.07-00.53.48:404][427]LogPlayLevel: PIE: World Init took: (0.004695s)
+[2024.11.07-00.53.48:404][427]LogAudio: Display: Creating Audio Device:                 Id: 43, Scope: Unique, Realtime: True
+[2024.11.07-00.53.48:404][427]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.07-00.53.48:404][427]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.07-00.53.48:404][427]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.07-00.53.48:404][427]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.07-00.53.48:404][427]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.07-00.53.48:404][427]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.07-00.53.48:404][427]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.07-00.53.48:404][427]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.07-00.53.48:404][427]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.07-00.53.48:404][427]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.07-00.53.48:404][427]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.07-00.53.48:406][427]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.07-00.53.48:443][427]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (2- USB Audio Device)
+[2024.11.07-00.53.48:444][427]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.07-00.53.48:444][427]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.07-00.53.48:444][427]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.07-00.53.48:445][427]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=43
+[2024.11.07-00.53.48:445][427]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=43
+[2024.11.07-00.53.48:447][427]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=43
+[2024.11.07-00.53.48:447][427]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=43
+[2024.11.07-00.53.48:447][427]LogInit: FAudioDevice initialized with ID 43.
+[2024.11.07-00.53.48:447][427]LogAudio: Display: Audio Device (ID: 43) registered with world 'TestingPlayerV3'.
+[2024.11.07-00.53.48:447][427]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 43
+[2024.11.07-00.53.48:450][427]LogLoad: Game class is 'MyGameGamemode_C'
+[2024.11.07-00.53.48:451][427]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TestingPlayerV3.TestingPlayerV3 up for play (max tick rate 0) at 2024.11.06-21.53.48
+[2024.11.07-00.53.48:453][427]LogWorld: Bringing up level for play took: 0.000932
+[2024.11.07-00.53.48:455][427]LogOnline: OSS: Created online subsystem instance for: :Context_83
+[2024.11.07-00.53.48:456][427]LogWorldPartition: UWorldPartitionStreamingPolicy: CellsToActivate(41), CellsToLoad(0), CellsToUnload(0)
+[2024.11.07-00.53.48:456][427]LogWorldPartition: UWorldPartitionStreamingPolicy: Sources[0] = X=-11940.435 Y=-6681.237 Z=92.000,P=0.000000 Y=0.000000 R=-0.000000
+[2024.11.07-00.53.48:459][427]LogStreaming: Display: FlushAsyncLoading(): 92 QueuedPackages, 0 AsyncPackages
+[2024.11.07-00.53.48:765][427]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/F/3V/SGXHP7QS5GRT1JBHT33KQ0.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.07-00.53.48:765][427]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/E/VL/X5Q085BFSP21DDX5UIEABG.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.07-00.53.48:765][427]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/E/H6/S0WC83HTY3H1Q6ZIEHXIDA.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.07-00.53.48:765][427]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/D/ZL/1M0AVZH3IH9U4BHF3XWLRB.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.07-00.53.48:765][427]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/D/VQ/LN8O9M33QV1LRFSFAGYGQE.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.07-00.53.48:765][427]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/D/PB/ITGTQXTF3W42FMEJUDC86F.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.07-00.53.48:765][427]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/D/PB/ITGTQXTF3W42FMEJUDC86F.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.07-00.53.48:765][427]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/D/MM/9NZ17YYZ7CIJDL9YCKJLAB.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.07-00.53.48:765][427]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/D/HK/9Q6DJT0B2S4K5Y3XK0XARX.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.07-00.53.48:765][427]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/D/0Q/HVZS5ZMERV3TW98Y0DX6SC.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.07-00.53.48:765][427]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/C/S3/H9GBJD0ENTCLGLFPYRVBNN.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.07-00.53.48:765][427]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/C/RQ/Q3BMFHGD4NV0OO8O87ZWR9.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.07-00.53.48:765][427]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/C/IZ/4BHZVNE3HLV86YURX5I32Q.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.07-00.53.48:765][427]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/C/IZ/4BHZVNE3HLV86YURX5I32Q.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.07-00.53.48:765][427]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/B/XF/53570J3X5SQKO6IXAICG05.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.07-00.53.48:765][427]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/B/VS/6IAPNLB1TA49NVF9V5T6LO.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.07-00.53.48:765][427]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/B/4S/7YHACLFH9MIU6FU0V2J82F.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.07-00.53.48:765][427]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/B/2E/1PY734PC1GI5QUQYSG9PY5.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.07-00.53.48:765][427]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/A/YJ/S3P81HND5RPWJ98FILI9US.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.07-00.53.48:765][427]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/A/N8/0OSA4YEZEY0SAJDMM533QP.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.07-00.53.48:765][427]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/A/3V/39S28UELJ8RROZ43YVMS9I.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.07-00.53.48:765][427]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/A/2W/7UVZO6XUMEB5HNHV8G3RAD.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.07-00.53.48:765][427]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/A/0B/58344MYAVPMKOGBBTY9GHF.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.07-00.53.48:765][427]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/A/0B/58344MYAVPMKOGBBTY9GHF.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.07-00.53.48:765][427]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/9/QN/U0FIVVDR1FD83DD800E9OE.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.07-00.53.48:765][427]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/9/MN/5OG9KQ7PPP6SC8Y7HAPU9W.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.07-00.53.48:765][427]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/8/WS/8DWMRN3YHHDRCG251BIVG9.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.07-00.53.48:765][427]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/8/WS/8DWMRN3YHHDRCG251BIVG9.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.07-00.53.48:765][427]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/8/RW/JI6IWZ8USTTA382KYB7AE5.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.07-00.53.48:765][427]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/8/RW/JI6IWZ8USTTA382KYB7AE5.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.07-00.53.48:765][427]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/8/OO/70ASEH7LQG8LAF3X7WJ4OE.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.07-00.53.48:765][427]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/8/OO/70ASEH7LQG8LAF3X7WJ4OE.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.07-00.53.48:765][427]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/8/IW/B9L9R56UDOKPEY2FYIVA84.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.07-00.53.48:765][427]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/8/IW/B9L9R56UDOKPEY2FYIVA84.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.07-00.53.48:765][427]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/8/A7/D1A0TDUF3P1P1RGDPQNXBP.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.07-00.53.48:765][427]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/8/A7/D1A0TDUF3P1P1RGDPQNXBP.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.07-00.53.48:765][427]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/7/ZL/Z4E57TBCO86Q8WUA96R6R4.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.07-00.53.48:765][427]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/7/ER/0CLB5CRJP6YGHJ5GPU3LRC.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.07-00.53.48:765][427]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/7/1M/LGSFCU0DFTR385FGLFLDIU.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.07-00.53.48:765][427]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/7/1M/LGSFCU0DFTR385FGLFLDIU.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.07-00.53.48:765][427]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/6/F5/CRBFSZI9KXO1Z3X9PE8JJ0.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.07-00.53.48:765][427]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/6/60/8BFJB4BK2XQ54I6TV7P3Z8.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.07-00.53.48:765][427]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/5/Y7/VJD4QITZGJ1SH7PZVIEZEX.StaticMesh_TestingPlayer_HLOD0_Instancing_7 being ready before playing
+[2024.11.07-00.53.48:765][427]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/5/Y7/VJD4QITZGJ1SH7PZVIEZEX.StaticMesh_TestingPlayer_HLOD0_Instancing_6 being ready before playing
+[2024.11.07-00.53.48:765][427]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/5/Y7/VJD4QITZGJ1SH7PZVIEZEX.StaticMesh_TestingPlayer_HLOD0_Instancing_5 being ready before playing
+[2024.11.07-00.53.48:765][427]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/5/Y7/VJD4QITZGJ1SH7PZVIEZEX.StaticMesh_TestingPlayer_HLOD0_Instancing_4 being ready before playing
+[2024.11.07-00.53.48:765][427]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/5/W9/65VMTCNFIT90VWA7RT2ENZ.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.07-00.53.48:765][427]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/5/N7/CMCF25TEG58RLN82SSAZ9M.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.07-00.53.48:765][427]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/5/LW/KH0EFZB35LZJE3HL6YTSPF.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.07-00.53.48:765][427]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/5/LW/KH0EFZB35LZJE3HL6YTSPF.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.07-00.53.48:765][427]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/2/D9/1AWAXE32A0Z461CFDKLF52.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.07-00.53.48:765][427]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/2/BP/QK49DVY62Z0FWRN0VBWHHE.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.07-00.53.48:765][427]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/2/BP/QK49DVY62Z0FWRN0VBWHHE.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.07-00.53.48:765][427]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/2/87/VQNVO7UZWUQP4Y0B1VA7T7.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.07-00.53.48:765][427]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/1/NR/DL6PX7RRS0GIZFUFDQZNVK.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.07-00.53.48:765][427]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/1/MK/L87UU7CRFBGRO8Q1YZYKBW.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.07-00.53.48:766][427]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/1/J2/036XKETCC6O300PIDLNXUN.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.07-00.53.48:766][427]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/1/G8/2LYN577GRGR8X783YCKF56.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.07-00.53.48:766][427]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/1/2L/60252UNVPG0VY69MOSQWSY.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.07-00.53.48:766][427]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/0/YT/0COB3VRMPDP3O4KDPL0NX0.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.07-00.53.48:766][427]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/0/YT/0COB3VRMPDP3O4KDPL0NX0.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.07-00.53.48:766][427]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/0/B4/KG7KFX7NG6MWAAQ87237GG.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.07-00.53.48:766][427]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/0/3W/1P5ZXA2I6LMI4NAG0UB1SV.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.07-00.53.48:766][427]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/0/2S/9O10TOMKEG3NRO8TDA9CWX.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.07-00.53.49:023][427]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.07-00.53.49:023][427]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.07-00.53.49:023][427]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.11.07-00.53.49:025][427]LogBlueprintUserMessages: [BP_Player_C_0] Current money is 18.970916
+[2024.11.07-00.53.49:025][427]LogScript: Warning: UGameplayStatics::BeginDeferredActorSpawnFromClass: can not spawn an actor from a NULL class
+[2024.11.07-00.53.49:025][427]LogScript: Warning: UGameplayStatics::BeginDeferredActorSpawnFromClass: can not spawn an actor from a NULL class
+[2024.11.07-00.53.49:027][427]LogBehaviorTree: Warning: BT_NPC::Blackboard Based Condition[0]> Failed to find key 'npcCantInteract' in BB asset BlackboardData /Game/Blueprints/AI/BBD_NPC.BBD_NPC. BB Key Selector will be set to 'Invalid'
+[2024.11.07-00.53.49:027][427]LogBehaviorTree: Warning: BT_NPC::Blackboard Based Condition[0]> Failed to find key 'npcCantInteract' in BB asset BlackboardData /Game/Blueprints/AI/BBD_NPC.BBD_NPC. BB Key Selector will be set to 'Invalid'
+[2024.11.07-00.53.49:028][427]LogWorldPartition: UWorldPartitionStreamingPolicy: CellsToActivate(1), CellsToLoad(0), CellsToUnload(0)
+[2024.11.07-00.53.49:028][427]LogWorldPartition: UWorldPartitionStreamingPolicy: Sources[0] = X=-9925.319 Y=-6168.168 Z=90.150,P=-0.000000 Y=-142.300001 R=0.000000
+[2024.11.07-00.53.49:039][427]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.11.07-00.53.49:039][427]PIE: Server logged in
+[2024.11.07-00.53.49:041][427]PIE: Play in editor total start time 1,051 seconds.
+[2024.11.07-00.53.50:923][571]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.50:982][576]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.51:041][581]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.51:104][586]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.51:163][590]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.51:215][594]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.51:269][598]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.51:319][602]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.51:381][607]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.51:441][612]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.51:502][617]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.51:515][618]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 1
+[2024.11.07-00.53.51:556][621]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.51:616][626]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.51:674][631]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.51:731][636]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.51:789][641]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.51:854][646]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.51:906][650]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.51:963][655]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.52:019][660]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.52:082][665]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.52:132][669]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.52:192][674]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.52:254][679]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.52:313][684]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.52:375][689]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.52:435][694]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.52:490][699]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.52:548][704]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.52:609][709]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.52:659][713]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.52:716][718]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.52:774][723]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.52:833][728]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.52:892][733]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.52:950][738]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.53:007][743]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.53:064][748]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.53:123][753]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.53:176][757]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.53:235][762]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.53:301][767]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.53:350][771]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.53:364][772]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 1
+[2024.11.07-00.53.53:409][776]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.53:467][781]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.53:522][786]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.53:578][791]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.53:636][796]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.53:696][801]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.53:746][805]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.53:802][810]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.53:863][815]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.53:924][820]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.53:981][825]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.54:037][830]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.54:092][835]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.54:148][840]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.54:204][845]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.54:262][850]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.54:320][855]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.54:371][859]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.54:433][864]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.54:494][869]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.54:552][874]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.54:609][879]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.54:666][884]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.54:721][889]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.54:781][894]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.54:831][898]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.54:891][903]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.54:948][908]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.55:003][913]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.55:061][918]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.55:119][923]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.55:172][927]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 1
+[2024.11.07-00.53.55:174][927]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.55:223][931]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.55:283][936]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.55:341][941]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.55:398][946]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.55:455][951]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.55:510][956]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.55:543][959]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 1
+[2024.11.07-00.53.55:567][961]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.55:623][966]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.55:680][971]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.55:735][976]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.55:790][981]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.55:846][986]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.55:858][987]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 1
+[2024.11.07-00.53.55:897][990]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.55:947][994]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.56:003][999]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.56:059][  4]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 1
+[2024.11.07-00.53.56:062][  4]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.56:116][  9]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.56:173][ 14]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.56:230][ 19]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.56:289][ 24]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.56:349][ 29]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.56:409][ 34]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.56:468][ 39]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.56:526][ 44]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.56:584][ 49]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.56:642][ 54]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.56:699][ 59]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.56:755][ 64]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 1
+[2024.11.07-00.53.56:756][ 64]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.56:812][ 69]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.56:868][ 74]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.56:925][ 79]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.56:983][ 84]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.57:044][ 89]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.57:099][ 94]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.57:161][ 99]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.57:220][104]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.57:282][109]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.57:337][113]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.57:394][118]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.57:449][123]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.57:509][128]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.57:570][133]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.57:629][138]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.57:688][143]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.57:747][148]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.57:805][153]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.57:864][158]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.57:919][162]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.57:974][167]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.58:030][172]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.58:088][177]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.58:104][178]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 3
+[2024.11.07-00.53.58:141][181]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.58:197][186]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.58:252][191]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.58:307][196]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.58:364][201]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.58:419][206]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.58:478][211]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.58:533][216]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.58:589][221]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.58:645][226]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.58:701][231]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.58:758][236]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.58:813][241]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.58:868][246]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.58:928][251]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.58:987][256]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.59:046][261]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.59:104][266]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.59:166][271]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.59:226][275]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.59:279][279]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.59:336][283]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.59:387][287]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.59:444][292]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] loucura
+[2024.11.07-00.53.59:445][292]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.59:501][297]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.59:557][302]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.59:615][307]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.59:675][312]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.59:737][317]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.59:799][322]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.59:857][327]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.59:913][332]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.53.59:971][337]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.00:028][342]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.00:085][347]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.00:141][352]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.00:196][357]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.00:254][362]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.00:305][366]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.00:363][371]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.00:418][376]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.00:473][381]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.00:529][386]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.00:586][391]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.00:643][396]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.00:674][396]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.07-00.54.00:674][396]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TestingPlayerV3
+[2024.11.07-00.54.00:685][396]LogWorld: UWorld::CleanupWorld for TestingPlayerV3, bSessionEnded=true, bCleanupResources=true
+[2024.11.07-00.54.00:685][396]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.07-00.54.00:686][396]LogContentBundle: [TestingPlayerV3(Standalone)] Deleting container.
+[2024.11.07-00.54.00:690][396]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.07-00.54.00:697][396]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.07-00.54.00:722][396]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.11.07-00.54.00:727][396]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 43
+[2024.11.07-00.54.00:727][396]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=43
+[2024.11.07-00.54.00:729][396]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=43
+[2024.11.07-00.54.00:735][396]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.07-00.54.00:754][396]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2024.11.07-00.54.00:850][397]LogPlayLevel: Display: Destroying online subsystem :Context_83
+[2024.11.07-00.54.01:487][441]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.07-00.54.01:504][441]LogContentBundle: [TestingPlayerV3(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.11.07-00.54.01:504][441]LogWorldPartition: Display: GenerateStreaming for 'TestingPlayerV3' started...
+[2024.11.07-00.54.01:845][441]LogWorldPartition: Display: GenerateStreaming for 'TestingPlayerV3' took 340 ms (total: 18.9 sec)
+[2024.11.07-00.54.01:850][441]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.07-00.54.01:850][441]PIE: New page: PIE session: TestingPlayerV3 (6 de nov de 2024 18:54:01)
+[2024.11.07-00.54.01:879][441]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TestingPlayerV3
+[2024.11.07-00.54.01:894][441]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013968s)
+[2024.11.07-00.54.01:894][441]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TestingPlayerV3.TestingPlayerV3 to /Game/Levels/UEDPIE_0_TestingPlayerV3.TestingPlayerV3 (0.014022s)
+[2024.11.07-00.54.01:910][441]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2024.11.07-00.54.01:914][441]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.07-00.54.01:914][441]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.07-00.54.01:915][441]LogAIModule: Creating AISystem for world TestingPlayerV3
+[2024.11.07-00.54.01:915][441]LogWorldPartition: ULevel::OnLevelLoaded(TestingPlayerV3)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.11.07-00.54.01:915][441]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.11.07-00.54.01:915][441]LogWorldPartition: UWorldPartition::Initialize : World = TestingPlayerV3, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.11.07-00.54.01:915][441]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.11.07-00.54.01:919][441]LogContentBundle: [TestingPlayerV3(Standalone)] Creating new contrainer.
+[2024.11.07-00.54.01:919][441]LogWorldPartition: Display: WorldPartition initialize took 3 ms (total: 4.38 sec)
+[2024.11.07-00.54.01:919][441]LogPlayLevel: PIE: World Init took: (0.004649s)
+[2024.11.07-00.54.01:919][441]LogAudio: Display: Creating Audio Device:                 Id: 44, Scope: Unique, Realtime: True
+[2024.11.07-00.54.01:919][441]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.07-00.54.01:919][441]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.07-00.54.01:919][441]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.07-00.54.01:919][441]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.07-00.54.01:919][441]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.07-00.54.01:919][441]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.07-00.54.01:919][441]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.07-00.54.01:919][441]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.07-00.54.01:920][441]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.07-00.54.01:920][441]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.07-00.54.01:920][441]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.07-00.54.01:922][441]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.07-00.54.01:960][441]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (2- USB Audio Device)
+[2024.11.07-00.54.01:960][441]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.07-00.54.01:960][441]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.07-00.54.01:960][441]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.07-00.54.01:961][441]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=44
+[2024.11.07-00.54.01:961][441]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=44
+[2024.11.07-00.54.01:964][441]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=44
+[2024.11.07-00.54.01:964][441]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=44
+[2024.11.07-00.54.01:964][441]LogInit: FAudioDevice initialized with ID 44.
+[2024.11.07-00.54.01:964][441]LogAudio: Display: Audio Device (ID: 44) registered with world 'TestingPlayerV3'.
+[2024.11.07-00.54.01:964][441]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 44
+[2024.11.07-00.54.01:967][441]LogLoad: Game class is 'MyGameGamemode_C'
+[2024.11.07-00.54.01:969][441]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TestingPlayerV3.TestingPlayerV3 up for play (max tick rate 0) at 2024.11.06-21.54.01
+[2024.11.07-00.54.01:969][441]LogWorld: Bringing up level for play took: 0.001030
+[2024.11.07-00.54.01:971][441]LogOnline: OSS: Created online subsystem instance for: :Context_84
+[2024.11.07-00.54.01:972][441]LogWorldPartition: UWorldPartitionStreamingPolicy: CellsToActivate(41), CellsToLoad(0), CellsToUnload(0)
+[2024.11.07-00.54.01:972][441]LogWorldPartition: UWorldPartitionStreamingPolicy: Sources[0] = X=-11940.435 Y=-6681.237 Z=92.000,P=0.000000 Y=0.000000 R=-0.000000
+[2024.11.07-00.54.01:976][441]LogStreaming: Display: FlushAsyncLoading(): 92 QueuedPackages, 0 AsyncPackages
+[2024.11.07-00.54.02:257][441]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/F/3V/SGXHP7QS5GRT1JBHT33KQ0.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.07-00.54.02:257][441]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/E/VL/X5Q085BFSP21DDX5UIEABG.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.07-00.54.02:257][441]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/E/H6/S0WC83HTY3H1Q6ZIEHXIDA.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.07-00.54.02:257][441]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/D/ZL/1M0AVZH3IH9U4BHF3XWLRB.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.07-00.54.02:257][441]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/D/VQ/LN8O9M33QV1LRFSFAGYGQE.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.07-00.54.02:257][441]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/D/PB/ITGTQXTF3W42FMEJUDC86F.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.07-00.54.02:257][441]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/D/PB/ITGTQXTF3W42FMEJUDC86F.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.07-00.54.02:257][441]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/D/MM/9NZ17YYZ7CIJDL9YCKJLAB.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.07-00.54.02:257][441]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/D/HK/9Q6DJT0B2S4K5Y3XK0XARX.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.07-00.54.02:257][441]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/D/0Q/HVZS5ZMERV3TW98Y0DX6SC.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.07-00.54.02:257][441]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/C/S3/H9GBJD0ENTCLGLFPYRVBNN.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.07-00.54.02:257][441]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/C/RQ/Q3BMFHGD4NV0OO8O87ZWR9.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.07-00.54.02:257][441]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/C/IZ/4BHZVNE3HLV86YURX5I32Q.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.07-00.54.02:257][441]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/C/IZ/4BHZVNE3HLV86YURX5I32Q.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.07-00.54.02:257][441]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/B/XF/53570J3X5SQKO6IXAICG05.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.07-00.54.02:257][441]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/B/VS/6IAPNLB1TA49NVF9V5T6LO.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.07-00.54.02:257][441]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/B/4S/7YHACLFH9MIU6FU0V2J82F.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.07-00.54.02:257][441]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/B/2E/1PY734PC1GI5QUQYSG9PY5.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.07-00.54.02:257][441]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/A/YJ/S3P81HND5RPWJ98FILI9US.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.07-00.54.02:257][441]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/A/N8/0OSA4YEZEY0SAJDMM533QP.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.07-00.54.02:257][441]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/A/3V/39S28UELJ8RROZ43YVMS9I.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.07-00.54.02:257][441]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/A/2W/7UVZO6XUMEB5HNHV8G3RAD.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.07-00.54.02:257][441]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/A/0B/58344MYAVPMKOGBBTY9GHF.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.07-00.54.02:257][441]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/A/0B/58344MYAVPMKOGBBTY9GHF.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.07-00.54.02:257][441]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/9/QN/U0FIVVDR1FD83DD800E9OE.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.07-00.54.02:257][441]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/9/MN/5OG9KQ7PPP6SC8Y7HAPU9W.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.07-00.54.02:257][441]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/8/WS/8DWMRN3YHHDRCG251BIVG9.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.07-00.54.02:257][441]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/8/WS/8DWMRN3YHHDRCG251BIVG9.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.07-00.54.02:257][441]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/8/RW/JI6IWZ8USTTA382KYB7AE5.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.07-00.54.02:257][441]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/8/RW/JI6IWZ8USTTA382KYB7AE5.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.07-00.54.02:257][441]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/8/OO/70ASEH7LQG8LAF3X7WJ4OE.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.07-00.54.02:257][441]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/8/OO/70ASEH7LQG8LAF3X7WJ4OE.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.07-00.54.02:257][441]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/8/IW/B9L9R56UDOKPEY2FYIVA84.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.07-00.54.02:259][441]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/8/IW/B9L9R56UDOKPEY2FYIVA84.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.07-00.54.02:259][441]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/8/A7/D1A0TDUF3P1P1RGDPQNXBP.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.07-00.54.02:259][441]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/8/A7/D1A0TDUF3P1P1RGDPQNXBP.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.07-00.54.02:259][441]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/7/ZL/Z4E57TBCO86Q8WUA96R6R4.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.07-00.54.02:259][441]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/7/ER/0CLB5CRJP6YGHJ5GPU3LRC.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.07-00.54.02:259][441]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/7/1M/LGSFCU0DFTR385FGLFLDIU.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.07-00.54.02:259][441]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/7/1M/LGSFCU0DFTR385FGLFLDIU.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.07-00.54.02:259][441]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/6/F5/CRBFSZI9KXO1Z3X9PE8JJ0.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.07-00.54.02:259][441]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/6/60/8BFJB4BK2XQ54I6TV7P3Z8.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.07-00.54.02:259][441]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/5/Y7/VJD4QITZGJ1SH7PZVIEZEX.StaticMesh_TestingPlayer_HLOD0_Instancing_7 being ready before playing
+[2024.11.07-00.54.02:259][441]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/5/Y7/VJD4QITZGJ1SH7PZVIEZEX.StaticMesh_TestingPlayer_HLOD0_Instancing_6 being ready before playing
+[2024.11.07-00.54.02:259][441]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/5/Y7/VJD4QITZGJ1SH7PZVIEZEX.StaticMesh_TestingPlayer_HLOD0_Instancing_5 being ready before playing
+[2024.11.07-00.54.02:259][441]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/5/Y7/VJD4QITZGJ1SH7PZVIEZEX.StaticMesh_TestingPlayer_HLOD0_Instancing_4 being ready before playing
+[2024.11.07-00.54.02:259][441]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/5/W9/65VMTCNFIT90VWA7RT2ENZ.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.07-00.54.02:259][441]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/5/N7/CMCF25TEG58RLN82SSAZ9M.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.07-00.54.02:259][441]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/5/LW/KH0EFZB35LZJE3HL6YTSPF.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.07-00.54.02:259][441]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/5/LW/KH0EFZB35LZJE3HL6YTSPF.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.07-00.54.02:259][441]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/2/D9/1AWAXE32A0Z461CFDKLF52.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.07-00.54.02:259][441]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/2/BP/QK49DVY62Z0FWRN0VBWHHE.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.07-00.54.02:259][441]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/2/BP/QK49DVY62Z0FWRN0VBWHHE.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.07-00.54.02:259][441]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/2/87/VQNVO7UZWUQP4Y0B1VA7T7.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.07-00.54.02:259][441]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/1/NR/DL6PX7RRS0GIZFUFDQZNVK.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.07-00.54.02:259][441]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/1/MK/L87UU7CRFBGRO8Q1YZYKBW.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.07-00.54.02:259][441]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/1/J2/036XKETCC6O300PIDLNXUN.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.07-00.54.02:259][441]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/1/G8/2LYN577GRGR8X783YCKF56.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.07-00.54.02:259][441]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/1/2L/60252UNVPG0VY69MOSQWSY.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.07-00.54.02:259][441]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/0/YT/0COB3VRMPDP3O4KDPL0NX0.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.07-00.54.02:259][441]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/0/YT/0COB3VRMPDP3O4KDPL0NX0.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.07-00.54.02:259][441]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/0/B4/KG7KFX7NG6MWAAQ87237GG.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.07-00.54.02:259][441]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/0/3W/1P5ZXA2I6LMI4NAG0UB1SV.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.07-00.54.02:259][441]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/0/2S/9O10TOMKEG3NRO8TDA9CWX.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.07-00.54.02:513][441]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.07-00.54.02:513][441]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.07-00.54.02:513][441]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.11.07-00.54.02:515][441]LogBlueprintUserMessages: [BP_Player_C_0] Current money is 18.970916
+[2024.11.07-00.54.02:515][441]LogScript: Warning: UGameplayStatics::BeginDeferredActorSpawnFromClass: can not spawn an actor from a NULL class
+[2024.11.07-00.54.02:515][441]LogScript: Warning: UGameplayStatics::BeginDeferredActorSpawnFromClass: can not spawn an actor from a NULL class
+[2024.11.07-00.54.02:517][441]LogBehaviorTree: Warning: BT_NPC::Blackboard Based Condition[0]> Failed to find key 'npcCantInteract' in BB asset BlackboardData /Game/Blueprints/AI/BBD_NPC.BBD_NPC. BB Key Selector will be set to 'Invalid'
+[2024.11.07-00.54.02:517][441]LogBehaviorTree: Warning: BT_NPC::Blackboard Based Condition[0]> Failed to find key 'npcCantInteract' in BB asset BlackboardData /Game/Blueprints/AI/BBD_NPC.BBD_NPC. BB Key Selector will be set to 'Invalid'
+[2024.11.07-00.54.02:518][441]LogWorldPartition: UWorldPartitionStreamingPolicy: CellsToActivate(1), CellsToLoad(0), CellsToUnload(0)
+[2024.11.07-00.54.02:518][441]LogWorldPartition: UWorldPartitionStreamingPolicy: Sources[0] = X=-9925.319 Y=-6168.168 Z=90.150,P=-0.000000 Y=-142.300001 R=0.000000
+[2024.11.07-00.54.02:531][441]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.11.07-00.54.02:531][441]PIE: Server logged in
+[2024.11.07-00.54.02:532][441]PIE: Play in editor total start time 1,027 seconds.
+[2024.11.07-00.54.04:231][565]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.04:292][570]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.04:352][575]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.04:414][580]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.04:475][585]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.04:537][590]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.04:599][595]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.04:660][600]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.04:721][604]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.04:773][608]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.04:835][613]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.04:891][618]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.04:938][622]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 1
+[2024.11.07-00.54.04:954][623]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.05:016][628]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.05:073][633]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.05:131][638]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.05:188][643]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.05:239][647]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.05:291][651]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.05:340][655]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.05:398][660]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.05:458][665]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.05:519][670]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.05:579][675]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.05:639][680]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.05:698][685]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.05:756][690]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.05:810][694]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.05:869][698]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.05:932][703]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.05:984][707]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.05:998][708]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 1
+[2024.11.07-00.54.06:001][708]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 3
+[2024.11.07-00.54.06:041][711]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.06:098][716]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.06:153][721]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.06:209][726]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.06:266][731]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.06:324][736]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 1
+[2024.11.07-00.54.06:325][736]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.06:383][741]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.06:441][746]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.06:497][751]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.06:553][756]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.06:610][761]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.06:655][765]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 1
+[2024.11.07-00.54.06:669][766]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.06:724][771]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.06:782][776]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.06:844][781]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.06:909][786]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.06:966][790]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.07:025][795]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.07:083][800]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.07:140][805]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.07:197][810]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.07:253][815]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.07:309][820]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.07:366][825]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.07:420][830]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.07:477][835]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.07:535][840]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.07:590][845]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.07:648][850]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.07:671][852]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 1
+[2024.11.07-00.54.07:706][855]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.07:766][860]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.07:819][864]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.07:875][868]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.07:928][872]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.07:981][876]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.08:034][880]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.08:092][885]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.08:149][890]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.08:207][895]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.08:263][900]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.08:319][905]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.08:376][910]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.08:433][915]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.08:489][920]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.08:546][925]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.08:602][930]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.08:660][935]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.08:721][940]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.08:772][944]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.08:827][949]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.08:882][954]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.08:939][959]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.08:995][964]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.09:050][969]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.09:112][974]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.09:173][979]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.09:229][984]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.09:288][989]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.09:348][994]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.09:405][999]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.09:462][  4]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.09:518][  9]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.09:574][ 14]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.09:632][ 19]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.09:687][ 24]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.09:744][ 29]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.09:800][ 34]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.09:813][ 35]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 1
+[2024.11.07-00.54.09:855][ 38]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.09:915][ 43]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.09:992][ 48]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.10:038][ 51]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.10:086][ 55]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.10:141][ 60]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.10:197][ 65]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.10:249][ 69]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.10:309][ 74]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.10:367][ 79]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.10:422][ 84]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.10:477][ 89]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.10:534][ 94]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.10:590][ 99]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.10:647][104]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.10:707][109]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.10:758][113]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.10:819][118]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.10:878][123]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.10:935][128]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.10:992][133]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.11:048][138]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.11:104][143]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.11:158][148]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.11:215][153]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.11:273][158]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.11:324][162]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.11:363][165]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 1
+[2024.11.07-00.54.11:375][166]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.11:431][171]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.11:488][176]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.11:545][181]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.11:601][186]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 1
+[2024.11.07-00.54.11:602][186]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.11:659][191]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.11:714][196]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.11:772][201]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.11:833][206]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.11:849][207]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 1
+[2024.11.07-00.54.11:889][210]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.11:939][214]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.12:001][219]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.12:057][224]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.12:092][227]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 1
+[2024.11.07-00.54.12:117][229]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.12:176][234]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.12:232][239]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.12:287][244]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.12:345][249]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.12:404][254]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.12:465][259]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.12:478][260]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 1
+[2024.11.07-00.54.12:524][264]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.12:580][269]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.12:637][274]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.12:692][279]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.12:747][284]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.12:804][289]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.12:858][294]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.12:915][299]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.12:972][304]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.13:028][309]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.13:083][314]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.13:140][319]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.13:152][320]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 1
+[2024.11.07-00.54.13:200][324]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.13:256][329]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.13:311][334]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.13:367][339]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.13:422][344]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.13:480][349]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.13:532][353]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.13:590][358]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.13:650][363]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.13:701][367]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.13:761][372]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.13:810][376]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.13:865][380]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.13:915][384]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.13:979][389]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.14:037][393]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.14:097][398]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.14:152][403]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.14:207][408]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.14:265][413]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.14:322][418]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.14:378][423]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.14:434][428]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.14:489][433]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.14:544][438]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.14:605][443]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.14:666][448]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.14:720][453]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.14:779][458]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.14:791][459]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 1
+[2024.11.07-00.54.14:838][463]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.14:893][468]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.14:947][473]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.15:002][478]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.15:061][483]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.15:117][488]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.15:172][493]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.15:227][498]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.15:283][503]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.15:340][508]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.15:394][513]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.15:448][518]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.15:503][523]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.15:559][528]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.15:609][532]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.15:669][537]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.15:731][542]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.15:785][547]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.15:845][552]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.15:896][556]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.15:956][561]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.16:016][566]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.16:071][571]LogBlueprintUserMessages: [BP_Atm_C_UAID_04421A9723D05C2C02_2057389151] 
+[2024.11.07-00.54.16:113][571]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.07-00.54.16:113][571]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TestingPlayerV3
+[2024.11.07-00.54.16:124][571]LogWorld: UWorld::CleanupWorld for TestingPlayerV3, bSessionEnded=true, bCleanupResources=true
+[2024.11.07-00.54.16:124][571]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.07-00.54.16:125][571]LogContentBundle: [TestingPlayerV3(Standalone)] Deleting container.
+[2024.11.07-00.54.16:129][571]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.07-00.54.16:137][571]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.07-00.54.16:160][571]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.07-00.54.16:161][571]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 44
+[2024.11.07-00.54.16:161][571]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=44
+[2024.11.07-00.54.16:163][571]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=44
+[2024.11.07-00.54.16:191][571]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2024.11.07-00.54.16:281][572]LogPlayLevel: Display: Destroying online subsystem :Context_84
