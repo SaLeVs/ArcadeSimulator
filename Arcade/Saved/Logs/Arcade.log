@@ -2377,3 +2377,1349 @@ LogConfig: CVar [[r.Occlusion.SingleRHIThreadStall:1]] deferred - dummy variable
 [2024.11.08-21.12.56:748][ 36]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
 [2024.11.08-21.12.56:748][ 36]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
 [2024.11.08-21.13.50:857][838]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2024.11.08-21.28.14:585][450]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/pedro/Downloads/Coisas Faculdade/Objs p_ texturizar/SM_WallSide.fbx)
+[2024.11.08-21.28.14:594][450]LogFbx: Loading FBX Scene from ../../../../../../Users/pedro/Downloads/Coisas Faculdade/Objs p_ texturizar/SM_WallSide.fbx
+[2024.11.08-21.28.14:600][450]LogFbx: FBX Scene Loaded Succesfully
+[2024.11.08-21.28.15:903][450]LogSlate: Window 'FBX Import Options' being destroyed
+[2024.11.08-21.28.15:987][450]LogFbx: Display: Triangulating static mesh Wall
+[2024.11.08-21.28.15:989][450]LogStaticMesh: Display: Building static mesh SM_WallSide...
+[2024.11.08-21.28.15:995][450]LogStaticMesh: Built static mesh [0.01s] /Game/Meshs/Scenery/NeonFlipStructure/SM_WallSide.SM_WallSide
+[2024.11.08-21.28.17:781][515]LogMeshUtilities: Finished distance field build in 1.1s - 126x7x84 sparse distance field, 0.1Mb total, 0.0Mb always loaded, 100% occupied, 4 triangles, SM_WallSide
+[2024.11.08-21.28.20:447][618]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.08-21.28.20:504][618]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshs/Scenery/NeonFlipStructure/SM_WallSide" FILE="D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Content/Meshs/Scenery/NeonFlipStructure/SM_WallSide.uasset" SILENT=true
+[2024.11.08-21.28.20:508][618]LogSavePackage: Moving output files for package: /Game/Meshs/Scenery/NeonFlipStructure/SM_WallSide
+[2024.11.08-21.28.20:508][618]LogSavePackage: Moving 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Saved/SM_WallSide795485274FDA222ECC3912A45F340902.tmp' to 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Content/Meshs/Scenery/NeonFlipStructure/SM_WallSide.uasset'
+[2024.11.08-21.28.20:519][618]LogFileHelpers: InternalPromptForCheckoutAndSave took 72 ms (total: 8.77 sec)
+[2024.11.08-21.28.20:521][618]AssetCheck: New page: Asset Save: SM_WallSide
+[2024.11.08-21.28.20:521][618]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Meshs/Scenery/NeonFlipStructure/SM_WallSide.SM_WallSide
+[2024.11.08-21.28.40:450][969]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2024.11.08-21.28.40:466][969]LogContentBrowser: Creating deferred item: NewFolder
+[2024.11.08-21.28.40:484][970]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2024.11.08-21.28.42:302][ 86]LogContentBrowser: Attempting asset rename: NewFolder -> WallSide
+[2024.11.08-21.28.42:303][ 86]LogContentBrowser: End creating deferred item NewFolder
+[2024.11.08-21.28.45:342][283]LogContentBrowser: Deferred new asset file creation: NewMaterial
+[2024.11.08-21.28.45:358][283]LogContentBrowser: Creating deferred item: NewMaterial
+[2024.11.08-21.28.45:387][285]LogContentBrowser: Renaming the item being created (Deferred Item: NewMaterial).
+[2024.11.08-21.28.49:960][587]LogContentBrowser: Attempting asset rename: NewMaterial -> M_WallSide
+[2024.11.08-21.28.49:961][587]LogContentBrowser: End creating deferred item NewMaterial
+[2024.11.08-21.28.51:700][672]LogSlate: Warning: Unable to rasterize '../../../Engine/Content/Editor/Slate/Starship/AssetIcons/SpecularProfile_64.svg'. File could not be found
+[2024.11.08-21.29.12:406][711]LogInterchangeEngine: [Pending] Importing
+[2024.11.08-21.29.12:406][711]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/pedro/Downl...turas/Walls/WallSiDE/SM_WallSide_DefaultMaterial_BaseColor.png]
+[2024.11.08-21.29.12:407][711]LogInterchangeEngine: [Pending] Importing -  (2)
+[2024.11.08-21.29.12:407][711]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/pedro/Downl...turas/Walls/WallSiDE/SM_WallSide_DefaultMaterial_Normal.png]
+[2024.11.08-21.29.12:409][711]LogInterchangeEngine: [Pending] Importing -  (3)
+[2024.11.08-21.29.12:409][711]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/pedro/Downl...turas/Walls/WallSiDE/SM_WallSide_DefaultMaterial_OcclusionRoughnessMetallic.png]
+[2024.11.08-21.29.12:451][712]LogInterchangeEngine: [Pending] Importing -  (3)
+[2024.11.08-21.29.12:588][716]LogInterchangePipeline: Display: Auto-detected normal map
+[2024.11.08-21.29.12:593][716]LogTexture: Display: Building textures: /Game/Materials/Meshs/Walls/WallSide/SM_WallSide_DefaultMaterial_Normal.SM_WallSide_DefaultMaterial_Normal (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 291.562488 MB), EncodeSpeed: Fast
+[2024.11.08-21.29.12:740][716]LogTexture: Display: Building textures: /Game/Materials/Meshs/Walls/WallSide/SM_WallSide_DefaultMaterial_OcclusionRoughnessMetallic.SM_WallSide_DefaultMaterial_OcclusionRoughnessMetallic (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.11.08-21.29.12:980][716]LogTexture: Display: Building textures: /Game/Materials/Meshs/Walls/WallSide/SM_WallSide_DefaultMaterial_BaseColor.SM_WallSide_DefaultMaterial_BaseColor (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.11.08-21.29.13:178][716]LogInterchangeEngine: [Pending] Importing -  (2)
+[2024.11.08-21.29.13:178][716]LogInterchangeEngine: [Pending] Importing -  (1)
+[2024.11.08-21.29.13:236][716]LogInterchangeEngine: [Success] Import Done
+[2024.11.08-21.29.13:278][717]LogInterchangeEngine: [Success] Import Done
+[2024.11.08-21.29.14:402][781]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/Materials/Meshs/Walls/WallSide/SM_WallSide_DefaultMaterial_BaseColor.SM_WallSide_DefaultMaterial_BaseColor
+[2024.11.08-21.29.14:682][781]LogViewport: Scene viewport resized to 911x524, mode Windowed.
+[2024.11.08-21.29.16:016][832]LogSlate: Window 'SM_WallSide_DefaultMaterial_BaseColor' being destroyed
+[2024.11.08-21.29.16:031][832]LogSlate: Window 'SM_WallSide_DefaultMaterial_BaseColor' being destroyed
+[2024.11.08-21.29.17:472][896]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/Materials/Meshs/Walls/WallSide/SM_WallSide_DefaultMaterial_OcclusionRoughnessMetallic.SM_WallSide_DefaultMaterial_OcclusionRoughnessMetallic
+[2024.11.08-21.29.17:690][896]LogViewport: Scene viewport resized to 911x524, mode Windowed.
+[2024.11.08-21.29.20:417][  9]LogTexture: Display: Building textures: /Game/Materials/Meshs/Walls/WallSide/SM_WallSide_DefaultMaterial_OcclusionRoughnessMetallic.SM_WallSide_DefaultMaterial_OcclusionRoughnessMetallic (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Final
+[2024.11.08-21.29.21:086][ 26]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.08-21.29.21:295][ 26]LogSavePackage: Moving output files for package: /Game/Materials/Meshs/Walls/WallSide/SM_WallSide_DefaultMaterial_OcclusionRoughnessMetallic
+[2024.11.08-21.29.21:295][ 26]LogSavePackage: Moving 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Saved/SM_WallSide_DefaultMaterial_OcclC5288C054C773443F96EFDB950EC017E.tmp' to 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Content/Materials/Meshs/Walls/WallSide/SM_WallSide_DefaultMaterial_OcclusionRoughnessMetallic.uasset'
+[2024.11.08-21.29.21:312][ 26]LogFileHelpers: InternalPromptForCheckoutAndSave took 225 ms (total: 8.99 sec)
+[2024.11.08-21.29.21:313][ 26]AssetCheck: New page: Asset Save: SM_WallSide_DefaultMaterial_OcclusionRoughnessMetallic
+[2024.11.08-21.29.21:313][ 26]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Materials/Meshs/Walls/WallSide/SM_WallSide_DefaultMaterial_OcclusionRoughnessMetallic.SM_WallSide_DefaultMaterial_OcclusionRoughnessMetallic
+[2024.11.08-21.29.23:143][105]LogSlate: Window 'SM_WallSide_DefaultMaterial_OcclusionRoughnessMetallic' being destroyed
+[2024.11.08-21.29.23:152][105]LogSlate: Window 'SM_WallSide_DefaultMaterial_OcclusionRoughnessMetallic' being destroyed
+[2024.11.08-21.29.25:128][161]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Materials/Meshs/Walls/WallSide/M_WallSide.M_WallSide
+[2024.11.08-21.29.25:134][161]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.08-21.29.25:134][161]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.08-21.29.25:504][161]MaterialEditorStats: Texture samplers: 0/16
+[2024.11.08-21.29.25:505][161]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.11.08-21.29.25:505][161]MaterialEditorStats: Shader Count: 0
+[2024.11.08-21.29.25:519][161]LogViewport: Scene viewport resized to 240x261, mode Windowed.
+[2024.11.08-21.29.25:571][162]LogShaderCompilers: Display: ================================================
+[2024.11.08-21.29.25:571][162]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.11.08-21.29.25:571][162]LogShaderCompilers: Display: Total job queries 1.204, among them cache hits 1.062 (88.21%)
+[2024.11.08-21.29.25:571][162]LogShaderCompilers: Display: Tracking 142 distinct input hashes that result in 77 distinct outputs (54.23%)
+[2024.11.08-21.29.25:571][162]LogShaderCompilers: Display: RAM used: 3,51 MiB of 819,20 MiB budget. Usage: 0.43%
+[2024.11.08-21.29.25:571][162]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.11.08-21.29.25:571][162]LogShaderCompilers: Display: Shaders Compiled: 40
+[2024.11.08-21.29.25:571][162]LogShaderCompilers: Display: Jobs assigned 40, completed 40 (100%)
+[2024.11.08-21.29.25:571][162]LogShaderCompilers: Display: Average time worker was idle: 149.31 s
+[2024.11.08-21.29.25:571][162]LogShaderCompilers: Display: Time job spent in pending queue: average 0.83 s, longest 4.55 s
+[2024.11.08-21.29.25:571][162]LogShaderCompilers: Display: Job execution time: average 1.13 s, max 2.83 s
+[2024.11.08-21.29.25:571][162]LogShaderCompilers: Display: Job life time (pending + execution): average 1.96 s, max 5.79
+[2024.11.08-21.29.25:571][162]LogShaderCompilers: Display: Shader code size: average 41,308 KiB, min 32,289 KiB, max 62,582 KiB
+[2024.11.08-21.29.25:571][162]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 12.98 s
+[2024.11.08-21.29.25:571][162]LogShaderCompilers: Display: Jobs were issued in 40 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.11.08-21.29.25:571][162]LogShaderCompilers: Display: Average processing rate: 3.08 jobs/sec
+[2024.11.08-21.29.25:571][162]LogShaderCompilers: Display: Total thread time: 34,51 s
+[2024.11.08-21.29.25:571][162]LogShaderCompilers: Display: Total thread preprocess time: 3,445 s
+[2024.11.08-21.29.25:571][162]LogShaderCompilers: Display: Percentage time preprocessing: 9.98%
+[2024.11.08-21.29.25:571][162]LogShaderCompilers: Display: Effective parallelization: 2.66 (times faster than compiling all shaders on one thread). Compare with number of workers: 4
+[2024.11.08-21.29.25:571][162]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.11.08-21.29.25:571][162]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled    2 times, average 1.26 sec, max 1.82 sec, min 0.70 sec)
+[2024.11.08-21.29.25:571][162]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy (compiled    2 times, average 1.20 sec, max 1.75 sec, min 0.64 sec)
+[2024.11.08-21.29.25:571][162]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight (compiled    2 times, average 1.20 sec, max 1.74 sec, min 0.65 sec)
+[2024.11.08-21.29.25:572][162]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight (compiled    2 times, average 1.16 sec, max 1.64 sec, min 0.68 sec)
+[2024.11.08-21.29.25:572][162]LogShaderCompilers: Display:               TBasePassPSFCachedVolumeIndirectLightingPolicy (compiled    2 times, average 1.09 sec, max 1.49 sec, min 0.69 sec)
+[2024.11.08-21.29.25:572][162]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.11.08-21.29.25:572][162]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 9.69% of total time (compiled    4 times, average 0.84 sec, max 0.88 sec, min 0.78 sec)
+[2024.11.08-21.29.25:572][162]LogShaderCompilers: Display:                                                 FLumenCardVS - 8.60% of total time (compiled    4 times, average 0.74 sec, max 0.77 sec, min 0.71 sec)
+[2024.11.08-21.29.25:572][162]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 8.53% of total time (compiled    4 times, average 0.74 sec, max 0.80 sec, min 0.70 sec)
+[2024.11.08-21.29.25:572][162]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight - 7.28% of total time (compiled    2 times, average 1.26 sec, max 1.82 sec, min 0.70 sec)
+[2024.11.08-21.29.25:572][162]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy - 6.95% of total time (compiled    2 times, average 1.20 sec, max 1.75 sec, min 0.64 sec)
+[2024.11.08-21.29.25:572][162]LogShaderCompilers: Display: ================================================
+[2024.11.08-21.29.25:678][163]MaterialEditorStats: Base pass shader: 187 instructions
+[2024.11.08-21.29.25:678][163]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.11.08-21.29.25:678][163]MaterialEditorStats: Texture samplers: 2/16
+[2024.11.08-21.29.25:678][163]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.11.08-21.29.25:678][163]MaterialEditorStats: Shader Count: 4
+[2024.11.08-21.29.26:920][202]LogViewport: Scene viewport resized to 239x273, mode Windowed.
+[2024.11.08-21.29.26:996][204]LogViewport: Scene viewport resized to 157x163, mode Windowed.
+[2024.11.08-21.29.27:055][205]LogViewport: Scene viewport resized to 151x155, mode Windowed.
+[2024.11.08-21.29.27:302][224]LogViewport: Scene viewport resized to 376x448, mode Windowed.
+[2024.11.08-21.29.28:222][242]LogSlate: Window 'M_WallSide' being destroyed
+[2024.11.08-21.29.37:809][  1]MaterialEditorStats: Texture samplers: 0/16
+[2024.11.08-21.29.37:809][  1]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2024.11.08-21.29.37:809][  1]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.11.08-21.29.37:809][  1]MaterialEditorStats: Shader Count: 0
+[2024.11.08-21.29.37:893][  3]MaterialEditorStats: Base pass shader: 194 instructions
+[2024.11.08-21.29.37:893][  3]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.11.08-21.29.37:893][  3]MaterialEditorStats: Texture samplers: 3/16
+[2024.11.08-21.29.37:893][  3]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2024.11.08-21.29.37:893][  3]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.11.08-21.29.37:893][  3]MaterialEditorStats: Shader Count: 2
+[2024.11.08-21.29.41:610][319]MaterialEditorStats: Texture samplers: 0/16
+[2024.11.08-21.29.41:610][319]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2024.11.08-21.29.41:610][319]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.11.08-21.29.41:610][319]MaterialEditorStats: Shader Count: 0
+[2024.11.08-21.29.41:689][321]MaterialEditorStats: Base pass shader: 202 instructions
+[2024.11.08-21.29.41:689][321]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.11.08-21.29.41:689][321]MaterialEditorStats: Texture samplers: 4/16
+[2024.11.08-21.29.41:689][321]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2024.11.08-21.29.41:689][321]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.11.08-21.29.41:689][321]MaterialEditorStats: Shader Count: 2
+[2024.11.08-21.29.44:148][532]MaterialEditorStats: Texture samplers: 0/16
+[2024.11.08-21.29.44:148][532]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2024.11.08-21.29.44:148][532]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.11.08-21.29.44:148][532]MaterialEditorStats: Shader Count: 0
+[2024.11.08-21.29.46:955][679]MaterialEditorStats: Base pass shader: 206 instructions
+[2024.11.08-21.29.46:956][679]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.11.08-21.29.46:956][679]MaterialEditorStats: Texture samplers: 5/16
+[2024.11.08-21.29.46:956][679]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2024.11.08-21.29.46:956][679]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.11.08-21.29.46:956][679]MaterialEditorStats: Shader Count: 2
+[2024.11.08-21.29.48:034][763]LogMaterialEditor: Saving and Compiling material M_WallSide
+[2024.11.08-21.29.48:340][763]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2024.11.08-21.29.48:546][763]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2024.11.08-21.29.48:562][763]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.08-21.29.48:740][763]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Meshs/Walls/WallSide/M_WallSide" FILE="D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Content/Materials/Meshs/Walls/WallSide/M_WallSide.uasset" SILENT=true
+[2024.11.08-21.29.48:743][763]LogSavePackage: Moving output files for package: /Game/Materials/Meshs/Walls/WallSide/M_WallSide
+[2024.11.08-21.29.48:743][763]LogSavePackage: Moving 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Saved/M_WallSideA50FEC984154564634BD53AB8979C427.tmp' to 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Content/Materials/Meshs/Walls/WallSide/M_WallSide.uasset'
+[2024.11.08-21.29.48:753][763]LogFileHelpers: InternalPromptForCheckoutAndSave took 191 ms (total: 9.18 sec)
+[2024.11.08-21.29.48:754][763]AssetCheck: New page: Asset Save: M_WallSide
+[2024.11.08-21.29.48:754][763]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Materials/Meshs/Walls/WallSide/M_WallSide.M_WallSide
+[2024.11.08-21.29.48:756][763]MaterialEditorStats: Base pass shader: 206 instructions
+[2024.11.08-21.29.48:756][763]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.11.08-21.29.48:756][763]MaterialEditorStats: MaxSampler: 270 instructions
+[2024.11.08-21.29.48:756][763]MaterialEditorStats: Texture samplers: 6/16
+[2024.11.08-21.29.48:756][763]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2024.11.08-21.29.48:756][763]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.11.08-21.29.48:756][763]MaterialEditorStats: Shader Count: 16
+[2024.11.08-21.30.19:958][311]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Meshs/Scenery/NeonFlipStructure/SM_WallSide.SM_WallSide
+[2024.11.08-21.30.19:958][311]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Meshs/Scenery/NeonFlipStructure/SM_WallSide.SM_WallSide
+[2024.11.08-21.30.19:958][311]LogActorFactory: Actor Factory spawned StaticMesh /Game/Meshs/Scenery/NeonFlipStructure/SM_WallSide.SM_WallSide as actor: StaticMeshActor /Game/Levels/Arcade.Arcade:PersistentLevel.StaticMeshActor_192
+[2024.11.08-21.30.22:065][438]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Meshs/Scenery/NeonFlipStructure/SM_WallSide.SM_WallSide
+[2024.11.08-21.30.22:065][438]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Meshs/Scenery/NeonFlipStructure/SM_WallSide.SM_WallSide
+[2024.11.08-21.30.22:070][438]LogActorFactory: Actor Factory spawned StaticMesh /Game/Meshs/Scenery/NeonFlipStructure/SM_WallSide.SM_WallSide as actor: StaticMeshActor /Game/Levels/Arcade.Arcade:PersistentLevel.StaticMeshActor_194
+[2024.11.08-21.30.44:930][604]Cmd: TRANSACTION UNDO
+[2024.11.08-21.30.44:930][604]LogEditorTransaction: Undo Move Elements
+[2024.11.08-21.31.33:043][212]Cmd: DELETE
+[2024.11.08-21.31.33:043][212]Cmd: ACTOR DELETE
+[2024.11.08-21.31.33:052][212]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.11.08-21.31.33:053][212]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.11.08-21.31.33:054][212]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.11.08-21.31.33:055][212]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.11.08-21.31.33:056][212]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.11.08-21.31.33:065][212]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2024.11.08-21.31.33:076][212]LogEditorActor: Deleted 5 Actors (0.033 secs)
+[2024.11.08-21.31.55:190][225]Cmd: ACTOR HIDE SELECTED
+[2024.11.08-21.32.12:132][ 52]Cmd: DELETE
+[2024.11.08-21.32.12:132][ 52]Cmd: ACTOR DELETE
+[2024.11.08-21.32.12:139][ 52]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.11.08-21.32.12:140][ 52]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.11.08-21.32.12:141][ 52]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.11.08-21.32.12:142][ 52]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.11.08-21.32.12:142][ 52]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.11.08-21.32.12:143][ 52]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.11.08-21.32.12:144][ 52]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.11.08-21.32.12:152][ 52]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2024.11.08-21.32.12:159][ 52]LogEditorActor: Deleted 7 Actors (0.027 secs)
+[2024.11.08-21.33.13:153][239]Cmd: DELETE
+[2024.11.08-21.33.13:153][239]Cmd: ACTOR DELETE
+[2024.11.08-21.33.13:161][239]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.11.08-21.33.13:162][239]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.11.08-21.33.13:163][239]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.11.08-21.33.13:172][239]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2024.11.08-21.33.13:181][239]LogEditorActor: Deleted 3 Actors (0.027 secs)
+[2024.11.08-21.33.46:702][819]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2024.11.08-21.33.46:707][819]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Arcade" FILE="D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Saved/Autosaves/Game/Levels/Arcade_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2024.11.08-21.33.46:808][819]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Levels/Arcade_Auto2
+[2024.11.08-21.33.46:809][819]LogSavePackage: Moving 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Saved/Arcade_Auto2211D838F4A0390E23C1A54AFF3C819B9.tmp' to 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Saved/Autosaves/Game/Levels/Arcade_Auto2.umap'
+[2024.11.08-21.33.46:811][819]LogAssetRegistry: Warning: ScanPathsSynchronous: D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Saved/Autosaves/Game/Levels/Arcade_Auto2.umap is in the /Temp path, will not scan.
+[2024.11.08-21.33.46:811][819]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/Arcade' took 0.122
+[2024.11.08-21.33.46:811][819]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.122
+[2024.11.08-21.33.46:812][819]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Materials/Meshs/Walls/WallSide/SM_WallSide_DefaultMaterial_BaseColor] ([1] browsable assets)...
+[2024.11.08-21.33.46:816][819]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Materials/Meshs/Walls/WallSide/SM_WallSide_DefaultMaterial_BaseColor.SM_WallSide_DefaultMaterial_BaseColor]
+[2024.11.08-21.33.46:817][819]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/Meshs/Walls/WallSide/SM_WallSide_DefaultMaterial_BaseColor]
+[2024.11.08-21.33.46:848][819]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Materials/Meshs/Walls/WallSide/SM_WallSide_DefaultMaterial_BaseColor_Auto2
+[2024.11.08-21.33.46:848][819]LogSavePackage: Moving 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Saved/SM_WallSide_DefaultMaterial_Base5412B9BD457BE619CB9955B19AECF35A.tmp' to 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Saved/Autosaves/Game/Materials/Meshs/Walls/WallSide/SM_WallSide_DefaultMaterial_BaseColor_Auto2.uasset'
+[2024.11.08-21.33.46:849][819]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Materials/Meshs/Walls/WallSide/SM_WallSide_DefaultMaterial_Normal] ([1] browsable assets)...
+[2024.11.08-21.33.46:857][819]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Materials/Meshs/Walls/WallSide/SM_WallSide_DefaultMaterial_Normal.SM_WallSide_DefaultMaterial_Normal]
+[2024.11.08-21.33.46:857][819]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/Meshs/Walls/WallSide/SM_WallSide_DefaultMaterial_Normal]
+[2024.11.08-21.33.46:905][819]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Materials/Meshs/Walls/WallSide/SM_WallSide_DefaultMaterial_Normal_Auto2
+[2024.11.08-21.33.46:905][819]LogSavePackage: Moving 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Saved/SM_WallSide_DefaultMaterial_Norm99A774C54266872C9302268C9EF904C5.tmp' to 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Saved/Autosaves/Game/Materials/Meshs/Walls/WallSide/SM_WallSide_DefaultMaterial_Normal_Auto2.uasset'
+[2024.11.08-21.33.46:907][819]LogFileHelpers: Auto-saving content packages took 0.095
+[2024.11.08-21.36.22:073][826]Cmd: TRANSACTION UNDO
+[2024.11.08-21.36.22:073][826]LogEditorTransaction: Undo Clicking on Elements
+[2024.11.08-21.36.31:176][161]Cmd: DELETE
+[2024.11.08-21.36.31:176][161]Cmd: ACTOR DELETE
+[2024.11.08-21.36.31:183][161]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.11.08-21.36.31:184][161]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.11.08-21.36.31:185][161]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.11.08-21.36.31:186][161]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.11.08-21.36.31:187][161]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.11.08-21.36.31:188][161]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.11.08-21.36.31:198][161]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2024.11.08-21.36.31:207][161]LogEditorActor: Deleted 6 Actors (0.030 secs)
+[2024.11.08-21.38.21:747][128]LogDerivedDataCache: C:/Users/pedro/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:12.379 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 6145 files in 7723 folders with total size 477 MiB.
+[2024.11.08-21.40.39:280][324]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Meshs/Scenery/NeonFlipStructure/SM_WallSide.SM_WallSide
+[2024.11.08-21.40.39:299][324]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.08-21.40.39:299][324]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.08-21.40.40:386][324]LogViewport: Scene viewport resized to 1405x902, mode Windowed.
+[2024.11.08-21.40.55:401][ 16]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.08-21.40.55:485][ 16]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshs/Scenery/NeonFlipStructure/SM_WallSide" FILE="D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Content/Meshs/Scenery/NeonFlipStructure/SM_WallSide.uasset" SILENT=true
+[2024.11.08-21.40.55:490][ 16]LogSavePackage: Moving output files for package: /Game/Meshs/Scenery/NeonFlipStructure/SM_WallSide
+[2024.11.08-21.40.55:490][ 16]LogSavePackage: Moving 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Saved/SM_WallSide6F42564E4E5C57CD55FB019CFFF62327.tmp' to 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Content/Meshs/Scenery/NeonFlipStructure/SM_WallSide.uasset'
+[2024.11.08-21.40.55:507][ 16]LogFileHelpers: InternalPromptForCheckoutAndSave took 106 ms (total: 9.29 sec)
+[2024.11.08-21.40.55:509][ 16]AssetCheck: New page: Asset Save: SM_WallSide
+[2024.11.08-21.40.55:509][ 16]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Meshs/Scenery/NeonFlipStructure/SM_WallSide.SM_WallSide
+[2024.11.08-21.40.56:592][ 73]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2024.11.08-21.40.56:592][ 73]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.08-21.40.58:959][224]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Meshs/Scenery/NeonFlipStructure/WallWithDoors_Wall_w_door.WallWithDoors_Wall_w_door
+[2024.11.08-21.40.58:975][224]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.08-21.40.58:975][224]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.08-21.41.00:052][224]LogViewport: Scene viewport resized to 1405x902, mode Windowed.
+[2024.11.08-21.41.14:512][981]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.08-21.41.14:599][981]LogSavePackage: Moving output files for package: /Game/Meshs/Scenery/NeonFlipStructure/WallWithDoors_Wall_w_door
+[2024.11.08-21.41.14:599][981]LogSavePackage: Moving 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Saved/WallWithDoors_Wall_w_door714DF69C45E6DD23B552C48640AB299C.tmp' to 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Content/Meshs/Scenery/NeonFlipStructure/WallWithDoors_Wall_w_door.uasset'
+[2024.11.08-21.41.14:609][981]LogFileHelpers: InternalPromptForCheckoutAndSave took 96 ms (total: 9.39 sec)
+[2024.11.08-21.41.14:611][981]AssetCheck: New page: Asset Save: WallWithDoors_Wall_w_door
+[2024.11.08-21.41.14:611][981]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Meshs/Scenery/NeonFlipStructure/WallWithDoors_Wall_w_door.WallWithDoors_Wall_w_door
+[2024.11.08-21.41.15:600][ 37]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2024.11.08-21.41.15:601][ 37]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.08-21.43.19:389][292]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2024.11.08-21.43.23:246][292]LogSlate: Window 'Delete Assets' being destroyed
+[2024.11.08-21.43.23:261][292]LogUObjectGlobals: Force Deleting 2 Package(s):
+	Asset Name: /Game/Meshs/Scenery/NeonFlipStructure/SM_WallDoor_RightDoor.SM_WallDoor_RightDoor
+	Asset Type: StaticMesh
+	Asset Name: /Game/Meshs/Scenery/NeonFlipStructure/SM_WallDoor_LeftDoor.SM_WallDoor_LeftDoor
+	Asset Type: StaticMesh
+[2024.11.08-21.43.23:742][292]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2024.11.08-21.43.23:751][292]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2024.11.08-21.43.23:759][292]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2024.11.08-21.43.27:429][460]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2024.11.08-21.43.29:538][460]LogSlate: Window 'Delete Assets' being destroyed
+[2024.11.08-21.43.31:461][557]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.08-21.43.31:517][557]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Arcade" FILE="D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Content/Levels/Arcade.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.11.08-21.43.31:616][557]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2024.11.08-21.43.31:725][557]LogSavePackage: Moving output files for package: /Game/Levels/Arcade
+[2024.11.08-21.43.31:726][557]LogSavePackage: Moving 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Saved/Arcade6D5DD93743029986F1AF2F9225739757.tmp' to 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Content/Levels/Arcade.umap'
+[2024.11.08-21.43.31:749][557]LogFileHelpers: Saving map 'Arcade' took 0.232
+[2024.11.08-21.43.31:761][557]LogFileHelpers: InternalPromptForCheckoutAndSave took 300 ms (total: 9.69 sec)
+[2024.11.08-21.43.31:766][557]AssetCheck: New page: Asset Save: Arcade
+[2024.11.08-21.43.31:766][557]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Arcade.Arcade
+[2024.11.08-21.43.35:146][742]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2024.11.08-21.43.37:730][742]LogSlate: Window 'Delete Assets' being destroyed
+[2024.11.08-21.43.37:754][742]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/Meshs/Scenery/NeonFlipStructure/SM_WallDoor_Wall_w_door.SM_WallDoor_Wall_w_door
+	Asset Type: StaticMesh
+[2024.11.08-21.43.38:089][742]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2024.11.08-21.43.38:099][742]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2024.11.08-21.43.38:109][742]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2024.11.08-21.43.49:430][351]LogEditorFactories: Performing atomic reimport of [C:/Users/pedro/Downloads/Coisas Faculdade/Objs p_ texturizar/SM_WallSingleDoor.fbx]
+[2024.11.08-21.43.49:439][351]LogFbx: Loading FBX Scene from C:/Users/pedro/Downloads/Coisas Faculdade/Objs p_ texturizar/SM_WallSingleDoor.fbx
+[2024.11.08-21.43.49:445][351]LogFbx: FBX Scene Loaded Succesfully
+[2024.11.08-21.43.49:509][351]LogFbx: Display: Triangulating static mesh WallSingleDoor
+[2024.11.08-21.43.49:524][351]LogStaticMesh: Display: Building static mesh SM_WallSingleDoor_WallSingleDoor...
+[2024.11.08-21.43.49:577][351]LogStaticMesh: Built static mesh [0.05s] /Game/Meshs/Scenery/NeonFlipStructure/SM_WallSingleDoor_WallSingleDoor.SM_WallSingleDoor_WallSingleDoor
+[2024.11.08-21.43.49:590][351]LogStaticMesh: Warning: SM_WallSingleDoor_WallSingleDoor has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2024.11.08-21.43.49:590][351]LogStaticMesh: Warning: SM_WallSingleDoor_WallSingleDoor has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2024.11.08-21.43.49:607][351]LogEditorFactories: -- imported successfully
+[2024.11.08-21.43.49:608][351]FBXImport: Warning: SM_WallSingleDoor_WallSingleDoor has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2024.11.08-21.43.49:608][351]FBXImport: Warning: SM_WallSingleDoor_WallSingleDoor has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2024.11.08-21.44.25:584][450]LogInterchangeEngine: [Pending] Importing
+[2024.11.08-21.44.25:584][450]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/pedro/Downl...alls/WallsSingleDoor/SM_WallSingleDoor2_DefaultMaterial_BaseColor.png]
+[2024.11.08-21.44.25:627][451]LogInterchangeEngine: [Pending] Importing
+[2024.11.08-21.44.25:781][456]LogTexture: Display: Building textures: /Game/Materials/Meshs/Walls/WallSingleDoor/SingleDoor_DefaultMaterial_BaseColor.SingleDoor_DefaultMaterial_BaseColor (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.11.08-21.44.26:017][456]LogInterchangeEngine: [Success] Import Done
+[2024.11.08-21.44.26:061][457]LogInterchangeEngine: [Success] Import Done
+[2024.11.08-21.44.29:280][553]LogInterchangeEngine: [Pending] Importing
+[2024.11.08-21.44.29:280][553]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/pedro/Downl...alls/WallsSingleDoor/SM_WallSingleDoor2_DefaultMaterial_Normal.png]
+[2024.11.08-21.44.29:321][554]LogInterchangeEngine: [Pending] Importing
+[2024.11.08-21.44.29:420][557]LogTexture: Display: Building textures: /Game/Materials/Meshs/Walls/WallSingleDoor/SingleDoor_DefaultMaterial_Normal.SingleDoor_DefaultMaterial_Normal (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 291.562488 MB), EncodeSpeed: Fast
+[2024.11.08-21.44.29:970][557]LogInterchangeEngine: [Success] Import Done
+[2024.11.08-21.44.30:019][558]LogInterchangeEngine: [Success] Import Done
+[2024.11.08-21.44.40:009][822]LogInterchangeEngine: [Pending] Importing
+[2024.11.08-21.44.40:009][822]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/pedro/Downl...alls/WallsSingleDoor/SM_WallSingleDoor2_DefaultMaterial_OcclusionRoughnessMetallic.png]
+[2024.11.08-21.44.40:049][823]LogInterchangeEngine: [Pending] Importing
+[2024.11.08-21.44.40:179][827]LogTexture: Display: Building textures: /Game/Materials/Meshs/Walls/WallSingleDoor/SingleDoor_DefaultMaterial_OcclusionRoughnessMetallic.SingleDoor_DefaultMaterial_OcclusionRoughnessMetallic (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.11.08-21.44.40:425][827]LogInterchangeEngine: [Success] Import Done
+[2024.11.08-21.44.40:453][828]LogInterchangeEngine: [Success] Import Done
+[2024.11.08-21.44.42:815][872]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.08-21.44.43:100][872]LogSavePackage: Moving output files for package: /Game/Materials/Meshs/Walls/WallSingleDoor/SingleDoor_DefaultMaterial_OcclusionRoughnessMetallic
+[2024.11.08-21.44.43:101][872]LogSavePackage: Moving 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Saved/SingleDoor_DefaultMaterial_OccluF047064F4CEB4DFCB435F7BA0ACEC492.tmp' to 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Content/Materials/Meshs/Walls/WallSingleDoor/SingleDoor_DefaultMaterial_OcclusionRoughnessMetallic.uasset'
+[2024.11.08-21.44.43:362][872]LogSavePackage: Moving output files for package: /Game/Materials/Meshs/Walls/WallSingleDoor/SingleDoor_DefaultMaterial_BaseColor
+[2024.11.08-21.44.43:363][872]LogSavePackage: Moving 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Saved/SingleDoor_DefaultMaterial_BaseC7921BCBF44B811D0D31DBEBE380A15B9.tmp' to 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Content/Materials/Meshs/Walls/WallSingleDoor/SingleDoor_DefaultMaterial_BaseColor.uasset'
+[2024.11.08-21.44.43:534][872]LogSavePackage: Moving output files for package: /Game/Materials/Meshs/Walls/WallSingleDoor/SingleDoor_DefaultMaterial_Normal
+[2024.11.08-21.44.43:535][872]LogSavePackage: Moving 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Saved/SingleDoor_DefaultMaterial_Norma03865DCB407E5AF8E46BFB82E79AA3A5.tmp' to 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Content/Materials/Meshs/Walls/WallSingleDoor/SingleDoor_DefaultMaterial_Normal.uasset'
+[2024.11.08-21.44.43:555][872]LogFileHelpers: InternalPromptForCheckoutAndSave took 740 ms (total: 10.4 sec)
+[2024.11.08-21.44.43:556][872]AssetCheck: New page: Asset Save: multiple assets
+[2024.11.08-21.44.43:556][872]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Materials/Meshs/Walls/WallSingleDoor/SingleDoor_DefaultMaterial_OcclusionRoughnessMetallic.SingleDoor_DefaultMaterial_OcclusionRoughnessMetallic
+[2024.11.08-21.44.43:557][872]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Materials/Meshs/Walls/WallSingleDoor/SingleDoor_DefaultMaterial_BaseColor.SingleDoor_DefaultMaterial_BaseColor
+[2024.11.08-21.44.43:557][872]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Materials/Meshs/Walls/WallSingleDoor/SingleDoor_DefaultMaterial_Normal.SingleDoor_DefaultMaterial_Normal
+[2024.11.08-21.45.27:766][996]Cmd: TRANSACTION UNDO
+[2024.11.08-21.45.27:766][996]LogEditorTransaction: Undo Move Elements
+[2024.11.08-21.46.06:029][233]Cmd: TRANSACTION UNDO
+[2024.11.08-21.46.06:029][233]LogEditorTransaction: Undo Move Elements
+[2024.11.08-21.46.38:038][865]LogEditorFactories: Performing atomic reimport of [C:/Users/pedro/Downloads/Coisas Faculdade/Objs p_ texturizar/SM_WallSingleDoor.fbx]
+[2024.11.08-21.46.38:048][865]LogFbx: Loading FBX Scene from C:/Users/pedro/Downloads/Coisas Faculdade/Objs p_ texturizar/SM_WallSingleDoor.fbx
+[2024.11.08-21.46.38:054][865]LogFbx: FBX Scene Loaded Succesfully
+[2024.11.08-21.46.38:107][865]LogFbx: Display: Triangulating static mesh WallSingleDoor
+[2024.11.08-21.46.38:122][865]LogStaticMesh: Display: Building static mesh SM_WallSingleDoor_WallSingleDoor...
+[2024.11.08-21.46.38:171][865]LogStaticMesh: Built static mesh [0.05s] /Game/Meshs/Scenery/NeonFlipStructure/SM_WallSingleDoor_WallSingleDoor.SM_WallSingleDoor_WallSingleDoor
+[2024.11.08-21.46.38:183][865]LogStaticMesh: Warning: SM_WallSingleDoor_WallSingleDoor has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2024.11.08-21.46.38:195][865]LogEditorFactories: -- imported successfully
+[2024.11.08-21.46.38:196][865]FBXImport: Warning: SM_WallSingleDoor_WallSingleDoor has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2024.11.08-21.46.45:516][178]Cmd: TRANSACTION UNDO
+[2024.11.08-21.46.45:516][178]LogEditorTransaction: Undo Set Rotation
+[2024.11.08-21.46.53:539][494]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Meshs/Scenery/NeonFlipStructure/SM_WallSingleDoor_WallSingleDoor.SM_WallSingleDoor_WallSingleDoor
+[2024.11.08-21.46.53:552][494]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.08-21.46.53:552][494]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.08-21.46.54:846][494]LogViewport: Scene viewport resized to 1405x902, mode Windowed.
+[2024.11.08-21.53.33:033][167]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2024.11.08-21.53.33:040][167]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Arcade" FILE="D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Saved/Autosaves/Game/Levels/Arcade_Auto3.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2024.11.08-21.53.33:142][167]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Levels/Arcade_Auto3
+[2024.11.08-21.53.33:143][167]LogSavePackage: Moving 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Saved/Arcade_Auto307C0BE1D487B156D9DCE4583B5F7222E.tmp' to 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Saved/Autosaves/Game/Levels/Arcade_Auto3.umap'
+[2024.11.08-21.53.33:145][167]LogAssetRegistry: Warning: ScanPathsSynchronous: D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Saved/Autosaves/Game/Levels/Arcade_Auto3.umap is in the /Temp path, will not scan.
+[2024.11.08-21.53.33:145][167]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/Arcade' took 0.128
+[2024.11.08-21.53.33:145][167]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.128
+[2024.11.08-21.53.33:146][167]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Materials/Meshs/Walls/WallSide/SM_WallSide_DefaultMaterial_Normal] ([1] browsable assets)...
+[2024.11.08-21.53.33:146][167]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/Meshs/Walls/WallSide/SM_WallSide_DefaultMaterial_Normal]
+[2024.11.08-21.53.33:174][167]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Materials/Meshs/Walls/WallSide/SM_WallSide_DefaultMaterial_Normal_Auto3
+[2024.11.08-21.53.33:174][167]LogSavePackage: Moving 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Saved/SM_WallSide_DefaultMaterial_Norm33F902354E86053F31E8E2A0B2C18D92.tmp' to 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Saved/Autosaves/Game/Materials/Meshs/Walls/WallSide/SM_WallSide_DefaultMaterial_Normal_Auto3.uasset'
+[2024.11.08-21.53.33:175][167]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Materials/Meshs/Walls/WallSide/SM_WallSide_DefaultMaterial_BaseColor] ([1] browsable assets)...
+[2024.11.08-21.53.33:175][167]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/Meshs/Walls/WallSide/SM_WallSide_DefaultMaterial_BaseColor]
+[2024.11.08-21.53.33:226][167]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Materials/Meshs/Walls/WallSide/SM_WallSide_DefaultMaterial_BaseColor_Auto3
+[2024.11.08-21.53.33:227][167]LogSavePackage: Moving 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Saved/SM_WallSide_DefaultMaterial_Base6639F806413FA25A12F7A0B747A571C6.tmp' to 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Saved/Autosaves/Game/Materials/Meshs/Walls/WallSide/SM_WallSide_DefaultMaterial_BaseColor_Auto3.uasset'
+[2024.11.08-21.53.33:229][167]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshs/Scenery/NeonFlipStructure/SM_WallSingleDoor_WallSingleDoor] ([1] browsable assets)...
+[2024.11.08-21.53.33:255][167]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Meshs/Scenery/NeonFlipStructure/SM_WallSingleDoor_WallSingleDoor.SM_WallSingleDoor_WallSingleDoor]
+[2024.11.08-21.53.33:255][167]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshs/Scenery/NeonFlipStructure/SM_WallSingleDoor_WallSingleDoor]
+[2024.11.08-21.53.33:262][167]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Meshs/Scenery/NeonFlipStructure/SM_WallSingleDoor_WallSingleDoor_Auto3
+[2024.11.08-21.53.33:262][167]LogSavePackage: Moving 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Saved/SM_WallSingleDoor_WallSingleDoorE485F555469FE3528AE7CB80D3B4AAB7.tmp' to 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Saved/Autosaves/Game/Meshs/Scenery/NeonFlipStructure/SM_WallSingleDoor_WallSingleDoor_Auto3.uasset'
+[2024.11.08-21.53.33:263][167]LogFileHelpers: Auto-saving content packages took 0.118
+[2024.11.08-21.58.14:728][328]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2024.11.08-21.58.32:179][380]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2024.11.08-22.01.27:494][504]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2024.11.08-22.18.36:965][721]LogEditorFactories: Performing atomic reimport of [C:/Users/pedro/Downloads/Coisas Faculdade/Objs p_ texturizar/SM_WallSingleDoor.fbx]
+[2024.11.08-22.18.36:974][721]LogFbx: Loading FBX Scene from C:/Users/pedro/Downloads/Coisas Faculdade/Objs p_ texturizar/SM_WallSingleDoor.fbx
+[2024.11.08-22.18.36:980][721]LogFbx: FBX Scene Loaded Succesfully
+[2024.11.08-22.18.37:030][721]LogFbx: Display: Triangulating static mesh WallSingleDoor
+[2024.11.08-22.18.37:048][721]LogStaticMesh: Display: Building static mesh SM_WallSingleDoor_WallSingleDoor...
+[2024.11.08-22.18.37:106][721]LogStaticMesh: Built static mesh [0.06s] /Game/Meshs/Scenery/NeonFlipStructure/SM_WallSingleDoor_WallSingleDoor.SM_WallSingleDoor_WallSingleDoor
+[2024.11.08-22.18.37:136][721]LogEditorFactories: -- imported successfully
+[2024.11.08-22.18.38:260][724]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.08-22.18.38:369][724]LogSavePackage: Moving output files for package: /Game/Meshs/Scenery/NeonFlipStructure/SM_WallSingleDoor_WallSingleDoor
+[2024.11.08-22.18.38:369][724]LogSavePackage: Moving 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Saved/SM_WallSingleDoor_WallSingleDoorE971878D41CD907518A6A9A0DE7278C4.tmp' to 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Content/Meshs/Scenery/NeonFlipStructure/SM_WallSingleDoor_WallSingleDoor.uasset'
+[2024.11.08-22.18.38:387][724]LogFileHelpers: InternalPromptForCheckoutAndSave took 127 ms (total: 10.5 sec)
+[2024.11.08-22.18.38:392][724]AssetCheck: New page: Asset Save: SM_WallSingleDoor_WallSingleDoor
+[2024.11.08-22.18.38:392][724]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Meshs/Scenery/NeonFlipStructure/SM_WallSingleDoor_WallSingleDoor.SM_WallSingleDoor_WallSingleDoor
+[2024.11.08-22.18.54:095][869]LogInterchangeEngine: [Pending] Importing
+[2024.11.08-22.18.54:096][869]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/pedro/Downl...alls/WallsSingleDoor/SM_WallSingleDoor2_DefaultMaterial_BaseColor.png]
+[2024.11.08-22.18.54:136][870]LogInterchangeEngine: [Pending] Importing
+[2024.11.08-22.18.54:285][875]LogTexture: Display: Building textures: /Game/Materials/Meshs/Walls/WallSingleDoor/SingleDoor_DefaultMaterial_BaseColor.SingleDoor_DefaultMaterial_BaseColor (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.11.08-22.18.54:508][875]LogInterchangeEngine: [Success] Import Done
+[2024.11.08-22.18.54:533][876]LogInterchangeEngine: [Success] Import Done
+[2024.11.08-22.18.58:006][954]LogInterchangeEngine: [Pending] Importing
+[2024.11.08-22.18.58:006][954]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/pedro/Downl...alls/WallsSingleDoor/SM_WallSingleDoor2_DefaultMaterial_Normal.png]
+[2024.11.08-22.18.58:042][955]LogInterchangeEngine: [Pending] Importing
+[2024.11.08-22.18.58:151][958]LogTexture: Display: Building textures: /Game/Materials/Meshs/Walls/WallSingleDoor/SingleDoor_DefaultMaterial_Normal.SingleDoor_DefaultMaterial_Normal (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 291.562488 MB), EncodeSpeed: Fast
+[2024.11.08-22.18.58:311][958]LogInterchangeEngine: [Success] Import Done
+[2024.11.08-22.18.58:336][958]LogInterchangeEngine: [Success] Import Done
+[2024.11.08-22.19.01:719][ 31]LogInterchangeEngine: [Pending] Importing
+[2024.11.08-22.19.01:719][ 31]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/pedro/Downl...alls/WallsSingleDoor/SM_WallSingleDoor2_DefaultMaterial_OcclusionRoughnessMetallic.png]
+[2024.11.08-22.19.01:757][ 32]LogInterchangeEngine: [Pending] Importing
+[2024.11.08-22.19.01:884][ 36]LogTexture: Display: Building textures: /Game/Materials/Meshs/Walls/WallSingleDoor/SingleDoor_DefaultMaterial_OcclusionRoughnessMetallic.SingleDoor_DefaultMaterial_OcclusionRoughnessMetallic (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.11.08-22.19.02:167][ 36]LogInterchangeEngine: [Success] Import Done
+[2024.11.08-22.19.02:201][ 37]LogInterchangeEngine: [Success] Import Done
+[2024.11.08-22.19.03:726][ 82]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.08-22.19.04:821][ 82]LogSavePackage: Moving output files for package: /Game/Materials/Meshs/Walls/WallSingleDoor/SingleDoor_DefaultMaterial_OcclusionRoughnessMetallic
+[2024.11.08-22.19.04:822][ 82]LogSavePackage: Moving 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Saved/SingleDoor_DefaultMaterial_OccluBA792C3A49B0952A0CED56BA28ED8A52.tmp' to 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Content/Materials/Meshs/Walls/WallSingleDoor/SingleDoor_DefaultMaterial_OcclusionRoughnessMetallic.uasset'
+[2024.11.08-22.19.05:026][ 82]LogSavePackage: Moving output files for package: /Game/Materials/Meshs/Walls/WallSingleDoor/SingleDoor_DefaultMaterial_BaseColor
+[2024.11.08-22.19.05:027][ 82]LogSavePackage: Moving 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Saved/SingleDoor_DefaultMaterial_BaseC66ED64D44E57E4A87CE9E29A58A096D8.tmp' to 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Content/Materials/Meshs/Walls/WallSingleDoor/SingleDoor_DefaultMaterial_BaseColor.uasset'
+[2024.11.08-22.19.05:184][ 82]LogSavePackage: Moving output files for package: /Game/Materials/Meshs/Walls/WallSingleDoor/SingleDoor_DefaultMaterial_Normal
+[2024.11.08-22.19.05:185][ 82]LogSavePackage: Moving 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Saved/SingleDoor_DefaultMaterial_NormaB3A722FA46C48181358E59BE46BF06ED.tmp' to 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Content/Materials/Meshs/Walls/WallSingleDoor/SingleDoor_DefaultMaterial_Normal.uasset'
+[2024.11.08-22.19.05:208][ 82]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.48 sec (total: 12.0 sec)
+[2024.11.08-22.19.05:209][ 82]AssetCheck: New page: Asset Save: multiple assets
+[2024.11.08-22.19.05:209][ 82]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Materials/Meshs/Walls/WallSingleDoor/SingleDoor_DefaultMaterial_OcclusionRoughnessMetallic.SingleDoor_DefaultMaterial_OcclusionRoughnessMetallic
+[2024.11.08-22.19.05:209][ 82]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Materials/Meshs/Walls/WallSingleDoor/SingleDoor_DefaultMaterial_BaseColor.SingleDoor_DefaultMaterial_BaseColor
+[2024.11.08-22.19.05:209][ 82]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Materials/Meshs/Walls/WallSingleDoor/SingleDoor_DefaultMaterial_Normal.SingleDoor_DefaultMaterial_Normal
+[2024.11.08-22.19.36:499][919]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2024.11.08-22.22.39:489][ 21]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2024.11.08-22.22.39:496][ 21]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Arcade" FILE="D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Saved/Autosaves/Game/Levels/Arcade_Auto4.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2024.11.08-22.22.39:615][ 21]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Levels/Arcade_Auto4
+[2024.11.08-22.22.39:616][ 21]LogSavePackage: Moving 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Saved/Arcade_Auto4FEA2CB6F447F7DF20EC3BF9E31887D36.tmp' to 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Saved/Autosaves/Game/Levels/Arcade_Auto4.umap'
+[2024.11.08-22.22.39:636][ 21]LogAssetRegistry: Warning: ScanPathsSynchronous: D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Saved/Autosaves/Game/Levels/Arcade_Auto4.umap is in the /Temp path, will not scan.
+[2024.11.08-22.22.39:637][ 21]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/Arcade' took 0.161
+[2024.11.08-22.22.39:637][ 21]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.161
+[2024.11.08-22.24.29:634][784]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/pedro/Downloads/Coisas Faculdade/Objs p_ texturizar/SM_WallBack.fbx)
+[2024.11.08-22.24.29:647][784]LogFbx: Loading FBX Scene from ../../../../../../Users/pedro/Downloads/Coisas Faculdade/Objs p_ texturizar/SM_WallBack.fbx
+[2024.11.08-22.24.29:653][784]LogFbx: FBX Scene Loaded Succesfully
+[2024.11.08-22.24.31:198][784]LogSlate: Window 'FBX Import Options' being destroyed
+[2024.11.08-22.24.31:304][784]LogFbx: Display: Triangulating static mesh Cube.017
+[2024.11.08-22.24.31:306][784]LogStaticMesh: Display: Building static mesh SM_WallBack...
+[2024.11.08-22.24.31:313][784]LogStaticMesh: Built static mesh [0.01s] /Game/Meshs/Scenery/NeonFlipStructure/SM_WallBack.SM_WallBack
+[2024.11.08-22.24.41:822][264]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2024.11.08-22.24.41:848][264]LogContentBrowser: Creating deferred item: NewFolder
+[2024.11.08-22.24.41:868][265]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2024.11.08-22.24.44:110][389]LogContentBrowser: Attempting asset rename: NewFolder -> WallBack
+[2024.11.08-22.24.44:111][389]LogContentBrowser: End creating deferred item NewFolder
+[2024.11.08-22.24.47:530][565]LogContentBrowser: Deferred new asset file creation: NewMaterial
+[2024.11.08-22.24.47:552][565]LogContentBrowser: Creating deferred item: NewMaterial
+[2024.11.08-22.24.47:598][567]LogContentBrowser: Renaming the item being created (Deferred Item: NewMaterial).
+[2024.11.08-22.24.50:814][741]LogContentBrowser: Attempting asset rename: NewMaterial -> M_WallBack
+[2024.11.08-22.24.50:815][741]LogContentBrowser: End creating deferred item NewMaterial
+[2024.11.08-22.25.26:519][905]LogInterchangeEngine: [Pending] Importing
+[2024.11.08-22.25.26:519][905]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/pedro/Downl...turas/Walls/WallBack/SM_WallBack_DefaultMaterial_BaseColor.png]
+[2024.11.08-22.25.26:520][905]LogInterchangeEngine: [Pending] Importing -  (2)
+[2024.11.08-22.25.26:520][905]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/pedro/Downl...turas/Walls/WallBack/SM_WallBack_DefaultMaterial_Normal.png]
+[2024.11.08-22.25.26:521][905]LogInterchangeEngine: [Pending] Importing -  (3)
+[2024.11.08-22.25.26:521][905]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/pedro/Downl...turas/Walls/WallBack/SM_WallBack_DefaultMaterial_OcclusionRoughnessMetallic.png]
+[2024.11.08-22.25.26:558][906]LogInterchangeEngine: [Pending] Importing -  (3)
+[2024.11.08-22.25.26:691][910]LogInterchangePipeline: Display: Auto-detected normal map
+[2024.11.08-22.25.26:698][910]LogTexture: Display: Building textures: /Game/Materials/Meshs/Walls/WallBack/SM_WallBack_DefaultMaterial_Normal.SM_WallBack_DefaultMaterial_Normal (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 291.562488 MB), EncodeSpeed: Fast
+[2024.11.08-22.25.26:841][910]LogTexture: Display: Building textures: /Game/Materials/Meshs/Walls/WallBack/SM_WallBack_DefaultMaterial_OcclusionRoughnessMetallic.SM_WallBack_DefaultMaterial_OcclusionRoughnessMetallic (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.11.08-22.25.27:088][910]LogTexture: Display: Building textures: /Game/Materials/Meshs/Walls/WallBack/SM_WallBack_DefaultMaterial_BaseColor.SM_WallBack_DefaultMaterial_BaseColor (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.11.08-22.25.27:304][910]LogInterchangeEngine: [Pending] Importing -  (2)
+[2024.11.08-22.25.27:352][910]LogInterchangeEngine: [Pending] Importing -  (1)
+[2024.11.08-22.25.27:352][910]LogInterchangeEngine: [Success] Import Done
+[2024.11.08-22.25.27:402][911]LogInterchangeEngine: [Success] Import Done
+[2024.11.08-22.25.30:549][998]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/Materials/Meshs/Walls/WallBack/SM_WallBack_DefaultMaterial_OcclusionRoughnessMetallic.SM_WallBack_DefaultMaterial_OcclusionRoughnessMetallic
+[2024.11.08-22.25.31:069][998]LogViewport: Scene viewport resized to 1424x898, mode Windowed.
+[2024.11.08-22.25.33:209][156]LogTexture: Display: Building textures: /Game/Materials/Meshs/Walls/WallBack/SM_WallBack_DefaultMaterial_OcclusionRoughnessMetallic.SM_WallBack_DefaultMaterial_OcclusionRoughnessMetallic (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Final
+[2024.11.08-22.25.34:389][221]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.08-22.25.34:618][221]LogSavePackage: Moving output files for package: /Game/Materials/Meshs/Walls/WallBack/SM_WallBack_DefaultMaterial_OcclusionRoughnessMetallic
+[2024.11.08-22.25.34:619][221]LogSavePackage: Moving 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Saved/SM_WallBack_DefaultMaterial_Occl3668858044F13517BA19B68AAA26DE9C.tmp' to 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Content/Materials/Meshs/Walls/WallBack/SM_WallBack_DefaultMaterial_OcclusionRoughnessMetallic.uasset'
+[2024.11.08-22.25.34:639][221]LogFileHelpers: InternalPromptForCheckoutAndSave took 250 ms (total: 12.2 sec)
+[2024.11.08-22.25.34:640][221]AssetCheck: New page: Asset Save: SM_WallBack_DefaultMaterial_OcclusionRoughnessMetallic
+[2024.11.08-22.25.34:640][221]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Materials/Meshs/Walls/WallBack/SM_WallBack_DefaultMaterial_OcclusionRoughnessMetallic.SM_WallBack_DefaultMaterial_OcclusionRoughnessMetallic
+[2024.11.08-22.25.38:701][453]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Materials/Meshs/Walls/WallBack/M_WallBack.M_WallBack
+[2024.11.08-22.25.38:710][453]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.08-22.25.38:711][453]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.08-22.25.39:105][453]MaterialEditorStats: Texture samplers: 0/16
+[2024.11.08-22.25.39:106][453]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.11.08-22.25.39:106][453]MaterialEditorStats: Shader Count: 0
+[2024.11.08-22.25.39:116][453]LogViewport: Scene viewport resized to 376x448, mode Windowed.
+[2024.11.08-22.25.39:200][454]LogShaderCompilers: Display: ================================================
+[2024.11.08-22.25.39:200][454]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.11.08-22.25.39:200][454]LogShaderCompilers: Display: Total job queries 1.300, among them cache hits 1.120 (86.15%)
+[2024.11.08-22.25.39:200][454]LogShaderCompilers: Display: Tracking 180 distinct input hashes that result in 91 distinct outputs (50.56%)
+[2024.11.08-22.25.39:200][454]LogShaderCompilers: Display: RAM used: 4,35 MiB of 819,20 MiB budget. Usage: 0.53%
+[2024.11.08-22.25.39:200][454]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.11.08-22.25.39:200][454]LogShaderCompilers: Display: Shaders Compiled: 48
+[2024.11.08-22.25.39:200][454]LogShaderCompilers: Display: Jobs assigned 48, completed 48 (100%)
+[2024.11.08-22.25.39:200][454]LogShaderCompilers: Display: Average time worker was idle: 258.64 s
+[2024.11.08-22.25.39:200][454]LogShaderCompilers: Display: Time job spent in pending queue: average 0.74 s, longest 4.55 s
+[2024.11.08-22.25.39:200][454]LogShaderCompilers: Display: Job execution time: average 1.13 s, max 2.83 s
+[2024.11.08-22.25.39:200][454]LogShaderCompilers: Display: Job life time (pending + execution): average 1.87 s, max 5.79
+[2024.11.08-22.25.39:200][454]LogShaderCompilers: Display: Shader code size: average 40,307 KiB, min 32,289 KiB, max 62,582 KiB
+[2024.11.08-22.25.39:200][454]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 15.59 s
+[2024.11.08-22.25.39:200][454]LogShaderCompilers: Display: Jobs were issued in 48 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.11.08-22.25.39:200][454]LogShaderCompilers: Display: Average processing rate: 3.08 jobs/sec
+[2024.11.08-22.25.39:200][454]LogShaderCompilers: Display: Total thread time: 40,134 s
+[2024.11.08-22.25.39:200][454]LogShaderCompilers: Display: Total thread preprocess time: 4,087 s
+[2024.11.08-22.25.39:201][454]LogShaderCompilers: Display: Percentage time preprocessing: 10.18%
+[2024.11.08-22.25.39:201][454]LogShaderCompilers: Display: Effective parallelization: 2.58 (times faster than compiling all shaders on one thread). Compare with number of workers: 4
+[2024.11.08-22.25.39:201][454]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.11.08-22.25.39:201][454]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled    2 times, average 1.26 sec, max 1.82 sec, min 0.70 sec)
+[2024.11.08-22.25.39:201][454]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy (compiled    2 times, average 1.20 sec, max 1.75 sec, min 0.64 sec)
+[2024.11.08-22.25.39:201][454]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight (compiled    2 times, average 1.20 sec, max 1.74 sec, min 0.65 sec)
+[2024.11.08-22.25.39:201][454]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight (compiled    2 times, average 1.16 sec, max 1.64 sec, min 0.68 sec)
+[2024.11.08-22.25.39:201][454]LogShaderCompilers: Display:               TBasePassPSFCachedVolumeIndirectLightingPolicy (compiled    2 times, average 1.09 sec, max 1.49 sec, min 0.69 sec)
+[2024.11.08-22.25.39:201][454]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.11.08-22.25.39:201][454]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 12.63% of total time (compiled    6 times, average 0.85 sec, max 1.00 sec, min 0.72 sec)
+[2024.11.08-22.25.39:201][454]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 11.78% of total time (compiled    6 times, average 0.79 sec, max 0.90 sec, min 0.70 sec)
+[2024.11.08-22.25.39:201][454]LogShaderCompilers: Display:                                                 FLumenCardVS - 11.09% of total time (compiled    6 times, average 0.74 sec, max 0.85 sec, min 0.64 sec)
+[2024.11.08-22.25.39:201][454]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight - 6.26% of total time (compiled    2 times, average 1.26 sec, max 1.82 sec, min 0.70 sec)
+[2024.11.08-22.25.39:201][454]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy - 5.97% of total time (compiled    2 times, average 1.20 sec, max 1.75 sec, min 0.64 sec)
+[2024.11.08-22.25.39:201][454]LogShaderCompilers: Display: ================================================
+[2024.11.08-22.25.39:262][455]MaterialEditorStats: Base pass shader: 187 instructions
+[2024.11.08-22.25.39:262][455]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.11.08-22.25.39:262][455]MaterialEditorStats: Texture samplers: 2/16
+[2024.11.08-22.25.39:263][455]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.11.08-22.25.39:263][455]MaterialEditorStats: Shader Count: 4
+[2024.11.08-22.25.51:610][ 51]MaterialEditorStats: Texture samplers: 0/16
+[2024.11.08-22.25.51:610][ 51]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2024.11.08-22.25.51:610][ 51]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.11.08-22.25.51:610][ 51]MaterialEditorStats: Shader Count: 0
+[2024.11.08-22.25.56:112][304]MaterialEditorStats: Texture samplers: 1/16
+[2024.11.08-22.25.56:112][304]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2024.11.08-22.25.56:112][304]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.11.08-22.25.56:112][304]MaterialEditorStats: Shader Count: 1
+[2024.11.08-22.25.57:474][370]MaterialEditorStats: Texture samplers: 0/16
+[2024.11.08-22.25.57:474][370]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2024.11.08-22.25.57:474][370]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.11.08-22.25.57:474][370]MaterialEditorStats: Shader Count: 0
+[2024.11.08-22.25.58:048][402]MaterialEditorStats: Texture samplers: 2/16
+[2024.11.08-22.25.58:048][402]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2024.11.08-22.25.58:048][402]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.11.08-22.25.58:048][402]MaterialEditorStats: Shader Count: 1
+[2024.11.08-22.25.58:990][441]MaterialEditorStats: Texture samplers: 0/16
+[2024.11.08-22.25.58:990][441]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2024.11.08-22.25.58:990][441]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.11.08-22.25.58:990][441]MaterialEditorStats: Shader Count: 0
+[2024.11.08-22.25.59:066][443]MaterialEditorStats: Base pass shader: 206 instructions
+[2024.11.08-22.25.59:066][443]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.11.08-22.25.59:066][443]MaterialEditorStats: Texture samplers: 5/16
+[2024.11.08-22.25.59:066][443]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2024.11.08-22.25.59:066][443]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.11.08-22.25.59:066][443]MaterialEditorStats: Shader Count: 4
+[2024.11.08-22.26.00:668][538]LogMaterialEditor: Saving and Compiling material M_WallBack
+[2024.11.08-22.26.00:951][538]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2024.11.08-22.26.01:159][538]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2024.11.08-22.26.01:184][538]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.08-22.26.01:421][538]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Meshs/Walls/WallBack/M_WallBack" FILE="D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Content/Materials/Meshs/Walls/WallBack/M_WallBack.uasset" SILENT=true
+[2024.11.08-22.26.01:429][538]LogSavePackage: Moving output files for package: /Game/Materials/Meshs/Walls/WallBack/M_WallBack
+[2024.11.08-22.26.01:429][538]LogSavePackage: Moving 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Saved/M_WallBackD2DB1A7144A6E9EE11A1079DBB31C5A9.tmp' to 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Content/Materials/Meshs/Walls/WallBack/M_WallBack.uasset'
+[2024.11.08-22.26.01:444][538]LogFileHelpers: InternalPromptForCheckoutAndSave took 259 ms (total: 12.5 sec)
+[2024.11.08-22.26.01:445][538]AssetCheck: New page: Asset Save: M_WallBack
+[2024.11.08-22.26.01:445][538]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Materials/Meshs/Walls/WallBack/M_WallBack.M_WallBack
+[2024.11.08-22.26.01:447][538]MaterialEditorStats: Base pass shader: 206 instructions
+[2024.11.08-22.26.01:447][538]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.11.08-22.26.01:447][538]MaterialEditorStats: MaxSampler: 270 instructions
+[2024.11.08-22.26.01:447][538]MaterialEditorStats: Texture samplers: 6/16
+[2024.11.08-22.26.01:447][538]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2024.11.08-22.26.01:447][538]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.11.08-22.26.01:447][538]MaterialEditorStats: Shader Count: 16
+[2024.11.08-22.26.11:041][ 35]Cmd: DELETE
+[2024.11.08-22.26.11:041][ 35]Cmd: ACTOR DELETE
+[2024.11.08-22.26.11:054][ 35]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.11.08-22.26.11:065][ 35]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2024.11.08-22.26.11:070][ 35]LogEditorActor: Deleted 1 Actors (0.028 secs)
+[2024.11.08-22.26.11:523][ 53]Cmd: DELETE
+[2024.11.08-22.26.11:523][ 53]Cmd: ACTOR DELETE
+[2024.11.08-22.26.11:533][ 53]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.11.08-22.26.11:543][ 53]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2024.11.08-22.26.11:546][ 53]LogEditorActor: Deleted 1 Actors (0.022 secs)
+[2024.11.08-22.26.22:256][581]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Meshs/Scenery/NeonFlipStructure/SM_WallBack.SM_WallBack
+[2024.11.08-22.26.22:268][581]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.08-22.26.22:269][581]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.08-22.26.23:819][581]LogViewport: Scene viewport resized to 1405x902, mode Windowed.
+[2024.11.08-22.26.32:948][136]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.08-22.26.33:038][136]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshs/Scenery/NeonFlipStructure/SM_WallBack" FILE="D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Content/Meshs/Scenery/NeonFlipStructure/SM_WallBack.uasset" SILENT=true
+[2024.11.08-22.26.33:043][136]LogSavePackage: Moving output files for package: /Game/Meshs/Scenery/NeonFlipStructure/SM_WallBack
+[2024.11.08-22.26.33:043][136]LogSavePackage: Moving 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Saved/SM_WallBack181274724A82879E39A3F8B6880E7740.tmp' to 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Content/Meshs/Scenery/NeonFlipStructure/SM_WallBack.uasset'
+[2024.11.08-22.26.33:056][136]LogFileHelpers: InternalPromptForCheckoutAndSave took 108 ms (total: 12.6 sec)
+[2024.11.08-22.26.33:057][136]AssetCheck: New page: Asset Save: SM_WallBack
+[2024.11.08-22.26.33:057][136]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Meshs/Scenery/NeonFlipStructure/SM_WallBack.SM_WallBack
+[2024.11.08-22.26.33:892][170]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2024.11.08-22.26.33:892][170]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.08-22.26.39:094][446]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Meshs/Scenery/NeonFlipStructure/SM_WallBack.SM_WallBack
+[2024.11.08-22.26.39:094][446]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Meshs/Scenery/NeonFlipStructure/SM_WallBack.SM_WallBack
+[2024.11.08-22.26.39:095][446]LogActorFactory: Actor Factory spawned StaticMesh /Game/Meshs/Scenery/NeonFlipStructure/SM_WallBack.SM_WallBack as actor: StaticMeshActor /Game/Levels/Arcade.Arcade:PersistentLevel.StaticMeshActor_196
+[2024.11.08-22.26.39:803][493]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Meshs/Scenery/NeonFlipStructure/SM_WallBack.SM_WallBack
+[2024.11.08-22.26.39:803][493]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Meshs/Scenery/NeonFlipStructure/SM_WallBack.SM_WallBack
+[2024.11.08-22.26.39:806][493]LogActorFactory: Actor Factory spawned StaticMesh /Game/Meshs/Scenery/NeonFlipStructure/SM_WallBack.SM_WallBack as actor: StaticMeshActor /Game/Levels/Arcade.Arcade:PersistentLevel.StaticMeshActor_199
+[2024.11.08-22.27.16:418][331]Cmd: TRANSACTION UNDO
+[2024.11.08-22.27.16:418][331]LogEditorTransaction: Undo Move Elements
+[2024.11.08-22.27.17:230][335]Cmd: TRANSACTION UNDO
+[2024.11.08-22.27.17:230][335]LogEditorTransaction: Undo Set Rotation
+[2024.11.08-22.27.32:927][ 82]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.08-22.27.33:005][ 82]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Arcade" FILE="D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Content/Levels/Arcade.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.11.08-22.27.33:107][ 82]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2024.11.08-22.27.33:214][ 82]LogSavePackage: Moving output files for package: /Game/Levels/Arcade
+[2024.11.08-22.27.33:214][ 82]LogSavePackage: Moving 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Saved/Arcade2F812ABA435309DD88AAEE909EB2CC42.tmp' to 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Content/Levels/Arcade.umap'
+[2024.11.08-22.27.33:241][ 82]LogFileHelpers: Saving map 'Arcade' took 0.237
+[2024.11.08-22.27.33:255][ 82]LogFileHelpers: InternalPromptForCheckoutAndSave took 327 ms (total: 12.9 sec)
+[2024.11.08-22.27.33:261][ 82]AssetCheck: New page: Asset Save: Arcade
+[2024.11.08-22.27.33:261][ 82]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Arcade.Arcade
+[2024.11.08-22.27.54:863][347]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2024.11.08-22.27.56:396][347]LogSlate: Window 'Save Content' being destroyed
+[2024.11.08-22.27.56:504][347]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.08-22.27.56:712][347]LogSavePackage: Moving output files for package: /Game/Materials/Meshs/Walls/WallBack/SM_WallBack_DefaultMaterial_BaseColor
+[2024.11.08-22.27.56:712][347]LogSavePackage: Moving 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Saved/SM_WallBack_DefaultMaterial_Base066753EE4B844DF7D3707480D210C902.tmp' to 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Content/Materials/Meshs/Walls/WallBack/SM_WallBack_DefaultMaterial_BaseColor.uasset'
+[2024.11.08-22.27.56:829][347]LogSavePackage: Moving output files for package: /Game/Materials/Meshs/Walls/WallBack/SM_WallBack_DefaultMaterial_Normal
+[2024.11.08-22.27.56:829][347]LogSavePackage: Moving 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Saved/SM_WallBack_DefaultMaterial_Norm0DA8C2C24261A8C16D09D489E12A2512.tmp' to 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Content/Materials/Meshs/Walls/WallBack/SM_WallBack_DefaultMaterial_Normal.uasset'
+[2024.11.08-22.27.56:981][347]LogSavePackage: Moving output files for package: /Game/Materials/Meshs/Walls/WallSide/SM_WallSide_DefaultMaterial_BaseColor
+[2024.11.08-22.27.56:982][347]LogSavePackage: Moving 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Saved/SM_WallSide_DefaultMaterial_BaseDB507FAD45AE2CEB09A3AE9ABF98F4D5.tmp' to 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Content/Materials/Meshs/Walls/WallSide/SM_WallSide_DefaultMaterial_BaseColor.uasset'
+[2024.11.08-22.27.57:103][347]LogSavePackage: Moving output files for package: /Game/Materials/Meshs/Walls/WallSide/SM_WallSide_DefaultMaterial_Normal
+[2024.11.08-22.27.57:103][347]LogSavePackage: Moving 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Saved/SM_WallSide_DefaultMaterial_Norm3DBC09404C3E290E8F99F587E74505CC.tmp' to 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Content/Materials/Meshs/Walls/WallSide/SM_WallSide_DefaultMaterial_Normal.uasset'
+[2024.11.08-22.27.57:119][347]LogFileHelpers: InternalPromptForCheckoutAndSave took 614 ms (total: 13.6 sec)
+[2024.11.08-22.27.57:123][347]AssetCheck: New page: Asset Save: multiple assets
+[2024.11.08-22.27.57:123][347]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Materials/Meshs/Walls/WallBack/SM_WallBack_DefaultMaterial_BaseColor.SM_WallBack_DefaultMaterial_BaseColor
+[2024.11.08-22.27.57:123][347]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Materials/Meshs/Walls/WallBack/SM_WallBack_DefaultMaterial_Normal.SM_WallBack_DefaultMaterial_Normal
+[2024.11.08-22.27.57:123][347]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Materials/Meshs/Walls/WallSide/SM_WallSide_DefaultMaterial_BaseColor.SM_WallSide_DefaultMaterial_BaseColor
+[2024.11.08-22.27.57:123][347]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Materials/Meshs/Walls/WallSide/SM_WallSide_DefaultMaterial_Normal.SM_WallSide_DefaultMaterial_Normal
+[2024.11.08-22.28.29:672][767]Cmd: TRANSACTION UNDO
+[2024.11.08-22.28.29:672][767]LogEditorTransaction: Undo Set Rotation
+[2024.11.08-22.28.30:836][790]Cmd: TRANSACTION UNDO
+[2024.11.08-22.28.30:836][790]LogEditorTransaction: Undo Clicking on Elements
+[2024.11.08-22.30.44:034][495]LogEditorFactories: Performing atomic reimport of [C:/Users/pedro/Downloads/Coisas Faculdade/Objs p_ texturizar/SM_WallBack.fbx]
+[2024.11.08-22.30.44:044][495]LogFbx: Loading FBX Scene from C:/Users/pedro/Downloads/Coisas Faculdade/Objs p_ texturizar/SM_WallBack.fbx
+[2024.11.08-22.30.44:049][495]LogFbx: FBX Scene Loaded Succesfully
+[2024.11.08-22.30.44:100][495]LogFbx: Display: Triangulating static mesh WallBack
+[2024.11.08-22.30.44:125][495]LogEditorFactories: -- imported successfully
+[2024.11.08-22.31.29:523][536]Cmd: ACTOR HIDE SELECTED
+[2024.11.08-22.31.29:579][536]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/Arcade.Arcade:PersistentLevel.ModelComponent_532' invalid (544 verts, 0 indices).
+[2024.11.08-22.31.29:580][536]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/Arcade.Arcade:PersistentLevel.ModelComponent_533' invalid (544 verts, 0 indices).
+[2024.11.08-22.31.29:581][536]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/Arcade.Arcade:PersistentLevel.ModelComponent_535' invalid (544 verts, 0 indices).
+[2024.11.08-22.31.29:582][536]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/Arcade.Arcade:PersistentLevel.ModelComponent_537' invalid (544 verts, 0 indices).
+[2024.11.08-22.31.29:583][536]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/Arcade.Arcade:PersistentLevel.ModelComponent_538' invalid (544 verts, 0 indices).
+[2024.11.08-22.31.29:583][536]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/Arcade.Arcade:PersistentLevel.ModelComponent_539' invalid (544 verts, 0 indices).
+[2024.11.08-22.31.29:583][536]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/Arcade.Arcade:PersistentLevel.ModelComponent_540' invalid (544 verts, 0 indices).
+[2024.11.08-22.31.29:584][536]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/Arcade.Arcade:PersistentLevel.ModelComponent_541' invalid (544 verts, 0 indices).
+[2024.11.08-22.31.29:584][536]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/Arcade.Arcade:PersistentLevel.ModelComponent_542' invalid (544 verts, 0 indices).
+[2024.11.08-22.31.30:486][612]LogEditorViewport: Clicking Background
+[2024.11.08-22.33.03:197][514]Cmd: MODE GRID=1
+[2024.11.08-22.33.03:881][562]Cmd: MODE GRID=0
+[2024.11.08-22.33.05:490][675]Cmd: MODE GRID=1
+[2024.11.08-22.33.34:435][732]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/Arcade.Arcade:PersistentLevel.ModelComponent_532' invalid (544 verts, 0 indices).
+[2024.11.08-22.33.34:436][732]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/Arcade.Arcade:PersistentLevel.ModelComponent_533' invalid (544 verts, 0 indices).
+[2024.11.08-22.33.34:437][732]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/Arcade.Arcade:PersistentLevel.ModelComponent_535' invalid (544 verts, 0 indices).
+[2024.11.08-22.33.34:437][732]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/Arcade.Arcade:PersistentLevel.ModelComponent_536' invalid (544 verts, 0 indices).
+[2024.11.08-22.33.34:438][732]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/Arcade.Arcade:PersistentLevel.ModelComponent_537' invalid (544 verts, 0 indices).
+[2024.11.08-22.33.34:438][732]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/Arcade.Arcade:PersistentLevel.ModelComponent_538' invalid (544 verts, 0 indices).
+[2024.11.08-22.33.34:438][732]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/Arcade.Arcade:PersistentLevel.ModelComponent_539' invalid (544 verts, 0 indices).
+[2024.11.08-22.33.34:439][732]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/Arcade.Arcade:PersistentLevel.ModelComponent_540' invalid (544 verts, 0 indices).
+[2024.11.08-22.33.34:439][732]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/Arcade.Arcade:PersistentLevel.ModelComponent_541' invalid (544 verts, 0 indices).
+[2024.11.08-22.33.34:440][732]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/Arcade.Arcade:PersistentLevel.ModelComponent_542' invalid (544 verts, 0 indices).
+[2024.11.08-22.33.39:004][985]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/Arcade.Arcade:PersistentLevel.ModelComponent_532' invalid (544 verts, 0 indices).
+[2024.11.08-22.33.39:004][985]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/Arcade.Arcade:PersistentLevel.ModelComponent_533' invalid (544 verts, 0 indices).
+[2024.11.08-22.33.39:005][985]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/Arcade.Arcade:PersistentLevel.ModelComponent_535' invalid (544 verts, 0 indices).
+[2024.11.08-22.33.39:006][985]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/Arcade.Arcade:PersistentLevel.ModelComponent_536' invalid (544 verts, 0 indices).
+[2024.11.08-22.33.39:006][985]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/Arcade.Arcade:PersistentLevel.ModelComponent_537' invalid (544 verts, 0 indices).
+[2024.11.08-22.33.39:007][985]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/Arcade.Arcade:PersistentLevel.ModelComponent_538' invalid (544 verts, 0 indices).
+[2024.11.08-22.33.39:007][985]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/Arcade.Arcade:PersistentLevel.ModelComponent_539' invalid (544 verts, 0 indices).
+[2024.11.08-22.33.39:008][985]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/Arcade.Arcade:PersistentLevel.ModelComponent_540' invalid (544 verts, 0 indices).
+[2024.11.08-22.33.39:008][985]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/Arcade.Arcade:PersistentLevel.ModelComponent_541' invalid (544 verts, 0 indices).
+[2024.11.08-22.33.39:008][985]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/Arcade.Arcade:PersistentLevel.ModelComponent_542' invalid (544 verts, 0 indices).
+[2024.11.08-22.33.40:167][ 67]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/Arcade.Arcade:PersistentLevel.ModelComponent_532' invalid (544 verts, 0 indices).
+[2024.11.08-22.33.40:168][ 67]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/Arcade.Arcade:PersistentLevel.ModelComponent_533' invalid (544 verts, 0 indices).
+[2024.11.08-22.33.40:169][ 67]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/Arcade.Arcade:PersistentLevel.ModelComponent_534' invalid (544 verts, 0 indices).
+[2024.11.08-22.33.40:170][ 67]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/Arcade.Arcade:PersistentLevel.ModelComponent_535' invalid (544 verts, 0 indices).
+[2024.11.08-22.33.40:170][ 67]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/Arcade.Arcade:PersistentLevel.ModelComponent_536' invalid (544 verts, 0 indices).
+[2024.11.08-22.33.40:171][ 67]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/Arcade.Arcade:PersistentLevel.ModelComponent_537' invalid (544 verts, 0 indices).
+[2024.11.08-22.33.40:171][ 67]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/Arcade.Arcade:PersistentLevel.ModelComponent_538' invalid (544 verts, 0 indices).
+[2024.11.08-22.33.40:172][ 67]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/Arcade.Arcade:PersistentLevel.ModelComponent_539' invalid (544 verts, 0 indices).
+[2024.11.08-22.33.40:172][ 67]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/Arcade.Arcade:PersistentLevel.ModelComponent_540' invalid (544 verts, 0 indices).
+[2024.11.08-22.33.40:173][ 67]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/Arcade.Arcade:PersistentLevel.ModelComponent_541' invalid (544 verts, 0 indices).
+[2024.11.08-22.33.40:173][ 67]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/Arcade.Arcade:PersistentLevel.ModelComponent_542' invalid (544 verts, 0 indices).
+[2024.11.08-22.33.53:738][ 80]Cmd: ACTOR HIDE SELECTED
+[2024.11.08-22.33.54:316][120]Cmd: ACTOR HIDE SELECTED
+[2024.11.08-22.34.03:009][706]Cmd: TRANSACTION UNDO
+[2024.11.08-22.34.03:009][706]LogEditorTransaction: Undo Clicking on Elements
+[2024.11.08-22.34.24:325][184]Cmd: TRANSACTION UNDO
+[2024.11.08-22.34.24:325][184]LogEditorTransaction: Undo Clicking on Actors
+[2024.11.08-22.34.26:451][271]Cmd: DELETE
+[2024.11.08-22.34.26:451][271]Cmd: ACTOR DELETE
+[2024.11.08-22.34.26:458][271]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.11.08-22.34.26:459][271]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.11.08-22.34.26:460][271]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.11.08-22.34.26:460][271]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.11.08-22.34.26:469][271]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2024.11.08-22.34.26:473][271]LogEditorActor: Deleted 4 Actors (0.021 secs)
+[2024.11.08-22.35.38:680][853]Cmd: TRANSACTION UNDO
+[2024.11.08-22.35.38:680][853]LogEditorTransaction: Undo Move Elements
+[2024.11.08-22.36.21:431][216]Cmd: TRANSACTION UNDO
+[2024.11.08-22.36.21:431][216]LogEditorTransaction: Undo Move Elements
+[2024.11.08-22.36.23:085][278]Cmd: TRANSACTION UNDO
+[2024.11.08-22.36.23:085][278]LogEditorTransaction: Undo Move Elements
+[2024.11.08-22.36.24:116][310]Cmd: TRANSACTION UNDO
+[2024.11.08-22.36.24:116][310]LogEditorTransaction: Undo Move Elements
+[2024.11.08-22.36.25:424][352]Cmd: TRANSACTION UNDO
+[2024.11.08-22.36.25:424][352]LogEditorTransaction: Undo Move Elements
+[2024.11.08-22.36.26:678][399]Cmd: TRANSACTION UNDO
+[2024.11.08-22.36.26:678][399]LogEditorTransaction: Undo Move Elements
+[2024.11.08-22.37.22:510][677]Cmd: DELETE
+[2024.11.08-22.37.22:510][677]Cmd: ACTOR DELETE
+[2024.11.08-22.37.22:525][677]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.11.08-22.37.22:528][677]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.11.08-22.37.22:531][677]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.11.08-22.37.22:533][677]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.11.08-22.37.22:535][677]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.11.08-22.37.22:538][677]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.11.08-22.37.22:558][677]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2024.11.08-22.37.22:564][677]LogEditorActor: Deleted 6 Actors (0.054 secs)
+[2024.11.08-22.37.27:119][801]Cmd: DELETE
+[2024.11.08-22.37.27:119][801]Cmd: ACTOR DELETE
+[2024.11.08-22.37.27:133][801]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.11.08-22.37.27:135][801]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.11.08-22.37.27:136][801]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.11.08-22.37.27:141][801]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.11.08-22.37.27:162][801]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2024.11.08-22.37.27:168][801]LogEditorActor: Deleted 4 Actors (0.048 secs)
+[2024.11.08-22.37.32:328][915]Cmd: DELETE
+[2024.11.08-22.37.32:328][915]Cmd: ACTOR DELETE
+[2024.11.08-22.37.32:345][915]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.11.08-22.37.32:347][915]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.11.08-22.37.32:351][915]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.11.08-22.37.32:353][915]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.11.08-22.37.32:370][915]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2024.11.08-22.37.32:376][915]LogEditorActor: Deleted 4 Actors (0.047 secs)
+[2024.11.08-22.37.59:665][608]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.08-22.37.59:744][608]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Arcade" FILE="D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Content/Levels/Arcade.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.11.08-22.38.00:001][608]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2024.11.08-22.38.00:378][608]LogSavePackage: Moving output files for package: /Game/Levels/Arcade
+[2024.11.08-22.38.00:380][608]LogSavePackage: Moving 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Saved/Arcade222C8AEE4466ECFEB0F7D48A27F7BBA9.tmp' to 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Content/Levels/Arcade.umap'
+[2024.11.08-22.38.00:450][608]LogFileHelpers: Saving map 'Arcade' took 0.707
+[2024.11.08-22.38.00:485][608]LogFileHelpers: InternalPromptForCheckoutAndSave took 820 ms (total: 14.4 sec)
+[2024.11.08-22.38.00:487][608]AssetCheck: New page: Asset Save: Arcade
+[2024.11.08-22.38.00:487][608]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Arcade.Arcade
+[2024.11.08-22.38.43:642][806]LogDerivedDataCache: C:/Users/pedro/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:34.274 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 6254 files in 7836 folders with total size 483 MiB.
+[2024.11.08-22.47.59:797][469]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2024.11.08-22.47.59:799][469]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/Arcade' took 0.012
+[2024.11.08-22.47.59:799][469]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshs/Scenery/NeonFlipStructure/SM_WallBack] ([1] browsable assets)...
+[2024.11.08-22.47.59:839][469]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Meshs/Scenery/NeonFlipStructure/SM_WallBack.SM_WallBack]
+[2024.11.08-22.47.59:839][469]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshs/Scenery/NeonFlipStructure/SM_WallBack]
+[2024.11.08-22.47.59:845][469]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Meshs/Scenery/NeonFlipStructure/SM_WallBack_Auto5
+[2024.11.08-22.47.59:845][469]LogSavePackage: Moving 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Saved/SM_WallBack_Auto5FE55F9E648F5A02DEA58C394FB7D4841.tmp' to 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Saved/Autosaves/Game/Meshs/Scenery/NeonFlipStructure/SM_WallBack_Auto5.uasset'
+[2024.11.08-22.47.59:846][469]LogFileHelpers: Auto-saving content packages took 0.048
+[2024.11.08-22.50.49:173][ 89]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2024.11.08-22.50.50:462][ 89]LogSlate: Window 'Save Content' being destroyed
+[2024.11.08-22.50.50:569][ 89]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.08-22.50.50:628][ 89]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshs/Scenery/NeonFlipStructure/SM_WallBack" FILE="D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Content/Meshs/Scenery/NeonFlipStructure/SM_WallBack.uasset" SILENT=true
+[2024.11.08-22.50.50:633][ 89]LogSavePackage: Moving output files for package: /Game/Meshs/Scenery/NeonFlipStructure/SM_WallBack
+[2024.11.08-22.50.50:634][ 89]LogSavePackage: Moving 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Saved/SM_WallBack7AEE527D430BABCF0F0FDC8224F5552B.tmp' to 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Content/Meshs/Scenery/NeonFlipStructure/SM_WallBack.uasset'
+[2024.11.08-22.50.50:649][ 89]LogFileHelpers: InternalPromptForCheckoutAndSave took 80 ms (total: 14.5 sec)
+[2024.11.08-22.50.50:653][ 89]AssetCheck: New page: Asset Save: SM_WallBack
+[2024.11.08-22.50.50:653][ 89]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Meshs/Scenery/NeonFlipStructure/SM_WallBack.SM_WallBack
+[2024.11.08-22.51.08:055][192]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.08-22.51.08:103][192]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Arcade" FILE="D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Content/Levels/Arcade.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.11.08-22.51.08:208][192]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2024.11.08-22.51.08:331][192]LogSavePackage: Moving output files for package: /Game/Levels/Arcade
+[2024.11.08-22.51.08:332][192]LogSavePackage: Moving 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Saved/Arcade0676D4834DD310E43D79459E85FBEE45.tmp' to 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Content/Levels/Arcade.umap'
+[2024.11.08-22.51.08:357][192]LogFileHelpers: Saving map 'Arcade' took 0.255
+[2024.11.08-22.51.08:373][192]LogFileHelpers: InternalPromptForCheckoutAndSave took 317 ms (total: 14.8 sec)
+[2024.11.08-22.51.08:381][192]AssetCheck: New page: Asset Save: Arcade
+[2024.11.08-22.51.08:382][192]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Arcade.Arcade
+[2024.11.08-22.51.11:373][412]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2024.11.08-22.51.11:377][412]LogStall: Shutdown...
+[2024.11.08-22.51.11:387][412]LogStall: Shutdown complete.
+[2024.11.08-22.51.11:544][412]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2024.11.08-22.51.11:544][412]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.08-22.51.11:717][412]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2024.11.08-22.51.11:717][412]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.08-22.51.11:843][412]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2024.11.08-22.51.11:843][412]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.08-22.51.12:029][412]LogSlate: Window 'Arcade - Unreal Editor' being destroyed
+[2024.11.08-22.51.12:342][413]Cmd: QUIT_EDITOR
+[2024.11.08-22.51.12:343][413]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2024.11.08-22.51.12:353][413]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2024.11.08-22.51.12:355][413]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2024.11.08-22.51.12:355][413]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2024.11.08-22.51.12:369][413]LogWorld: UWorld::CleanupWorld for Arcade, bSessionEnded=true, bCleanupResources=true
+[2024.11.08-22.51.12:369][413]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.08-22.51.12:452][413]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2024.11.08-22.51.12:714][413]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2024.11.08-22.51.12:714][413]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2024.11.08-22.51.12:714][413]LogAudio: Display: Audio Device unregistered from world 'Arcade'.
+[2024.11.08-22.51.12:716][413]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 1
+[2024.11.08-22.51.12:726][413]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2024.11.08-22.51.12:734][413]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2024.11.08-22.51.12:756][413]LogAudio: Display: Audio Device Manager Shutdown
+[2024.11.08-22.51.12:774][413]LogWindowsTextInputMethodSystem: Activated input method: Português (Brasil) - (Keyboard).
+[2024.11.08-22.51.12:790][413]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2024.11.08-22.51.12:792][413]LogExit: Preparing to exit.
+[2024.11.08-22.51.12:975][413]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2024.11.08-22.51.14:227][413]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2024.11.08-22.51.14:228][413]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2024.11.08-22.51.14:436][413]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2024.11.08-22.51.14:789][413]LogExit: Editor shut down
+[2024.11.08-22.51.14:800][413]LogExit: Transaction tracking system shut down
+[2024.11.08-22.51.16:029][413]LogExit: Object subsystem successfully closed.
+[2024.11.08-22.51.16:044][413]LogShaderCompilers: Display: ================================================
+[2024.11.08-22.51.16:045][413]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.11.08-22.51.16:045][413]LogShaderCompilers: Display: Total job queries 1.378, among them cache hits 1.168 (84.76%)
+[2024.11.08-22.51.16:045][413]LogShaderCompilers: Display: Tracking 210 distinct input hashes that result in 99 distinct outputs (47.14%)
+[2024.11.08-22.51.16:045][413]LogShaderCompilers: Display: RAM used: 5,04 MiB of 819,20 MiB budget. Usage: 0.61%
+[2024.11.08-22.51.16:045][413]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.11.08-22.51.16:045][413]LogShaderCompilers: Display: Shaders Compiled: 64
+[2024.11.08-22.51.16:045][413]LogShaderCompilers: Display: Jobs assigned 64, completed 64 (100%)
+[2024.11.08-22.51.16:045][413]LogShaderCompilers: Display: Average time worker was idle: 414.19 s
+[2024.11.08-22.51.16:045][413]LogShaderCompilers: Display: Time job spent in pending queue: average 0.56 s, longest 4.55 s
+[2024.11.08-22.51.16:045][413]LogShaderCompilers: Display: Job execution time: average 1.10 s, max 2.83 s
+[2024.11.08-22.51.16:045][413]LogShaderCompilers: Display: Job life time (pending + execution): average 1.66 s, max 5.79
+[2024.11.08-22.51.16:045][413]LogShaderCompilers: Display: Shader code size: average 38,896 KiB, min 29,984 KiB, max 62,582 KiB
+[2024.11.08-22.51.16:045][413]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 20.47 s
+[2024.11.08-22.51.16:045][413]LogShaderCompilers: Display: Jobs were issued in 64 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.11.08-22.51.16:045][413]LogShaderCompilers: Display: Average processing rate: 3.13 jobs/sec
+[2024.11.08-22.51.16:045][413]LogShaderCompilers: Display: Total thread time: 51,677 s
+[2024.11.08-22.51.16:045][413]LogShaderCompilers: Display: Total thread preprocess time: 5,346 s
+[2024.11.08-22.51.16:045][413]LogShaderCompilers: Display: Percentage time preprocessing: 10.35%
+[2024.11.08-22.51.16:045][413]LogShaderCompilers: Display: Effective parallelization: 2.52 (times faster than compiling all shaders on one thread). Compare with number of workers: 4
+[2024.11.08-22.51.16:045][413]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.11.08-22.51.16:045][413]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled    2 times, average 1.26 sec, max 1.82 sec, min 0.70 sec)
+[2024.11.08-22.51.16:045][413]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy (compiled    2 times, average 1.20 sec, max 1.75 sec, min 0.64 sec)
+[2024.11.08-22.51.16:045][413]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight (compiled    2 times, average 1.20 sec, max 1.74 sec, min 0.65 sec)
+[2024.11.08-22.51.16:045][413]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight (compiled    2 times, average 1.16 sec, max 1.64 sec, min 0.68 sec)
+[2024.11.08-22.51.16:045][413]LogShaderCompilers: Display:               TBasePassPSFCachedVolumeIndirectLightingPolicy (compiled    2 times, average 1.09 sec, max 1.49 sec, min 0.69 sec)
+[2024.11.08-22.51.16:045][413]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.11.08-22.51.16:045][413]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 16.64% of total time (compiled   10 times, average 0.86 sec, max 1.00 sec, min 0.72 sec)
+[2024.11.08-22.51.16:045][413]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 15.43% of total time (compiled   10 times, average 0.80 sec, max 0.91 sec, min 0.70 sec)
+[2024.11.08-22.51.16:045][413]LogShaderCompilers: Display:                                                 FLumenCardVS - 15.07% of total time (compiled   10 times, average 0.78 sec, max 0.99 sec, min 0.64 sec)
+[2024.11.08-22.51.16:045][413]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 6.62% of total time (compiled   10 times, average 0.34 sec, max 0.38 sec, min 0.29 sec)
+[2024.11.08-22.51.16:045][413]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight - 4.86% of total time (compiled    2 times, average 1.26 sec, max 1.82 sec, min 0.70 sec)
+[2024.11.08-22.51.16:045][413]LogShaderCompilers: Display: ================================================
+[2024.11.08-22.51.16:050][413]LogShaderCompilers: Display: Shaders left to compile 0
+[2024.11.08-22.51.16:197][413]LogVirtualization: UE::Virtualization was shutdown
+[2024.11.08-22.51.16:592][413]LogModuleManager: Shutting down and abandoning module TextureEditor (1058)
+[2024.11.08-22.51.16:592][413]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (1056)
+[2024.11.08-22.51.16:592][413]LogModuleManager: Shutting down and abandoning module MaterialEditor (1054)
+[2024.11.08-22.51.16:593][413]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (1052)
+[2024.11.08-22.51.16:593][413]LogModuleManager: Shutting down and abandoning module AddContentDialog (1050)
+[2024.11.08-22.51.16:598][413]LogModuleManager: Shutting down and abandoning module WidgetCarousel (1049)
+[2024.11.08-22.51.16:598][413]LogModuleManager: Shutting down and abandoning module SubobjectEditor (1046)
+[2024.11.08-22.51.16:598][413]LogModuleManager: Shutting down and abandoning module SceneOutliner (1044)
+[2024.11.08-22.51.16:598][413]LogModuleManager: Shutting down and abandoning module StatusBar (1042)
+[2024.11.08-22.51.16:598][413]LogModuleManager: Shutting down and abandoning module UnsavedAssetsTracker (1040)
+[2024.11.08-22.51.16:598][413]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (1038)
+[2024.11.08-22.51.16:599][413]LogModuleManager: Shutting down and abandoning module DataLayerEditor (1036)
+[2024.11.08-22.51.16:599][413]LogModuleManager: Shutting down and abandoning module StatsViewer (1034)
+[2024.11.08-22.51.16:600][413]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (1032)
+[2024.11.08-22.51.16:600][413]LogModuleManager: Shutting down and abandoning module AutomationWorker (1030)
+[2024.11.08-22.51.16:602][413]LogModuleManager: Shutting down and abandoning module SmartSnapping (1028)
+[2024.11.08-22.51.16:602][413]LogModuleManager: Shutting down and abandoning module TemplateSequenceEditor (1026)
+[2024.11.08-22.51.16:606][413]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (1024)
+[2024.11.08-22.51.16:611][413]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (1022)
+[2024.11.08-22.51.16:642][413]LogModuleManager: Shutting down and abandoning module CameraShakePreviewer (1020)
+[2024.11.08-22.51.16:647][413]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (1018)
+[2024.11.08-22.51.16:647][413]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (1016)
+[2024.11.08-22.51.16:647][413]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (1014)
+[2024.11.08-22.51.16:647][413]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (1012)
+[2024.11.08-22.51.16:647][413]LogModuleManager: Shutting down and abandoning module WebMMedia (1010)
+[2024.11.08-22.51.16:648][413]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (1008)
+[2024.11.08-22.51.16:649][413]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (1006)
+[2024.11.08-22.51.16:654][413]LogModuleManager: Shutting down and abandoning module SequenceRecorder (1005)
+[2024.11.08-22.51.16:654][413]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (1002)
+[2024.11.08-22.51.16:655][413]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (1000)
+[2024.11.08-22.51.16:655][413]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (998)
+[2024.11.08-22.51.16:656][413]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (996)
+[2024.11.08-22.51.16:656][413]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (994)
+[2024.11.08-22.51.16:656][413]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (992)
+[2024.11.08-22.51.16:656][413]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (990)
+[2024.11.08-22.51.16:657][413]LogModuleManager: Shutting down and abandoning module WaveTableEditor (988)
+[2024.11.08-22.51.16:658][413]LogModuleManager: Shutting down and abandoning module ResonanceAudioEditor (986)
+[2024.11.08-22.51.16:659][413]LogModuleManager: Shutting down and abandoning module RigVMEditor (984)
+[2024.11.08-22.51.16:662][413]LogModuleManager: Shutting down and abandoning module GooglePADEditor (982)
+[2024.11.08-22.51.16:662][413]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (980)
+[2024.11.08-22.51.16:662][413]LogModuleManager: Shutting down and abandoning module AndroidFileServerEditor (978)
+[2024.11.08-22.51.16:662][413]LogModuleManager: Shutting down and abandoning module TextureAlignMode (976)
+[2024.11.08-22.51.16:663][413]LogModuleManager: Shutting down and abandoning module BspMode (974)
+[2024.11.08-22.51.16:665][413]LogModuleManager: Shutting down and abandoning module GeometryMode (972)
+[2024.11.08-22.51.16:666][413]LogModuleManager: Shutting down and abandoning module EngineAssetDefinitions (970)
+[2024.11.08-22.51.16:666][413]LogModuleManager: Shutting down and abandoning module IKRigEditor (968)
+[2024.11.08-22.51.16:674][413]LogModuleManager: Shutting down and abandoning module ControlRigEditor (966)
+[2024.11.08-22.51.16:692][413]LogModuleManager: Shutting down and abandoning module PlanarCut (964)
+[2024.11.08-22.51.16:693][413]LogModuleManager: Shutting down and abandoning module FractureEngine (962)
+[2024.11.08-22.51.16:694][413]LogModuleManager: Shutting down and abandoning module CharacterAI (960)
+[2024.11.08-22.51.16:695][413]LogModuleManager: Shutting down and abandoning module SessionServices (958)
+[2024.11.08-22.51.16:696][413]LogModuleManager: Shutting down and abandoning module MeshPaint (956)
+[2024.11.08-22.51.16:698][413]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (954)
+[2024.11.08-22.51.16:700][413]LogModuleManager: Shutting down and abandoning module PlacementMode (953)
+[2024.11.08-22.51.16:701][413]LogModuleManager: Shutting down and abandoning module FoliageEdit (950)
+[2024.11.08-22.51.16:704][413]LogModuleManager: Shutting down and abandoning module LandscapeEditor (948)
+[2024.11.08-22.51.16:712][413]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (946)
+[2024.11.08-22.51.16:714][413]LogModuleManager: Shutting down and abandoning module ActorPickerMode (944)
+[2024.11.08-22.51.16:714][413]LogModuleManager: Shutting down and abandoning module ViewportSnapping (942)
+[2024.11.08-22.51.16:714][413]LogModuleManager: Shutting down and abandoning module EditorWidgets (940)
+[2024.11.08-22.51.16:714][413]LogModuleManager: Shutting down and abandoning module ViewportInteraction (938)
+[2024.11.08-22.51.16:714][413]LogModuleManager: Shutting down and abandoning module ClothPainter (936)
+[2024.11.08-22.51.16:719][413]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (935)
+[2024.11.08-22.51.16:722][413]LogModuleManager: Shutting down and abandoning module WidgetRegistration (932)
+[2024.11.08-22.51.16:722][413]LogModuleManager: Shutting down and abandoning module LogVisualizer (930)
+[2024.11.08-22.51.16:725][413]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (928)
+[2024.11.08-22.51.16:726][413]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (926)
+[2024.11.08-22.51.16:726][413]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (925)
+[2024.11.08-22.51.16:729][413]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (923)
+[2024.11.08-22.51.17:466][413]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (920)
+[2024.11.08-22.51.17:467][413]LogModuleManager: Shutting down and abandoning module MacPlatformEditor (918)
+[2024.11.08-22.51.17:467][413]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (916)
+[2024.11.08-22.51.17:468][413]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (914)
+[2024.11.08-22.51.17:468][413]LogModuleManager: Shutting down and abandoning module RenderResourceViewer (912)
+[2024.11.08-22.51.17:468][413]LogModuleManager: Shutting down and abandoning module GameplayDebuggerEditor (910)
+[2024.11.08-22.51.17:469][413]LogModuleManager: Shutting down and abandoning module AnimationSettings (908)
+[2024.11.08-22.51.17:469][413]LogModuleManager: Shutting down and abandoning module VirtualizationEditor (906)
+[2024.11.08-22.51.17:469][413]LogModuleManager: Shutting down and abandoning module CSVtoSVG (904)
+[2024.11.08-22.51.17:469][413]LogModuleManager: Shutting down and abandoning module DerivedDataEditor (902)
+[2024.11.08-22.51.17:473][413]LogModuleManager: Shutting down and abandoning module EditorConfig (900)
+[2024.11.08-22.51.17:473][413]LogModuleManager: Shutting down and abandoning module EditorFramework (898)
+[2024.11.08-22.51.17:473][413]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (896)
+[2024.11.08-22.51.17:473][413]LogModuleManager: Shutting down and abandoning module TraceInsights (894)
+[2024.11.08-22.51.17:495][413]MemoryProfiler: Shutdown
+[2024.11.08-22.51.17:510][413]NetworkingProfiler: Shutdown
+[2024.11.08-22.51.17:511][413]LoadingProfiler: Shutdown
+[2024.11.08-22.51.17:531][413]TimingProfiler: Shutdown
+[2024.11.08-22.51.17:541][413]LogModuleManager: Shutting down and abandoning module TraceServices (893)
+[2024.11.08-22.51.17:544][413]LogModuleManager: Shutting down and abandoning module TraceAnalysis (892)
+[2024.11.08-22.51.17:544][413]LogModuleManager: Shutting down and abandoning module EditorInteractiveToolsFramework (888)
+[2024.11.08-22.51.17:544][413]LogModuleManager: Shutting down and abandoning module InteractiveToolsFramework (887)
+[2024.11.08-22.51.17:544][413]LogModuleManager: Shutting down and abandoning module InputBindingEditor (884)
+[2024.11.08-22.51.17:545][413]LogModuleManager: Shutting down and abandoning module MergeActors (882)
+[2024.11.08-22.51.17:548][413]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (880)
+[2024.11.08-22.51.17:551][413]LogModuleManager: Shutting down and abandoning module LocalizationService (879)
+[2024.11.08-22.51.17:553][413]LogModuleManager: Shutting down and abandoning module HardwareTargeting (876)
+[2024.11.08-22.51.17:556][413]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (874)
+[2024.11.08-22.51.17:556][413]LogModuleManager: Shutting down and abandoning module UndoHistory (872)
+[2024.11.08-22.51.17:556][413]LogModuleManager: Shutting down and abandoning module XmlParser (870)
+[2024.11.08-22.51.17:560][413]LogModuleManager: Shutting down and abandoning module Blutility (868)
+[2024.11.08-22.51.17:561][413]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (866)
+[2024.11.08-22.51.17:561][413]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (865)
+[2024.11.08-22.51.17:563][413]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (862)
+[2024.11.08-22.51.17:563][413]LogModuleManager: Shutting down and abandoning module InternationalizationSettings (861)
+[2024.11.08-22.51.17:563][413]LogModuleManager: Shutting down and abandoning module SettingsEditor (858)
+[2024.11.08-22.51.17:565][413]LogModuleManager: Shutting down and abandoning module ProjectLauncher (856)
+[2024.11.08-22.51.17:566][413]LogModuleManager: Shutting down and abandoning module SessionFrontend (854)
+[2024.11.08-22.51.17:567][413]LogModuleManager: Shutting down and abandoning module ProfilerClient (852)
+[2024.11.08-22.51.17:568][413]LogModuleManager: Shutting down and abandoning module DeviceManager (850)
+[2024.11.08-22.51.17:570][413]LogModuleManager: Shutting down and abandoning module AutomationController (848)
+[2024.11.08-22.51.17:570][413]LogModuleManager: Shutting down and abandoning module AutomationWindow (846)
+[2024.11.08-22.51.17:576][413]LogModuleManager: Shutting down and abandoning module Layers (844)
+[2024.11.08-22.51.17:581][413]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (842)
+[2024.11.08-22.51.17:582][413]LogModuleManager: Shutting down and abandoning module DetailCustomizations (840)
+[2024.11.08-22.51.17:582][413]LogModuleManager: Shutting down and abandoning module PackagesDialog (838)
+[2024.11.08-22.51.17:583][413]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (836)
+[2024.11.08-22.51.17:585][413]LogModuleManager: Shutting down and abandoning module Persona (834)
+[2024.11.08-22.51.17:587][413]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (833)
+[2024.11.08-22.51.17:587][413]LogModuleManager: Shutting down and abandoning module Kismet (830)
+[2024.11.08-22.51.17:596][413]LogModuleManager: Shutting down and abandoning module KismetWidgets (829)
+[2024.11.08-22.51.17:597][413]LogModuleManager: Shutting down and abandoning module GraphEditor (826)
+[2024.11.08-22.51.17:597][413]LogModuleManager: Shutting down and abandoning module StructViewer (824)
+[2024.11.08-22.51.17:597][413]LogModuleManager: Shutting down and abandoning module ClassViewer (822)
+[2024.11.08-22.51.17:597][413]LogModuleManager: Shutting down and abandoning module UncontrolledChangelists (820)
+[2024.11.08-22.51.17:597][413]LogModuleManager: Shutting down and abandoning module SourceControlWindowExtender (818)
+[2024.11.08-22.51.17:597][413]LogModuleManager: Shutting down and abandoning module SourceControlWindows (816)
+[2024.11.08-22.51.17:598][413]LogModuleManager: Shutting down and abandoning module OutputLog (814)
+[2024.11.08-22.51.17:601][413]LogModuleManager: Shutting down and abandoning module Documentation (812)
+[2024.11.08-22.51.17:601][413]LogModuleManager: Shutting down and abandoning module SparseVolumeTexture (810)
+[2024.11.08-22.51.17:602][413]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (808)
+[2024.11.08-22.51.17:602][413]LogModuleManager: Shutting down and abandoning module MovieScene (806)
+[2024.11.08-22.51.17:603][413]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (804)
+[2024.11.08-22.51.17:603][413]LogModuleManager: Shutting down and abandoning module BinkAudioDecoder (802)
+[2024.11.08-22.51.17:605][413]LogModuleManager: Shutting down and abandoning module AudioMixerXAudio2 (800)
+[2024.11.08-22.51.17:605][413]LogModuleManager: Shutting down and abandoning module AudioMixer (799)
+[2024.11.08-22.51.17:605][413]LogModuleManager: Shutting down and abandoning module AudioMixerCore (798)
+[2024.11.08-22.51.17:605][413]LogModuleManager: Shutting down and abandoning module LauncherPlatform (794)
+[2024.11.08-22.51.17:605][413]LogModuleManager: Shutting down and abandoning module AnalyticsET (792)
+[2024.11.08-22.51.17:605][413]LogModuleManager: Shutting down and abandoning module PortalServices (790)
+[2024.11.08-22.51.17:605][413]LogModuleManager: Shutting down and abandoning module PortalRpc (788)
+[2024.11.08-22.51.17:605][413]LogModuleManager: Shutting down and abandoning module MessagingRpc (786)
+[2024.11.08-22.51.17:605][413]LogModuleManager: Shutting down and abandoning module AIModule (784)
+[2024.11.08-22.51.17:606][413]LogModuleManager: Shutting down and abandoning module GameplayDebugger (783)
+[2024.11.08-22.51.17:606][413]LogModuleManager: Shutting down and abandoning module AITestSuite (781)
+[2024.11.08-22.51.17:606][413]LogModuleManager: Shutting down and abandoning module NavigationSystem (779)
+[2024.11.08-22.51.17:607][413]LogModuleManager: Shutting down and abandoning module LevelInstanceEditor (776)
+[2024.11.08-22.51.17:607][413]LogModuleManager: Shutting down and abandoning module TypedElementRuntime (774)
+[2024.11.08-22.51.17:607][413]LogModuleManager: Shutting down and abandoning module TypedElementFramework (772)
+[2024.11.08-22.51.17:607][413]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (770)
+[2024.11.08-22.51.17:607][413]LogModuleManager: Shutting down and abandoning module ProfilerService (768)
+[2024.11.08-22.51.17:804][413]LogModuleManager: Shutting down and abandoning module ProfileVisualizer (766)
+[2024.11.08-22.51.17:806][413]LogModuleManager: Shutting down and abandoning module CacheTrackRecorder (764)
+[2024.11.08-22.51.17:806][413]LogModuleManager: Shutting down and abandoning module TakeRecorderSources (762)
+[2024.11.08-22.51.17:811][413]LogModuleManager: Shutting down and abandoning module TakeTrackRecorders (760)
+[2024.11.08-22.51.17:811][413]LogModuleManager: Shutting down and abandoning module TakesCore (758)
+[2024.11.08-22.51.17:812][413]LogModuleManager: Shutting down and abandoning module AudioSynesthesiaEditor (756)
+[2024.11.08-22.51.17:812][413]LogModuleManager: Shutting down and abandoning module MegascansPlugin (754)
+[2024.11.08-22.51.17:814][413]LogModuleManager: Shutting down and abandoning module Bridge (752)
+[2024.11.08-22.51.17:815][413]LogModuleManager: Shutting down and abandoning module ObjectMixerEditor (750)
+[2024.11.08-22.51.17:832][413]LogModuleManager: Shutting down and abandoning module LightMixer (748)
+[2024.11.08-22.51.17:833][413]LogModuleManager: Shutting down and abandoning module ContentBrowserFileDataSource (746)
+[2024.11.08-22.51.17:833][413]LogModuleManager: Shutting down and abandoning module ContentBrowserClassDataSource (744)
+[2024.11.08-22.51.17:833][413]LogModuleManager: Shutting down and abandoning module ContentBrowserAssetDataSource (742)
+[2024.11.08-22.51.17:833][413]LogModuleManager: Shutting down and abandoning module CollectionManager (741)
+[2024.11.08-22.51.17:835][413]LogModuleManager: Shutting down and abandoning module PortableObjectFileDataSource (738)
+[2024.11.08-22.51.17:835][413]LogModuleManager: Shutting down and abandoning module AlembicImporter (736)
+[2024.11.08-22.51.17:835][413]LogModuleManager: Shutting down and abandoning module AlembicLibrary (735)
+[2024.11.08-22.51.17:836][413]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (732)
+[2024.11.08-22.51.17:836][413]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (730)
+[2024.11.08-22.51.17:836][413]LogModuleManager: Shutting down and abandoning module Paper2DEditor (728)
+[2024.11.08-22.51.17:838][413]LogModuleManager: Shutting down and abandoning module TakeSequencer (724)
+[2024.11.08-22.51.17:838][413]LogModuleManager: Shutting down and abandoning module TakeMovieScene (722)
+[2024.11.08-22.51.17:838][413]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (720)
+[2024.11.08-22.51.17:840][413]LogModuleManager: Shutting down and abandoning module VariantManager (718)
+[2024.11.08-22.51.17:848][413]LogModuleManager: Shutting down and abandoning module VariantManagerContentEditor (717)
+[2024.11.08-22.51.17:848][413]LogModuleManager: Shutting down and abandoning module OodleNetworkHandlerComponent (714)
+[2024.11.08-22.51.17:848][413]LogModuleManager: Shutting down and abandoning module TemplateSequence (712)
+[2024.11.08-22.51.17:848][413]LogModuleManager: Shutting down and abandoning module SequencerScriptingEditor (710)
+[2024.11.08-22.51.17:848][413]LogModuleManager: Shutting down and abandoning module SequencerScripting (708)
+[2024.11.08-22.51.17:848][413]LogModuleManager: Shutting down and abandoning module InterchangeTestEditor (706)
+[2024.11.08-22.51.17:850][413]LogModuleManager: Shutting down and abandoning module InterchangeTests (704)
+[2024.11.08-22.51.17:850][413]LogModuleManager: Shutting down and abandoning module MediaPlateEditor (702)
+[2024.11.08-22.51.17:851][413]LogModuleManager: Shutting down and abandoning module MediaPlate (700)
+[2024.11.08-22.51.17:852][413]LogModuleManager: Shutting down and abandoning module MediaCompositing (698)
+[2024.11.08-22.51.17:852][413]LogModuleManager: Shutting down and abandoning module ImgMedia (696)
+[2024.11.08-22.51.17:852][413]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (694)
+[2024.11.08-22.51.17:853][413]LogModuleManager: Shutting down and abandoning module NiagaraEditorWidgets (692)
+[2024.11.08-22.51.17:861][413]LogModuleManager: Shutting down and abandoning module DumpGPUServices (690)
+[2024.11.08-22.51.17:861][413]LogModuleManager: Shutting down and abandoning module UObjectPlugin (688)
+[2024.11.08-22.51.17:861][413]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (686)
+[2024.11.08-22.51.17:861][413]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (684)
+[2024.11.08-22.51.17:864][413]LogModuleManager: Shutting down and abandoning module RiderSourceCodeAccess (682)
+[2024.11.08-22.51.17:864][413]LogModuleManager: Shutting down and abandoning module PluginUtils (680)
+[2024.11.08-22.51.17:865][413]LogModuleManager: Shutting down and abandoning module N10XSourceCodeAccess (678)
+[2024.11.08-22.51.17:865][413]LogModuleManager: Shutting down and abandoning module GitSourceControl (676)
+[2024.11.08-22.51.17:868][413]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (674)
+[2024.11.08-22.51.17:869][413]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (672)
+[2024.11.08-22.51.17:869][413]LogModuleManager: Shutting down and abandoning module SynthesisEditor (670)
+[2024.11.08-22.51.17:869][413]LogModuleManager: Shutting down and abandoning module ResonanceAudio (668)
+[2024.11.08-22.51.17:869][413]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (666)
+[2024.11.08-22.51.17:870][413]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (664)
+[2024.11.08-22.51.17:870][413]LogModuleManager: Shutting down and abandoning module ModelingOperatorsEditorOnly (662)
+[2024.11.08-22.51.17:870][413]LogModuleManager: Shutting down and abandoning module ModelingOperators (660)
+[2024.11.08-22.51.17:870][413]LogModuleManager: Shutting down and abandoning module ModelingComponentsEditorOnly (658)
+[2024.11.08-22.51.17:870][413]LogModuleManager: Shutting down and abandoning module ModelingComponents (656)
+[2024.11.08-22.51.17:872][413]LogModuleManager: Shutting down and abandoning module GeometryFramework (655)
+[2024.11.08-22.51.17:873][413]LogModuleManager: Shutting down and abandoning module MeshModelingToolsEditorOnly (652)
+[2024.11.08-22.51.17:875][413]LogModuleManager: Shutting down and abandoning module MeshModelingTools (650)
+[2024.11.08-22.51.17:875][413]LogModuleManager: Shutting down and abandoning module InputDebuggingEditor (648)
+[2024.11.08-22.51.17:875][413]LogModuleManager: Shutting down and abandoning module InputDebugging (646)
+[2024.11.08-22.51.17:875][413]LogModuleManager: Shutting down and abandoning module GooglePAD (644)
+[2024.11.08-22.51.17:875][413]LogModuleManager: Shutting down and abandoning module DynamicMesh (642)
+[2024.11.08-22.51.17:877][413]LogModuleManager: Shutting down and abandoning module GeometryAlgorithms (640)
+[2024.11.08-22.51.17:877][413]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (638)
+[2024.11.08-22.51.17:877][413]LogModuleManager: Shutting down and abandoning module GeometryCache (636)
+[2024.11.08-22.51.17:877][413]LogModuleManager: Shutting down and abandoning module GeometryCacheStreamer (634)
+[2024.11.08-22.51.17:877][413]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (632)
+[2024.11.08-22.51.17:877][413]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (630)
+[2024.11.08-22.51.17:877][413]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (628)
+[2024.11.08-22.51.17:879][413]LogModuleManager: Shutting down and abandoning module AudioCapture (626)
+[2024.11.08-22.51.17:879][413]LogModuleManager: Shutting down and abandoning module AudioCaptureWasapi (625)
+[2024.11.08-22.51.17:880][413]LogModuleManager: Shutting down and abandoning module AssetTags (622)
+[2024.11.08-22.51.17:880][413]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (620)
+[2024.11.08-22.51.17:880][413]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (618)
+[2024.11.08-22.51.17:880][413]LogModuleManager: Shutting down and abandoning module AppleImageUtils (616)
+[2024.11.08-22.51.17:880][413]LogModuleManager: Shutting down and abandoning module AndroidPermission (614)
+[2024.11.08-22.51.17:880][413]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (612)
+[2024.11.08-22.51.17:880][413]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (610)
+[2024.11.08-22.51.17:880][413]LogModuleManager: Shutting down and abandoning module InterchangeFbxParser (608)
+[2024.11.08-22.51.17:881][413]LogModuleManager: Shutting down and abandoning module InterchangeCommonParser (606)
+[2024.11.08-22.51.17:881][413]LogModuleManager: Shutting down and abandoning module InterchangeDispatcher (604)
+[2024.11.08-22.51.17:881][413]LogModuleManager: Shutting down and abandoning module InterchangeExport (602)
+[2024.11.08-22.51.17:881][413]LogModuleManager: Shutting down and abandoning module InterchangeMessages (600)
+[2024.11.08-22.51.17:881][413]LogModuleManager: Shutting down and abandoning module GLTFCore (598)
+[2024.11.08-22.51.17:881][413]LogModuleManager: Shutting down and abandoning module InterchangeEditorUtilities (596)
+[2024.11.08-22.51.17:881][413]LogModuleManager: Shutting down and abandoning module InterchangeEditorPipelines (594)
+[2024.11.08-22.51.17:882][413]LogModuleManager: Shutting down and abandoning module InterchangeEditor (592)
+[2024.11.08-22.51.17:883][413]LogModuleManager: Shutting down and abandoning module WorldPartitionHLODUtilities (590)
+[2024.11.08-22.51.17:883][413]LogModuleManager: Shutting down and abandoning module UVEditorToolsEditorOnly (588)
+[2024.11.08-22.51.17:883][413]LogModuleManager: Shutting down and abandoning module UVEditorTools (586)
+[2024.11.08-22.51.17:884][413]LogModuleManager: Shutting down and abandoning module UVEditor (584)
+[2024.11.08-22.51.17:885][413]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (582)
+[2024.11.08-22.51.17:885][413]LogModuleManager: Shutting down and abandoning module SequencerAnimTools (580)
+[2024.11.08-22.51.17:886][413]LogModuleManager: Shutting down and abandoning module PluginBrowser (578)
+[2024.11.08-22.51.17:889][413]LogModuleManager: Shutting down and abandoning module ModelingToolsEditorMode (576)
+[2024.11.08-22.51.17:892][413]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (574)
+[2024.11.08-22.51.17:893][413]LogModuleManager: Shutting down and abandoning module EditorScriptingUtilities (572)
+[2024.11.08-22.51.17:893][413]LogModuleManager: Shutting down and abandoning module EditorDebugTools (570)
+[2024.11.08-22.51.17:894][413]LogModuleManager: Shutting down and abandoning module CurveEditorTools (568)
+[2024.11.08-22.51.17:896][413]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (566)
+[2024.11.08-22.51.17:896][413]LogModuleManager: Shutting down and abandoning module CryptoKeys (564)
+[2024.11.08-22.51.17:896][413]LogModuleManager: Shutting down and abandoning module ChangelistReview (562)
+[2024.11.08-22.51.17:897][413]LogModuleManager: Shutting down and abandoning module BlueprintHeaderView (560)
+[2024.11.08-22.51.17:900][413]LogModuleManager: Shutting down and abandoning module ControlRigSpline (558)
+[2024.11.08-22.51.17:900][413]LogModuleManager: Shutting down and abandoning module BlendSpaceMotionAnalysis (556)
+[2024.11.08-22.51.17:900][413]LogModuleManager: Shutting down and abandoning module AnimationModifierLibrary (554)
+[2024.11.08-22.51.17:900][413]LogModuleManager: Shutting down and abandoning module ACLPluginEditor (552)
+[2024.11.08-22.51.17:900][413]LogModuleManager: Shutting down and abandoning module ToolPresetEditor (550)
+[2024.11.08-22.51.17:900][413]LogModuleManager: Shutting down and abandoning module ToolPresetAsset (548)
+[2024.11.08-22.51.17:900][413]LogModuleManager: Shutting down and abandoning module StructUtilsTestSuite (546)
+[2024.11.08-22.51.17:901][413]LogModuleManager: Shutting down and abandoning module StructUtilsNodes (544)
+[2024.11.08-22.51.17:901][413]LogModuleManager: Shutting down and abandoning module StructUtilsEditor (542)
+[2024.11.08-22.51.17:901][413]LogModuleManager: Shutting down and abandoning module StructUtilsEngine (540)
+[2024.11.08-22.51.17:901][413]LogModuleManager: Shutting down and abandoning module OpenImageDenoise (538)
+[2024.11.08-22.51.17:901][413]LogOpenImageDenoise: OIDN shutting down
+[2024.11.08-22.51.17:901][413]LogModuleManager: Shutting down and abandoning module SkeletalMeshModifiers (536)
+[2024.11.08-22.51.17:901][413]LogModuleManager: Shutting down and abandoning module ModelingEditorUI (534)
+[2024.11.08-22.51.17:902][413]LogModuleManager: Shutting down and abandoning module GeometryProcessingAdapters (532)
+[2024.11.08-22.51.17:905][413]LogModuleManager: Shutting down and abandoning module MeshModelingToolsEditorOnlyExp (530)
+[2024.11.08-22.51.17:906][413]LogModuleManager: Shutting down and abandoning module MeshModelingToolsExp (528)
+[2024.11.08-22.51.17:907][413]LogModuleManager: Shutting down and abandoning module MeshLODToolset (526)
+[2024.11.08-22.51.17:907][413]LogModuleManager: Shutting down and abandoning module LocalizableMessageBlueprint (524)
+[2024.11.08-22.51.17:907][413]LogModuleManager: Shutting down and abandoning module LocalizableMessage (522)
+[2024.11.08-22.51.17:907][413]LogModuleManager: Shutting down and abandoning module GeometryFlowMeshProcessingEditor (520)
+[2024.11.08-22.51.17:907][413]LogModuleManager: Shutting down and abandoning module GeometryFlowMeshProcessing (518)
+[2024.11.08-22.51.17:908][413]LogModuleManager: Shutting down and abandoning module GeometryFlowCore (516)
+[2024.11.08-22.51.17:909][413]LogModuleManager: Shutting down and abandoning module GeometryCollectionNodes (514)
+[2024.11.08-22.51.17:909][413]LogModuleManager: Shutting down and abandoning module GeometryCollectionTracks (512)
+[2024.11.08-22.51.17:909][413]LogModuleManager: Shutting down and abandoning module GeometryCollectionEngine (511)
+[2024.11.08-22.51.17:909][413]LogModuleManager: Shutting down and abandoning module GeometryCollectionSequencer (509)
+[2024.11.08-22.51.17:909][413]LogModuleManager: Shutting down and abandoning module GeometryCollectionEditor (506)
+[2024.11.08-22.51.17:909][413]LogModuleManager: Shutting down and abandoning module DataflowNodes (504)
+[2024.11.08-22.51.17:909][413]LogModuleManager: Shutting down and abandoning module DataflowEnginePlugin (502)
+[2024.11.08-22.51.17:909][413]LogModuleManager: Shutting down and abandoning module DataflowEditor (500)
+[2024.11.08-22.51.17:909][413]LogModuleManager: Shutting down and abandoning module ChaosUserDataPT (498)
+[2024.11.08-22.51.17:909][413]LogModuleManager: Shutting down and abandoning module ChaosSolverEditor (496)
+[2024.11.08-22.51.17:910][413]LogModuleManager: Shutting down and abandoning module ChaosNiagara (494)
+[2024.11.08-22.51.17:910][413]LogModuleManager: Shutting down and abandoning module ChaosClothEditor (492)
+[2024.11.08-22.51.17:910][413]LogModuleManager: Shutting down and abandoning module FractureEditor (490)
+[2024.11.08-22.51.17:912][413]LogModuleManager: Shutting down and abandoning module BackChannel (488)
+[2024.11.08-22.51.17:913][413]LogModuleManager: Shutting down and abandoning module AutomationUtilsEditor (486)
+[2024.11.08-22.51.17:913][413]LogModuleManager: Shutting down and abandoning module AutomationUtils (484)
+[2024.11.08-22.51.17:913][413]LogModuleManager: Shutting down and abandoning module EditorTraceUtilities (482)
+[2024.11.08-22.51.17:913][413]LogModuleManager: Shutting down and abandoning module TraceUtilities (480)
+[2024.11.08-22.51.17:913][413]LogModuleManager: Shutting down and abandoning module MeshPaintingToolset (478)
+[2024.11.08-22.51.17:913][413]LogModuleManager: Shutting down and abandoning module MeshPaintEditorMode (476)
+[2024.11.08-22.51.17:913][413]LogModuleManager: Shutting down and abandoning module InputEditor (474)
+[2024.11.08-22.51.17:915][413]LogModuleManager: Shutting down and abandoning module Arcade (472)
+[2024.11.08-22.51.17:915][413]LogModuleManager: Shutting down and abandoning module Paper2D (470)
+[2024.11.08-22.51.17:915][413]LogModuleManager: Shutting down and abandoning module UdpMessaging (468)
+[2024.11.08-22.51.18:017][413]LogModuleManager: Shutting down and abandoning module TcpMessaging (466)
+[2024.11.08-22.51.18:118][413]LogModuleManager: Shutting down and abandoning module ActorSequence (464)
+[2024.11.08-22.51.18:118][413]LogModuleManager: Shutting down and abandoning module GameplayCameras (462)
+[2024.11.08-22.51.18:118][413]LogModuleManager: Shutting down and abandoning module EnvironmentQueryEditor (460)
+[2024.11.08-22.51.18:119][413]LogModuleManager: Shutting down and abandoning module ImgMediaEngine (458)
+[2024.11.08-22.51.18:119][413]LogModuleManager: Shutting down and abandoning module NiagaraAnimNotifies (456)
+[2024.11.08-22.51.18:120][413]LogModuleManager: Shutting down and abandoning module Niagara (454)
+[2024.11.08-22.51.18:123][413]LogModuleManager: Shutting down and abandoning module NiagaraEditor (453)
+[2024.11.08-22.51.18:125][413]LogModuleManager: Shutting down and abandoning module NiagaraCore (450)
+[2024.11.08-22.51.18:125][413]LogModuleManager: Shutting down and abandoning module TraceDataFiltering (448)
+[2024.11.08-22.51.18:128][413]LogModuleManager: Shutting down and abandoning module PropertyAccessNode (446)
+[2024.11.08-22.51.18:128][413]LogModuleManager: Shutting down and abandoning module AnimationSharing (444)
+[2024.11.08-22.51.18:128][413]LogModuleManager: Shutting down and abandoning module Synthesis (442)
+[2024.11.08-22.51.18:130][413]LogModuleManager: Shutting down and abandoning module SoundFields (440)
+[2024.11.08-22.51.18:130][413]LogModuleManager: Shutting down and abandoning module SignificanceManager (438)
+[2024.11.08-22.51.18:130][413]LogModuleManager: Shutting down and abandoning module RigVMDeveloper (436)
+[2024.11.08-22.51.18:131][413]LogModuleManager: Shutting down and abandoning module RigVM (434)
+[2024.11.08-22.51.18:131][413]LogModuleManager: Shutting down and abandoning module PropertyAccessEditor (432)
+[2024.11.08-22.51.18:133][413]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (430)
+[2024.11.08-22.51.18:133][413]LogModuleManager: Shutting down and abandoning module MsQuicRuntime (428)
+[2024.11.08-22.51.18:133][413]LogModuleManager: Shutting down and abandoning module MetasoundEditor (426)
+[2024.11.08-22.51.18:136][413]LogModuleManager: Shutting down and abandoning module AudioWidgets (425)
+[2024.11.08-22.51.18:137][413]LogModuleManager: Shutting down and abandoning module AdvancedWidgets (424)
+[2024.11.08-22.51.18:141][413]LogModuleManager: Shutting down and abandoning module MetasoundEngineTest (420)
+[2024.11.08-22.51.18:141][413]LogModuleManager: Shutting down and abandoning module MetasoundEngine (418)
+[2024.11.08-22.51.18:142][413]LogModuleManager: Shutting down and abandoning module WaveTable (417)
+[2024.11.08-22.51.18:142][413]LogModuleManager: Shutting down and abandoning module AudioCodecEngine (415)
+[2024.11.08-22.51.18:142][413]LogModuleManager: Shutting down and abandoning module MetasoundStandardNodes (412)
+[2024.11.08-22.51.18:143][413]LogModuleManager: Shutting down and abandoning module MetasoundFrontend (410)
+[2024.11.08-22.51.18:152][413]LogModuleManager: Shutting down and abandoning module MetasoundGenerator (408)
+[2024.11.08-22.51.18:152][413]LogModuleManager: Shutting down and abandoning module MetasoundGraphCore (406)
+[2024.11.08-22.51.18:153][413]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (404)
+[2024.11.08-22.51.18:153][413]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (402)
+[2024.11.08-22.51.18:153][413]LogModuleManager: Shutting down and abandoning module CableComponent (400)
+[2024.11.08-22.51.18:153][413]LogModuleManager: Shutting down and abandoning module AudioSynesthesia (398)
+[2024.11.08-22.51.18:153][413]LogModuleManager: Shutting down and abandoning module AudioAnalyzer (397)
+[2024.11.08-22.51.18:153][413]LogModuleManager: Shutting down and abandoning module AudioSynesthesiaCore (394)
+[2024.11.08-22.51.18:153][413]LogModuleManager: Shutting down and abandoning module SignalProcessing (393)
+[2024.11.08-22.51.18:153][413]LogModuleManager: Shutting down and abandoning module InterchangePipelines (390)
+[2024.11.08-22.51.18:154][413]LogModuleManager: Shutting down and abandoning module InterchangeImport (388)
+[2024.11.08-22.51.18:154][413]LogModuleManager: Shutting down and abandoning module InterchangeFactoryNodes (386)
+[2024.11.08-22.51.18:154][413]LogModuleManager: Shutting down and abandoning module InterchangeNodes (384)
+[2024.11.08-22.51.18:154][413]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (382)
+[2024.11.08-22.51.18:157][413]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (380)
+[2024.11.08-22.51.18:157][413]LogModuleManager: Shutting down and abandoning module FacialAnimation (378)
+[2024.11.08-22.51.18:157][413]LogModuleManager: Shutting down and abandoning module DataValidation (376)
+[2024.11.08-22.51.18:157][413]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (374)
+[2024.11.08-22.51.18:158][413]LogModuleManager: Shutting down and abandoning module ContentBrowser (373)
+[2024.11.08-22.51.18:158][413]LogModuleManager: Shutting down and abandoning module ToolMenus (372)
+[2024.11.08-22.51.18:158][413]LogModuleManager: Shutting down and abandoning module ContentBrowserData (370)
+[2024.11.08-22.51.18:158][413]LogModuleManager: Shutting down and abandoning module TreeMap (367)
+[2024.11.08-22.51.18:159][413]LogModuleManager: Shutting down and abandoning module IKRigDeveloper (364)
+[2024.11.08-22.51.18:159][413]LogModuleManager: Shutting down and abandoning module IKRig (362)
+[2024.11.08-22.51.18:159][413]LogModuleManager: Shutting down and abandoning module ControlRigDeveloper (360)
+[2024.11.08-22.51.18:159][413]LogModuleManager: Shutting down and abandoning module ControlRig (358)
+[2024.11.08-22.51.18:159][413]LogModuleManager: Shutting down and abandoning module Constraints (357)
+[2024.11.08-22.51.18:160][413]LogModuleManager: Shutting down and abandoning module AnimationData (354)
+[2024.11.08-22.51.18:160][413]LogModuleManager: Shutting down and abandoning module StructUtils (352)
+[2024.11.08-22.51.18:160][413]LogModuleManager: Shutting down and abandoning module PythonScriptPlugin (350)
+[2024.11.08-22.51.18:214][413]LogModuleManager: Shutting down and abandoning module PBIK (348)
+[2024.11.08-22.51.18:214][413]LogModuleManager: Shutting down and abandoning module FullBodyIK (346)
+[2024.11.08-22.51.18:215][413]LogModuleManager: Shutting down and abandoning module ChaosCachingEditor (344)
+[2024.11.08-22.51.18:215][413]LogModuleManager: Shutting down and abandoning module TakeRecorder (343)
+[2024.11.08-22.51.18:218][413]LogModuleManager: Shutting down and abandoning module LevelEditor (341)
+[2024.11.08-22.51.18:241][413]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (340)
+[2024.11.08-22.51.18:243][413]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (338)
+[2024.11.08-22.51.18:244][413]LogModuleManager: Shutting down and abandoning module MainFrame (336)
+[2024.11.08-22.51.18:244][413]LogModuleManager: Shutting down and abandoning module HotReload (335)
+[2024.11.08-22.51.18:249][413]LogModuleManager: Shutting down and abandoning module ChaosCaching (330)
+[2024.11.08-22.51.18:249][413]LogModuleManager: Shutting down and abandoning module LevelSequence (329)
+[2024.11.08-22.51.18:249][413]LogModuleManager: Shutting down and abandoning module InputBlueprintNodes (326)
+[2024.11.08-22.51.18:249][413]LogModuleManager: Shutting down and abandoning module BlueprintGraph (325)
+[2024.11.08-22.51.18:249][413]LogModuleManager: Shutting down and abandoning module EnhancedInput (322)
+[2024.11.08-22.51.18:268][413]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (320)
+[2024.11.08-22.51.18:541][413]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (318)
+[2024.11.08-22.51.18:542][413]LogModuleManager: Shutting down and abandoning module AndroidFileServer (316)
+[2024.11.08-22.51.18:542][413]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (314)
+[2024.11.08-22.51.18:543][413]LogModuleManager: Shutting down and abandoning module PacketHandler (312)
+[2024.11.08-22.51.18:543][413]LogModuleManager: Shutting down and abandoning module WorldPartitionEditor (310)
+[2024.11.08-22.51.18:545][413]LogModuleManager: Shutting down and abandoning module AnimGraph (308)
+[2024.11.08-22.51.18:546][413]LogModuleManager: Shutting down and abandoning module TimeManagement (306)
+[2024.11.08-22.51.18:547][413]LogModuleManager: Shutting down and abandoning module AnimationDataController (304)
+[2024.11.08-22.51.18:547][413]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (302)
+[2024.11.08-22.51.18:547][413]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntimeNv (300)
+[2024.11.08-22.51.18:547][413]LogModuleManager: Shutting down and abandoning module MediaAssets (298)
+[2024.11.08-22.51.18:547][413]LogModuleManager: Shutting down and abandoning module Overlay (296)
+[2024.11.08-22.51.18:547][413]LogModuleManager: Shutting down and abandoning module OverlayEditor (295)
+[2024.11.08-22.51.18:547][413]LogModuleManager: Shutting down and abandoning module VREditor (292)
+[2024.11.08-22.51.18:547][413]LogModuleManager: Shutting down and abandoning module StringTableEditor (290)
+[2024.11.08-22.51.18:549][413]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (288)
+[2024.11.08-22.51.18:549][413]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (286)
+[2024.11.08-22.51.18:565][413]LogModuleManager: Shutting down and abandoning module FunctionalTesting (284)
+[2024.11.08-22.51.18:565][413]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (282)
+[2024.11.08-22.51.18:575][413]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (281)
+[2024.11.08-22.51.18:578][413]LogModuleManager: Shutting down and abandoning module ScriptableEditorWidgets (278)
+[2024.11.08-22.51.18:578][413]LogModuleManager: Shutting down and abandoning module UMG (276)
+[2024.11.08-22.51.18:578][413]LogModuleManager: Shutting down and abandoning module UMGEditor (275)
+[2024.11.08-22.51.18:580][413]LogModuleManager: Shutting down and abandoning module EditorStyle (270)
+[2024.11.08-22.51.18:580][413]LogModuleManager: Shutting down and abandoning module SlateReflector (268)
+[2024.11.08-22.51.18:588][413]LogModuleManager: Shutting down and abandoning module Slate (266)
+[2024.11.08-22.51.18:588][413]LogModuleManager: Shutting down and abandoning module SlateCore (264)
+[2024.11.08-22.51.18:591][413]LogModuleManager: Shutting down and abandoning module SubobjectDataInterface (262)
+[2024.11.08-22.51.18:591][413]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (260)
+[2024.11.08-22.51.18:591][413]LogModuleManager: Shutting down and abandoning module UnrealEd (258)
+[2024.11.08-22.51.18:591][413]LogModuleManager: Shutting down and abandoning module MRMesh (256)
+[2024.11.08-22.51.18:591][413]LogModuleManager: Shutting down and abandoning module Messaging (254)
+[2024.11.08-22.51.18:592][413]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (252)
+[2024.11.08-22.51.18:592][413]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (250)
+[2024.11.08-22.51.18:592][413]LogModuleManager: Shutting down and abandoning module LiveCoding (248)
+[2024.11.08-22.51.18:609][413]LogModuleManager: Shutting down and abandoning module Networking (246)
+[2024.11.08-22.51.18:609][413]LogModuleManager: Shutting down and abandoning module Core (244)
+[2024.11.08-22.51.18:609][413]LogModuleManager: Shutting down and abandoning module AssetDefinition (242)
+[2024.11.08-22.51.18:609][413]LogModuleManager: Shutting down and abandoning module MovieSceneTools (240)
+[2024.11.08-22.51.18:612][413]LogModuleManager: Shutting down and abandoning module CurveEditor (239)
+[2024.11.08-22.51.18:614][413]LogModuleManager: Shutting down and abandoning module Sequencer (237)
+[2024.11.08-22.51.18:621][413]LogModuleManager: Shutting down and abandoning module KismetCompiler (234)
+[2024.11.08-22.51.18:621][413]LogModuleManager: Shutting down and abandoning module MeshBuilder (232)
+[2024.11.08-22.51.18:621][413]LogModuleManager: Shutting down and abandoning module NaniteBuilder (230)
+[2024.11.08-22.51.18:622][413]LogModuleManager: Shutting down and abandoning module MeshUtilities (228)
+[2024.11.08-22.51.18:622][413]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (227)
+[2024.11.08-22.51.18:623][413]LogModuleManager: Shutting down and abandoning module StaticMeshDescription (226)
+[2024.11.08-22.51.18:623][413]LogModuleManager: Shutting down and abandoning module GeometryProcessingInterfaces (225)
+[2024.11.08-22.51.18:623][413]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (222)
+[2024.11.08-22.51.18:623][413]LogModuleManager: Shutting down and abandoning module MeshBoneReduction (221)
+[2024.11.08-22.51.18:624][413]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (219)
+[2024.11.08-22.51.18:625][413]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (217)
+[2024.11.08-22.51.18:630][413]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (215)
+[2024.11.08-22.51.18:630][413]LogModuleManager: Shutting down and abandoning module MaterialBaking (211)
+[2024.11.08-22.51.18:632][413]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (208)
+[2024.11.08-22.51.18:643][413]LogModuleManager: Shutting down and abandoning module TelemetryUtils (205)
+[2024.11.08-22.51.18:643][413]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (202)
+[2024.11.08-22.51.18:643][413]LogModuleManager: Shutting down and abandoning module ShaderPreprocessor (200)
+[2024.11.08-22.51.18:644][413]LogModuleManager: Shutting down and abandoning module DerivedDataCache (198)
+[2024.11.08-22.51.18:803][413]LogModuleManager: Shutting down and abandoning module TargetPlatform (196)
+[2024.11.08-22.51.18:809][413]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (195)
+[2024.11.08-22.51.18:810][413]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (193)
+[2024.11.08-22.51.18:812][413]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (191)
+[2024.11.08-22.51.18:812][413]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (189)
+[2024.11.08-22.51.18:812][413]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (187)
+[2024.11.08-22.51.18:812][413]LogModuleManager: Shutting down and abandoning module AudioFormatBINK (185)
+[2024.11.08-22.51.18:813][413]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (183)
+[2024.11.08-22.51.18:813][413]LogModuleManager: Shutting down and abandoning module AudioFormatOGG (181)
+[2024.11.08-22.51.18:814][413]LogModuleManager: Shutting down and abandoning module AudioFormatOPUS (179)
+[2024.11.08-22.51.18:815][413]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (177)
+[2024.11.08-22.51.18:816][413]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (175)
+[2024.11.08-22.51.18:817][413]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (173)
+[2024.11.08-22.51.18:818][413]LogModuleManager: Shutting down and abandoning module LinuxArm64TargetPlatform (171)
+[2024.11.08-22.51.18:819][413]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (169)
+[2024.11.08-22.51.18:820][413]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (167)
+[2024.11.08-22.51.18:820][413]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (165)
+[2024.11.08-22.51.18:822][413]LogModuleManager: Shutting down and abandoning module TextureFormat (163)
+[2024.11.08-22.51.18:822][413]LogModuleManager: Shutting down and abandoning module ImageWrapper (162)
+[2024.11.08-22.51.18:822][413]LogModuleManager: Shutting down and abandoning module TextureFormatOodle (160)
+[2024.11.08-22.51.18:824][413]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (158)
+[2024.11.08-22.51.18:824][413]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (156)
+[2024.11.08-22.51.18:824][413]LogModuleManager: Shutting down and abandoning module TextureFormatETC2 (154)
+[2024.11.08-22.51.18:824][413]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (152)
+[2024.11.08-22.51.18:825][413]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (150)
+[2024.11.08-22.51.18:826][413]LogModuleManager: Shutting down and abandoning module TurnkeySupport (147)
+[2024.11.08-22.51.18:826][413]LogModuleManager: Shutting down and abandoning module InputCore (144)
+[2024.11.08-22.51.18:826][413]LogModuleManager: Shutting down and abandoning module Settings (142)
+[2024.11.08-22.51.18:827][413]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (140)
+[2024.11.08-22.51.18:851][413]LogModuleManager: Shutting down and abandoning module ChaosSolverEngine (138)
+[2024.11.08-22.51.18:851][413]LogModuleManager: Shutting down and abandoning module FieldSystemEngine (137)
+[2024.11.08-22.51.18:851][413]LogModuleManager: Shutting down and abandoning module Chaos (134)
+[2024.11.08-22.51.18:851][413]LogModuleManager: Shutting down and abandoning module GeometryCore (133)
+[2024.11.08-22.51.18:852][413]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (130)
+[2024.11.08-22.51.18:852][413]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (129)
+[2024.11.08-22.51.18:852][413]LogModuleManager: Shutting down and abandoning module AVEncoder (128)
+[2024.11.08-22.51.18:852][413]LogModuleManager: Shutting down and abandoning module D3D12RHI (124)
+[2024.11.08-22.51.18:852][413]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (122)
+[2024.11.08-22.51.18:852][413]LogModuleManager: Shutting down and abandoning module OnlineSubsystemUtils (120)
+[2024.11.08-22.51.18:854][413]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (118)
+[2024.11.08-22.51.18:872][413]LogModuleManager: Shutting down and abandoning module XMPP (113)
+[2024.11.08-22.51.18:873][413]LogModuleManager: Shutting down and abandoning module WebSockets (112)
+[2024.11.08-22.51.18:900][413]LogModuleManager: Shutting down and abandoning module HTTP (109)
+[2024.11.08-22.51.18:900][413]LogHttp: Warning: [FHttpManager::Shutdown] Unbinding delegates for 1 outstanding Http Requests:
+[2024.11.08-22.51.18:900][413]LogHttp: Warning: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BDE401C1F-4D72-367B-88E3-4E8F94FCB684%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=5854cde84caea2ada4cfdf8acb56870c%7C5079f3a8d27e4a06b8aa12c1ec988d62%7C6837af35-0d34-433f-9d66-39fd848d7988&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[1] status=Processing
+[2024.11.08-22.51.18:927][413]LogModuleManager: Shutting down and abandoning module SSL (108)
+[2024.11.08-22.51.18:929][413]LogModuleManager: Shutting down and abandoning module OnlineServicesCommonEngineUtils (104)
+[2024.11.08-22.51.18:929][413]LogModuleManager: Shutting down and abandoning module OnlineServicesCommon (102)
+[2024.11.08-22.51.18:930][413]LogModuleManager: Shutting down and abandoning module OnlineServicesInterface (100)
+[2024.11.08-22.51.18:930][413]LogModuleManager: Shutting down and abandoning module DatasmithContent (98)
+[2024.11.08-22.51.18:931][413]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (96)
+[2024.11.08-22.51.18:931][413]LogModuleManager: Shutting down and abandoning module VariantManagerContent (94)
+[2024.11.08-22.51.18:931][413]LogModuleManager: Shutting down and abandoning module GLTFExporter (92)
+[2024.11.08-22.51.18:931][413]LogModuleManager: Shutting down and abandoning module AISupportModule (90)
+[2024.11.08-22.51.18:931][413]LogModuleManager: Shutting down and abandoning module WmfMedia (88)
+[2024.11.08-22.51.18:936][413]LogModuleManager: Shutting down and abandoning module Media (87)
+[2024.11.08-22.51.18:940][413]LogModuleManager: Shutting down and abandoning module ExrReaderGpu (84)
+[2024.11.08-22.51.18:940][413]LogModuleManager: Shutting down and abandoning module NiagaraVertexFactories (82)
+[2024.11.08-22.51.18:940][413]LogModuleManager: Shutting down and abandoning module NiagaraShader (80)
+[2024.11.08-22.51.18:940][413]LogModuleManager: Shutting down and abandoning module RenderDocPlugin (78)
+[2024.11.08-22.51.18:941][413]RenderDocPlugin: plugin has been unloaded.
+[2024.11.08-22.51.18:941][413]LogModuleManager: Shutting down and abandoning module PixWinPlugin (76)
+[2024.11.08-22.51.18:941][413]LogModuleManager: Shutting down and abandoning module WindowsDeviceProfileSelector (74)
+[2024.11.08-22.51.18:941][413]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (72)
+[2024.11.08-22.51.18:941][413]LogModuleManager: Shutting down and abandoning module ChunkDownloader (70)
+[2024.11.08-22.51.18:942][413]LogModuleManager: Shutting down and abandoning module ACLPlugin (68)
+[2024.11.08-22.51.18:942][413]LogModuleManager: Shutting down and abandoning module ChaosCloth (66)
+[2024.11.08-22.51.18:943][413]LogModuleManager: Shutting down and abandoning module DesktopPlatform (64)
+[2024.11.08-22.51.18:943][413]LogModuleManager: Shutting down and abandoning module PlasticSourceControl (62)
+[2024.11.08-22.51.18:945][413]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (60)
+[2024.11.08-22.51.18:947][413]LogModuleManager: Shutting down and abandoning module SourceControl (59)
+[2024.11.08-22.51.18:948][413]LogModuleManager: Shutting down and abandoning module PythonScriptPluginPreload (56)
+[2024.11.08-22.51.18:949][413]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (54)
+[2024.11.08-22.51.18:949][413]LogModuleManager: Shutting down and abandoning module PlatformCryptoTypes (52)
+[2024.11.08-22.51.18:949][413]LogModuleManager: Shutting down and abandoning module PlatformCrypto (50)
+[2024.11.08-22.51.18:950][413]LogModuleManager: Shutting down and abandoning module XGEController (48)
+[2024.11.08-22.51.18:950][413]LogXGEController: Cleaning working directory: C:/Users/pedro/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2024.11.08-22.51.18:950][413]LogModuleManager: Shutting down and abandoning module FastBuildController (46)
+[2024.11.08-22.51.18:952][413]LogModuleManager: Shutting down and abandoning module IoStoreOnDemand (44)
+[2024.11.08-22.51.18:953][413]LogModuleManager: Shutting down and abandoning module AnimationModifiers (42)
+[2024.11.08-22.51.18:954][413]LogModuleManager: Shutting down and abandoning module AudioEditor (40)
+[2024.11.08-22.51.18:957][413]LogModuleManager: Shutting down and abandoning module PropertyEditor (39)
+[2024.11.08-22.51.18:959][413]LogModuleManager: Shutting down and abandoning module Virtualization (36)
+[2024.11.08-22.51.18:959][413]LogModuleManager: Shutting down and abandoning module MessageLog (35)
+[2024.11.08-22.51.18:959][413]LogModuleManager: Shutting down and abandoning module TextureCompressor (32)
+[2024.11.08-22.51.18:959][413]LogModuleManager: Shutting down and abandoning module OpenColorIOWrapper (31)
+[2024.11.08-22.51.18:960][413]LogModuleManager: Shutting down and abandoning module RenderCore (28)
+[2024.11.08-22.51.18:960][413]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2024.11.08-22.51.18:960][413]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2024.11.08-22.51.18:963][413]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (22)
+[2024.11.08-22.51.18:963][413]LogModuleManager: Shutting down and abandoning module Renderer (20)
+[2024.11.08-22.51.18:965][413]LogModuleManager: Shutting down and abandoning module Engine (18)
+[2024.11.08-22.51.18:965][413]LogModuleManager: Shutting down and abandoning module CoreUObject (16)
+[2024.11.08-22.51.18:965][413]LogModuleManager: Shutting down and abandoning module SandboxFile (14)
+[2024.11.08-22.51.18:965][413]LogModuleManager: Shutting down and abandoning module PakFile (12)
+[2024.11.08-22.51.18:965][413]LogPakFile: Destroying PakPlatformFile
+[2024.11.08-22.51.18:966][413]LogModuleManager: Shutting down and abandoning module RSA (11)
+[2024.11.08-22.51.18:966][413]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2024.11.08-22.51.18:966][413]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2024.11.08-22.51.18:966][413]LogModuleManager: Shutting down and abandoning module CookOnTheFly (4)
+[2024.11.08-22.51.18:967][413]LogModuleManager: Shutting down and abandoning module StorageServerClient (2)
+[2024.11.08-22.51.19:267][413]LogD3D12RHI: ~FD3D12DynamicRHI
+[2024.11.08-22.51.19:345][413]LogExit: Exiting.
+[2024.11.08-22.51.19:405][413]Log file closed, 11/08/24 19:51:19
