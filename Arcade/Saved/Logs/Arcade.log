@@ -5644,3 +5644,1078 @@ Script call stack:
 [2024.11.11-20.55.33:250][496]AssetCheck: New page: Asset Save: multiple assets
 [2024.11.11-20.55.33:250][496]LogContentValidation: Display: Validating /Script/NavigationSystem.NavMeshBoundsVolume /Game/Levels/TestingPlayerV3.TestingPlayerV3:PersistentLevel.NavMeshBoundsVolume_UAID_5C60BAB11AB5C92702_1551431056
 [2024.11.11-20.55.33:250][496]LogContentValidation: Display: Validating /Game/Blueprints/Itens/TestingInteractions.TestingInteractions_C /Game/Levels/TestingPlayerV3.TestingPlayerV3:PersistentLevel.TestingInteractions_C_UAID_C87F5454B60D412D02_2132791456
+[2024.11.11-21.16.28:764][107]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.11-21.16.28:773][107]LogContentBundle: [TestingPlayerV3(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.11.11-21.16.28:773][107]LogWorldPartition: Display: GenerateStreaming for 'TestingPlayerV3' started...
+[2024.11.11-21.16.28:963][107]LogWorldPartition: Display: GenerateStreaming for 'TestingPlayerV3' took 189 ms (total: 6.62 sec)
+[2024.11.11-21.16.28:966][107]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.11-21.16.28:966][107]PIE: New page: PIE session: TestingPlayerV3 (Nov 11, 2024, 3:16:28 PM)
+[2024.11.11-21.16.28:966][107]LogPlayLevel: Display: Creating online subsystem for client :Context_62
+[2024.11.11-21.16.28:968][107]LogOnline: OSS: Created online subsystem instance for: :Context_62
+[2024.11.11-21.16.28:978][108]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TestingPlayerV3
+[2024.11.11-21.16.28:986][108]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008145s)
+[2024.11.11-21.16.28:986][108]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TestingPlayerV3.TestingPlayerV3 to /Game/Levels/UEDPIE_0_TestingPlayerV3.TestingPlayerV3 (0.008183s)
+[2024.11.11-21.16.28:998][108]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2024.11.11-21.16.29:001][108]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.11-21.16.29:001][108]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.11-21.16.29:001][108]LogAIModule: Creating AISystem for world TestingPlayerV3
+[2024.11.11-21.16.29:002][108]LogShaderCompilers: Display: ================================================
+[2024.11.11-21.16.29:002][108]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.11.11-21.16.29:002][108]LogShaderCompilers: Display: Total job queries 257, among them cache hits 193 (75.10%)
+[2024.11.11-21.16.29:002][108]LogShaderCompilers: Display: Tracking 64 distinct input hashes that result in 25 distinct outputs (39.06%)
+[2024.11.11-21.16.29:002][108]LogShaderCompilers: Display: RAM used: 1.34 MiB of 1.60 GiB budget. Usage: 0.08%
+[2024.11.11-21.16.29:002][108]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.11.11-21.16.29:002][108]LogShaderCompilers: Display: Shaders Compiled: 0
+[2024.11.11-21.16.29:002][108]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0%)
+[2024.11.11-21.16.29:002][108]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2024.11.11-21.16.29:002][108]LogShaderCompilers: Display: ================================================
+[2024.11.11-21.16.29:003][108]LogWorldPartition: ULevel::OnLevelLoaded(TestingPlayerV3)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.11.11-21.16.29:003][108]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.11.11-21.16.29:003][108]LogWorldPartition: UWorldPartition::Initialize : World = TestingPlayerV3, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.11.11-21.16.29:003][108]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.11.11-21.16.29:005][108]LogContentBundle: [TestingPlayerV3(Standalone)] Creating new contrainer.
+[2024.11.11-21.16.29:005][108]LogWorldPartition: Display: WorldPartition initialize took 2 ms (total: 1.43 sec)
+[2024.11.11-21.16.29:005][108]LogPlayLevel: PIE: World Init took: (0.004229s)
+[2024.11.11-21.16.29:005][108]LogAudio: Display: Creating Audio Device:                 Id: 36, Scope: Unique, Realtime: True
+[2024.11.11-21.16.29:005][108]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.11-21.16.29:005][108]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.11-21.16.29:005][108]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.11-21.16.29:005][108]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.11-21.16.29:005][108]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.11-21.16.29:005][108]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.11-21.16.29:005][108]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.11-21.16.29:005][108]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.11-21.16.29:005][108]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.11-21.16.29:006][108]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.11-21.16.29:006][108]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.11-21.16.29:007][108]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.11-21.16.29:024][108]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (Realtek(R) Audio)
+[2024.11.11-21.16.29:025][108]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.11-21.16.29:025][108]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.11-21.16.29:025][108]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.11-21.16.29:026][108]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=36
+[2024.11.11-21.16.29:026][108]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=36
+[2024.11.11-21.16.29:027][108]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=36
+[2024.11.11-21.16.29:027][108]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=36
+[2024.11.11-21.16.29:027][108]LogInit: FAudioDevice initialized with ID 36.
+[2024.11.11-21.16.29:027][108]LogAudio: Display: Audio Device (ID: 36) registered with world 'TestingPlayerV3'.
+[2024.11.11-21.16.29:027][108]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 36
+[2024.11.11-21.16.29:051][108]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.11-21.16.29:051][108]LogLoad: Game class is 'MyGameGamemode_C'
+[2024.11.11-21.16.29:052][108]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TestingPlayerV3.TestingPlayerV3 up for play (max tick rate 0) at 2024.11.11-18.16.29
+[2024.11.11-21.16.29:052][108]LogWorld: Bringing up level for play took: 0.001223
+[2024.11.11-21.16.29:053][108]LogWorldPartition: UWorldPartitionStreamingPolicy: CellsToActivate(41), CellsToLoad(0), CellsToUnload(0)
+[2024.11.11-21.16.29:053][108]LogWorldPartition: UWorldPartitionStreamingPolicy: Sources[0] = X=-11940.435 Y=-6681.237 Z=92.000,P=0.000000 Y=0.000000 R=-0.000000
+[2024.11.11-21.16.29:055][108]LogStreaming: Display: FlushAsyncLoading(): 97 QueuedPackages, 0 AsyncPackages
+[2024.11.11-21.16.29:396][108]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.11-21.16.29:396][108]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.11-21.16.29:396][108]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.11.11-21.16.29:397][108]LogBlueprintUserMessages: [BP_CheckPointTest_C_UAID_3C2C30D06DF8F02A02_1706789087] Saved Player Data
+[2024.11.11-21.16.29:397][108]LogBlueprintUserMessages: [BP_Player_C_0] Current money is 7.583239
+[2024.11.11-21.16.29:400][108]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.11.11-21.16.29:404][108]PIE: Server logged in
+[2024.11.11-21.16.29:406][108]PIE: Play in editor total start time 0.633 seconds.
+[2024.11.11-21.16.29:513][108]LogViewport: Scene viewport resized to 1314x890, mode Windowed.
+[2024.11.11-21.16.32:690][413]LogCharacterMovement: BP_NPC_C_UAID_C87F5454B60DC62C02_1711929808 is stuck and failed to move! Velocity: X=14.07 Y=-15.54 Z=0.00 Location: X=-10544.17 Y=-7111.23 Z=89.01 Normal: X=0.00 Y=0.16 Z=-0.99 PenetrationDepth:23.769 Actor:BP_BuildFurniture_AtmMachine_C_0 Component:BuildMesh BoneName:None (0 other events since notify)
+[2024.11.11-21.16.33:694][512]LogCharacterMovement: BP_NPC_C_UAID_C87F5454B60DC62C02_1711929808 is stuck and failed to move! Velocity: X=226.65 Y=-266.71 Z=0.00 Location: X=-10541.45 Y=-7111.23 Z=89.01 Normal: X=0.00 Y=0.16 Z=-0.99 PenetrationDepth:23.765 Actor:BP_BuildFurniture_AtmMachine_C_0 Component:BuildMesh BoneName:None (97 other events since notify)
+[2024.11.11-21.16.34:694][609]LogCharacterMovement: BP_NPC_C_UAID_C87F5454B60DC62C02_1711929808 is stuck and failed to move! Velocity: X=226.65 Y=-266.71 Z=0.00 Location: X=-10541.45 Y=-7111.23 Z=89.01 Normal: X=0.00 Y=0.16 Z=-0.99 PenetrationDepth:23.765 Actor:BP_BuildFurniture_AtmMachine_C_0 Component:BuildMesh BoneName:None (96 other events since notify)
+[2024.11.11-21.16.35:697][710]LogCharacterMovement: BP_NPC_C_UAID_C87F5454B60DC62C02_1711929808 is stuck and failed to move! Velocity: X=226.65 Y=-266.71 Z=0.00 Location: X=-10541.45 Y=-7111.23 Z=89.01 Normal: X=0.00 Y=0.16 Z=-0.99 PenetrationDepth:23.765 Actor:BP_BuildFurniture_AtmMachine_C_0 Component:BuildMesh BoneName:None (100 other events since notify)
+[2024.11.11-21.16.36:699][809]LogCharacterMovement: BP_NPC_C_UAID_C87F5454B60DC62C02_1711929808 is stuck and failed to move! Velocity: X=226.65 Y=-266.71 Z=0.00 Location: X=-10541.45 Y=-7111.23 Z=89.01 Normal: X=0.00 Y=0.16 Z=-0.99 PenetrationDepth:23.765 Actor:BP_BuildFurniture_AtmMachine_C_0 Component:BuildMesh BoneName:None (98 other events since notify)
+[2024.11.11-21.16.36:900][829]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.16.37:270][865]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.16.37:529][891]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.16.37:758][914]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.16.37:996][938]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.16.40:144][150]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.16.41:253][260]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.16.41:783][310]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.16.42:646][394]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.16.42:898][420]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.16.43:105][441]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.16.43:720][498]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.16.44:240][548]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.16.44:454][569]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.16.44:647][588]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.16.44:809][604]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.16.45:758][699]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.16.45:759][699]LogBlueprintDebug: Warning: Hit breakpoint on node 'K2Node_IfThenElse', from offset 3327
+[2024.11.11-21.16.45:759][699]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/Blueprints/AI/Tasks/BTTask_MoveToCashier.BTTask_MoveToCashier_C:OnPlayerDelivered
+	Function /Game/Blueprints/AI/Tasks/BTTask_MoveToCashier.BTTask_MoveToCashier_C:ExecuteUbergraph_BTTask_MoveToCashier
+
+[2024.11.11-21.16.52:706][699]LogBlueprintDebug: Warning: Hit breakpoint on node 'K2Node_IfThenElse', from offset 3327
+[2024.11.11-21.16.52:707][699]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/Blueprints/AI/Tasks/BTTask_MoveToCashier.BTTask_MoveToCashier_C:OnPlayerDelivered
+	Function /Game/Blueprints/AI/Tasks/BTTask_MoveToCashier.BTTask_MoveToCashier_C:ExecuteUbergraph_BTTask_MoveToCashier
+
+[2024.11.11-21.16.57:565][699]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Engine/EditorBlueprintResources/StandardMacros.StandardMacros
+[2024.11.11-21.16.57:565][699]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.11-21.16.57:565][699]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.11-21.17.13:448][699]LogBlueprintDebug: Warning: Hit breakpoint on node 'K2Node_IfThenElse', from offset 3327
+[2024.11.11-21.17.13:448][699]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/Blueprints/AI/Tasks/BTTask_MoveToCashier.BTTask_MoveToCashier_C:OnPlayerDelivered
+	Function /Game/Blueprints/AI/Tasks/BTTask_MoveToCashier.BTTask_MoveToCashier_C:ExecuteUbergraph_BTTask_MoveToCashier
+
+[2024.11.11-21.17.20:123][699]LogBlueprintDebug: Warning: Hit breakpoint on node 'K2Node_IfThenElse', from offset 3327
+[2024.11.11-21.17.20:123][699]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/Blueprints/AI/Tasks/BTTask_MoveToCashier.BTTask_MoveToCashier_C:OnPlayerDelivered
+	Function /Game/Blueprints/AI/Tasks/BTTask_MoveToCashier.BTTask_MoveToCashier_C:ExecuteUbergraph_BTTask_MoveToCashier
+
+[2024.11.11-21.17.27:375][699]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/Blueprints/AI/Tasks/BTTask_MoveToMachines.BTTask_MoveToMachines_C:ExecuteUbergraph_BTTask_MoveToMachines'!
+[2024.11.11-21.17.27:375][699]LogScript: Warning: Script Msg called by: BTTask_MoveToMachines_C /Memory/UEDPIE_0_4NJL7U5H0QHUG94PESQTGE495.TestingPlayerV3:PersistentLevel.AI_Controller_C_2.BTComponent.BTTask_ThanksForChange_C_0
+[2024.11.11-21.17.27:375][699]LogScript: Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	BTTask_MoveToMachines_C /Memory/UEDPIE_0_4NJL7U5H0QHUG94PESQTGE495.TestingPlayerV3:PersistentLevel.AI_Controller_C_2.BTComponent.BTTask_ThanksForChange_C_0
+	Function /Game/Blueprints/AI/Tasks/BTTask_MoveToMachines.BTTask_MoveToMachines_C:ExecuteUbergraph_BTTask_MoveToMachines:0828
+[2024.11.11-21.17.27:375][699]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item". Node:  Bind Event to On Queue Exit Graph:  EventGraph Function:  Execute Ubergraph BTTask Move to Machines Blueprint:  BTTask_MoveToMachines
+[2024.11.11-21.17.27:380][699]LogAutomationController: Ignoring very large delta of 41.62 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.11.11-21.17.27:434][700]LogCharacterMovement: BP_NPC_C_UAID_C87F5454B60DC62C02_1711929808 is stuck and failed to move! Velocity: X=66.31 Y=-78.03 Z=0.00 Location: X=-10541.45 Y=-7111.22 Z=89.00 Normal: X=0.00 Y=0.16 Z=-0.99 PenetrationDepth:23.762 Actor:BP_BuildFurniture_AtmMachine_C_0 Component:BuildMesh BoneName:None (52 other events since notify)
+[2024.11.11-21.17.28:386][814]LogCharacterMovement: BP_NPC_C_UAID_C87F5454B60DC62C02_1711929808 is stuck and failed to move! Velocity: X=203.25 Y=-284.93 Z=0.00 Location: X=-10534.76 Y=-7111.27 Z=88.87 Normal: X=0.00 Y=0.15 Z=-0.99 PenetrationDepth:23.635 Actor:BP_BuildFurniture_AtmMachine_C_0 Component:BuildMesh BoneName:None (118 other events since notify)
+[2024.11.11-21.17.29:458][934]LogCharacterMovement: BP_NPC_C_UAID_C87F5454B60DC62C02_1711929808 is stuck and failed to move! Velocity: X=203.25 Y=-284.93 Z=0.00 Location: X=-10534.76 Y=-7111.27 Z=88.87 Normal: X=0.00 Y=0.15 Z=-0.99 PenetrationDepth:23.635 Actor:BP_BuildFurniture_AtmMachine_C_0 Component:BuildMesh BoneName:None (114 other events since notify)
+[2024.11.11-21.17.30:461][ 41]LogCharacterMovement: BP_NPC_C_UAID_C87F5454B60DC62C02_1711929808 is stuck and failed to move! Velocity: X=203.25 Y=-284.93 Z=0.00 Location: X=-10534.76 Y=-7111.27 Z=88.87 Normal: X=0.00 Y=0.15 Z=-0.99 PenetrationDepth:23.635 Actor:BP_BuildFurniture_AtmMachine_C_0 Component:BuildMesh BoneName:None (106 other events since notify)
+[2024.11.11-21.17.31:467][145]LogCharacterMovement: BP_NPC_C_UAID_C87F5454B60DC62C02_1711929808 is stuck and failed to move! Velocity: X=203.25 Y=-284.93 Z=0.00 Location: X=-10534.76 Y=-7111.27 Z=88.87 Normal: X=0.00 Y=0.15 Z=-0.99 PenetrationDepth:23.635 Actor:BP_BuildFurniture_AtmMachine_C_0 Component:BuildMesh BoneName:None (103 other events since notify)
+[2024.11.11-21.17.42:198][184]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.17.42:577][224]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.17.42:835][252]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.17.43:100][281]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.17.43:335][306]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.17.43:620][334]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.17.43:817][354]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.17.44:143][388]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.17.47:540][734]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.11-21.17.47:540][734]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TestingPlayerV3
+[2024.11.11-21.17.47:540][734]LogSlate: Window 'Arcade Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2024.11.11-21.17.47:549][734]LogWorld: UWorld::CleanupWorld for TestingPlayerV3, bSessionEnded=true, bCleanupResources=true
+[2024.11.11-21.17.47:549][734]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.11-21.17.47:549][734]LogContentBundle: [TestingPlayerV3(Standalone)] Deleting container.
+[2024.11.11-21.17.47:551][734]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.11-21.17.47:556][734]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.11-21.17.47:571][734]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 36
+[2024.11.11-21.17.47:571][734]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=36
+[2024.11.11-21.17.47:573][734]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=36
+[2024.11.11-21.17.47:589][734]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2024.11.11-21.17.47:730][735]LogPlayLevel: Display: Destroying online subsystem :Context_62
+[2024.11.11-21.17.50:404][948]LogSlate: Window 'Message Log' being destroyed
+[2024.11.11-21.17.50:411][948]LogSlate: Window 'Message Log' being destroyed
+[2024.11.11-21.17.51:790][ 75]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.11-21.17.51:798][ 75]LogContentBundle: [TestingPlayerV3(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.11.11-21.17.51:798][ 75]LogWorldPartition: Display: GenerateStreaming for 'TestingPlayerV3' started...
+[2024.11.11-21.17.51:977][ 75]LogWorldPartition: Display: GenerateStreaming for 'TestingPlayerV3' took 178 ms (total: 6.80 sec)
+[2024.11.11-21.17.51:979][ 75]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.11-21.17.51:979][ 75]PIE: New page: PIE session: TestingPlayerV3 (Nov 11, 2024, 3:17:51 PM)
+[2024.11.11-21.17.51:979][ 75]LogPlayLevel: Display: Creating online subsystem for client :Context_64
+[2024.11.11-21.17.51:981][ 75]LogOnline: OSS: Created online subsystem instance for: :Context_64
+[2024.11.11-21.17.52:015][ 76]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TestingPlayerV3
+[2024.11.11-21.17.52:023][ 76]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008244s)
+[2024.11.11-21.17.52:023][ 76]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TestingPlayerV3.TestingPlayerV3 to /Game/Levels/UEDPIE_0_TestingPlayerV3.TestingPlayerV3 (0.008275s)
+[2024.11.11-21.17.52:032][ 76]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2024.11.11-21.17.52:035][ 76]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.11-21.17.52:035][ 76]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.11-21.17.52:035][ 76]LogAIModule: Creating AISystem for world TestingPlayerV3
+[2024.11.11-21.17.52:036][ 76]LogWorldPartition: ULevel::OnLevelLoaded(TestingPlayerV3)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.11.11-21.17.52:036][ 76]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.11.11-21.17.52:036][ 76]LogWorldPartition: UWorldPartition::Initialize : World = TestingPlayerV3, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.11.11-21.17.52:036][ 76]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.11.11-21.17.52:038][ 76]LogContentBundle: [TestingPlayerV3(Standalone)] Creating new contrainer.
+[2024.11.11-21.17.52:038][ 76]LogWorldPartition: Display: WorldPartition initialize took 2 ms (total: 1.44 sec)
+[2024.11.11-21.17.52:038][ 76]LogPlayLevel: PIE: World Init took: (0.003010s)
+[2024.11.11-21.17.52:038][ 76]LogAudio: Display: Creating Audio Device:                 Id: 37, Scope: Unique, Realtime: True
+[2024.11.11-21.17.52:038][ 76]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.11-21.17.52:038][ 76]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.11-21.17.52:038][ 76]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.11-21.17.52:038][ 76]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.11-21.17.52:038][ 76]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.11-21.17.52:038][ 76]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.11-21.17.52:038][ 76]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.11-21.17.52:038][ 76]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.11-21.17.52:038][ 76]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.11-21.17.52:038][ 76]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.11-21.17.52:038][ 76]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.11-21.17.52:040][ 76]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.11-21.17.52:056][ 76]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (Realtek(R) Audio)
+[2024.11.11-21.17.52:056][ 76]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.11-21.17.52:056][ 76]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.11-21.17.52:056][ 76]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.11-21.17.52:056][ 76]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=37
+[2024.11.11-21.17.52:056][ 76]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=37
+[2024.11.11-21.17.52:057][ 76]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=37
+[2024.11.11-21.17.52:057][ 76]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=37
+[2024.11.11-21.17.52:057][ 76]LogInit: FAudioDevice initialized with ID 37.
+[2024.11.11-21.17.52:057][ 76]LogAudio: Display: Audio Device (ID: 37) registered with world 'TestingPlayerV3'.
+[2024.11.11-21.17.52:057][ 76]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 37
+[2024.11.11-21.17.52:060][ 76]LogLoad: Game class is 'MyGameGamemode_C'
+[2024.11.11-21.17.52:061][ 76]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TestingPlayerV3.TestingPlayerV3 up for play (max tick rate 0) at 2024.11.11-18.17.52
+[2024.11.11-21.17.52:061][ 76]LogWorld: Bringing up level for play took: 0.000976
+[2024.11.11-21.17.52:061][ 76]LogWorldPartition: UWorldPartitionStreamingPolicy: CellsToActivate(41), CellsToLoad(0), CellsToUnload(0)
+[2024.11.11-21.17.52:061][ 76]LogWorldPartition: UWorldPartitionStreamingPolicy: Sources[0] = X=-11940.435 Y=-6681.237 Z=92.000,P=0.000000 Y=0.000000 R=-0.000000
+[2024.11.11-21.17.52:063][ 76]LogStreaming: Display: FlushAsyncLoading(): 97 QueuedPackages, 0 AsyncPackages
+[2024.11.11-21.17.52:406][ 76]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.11-21.17.52:406][ 76]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.11-21.17.52:406][ 76]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.11.11-21.17.52:407][ 76]LogBlueprintUserMessages: [BP_CheckPointTest_C_UAID_3C2C30D06DF8F02A02_1706789087] Saved Player Data
+[2024.11.11-21.17.52:407][ 76]LogBlueprintUserMessages: [BP_Player_C_0] Current money is 10.24018
+[2024.11.11-21.17.52:410][ 76]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.11.11-21.17.52:410][ 76]PIE: Server logged in
+[2024.11.11-21.17.52:411][ 76]PIE: Play in editor total start time 0.613 seconds.
+[2024.11.11-21.18.03:261][260]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.18.03:611][300]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.18.03:897][334]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.18.04:147][363]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.18.04:383][391]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.18.06:597][649]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.18.07:023][700]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.18.07:242][726]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.18.07:469][753]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.18.07:830][796]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.18.09:348][972]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.18.09:879][ 33]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.18.10:114][ 59]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.18.10:359][ 88]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.18.10:579][114]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.18.10:888][150]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.18.11:538][224]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.18.11:538][224]LogBlueprintDebug: Warning: Hit breakpoint on node 'K2Node_IfThenElse', from offset 3327
+[2024.11.11-21.18.11:538][224]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/Blueprints/AI/Tasks/BTTask_MoveToCashier.BTTask_MoveToCashier_C:OnPlayerDelivered
+	Function /Game/Blueprints/AI/Tasks/BTTask_MoveToCashier.BTTask_MoveToCashier_C:ExecuteUbergraph_BTTask_MoveToCashier
+
+[2024.11.11-21.18.14:412][224]LogBlueprintDebug: Warning: Hit breakpoint on node 'K2Node_IfThenElse', from offset 3327
+[2024.11.11-21.18.14:412][224]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/Blueprints/AI/Tasks/BTTask_MoveToCashier.BTTask_MoveToCashier_C:OnPlayerDelivered
+	Function /Game/Blueprints/AI/Tasks/BTTask_MoveToCashier.BTTask_MoveToCashier_C:ExecuteUbergraph_BTTask_MoveToCashier
+
+[2024.11.11-21.18.14:942][224]LogAutomationController: Ignoring very large delta of 3.41 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.11.11-21.18.23:249][808]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.11-21.18.23:249][808]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TestingPlayerV3
+[2024.11.11-21.18.23:257][808]LogWorld: UWorld::CleanupWorld for TestingPlayerV3, bSessionEnded=true, bCleanupResources=true
+[2024.11.11-21.18.23:257][808]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.11-21.18.23:257][808]LogContentBundle: [TestingPlayerV3(Standalone)] Deleting container.
+[2024.11.11-21.18.23:259][808]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.11-21.18.23:264][808]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.11-21.18.23:279][808]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.11-21.18.23:280][808]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 37
+[2024.11.11-21.18.23:280][808]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=37
+[2024.11.11-21.18.23:282][808]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=37
+[2024.11.11-21.18.23:298][808]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2024.11.11-21.18.23:393][809]LogPlayLevel: Display: Destroying online subsystem :Context_64
+[2024.11.11-21.18.23:691][833]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.11-21.18.23:700][833]LogContentBundle: [TestingPlayerV3(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.11.11-21.18.23:700][833]LogWorldPartition: Display: GenerateStreaming for 'TestingPlayerV3' started...
+[2024.11.11-21.18.23:869][833]LogWorldPartition: Display: GenerateStreaming for 'TestingPlayerV3' took 169 ms (total: 6.97 sec)
+[2024.11.11-21.18.23:872][833]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.11-21.18.23:872][833]PIE: New page: PIE session: TestingPlayerV3 (Nov 11, 2024, 3:18:23 PM)
+[2024.11.11-21.18.23:872][833]LogPlayLevel: Display: Creating online subsystem for client :Context_65
+[2024.11.11-21.18.23:873][833]LogOnline: OSS: Created online subsystem instance for: :Context_65
+[2024.11.11-21.18.23:906][834]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TestingPlayerV3
+[2024.11.11-21.18.23:914][834]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008004s)
+[2024.11.11-21.18.23:914][834]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TestingPlayerV3.TestingPlayerV3 to /Game/Levels/UEDPIE_0_TestingPlayerV3.TestingPlayerV3 (0.008038s)
+[2024.11.11-21.18.23:925][834]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2024.11.11-21.18.23:929][834]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.11-21.18.23:929][834]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.11-21.18.23:930][834]LogAIModule: Creating AISystem for world TestingPlayerV3
+[2024.11.11-21.18.23:930][834]LogWorldPartition: ULevel::OnLevelLoaded(TestingPlayerV3)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.11.11-21.18.23:930][834]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.11.11-21.18.23:930][834]LogWorldPartition: UWorldPartition::Initialize : World = TestingPlayerV3, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.11.11-21.18.23:930][834]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.11.11-21.18.23:932][834]LogContentBundle: [TestingPlayerV3(Standalone)] Creating new contrainer.
+[2024.11.11-21.18.23:932][834]LogWorldPartition: Display: WorldPartition initialize took 2 ms (total: 1.44 sec)
+[2024.11.11-21.18.23:932][834]LogPlayLevel: PIE: World Init took: (0.002985s)
+[2024.11.11-21.18.23:932][834]LogAudio: Display: Creating Audio Device:                 Id: 38, Scope: Unique, Realtime: True
+[2024.11.11-21.18.23:932][834]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.11-21.18.23:932][834]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.11-21.18.23:932][834]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.11-21.18.23:932][834]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.11-21.18.23:932][834]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.11-21.18.23:932][834]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.11-21.18.23:932][834]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.11-21.18.23:932][834]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.11-21.18.23:933][834]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.11-21.18.23:933][834]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.11-21.18.23:933][834]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.11-21.18.23:934][834]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.11-21.18.23:951][834]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (Realtek(R) Audio)
+[2024.11.11-21.18.23:951][834]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.11-21.18.23:951][834]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.11-21.18.23:951][834]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.11-21.18.23:951][834]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=38
+[2024.11.11-21.18.23:951][834]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=38
+[2024.11.11-21.18.23:953][834]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=38
+[2024.11.11-21.18.23:953][834]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=38
+[2024.11.11-21.18.23:953][834]LogInit: FAudioDevice initialized with ID 38.
+[2024.11.11-21.18.23:953][834]LogAudio: Display: Audio Device (ID: 38) registered with world 'TestingPlayerV3'.
+[2024.11.11-21.18.23:953][834]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 38
+[2024.11.11-21.18.23:955][834]LogLoad: Game class is 'MyGameGamemode_C'
+[2024.11.11-21.18.23:956][834]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TestingPlayerV3.TestingPlayerV3 up for play (max tick rate 0) at 2024.11.11-18.18.23
+[2024.11.11-21.18.23:956][834]LogWorld: Bringing up level for play took: 0.000997
+[2024.11.11-21.18.23:957][834]LogWorldPartition: UWorldPartitionStreamingPolicy: CellsToActivate(41), CellsToLoad(0), CellsToUnload(0)
+[2024.11.11-21.18.23:957][834]LogWorldPartition: UWorldPartitionStreamingPolicy: Sources[0] = X=-11940.435 Y=-6681.237 Z=92.000,P=0.000000 Y=0.000000 R=-0.000000
+[2024.11.11-21.18.23:959][834]LogStreaming: Display: FlushAsyncLoading(): 97 QueuedPackages, 0 AsyncPackages
+[2024.11.11-21.18.24:300][834]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.11-21.18.24:300][834]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.11-21.18.24:301][834]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.11.11-21.18.24:302][834]LogBlueprintUserMessages: [BP_CheckPointTest_C_UAID_3C2C30D06DF8F02A02_1706789087] Saved Player Data
+[2024.11.11-21.18.24:302][834]LogBlueprintUserMessages: [BP_Player_C_0] Current money is 18.69686
+[2024.11.11-21.18.24:304][834]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.11.11-21.18.24:304][834]PIE: Server logged in
+[2024.11.11-21.18.24:305][834]PIE: Play in editor total start time 0.606 seconds.
+[2024.11.11-21.18.42:319][263]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.11-21.18.42:319][263]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TestingPlayerV3
+[2024.11.11-21.18.42:327][263]LogWorld: UWorld::CleanupWorld for TestingPlayerV3, bSessionEnded=true, bCleanupResources=true
+[2024.11.11-21.18.42:327][263]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.11-21.18.42:327][263]LogContentBundle: [TestingPlayerV3(Standalone)] Deleting container.
+[2024.11.11-21.18.42:330][263]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.11-21.18.42:334][263]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.11-21.18.42:347][263]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.11-21.18.42:348][263]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 38
+[2024.11.11-21.18.42:348][263]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=38
+[2024.11.11-21.18.42:349][263]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=38
+[2024.11.11-21.18.42:366][263]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2024.11.11-21.18.42:459][264]LogPlayLevel: Display: Destroying online subsystem :Context_65
+[2024.11.11-21.19.47:133][833]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.11-21.19.47:141][833]LogContentBundle: [TestingPlayerV3(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.11.11-21.19.47:141][833]LogWorldPartition: Display: GenerateStreaming for 'TestingPlayerV3' started...
+[2024.11.11-21.19.47:331][833]LogWorldPartition: Display: GenerateStreaming for 'TestingPlayerV3' took 189 ms (total: 7.16 sec)
+[2024.11.11-21.19.47:333][833]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.11-21.19.47:334][833]PIE: New page: PIE session: TestingPlayerV3 (Nov 11, 2024, 3:19:47 PM)
+[2024.11.11-21.19.47:334][833]LogPlayLevel: Display: Creating online subsystem for client :Context_66
+[2024.11.11-21.19.47:335][833]LogOnline: OSS: Created online subsystem instance for: :Context_66
+[2024.11.11-21.19.47:345][834]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TestingPlayerV3
+[2024.11.11-21.19.47:353][834]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008147s)
+[2024.11.11-21.19.47:353][834]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TestingPlayerV3.TestingPlayerV3 to /Game/Levels/UEDPIE_0_TestingPlayerV3.TestingPlayerV3 (0.008181s)
+[2024.11.11-21.19.47:361][834]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2024.11.11-21.19.47:364][834]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.11-21.19.47:364][834]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.11-21.19.47:364][834]LogAIModule: Creating AISystem for world TestingPlayerV3
+[2024.11.11-21.19.47:365][834]LogShaderCompilers: Display: ================================================
+[2024.11.11-21.19.47:365][834]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.11.11-21.19.47:365][834]LogShaderCompilers: Display: Total job queries 269, among them cache hits 205 (76.21%)
+[2024.11.11-21.19.47:365][834]LogShaderCompilers: Display: Tracking 64 distinct input hashes that result in 25 distinct outputs (39.06%)
+[2024.11.11-21.19.47:365][834]LogShaderCompilers: Display: RAM used: 1.34 MiB of 1.60 GiB budget. Usage: 0.08%
+[2024.11.11-21.19.47:365][834]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.11.11-21.19.47:365][834]LogShaderCompilers: Display: Shaders Compiled: 0
+[2024.11.11-21.19.47:365][834]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0%)
+[2024.11.11-21.19.47:365][834]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2024.11.11-21.19.47:365][834]LogShaderCompilers: Display: ================================================
+[2024.11.11-21.19.47:365][834]LogWorldPartition: ULevel::OnLevelLoaded(TestingPlayerV3)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.11.11-21.19.47:365][834]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.11.11-21.19.47:365][834]LogWorldPartition: UWorldPartition::Initialize : World = TestingPlayerV3, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.11.11-21.19.47:365][834]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.11.11-21.19.47:368][834]LogContentBundle: [TestingPlayerV3(Standalone)] Creating new contrainer.
+[2024.11.11-21.19.47:368][834]LogWorldPartition: Display: WorldPartition initialize took 2 ms (total: 1.44 sec)
+[2024.11.11-21.19.47:368][834]LogPlayLevel: PIE: World Init took: (0.004090s)
+[2024.11.11-21.19.47:368][834]LogAudio: Display: Creating Audio Device:                 Id: 39, Scope: Unique, Realtime: True
+[2024.11.11-21.19.47:368][834]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.11-21.19.47:368][834]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.11-21.19.47:368][834]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.11-21.19.47:368][834]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.11-21.19.47:368][834]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.11-21.19.47:368][834]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.11-21.19.47:368][834]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.11-21.19.47:368][834]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.11-21.19.47:368][834]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.11-21.19.47:368][834]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.11-21.19.47:368][834]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.11-21.19.47:369][834]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.11-21.19.47:386][834]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (Realtek(R) Audio)
+[2024.11.11-21.19.47:386][834]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.11-21.19.47:386][834]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.11-21.19.47:386][834]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.11-21.19.47:386][834]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=39
+[2024.11.11-21.19.47:386][834]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=39
+[2024.11.11-21.19.47:388][834]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=39
+[2024.11.11-21.19.47:388][834]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=39
+[2024.11.11-21.19.47:388][834]LogInit: FAudioDevice initialized with ID 39.
+[2024.11.11-21.19.47:388][834]LogAudio: Display: Audio Device (ID: 39) registered with world 'TestingPlayerV3'.
+[2024.11.11-21.19.47:388][834]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 39
+[2024.11.11-21.19.47:416][834]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.11-21.19.47:416][834]LogLoad: Game class is 'MyGameGamemode_C'
+[2024.11.11-21.19.47:417][834]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TestingPlayerV3.TestingPlayerV3 up for play (max tick rate 0) at 2024.11.11-18.19.47
+[2024.11.11-21.19.47:417][834]LogWorld: Bringing up level for play took: 0.001048
+[2024.11.11-21.19.47:418][834]LogWorldPartition: UWorldPartitionStreamingPolicy: CellsToActivate(41), CellsToLoad(0), CellsToUnload(0)
+[2024.11.11-21.19.47:418][834]LogWorldPartition: UWorldPartitionStreamingPolicy: Sources[0] = X=-11940.435 Y=-6681.237 Z=92.000,P=0.000000 Y=0.000000 R=-0.000000
+[2024.11.11-21.19.47:420][834]LogStreaming: Display: FlushAsyncLoading(): 97 QueuedPackages, 0 AsyncPackages
+[2024.11.11-21.19.47:762][834]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.11-21.19.47:762][834]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.11-21.19.47:762][834]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.11.11-21.19.47:763][834]LogBlueprintUserMessages: [BP_CheckPointTest_C_UAID_3C2C30D06DF8F02A02_1706789087] Saved Player Data
+[2024.11.11-21.19.47:764][834]LogBlueprintUserMessages: [BP_Player_C_0] Current money is 18.601031
+[2024.11.11-21.19.47:766][834]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.11.11-21.19.47:769][834]PIE: Server logged in
+[2024.11.11-21.19.47:772][834]PIE: Play in editor total start time 0.631 seconds.
+[2024.11.11-21.19.47:879][834]LogViewport: Scene viewport resized to 1314x890, mode Windowed.
+[2024.11.11-21.19.54:632][497]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.19.54:911][525]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.19.55:134][548]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.19.55:330][568]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.19.55:591][595]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.19.55:894][626]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.19.56:202][658]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.19.56:443][683]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.19.56:658][705]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.19.56:886][728]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.20.00:194][ 77]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.11-21.20.00:194][ 77]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TestingPlayerV3
+[2024.11.11-21.20.00:195][ 77]LogSlate: Window 'Arcade Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2024.11.11-21.20.00:210][ 77]LogWorld: UWorld::CleanupWorld for TestingPlayerV3, bSessionEnded=true, bCleanupResources=true
+[2024.11.11-21.20.00:210][ 77]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.11-21.20.00:211][ 77]LogContentBundle: [TestingPlayerV3(Standalone)] Deleting container.
+[2024.11.11-21.20.00:213][ 77]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.11-21.20.00:218][ 77]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.11-21.20.00:235][ 77]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 39
+[2024.11.11-21.20.00:235][ 77]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=39
+[2024.11.11-21.20.00:237][ 77]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=39
+[2024.11.11-21.20.00:252][ 77]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2024.11.11-21.20.00:323][ 78]LogPlayLevel: Display: Destroying online subsystem :Context_66
+[2024.11.11-21.20.04:223][545]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.11-21.20.04:232][545]LogContentBundle: [TestingPlayerV3(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.11.11-21.20.04:232][545]LogWorldPartition: Display: GenerateStreaming for 'TestingPlayerV3' started...
+[2024.11.11-21.20.04:407][545]LogWorldPartition: Display: GenerateStreaming for 'TestingPlayerV3' took 175 ms (total: 7.33 sec)
+[2024.11.11-21.20.04:410][545]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.11-21.20.04:410][545]PIE: New page: PIE session: TestingPlayerV3 (Nov 11, 2024, 3:20:04 PM)
+[2024.11.11-21.20.04:410][545]LogPlayLevel: Display: Creating online subsystem for client :Context_67
+[2024.11.11-21.20.04:411][545]LogOnline: OSS: Created online subsystem instance for: :Context_67
+[2024.11.11-21.20.04:463][546]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TestingPlayerV3
+[2024.11.11-21.20.04:471][546]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007726s)
+[2024.11.11-21.20.04:471][546]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TestingPlayerV3.TestingPlayerV3 to /Game/Levels/UEDPIE_0_TestingPlayerV3.TestingPlayerV3 (0.007762s)
+[2024.11.11-21.20.04:480][546]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2024.11.11-21.20.04:483][546]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.11-21.20.04:483][546]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.11-21.20.04:483][546]LogAIModule: Creating AISystem for world TestingPlayerV3
+[2024.11.11-21.20.04:484][546]LogWorldPartition: ULevel::OnLevelLoaded(TestingPlayerV3)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.11.11-21.20.04:484][546]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.11.11-21.20.04:484][546]LogWorldPartition: UWorldPartition::Initialize : World = TestingPlayerV3, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.11.11-21.20.04:484][546]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.11.11-21.20.04:487][546]LogContentBundle: [TestingPlayerV3(Standalone)] Creating new contrainer.
+[2024.11.11-21.20.04:487][546]LogWorldPartition: Display: WorldPartition initialize took 2 ms (total: 1.44 sec)
+[2024.11.11-21.20.04:487][546]LogPlayLevel: PIE: World Init took: (0.004118s)
+[2024.11.11-21.20.04:487][546]LogAudio: Display: Creating Audio Device:                 Id: 40, Scope: Unique, Realtime: True
+[2024.11.11-21.20.04:487][546]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.11-21.20.04:487][546]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.11-21.20.04:487][546]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.11-21.20.04:487][546]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.11-21.20.04:487][546]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.11-21.20.04:487][546]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.11-21.20.04:487][546]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.11-21.20.04:487][546]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.11-21.20.04:487][546]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.11-21.20.04:487][546]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.11-21.20.04:487][546]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.11-21.20.04:488][546]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.11-21.20.04:504][546]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (Realtek(R) Audio)
+[2024.11.11-21.20.04:505][546]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.11-21.20.04:505][546]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.11-21.20.04:505][546]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.11-21.20.04:505][546]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=40
+[2024.11.11-21.20.04:505][546]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=40
+[2024.11.11-21.20.04:506][546]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=40
+[2024.11.11-21.20.04:506][546]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=40
+[2024.11.11-21.20.04:506][546]LogInit: FAudioDevice initialized with ID 40.
+[2024.11.11-21.20.04:506][546]LogAudio: Display: Audio Device (ID: 40) registered with world 'TestingPlayerV3'.
+[2024.11.11-21.20.04:506][546]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 40
+[2024.11.11-21.20.04:527][546]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.11-21.20.04:527][546]LogLoad: Game class is 'MyGameGamemode_C'
+[2024.11.11-21.20.04:529][546]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TestingPlayerV3.TestingPlayerV3 up for play (max tick rate 0) at 2024.11.11-18.20.04
+[2024.11.11-21.20.04:529][546]LogWorld: Bringing up level for play took: 0.001264
+[2024.11.11-21.20.04:530][546]LogWorldPartition: UWorldPartitionStreamingPolicy: CellsToActivate(41), CellsToLoad(0), CellsToUnload(0)
+[2024.11.11-21.20.04:530][546]LogWorldPartition: UWorldPartitionStreamingPolicy: Sources[0] = X=-11940.435 Y=-6681.237 Z=92.000,P=0.000000 Y=0.000000 R=-0.000000
+[2024.11.11-21.20.04:532][546]LogStreaming: Display: FlushAsyncLoading(): 97 QueuedPackages, 0 AsyncPackages
+[2024.11.11-21.20.04:874][546]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.11-21.20.04:874][546]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.11-21.20.04:874][546]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.11.11-21.20.04:875][546]LogBlueprintUserMessages: [BP_CheckPointTest_C_UAID_3C2C30D06DF8F02A02_1706789087] Saved Player Data
+[2024.11.11-21.20.04:875][546]LogBlueprintUserMessages: [BP_Player_C_0] Current money is 14.955901
+[2024.11.11-21.20.04:878][546]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.11.11-21.20.04:881][546]PIE: Server logged in
+[2024.11.11-21.20.04:883][546]PIE: Play in editor total start time 0.651 seconds.
+[2024.11.11-21.20.04:983][546]LogViewport: Scene viewport resized to 1314x890, mode Windowed.
+[2024.11.11-21.20.11:212][177]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.20.11:454][202]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.20.11:646][221]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.20.11:841][241]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.20.12:068][265]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.20.12:321][292]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.20.12:544][316]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.20.12:754][339]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.20.12:961][361]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.20.13:177][384]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.20.13:387][407]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.20.13:659][436]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.20.13:852][457]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.20.14:083][482]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.20.14:305][505]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.20.14:507][527]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.20.16:822][773]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.20.17:266][822]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.20.18:249][928]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.20.18:542][959]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.20.18:740][980]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.20.18:927][  0]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.20.19:076][ 16]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.20.19:964][108]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.20.20:298][144]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.20.20:298][144]LogBlueprintDebug: Warning: Hit breakpoint on node 'K2Node_IfThenElse', from offset 3327
+[2024.11.11-21.20.20:298][144]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/Blueprints/AI/Tasks/BTTask_MoveToCashier.BTTask_MoveToCashier_C:OnPlayerDelivered
+	Function /Game/Blueprints/AI/Tasks/BTTask_MoveToCashier.BTTask_MoveToCashier_C:ExecuteUbergraph_BTTask_MoveToCashier
+
+[2024.11.11-21.20.34:849][144]LogBlueprintDebug: Warning: Hit breakpoint on node 'K2Node_IfThenElse', from offset 3327
+[2024.11.11-21.20.34:849][144]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/Blueprints/AI/Tasks/BTTask_MoveToCashier.BTTask_MoveToCashier_C:OnPlayerDelivered
+	Function /Game/Blueprints/AI/Tasks/BTTask_MoveToCashier.BTTask_MoveToCashier_C:ExecuteUbergraph_BTTask_MoveToCashier
+
+[2024.11.11-21.20.37:308][144]LogAutomationController: Ignoring very large delta of 17.01 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.11.11-21.20.44:389][891]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.11-21.20.44:389][891]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TestingPlayerV3
+[2024.11.11-21.20.44:390][891]LogSlate: Window 'Arcade Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2024.11.11-21.20.44:399][891]LogWorld: UWorld::CleanupWorld for TestingPlayerV3, bSessionEnded=true, bCleanupResources=true
+[2024.11.11-21.20.44:399][891]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.11-21.20.44:399][891]LogContentBundle: [TestingPlayerV3(Standalone)] Deleting container.
+[2024.11.11-21.20.44:402][891]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.11-21.20.44:406][891]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.11-21.20.44:421][891]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 40
+[2024.11.11-21.20.44:421][891]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=40
+[2024.11.11-21.20.44:422][891]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=40
+[2024.11.11-21.20.44:438][891]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2024.11.11-21.20.44:510][892]LogPlayLevel: Display: Destroying online subsystem :Context_67
+[2024.11.11-21.21.49:925][265]BlueprintLog: New page: Compile BTTask_MoveToCashier
+[2024.11.11-21.21.49:955][265]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2024.11.11-21.21.50:055][265]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.11-21.21.50:086][265]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AI/Tasks/BTTask_MoveToCashier" FILE="F:/UnrealProjects/ArcadeSimulator/Arcade/Content/Blueprints/AI/Tasks/BTTask_MoveToCashier.uasset" SILENT=true
+[2024.11.11-21.21.50:104][265]LogSavePackage: Moving output files for package: /Game/Blueprints/AI/Tasks/BTTask_MoveToCashier
+[2024.11.11-21.21.50:104][265]LogSavePackage: Moving 'F:/UnrealProjects/ArcadeSimulator/Arcade/Saved/BTTask_MoveToCashier219D02B041CC3140B61BF48AC2D45924.tmp' to 'F:/UnrealProjects/ArcadeSimulator/Arcade/Content/Blueprints/AI/Tasks/BTTask_MoveToCashier.uasset'
+[2024.11.11-21.21.50:111][265]LogFileHelpers: InternalPromptForCheckoutAndSave took 55 ms (total: 4.58 sec)
+[2024.11.11-21.21.50:112][265]AssetCheck: New page: Asset Save: BTTask_MoveToCashier
+[2024.11.11-21.21.50:112][265]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/AI/Tasks/BTTask_MoveToCashier.BTTask_MoveToCashier
+[2024.11.11-21.21.51:270][394]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.11-21.21.51:280][394]LogContentBundle: [TestingPlayerV3(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.11.11-21.21.51:280][394]LogWorldPartition: Display: GenerateStreaming for 'TestingPlayerV3' started...
+[2024.11.11-21.21.51:453][394]LogWorldPartition: Display: GenerateStreaming for 'TestingPlayerV3' took 173 ms (total: 7.51 sec)
+[2024.11.11-21.21.51:456][394]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.11-21.21.51:456][394]PIE: New page: PIE session: TestingPlayerV3 (Nov 11, 2024, 3:21:51 PM)
+[2024.11.11-21.21.51:456][394]LogPlayLevel: Display: Creating online subsystem for client :Context_68
+[2024.11.11-21.21.51:458][394]LogOnline: OSS: Created online subsystem instance for: :Context_68
+[2024.11.11-21.21.51:507][395]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TestingPlayerV3
+[2024.11.11-21.21.51:514][395]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007761s)
+[2024.11.11-21.21.51:515][395]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TestingPlayerV3.TestingPlayerV3 to /Game/Levels/UEDPIE_0_TestingPlayerV3.TestingPlayerV3 (0.007798s)
+[2024.11.11-21.21.51:522][395]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2024.11.11-21.21.51:528][395]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.11-21.21.51:528][395]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.11-21.21.51:528][395]LogAIModule: Creating AISystem for world TestingPlayerV3
+[2024.11.11-21.21.51:530][395]LogWorldPartition: ULevel::OnLevelLoaded(TestingPlayerV3)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.11.11-21.21.51:530][395]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.11.11-21.21.51:530][395]LogWorldPartition: UWorldPartition::Initialize : World = TestingPlayerV3, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.11.11-21.21.51:530][395]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.11.11-21.21.51:532][395]LogContentBundle: [TestingPlayerV3(Standalone)] Creating new contrainer.
+[2024.11.11-21.21.51:532][395]LogWorldPartition: Display: WorldPartition initialize took 2 ms (total: 1.44 sec)
+[2024.11.11-21.21.51:532][395]LogPlayLevel: PIE: World Init took: (0.003824s)
+[2024.11.11-21.21.51:532][395]LogAudio: Display: Creating Audio Device:                 Id: 41, Scope: Unique, Realtime: True
+[2024.11.11-21.21.51:532][395]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.11-21.21.51:532][395]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.11-21.21.51:532][395]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.11-21.21.51:532][395]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.11-21.21.51:532][395]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.11-21.21.51:532][395]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.11-21.21.51:532][395]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.11-21.21.51:532][395]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.11-21.21.51:532][395]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.11-21.21.51:532][395]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.11-21.21.51:532][395]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.11-21.21.51:534][395]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.11-21.21.51:550][395]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (Realtek(R) Audio)
+[2024.11.11-21.21.51:550][395]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.11-21.21.51:550][395]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.11-21.21.51:550][395]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.11-21.21.51:551][395]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=41
+[2024.11.11-21.21.51:551][395]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=41
+[2024.11.11-21.21.51:552][395]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=41
+[2024.11.11-21.21.51:552][395]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=41
+[2024.11.11-21.21.51:552][395]LogInit: FAudioDevice initialized with ID 41.
+[2024.11.11-21.21.51:552][395]LogAudio: Display: Audio Device (ID: 41) registered with world 'TestingPlayerV3'.
+[2024.11.11-21.21.51:552][395]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 41
+[2024.11.11-21.21.51:574][395]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.11-21.21.51:574][395]LogLoad: Game class is 'MyGameGamemode_C'
+[2024.11.11-21.21.51:576][395]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TestingPlayerV3.TestingPlayerV3 up for play (max tick rate 0) at 2024.11.11-18.21.51
+[2024.11.11-21.21.51:576][395]LogWorld: Bringing up level for play took: 0.001079
+[2024.11.11-21.21.51:576][395]LogWorldPartition: UWorldPartitionStreamingPolicy: CellsToActivate(41), CellsToLoad(0), CellsToUnload(0)
+[2024.11.11-21.21.51:576][395]LogWorldPartition: UWorldPartitionStreamingPolicy: Sources[0] = X=-11940.435 Y=-6681.237 Z=92.000,P=0.000000 Y=0.000000 R=-0.000000
+[2024.11.11-21.21.51:578][395]LogStreaming: Display: FlushAsyncLoading(): 97 QueuedPackages, 0 AsyncPackages
+[2024.11.11-21.21.51:916][395]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.11-21.21.51:916][395]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.11-21.21.51:916][395]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.11.11-21.21.51:917][395]LogBlueprintUserMessages: [BP_CheckPointTest_C_UAID_3C2C30D06DF8F02A02_1706789087] Saved Player Data
+[2024.11.11-21.21.51:917][395]LogBlueprintUserMessages: [BP_Player_C_0] Current money is 3.784295
+[2024.11.11-21.21.51:920][395]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.11.11-21.21.51:923][395]PIE: Server logged in
+[2024.11.11-21.21.51:926][395]PIE: Play in editor total start time 0.646 seconds.
+[2024.11.11-21.21.52:033][395]LogViewport: Scene viewport resized to 1314x890, mode Windowed.
+[2024.11.11-21.21.57:838][ 54]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.21.58:099][ 85]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.21.58:328][112]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.21.58:529][136]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.21.58:707][157]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.21.58:943][185]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.21.59:195][215]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.21.59:409][240]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.22.01:916][536]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.22.03:089][676]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.22.05:486][961]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.22.05:795][997]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.22.06:083][ 31]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.22.06:293][ 56]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.22.06:480][ 78]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.22.06:658][ 99]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.22.08:053][263]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.22.09:152][393]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.22.09:152][393]LogBlueprintUserMessages: [BTTask_MoveToCashier_C_2] 4
+[2024.11.11-21.22.09:152][393]LogBlueprintDebug: Warning: Hit breakpoint on node 'K2Node_IfThenElse', from offset 2757
+[2024.11.11-21.22.09:152][393]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/Blueprints/AI/Tasks/BTTask_MoveToCashier.BTTask_MoveToCashier_C:OnPlayerDelivered
+	Function /Game/Blueprints/AI/Tasks/BTTask_MoveToCashier.BTTask_MoveToCashier_C:ExecuteUbergraph_BTTask_MoveToCashier
+
+[2024.11.11-21.22.11:790][393]LogBlueprintUserMessages: [BTTask_MoveToCashier_C_2] 2
+[2024.11.11-21.22.11:790][393]LogBlueprintUserMessages: [BTTask_MoveToCashier_C_2] 3
+[2024.11.11-21.22.11:791][393]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/Blueprints/AI/Tasks/BTTask_MoveToMachines.BTTask_MoveToMachines_C:ExecuteUbergraph_BTTask_MoveToMachines'!
+[2024.11.11-21.22.11:791][393]LogScript: Warning: Script Msg called by: BTTask_MoveToMachines_C /Memory/UEDPIE_0_4NJL7U5H0QHUG94PESQTGE495.TestingPlayerV3:PersistentLevel.AI_Controller_C_4.BTComponent.BTTask_ThanksForChange_C_0
+[2024.11.11-21.22.11:791][393]LogScript: Warning: Accessed None trying to read property CallFunc_Array_Get_Item
+	BTTask_MoveToMachines_C /Memory/UEDPIE_0_4NJL7U5H0QHUG94PESQTGE495.TestingPlayerV3:PersistentLevel.AI_Controller_C_4.BTComponent.BTTask_ThanksForChange_C_0
+	Function /Game/Blueprints/AI/Tasks/BTTask_MoveToMachines.BTTask_MoveToMachines_C:ExecuteUbergraph_BTTask_MoveToMachines:0828
+[2024.11.11-21.22.11:791][393]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_Array_Get_Item". Node:  Bind Event to On Queue Exit Graph:  EventGraph Function:  Execute Ubergraph BTTask Move to Machines Blueprint:  BTTask_MoveToMachines
+[2024.11.11-21.22.11:808][394]LogAutomationController: Ignoring very large delta of 2.66 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.11.11-21.22.16:469][873]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.11-21.22.16:469][873]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TestingPlayerV3
+[2024.11.11-21.22.16:470][873]LogSlate: Window 'Arcade Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2024.11.11-21.22.16:482][873]LogWorld: UWorld::CleanupWorld for TestingPlayerV3, bSessionEnded=true, bCleanupResources=true
+[2024.11.11-21.22.16:482][873]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.11-21.22.16:482][873]LogContentBundle: [TestingPlayerV3(Standalone)] Deleting container.
+[2024.11.11-21.22.16:484][873]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.11-21.22.16:491][873]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.11-21.22.16:508][873]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.11.11-21.22.16:509][873]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 41
+[2024.11.11-21.22.16:509][873]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=41
+[2024.11.11-21.22.16:511][873]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=41
+[2024.11.11-21.22.16:526][873]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2024.11.11-21.22.16:637][874]LogPlayLevel: Display: Destroying online subsystem :Context_68
+[2024.11.11-21.22.19:744][221]LogSlate: Window 'Message Log' being destroyed
+[2024.11.11-21.22.19:749][221]LogSlate: Window 'Message Log' being destroyed
+[2024.11.11-21.24.47:370][175]LogEditorTransaction: Undo Move Node
+[2024.11.11-21.24.47:927][191]LogEditorTransaction: Undo Move Node
+[2024.11.11-21.24.48:419][225]LogEditorTransaction: Undo Create Pin Link
+[2024.11.11-21.24.49:008][270]LogEditorTransaction: Undo Move Node
+[2024.11.11-21.24.49:616][316]LogEditorTransaction: Undo Add Node
+[2024.11.11-21.24.50:224][365]LogEditorTransaction: Undo Delete current selection
+[2024.11.11-21.25.04:333][ 17]LogBlueprintDebug: Display: Encountered a blueprint breakpoint in /Game/Blueprints/AI/Tasks/BTTask_MoveToCashier.BTTask_MoveToCashier without an associated node. The blueprint breakpoint has been removed
+[2024.11.11-21.25.04:333][ 17]LogBlueprintDebug: Display: Encountered a blueprint breakpoint in /Game/Blueprints/AI/Tasks/BTTask_MoveToCashier.BTTask_MoveToCashier without an associated node. The blueprint breakpoint has been removed
+[2024.11.11-21.27.32:661][580]BlueprintLog: New page: Compile BTTask_MoveToCashier
+[2024.11.11-21.27.32:665][580]LogBlueprint: Warning: [AssetLog] F:\UnrealProjects\ArcadeSimulator\Arcade\Content\Blueprints\AI\Tasks\BTTask_MoveToCashier.uasset: [Compiler] Set myPosOnQueue  was pruned because its Exec pin is not connected, the connected value is not available and will instead be read as default
+[2024.11.11-21.27.32:668][580]LogBlueprint: Error: [AssetLog] F:\UnrealProjects\ArcadeSimulator\Arcade\Content\Blueprints\AI\Tasks\BTTask_MoveToCashier.uasset: [Compiler] The current value of the ' Array ' pin is invalid: Array inputs (like 'Target Array') must have an input wired into them (try connecting a MakeArray node).
+[2024.11.11-21.27.32:693][580]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2024.11.11-21.29.34:524][ 66]BlueprintLog: New page: Compile BTTask_MoveToCashier
+[2024.11.11-21.29.34:528][ 66]LogBlueprint: Warning: [AssetLog] F:\UnrealProjects\ArcadeSimulator\Arcade\Content\Blueprints\AI\Tasks\BTTask_MoveToCashier.uasset: [Compiler] Set myPosOnQueue  was pruned because its Exec pin is not connected, the connected value is not available and will instead be read as default
+[2024.11.11-21.29.34:531][ 66]LogBlueprint: Error: [AssetLog] F:\UnrealProjects\ArcadeSimulator\Arcade\Content\Blueprints\AI\Tasks\BTTask_MoveToCashier.uasset: [Compiler] The current value of the ' Array ' pin is invalid: Array inputs (like 'Target Array') must have an input wired into them (try connecting a MakeArray node).
+[2024.11.11-21.29.34:559][ 66]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2024.11.11-21.29.51:768][ 79]BlueprintLog: New page: Compile BTTask_MoveToCashier
+[2024.11.11-21.29.51:772][ 79]LogBlueprint: Warning: [AssetLog] F:\UnrealProjects\ArcadeSimulator\Arcade\Content\Blueprints\AI\Tasks\BTTask_MoveToCashier.uasset: [Compiler] Set myPosOnQueue  was pruned because its Exec pin is not connected, the connected value is not available and will instead be read as default
+[2024.11.11-21.29.51:775][ 79]LogBlueprint: Error: [AssetLog] F:\UnrealProjects\ArcadeSimulator\Arcade\Content\Blueprints\AI\Tasks\BTTask_MoveToCashier.uasset: [Compiler] The current value of the ' Array ' pin is invalid: Array inputs (like 'Target Array') must have an input wired into them (try connecting a MakeArray node).
+[2024.11.11-21.29.51:799][ 79]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2024.11.11-21.30.14:027][669]BlueprintLog: New page: Compile BTTask_MoveToCashier
+[2024.11.11-21.30.14:030][669]LogBlueprint: Warning: [AssetLog] F:\UnrealProjects\ArcadeSimulator\Arcade\Content\Blueprints\AI\Tasks\BTTask_MoveToCashier.uasset: [Compiler] Set myPosOnQueue  was pruned because its Exec pin is not connected, the connected value is not available and will instead be read as default
+[2024.11.11-21.30.14:059][669]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2024.11.11-21.30.24:677][738]BlueprintLog: New page: Compile BTTask_MoveToCashier
+[2024.11.11-21.30.24:681][738]LogBlueprint: Warning: [AssetLog] F:\UnrealProjects\ArcadeSimulator\Arcade\Content\Blueprints\AI\Tasks\BTTask_MoveToCashier.uasset: [Compiler] Set myPosOnQueue  was pruned because its Exec pin is not connected, the connected value is not available and will instead be read as default
+[2024.11.11-21.30.24:710][738]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2024.11.11-21.31.43:904][126]BlueprintLog: New page: Compile BTTask_MoveToCashier
+[2024.11.11-21.31.43:908][126]LogBlueprint: Warning: [AssetLog] F:\UnrealProjects\ArcadeSimulator\Arcade\Content\Blueprints\AI\Tasks\BTTask_MoveToCashier.uasset: [Compiler] Set myPosOnQueue  was pruned because its Exec pin is not connected, the connected value is not available and will instead be read as default
+[2024.11.11-21.31.43:935][126]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2024.11.11-21.31.53:813][242]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.11-21.31.53:822][242]LogContentBundle: [TestingPlayerV3(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.11.11-21.31.53:822][242]LogWorldPartition: Display: GenerateStreaming for 'TestingPlayerV3' started...
+[2024.11.11-21.31.54:016][242]LogWorldPartition: Display: GenerateStreaming for 'TestingPlayerV3' took 193 ms (total: 7.70 sec)
+[2024.11.11-21.31.54:019][242]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.11-21.31.54:020][242]PIE: New page: PIE session: TestingPlayerV3 (Nov 11, 2024, 3:31:54 PM)
+[2024.11.11-21.31.54:020][242]LogPlayLevel: Display: Creating online subsystem for client :Context_69
+[2024.11.11-21.31.54:021][242]LogOnline: OSS: Created online subsystem instance for: :Context_69
+[2024.11.11-21.31.54:078][243]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TestingPlayerV3
+[2024.11.11-21.31.54:086][243]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007819s)
+[2024.11.11-21.31.54:086][243]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TestingPlayerV3.TestingPlayerV3 to /Game/Levels/UEDPIE_0_TestingPlayerV3.TestingPlayerV3 (0.007856s)
+[2024.11.11-21.31.54:097][243]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2024.11.11-21.31.54:103][243]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.11-21.31.54:103][243]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.11-21.31.54:103][243]LogAIModule: Creating AISystem for world TestingPlayerV3
+[2024.11.11-21.31.54:104][243]LogShaderCompilers: Display: ================================================
+[2024.11.11-21.31.54:104][243]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.11.11-21.31.54:104][243]LogShaderCompilers: Display: Total job queries 281, among them cache hits 217 (77.22%)
+[2024.11.11-21.31.54:104][243]LogShaderCompilers: Display: Tracking 64 distinct input hashes that result in 25 distinct outputs (39.06%)
+[2024.11.11-21.31.54:104][243]LogShaderCompilers: Display: RAM used: 1.34 MiB of 1.60 GiB budget. Usage: 0.08%
+[2024.11.11-21.31.54:104][243]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.11.11-21.31.54:104][243]LogShaderCompilers: Display: Shaders Compiled: 0
+[2024.11.11-21.31.54:104][243]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0%)
+[2024.11.11-21.31.54:104][243]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2024.11.11-21.31.54:104][243]LogShaderCompilers: Display: ================================================
+[2024.11.11-21.31.54:105][243]LogWorldPartition: ULevel::OnLevelLoaded(TestingPlayerV3)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.11.11-21.31.54:105][243]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.11.11-21.31.54:105][243]LogWorldPartition: UWorldPartition::Initialize : World = TestingPlayerV3, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.11.11-21.31.54:105][243]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.11.11-21.31.54:107][243]LogContentBundle: [TestingPlayerV3(Standalone)] Creating new contrainer.
+[2024.11.11-21.31.54:107][243]LogWorldPartition: Display: WorldPartition initialize took 2 ms (total: 1.45 sec)
+[2024.11.11-21.31.54:107][243]LogPlayLevel: PIE: World Init took: (0.004056s)
+[2024.11.11-21.31.54:107][243]LogAudio: Display: Creating Audio Device:                 Id: 42, Scope: Unique, Realtime: True
+[2024.11.11-21.31.54:107][243]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.11-21.31.54:107][243]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.11-21.31.54:107][243]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.11-21.31.54:107][243]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.11-21.31.54:107][243]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.11-21.31.54:107][243]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.11-21.31.54:107][243]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.11-21.31.54:107][243]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.11-21.31.54:107][243]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.11-21.31.54:107][243]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.11-21.31.54:107][243]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.11-21.31.54:109][243]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.11-21.31.54:128][243]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (Realtek(R) Audio)
+[2024.11.11-21.31.54:128][243]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.11-21.31.54:128][243]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.11-21.31.54:128][243]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.11-21.31.54:128][243]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=42
+[2024.11.11-21.31.54:128][243]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=42
+[2024.11.11-21.31.54:129][243]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=42
+[2024.11.11-21.31.54:129][243]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=42
+[2024.11.11-21.31.54:129][243]LogInit: FAudioDevice initialized with ID 42.
+[2024.11.11-21.31.54:130][243]LogAudio: Display: Audio Device (ID: 42) registered with world 'TestingPlayerV3'.
+[2024.11.11-21.31.54:130][243]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 42
+[2024.11.11-21.31.54:152][243]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.11-21.31.54:152][243]LogLoad: Game class is 'MyGameGamemode_C'
+[2024.11.11-21.31.54:154][243]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TestingPlayerV3.TestingPlayerV3 up for play (max tick rate 0) at 2024.11.11-18.31.54
+[2024.11.11-21.31.54:154][243]LogWorld: Bringing up level for play took: 0.001410
+[2024.11.11-21.31.54:155][243]LogWorldPartition: UWorldPartitionStreamingPolicy: CellsToActivate(41), CellsToLoad(0), CellsToUnload(0)
+[2024.11.11-21.31.54:155][243]LogWorldPartition: UWorldPartitionStreamingPolicy: Sources[0] = X=-11940.435 Y=-6681.237 Z=92.000,P=0.000000 Y=0.000000 R=-0.000000
+[2024.11.11-21.31.54:157][243]LogStreaming: Display: FlushAsyncLoading(): 97 QueuedPackages, 0 AsyncPackages
+[2024.11.11-21.31.54:494][243]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.11-21.31.54:494][243]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.11-21.31.54:494][243]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.11.11-21.31.54:495][243]LogBlueprintUserMessages: [BP_CheckPointTest_C_UAID_3C2C30D06DF8F02A02_1706789087] Saved Player Data
+[2024.11.11-21.31.54:495][243]LogBlueprintUserMessages: [BP_Player_C_0] Current money is 15.128635
+[2024.11.11-21.31.54:498][243]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.11.11-21.31.54:501][243]PIE: Server logged in
+[2024.11.11-21.31.54:504][243]PIE: Play in editor total start time 0.681 seconds.
+[2024.11.11-21.31.54:611][243]LogViewport: Scene viewport resized to 1314x890, mode Windowed.
+[2024.11.11-21.31.55:839][329]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.11-21.31.55:839][329]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TestingPlayerV3
+[2024.11.11-21.31.55:840][329]LogSlate: Window 'Arcade Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2024.11.11-21.31.55:851][329]LogWorld: UWorld::CleanupWorld for TestingPlayerV3, bSessionEnded=true, bCleanupResources=true
+[2024.11.11-21.31.55:851][329]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.11-21.31.55:851][329]LogContentBundle: [TestingPlayerV3(Standalone)] Deleting container.
+[2024.11.11-21.31.55:853][329]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.11-21.31.55:858][329]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.11-21.31.55:875][329]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.11.11-21.31.55:877][329]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 42
+[2024.11.11-21.31.55:877][329]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=42
+[2024.11.11-21.31.55:878][329]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=42
+[2024.11.11-21.31.55:892][329]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2024.11.11-21.31.55:966][330]LogPlayLevel: Display: Destroying online subsystem :Context_69
+[2024.11.11-21.31.57:431][466]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.11-21.31.57:440][466]LogContentBundle: [TestingPlayerV3(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.11.11-21.31.57:441][466]LogWorldPartition: Display: GenerateStreaming for 'TestingPlayerV3' started...
+[2024.11.11-21.31.57:609][466]LogWorldPartition: Display: GenerateStreaming for 'TestingPlayerV3' took 168 ms (total: 7.87 sec)
+[2024.11.11-21.31.57:612][466]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.11-21.31.57:612][466]PIE: New page: PIE session: TestingPlayerV3 (Nov 11, 2024, 3:31:57 PM)
+[2024.11.11-21.31.57:612][466]LogPlayLevel: Display: Creating online subsystem for client :Context_70
+[2024.11.11-21.31.57:613][466]LogOnline: OSS: Created online subsystem instance for: :Context_70
+[2024.11.11-21.31.57:646][467]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TestingPlayerV3
+[2024.11.11-21.31.57:654][467]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008087s)
+[2024.11.11-21.31.57:655][467]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TestingPlayerV3.TestingPlayerV3 to /Game/Levels/UEDPIE_0_TestingPlayerV3.TestingPlayerV3 (0.008119s)
+[2024.11.11-21.31.57:663][467]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2024.11.11-21.31.57:668][467]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.11-21.31.57:668][467]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.11-21.31.57:668][467]LogAIModule: Creating AISystem for world TestingPlayerV3
+[2024.11.11-21.31.57:669][467]LogWorldPartition: ULevel::OnLevelLoaded(TestingPlayerV3)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.11.11-21.31.57:669][467]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.11.11-21.31.57:669][467]LogWorldPartition: UWorldPartition::Initialize : World = TestingPlayerV3, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.11.11-21.31.57:669][467]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.11.11-21.31.57:671][467]LogContentBundle: [TestingPlayerV3(Standalone)] Creating new contrainer.
+[2024.11.11-21.31.57:671][467]LogWorldPartition: Display: WorldPartition initialize took 2 ms (total: 1.45 sec)
+[2024.11.11-21.31.57:671][467]LogPlayLevel: PIE: World Init took: (0.003091s)
+[2024.11.11-21.31.57:671][467]LogAudio: Display: Creating Audio Device:                 Id: 43, Scope: Unique, Realtime: True
+[2024.11.11-21.31.57:671][467]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.11-21.31.57:671][467]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.11-21.31.57:671][467]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.11-21.31.57:671][467]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.11-21.31.57:671][467]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.11-21.31.57:671][467]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.11-21.31.57:671][467]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.11-21.31.57:671][467]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.11-21.31.57:671][467]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.11-21.31.57:671][467]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.11-21.31.57:671][467]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.11-21.31.57:672][467]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.11-21.31.57:689][467]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (Realtek(R) Audio)
+[2024.11.11-21.31.57:689][467]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.11-21.31.57:689][467]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.11-21.31.57:689][467]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.11-21.31.57:690][467]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=43
+[2024.11.11-21.31.57:690][467]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=43
+[2024.11.11-21.31.57:691][467]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=43
+[2024.11.11-21.31.57:691][467]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=43
+[2024.11.11-21.31.57:691][467]LogInit: FAudioDevice initialized with ID 43.
+[2024.11.11-21.31.57:691][467]LogAudio: Display: Audio Device (ID: 43) registered with world 'TestingPlayerV3'.
+[2024.11.11-21.31.57:691][467]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 43
+[2024.11.11-21.31.57:693][467]LogLoad: Game class is 'MyGameGamemode_C'
+[2024.11.11-21.31.57:694][467]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TestingPlayerV3.TestingPlayerV3 up for play (max tick rate 0) at 2024.11.11-18.31.57
+[2024.11.11-21.31.57:695][467]LogWorld: Bringing up level for play took: 0.001040
+[2024.11.11-21.31.57:695][467]LogWorldPartition: UWorldPartitionStreamingPolicy: CellsToActivate(41), CellsToLoad(0), CellsToUnload(0)
+[2024.11.11-21.31.57:695][467]LogWorldPartition: UWorldPartitionStreamingPolicy: Sources[0] = X=-11940.435 Y=-6681.237 Z=92.000,P=0.000000 Y=0.000000 R=-0.000000
+[2024.11.11-21.31.57:697][467]LogStreaming: Display: FlushAsyncLoading(): 97 QueuedPackages, 0 AsyncPackages
+[2024.11.11-21.31.58:036][467]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.11-21.31.58:036][467]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.11-21.31.58:036][467]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.11.11-21.31.58:038][467]LogBlueprintUserMessages: [BP_CheckPointTest_C_UAID_3C2C30D06DF8F02A02_1706789087] Saved Player Data
+[2024.11.11-21.31.58:038][467]LogBlueprintUserMessages: [BP_Player_C_0] Current money is 17.249062
+[2024.11.11-21.31.58:040][467]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.11.11-21.31.58:040][467]PIE: Server logged in
+[2024.11.11-21.31.58:041][467]PIE: Play in editor total start time 0.601 seconds.
+[2024.11.11-21.32.15:168][916]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.32.15:403][943]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.32.15:571][962]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.32.15:768][985]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.32.16:009][ 13]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.32.16:215][ 37]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.32.16:453][ 65]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.32.16:675][ 91]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.32.16:903][118]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.32.17:098][141]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.32.17:305][165]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.32.17:533][192]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.32.19:735][448]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.32.20:134][495]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.32.20:490][537]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.32.20:866][582]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.32.21:135][614]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.32.22:467][773]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.32.23:309][873]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.32.23:881][941]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.32.24:130][969]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.32.24:382][999]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.32.24:821][ 50]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.32.25:404][117]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.32.25:598][139]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.32.25:797][162]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.32.26:104][198]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.32.26:664][263]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.32.34:730][901]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.32.37:309][195]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.32.37:548][223]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.32.37:721][243]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.32.39:545][452]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.32.40:004][507]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.32.40:223][533]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.32.40:468][562]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.32.40:720][592]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.32.41:088][635]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.32.42:102][750]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.32.42:307][773]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.32.42:684][818]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.32.43:143][871]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.32.43:489][908]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.32.43:683][928]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.32.44:752][ 48]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.32.48:989][539]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.32.49:217][565]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.32.49:418][588]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.32.50:707][737]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.32.51:023][774]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.32.52:198][910]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.32.52:808][983]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.32.53:998][124]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.32.56:352][401]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.32.56:649][436]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.32.56:930][469]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.32.57:126][492]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.32.57:313][514]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.33.02:998][187]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.33.03:435][235]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.33.03:635][258]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.33.03:822][280]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.33.04:035][305]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.33.04:589][368]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.33.08:290][792]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.33.08:516][818]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.33.09:908][978]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.33.10:503][ 48]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.33.10:734][ 74]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.33.11:225][132]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.33.11:993][223]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.33.12:507][283]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.33.12:800][316]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.33.12:994][339]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.33.13:184][361]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.33.13:359][381]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.33.13:540][402]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.33.13:714][422]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.33.13:884][442]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.33.15:538][628]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.33.33:698][557]LogBlueprintUserMessages: [BTTask_ThanksForChange_C_0] nois comeu bosta
+[2024.11.11-21.35.04:773][309]LogBlueprintUserMessages: [BTTask_ThanksForChange_C_0] nois comeu bosta
+[2024.11.11-21.35.41:889][215]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.11-21.35.41:889][215]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TestingPlayerV3
+[2024.11.11-21.35.41:896][215]LogWorld: UWorld::CleanupWorld for TestingPlayerV3, bSessionEnded=true, bCleanupResources=true
+[2024.11.11-21.35.41:897][215]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.11-21.35.41:897][215]LogContentBundle: [TestingPlayerV3(Standalone)] Deleting container.
+[2024.11.11-21.35.41:899][215]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.11-21.35.41:904][215]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.11-21.35.41:919][215]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.11-21.35.41:919][215]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 43
+[2024.11.11-21.35.41:919][215]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=43
+[2024.11.11-21.35.41:921][215]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=43
+[2024.11.11-21.35.41:939][215]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2024.11.11-21.35.41:990][216]LogPlayLevel: Display: Destroying online subsystem :Context_70
+[2024.11.11-21.35.42:516][274]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.11-21.35.42:524][274]LogContentBundle: [TestingPlayerV3(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.11.11-21.35.42:524][274]LogWorldPartition: Display: GenerateStreaming for 'TestingPlayerV3' started...
+[2024.11.11-21.35.42:703][274]LogWorldPartition: Display: GenerateStreaming for 'TestingPlayerV3' took 179 ms (total: 8.05 sec)
+[2024.11.11-21.35.42:706][274]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.11-21.35.42:706][274]PIE: New page: PIE session: TestingPlayerV3 (Nov 11, 2024, 3:35:42 PM)
+[2024.11.11-21.35.42:734][274]LogPlayLevel: Display: Creating online subsystem for client :Context_71
+[2024.11.11-21.35.42:735][274]LogOnline: OSS: Created online subsystem instance for: :Context_71
+[2024.11.11-21.35.42:770][275]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TestingPlayerV3
+[2024.11.11-21.35.42:779][275]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008301s)
+[2024.11.11-21.35.42:779][275]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TestingPlayerV3.TestingPlayerV3 to /Game/Levels/UEDPIE_0_TestingPlayerV3.TestingPlayerV3 (0.008336s)
+[2024.11.11-21.35.42:788][275]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2024.11.11-21.35.42:792][275]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.11-21.35.42:792][275]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.11-21.35.42:792][275]LogAIModule: Creating AISystem for world TestingPlayerV3
+[2024.11.11-21.35.42:792][275]LogWorldPartition: ULevel::OnLevelLoaded(TestingPlayerV3)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.11.11-21.35.42:792][275]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.11.11-21.35.42:792][275]LogWorldPartition: UWorldPartition::Initialize : World = TestingPlayerV3, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.11.11-21.35.42:792][275]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.11.11-21.35.42:795][275]LogContentBundle: [TestingPlayerV3(Standalone)] Creating new contrainer.
+[2024.11.11-21.35.42:795][275]LogWorldPartition: Display: WorldPartition initialize took 2 ms (total: 1.45 sec)
+[2024.11.11-21.35.42:795][275]LogPlayLevel: PIE: World Init took: (0.003111s)
+[2024.11.11-21.35.42:795][275]LogAudio: Display: Creating Audio Device:                 Id: 44, Scope: Unique, Realtime: True
+[2024.11.11-21.35.42:795][275]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.11-21.35.42:795][275]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.11-21.35.42:795][275]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.11-21.35.42:795][275]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.11-21.35.42:795][275]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.11-21.35.42:795][275]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.11-21.35.42:795][275]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.11-21.35.42:795][275]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.11-21.35.42:795][275]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.11-21.35.42:795][275]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.11-21.35.42:795][275]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.11-21.35.42:796][275]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.11-21.35.42:813][275]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (Realtek(R) Audio)
+[2024.11.11-21.35.42:814][275]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.11-21.35.42:814][275]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.11-21.35.42:814][275]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.11-21.35.42:814][275]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=44
+[2024.11.11-21.35.42:814][275]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=44
+[2024.11.11-21.35.42:815][275]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=44
+[2024.11.11-21.35.42:815][275]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=44
+[2024.11.11-21.35.42:815][275]LogInit: FAudioDevice initialized with ID 44.
+[2024.11.11-21.35.42:815][275]LogAudio: Display: Audio Device (ID: 44) registered with world 'TestingPlayerV3'.
+[2024.11.11-21.35.42:815][275]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 44
+[2024.11.11-21.35.42:818][275]LogLoad: Game class is 'MyGameGamemode_C'
+[2024.11.11-21.35.42:819][275]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TestingPlayerV3.TestingPlayerV3 up for play (max tick rate 0) at 2024.11.11-18.35.42
+[2024.11.11-21.35.42:819][275]LogWorld: Bringing up level for play took: 0.000993
+[2024.11.11-21.35.42:819][275]LogWorldPartition: UWorldPartitionStreamingPolicy: CellsToActivate(41), CellsToLoad(0), CellsToUnload(0)
+[2024.11.11-21.35.42:819][275]LogWorldPartition: UWorldPartitionStreamingPolicy: Sources[0] = X=-11940.435 Y=-6681.237 Z=92.000,P=0.000000 Y=0.000000 R=-0.000000
+[2024.11.11-21.35.42:821][275]LogStreaming: Display: FlushAsyncLoading(): 97 QueuedPackages, 0 AsyncPackages
+[2024.11.11-21.35.43:171][275]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.11-21.35.43:171][275]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.11-21.35.43:171][275]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.11.11-21.35.43:172][275]LogBlueprintUserMessages: [BP_CheckPointTest_C_UAID_3C2C30D06DF8F02A02_1706789087] Saved Player Data
+[2024.11.11-21.35.43:172][275]LogBlueprintUserMessages: [BP_Player_C_0] Current money is 18.461868
+[2024.11.11-21.35.43:175][275]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.11.11-21.35.43:175][275]PIE: Server logged in
+[2024.11.11-21.35.43:176][275]PIE: Play in editor total start time 0.652 seconds.
+[2024.11.11-21.35.43:309][276]LogShaderCompilers: Display: ================================================
+[2024.11.11-21.35.43:309][276]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.11.11-21.35.43:309][276]LogShaderCompilers: Display: Total job queries 293, among them cache hits 229 (78.16%)
+[2024.11.11-21.35.43:309][276]LogShaderCompilers: Display: Tracking 64 distinct input hashes that result in 25 distinct outputs (39.06%)
+[2024.11.11-21.35.43:309][276]LogShaderCompilers: Display: RAM used: 1.34 MiB of 1.60 GiB budget. Usage: 0.08%
+[2024.11.11-21.35.43:309][276]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.11.11-21.35.43:309][276]LogShaderCompilers: Display: Shaders Compiled: 0
+[2024.11.11-21.35.43:309][276]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0%)
+[2024.11.11-21.35.43:309][276]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2024.11.11-21.35.43:309][276]LogShaderCompilers: Display: ================================================
+[2024.11.11-21.35.51:943][243]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.35.52:227][276]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.35.52:438][300]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.35.52:639][323]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.35.52:864][349]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.35.53:056][371]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.35.55:775][682]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.35.56:178][730]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.35.56:388][755]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.35.56:757][799]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.36.00:102][193]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.36.00:521][243]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.36.01:381][344]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.36.01:820][396]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.36.02:080][427]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.36.03:263][568]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.36.03:575][605]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.36.04:181][677]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.36.04:965][768]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.36.06:385][930]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.36.07:071][  9]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.36.07:460][ 55]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.36.09:239][251]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.36.09:474][278]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.36.09:720][307]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.36.09:900][328]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.36.11:290][486]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.36.11:625][525]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.36.12:205][593]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.36.12:534][632]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.36.12:769][660]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.36.13:029][691]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.36.13:240][716]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.36.13:600][759]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.36.14:369][849]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.36.14:693][886]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.36.14:965][918]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.36.15:195][945]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.36.15:852][ 21]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.36.16:290][ 73]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.36.16:804][134]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.36.17:089][168]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.36.18:233][299]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.36.18:480][325]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.36.18:661][346]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.36.18:895][373]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.36.19:103][397]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.36.19:325][423]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.36.20:976][615]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.36.22:455][787]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.36.23:814][948]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.36.24:225][997]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.36.24:485][ 28]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.36.24:926][ 79]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.36.25:394][132]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.36.25:616][158]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.36.25:750][172]LogBlueprintUserMessages: [BTTask_ThanksForChange_C_0] nois comeu bosta
+[2024.11.11-21.36.25:821][180]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.36.26:011][202]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.36.26:400][247]LogBlueprintUserMessages: [BP_BuildFurniture_AtmMachine_C_0] passou por auqi
+[2024.11.11-21.37.41:526][782]LogBlueprintUserMessages: [BTTask_ThanksForChange_C_0] nois comeu bosta
+[2024.11.11-21.37.47:879][191]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.11-21.37.47:879][191]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TestingPlayerV3
+[2024.11.11-21.37.47:887][191]LogWorld: UWorld::CleanupWorld for TestingPlayerV3, bSessionEnded=true, bCleanupResources=true
+[2024.11.11-21.37.47:887][191]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.11-21.37.47:887][191]LogContentBundle: [TestingPlayerV3(Standalone)] Deleting container.
+[2024.11.11-21.37.47:890][191]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.11-21.37.47:894][191]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.11-21.37.47:909][191]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.11-21.37.47:909][191]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 44
+[2024.11.11-21.37.47:910][191]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=44
+[2024.11.11-21.37.47:911][191]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=44
+[2024.11.11-21.37.47:945][191]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2024.11.11-21.37.48:038][192]LogPlayLevel: Display: Destroying online subsystem :Context_71
