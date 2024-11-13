@@ -2314,3 +2314,324 @@ LogConfig: CVar [[con.DebugLateCheat:1]] deferred - dummy variable created
 [2024.11.13-13.03.31:411][946]LogViewport: Scene viewport resized to 844x442, mode Windowed.
 [2024.11.13-13.03.31:428][947]LogViewport: Scene viewport resized to 841x440, mode Windowed.
 [2024.11.13-13.03.31:461][949]LogViewport: Scene viewport resized to 840x440, mode Windowed.
+[2024.11.13-13.03.39:522][185]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2024.11.13-13.03.39:588][185]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.13-13.03.39:589][185]LogWorldPartition: ULevel::OnLevelLoaded(TestingPlayerV3)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2024.11.13-13.03.39:589][185]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.11.13-13.03.39:589][185]LogWorldPartition: UWorldPartition::Initialize : World = TestingPlayerV3, World Type = Inactive, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.11.13-13.03.39:605][185]LogContentBundle: [TestingPlayerV3(Standalone)] Creating new contrainer.
+[2024.11.13-13.03.39:605][185]LogWorldPartition: Display: WorldPartition initialize took 15 ms (total: 1.77 sec)
+[2024.11.13-13.03.39:607][185]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Levels/TestingPlayerV3.TestingPlayerV3
+[2024.11.13-13.03.39:607][185]Cmd: MAP LOAD FILE="../../../../../../Users/jfkab/Documents/Unreal Projects/ArcadeSimulator/Arcade/Content/Levels/TestingPlayerV3.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2024.11.13-13.03.39:607][185]LightingResults: New page: Lighting Build
+[2024.11.13-13.03.39:607][185]LoadErrors: New page: Loading map: TestingPlayerV3.umap
+[2024.11.13-13.03.39:641][185]LogWorld: UWorld::CleanupWorld for Arcade_Game, bSessionEnded=true, bCleanupResources=true
+[2024.11.13-13.03.39:641][185]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.13-13.03.39:641][185]MapCheck: New page: Map Check
+[2024.11.13-13.03.39:641][185]LightingResults: New page: Lighting Build
+[2024.11.13-13.03.39:650][185]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.11.13-13.03.39:654][185]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2024.11.13-13.03.39:656][185]LogWorld: UWorld::CleanupWorld for TestingPlayerV3, bSessionEnded=true, bCleanupResources=true
+[2024.11.13-13.03.39:656][185]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.13-13.03.39:657][185]LogContentBundle: [TestingPlayerV3(Standalone)] Deleting container.
+[2024.11.13-13.03.39:668][185]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2024.11.13-13.03.39:679][185]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2024.11.13-13.03.39:686][185]LogAudio: Display: Audio Device (ID: 1) registered with world 'TestingPlayerV3'.
+[2024.11.13-13.03.39:686][185]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.13-13.03.39:686][185]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.13-13.03.39:687][185]LogAIModule: Creating AISystem for world TestingPlayerV3
+[2024.11.13-13.03.39:687][185]LogWorldPartition: ULevel::OnLevelLoaded(TestingPlayerV3)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2024.11.13-13.03.39:687][185]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.11.13-13.03.39:687][185]LogWorldPartition: UWorldPartition::Initialize : World = TestingPlayerV3, World Type = Editor, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.11.13-13.03.39:972][185]LogContentBundle: [TestingPlayerV3(Standalone)] Creating new contrainer.
+[2024.11.13-13.03.39:972][185]LogWorldPartition: Display: WorldPartition initialize took 285 ms (total: 2.05 sec)
+[2024.11.13-13.03.40:342][185]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.11.13-13.03.40:342][185]LogNavigation: Warning: Recreating dtNavMesh instance due mismatch in number of bytes required to store serialized maxTiles (48, 6 bits) vs calculated maxtiles (128, 7 bits)
+[2024.11.13-13.03.40:342][185]LogNavigation: Warning: NavData RegistrationFailed_AgentAlreadySupported, specified agent type already has its navmesh implemented.
+[2024.11.13-13.03.40:585][185]LogWorldPartition: Actor /Game/Levels/TestingPlayerV3.TestingPlayerV3:PersistentLevel.RecastNavMesh_UAID_5C60BAB11AB5C92702-Default is unreachable without properly detaching object /Game/__ExternalActors__/Levels/TestingPlayerV3/0/J0/UBJYYN723LYLJBGS4JJU41.PackageMetaData in its package
+[2024.11.13-13.03.40:587][185]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2024.11.13-13.03.40:597][185]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.11.13-13.03.40:597][185]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.577ms to complete.
+[2024.11.13-13.03.40:640][185]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2024.11.13-13.03.50:852][789]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1351.913330
+[2024.11.13-13.03.51:051][801]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2024.11.13-13.03.51:051][801]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1352.094727, Update Interval: 327.929932
+[2024.11.13-13.03.51:606][833]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2024.11.13-13.03.51:668][833]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.13-13.03.51:679][833]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Levels/Arcade_Game.Arcade_Game
+[2024.11.13-13.03.51:679][833]Cmd: MAP LOAD FILE="../../../../../../Users/jfkab/Documents/Unreal Projects/ArcadeSimulator/Arcade/Content/Levels/Arcade_Game.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2024.11.13-13.03.51:679][833]LightingResults: New page: Lighting Build
+[2024.11.13-13.03.51:679][833]LoadErrors: New page: Loading map: Arcade_Game.umap
+[2024.11.13-13.03.51:757][833]LogWorld: UWorld::CleanupWorld for TestingPlayerV3, bSessionEnded=true, bCleanupResources=true
+[2024.11.13-13.03.51:757][833]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.13-13.03.51:766][833]LogContentBundle: [TestingPlayerV3(Standalone)] Deleting container.
+[2024.11.13-13.03.51:766][833]MapCheck: New page: Map Check
+[2024.11.13-13.03.51:766][833]LightingResults: New page: Lighting Build
+[2024.11.13-13.03.51:782][833]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.11.13-13.03.51:794][833]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2024.11.13-13.03.51:797][833]LogWorld: UWorld::CleanupWorld for Arcade_Game, bSessionEnded=true, bCleanupResources=true
+[2024.11.13-13.03.51:797][833]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.13-13.03.51:809][833]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2024.11.13-13.03.51:820][833]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2024.11.13-13.03.51:826][833]LogAudio: Display: Audio Device (ID: 1) registered with world 'Arcade_Game'.
+[2024.11.13-13.03.51:826][833]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.13-13.03.51:826][833]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.13-13.03.51:826][833]LogAIModule: Creating AISystem for world Arcade_Game
+[2024.11.13-13.03.51:855][833]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.11.13-13.03.51:866][833]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2024.11.13-13.03.51:879][833]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.11.13-13.03.51:879][833]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.117ms to complete.
+[2024.11.13-13.04.08:917][843]LogViewport: Scene viewport resized to 331x173, mode Windowed.
+[2024.11.13-13.04.12:046][  1]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2024.11.13-13.04.16:982][287]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2024.11.13-13.04.32:439][204]LogViewport: Scene viewport resized to 331x173, mode Windowed.
+[2024.11.13-13.04.36:235][418]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2024.11.13-13.04.40:091][647]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2024.11.13-13.04.41:742][743]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2024.11.13-13.04.51:088][289]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.13-13.04.51:300][289]LogUObjectHash: Compacting FUObjectHashTables data took   2.09ms
+[2024.11.13-13.04.51:322][289]LogSavePackage: Moving output files for package: /Game/Levels/Arcade_Game
+[2024.11.13-13.04.51:323][289]LogSavePackage: Moving '../../../../../../Users/jfkab/Documents/Unreal Projects/ArcadeSimulator/Arcade/Saved/Arcade_GameD663019D402CB0B9735A2282F8845767.tmp' to '../../../../../../Users/jfkab/Documents/Unreal Projects/ArcadeSimulator/Arcade/Content/Levels/Arcade_Game.umap'
+[2024.11.13-13.04.51:333][289]LogFileHelpers: Saving map 'Arcade_Game' took 0.176
+[2024.11.13-13.04.51:341][289]LogFileHelpers: InternalPromptForCheckoutAndSave took 252 ms (total: 2.57 sec)
+[2024.11.13-13.04.51:343][289]AssetCheck: New page: Asset Save: Arcade_Game
+[2024.11.13-13.04.51:343][289]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Arcade_Game.Arcade_Game
+[2024.11.13-13.04.51:865][321]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.13-13.04.51:878][321]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.13-13.04.51:878][321]PIE: New page: PIE session: Arcade_Game (Nov 13, 2024, 7:04:51 AM)
+[2024.11.13-13.04.51:878][321]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Arcade_Game
+[2024.11.13-13.04.51:884][321]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005923s)
+[2024.11.13-13.04.51:884][321]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Arcade_Game.Arcade_Game to /Game/Levels/UEDPIE_0_Arcade_Game.Arcade_Game (0.005968s)
+[2024.11.13-13.04.51:896][321]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2024.11.13-13.04.51:896][321]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.13-13.04.51:896][321]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.13-13.04.51:898][321]LogAIModule: Creating AISystem for world Arcade_Game
+[2024.11.13-13.04.51:898][321]LogPlayLevel: PIE: World Init took: (0.000829s)
+[2024.11.13-13.04.51:898][321]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2024.11.13-13.04.51:898][321]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.13-13.04.51:898][321]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.13-13.04.51:898][321]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.13-13.04.51:898][321]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.13-13.04.51:898][321]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.13-13.04.51:898][321]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.13-13.04.51:898][321]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.13-13.04.51:898][321]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.13-13.04.51:898][321]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.13-13.04.51:898][321]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.13-13.04.51:898][321]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.13-13.04.51:900][321]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.13-13.04.51:949][321]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.11.13-13.04.51:951][321]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.13-13.04.51:951][321]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.13-13.04.51:951][321]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.13-13.04.51:954][321]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=7
+[2024.11.13-13.04.51:954][321]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=7
+[2024.11.13-13.04.51:956][321]LogInit: FAudioDevice initialized with ID 7.
+[2024.11.13-13.04.51:956][321]LogAudio: Display: Audio Device (ID: 7) registered with world 'Arcade_Game'.
+[2024.11.13-13.04.51:956][321]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 7
+[2024.11.13-13.04.51:956][321]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=7
+[2024.11.13-13.04.51:956][321]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=7
+[2024.11.13-13.04.51:958][321]LogLoad: Game class is 'MyGameGamemode_C'
+[2024.11.13-13.04.51:960][321]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Arcade_Game.Arcade_Game up for play (max tick rate 60) at 2024.11.13-10.04.51
+[2024.11.13-13.04.51:960][321]LogWorld: Bringing up level for play took: 0.001695
+[2024.11.13-13.04.51:961][321]LogNavigation: Warning: Recreating dtNavMesh instance RecastNavMesh-Default due to saved navmesh origin (X=-0.000 Y=-0.000 Z=-835.106, usually the RecastNavMesh location) not being aligned with tile size (988 uu) 
+[2024.11.13-13.04.51:963][321]LogOnline: OSS: Created online subsystem instance for: :Context_23
+[2024.11.13-13.04.51:963][321]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.13-13.04.51:963][321]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.13-13.04.51:963][321]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.11.13-13.04.51:967][321]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.11.13-13.04.51:967][321]PIE: Server logged in
+[2024.11.13-13.04.51:968][321]PIE: Play in editor total start time 0.089 seconds.
+[2024.11.13-13.04.53:468][411]Cmd: LevelEditor.ToggleImmersive
+[2024.11.13-13.04.53:476][411]LogViewport: Scene viewport resized to 1207x637, mode Windowed.
+[2024.11.13-13.04.53:491][412]LogViewport: Scene viewport resized to 1425x754, mode Windowed.
+[2024.11.13-13.04.53:507][413]LogViewport: Scene viewport resized to 1606x853, mode Windowed.
+[2024.11.13-13.04.53:524][414]LogViewport: Scene viewport resized to 1739x924, mode Windowed.
+[2024.11.13-13.04.53:544][415]LogViewport: Scene viewport resized to 1842x980, mode Windowed.
+[2024.11.13-13.04.53:569][416]LogViewport: Scene viewport resized to 1906x1014, mode Windowed.
+[2024.11.13-13.04.53:587][417]LogViewport: Scene viewport resized to 1921x1022, mode Windowed.
+[2024.11.13-13.04.53:602][418]LogViewport: Scene viewport resized to 1924x1024, mode Windowed.
+[2024.11.13-13.04.57:018][623]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.11.13-13.04.57:018][623]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2024.11.13-13.04.57:018][623]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2024.11.13-13.04.59:599][778]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.11.13-13.04.59:599][778]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2024.11.13-13.05.32:490][748]LogViewport: Scene viewport resized to 1646x873, mode Windowed.
+[2024.11.13-13.05.32:510][749]LogViewport: Scene viewport resized to 1410x747, mode Windowed.
+[2024.11.13-13.05.32:527][750]LogViewport: Scene viewport resized to 1253x663, mode Windowed.
+[2024.11.13-13.05.32:551][751]LogViewport: Scene viewport resized to 1117x589, mode Windowed.
+[2024.11.13-13.05.32:566][752]LogViewport: Scene viewport resized to 1002x527, mode Windowed.
+[2024.11.13-13.05.32:582][753]LogViewport: Scene viewport resized to 938x492, mode Windowed.
+[2024.11.13-13.05.32:599][754]LogViewport: Scene viewport resized to 894x468, mode Windowed.
+[2024.11.13-13.05.32:615][755]LogViewport: Scene viewport resized to 865x453, mode Windowed.
+[2024.11.13-13.05.32:632][756]LogViewport: Scene viewport resized to 849x444, mode Windowed.
+[2024.11.13-13.05.32:648][757]LogViewport: Scene viewport resized to 842x441, mode Windowed.
+[2024.11.13-13.05.32:665][758]LogViewport: Scene viewport resized to 841x440, mode Windowed.
+[2024.11.13-13.05.32:697][760]LogViewport: Scene viewport resized to 840x440, mode Windowed.
+[2024.11.13-13.05.34:622][872]LogViewport: Scene viewport resized to 331x173, mode Windowed.
+[2024.11.13-13.05.35:435][917]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2024.11.13-13.05.42:006][305]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.13-13.05.42:006][305]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Arcade_Game
+[2024.11.13-13.05.42:008][305]LogWorld: UWorld::CleanupWorld for Arcade_Game, bSessionEnded=true, bCleanupResources=true
+[2024.11.13-13.05.42:008][305]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.13-13.05.42:012][305]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.13-13.05.42:016][305]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.13-13.05.42:027][305]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.13-13.05.42:027][305]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 7
+[2024.11.13-13.05.42:028][305]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2024.11.13-13.05.42:030][305]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2024.11.13-13.05.42:039][305]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2024.11.13-13.05.42:096][306]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2024.11.13-13.05.47:130][605]LogViewport: Scene viewport resized to 840x444, mode Windowed.
+[2024.11.13-13.05.47:148][606]LogViewport: Scene viewport resized to 840x449, mode Windowed.
+[2024.11.13-13.05.47:165][607]LogViewport: Scene viewport resized to 840x453, mode Windowed.
+[2024.11.13-13.05.47:180][608]LogViewport: Scene viewport resized to 840x457, mode Windowed.
+[2024.11.13-13.05.47:197][609]LogViewport: Scene viewport resized to 840x465, mode Windowed.
+[2024.11.13-13.05.47:214][610]LogViewport: Scene viewport resized to 840x474, mode Windowed.
+[2024.11.13-13.05.47:230][611]LogViewport: Scene viewport resized to 840x485, mode Windowed.
+[2024.11.13-13.05.47:248][612]LogViewport: Scene viewport resized to 840x498, mode Windowed.
+[2024.11.13-13.05.47:264][613]LogViewport: Scene viewport resized to 840x509, mode Windowed.
+[2024.11.13-13.05.47:281][614]LogViewport: Scene viewport resized to 840x518, mode Windowed.
+[2024.11.13-13.05.47:297][615]LogViewport: Scene viewport resized to 840x529, mode Windowed.
+[2024.11.13-13.05.47:315][616]LogViewport: Scene viewport resized to 840x539, mode Windowed.
+[2024.11.13-13.05.47:331][617]LogViewport: Scene viewport resized to 840x550, mode Windowed.
+[2024.11.13-13.05.47:348][618]LogViewport: Scene viewport resized to 840x563, mode Windowed.
+[2024.11.13-13.05.47:365][619]LogViewport: Scene viewport resized to 840x575, mode Windowed.
+[2024.11.13-13.05.47:380][620]LogViewport: Scene viewport resized to 840x585, mode Windowed.
+[2024.11.13-13.05.47:398][621]LogViewport: Scene viewport resized to 840x595, mode Windowed.
+[2024.11.13-13.05.47:415][622]LogViewport: Scene viewport resized to 840x600, mode Windowed.
+[2024.11.13-13.05.47:430][623]LogViewport: Scene viewport resized to 840x603, mode Windowed.
+[2024.11.13-13.05.47:480][626]LogViewport: Scene viewport resized to 840x605, mode Windowed.
+[2024.11.13-13.05.47:497][627]LogViewport: Scene viewport resized to 840x609, mode Windowed.
+[2024.11.13-13.05.47:514][628]LogViewport: Scene viewport resized to 840x613, mode Windowed.
+[2024.11.13-13.05.47:547][630]LogViewport: Scene viewport resized to 840x615, mode Windowed.
+[2024.11.13-13.05.55:538][102]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/AI/BP_NpcSpawnerController.BP_NpcSpawnerController
+[2024.11.13-13.05.55:539][102]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.13-13.05.55:539][102]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.13-13.06.01:530][450]LogViewport: Scene viewport resized to 847x639, mode Windowed.
+[2024.11.13-13.06.08:026][830]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.13-13.06.08:062][830]LogSlate: Warning: Ignoring SetUserFocus because it's not an active modal Window (user 0 not set to SSubobjectEditorDragDropTree [SSubobjectEditor.cpp(2093)].
+[2024.11.13-13.06.08:093][830]LogSavePackage: Moving output files for package: /Game/Blueprints/AI/BP_NpcSpawnerController
+[2024.11.13-13.06.08:093][830]LogSavePackage: Moving '../../../../../../Users/jfkab/Documents/Unreal Projects/ArcadeSimulator/Arcade/Saved/BP_NpcSpawnerControllerE3968DA7460E1D9F843D648DB1C87B38.tmp' to '../../../../../../Users/jfkab/Documents/Unreal Projects/ArcadeSimulator/Arcade/Content/Blueprints/AI/BP_NpcSpawnerController.uasset'
+[2024.11.13-13.06.08:099][830]LogFileHelpers: InternalPromptForCheckoutAndSave took 73 ms (total: 2.64 sec)
+[2024.11.13-13.06.08:101][830]AssetCheck: New page: Asset Save: BP_NpcSpawnerController
+[2024.11.13-13.06.08:101][830]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/AI/BP_NpcSpawnerController.BP_NpcSpawnerController
+[2024.11.13-13.06.19:865][478]LogSlate: Window 'Delete Variable' being destroyed
+[2024.11.13-13.06.40:241][673]BlueprintLog: New page: Compile BP_NpcSpawnerController
+[2024.11.13-13.06.40:270][673]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2024.11.13-13.06.40:286][673]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.13-13.06.40:367][673]LogSavePackage: Moving output files for package: /Game/Blueprints/AI/BP_NpcSpawnerController
+[2024.11.13-13.06.40:367][673]LogSavePackage: Moving '../../../../../../Users/jfkab/Documents/Unreal Projects/ArcadeSimulator/Arcade/Saved/BP_NpcSpawnerController8D859BA247E6F2D12B3C93A87486264C.tmp' to '../../../../../../Users/jfkab/Documents/Unreal Projects/ArcadeSimulator/Arcade/Content/Blueprints/AI/BP_NpcSpawnerController.uasset'
+[2024.11.13-13.06.40:375][673]LogFileHelpers: InternalPromptForCheckoutAndSave took 89 ms (total: 2.73 sec)
+[2024.11.13-13.06.40:376][673]AssetCheck: New page: Asset Save: BP_NpcSpawnerController
+[2024.11.13-13.06.40:376][673]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/AI/BP_NpcSpawnerController.BP_NpcSpawnerController
+[2024.11.13-13.06.42:839][818]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.13-13.06.42:931][818]LogSavePackage: Moving output files for package: /Game/Blueprints/AI/BP_NpcSpawnerController
+[2024.11.13-13.06.42:932][818]LogSavePackage: Moving '../../../../../../Users/jfkab/Documents/Unreal Projects/ArcadeSimulator/Arcade/Saved/BP_NpcSpawnerController8EF9609A4999687FEF5283949A74964E.tmp' to '../../../../../../Users/jfkab/Documents/Unreal Projects/ArcadeSimulator/Arcade/Content/Blueprints/AI/BP_NpcSpawnerController.uasset'
+[2024.11.13-13.06.42:940][818]LogFileHelpers: InternalPromptForCheckoutAndSave took 100 ms (total: 2.83 sec)
+[2024.11.13-13.06.42:941][818]AssetCheck: New page: Asset Save: BP_NpcSpawnerController
+[2024.11.13-13.06.42:941][818]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/AI/BP_NpcSpawnerController.BP_NpcSpawnerController
+[2024.11.13-13.06.47:526][ 92]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.13-13.06.47:598][ 92]LogSavePackage: Moving output files for package: /Game/Blueprints/AI/BP_NpcSpawnerController
+[2024.11.13-13.06.47:599][ 92]LogSavePackage: Moving '../../../../../../Users/jfkab/Documents/Unreal Projects/ArcadeSimulator/Arcade/Saved/BP_NpcSpawnerController82ED872A4519B25B93E0ADB3414766C0.tmp' to '../../../../../../Users/jfkab/Documents/Unreal Projects/ArcadeSimulator/Arcade/Content/Blueprints/AI/BP_NpcSpawnerController.uasset'
+[2024.11.13-13.06.47:609][ 92]LogFileHelpers: InternalPromptForCheckoutAndSave took 82 ms (total: 2.91 sec)
+[2024.11.13-13.06.47:611][ 92]AssetCheck: New page: Asset Save: BP_NpcSpawnerController
+[2024.11.13-13.06.47:611][ 92]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/AI/BP_NpcSpawnerController.BP_NpcSpawnerController
+[2024.11.13-13.06.48:184][127]BlueprintLog: New page: Compile BP_NpcSpawnerController
+[2024.11.13-13.06.48:189][127]LogClass: Warning: Type mismatch in spawnPointNPC of BP_NpcSpawnerController_C - Previous (StructProperty) Current(ObjectProperty) for package:  FObjectReader
+[2024.11.13-13.06.48:211][127]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2024.11.13-13.07.19:214][966]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.13-13.07.19:326][966]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2024.11.13-13.07.19:344][966]LogSavePackage: Moving output files for package: /Game/Levels/Arcade_Game
+[2024.11.13-13.07.19:344][966]LogSavePackage: Moving '../../../../../../Users/jfkab/Documents/Unreal Projects/ArcadeSimulator/Arcade/Saved/Arcade_Game6AD853DD4067183CB48B9F97898DA085.tmp' to '../../../../../../Users/jfkab/Documents/Unreal Projects/ArcadeSimulator/Arcade/Content/Levels/Arcade_Game.umap'
+[2024.11.13-13.07.19:355][966]LogFileHelpers: Saving map 'Arcade_Game' took 0.077
+[2024.11.13-13.07.19:365][966]LogFileHelpers: InternalPromptForCheckoutAndSave took 150 ms (total: 3.06 sec)
+[2024.11.13-13.07.19:367][966]AssetCheck: New page: Asset Save: Arcade_Game
+[2024.11.13-13.07.19:367][966]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Arcade_Game.Arcade_Game
+[2024.11.13-13.07.21:541][ 97]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.13-13.07.21:552][ 97]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.13-13.07.21:552][ 97]PIE: New page: PIE session: Arcade_Game (Nov 13, 2024, 7:07:21 AM)
+[2024.11.13-13.07.21:552][ 97]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Arcade_Game
+[2024.11.13-13.07.21:556][ 97]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003899s)
+[2024.11.13-13.07.21:556][ 97]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Arcade_Game.Arcade_Game to /Game/Levels/UEDPIE_0_Arcade_Game.Arcade_Game (0.003934s)
+[2024.11.13-13.07.21:566][ 97]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2024.11.13-13.07.21:568][ 97]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.13-13.07.21:568][ 97]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.13-13.07.21:568][ 97]LogAIModule: Creating AISystem for world Arcade_Game
+[2024.11.13-13.07.21:569][ 97]LogPlayLevel: PIE: World Init took: (0.000880s)
+[2024.11.13-13.07.21:569][ 97]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2024.11.13-13.07.21:569][ 97]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.13-13.07.21:569][ 97]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.13-13.07.21:569][ 97]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.13-13.07.21:569][ 97]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.13-13.07.21:569][ 97]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.13-13.07.21:569][ 97]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.13-13.07.21:569][ 97]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.13-13.07.21:569][ 97]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.13-13.07.21:569][ 97]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.13-13.07.21:569][ 97]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.13-13.07.21:569][ 97]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.13-13.07.21:571][ 97]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.13-13.07.21:621][ 97]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.11.13-13.07.21:621][ 97]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.13-13.07.21:621][ 97]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.13-13.07.21:621][ 97]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.13-13.07.21:624][ 97]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=8
+[2024.11.13-13.07.21:625][ 97]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=8
+[2024.11.13-13.07.21:626][ 97]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=8
+[2024.11.13-13.07.21:626][ 97]LogInit: FAudioDevice initialized with ID 8.
+[2024.11.13-13.07.21:626][ 97]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=8
+[2024.11.13-13.07.21:626][ 97]LogAudio: Display: Audio Device (ID: 8) registered with world 'Arcade_Game'.
+[2024.11.13-13.07.21:626][ 97]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 8
+[2024.11.13-13.07.21:628][ 97]LogLoad: Game class is 'MyGameGamemode_C'
+[2024.11.13-13.07.21:631][ 97]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Arcade_Game.Arcade_Game up for play (max tick rate 60) at 2024.11.13-10.07.21
+[2024.11.13-13.07.21:631][ 97]LogWorld: Bringing up level for play took: 0.002250
+[2024.11.13-13.07.21:631][ 97]LogNavigation: Warning: Recreating dtNavMesh instance RecastNavMesh-Default due to saved navmesh origin (X=-0.000 Y=-0.000 Z=-835.106, usually the RecastNavMesh location) not being aligned with tile size (988 uu) 
+[2024.11.13-13.07.21:633][ 97]LogOnline: OSS: Created online subsystem instance for: :Context_25
+[2024.11.13-13.07.21:634][ 97]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.13-13.07.21:634][ 97]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.13-13.07.21:634][ 97]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.11.13-13.07.21:636][ 97]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.11.13-13.07.21:637][ 97]PIE: Server logged in
+[2024.11.13-13.07.21:637][ 97]PIE: Play in editor total start time 0.085 seconds.
+[2024.11.13-13.07.36:815][  7]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.11.13-13.07.36:815][  7]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2024.11.13-13.07.36:815][  7]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2024.11.13-13.07.39:932][194]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.11.13-13.07.39:932][194]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2024.11.13-13.08.01:899][512]Cmd: LevelEditor.ToggleImmersive
+[2024.11.13-13.08.01:907][512]LogViewport: Scene viewport resized to 417x304, mode Windowed.
+[2024.11.13-13.08.01:912][512]LogViewport: Scene viewport resized to 417x304, mode Windowed.
+[2024.11.13-13.08.01:920][512]LogViewport: Scene viewport resized to 417x305, mode Windowed.
+[2024.11.13-13.08.01:927][512]LogViewport: Scene viewport resized to 1208x753, mode Windowed.
+[2024.11.13-13.08.01:939][513]LogViewport: Scene viewport resized to 1612x906, mode Windowed.
+[2024.11.13-13.08.01:954][514]LogViewport: Scene viewport resized to 1737x953, mode Windowed.
+[2024.11.13-13.08.01:971][515]LogViewport: Scene viewport resized to 1826x987, mode Windowed.
+[2024.11.13-13.08.01:992][516]LogViewport: Scene viewport resized to 1891x1011, mode Windowed.
+[2024.11.13-13.08.02:011][517]LogViewport: Scene viewport resized to 1916x1021, mode Windowed.
+[2024.11.13-13.08.02:026][518]LogViewport: Scene viewport resized to 1923x1023, mode Windowed.
+[2024.11.13-13.08.02:045][519]LogViewport: Scene viewport resized to 1924x1024, mode Windowed.
+[2024.11.13-13.08.20:962][654]LogBlueprintUserMessages: [BTTask_ThanksForChange_C_0] playing
+[2024.11.13-13.08.41:143][865]LogBlueprintUserMessages: [BTTask_ThanksForChange_C_0] playing
+[2024.11.13-13.08.42:804][963]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.13-13.08.42:804][963]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Arcade_Game
+[2024.11.13-13.08.42:806][963]LogWorld: UWorld::CleanupWorld for Arcade_Game, bSessionEnded=true, bCleanupResources=true
+[2024.11.13-13.08.42:807][963]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.13-13.08.42:814][963]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.13-13.08.42:817][963]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.13-13.08.42:826][963]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.13-13.08.42:827][963]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 8
+[2024.11.13-13.08.42:827][963]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2024.11.13-13.08.42:829][963]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2024.11.13-13.08.42:837][963]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2024.11.13-13.08.42:886][964]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2024.11.13-13.08.43:966][ 27]LogViewport: Scene viewport resized to 1663x925, mode Windowed.
+[2024.11.13-13.08.43:987][ 28]LogViewport: Scene viewport resized to 1218x757, mode Windowed.
+[2024.11.13-13.08.44:005][ 29]LogViewport: Scene viewport resized to 1081x705, mode Windowed.
+[2024.11.13-13.08.44:021][ 30]LogViewport: Scene viewport resized to 995x673, mode Windowed.
+[2024.11.13-13.08.44:041][ 31]LogViewport: Scene viewport resized to 932x649, mode Windowed.
+[2024.11.13-13.08.44:058][ 32]LogViewport: Scene viewport resized to 888x633, mode Windowed.
+[2024.11.13-13.08.44:074][ 33]LogViewport: Scene viewport resized to 861x623, mode Windowed.
+[2024.11.13-13.08.44:098][ 34]LogViewport: Scene viewport resized to 844x616, mode Windowed.
+[2024.11.13-13.08.44:114][ 35]LogViewport: Scene viewport resized to 841x615, mode Windowed.
+[2024.11.13-13.08.44:144][ 37]LogViewport: Scene viewport resized to 840x615, mode Windowed.
