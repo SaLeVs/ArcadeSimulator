@@ -8938,3 +8938,1181 @@ Script Stack (0 frames) :
 [2024.11.13-03.31.03:655][598]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=36
 [2024.11.13-03.31.03:685][598]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
 [2024.11.13-03.31.03:751][599]LogPlayLevel: Display: Destroying online subsystem :Context_63
+[2024.11.13-03.31.38:693][522]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.13-03.31.38:708][522]LogContentBundle: [TestingPlayer(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.11.13-03.31.38:708][522]LogWorldPartition: Display: GenerateStreaming for 'TestingPlayer' started...
+[2024.11.13-03.31.39:035][522]LogWorldPartition: Display: GenerateStreaming for 'TestingPlayer' took 327 ms (total: 16.9 sec)
+[2024.11.13-03.31.39:037][522]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.13-03.31.39:037][522]PIE: New page: PIE session: TestingPlayer (12 de nov de 2024 21:31:39)
+[2024.11.13-03.31.39:068][522]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TestingPlayer
+[2024.11.13-03.31.39:082][522]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014340s)
+[2024.11.13-03.31.39:082][522]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TestingPlayer.TestingPlayer to /Game/Levels/UEDPIE_0_TestingPlayer.TestingPlayer (0.014395s)
+[2024.11.13-03.31.39:096][522]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2024.11.13-03.31.39:100][522]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.13-03.31.39:100][522]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.13-03.31.39:100][522]LogAIModule: Creating AISystem for world TestingPlayer
+[2024.11.13-03.31.39:101][522]LogWorldPartition: ULevel::OnLevelLoaded(TestingPlayer)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.11.13-03.31.39:101][522]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.11.13-03.31.39:101][522]LogWorldPartition: UWorldPartition::Initialize : World = TestingPlayer, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.11.13-03.31.39:101][522]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.11.13-03.31.39:105][522]LogContentBundle: [TestingPlayer(Standalone)] Creating new contrainer.
+[2024.11.13-03.31.39:105][522]LogWorldPartition: Display: WorldPartition initialize took 3 ms (total: 1.53 sec)
+[2024.11.13-03.31.39:105][522]LogPlayLevel: PIE: World Init took: (0.004982s)
+[2024.11.13-03.31.39:105][522]LogAudio: Display: Creating Audio Device:                 Id: 37, Scope: Unique, Realtime: True
+[2024.11.13-03.31.39:105][522]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.13-03.31.39:105][522]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.13-03.31.39:105][522]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.13-03.31.39:105][522]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.13-03.31.39:105][522]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.13-03.31.39:105][522]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.13-03.31.39:105][522]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.13-03.31.39:105][522]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.13-03.31.39:105][522]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.13-03.31.39:105][522]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.13-03.31.39:105][522]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.13-03.31.39:108][522]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.13-03.31.39:144][522]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (2- USB Audio Device)
+[2024.11.13-03.31.39:145][522]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.13-03.31.39:145][522]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.13-03.31.39:145][522]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.13-03.31.39:145][522]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=37
+[2024.11.13-03.31.39:145][522]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=37
+[2024.11.13-03.31.39:147][522]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=37
+[2024.11.13-03.31.39:147][522]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=37
+[2024.11.13-03.31.39:147][522]LogInit: FAudioDevice initialized with ID 37.
+[2024.11.13-03.31.39:147][522]LogAudio: Display: Audio Device (ID: 37) registered with world 'TestingPlayer'.
+[2024.11.13-03.31.39:147][522]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 37
+[2024.11.13-03.31.39:150][522]LogLoad: Game class is 'MyGameGamemode_C'
+[2024.11.13-03.31.39:151][522]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TestingPlayer.TestingPlayer up for play (max tick rate 0) at 2024.11.13-00.31.39
+[2024.11.13-03.31.39:151][522]LogWorld: Bringing up level for play took: 0.000928
+[2024.11.13-03.31.39:154][522]LogOnline: OSS: Created online subsystem instance for: :Context_64
+[2024.11.13-03.31.39:154][522]LogWorldPartition: UWorldPartitionStreamingPolicy: CellsToActivate(41), CellsToLoad(0), CellsToUnload(0)
+[2024.11.13-03.31.39:154][522]LogWorldPartition: UWorldPartitionStreamingPolicy: Sources[0] = X=-11940.435 Y=-6681.237 Z=92.000,P=0.000000 Y=0.000000 R=-0.000000
+[2024.11.13-03.31.39:159][522]LogStreaming: Display: FlushAsyncLoading(): 95 QueuedPackages, 0 AsyncPackages
+[2024.11.13-03.31.39:430][522]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/F/2D/TPD315QEC9LXPJY0HQWR3U.StaticMesh_TestingPlayer_HLOD0_Instancing_7 being ready before playing
+[2024.11.13-03.31.39:430][522]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/F/2D/TPD315QEC9LXPJY0HQWR3U.StaticMesh_TestingPlayer_HLOD0_Instancing_6 being ready before playing
+[2024.11.13-03.31.39:430][522]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/F/2D/TPD315QEC9LXPJY0HQWR3U.StaticMesh_TestingPlayer_HLOD0_Instancing_5 being ready before playing
+[2024.11.13-03.31.39:430][522]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/F/2D/TPD315QEC9LXPJY0HQWR3U.StaticMesh_TestingPlayer_HLOD0_Instancing_4 being ready before playing
+[2024.11.13-03.31.39:430][522]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/E/Y9/F57K9DR4X7ZD8GYM3YE5ZB.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.31.39:430][522]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/E/W6/UQIQI82G8VBLVH5IK42IZI.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.13-03.31.39:430][522]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/E/W6/UQIQI82G8VBLVH5IK42IZI.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.13-03.31.39:430][522]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/E/GZ/K39BR99ITL6SHKPIE5N9D0.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.31.39:430][522]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/D/UQ/M9GFDLJOHRQEAOOFTYJL2B.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.31.39:430][522]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/D/JS/LO1H1JBH85WZC580YOXWQG.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.13-03.31.39:430][522]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/D/JS/LO1H1JBH85WZC580YOXWQG.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.13-03.31.39:430][522]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/D/92/8TZWL4G5TWHN468WA8CYJQ.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.31.39:430][522]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/D/47/8U0MNP9KBA48HBRLFBOJ6D.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.31.39:430][522]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/C/9O/3CV1NNXN2AQOVZR40S7YUV.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.31.39:430][522]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/B/WK/8GF8QJHVPV1BDIVE96T1VE.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.31.39:430][522]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/B/HH/NC46WDER05ONLAEN94QSKI.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.31.39:430][522]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/B/B5/Q25NBXKKC3EVMQMEZF4043.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.13-03.31.39:430][522]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/B/B5/Q25NBXKKC3EVMQMEZF4043.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.13-03.31.39:431][522]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/A/P8/JQZ3138SUGFFD1INBU2FF6.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.31.39:431][522]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/A/MK/5WWF4A9971XVQTUJJ54OVN.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.31.39:431][522]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/A/51/8KASR1MDVQZVTEAD5Q50XE.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.13-03.31.39:431][522]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/A/51/8KASR1MDVQZVTEAD5Q50XE.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.13-03.31.39:431][522]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/9/YR/D1Y24IBCIYAFR4E2HGN19U.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.31.39:431][522]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/9/H1/UCVL4RTDKB3RVTIRDQ6XK8.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.31.39:431][522]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/9/5F/6KLD6RO5WAJUIPVRFLS2UP.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.13-03.31.39:431][522]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/9/5F/6KLD6RO5WAJUIPVRFLS2UP.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.13-03.31.39:431][522]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/8/9E/ZFM0P0F7XGHJZIOMVV21OW.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.13-03.31.39:431][522]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/8/9E/ZFM0P0F7XGHJZIOMVV21OW.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.13-03.31.39:431][522]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/7/W3/DIP8TB64XZPEVIE8VG4KY8.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.31.39:431][522]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/7/RI/M3IDY963URF870M0LAMQFL.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.31.39:431][522]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/7/0V/1O5YVJ3X9BCZRE6R4JWQ7F.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.31.39:431][522]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/6/YI/66BSLDJUHJRAKCR5Y7ZMN2.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.31.39:431][522]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/6/I5/6QC9KRBGCC24BJTCC2OPGH.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.31.39:431][522]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/6/HY/ZHRLGHILC3YUWYEGQ58QBN.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.31.39:431][522]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/6/CA/E7KLWG5Y0QN7LOGU7EY3DY.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.13-03.31.39:431][522]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/6/CA/E7KLWG5Y0QN7LOGU7EY3DY.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.13-03.31.39:431][522]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/6/4D/QPAENHXXBJZWRBO10FSG3Y.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.31.39:431][522]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/5/5Z/56FMRS3TILQMIU67L3ZJRQ.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.31.39:431][522]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/4/VM/XMUCOP4QQ87XFW3SCDH2J9.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.31.39:431][522]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/4/UY/1JOK7WYZ183ZTS7Q9QS3K9.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.13-03.31.39:431][522]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/4/UY/1JOK7WYZ183ZTS7Q9QS3K9.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.13-03.31.39:431][522]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/4/P0/OFN259027Z4657HA1PY30O.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.13-03.31.39:431][522]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/4/P0/OFN259027Z4657HA1PY30O.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.13-03.31.39:431][522]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/4/I5/R54SNWEJXFQDMDM3EGY07P.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.31.39:431][522]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/4/G5/MK6FKUE4ODA9X5HFFCLTD5.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.31.39:431][522]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/4/DF/NBX7PNQ27BBMN5FSF9VLS1.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.31.39:431][522]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/3/ZR/LHHCUBHLPNC9KWBF9D56GR.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.31.39:431][522]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/3/O6/ST3CYF6FLK0VDJ8L5S26YN.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.31.39:431][522]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/3/LQ/W8GFJXGMZVT7LO48TUUF6T.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.13-03.31.39:431][522]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/3/LQ/W8GFJXGMZVT7LO48TUUF6T.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.13-03.31.39:431][522]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/3/D9/ZF021USLPWD2AB0YN38YTX.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.13-03.31.39:431][522]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/3/D9/ZF021USLPWD2AB0YN38YTX.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.13-03.31.39:431][522]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/3/5I/14RV2AUUAEM5OD1DKVX8D4.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.31.39:431][522]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/3/2H/J2BP7K9237AXOJ0LNHWME6.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.31.39:431][522]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/2/NL/0JODR7KT9FAZAT5FT3M1Q1.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.31.39:431][522]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/2/CN/1JDC7V2UGQ2YYPIY05M8H1.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.31.39:431][522]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/1/JR/HH979403EXFJRPZ5CZPKVP.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.13-03.31.39:431][522]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/1/JR/HH979403EXFJRPZ5CZPKVP.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.13-03.31.39:431][522]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/1/JC/LMRPQ7MLEIJKEMAA5SK3C6.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.31.39:431][522]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/1/I2/MDZARE0ATHANAENGC3A978.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.31.39:431][522]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/0/VX/QA62RGK872BLWMBLGSDQP7.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.31.39:431][522]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/0/LM/GLYCZ7H89WVIOXX5DJSGZB.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.31.39:431][522]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/0/DI/64UBU2QXHE89AL92JUOI6L.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.31.39:431][522]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/0/0I/D6R3RMOPB2SKP9RNX2E0HY.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.31.39:491][522]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.13-03.31.39:491][522]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.13-03.31.39:491][522]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.11.13-03.31.39:493][522]LogBlueprintUserMessages: [BP_CheckPointTest_C_UAID_3C2C30D06DF8F02A02_1706789087] Saved Player Data
+[2024.11.13-03.31.39:493][522]LogBlueprintUserMessages: [BP_Player_C_0] Current money is 18.725547
+[2024.11.13-03.31.39:497][522]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.11.13-03.31.39:497][522]PIE: Server logged in
+[2024.11.13-03.31.39:498][522]PIE: Play in editor total start time 0,79 seconds.
+[2024.11.13-03.31.43:475][910]LogBlueprintUserMessages: [TestingInteractions_C_UAID_C87F5454B60D062902_1918423848] hold
+[2024.11.13-03.31.43:633][927]LogBlueprintUserMessages: [TestingInteractions_C_UAID_C87F5454B60D062902_1918423848] click
+[2024.11.13-03.32.22:409][953]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.13-03.32.22:409][953]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TestingPlayer
+[2024.11.13-03.32.22:423][953]LogWorld: UWorld::CleanupWorld for TestingPlayer, bSessionEnded=true, bCleanupResources=true
+[2024.11.13-03.32.22:424][953]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.13-03.32.22:424][953]LogContentBundle: [TestingPlayer(Standalone)] Deleting container.
+[2024.11.13-03.32.22:427][953]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.13-03.32.22:435][953]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.13-03.32.22:462][953]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.13-03.32.22:463][953]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 37
+[2024.11.13-03.32.22:463][953]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=37
+[2024.11.13-03.32.22:465][953]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=37
+[2024.11.13-03.32.22:493][953]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
+[2024.11.13-03.32.22:562][954]LogPlayLevel: Display: Destroying online subsystem :Context_64
+[2024.11.13-03.33.18:382][329]BlueprintLog: New page: Compile BP_Player
+[2024.11.13-03.33.18:475][329]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2024.11.13-03.33.18:570][329]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.13-03.33.18:642][329]LogSavePackage: Moving output files for package: /Game/Blueprints/Player/BP_Player
+[2024.11.13-03.33.18:643][329]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Saved/BP_Player970A8FDF424D63B479E289BCCFABF68A.tmp' to '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/Blueprints/Player/BP_Player.uasset'
+[2024.11.13-03.33.18:651][329]LogFileHelpers: InternalPromptForCheckoutAndSave took 80 ms (total: 7.63 sec)
+[2024.11.13-03.33.18:653][329]AssetCheck: New page: Asset Save: BP_Player
+[2024.11.13-03.33.18:653][329]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Player/BP_Player.BP_Player
+[2024.11.13-03.33.19:765][427]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.13-03.33.19:780][427]LogContentBundle: [TestingPlayer(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.11.13-03.33.19:780][427]LogWorldPartition: Display: GenerateStreaming for 'TestingPlayer' started...
+[2024.11.13-03.33.20:093][427]LogWorldPartition: Display: GenerateStreaming for 'TestingPlayer' took 313 ms (total: 17.3 sec)
+[2024.11.13-03.33.20:094][427]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.13-03.33.20:094][427]PIE: New page: PIE session: TestingPlayer (12 de nov de 2024 21:33:20)
+[2024.11.13-03.33.20:127][427]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TestingPlayer
+[2024.11.13-03.33.20:140][427]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013124s)
+[2024.11.13-03.33.20:140][427]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TestingPlayer.TestingPlayer to /Game/Levels/UEDPIE_0_TestingPlayer.TestingPlayer (0.013169s)
+[2024.11.13-03.33.20:161][427]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2024.11.13-03.33.20:165][427]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.13-03.33.20:165][427]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.13-03.33.20:165][427]LogAIModule: Creating AISystem for world TestingPlayer
+[2024.11.13-03.33.20:166][427]LogWorldPartition: ULevel::OnLevelLoaded(TestingPlayer)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.11.13-03.33.20:166][427]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.11.13-03.33.20:166][427]LogWorldPartition: UWorldPartition::Initialize : World = TestingPlayer, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.11.13-03.33.20:166][427]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.11.13-03.33.20:169][427]LogContentBundle: [TestingPlayer(Standalone)] Creating new contrainer.
+[2024.11.13-03.33.20:169][427]LogWorldPartition: Display: WorldPartition initialize took 3 ms (total: 1.54 sec)
+[2024.11.13-03.33.20:169][427]LogPlayLevel: PIE: World Init took: (0.004665s)
+[2024.11.13-03.33.20:169][427]LogAudio: Display: Creating Audio Device:                 Id: 38, Scope: Unique, Realtime: True
+[2024.11.13-03.33.20:169][427]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.13-03.33.20:169][427]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.13-03.33.20:169][427]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.13-03.33.20:169][427]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.13-03.33.20:169][427]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.13-03.33.20:169][427]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.13-03.33.20:169][427]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.13-03.33.20:169][427]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.13-03.33.20:170][427]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.13-03.33.20:170][427]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.13-03.33.20:170][427]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.13-03.33.20:172][427]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.13-03.33.20:207][427]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (2- USB Audio Device)
+[2024.11.13-03.33.20:208][427]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.13-03.33.20:208][427]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.13-03.33.20:208][427]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.13-03.33.20:208][427]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=38
+[2024.11.13-03.33.20:208][427]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=38
+[2024.11.13-03.33.20:210][427]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=38
+[2024.11.13-03.33.20:210][427]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=38
+[2024.11.13-03.33.20:210][427]LogInit: FAudioDevice initialized with ID 38.
+[2024.11.13-03.33.20:210][427]LogAudio: Display: Audio Device (ID: 38) registered with world 'TestingPlayer'.
+[2024.11.13-03.33.20:210][427]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 38
+[2024.11.13-03.33.20:214][427]LogLoad: Game class is 'MyGameGamemode_C'
+[2024.11.13-03.33.20:215][427]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TestingPlayer.TestingPlayer up for play (max tick rate 0) at 2024.11.13-00.33.20
+[2024.11.13-03.33.20:215][427]LogWorld: Bringing up level for play took: 0.000904
+[2024.11.13-03.33.20:217][427]LogOnline: OSS: Created online subsystem instance for: :Context_65
+[2024.11.13-03.33.20:217][427]LogWorldPartition: UWorldPartitionStreamingPolicy: CellsToActivate(41), CellsToLoad(0), CellsToUnload(0)
+[2024.11.13-03.33.20:217][427]LogWorldPartition: UWorldPartitionStreamingPolicy: Sources[0] = X=-11940.435 Y=-6681.237 Z=92.000,P=0.000000 Y=0.000000 R=-0.000000
+[2024.11.13-03.33.20:222][427]LogStreaming: Display: FlushAsyncLoading(): 95 QueuedPackages, 0 AsyncPackages
+[2024.11.13-03.33.20:501][427]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/F/2D/TPD315QEC9LXPJY0HQWR3U.StaticMesh_TestingPlayer_HLOD0_Instancing_7 being ready before playing
+[2024.11.13-03.33.20:501][427]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/F/2D/TPD315QEC9LXPJY0HQWR3U.StaticMesh_TestingPlayer_HLOD0_Instancing_6 being ready before playing
+[2024.11.13-03.33.20:501][427]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/F/2D/TPD315QEC9LXPJY0HQWR3U.StaticMesh_TestingPlayer_HLOD0_Instancing_5 being ready before playing
+[2024.11.13-03.33.20:501][427]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/F/2D/TPD315QEC9LXPJY0HQWR3U.StaticMesh_TestingPlayer_HLOD0_Instancing_4 being ready before playing
+[2024.11.13-03.33.20:501][427]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/E/Y9/F57K9DR4X7ZD8GYM3YE5ZB.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.33.20:501][427]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/E/W6/UQIQI82G8VBLVH5IK42IZI.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.13-03.33.20:501][427]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/E/W6/UQIQI82G8VBLVH5IK42IZI.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.13-03.33.20:501][427]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/E/GZ/K39BR99ITL6SHKPIE5N9D0.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.33.20:501][427]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/D/UQ/M9GFDLJOHRQEAOOFTYJL2B.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.33.20:501][427]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/D/JS/LO1H1JBH85WZC580YOXWQG.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.13-03.33.20:501][427]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/D/JS/LO1H1JBH85WZC580YOXWQG.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.13-03.33.20:501][427]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/D/92/8TZWL4G5TWHN468WA8CYJQ.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.33.20:501][427]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/D/47/8U0MNP9KBA48HBRLFBOJ6D.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.33.20:501][427]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/C/9O/3CV1NNXN2AQOVZR40S7YUV.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.33.20:501][427]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/B/WK/8GF8QJHVPV1BDIVE96T1VE.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.33.20:501][427]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/B/HH/NC46WDER05ONLAEN94QSKI.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.33.20:501][427]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/B/B5/Q25NBXKKC3EVMQMEZF4043.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.13-03.33.20:501][427]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/B/B5/Q25NBXKKC3EVMQMEZF4043.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.13-03.33.20:501][427]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/A/P8/JQZ3138SUGFFD1INBU2FF6.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.33.20:501][427]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/A/MK/5WWF4A9971XVQTUJJ54OVN.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.33.20:501][427]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/A/51/8KASR1MDVQZVTEAD5Q50XE.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.13-03.33.20:501][427]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/A/51/8KASR1MDVQZVTEAD5Q50XE.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.13-03.33.20:501][427]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/9/YR/D1Y24IBCIYAFR4E2HGN19U.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.33.20:501][427]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/9/H1/UCVL4RTDKB3RVTIRDQ6XK8.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.33.20:501][427]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/9/5F/6KLD6RO5WAJUIPVRFLS2UP.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.13-03.33.20:501][427]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/9/5F/6KLD6RO5WAJUIPVRFLS2UP.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.13-03.33.20:501][427]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/8/9E/ZFM0P0F7XGHJZIOMVV21OW.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.13-03.33.20:501][427]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/8/9E/ZFM0P0F7XGHJZIOMVV21OW.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.13-03.33.20:501][427]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/7/W3/DIP8TB64XZPEVIE8VG4KY8.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.33.20:501][427]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/7/RI/M3IDY963URF870M0LAMQFL.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.33.20:501][427]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/7/0V/1O5YVJ3X9BCZRE6R4JWQ7F.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.33.20:501][427]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/6/YI/66BSLDJUHJRAKCR5Y7ZMN2.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.33.20:501][427]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/6/I5/6QC9KRBGCC24BJTCC2OPGH.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.33.20:501][427]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/6/HY/ZHRLGHILC3YUWYEGQ58QBN.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.33.20:501][427]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/6/CA/E7KLWG5Y0QN7LOGU7EY3DY.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.13-03.33.20:501][427]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/6/CA/E7KLWG5Y0QN7LOGU7EY3DY.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.13-03.33.20:501][427]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/6/4D/QPAENHXXBJZWRBO10FSG3Y.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.33.20:501][427]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/5/5Z/56FMRS3TILQMIU67L3ZJRQ.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.33.20:501][427]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/4/VM/XMUCOP4QQ87XFW3SCDH2J9.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.33.20:501][427]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/4/UY/1JOK7WYZ183ZTS7Q9QS3K9.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.13-03.33.20:501][427]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/4/UY/1JOK7WYZ183ZTS7Q9QS3K9.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.13-03.33.20:501][427]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/4/P0/OFN259027Z4657HA1PY30O.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.13-03.33.20:501][427]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/4/P0/OFN259027Z4657HA1PY30O.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.13-03.33.20:501][427]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/4/I5/R54SNWEJXFQDMDM3EGY07P.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.33.20:501][427]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/4/G5/MK6FKUE4ODA9X5HFFCLTD5.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.33.20:501][427]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/4/DF/NBX7PNQ27BBMN5FSF9VLS1.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.33.20:501][427]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/3/ZR/LHHCUBHLPNC9KWBF9D56GR.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.33.20:501][427]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/3/O6/ST3CYF6FLK0VDJ8L5S26YN.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.33.20:501][427]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/3/LQ/W8GFJXGMZVT7LO48TUUF6T.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.13-03.33.20:501][427]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/3/LQ/W8GFJXGMZVT7LO48TUUF6T.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.13-03.33.20:501][427]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/3/D9/ZF021USLPWD2AB0YN38YTX.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.13-03.33.20:501][427]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/3/D9/ZF021USLPWD2AB0YN38YTX.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.13-03.33.20:501][427]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/3/5I/14RV2AUUAEM5OD1DKVX8D4.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.33.20:501][427]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/3/2H/J2BP7K9237AXOJ0LNHWME6.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.33.20:501][427]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/2/NL/0JODR7KT9FAZAT5FT3M1Q1.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.33.20:501][427]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/2/CN/1JDC7V2UGQ2YYPIY05M8H1.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.33.20:501][427]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/1/JR/HH979403EXFJRPZ5CZPKVP.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.13-03.33.20:501][427]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/1/JR/HH979403EXFJRPZ5CZPKVP.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.13-03.33.20:501][427]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/1/JC/LMRPQ7MLEIJKEMAA5SK3C6.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.33.20:501][427]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/1/I2/MDZARE0ATHANAENGC3A978.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.33.20:501][427]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/0/VX/QA62RGK872BLWMBLGSDQP7.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.33.20:501][427]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/0/LM/GLYCZ7H89WVIOXX5DJSGZB.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.33.20:501][427]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/0/DI/64UBU2QXHE89AL92JUOI6L.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.33.20:501][427]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/0/0I/D6R3RMOPB2SKP9RNX2E0HY.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.33.20:569][427]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.13-03.33.20:569][427]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.13-03.33.20:569][427]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.11.13-03.33.20:571][427]LogBlueprintUserMessages: [BP_CheckPointTest_C_UAID_3C2C30D06DF8F02A02_1706789087] Saved Player Data
+[2024.11.13-03.33.20:571][427]LogBlueprintUserMessages: [BP_Player_C_0] Current money is 8.166143
+[2024.11.13-03.33.20:575][427]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.11.13-03.33.20:575][427]PIE: Server logged in
+[2024.11.13-03.33.20:576][427]PIE: Play in editor total start time 0,797 seconds.
+[2024.11.13-03.33.32:126][640]LogBlueprintUserMessages: [TestingInteractions_C_UAID_C87F5454B60D062902_1918423848] click
+[2024.11.13-03.33.32:932][731]LogBlueprintUserMessages: [TestingInteractions_C_UAID_C87F5454B60D062902_1918423848] click
+[2024.11.13-03.33.33:425][785]LogBlueprintUserMessages: [TestingInteractions_C_UAID_C87F5454B60D062902_1918423848] click
+[2024.11.13-03.33.33:801][828]LogBlueprintUserMessages: [TestingInteractions_C_UAID_C87F5454B60D062902_1918423848] click
+[2024.11.13-03.33.34:149][867]LogBlueprintUserMessages: [TestingInteractions_C_UAID_C87F5454B60D062902_1918423848] click
+[2024.11.13-03.33.34:745][934]LogBlueprintUserMessages: [TestingInteractions_C_UAID_C87F5454B60D062902_1918423848] click
+[2024.11.13-03.33.35:125][977]LogBlueprintUserMessages: [TestingInteractions_C_UAID_C87F5454B60D062902_1918423848] click
+[2024.11.13-03.33.45:919][114]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.13-03.33.45:919][114]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TestingPlayer
+[2024.11.13-03.33.45:933][114]LogWorld: UWorld::CleanupWorld for TestingPlayer, bSessionEnded=true, bCleanupResources=true
+[2024.11.13-03.33.45:933][114]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.13-03.33.45:934][114]LogContentBundle: [TestingPlayer(Standalone)] Deleting container.
+[2024.11.13-03.33.45:938][114]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.13-03.33.45:945][114]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.13-03.33.45:971][114]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.11.13-03.33.45:976][114]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 38
+[2024.11.13-03.33.45:976][114]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=38
+[2024.11.13-03.33.45:978][114]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=38
+[2024.11.13-03.33.45:984][114]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.13-03.33.46:002][114]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2024.11.13-03.33.46:067][115]LogPlayLevel: Display: Destroying online subsystem :Context_65
+[2024.11.13-03.33.51:983][696]BlueprintLog: New page: Compile BP_Player
+[2024.11.13-03.33.52:075][696]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2024.11.13-03.33.52:173][696]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.13-03.33.52:251][696]LogSavePackage: Moving output files for package: /Game/Blueprints/Player/BP_Player
+[2024.11.13-03.33.52:252][696]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Saved/BP_Player669088844801F0B23C6A5BB6EC395898.tmp' to '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/Blueprints/Player/BP_Player.uasset'
+[2024.11.13-03.33.52:260][696]LogFileHelpers: InternalPromptForCheckoutAndSave took 88 ms (total: 7.72 sec)
+[2024.11.13-03.33.52:263][696]AssetCheck: New page: Asset Save: BP_Player
+[2024.11.13-03.33.52:263][696]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Player/BP_Player.BP_Player
+[2024.11.13-03.33.53:103][757]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.13-03.33.53:118][757]LogContentBundle: [TestingPlayer(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.11.13-03.33.53:118][757]LogWorldPartition: Display: GenerateStreaming for 'TestingPlayer' started...
+[2024.11.13-03.33.53:457][757]LogWorldPartition: Display: GenerateStreaming for 'TestingPlayer' took 338 ms (total: 17.6 sec)
+[2024.11.13-03.33.53:458][757]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.13-03.33.53:458][757]PIE: New page: PIE session: TestingPlayer (12 de nov de 2024 21:33:53)
+[2024.11.13-03.33.53:486][757]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TestingPlayer
+[2024.11.13-03.33.53:501][757]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013831s)
+[2024.11.13-03.33.53:501][757]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TestingPlayer.TestingPlayer to /Game/Levels/UEDPIE_0_TestingPlayer.TestingPlayer (0.013882s)
+[2024.11.13-03.33.53:521][757]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2024.11.13-03.33.53:525][757]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.13-03.33.53:525][757]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.13-03.33.53:526][757]LogAIModule: Creating AISystem for world TestingPlayer
+[2024.11.13-03.33.53:526][757]LogWorldPartition: ULevel::OnLevelLoaded(TestingPlayer)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.11.13-03.33.53:526][757]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.11.13-03.33.53:526][757]LogWorldPartition: UWorldPartition::Initialize : World = TestingPlayer, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.11.13-03.33.53:526][757]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.11.13-03.33.53:530][757]LogContentBundle: [TestingPlayer(Standalone)] Creating new contrainer.
+[2024.11.13-03.33.53:530][757]LogWorldPartition: Display: WorldPartition initialize took 3 ms (total: 1.54 sec)
+[2024.11.13-03.33.53:530][757]LogPlayLevel: PIE: World Init took: (0.004508s)
+[2024.11.13-03.33.53:530][757]LogAudio: Display: Creating Audio Device:                 Id: 39, Scope: Unique, Realtime: True
+[2024.11.13-03.33.53:530][757]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.13-03.33.53:530][757]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.13-03.33.53:530][757]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.13-03.33.53:530][757]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.13-03.33.53:530][757]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.13-03.33.53:530][757]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.13-03.33.53:530][757]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.13-03.33.53:530][757]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.13-03.33.53:530][757]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.13-03.33.53:530][757]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.13-03.33.53:530][757]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.13-03.33.53:532][757]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.13-03.33.53:567][757]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (2- USB Audio Device)
+[2024.11.13-03.33.53:569][757]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.13-03.33.53:569][757]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.13-03.33.53:569][757]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.13-03.33.53:569][757]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=39
+[2024.11.13-03.33.53:569][757]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=39
+[2024.11.13-03.33.53:571][757]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=39
+[2024.11.13-03.33.53:571][757]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=39
+[2024.11.13-03.33.53:571][757]LogInit: FAudioDevice initialized with ID 39.
+[2024.11.13-03.33.53:571][757]LogAudio: Display: Audio Device (ID: 39) registered with world 'TestingPlayer'.
+[2024.11.13-03.33.53:571][757]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 39
+[2024.11.13-03.33.53:574][757]LogLoad: Game class is 'MyGameGamemode_C'
+[2024.11.13-03.33.53:575][757]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TestingPlayer.TestingPlayer up for play (max tick rate 0) at 2024.11.13-00.33.53
+[2024.11.13-03.33.53:575][757]LogWorld: Bringing up level for play took: 0.000924
+[2024.11.13-03.33.53:578][757]LogOnline: OSS: Created online subsystem instance for: :Context_66
+[2024.11.13-03.33.53:579][757]LogWorldPartition: UWorldPartitionStreamingPolicy: CellsToActivate(41), CellsToLoad(0), CellsToUnload(0)
+[2024.11.13-03.33.53:579][757]LogWorldPartition: UWorldPartitionStreamingPolicy: Sources[0] = X=-11940.435 Y=-6681.237 Z=92.000,P=0.000000 Y=0.000000 R=-0.000000
+[2024.11.13-03.33.53:582][757]LogStreaming: Display: FlushAsyncLoading(): 95 QueuedPackages, 0 AsyncPackages
+[2024.11.13-03.33.53:849][757]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/F/2D/TPD315QEC9LXPJY0HQWR3U.StaticMesh_TestingPlayer_HLOD0_Instancing_7 being ready before playing
+[2024.11.13-03.33.53:849][757]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/F/2D/TPD315QEC9LXPJY0HQWR3U.StaticMesh_TestingPlayer_HLOD0_Instancing_6 being ready before playing
+[2024.11.13-03.33.53:849][757]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/F/2D/TPD315QEC9LXPJY0HQWR3U.StaticMesh_TestingPlayer_HLOD0_Instancing_5 being ready before playing
+[2024.11.13-03.33.53:849][757]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/F/2D/TPD315QEC9LXPJY0HQWR3U.StaticMesh_TestingPlayer_HLOD0_Instancing_4 being ready before playing
+[2024.11.13-03.33.53:849][757]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/E/Y9/F57K9DR4X7ZD8GYM3YE5ZB.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.33.53:849][757]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/E/W6/UQIQI82G8VBLVH5IK42IZI.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.13-03.33.53:849][757]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/E/W6/UQIQI82G8VBLVH5IK42IZI.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.13-03.33.53:849][757]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/E/GZ/K39BR99ITL6SHKPIE5N9D0.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.33.53:849][757]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/D/UQ/M9GFDLJOHRQEAOOFTYJL2B.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.33.53:849][757]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/D/JS/LO1H1JBH85WZC580YOXWQG.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.13-03.33.53:849][757]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/D/JS/LO1H1JBH85WZC580YOXWQG.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.13-03.33.53:849][757]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/D/92/8TZWL4G5TWHN468WA8CYJQ.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.33.53:849][757]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/D/47/8U0MNP9KBA48HBRLFBOJ6D.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.33.53:849][757]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/C/9O/3CV1NNXN2AQOVZR40S7YUV.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.33.53:849][757]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/B/WK/8GF8QJHVPV1BDIVE96T1VE.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.33.53:849][757]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/B/HH/NC46WDER05ONLAEN94QSKI.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.33.53:849][757]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/B/B5/Q25NBXKKC3EVMQMEZF4043.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.13-03.33.53:849][757]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/B/B5/Q25NBXKKC3EVMQMEZF4043.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.13-03.33.53:849][757]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/A/P8/JQZ3138SUGFFD1INBU2FF6.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.33.53:849][757]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/A/MK/5WWF4A9971XVQTUJJ54OVN.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.33.53:851][757]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/A/51/8KASR1MDVQZVTEAD5Q50XE.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.13-03.33.53:851][757]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/A/51/8KASR1MDVQZVTEAD5Q50XE.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.13-03.33.53:851][757]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/9/YR/D1Y24IBCIYAFR4E2HGN19U.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.33.53:851][757]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/9/H1/UCVL4RTDKB3RVTIRDQ6XK8.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.33.53:851][757]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/9/5F/6KLD6RO5WAJUIPVRFLS2UP.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.13-03.33.53:851][757]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/9/5F/6KLD6RO5WAJUIPVRFLS2UP.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.13-03.33.53:851][757]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/8/9E/ZFM0P0F7XGHJZIOMVV21OW.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.13-03.33.53:851][757]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/8/9E/ZFM0P0F7XGHJZIOMVV21OW.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.13-03.33.53:851][757]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/7/W3/DIP8TB64XZPEVIE8VG4KY8.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.33.53:851][757]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/7/RI/M3IDY963URF870M0LAMQFL.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.33.53:851][757]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/7/0V/1O5YVJ3X9BCZRE6R4JWQ7F.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.33.53:851][757]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/6/YI/66BSLDJUHJRAKCR5Y7ZMN2.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.33.53:851][757]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/6/I5/6QC9KRBGCC24BJTCC2OPGH.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.33.53:851][757]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/6/HY/ZHRLGHILC3YUWYEGQ58QBN.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.33.53:851][757]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/6/CA/E7KLWG5Y0QN7LOGU7EY3DY.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.13-03.33.53:851][757]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/6/CA/E7KLWG5Y0QN7LOGU7EY3DY.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.13-03.33.53:851][757]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/6/4D/QPAENHXXBJZWRBO10FSG3Y.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.33.53:851][757]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/5/5Z/56FMRS3TILQMIU67L3ZJRQ.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.33.53:851][757]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/4/VM/XMUCOP4QQ87XFW3SCDH2J9.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.33.53:851][757]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/4/UY/1JOK7WYZ183ZTS7Q9QS3K9.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.13-03.33.53:851][757]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/4/UY/1JOK7WYZ183ZTS7Q9QS3K9.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.13-03.33.53:851][757]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/4/P0/OFN259027Z4657HA1PY30O.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.13-03.33.53:851][757]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/4/P0/OFN259027Z4657HA1PY30O.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.13-03.33.53:851][757]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/4/I5/R54SNWEJXFQDMDM3EGY07P.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.33.53:851][757]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/4/G5/MK6FKUE4ODA9X5HFFCLTD5.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.33.53:851][757]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/4/DF/NBX7PNQ27BBMN5FSF9VLS1.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.33.53:851][757]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/3/ZR/LHHCUBHLPNC9KWBF9D56GR.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.33.53:851][757]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/3/O6/ST3CYF6FLK0VDJ8L5S26YN.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.33.53:851][757]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/3/LQ/W8GFJXGMZVT7LO48TUUF6T.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.13-03.33.53:851][757]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/3/LQ/W8GFJXGMZVT7LO48TUUF6T.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.13-03.33.53:851][757]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/3/D9/ZF021USLPWD2AB0YN38YTX.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.13-03.33.53:851][757]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/3/D9/ZF021USLPWD2AB0YN38YTX.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.13-03.33.53:851][757]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/3/5I/14RV2AUUAEM5OD1DKVX8D4.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.33.53:851][757]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/3/2H/J2BP7K9237AXOJ0LNHWME6.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.33.53:851][757]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/2/NL/0JODR7KT9FAZAT5FT3M1Q1.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.33.53:851][757]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/2/CN/1JDC7V2UGQ2YYPIY05M8H1.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.33.53:851][757]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/1/JR/HH979403EXFJRPZ5CZPKVP.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.13-03.33.53:851][757]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/1/JR/HH979403EXFJRPZ5CZPKVP.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.13-03.33.53:851][757]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/1/JC/LMRPQ7MLEIJKEMAA5SK3C6.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.33.53:851][757]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/1/I2/MDZARE0ATHANAENGC3A978.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.33.53:851][757]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/0/VX/QA62RGK872BLWMBLGSDQP7.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.33.53:851][757]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/0/LM/GLYCZ7H89WVIOXX5DJSGZB.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.33.53:851][757]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/0/DI/64UBU2QXHE89AL92JUOI6L.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.33.53:851][757]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/0/0I/D6R3RMOPB2SKP9RNX2E0HY.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.33.53:911][757]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.13-03.33.53:911][757]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.13-03.33.53:911][757]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.11.13-03.33.53:913][757]LogBlueprintUserMessages: [BP_CheckPointTest_C_UAID_3C2C30D06DF8F02A02_1706789087] Saved Player Data
+[2024.11.13-03.33.53:913][757]LogBlueprintUserMessages: [BP_Player_C_0] Current money is 15.97705
+[2024.11.13-03.33.53:917][757]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.11.13-03.33.53:917][757]PIE: Server logged in
+[2024.11.13-03.33.53:919][757]PIE: Play in editor total start time 0,8 seconds.
+[2024.11.13-03.33.54:074][758]LogShaderCompilers: Display: ================================================
+[2024.11.13-03.33.54:074][758]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.11.13-03.33.54:074][758]LogShaderCompilers: Display: Total job queries 311, among them cache hits 269 (86.50%)
+[2024.11.13-03.33.54:074][758]LogShaderCompilers: Display: Tracking 42 distinct input hashes that result in 22 distinct outputs (52.38%)
+[2024.11.13-03.33.54:074][758]LogShaderCompilers: Display: RAM used: 963,32 KiB of 819,20 MiB budget. Usage: 0.11%
+[2024.11.13-03.33.54:074][758]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.11.13-03.33.54:074][758]LogShaderCompilers: Display: Shaders Compiled: 2
+[2024.11.13-03.33.54:074][758]LogShaderCompilers: Display: Jobs assigned 2, completed 2 (100%)
+[2024.11.13-03.33.54:074][758]LogShaderCompilers: Display: Time job spent in pending queue: average 0.09 s, longest 0.09 s
+[2024.11.13-03.33.54:074][758]LogShaderCompilers: Display: Job execution time: average 0.43 s, max 0.43 s
+[2024.11.13-03.33.54:074][758]LogShaderCompilers: Display: Job life time (pending + execution): average 0.53 s, max 0.53
+[2024.11.13-03.33.54:074][758]LogShaderCompilers: Display: Shader code size: average 6,143 KiB, min 6,074 KiB, max 6,211 KiB
+[2024.11.13-03.33.54:074][758]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.53 s
+[2024.11.13-03.33.54:074][758]LogShaderCompilers: Display: Jobs were issued in 2 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.11.13-03.33.54:074][758]LogShaderCompilers: Display: Average processing rate: 3.80 jobs/sec
+[2024.11.13-03.33.54:075][758]LogShaderCompilers: Display: Total thread time: 0,167 s
+[2024.11.13-03.33.54:075][758]LogShaderCompilers: Display: Total thread preprocess time: 0,043 s
+[2024.11.13-03.33.54:075][758]LogShaderCompilers: Display: Percentage time preprocessing: 25.90%
+[2024.11.13-03.33.54:075][758]LogShaderCompilers: Display: Effective parallelization: 0.32 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.11.13-03.33.54:075][758]LogShaderCompilers: Display: Top 2 most expensive shader types by average time:
+[2024.11.13-03.33.54:075][758]LogShaderCompilers: Display:                                TSlateMaterialShaderPSDefault (compiled    1 times, average 0.13 sec, max 0.13 sec, min 0.13 sec)
+[2024.11.13-03.33.54:075][758]LogShaderCompilers: Display:                                  TSlateMaterialShaderVSfalse (compiled    1 times, average 0.04 sec, max 0.04 sec, min 0.04 sec)
+[2024.11.13-03.33.54:075][758]LogShaderCompilers: Display: Top 2 shader types by total compile time:
+[2024.11.13-03.33.54:075][758]LogShaderCompilers: Display:                                TSlateMaterialShaderPSDefault - 75.21% of total time (compiled    1 times, average 0.13 sec, max 0.13 sec, min 0.13 sec)
+[2024.11.13-03.33.54:075][758]LogShaderCompilers: Display:                                  TSlateMaterialShaderVSfalse - 24.79% of total time (compiled    1 times, average 0.04 sec, max 0.04 sec, min 0.04 sec)
+[2024.11.13-03.33.54:075][758]LogShaderCompilers: Display: ================================================
+[2024.11.13-03.33.59:698][335]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.13-03.33.59:698][335]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TestingPlayer
+[2024.11.13-03.33.59:713][335]LogWorld: UWorld::CleanupWorld for TestingPlayer, bSessionEnded=true, bCleanupResources=true
+[2024.11.13-03.33.59:713][335]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.13-03.33.59:713][335]LogContentBundle: [TestingPlayer(Standalone)] Deleting container.
+[2024.11.13-03.33.59:717][335]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.13-03.33.59:725][335]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.13-03.33.59:751][335]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.11.13-03.33.59:756][335]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 39
+[2024.11.13-03.33.59:757][335]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=39
+[2024.11.13-03.33.59:759][335]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=39
+[2024.11.13-03.33.59:763][335]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.13-03.33.59:783][335]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2024.11.13-03.33.59:849][336]LogPlayLevel: Display: Destroying online subsystem :Context_66
+[2024.11.13-03.34.00:576][409]LogScript: Warning: Accessed None trying to read property BP_DayCicleController
+	WB_HUD_C /Engine/Transient.World_3:WB_HUD_C_168
+	Function /Game/Widgets/HUD/WB_HUD.WB_HUD_C:ExecuteUbergraph_WB_HUD:066B
+[2024.11.13-03.34.00:576][409]LogScript: Warning: Accessed None trying to read property BP_DayCicleController
+	WB_HUD_C /Engine/Transient.World_3:WB_HUD_C_168
+	Function /Game/Widgets/HUD/WB_HUD.WB_HUD_C:ExecuteUbergraph_WB_HUD:0448
+[2024.11.13-03.34.06:004][959]BlueprintLog: New page: Compile BP_Player
+[2024.11.13-03.34.06:099][959]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2024.11.13-03.34.06:191][959]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.13-03.34.06:265][959]LogSavePackage: Moving output files for package: /Game/Blueprints/Player/BP_Player
+[2024.11.13-03.34.06:265][959]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Saved/BP_Player0BD1F3CF44B27123177D1693FFEF3B82.tmp' to '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/Blueprints/Player/BP_Player.uasset'
+[2024.11.13-03.34.06:274][959]LogFileHelpers: InternalPromptForCheckoutAndSave took 82 ms (total: 7.80 sec)
+[2024.11.13-03.34.06:276][959]AssetCheck: New page: Asset Save: BP_Player
+[2024.11.13-03.34.06:276][959]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Player/BP_Player.BP_Player
+[2024.11.13-03.34.07:464][ 59]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.13-03.34.07:479][ 59]LogContentBundle: [TestingPlayer(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.11.13-03.34.07:479][ 59]LogWorldPartition: Display: GenerateStreaming for 'TestingPlayer' started...
+[2024.11.13-03.34.07:786][ 59]LogWorldPartition: Display: GenerateStreaming for 'TestingPlayer' took 306 ms (total: 17.9 sec)
+[2024.11.13-03.34.07:786][ 59]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.13-03.34.07:786][ 59]PIE: New page: PIE session: TestingPlayer (12 de nov de 2024 21:34:07)
+[2024.11.13-03.34.07:807][ 59]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TestingPlayer
+[2024.11.13-03.34.07:822][ 59]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013678s)
+[2024.11.13-03.34.07:822][ 59]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TestingPlayer.TestingPlayer to /Game/Levels/UEDPIE_0_TestingPlayer.TestingPlayer (0.013722s)
+[2024.11.13-03.34.07:842][ 59]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2024.11.13-03.34.07:848][ 59]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.13-03.34.07:848][ 59]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.13-03.34.07:849][ 59]LogAIModule: Creating AISystem for world TestingPlayer
+[2024.11.13-03.34.07:849][ 59]LogWorldPartition: ULevel::OnLevelLoaded(TestingPlayer)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.11.13-03.34.07:849][ 59]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.11.13-03.34.07:849][ 59]LogWorldPartition: UWorldPartition::Initialize : World = TestingPlayer, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.11.13-03.34.07:849][ 59]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.11.13-03.34.07:852][ 59]LogContentBundle: [TestingPlayer(Standalone)] Creating new contrainer.
+[2024.11.13-03.34.07:853][ 59]LogWorldPartition: Display: WorldPartition initialize took 3 ms (total: 1.54 sec)
+[2024.11.13-03.34.07:853][ 59]LogPlayLevel: PIE: World Init took: (0.004564s)
+[2024.11.13-03.34.07:853][ 59]LogAudio: Display: Creating Audio Device:                 Id: 40, Scope: Unique, Realtime: True
+[2024.11.13-03.34.07:853][ 59]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.13-03.34.07:853][ 59]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.13-03.34.07:853][ 59]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.13-03.34.07:853][ 59]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.13-03.34.07:853][ 59]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.13-03.34.07:853][ 59]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.13-03.34.07:853][ 59]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.13-03.34.07:853][ 59]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.13-03.34.07:853][ 59]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.13-03.34.07:853][ 59]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.13-03.34.07:853][ 59]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.13-03.34.07:855][ 59]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.13-03.34.07:891][ 59]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (2- USB Audio Device)
+[2024.11.13-03.34.07:891][ 59]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.13-03.34.07:891][ 59]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.13-03.34.07:891][ 59]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.13-03.34.07:892][ 59]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=40
+[2024.11.13-03.34.07:892][ 59]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=40
+[2024.11.13-03.34.07:894][ 59]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=40
+[2024.11.13-03.34.07:894][ 59]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=40
+[2024.11.13-03.34.07:894][ 59]LogInit: FAudioDevice initialized with ID 40.
+[2024.11.13-03.34.07:894][ 59]LogAudio: Display: Audio Device (ID: 40) registered with world 'TestingPlayer'.
+[2024.11.13-03.34.07:894][ 59]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 40
+[2024.11.13-03.34.07:897][ 59]LogLoad: Game class is 'MyGameGamemode_C'
+[2024.11.13-03.34.07:899][ 59]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TestingPlayer.TestingPlayer up for play (max tick rate 0) at 2024.11.13-00.34.07
+[2024.11.13-03.34.07:899][ 59]LogWorld: Bringing up level for play took: 0.000927
+[2024.11.13-03.34.07:901][ 59]LogOnline: OSS: Created online subsystem instance for: :Context_67
+[2024.11.13-03.34.07:902][ 59]LogWorldPartition: UWorldPartitionStreamingPolicy: CellsToActivate(41), CellsToLoad(0), CellsToUnload(0)
+[2024.11.13-03.34.07:902][ 59]LogWorldPartition: UWorldPartitionStreamingPolicy: Sources[0] = X=-11940.435 Y=-6681.237 Z=92.000,P=0.000000 Y=0.000000 R=-0.000000
+[2024.11.13-03.34.07:905][ 59]LogStreaming: Display: FlushAsyncLoading(): 95 QueuedPackages, 0 AsyncPackages
+[2024.11.13-03.34.08:180][ 59]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/F/2D/TPD315QEC9LXPJY0HQWR3U.StaticMesh_TestingPlayer_HLOD0_Instancing_7 being ready before playing
+[2024.11.13-03.34.08:180][ 59]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/F/2D/TPD315QEC9LXPJY0HQWR3U.StaticMesh_TestingPlayer_HLOD0_Instancing_6 being ready before playing
+[2024.11.13-03.34.08:180][ 59]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/F/2D/TPD315QEC9LXPJY0HQWR3U.StaticMesh_TestingPlayer_HLOD0_Instancing_5 being ready before playing
+[2024.11.13-03.34.08:180][ 59]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/F/2D/TPD315QEC9LXPJY0HQWR3U.StaticMesh_TestingPlayer_HLOD0_Instancing_4 being ready before playing
+[2024.11.13-03.34.08:180][ 59]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/E/Y9/F57K9DR4X7ZD8GYM3YE5ZB.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.34.08:180][ 59]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/E/W6/UQIQI82G8VBLVH5IK42IZI.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.13-03.34.08:180][ 59]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/E/W6/UQIQI82G8VBLVH5IK42IZI.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.13-03.34.08:180][ 59]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/E/GZ/K39BR99ITL6SHKPIE5N9D0.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.34.08:180][ 59]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/D/UQ/M9GFDLJOHRQEAOOFTYJL2B.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.34.08:180][ 59]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/D/JS/LO1H1JBH85WZC580YOXWQG.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.13-03.34.08:180][ 59]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/D/JS/LO1H1JBH85WZC580YOXWQG.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.13-03.34.08:180][ 59]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/D/92/8TZWL4G5TWHN468WA8CYJQ.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.34.08:180][ 59]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/D/47/8U0MNP9KBA48HBRLFBOJ6D.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.34.08:180][ 59]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/C/9O/3CV1NNXN2AQOVZR40S7YUV.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.34.08:180][ 59]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/B/WK/8GF8QJHVPV1BDIVE96T1VE.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.34.08:180][ 59]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/B/HH/NC46WDER05ONLAEN94QSKI.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.34.08:180][ 59]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/B/B5/Q25NBXKKC3EVMQMEZF4043.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.13-03.34.08:180][ 59]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/B/B5/Q25NBXKKC3EVMQMEZF4043.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.13-03.34.08:180][ 59]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/A/P8/JQZ3138SUGFFD1INBU2FF6.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.34.08:180][ 59]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/A/MK/5WWF4A9971XVQTUJJ54OVN.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.34.08:180][ 59]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/A/51/8KASR1MDVQZVTEAD5Q50XE.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.13-03.34.08:180][ 59]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/A/51/8KASR1MDVQZVTEAD5Q50XE.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.13-03.34.08:180][ 59]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/9/YR/D1Y24IBCIYAFR4E2HGN19U.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.34.08:180][ 59]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/9/H1/UCVL4RTDKB3RVTIRDQ6XK8.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.34.08:180][ 59]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/9/5F/6KLD6RO5WAJUIPVRFLS2UP.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.13-03.34.08:180][ 59]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/9/5F/6KLD6RO5WAJUIPVRFLS2UP.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.13-03.34.08:180][ 59]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/8/9E/ZFM0P0F7XGHJZIOMVV21OW.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.13-03.34.08:180][ 59]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/8/9E/ZFM0P0F7XGHJZIOMVV21OW.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.13-03.34.08:180][ 59]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/7/W3/DIP8TB64XZPEVIE8VG4KY8.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.34.08:180][ 59]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/7/RI/M3IDY963URF870M0LAMQFL.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.34.08:180][ 59]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/7/0V/1O5YVJ3X9BCZRE6R4JWQ7F.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.34.08:180][ 59]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/6/YI/66BSLDJUHJRAKCR5Y7ZMN2.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.34.08:180][ 59]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/6/I5/6QC9KRBGCC24BJTCC2OPGH.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.34.08:180][ 59]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/6/HY/ZHRLGHILC3YUWYEGQ58QBN.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.34.08:180][ 59]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/6/CA/E7KLWG5Y0QN7LOGU7EY3DY.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.13-03.34.08:180][ 59]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/6/CA/E7KLWG5Y0QN7LOGU7EY3DY.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.13-03.34.08:180][ 59]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/6/4D/QPAENHXXBJZWRBO10FSG3Y.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.34.08:180][ 59]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/5/5Z/56FMRS3TILQMIU67L3ZJRQ.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.34.08:181][ 59]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/4/VM/XMUCOP4QQ87XFW3SCDH2J9.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.34.08:181][ 59]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/4/UY/1JOK7WYZ183ZTS7Q9QS3K9.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.13-03.34.08:181][ 59]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/4/UY/1JOK7WYZ183ZTS7Q9QS3K9.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.13-03.34.08:181][ 59]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/4/P0/OFN259027Z4657HA1PY30O.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.13-03.34.08:181][ 59]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/4/P0/OFN259027Z4657HA1PY30O.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.13-03.34.08:181][ 59]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/4/I5/R54SNWEJXFQDMDM3EGY07P.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.34.08:181][ 59]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/4/G5/MK6FKUE4ODA9X5HFFCLTD5.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.34.08:181][ 59]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/4/DF/NBX7PNQ27BBMN5FSF9VLS1.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.34.08:181][ 59]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/3/ZR/LHHCUBHLPNC9KWBF9D56GR.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.34.08:181][ 59]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/3/O6/ST3CYF6FLK0VDJ8L5S26YN.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.34.08:181][ 59]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/3/LQ/W8GFJXGMZVT7LO48TUUF6T.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.13-03.34.08:181][ 59]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/3/LQ/W8GFJXGMZVT7LO48TUUF6T.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.13-03.34.08:181][ 59]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/3/D9/ZF021USLPWD2AB0YN38YTX.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.13-03.34.08:181][ 59]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/3/D9/ZF021USLPWD2AB0YN38YTX.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.13-03.34.08:181][ 59]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/3/5I/14RV2AUUAEM5OD1DKVX8D4.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.34.08:181][ 59]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/3/2H/J2BP7K9237AXOJ0LNHWME6.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.34.08:181][ 59]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/2/NL/0JODR7KT9FAZAT5FT3M1Q1.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.34.08:181][ 59]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/2/CN/1JDC7V2UGQ2YYPIY05M8H1.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.34.08:181][ 59]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/1/JR/HH979403EXFJRPZ5CZPKVP.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.13-03.34.08:181][ 59]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/1/JR/HH979403EXFJRPZ5CZPKVP.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.13-03.34.08:181][ 59]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/1/JC/LMRPQ7MLEIJKEMAA5SK3C6.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.34.08:181][ 59]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/1/I2/MDZARE0ATHANAENGC3A978.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.34.08:181][ 59]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/0/VX/QA62RGK872BLWMBLGSDQP7.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.34.08:181][ 59]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/0/LM/GLYCZ7H89WVIOXX5DJSGZB.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.34.08:181][ 59]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/0/DI/64UBU2QXHE89AL92JUOI6L.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.34.08:181][ 59]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/0/0I/D6R3RMOPB2SKP9RNX2E0HY.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.34.08:239][ 59]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.13-03.34.08:239][ 59]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.13-03.34.08:239][ 59]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.11.13-03.34.08:241][ 59]LogBlueprintUserMessages: [BP_CheckPointTest_C_UAID_3C2C30D06DF8F02A02_1706789087] Saved Player Data
+[2024.11.13-03.34.08:241][ 59]LogBlueprintUserMessages: [BP_Player_C_0] Current money is 14.639119
+[2024.11.13-03.34.08:245][ 59]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.11.13-03.34.08:245][ 59]PIE: Server logged in
+[2024.11.13-03.34.08:246][ 59]PIE: Play in editor total start time 0,767 seconds.
+[2024.11.13-03.34.30:418][339]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.13-03.34.30:418][339]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TestingPlayer
+[2024.11.13-03.34.30:433][339]LogWorld: UWorld::CleanupWorld for TestingPlayer, bSessionEnded=true, bCleanupResources=true
+[2024.11.13-03.34.30:433][339]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.13-03.34.30:433][339]LogContentBundle: [TestingPlayer(Standalone)] Deleting container.
+[2024.11.13-03.34.30:437][339]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.13-03.34.30:444][339]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.13-03.34.30:468][339]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.11.13-03.34.30:474][339]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 40
+[2024.11.13-03.34.30:474][339]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=40
+[2024.11.13-03.34.30:476][339]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=40
+[2024.11.13-03.34.30:481][339]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.13-03.34.30:501][339]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2024.11.13-03.34.30:569][340]LogPlayLevel: Display: Destroying online subsystem :Context_67
+[2024.11.13-03.34.31:347][420]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.13-03.34.31:362][420]LogContentBundle: [TestingPlayer(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.11.13-03.34.31:362][420]LogWorldPartition: Display: GenerateStreaming for 'TestingPlayer' started...
+[2024.11.13-03.34.31:660][420]LogWorldPartition: Display: GenerateStreaming for 'TestingPlayer' took 298 ms (total: 18.2 sec)
+[2024.11.13-03.34.31:661][420]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.13-03.34.31:661][420]PIE: New page: PIE session: TestingPlayer (12 de nov de 2024 21:34:31)
+[2024.11.13-03.34.31:661][420]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TestingPlayer
+[2024.11.13-03.34.31:674][420]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013399s)
+[2024.11.13-03.34.31:674][420]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TestingPlayer.TestingPlayer to /Game/Levels/UEDPIE_0_TestingPlayer.TestingPlayer (0.013432s)
+[2024.11.13-03.34.31:691][420]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2024.11.13-03.34.31:695][420]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.13-03.34.31:695][420]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.13-03.34.31:695][420]LogAIModule: Creating AISystem for world TestingPlayer
+[2024.11.13-03.34.31:696][420]LogWorldPartition: ULevel::OnLevelLoaded(TestingPlayer)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.11.13-03.34.31:696][420]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.11.13-03.34.31:696][420]LogWorldPartition: UWorldPartition::Initialize : World = TestingPlayer, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.11.13-03.34.31:696][420]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.11.13-03.34.31:699][420]LogContentBundle: [TestingPlayer(Standalone)] Creating new contrainer.
+[2024.11.13-03.34.31:699][420]LogWorldPartition: Display: WorldPartition initialize took 3 ms (total: 1.55 sec)
+[2024.11.13-03.34.31:699][420]LogPlayLevel: PIE: World Init took: (0.004742s)
+[2024.11.13-03.34.31:699][420]LogAudio: Display: Creating Audio Device:                 Id: 41, Scope: Unique, Realtime: True
+[2024.11.13-03.34.31:699][420]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.13-03.34.31:699][420]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.13-03.34.31:699][420]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.13-03.34.31:699][420]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.13-03.34.31:699][420]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.13-03.34.31:699][420]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.13-03.34.31:699][420]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.13-03.34.31:699][420]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.13-03.34.31:700][420]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.13-03.34.31:700][420]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.13-03.34.31:700][420]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.13-03.34.31:702][420]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.13-03.34.31:738][420]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (2- USB Audio Device)
+[2024.11.13-03.34.31:739][420]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.13-03.34.31:739][420]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.13-03.34.31:739][420]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.13-03.34.31:739][420]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=41
+[2024.11.13-03.34.31:739][420]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=41
+[2024.11.13-03.34.31:742][420]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=41
+[2024.11.13-03.34.31:742][420]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=41
+[2024.11.13-03.34.31:742][420]LogInit: FAudioDevice initialized with ID 41.
+[2024.11.13-03.34.31:742][420]LogAudio: Display: Audio Device (ID: 41) registered with world 'TestingPlayer'.
+[2024.11.13-03.34.31:742][420]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 41
+[2024.11.13-03.34.31:745][420]LogLoad: Game class is 'MyGameGamemode_C'
+[2024.11.13-03.34.31:745][420]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TestingPlayer.TestingPlayer up for play (max tick rate 0) at 2024.11.13-00.34.31
+[2024.11.13-03.34.31:746][420]LogWorld: Bringing up level for play took: 0.000931
+[2024.11.13-03.34.31:748][420]LogOnline: OSS: Created online subsystem instance for: :Context_68
+[2024.11.13-03.34.31:748][420]LogWorldPartition: UWorldPartitionStreamingPolicy: CellsToActivate(41), CellsToLoad(0), CellsToUnload(0)
+[2024.11.13-03.34.31:748][420]LogWorldPartition: UWorldPartitionStreamingPolicy: Sources[0] = X=-11940.435 Y=-6681.237 Z=92.000,P=0.000000 Y=0.000000 R=-0.000000
+[2024.11.13-03.34.31:753][420]LogStreaming: Display: FlushAsyncLoading(): 95 QueuedPackages, 0 AsyncPackages
+[2024.11.13-03.34.32:021][420]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/F/2D/TPD315QEC9LXPJY0HQWR3U.StaticMesh_TestingPlayer_HLOD0_Instancing_7 being ready before playing
+[2024.11.13-03.34.32:021][420]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/F/2D/TPD315QEC9LXPJY0HQWR3U.StaticMesh_TestingPlayer_HLOD0_Instancing_6 being ready before playing
+[2024.11.13-03.34.32:021][420]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/F/2D/TPD315QEC9LXPJY0HQWR3U.StaticMesh_TestingPlayer_HLOD0_Instancing_5 being ready before playing
+[2024.11.13-03.34.32:021][420]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/F/2D/TPD315QEC9LXPJY0HQWR3U.StaticMesh_TestingPlayer_HLOD0_Instancing_4 being ready before playing
+[2024.11.13-03.34.32:021][420]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/E/Y9/F57K9DR4X7ZD8GYM3YE5ZB.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.34.32:021][420]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/E/W6/UQIQI82G8VBLVH5IK42IZI.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.13-03.34.32:021][420]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/E/W6/UQIQI82G8VBLVH5IK42IZI.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.13-03.34.32:021][420]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/E/GZ/K39BR99ITL6SHKPIE5N9D0.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.34.32:021][420]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/D/UQ/M9GFDLJOHRQEAOOFTYJL2B.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.34.32:021][420]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/D/JS/LO1H1JBH85WZC580YOXWQG.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.13-03.34.32:021][420]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/D/JS/LO1H1JBH85WZC580YOXWQG.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.13-03.34.32:021][420]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/D/92/8TZWL4G5TWHN468WA8CYJQ.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.34.32:021][420]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/D/47/8U0MNP9KBA48HBRLFBOJ6D.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.34.32:021][420]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/C/9O/3CV1NNXN2AQOVZR40S7YUV.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.34.32:021][420]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/B/WK/8GF8QJHVPV1BDIVE96T1VE.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.34.32:021][420]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/B/HH/NC46WDER05ONLAEN94QSKI.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.34.32:021][420]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/B/B5/Q25NBXKKC3EVMQMEZF4043.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.13-03.34.32:021][420]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/B/B5/Q25NBXKKC3EVMQMEZF4043.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.13-03.34.32:021][420]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/A/P8/JQZ3138SUGFFD1INBU2FF6.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.34.32:021][420]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/A/MK/5WWF4A9971XVQTUJJ54OVN.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.34.32:021][420]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/A/51/8KASR1MDVQZVTEAD5Q50XE.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.13-03.34.32:021][420]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/A/51/8KASR1MDVQZVTEAD5Q50XE.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.13-03.34.32:021][420]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/9/YR/D1Y24IBCIYAFR4E2HGN19U.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.34.32:021][420]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/9/H1/UCVL4RTDKB3RVTIRDQ6XK8.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.34.32:021][420]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/9/5F/6KLD6RO5WAJUIPVRFLS2UP.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.13-03.34.32:021][420]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/9/5F/6KLD6RO5WAJUIPVRFLS2UP.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.13-03.34.32:021][420]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/8/9E/ZFM0P0F7XGHJZIOMVV21OW.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.13-03.34.32:021][420]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/8/9E/ZFM0P0F7XGHJZIOMVV21OW.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.13-03.34.32:021][420]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/7/W3/DIP8TB64XZPEVIE8VG4KY8.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.34.32:021][420]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/7/RI/M3IDY963URF870M0LAMQFL.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.34.32:021][420]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/7/0V/1O5YVJ3X9BCZRE6R4JWQ7F.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.34.32:021][420]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/6/YI/66BSLDJUHJRAKCR5Y7ZMN2.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.34.32:021][420]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/6/I5/6QC9KRBGCC24BJTCC2OPGH.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.34.32:021][420]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/6/HY/ZHRLGHILC3YUWYEGQ58QBN.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.34.32:021][420]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/6/CA/E7KLWG5Y0QN7LOGU7EY3DY.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.13-03.34.32:021][420]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/6/CA/E7KLWG5Y0QN7LOGU7EY3DY.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.13-03.34.32:021][420]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/6/4D/QPAENHXXBJZWRBO10FSG3Y.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.34.32:021][420]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/5/5Z/56FMRS3TILQMIU67L3ZJRQ.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.34.32:021][420]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/4/VM/XMUCOP4QQ87XFW3SCDH2J9.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.34.32:021][420]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/4/UY/1JOK7WYZ183ZTS7Q9QS3K9.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.13-03.34.32:021][420]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/4/UY/1JOK7WYZ183ZTS7Q9QS3K9.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.13-03.34.32:021][420]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/4/P0/OFN259027Z4657HA1PY30O.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.13-03.34.32:021][420]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/4/P0/OFN259027Z4657HA1PY30O.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.13-03.34.32:021][420]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/4/I5/R54SNWEJXFQDMDM3EGY07P.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.34.32:021][420]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/4/G5/MK6FKUE4ODA9X5HFFCLTD5.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.34.32:021][420]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/4/DF/NBX7PNQ27BBMN5FSF9VLS1.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.34.32:021][420]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/3/ZR/LHHCUBHLPNC9KWBF9D56GR.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.34.32:021][420]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/3/O6/ST3CYF6FLK0VDJ8L5S26YN.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.34.32:021][420]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/3/LQ/W8GFJXGMZVT7LO48TUUF6T.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.13-03.34.32:021][420]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/3/LQ/W8GFJXGMZVT7LO48TUUF6T.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.13-03.34.32:021][420]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/3/D9/ZF021USLPWD2AB0YN38YTX.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.13-03.34.32:021][420]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/3/D9/ZF021USLPWD2AB0YN38YTX.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.13-03.34.32:021][420]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/3/5I/14RV2AUUAEM5OD1DKVX8D4.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.34.32:021][420]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/3/2H/J2BP7K9237AXOJ0LNHWME6.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.34.32:021][420]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/2/NL/0JODR7KT9FAZAT5FT3M1Q1.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.34.32:021][420]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/2/CN/1JDC7V2UGQ2YYPIY05M8H1.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.34.32:021][420]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/1/JR/HH979403EXFJRPZ5CZPKVP.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.13-03.34.32:021][420]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/1/JR/HH979403EXFJRPZ5CZPKVP.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.13-03.34.32:021][420]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/1/JC/LMRPQ7MLEIJKEMAA5SK3C6.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.34.32:021][420]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/1/I2/MDZARE0ATHANAENGC3A978.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.34.32:021][420]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/0/VX/QA62RGK872BLWMBLGSDQP7.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.34.32:021][420]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/0/LM/GLYCZ7H89WVIOXX5DJSGZB.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.34.32:021][420]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/0/DI/64UBU2QXHE89AL92JUOI6L.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.34.32:021][420]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/0/0I/D6R3RMOPB2SKP9RNX2E0HY.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.34.32:080][420]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.13-03.34.32:080][420]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.13-03.34.32:080][420]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.11.13-03.34.32:082][420]LogBlueprintUserMessages: [BP_CheckPointTest_C_UAID_3C2C30D06DF8F02A02_1706789087] Saved Player Data
+[2024.11.13-03.34.32:082][420]LogBlueprintUserMessages: [BP_Player_C_0] Current money is 8.539689
+[2024.11.13-03.34.32:086][420]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.11.13-03.34.32:086][420]PIE: Server logged in
+[2024.11.13-03.34.32:087][420]PIE: Play in editor total start time 0,725 seconds.
+[2024.11.13-03.34.49:318][166]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.13-03.34.49:318][166]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TestingPlayer
+[2024.11.13-03.34.49:333][166]LogWorld: UWorld::CleanupWorld for TestingPlayer, bSessionEnded=true, bCleanupResources=true
+[2024.11.13-03.34.49:333][166]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.13-03.34.49:333][166]LogContentBundle: [TestingPlayer(Standalone)] Deleting container.
+[2024.11.13-03.34.49:337][166]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.13-03.34.49:344][166]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.13-03.34.49:373][166]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.13-03.34.49:374][166]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 41
+[2024.11.13-03.34.49:374][166]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=41
+[2024.11.13-03.34.49:375][166]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=41
+[2024.11.13-03.34.49:403][166]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2024.11.13-03.34.49:468][167]LogPlayLevel: Display: Destroying online subsystem :Context_68
+[2024.11.13-03.34.50:254][245]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.13-03.34.50:268][245]LogContentBundle: [TestingPlayer(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.11.13-03.34.50:269][245]LogWorldPartition: Display: GenerateStreaming for 'TestingPlayer' started...
+[2024.11.13-03.34.50:574][245]LogWorldPartition: Display: GenerateStreaming for 'TestingPlayer' took 304 ms (total: 18.5 sec)
+[2024.11.13-03.34.50:574][245]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.13-03.34.50:574][245]PIE: New page: PIE session: TestingPlayer (12 de nov de 2024 21:34:50)
+[2024.11.13-03.34.50:597][245]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TestingPlayer
+[2024.11.13-03.34.50:611][245]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013509s)
+[2024.11.13-03.34.50:611][245]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TestingPlayer.TestingPlayer to /Game/Levels/UEDPIE_0_TestingPlayer.TestingPlayer (0.013554s)
+[2024.11.13-03.34.50:624][245]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2024.11.13-03.34.50:628][245]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.13-03.34.50:628][245]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.13-03.34.50:629][245]LogAIModule: Creating AISystem for world TestingPlayer
+[2024.11.13-03.34.50:629][245]LogWorldPartition: ULevel::OnLevelLoaded(TestingPlayer)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.11.13-03.34.50:629][245]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.11.13-03.34.50:629][245]LogWorldPartition: UWorldPartition::Initialize : World = TestingPlayer, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.11.13-03.34.50:629][245]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.11.13-03.34.50:633][245]LogContentBundle: [TestingPlayer(Standalone)] Creating new contrainer.
+[2024.11.13-03.34.50:633][245]LogWorldPartition: Display: WorldPartition initialize took 3 ms (total: 1.55 sec)
+[2024.11.13-03.34.50:633][245]LogPlayLevel: PIE: World Init took: (0.004613s)
+[2024.11.13-03.34.50:633][245]LogAudio: Display: Creating Audio Device:                 Id: 42, Scope: Unique, Realtime: True
+[2024.11.13-03.34.50:633][245]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.13-03.34.50:633][245]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.13-03.34.50:633][245]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.13-03.34.50:633][245]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.13-03.34.50:633][245]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.13-03.34.50:633][245]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.13-03.34.50:633][245]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.13-03.34.50:633][245]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.13-03.34.50:633][245]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.13-03.34.50:633][245]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.13-03.34.50:633][245]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.13-03.34.50:635][245]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.13-03.34.50:671][245]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (2- USB Audio Device)
+[2024.11.13-03.34.50:671][245]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.13-03.34.50:671][245]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.13-03.34.50:671][245]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.13-03.34.50:672][245]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=42
+[2024.11.13-03.34.50:672][245]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=42
+[2024.11.13-03.34.50:674][245]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=42
+[2024.11.13-03.34.50:674][245]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=42
+[2024.11.13-03.34.50:674][245]LogInit: FAudioDevice initialized with ID 42.
+[2024.11.13-03.34.50:674][245]LogAudio: Display: Audio Device (ID: 42) registered with world 'TestingPlayer'.
+[2024.11.13-03.34.50:674][245]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 42
+[2024.11.13-03.34.50:676][245]LogLoad: Game class is 'MyGameGamemode_C'
+[2024.11.13-03.34.50:677][245]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TestingPlayer.TestingPlayer up for play (max tick rate 0) at 2024.11.13-00.34.50
+[2024.11.13-03.34.50:678][245]LogWorld: Bringing up level for play took: 0.000990
+[2024.11.13-03.34.50:680][245]LogOnline: OSS: Created online subsystem instance for: :Context_69
+[2024.11.13-03.34.50:680][245]LogWorldPartition: UWorldPartitionStreamingPolicy: CellsToActivate(41), CellsToLoad(0), CellsToUnload(0)
+[2024.11.13-03.34.50:680][245]LogWorldPartition: UWorldPartitionStreamingPolicy: Sources[0] = X=-11940.435 Y=-6681.237 Z=92.000,P=0.000000 Y=0.000000 R=-0.000000
+[2024.11.13-03.34.50:685][245]LogStreaming: Display: FlushAsyncLoading(): 95 QueuedPackages, 0 AsyncPackages
+[2024.11.13-03.34.50:955][245]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/F/2D/TPD315QEC9LXPJY0HQWR3U.StaticMesh_TestingPlayer_HLOD0_Instancing_7 being ready before playing
+[2024.11.13-03.34.50:955][245]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/F/2D/TPD315QEC9LXPJY0HQWR3U.StaticMesh_TestingPlayer_HLOD0_Instancing_6 being ready before playing
+[2024.11.13-03.34.50:955][245]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/F/2D/TPD315QEC9LXPJY0HQWR3U.StaticMesh_TestingPlayer_HLOD0_Instancing_5 being ready before playing
+[2024.11.13-03.34.50:955][245]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/F/2D/TPD315QEC9LXPJY0HQWR3U.StaticMesh_TestingPlayer_HLOD0_Instancing_4 being ready before playing
+[2024.11.13-03.34.50:955][245]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/E/Y9/F57K9DR4X7ZD8GYM3YE5ZB.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.34.50:955][245]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/E/W6/UQIQI82G8VBLVH5IK42IZI.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.13-03.34.50:955][245]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/E/W6/UQIQI82G8VBLVH5IK42IZI.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.13-03.34.50:955][245]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/E/GZ/K39BR99ITL6SHKPIE5N9D0.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.34.50:955][245]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/D/UQ/M9GFDLJOHRQEAOOFTYJL2B.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.34.50:955][245]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/D/JS/LO1H1JBH85WZC580YOXWQG.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.13-03.34.50:955][245]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/D/JS/LO1H1JBH85WZC580YOXWQG.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.13-03.34.50:955][245]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/D/92/8TZWL4G5TWHN468WA8CYJQ.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.34.50:955][245]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/D/47/8U0MNP9KBA48HBRLFBOJ6D.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.34.50:955][245]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/C/9O/3CV1NNXN2AQOVZR40S7YUV.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.34.50:955][245]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/B/WK/8GF8QJHVPV1BDIVE96T1VE.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.34.50:955][245]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/B/HH/NC46WDER05ONLAEN94QSKI.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.34.50:955][245]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/B/B5/Q25NBXKKC3EVMQMEZF4043.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.13-03.34.50:955][245]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/B/B5/Q25NBXKKC3EVMQMEZF4043.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.13-03.34.50:955][245]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/A/P8/JQZ3138SUGFFD1INBU2FF6.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.34.50:955][245]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/A/MK/5WWF4A9971XVQTUJJ54OVN.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.34.50:955][245]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/A/51/8KASR1MDVQZVTEAD5Q50XE.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.13-03.34.50:955][245]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/A/51/8KASR1MDVQZVTEAD5Q50XE.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.13-03.34.50:955][245]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/9/YR/D1Y24IBCIYAFR4E2HGN19U.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.34.50:955][245]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/9/H1/UCVL4RTDKB3RVTIRDQ6XK8.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.34.50:955][245]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/9/5F/6KLD6RO5WAJUIPVRFLS2UP.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.13-03.34.50:955][245]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/9/5F/6KLD6RO5WAJUIPVRFLS2UP.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.13-03.34.50:955][245]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/8/9E/ZFM0P0F7XGHJZIOMVV21OW.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.13-03.34.50:955][245]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/8/9E/ZFM0P0F7XGHJZIOMVV21OW.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.13-03.34.50:955][245]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/7/W3/DIP8TB64XZPEVIE8VG4KY8.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.34.50:955][245]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/7/RI/M3IDY963URF870M0LAMQFL.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.34.50:955][245]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/7/0V/1O5YVJ3X9BCZRE6R4JWQ7F.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.34.50:955][245]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/6/YI/66BSLDJUHJRAKCR5Y7ZMN2.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.34.50:955][245]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/6/I5/6QC9KRBGCC24BJTCC2OPGH.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.34.50:955][245]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/6/HY/ZHRLGHILC3YUWYEGQ58QBN.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.34.50:955][245]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/6/CA/E7KLWG5Y0QN7LOGU7EY3DY.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.13-03.34.50:955][245]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/6/CA/E7KLWG5Y0QN7LOGU7EY3DY.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.13-03.34.50:955][245]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/6/4D/QPAENHXXBJZWRBO10FSG3Y.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.34.50:955][245]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/5/5Z/56FMRS3TILQMIU67L3ZJRQ.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.34.50:955][245]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/4/VM/XMUCOP4QQ87XFW3SCDH2J9.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.34.50:955][245]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/4/UY/1JOK7WYZ183ZTS7Q9QS3K9.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.13-03.34.50:955][245]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/4/UY/1JOK7WYZ183ZTS7Q9QS3K9.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.13-03.34.50:955][245]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/4/P0/OFN259027Z4657HA1PY30O.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.13-03.34.50:955][245]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/4/P0/OFN259027Z4657HA1PY30O.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.13-03.34.50:955][245]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/4/I5/R54SNWEJXFQDMDM3EGY07P.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.34.50:955][245]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/4/G5/MK6FKUE4ODA9X5HFFCLTD5.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.34.50:955][245]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/4/DF/NBX7PNQ27BBMN5FSF9VLS1.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.34.50:955][245]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/3/ZR/LHHCUBHLPNC9KWBF9D56GR.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.34.50:955][245]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/3/O6/ST3CYF6FLK0VDJ8L5S26YN.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.34.50:955][245]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/3/LQ/W8GFJXGMZVT7LO48TUUF6T.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.13-03.34.50:955][245]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/3/LQ/W8GFJXGMZVT7LO48TUUF6T.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.13-03.34.50:955][245]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/3/D9/ZF021USLPWD2AB0YN38YTX.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.13-03.34.50:955][245]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/3/D9/ZF021USLPWD2AB0YN38YTX.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.13-03.34.50:955][245]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/3/5I/14RV2AUUAEM5OD1DKVX8D4.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.34.50:955][245]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/3/2H/J2BP7K9237AXOJ0LNHWME6.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.34.50:955][245]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/2/NL/0JODR7KT9FAZAT5FT3M1Q1.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.34.50:955][245]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/2/CN/1JDC7V2UGQ2YYPIY05M8H1.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.34.50:955][245]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/1/JR/HH979403EXFJRPZ5CZPKVP.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.13-03.34.50:955][245]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/1/JR/HH979403EXFJRPZ5CZPKVP.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.13-03.34.50:955][245]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/1/JC/LMRPQ7MLEIJKEMAA5SK3C6.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.34.50:955][245]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/1/I2/MDZARE0ATHANAENGC3A978.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.34.50:955][245]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/0/VX/QA62RGK872BLWMBLGSDQP7.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.34.50:955][245]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/0/LM/GLYCZ7H89WVIOXX5DJSGZB.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.34.50:955][245]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/0/DI/64UBU2QXHE89AL92JUOI6L.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.34.50:955][245]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/0/0I/D6R3RMOPB2SKP9RNX2E0HY.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.34.51:017][245]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.13-03.34.51:017][245]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.13-03.34.51:017][245]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.11.13-03.34.51:019][245]LogBlueprintUserMessages: [BP_CheckPointTest_C_UAID_3C2C30D06DF8F02A02_1706789087] Saved Player Data
+[2024.11.13-03.34.51:019][245]LogBlueprintUserMessages: [BP_Player_C_0] Current money is 1.297037
+[2024.11.13-03.34.51:023][245]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.11.13-03.34.51:023][245]PIE: Server logged in
+[2024.11.13-03.34.51:025][245]PIE: Play in editor total start time 0,756 seconds.
+[2024.11.13-03.35.04:238][586]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.13-03.35.04:238][586]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TestingPlayer
+[2024.11.13-03.35.04:253][586]LogWorld: UWorld::CleanupWorld for TestingPlayer, bSessionEnded=true, bCleanupResources=true
+[2024.11.13-03.35.04:253][586]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.13-03.35.04:254][586]LogContentBundle: [TestingPlayer(Standalone)] Deleting container.
+[2024.11.13-03.35.04:257][586]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.13-03.35.04:264][586]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.13-03.35.04:294][586]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.13-03.35.04:294][586]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 42
+[2024.11.13-03.35.04:295][586]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=42
+[2024.11.13-03.35.04:297][586]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=42
+[2024.11.13-03.35.04:324][586]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2024.11.13-03.35.04:394][587]LogPlayLevel: Display: Destroying online subsystem :Context_69
+[2024.11.13-03.35.16:351][933]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.13-03.35.16:367][933]LogContentBundle: [TestingPlayer(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.11.13-03.35.16:367][933]LogWorldPartition: Display: GenerateStreaming for 'TestingPlayer' started...
+[2024.11.13-03.35.16:710][933]LogWorldPartition: Display: GenerateStreaming for 'TestingPlayer' took 343 ms (total: 18.8 sec)
+[2024.11.13-03.35.16:711][933]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.13-03.35.16:711][933]PIE: New page: PIE session: TestingPlayer (12 de nov de 2024 21:35:16)
+[2024.11.13-03.35.16:757][933]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TestingPlayer
+[2024.11.13-03.35.16:771][933]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013586s)
+[2024.11.13-03.35.16:771][933]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TestingPlayer.TestingPlayer to /Game/Levels/UEDPIE_0_TestingPlayer.TestingPlayer (0.013639s)
+[2024.11.13-03.35.16:787][933]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2024.11.13-03.35.16:791][933]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.13-03.35.16:791][933]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.13-03.35.16:791][933]LogAIModule: Creating AISystem for world TestingPlayer
+[2024.11.13-03.35.16:792][933]LogWorldPartition: ULevel::OnLevelLoaded(TestingPlayer)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.11.13-03.35.16:792][933]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.11.13-03.35.16:792][933]LogWorldPartition: UWorldPartition::Initialize : World = TestingPlayer, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.11.13-03.35.16:792][933]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.11.13-03.35.16:796][933]LogContentBundle: [TestingPlayer(Standalone)] Creating new contrainer.
+[2024.11.13-03.35.16:796][933]LogWorldPartition: Display: WorldPartition initialize took 3 ms (total: 1.55 sec)
+[2024.11.13-03.35.16:796][933]LogPlayLevel: PIE: World Init took: (0.004633s)
+[2024.11.13-03.35.16:796][933]LogAudio: Display: Creating Audio Device:                 Id: 43, Scope: Unique, Realtime: True
+[2024.11.13-03.35.16:796][933]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.13-03.35.16:796][933]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.13-03.35.16:796][933]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.13-03.35.16:796][933]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.13-03.35.16:796][933]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.13-03.35.16:796][933]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.13-03.35.16:796][933]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.13-03.35.16:796][933]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.13-03.35.16:796][933]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.13-03.35.16:796][933]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.13-03.35.16:796][933]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.13-03.35.16:798][933]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.13-03.35.16:834][933]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (2- USB Audio Device)
+[2024.11.13-03.35.16:834][933]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.13-03.35.16:834][933]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.13-03.35.16:834][933]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.13-03.35.16:835][933]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=43
+[2024.11.13-03.35.16:835][933]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=43
+[2024.11.13-03.35.16:836][933]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=43
+[2024.11.13-03.35.16:836][933]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=43
+[2024.11.13-03.35.16:836][933]LogInit: FAudioDevice initialized with ID 43.
+[2024.11.13-03.35.16:836][933]LogAudio: Display: Audio Device (ID: 43) registered with world 'TestingPlayer'.
+[2024.11.13-03.35.16:836][933]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 43
+[2024.11.13-03.35.16:840][933]LogLoad: Game class is 'MyGameGamemode_C'
+[2024.11.13-03.35.16:841][933]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TestingPlayer.TestingPlayer up for play (max tick rate 0) at 2024.11.13-00.35.16
+[2024.11.13-03.35.16:841][933]LogWorld: Bringing up level for play took: 0.000948
+[2024.11.13-03.35.16:843][933]LogOnline: OSS: Created online subsystem instance for: :Context_70
+[2024.11.13-03.35.16:844][933]LogWorldPartition: UWorldPartitionStreamingPolicy: CellsToActivate(41), CellsToLoad(0), CellsToUnload(0)
+[2024.11.13-03.35.16:844][933]LogWorldPartition: UWorldPartitionStreamingPolicy: Sources[0] = X=-11940.435 Y=-6681.237 Z=92.000,P=0.000000 Y=0.000000 R=-0.000000
+[2024.11.13-03.35.16:847][933]LogStreaming: Display: FlushAsyncLoading(): 95 QueuedPackages, 0 AsyncPackages
+[2024.11.13-03.35.17:124][933]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/F/2D/TPD315QEC9LXPJY0HQWR3U.StaticMesh_TestingPlayer_HLOD0_Instancing_7 being ready before playing
+[2024.11.13-03.35.17:124][933]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/F/2D/TPD315QEC9LXPJY0HQWR3U.StaticMesh_TestingPlayer_HLOD0_Instancing_6 being ready before playing
+[2024.11.13-03.35.17:124][933]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/F/2D/TPD315QEC9LXPJY0HQWR3U.StaticMesh_TestingPlayer_HLOD0_Instancing_5 being ready before playing
+[2024.11.13-03.35.17:124][933]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/F/2D/TPD315QEC9LXPJY0HQWR3U.StaticMesh_TestingPlayer_HLOD0_Instancing_4 being ready before playing
+[2024.11.13-03.35.17:124][933]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/E/Y9/F57K9DR4X7ZD8GYM3YE5ZB.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.35.17:124][933]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/E/W6/UQIQI82G8VBLVH5IK42IZI.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.13-03.35.17:124][933]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/E/W6/UQIQI82G8VBLVH5IK42IZI.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.13-03.35.17:124][933]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/E/GZ/K39BR99ITL6SHKPIE5N9D0.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.35.17:124][933]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/D/UQ/M9GFDLJOHRQEAOOFTYJL2B.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.35.17:124][933]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/D/JS/LO1H1JBH85WZC580YOXWQG.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.13-03.35.17:124][933]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/D/JS/LO1H1JBH85WZC580YOXWQG.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.13-03.35.17:124][933]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/D/92/8TZWL4G5TWHN468WA8CYJQ.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.35.17:124][933]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/D/47/8U0MNP9KBA48HBRLFBOJ6D.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.35.17:124][933]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/C/9O/3CV1NNXN2AQOVZR40S7YUV.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.35.17:124][933]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/B/WK/8GF8QJHVPV1BDIVE96T1VE.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.35.17:124][933]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/B/HH/NC46WDER05ONLAEN94QSKI.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.35.17:124][933]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/B/B5/Q25NBXKKC3EVMQMEZF4043.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.13-03.35.17:124][933]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/B/B5/Q25NBXKKC3EVMQMEZF4043.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.13-03.35.17:124][933]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/A/P8/JQZ3138SUGFFD1INBU2FF6.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.35.17:124][933]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/A/MK/5WWF4A9971XVQTUJJ54OVN.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.35.17:124][933]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/A/51/8KASR1MDVQZVTEAD5Q50XE.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.13-03.35.17:124][933]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/A/51/8KASR1MDVQZVTEAD5Q50XE.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.13-03.35.17:124][933]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/9/YR/D1Y24IBCIYAFR4E2HGN19U.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.35.17:124][933]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/9/H1/UCVL4RTDKB3RVTIRDQ6XK8.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.35.17:124][933]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/9/5F/6KLD6RO5WAJUIPVRFLS2UP.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.13-03.35.17:124][933]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/9/5F/6KLD6RO5WAJUIPVRFLS2UP.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.13-03.35.17:124][933]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/8/9E/ZFM0P0F7XGHJZIOMVV21OW.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.13-03.35.17:124][933]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/8/9E/ZFM0P0F7XGHJZIOMVV21OW.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.13-03.35.17:124][933]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/7/W3/DIP8TB64XZPEVIE8VG4KY8.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.35.17:124][933]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/7/RI/M3IDY963URF870M0LAMQFL.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.35.17:124][933]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/7/0V/1O5YVJ3X9BCZRE6R4JWQ7F.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.35.17:124][933]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/6/YI/66BSLDJUHJRAKCR5Y7ZMN2.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.35.17:124][933]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/6/I5/6QC9KRBGCC24BJTCC2OPGH.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.35.17:124][933]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/6/HY/ZHRLGHILC3YUWYEGQ58QBN.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.35.17:124][933]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/6/CA/E7KLWG5Y0QN7LOGU7EY3DY.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.13-03.35.17:124][933]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/6/CA/E7KLWG5Y0QN7LOGU7EY3DY.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.13-03.35.17:124][933]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/6/4D/QPAENHXXBJZWRBO10FSG3Y.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.35.17:124][933]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/5/5Z/56FMRS3TILQMIU67L3ZJRQ.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.35.17:124][933]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/4/VM/XMUCOP4QQ87XFW3SCDH2J9.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.35.17:124][933]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/4/UY/1JOK7WYZ183ZTS7Q9QS3K9.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.13-03.35.17:124][933]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/4/UY/1JOK7WYZ183ZTS7Q9QS3K9.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.13-03.35.17:124][933]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/4/P0/OFN259027Z4657HA1PY30O.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.13-03.35.17:124][933]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/4/P0/OFN259027Z4657HA1PY30O.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.13-03.35.17:124][933]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/4/I5/R54SNWEJXFQDMDM3EGY07P.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.35.17:124][933]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/4/G5/MK6FKUE4ODA9X5HFFCLTD5.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.35.17:124][933]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/4/DF/NBX7PNQ27BBMN5FSF9VLS1.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.35.17:124][933]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/3/ZR/LHHCUBHLPNC9KWBF9D56GR.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.35.17:124][933]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/3/O6/ST3CYF6FLK0VDJ8L5S26YN.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.35.17:125][933]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/3/LQ/W8GFJXGMZVT7LO48TUUF6T.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.13-03.35.17:125][933]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/3/LQ/W8GFJXGMZVT7LO48TUUF6T.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.13-03.35.17:125][933]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/3/D9/ZF021USLPWD2AB0YN38YTX.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.13-03.35.17:125][933]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/3/D9/ZF021USLPWD2AB0YN38YTX.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.13-03.35.17:125][933]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/3/5I/14RV2AUUAEM5OD1DKVX8D4.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.35.17:125][933]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/3/2H/J2BP7K9237AXOJ0LNHWME6.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.35.17:125][933]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/2/NL/0JODR7KT9FAZAT5FT3M1Q1.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.35.17:125][933]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/2/CN/1JDC7V2UGQ2YYPIY05M8H1.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.35.17:125][933]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/1/JR/HH979403EXFJRPZ5CZPKVP.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.13-03.35.17:125][933]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/1/JR/HH979403EXFJRPZ5CZPKVP.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.13-03.35.17:125][933]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/1/JC/LMRPQ7MLEIJKEMAA5SK3C6.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.35.17:125][933]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/1/I2/MDZARE0ATHANAENGC3A978.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.35.17:125][933]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/0/VX/QA62RGK872BLWMBLGSDQP7.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.35.17:125][933]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/0/LM/GLYCZ7H89WVIOXX5DJSGZB.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.35.17:125][933]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/0/DI/64UBU2QXHE89AL92JUOI6L.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.35.17:125][933]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/0/0I/D6R3RMOPB2SKP9RNX2E0HY.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.35.17:192][933]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.13-03.35.17:192][933]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.13-03.35.17:192][933]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.11.13-03.35.17:194][933]LogBlueprintUserMessages: [BP_CheckPointTest_C_UAID_3C2C30D06DF8F02A02_1706789087] Saved Player Data
+[2024.11.13-03.35.17:194][933]LogBlueprintUserMessages: [BP_Player_C_0] Current money is 10.98056
+[2024.11.13-03.35.17:199][933]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.11.13-03.35.17:199][933]PIE: Server logged in
+[2024.11.13-03.35.17:200][933]PIE: Play in editor total start time 0,833 seconds.
+[2024.11.13-03.35.43:948][735]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.13-03.35.43:948][735]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TestingPlayer
+[2024.11.13-03.35.43:963][735]LogWorld: UWorld::CleanupWorld for TestingPlayer, bSessionEnded=true, bCleanupResources=true
+[2024.11.13-03.35.43:963][735]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.13-03.35.43:963][735]LogContentBundle: [TestingPlayer(Standalone)] Deleting container.
+[2024.11.13-03.35.43:968][735]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.13-03.35.43:975][735]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.13-03.35.44:005][735]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.13-03.35.44:005][735]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 43
+[2024.11.13-03.35.44:005][735]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=43
+[2024.11.13-03.35.44:008][735]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=43
+[2024.11.13-03.35.44:038][735]LogUObjectHash: Compacting FUObjectHashTables data took   2.10ms
+[2024.11.13-03.35.44:106][736]LogPlayLevel: Display: Destroying online subsystem :Context_70
+[2024.11.13-03.35.45:091][828]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.13-03.35.45:108][828]LogContentBundle: [TestingPlayer(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.11.13-03.35.45:108][828]LogWorldPartition: Display: GenerateStreaming for 'TestingPlayer' started...
+[2024.11.13-03.35.45:422][828]LogWorldPartition: Display: GenerateStreaming for 'TestingPlayer' took 314 ms (total: 19.2 sec)
+[2024.11.13-03.35.45:423][828]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.13-03.35.45:423][828]PIE: New page: PIE session: TestingPlayer (12 de nov de 2024 21:35:45)
+[2024.11.13-03.35.45:447][828]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TestingPlayer
+[2024.11.13-03.35.45:460][828]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013340s)
+[2024.11.13-03.35.45:460][828]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TestingPlayer.TestingPlayer to /Game/Levels/UEDPIE_0_TestingPlayer.TestingPlayer (0.013386s)
+[2024.11.13-03.35.45:477][828]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2024.11.13-03.35.45:481][828]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.13-03.35.45:481][828]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.13-03.35.45:482][828]LogAIModule: Creating AISystem for world TestingPlayer
+[2024.11.13-03.35.45:482][828]LogWorldPartition: ULevel::OnLevelLoaded(TestingPlayer)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.11.13-03.35.45:482][828]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.11.13-03.35.45:482][828]LogWorldPartition: UWorldPartition::Initialize : World = TestingPlayer, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.11.13-03.35.45:482][828]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.11.13-03.35.45:486][828]LogContentBundle: [TestingPlayer(Standalone)] Creating new contrainer.
+[2024.11.13-03.35.45:486][828]LogWorldPartition: Display: WorldPartition initialize took 3 ms (total: 1.56 sec)
+[2024.11.13-03.35.45:486][828]LogPlayLevel: PIE: World Init took: (0.004531s)
+[2024.11.13-03.35.45:486][828]LogAudio: Display: Creating Audio Device:                 Id: 44, Scope: Unique, Realtime: True
+[2024.11.13-03.35.45:486][828]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.13-03.35.45:486][828]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.13-03.35.45:486][828]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.13-03.35.45:486][828]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.13-03.35.45:486][828]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.13-03.35.45:486][828]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.13-03.35.45:486][828]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.13-03.35.45:486][828]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.13-03.35.45:486][828]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.13-03.35.45:486][828]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.13-03.35.45:486][828]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.13-03.35.45:488][828]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.13-03.35.45:525][828]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (2- USB Audio Device)
+[2024.11.13-03.35.45:527][828]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.13-03.35.45:527][828]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.13-03.35.45:527][828]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.13-03.35.45:528][828]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=44
+[2024.11.13-03.35.45:528][828]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=44
+[2024.11.13-03.35.45:529][828]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=44
+[2024.11.13-03.35.45:529][828]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=44
+[2024.11.13-03.35.45:529][828]LogInit: FAudioDevice initialized with ID 44.
+[2024.11.13-03.35.45:529][828]LogAudio: Display: Audio Device (ID: 44) registered with world 'TestingPlayer'.
+[2024.11.13-03.35.45:529][828]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 44
+[2024.11.13-03.35.45:532][828]LogLoad: Game class is 'MyGameGamemode_C'
+[2024.11.13-03.35.45:534][828]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TestingPlayer.TestingPlayer up for play (max tick rate 0) at 2024.11.13-00.35.45
+[2024.11.13-03.35.45:534][828]LogWorld: Bringing up level for play took: 0.000943
+[2024.11.13-03.35.45:536][828]LogOnline: OSS: Created online subsystem instance for: :Context_71
+[2024.11.13-03.35.45:536][828]LogWorldPartition: UWorldPartitionStreamingPolicy: CellsToActivate(41), CellsToLoad(0), CellsToUnload(0)
+[2024.11.13-03.35.45:536][828]LogWorldPartition: UWorldPartitionStreamingPolicy: Sources[0] = X=-11940.435 Y=-6681.237 Z=92.000,P=0.000000 Y=0.000000 R=-0.000000
+[2024.11.13-03.35.45:540][828]LogStreaming: Display: FlushAsyncLoading(): 95 QueuedPackages, 0 AsyncPackages
+[2024.11.13-03.35.45:808][828]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/F/2D/TPD315QEC9LXPJY0HQWR3U.StaticMesh_TestingPlayer_HLOD0_Instancing_7 being ready before playing
+[2024.11.13-03.35.45:808][828]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/F/2D/TPD315QEC9LXPJY0HQWR3U.StaticMesh_TestingPlayer_HLOD0_Instancing_6 being ready before playing
+[2024.11.13-03.35.45:808][828]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/F/2D/TPD315QEC9LXPJY0HQWR3U.StaticMesh_TestingPlayer_HLOD0_Instancing_5 being ready before playing
+[2024.11.13-03.35.45:808][828]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/F/2D/TPD315QEC9LXPJY0HQWR3U.StaticMesh_TestingPlayer_HLOD0_Instancing_4 being ready before playing
+[2024.11.13-03.35.45:808][828]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/E/Y9/F57K9DR4X7ZD8GYM3YE5ZB.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.35.45:808][828]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/E/W6/UQIQI82G8VBLVH5IK42IZI.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.13-03.35.45:808][828]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/E/W6/UQIQI82G8VBLVH5IK42IZI.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.13-03.35.45:808][828]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/E/GZ/K39BR99ITL6SHKPIE5N9D0.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.35.45:808][828]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/D/UQ/M9GFDLJOHRQEAOOFTYJL2B.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.35.45:808][828]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/D/JS/LO1H1JBH85WZC580YOXWQG.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.13-03.35.45:808][828]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/D/JS/LO1H1JBH85WZC580YOXWQG.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.13-03.35.45:808][828]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/D/92/8TZWL4G5TWHN468WA8CYJQ.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.35.45:808][828]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/D/47/8U0MNP9KBA48HBRLFBOJ6D.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.35.45:808][828]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/C/9O/3CV1NNXN2AQOVZR40S7YUV.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.35.45:808][828]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/B/WK/8GF8QJHVPV1BDIVE96T1VE.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.35.45:808][828]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/B/HH/NC46WDER05ONLAEN94QSKI.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.35.45:808][828]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/B/B5/Q25NBXKKC3EVMQMEZF4043.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.13-03.35.45:808][828]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/B/B5/Q25NBXKKC3EVMQMEZF4043.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.13-03.35.45:808][828]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/A/P8/JQZ3138SUGFFD1INBU2FF6.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.35.45:808][828]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/A/MK/5WWF4A9971XVQTUJJ54OVN.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.35.45:808][828]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/A/51/8KASR1MDVQZVTEAD5Q50XE.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.13-03.35.45:808][828]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/A/51/8KASR1MDVQZVTEAD5Q50XE.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.13-03.35.45:808][828]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/9/YR/D1Y24IBCIYAFR4E2HGN19U.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.35.45:808][828]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/9/H1/UCVL4RTDKB3RVTIRDQ6XK8.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.35.45:808][828]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/9/5F/6KLD6RO5WAJUIPVRFLS2UP.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.13-03.35.45:808][828]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/9/5F/6KLD6RO5WAJUIPVRFLS2UP.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.13-03.35.45:808][828]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/8/9E/ZFM0P0F7XGHJZIOMVV21OW.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.13-03.35.45:808][828]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/8/9E/ZFM0P0F7XGHJZIOMVV21OW.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.13-03.35.45:808][828]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/7/W3/DIP8TB64XZPEVIE8VG4KY8.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.35.45:808][828]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/7/RI/M3IDY963URF870M0LAMQFL.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.35.45:808][828]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/7/0V/1O5YVJ3X9BCZRE6R4JWQ7F.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.35.45:808][828]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/6/YI/66BSLDJUHJRAKCR5Y7ZMN2.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.35.45:808][828]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/6/I5/6QC9KRBGCC24BJTCC2OPGH.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.35.45:808][828]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/6/HY/ZHRLGHILC3YUWYEGQ58QBN.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.35.45:808][828]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/6/CA/E7KLWG5Y0QN7LOGU7EY3DY.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.13-03.35.45:808][828]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/6/CA/E7KLWG5Y0QN7LOGU7EY3DY.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.13-03.35.45:808][828]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/6/4D/QPAENHXXBJZWRBO10FSG3Y.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.35.45:808][828]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/5/5Z/56FMRS3TILQMIU67L3ZJRQ.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.35.45:808][828]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/4/VM/XMUCOP4QQ87XFW3SCDH2J9.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.35.45:808][828]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/4/UY/1JOK7WYZ183ZTS7Q9QS3K9.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.13-03.35.45:808][828]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/4/UY/1JOK7WYZ183ZTS7Q9QS3K9.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.13-03.35.45:808][828]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/4/P0/OFN259027Z4657HA1PY30O.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.13-03.35.45:808][828]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/4/P0/OFN259027Z4657HA1PY30O.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.13-03.35.45:808][828]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/4/I5/R54SNWEJXFQDMDM3EGY07P.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.35.45:808][828]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/4/G5/MK6FKUE4ODA9X5HFFCLTD5.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.35.45:808][828]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/4/DF/NBX7PNQ27BBMN5FSF9VLS1.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.35.45:808][828]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/3/ZR/LHHCUBHLPNC9KWBF9D56GR.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.35.45:808][828]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/3/O6/ST3CYF6FLK0VDJ8L5S26YN.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.35.45:808][828]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/3/LQ/W8GFJXGMZVT7LO48TUUF6T.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.13-03.35.45:808][828]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/3/LQ/W8GFJXGMZVT7LO48TUUF6T.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.13-03.35.45:808][828]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/3/D9/ZF021USLPWD2AB0YN38YTX.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.13-03.35.45:808][828]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/3/D9/ZF021USLPWD2AB0YN38YTX.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.13-03.35.45:808][828]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/3/5I/14RV2AUUAEM5OD1DKVX8D4.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.35.45:808][828]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/3/2H/J2BP7K9237AXOJ0LNHWME6.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.35.45:808][828]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/2/NL/0JODR7KT9FAZAT5FT3M1Q1.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.35.45:808][828]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/2/CN/1JDC7V2UGQ2YYPIY05M8H1.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.35.45:808][828]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/1/JR/HH979403EXFJRPZ5CZPKVP.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.13-03.35.45:808][828]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/1/JR/HH979403EXFJRPZ5CZPKVP.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.13-03.35.45:808][828]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/1/JC/LMRPQ7MLEIJKEMAA5SK3C6.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.35.45:808][828]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/1/I2/MDZARE0ATHANAENGC3A978.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.35.45:808][828]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/0/VX/QA62RGK872BLWMBLGSDQP7.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.35.45:808][828]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/0/LM/GLYCZ7H89WVIOXX5DJSGZB.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.35.45:808][828]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/0/DI/64UBU2QXHE89AL92JUOI6L.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.35.45:808][828]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/0/0I/D6R3RMOPB2SKP9RNX2E0HY.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-03.35.45:866][828]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.13-03.35.45:866][828]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.13-03.35.45:866][828]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.11.13-03.35.45:868][828]LogBlueprintUserMessages: [BP_CheckPointTest_C_UAID_3C2C30D06DF8F02A02_1706789087] Saved Player Data
+[2024.11.13-03.35.45:868][828]LogBlueprintUserMessages: [BP_Player_C_0] Current money is 12.887356
+[2024.11.13-03.35.45:872][828]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.11.13-03.35.45:872][828]PIE: Server logged in
+[2024.11.13-03.35.45:873][828]PIE: Play in editor total start time 0,766 seconds.
+[2024.11.13-03.35.50:138][224]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.13-03.35.50:138][224]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TestingPlayer
+[2024.11.13-03.35.50:154][224]LogWorld: UWorld::CleanupWorld for TestingPlayer, bSessionEnded=true, bCleanupResources=true
+[2024.11.13-03.35.50:154][224]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.13-03.35.50:156][224]LogContentBundle: [TestingPlayer(Standalone)] Deleting container.
+[2024.11.13-03.35.50:160][224]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.13-03.35.50:168][224]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.13-03.35.50:200][224]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.13-03.35.50:200][224]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 44
+[2024.11.13-03.35.50:200][224]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=44
+[2024.11.13-03.35.50:202][224]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=44
+[2024.11.13-03.35.50:229][224]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2024.11.13-03.35.50:288][225]LogPlayLevel: Display: Destroying online subsystem :Context_71
+[2024.11.13-03.35.52:366][427]LogEditorTransaction: Undo Change Number Pin Value
+[2024.11.13-03.35.52:704][428]LogEditorTransaction: Undo Change Number Pin Value
+[2024.11.13-03.35.53:049][429]LogEditorTransaction: Undo Move Node
+[2024.11.13-03.35.53:827][476]LogEditorTransaction: Undo Create Pin Link
+[2024.11.13-03.35.54:424][503]LogEditorTransaction: Undo Create Pin Link
+[2024.11.13-03.35.54:970][527]LogEditorTransaction: Undo Move Node
+[2024.11.13-03.35.55:374][536]LogEditorTransaction: Undo Add Node
+[2024.11.13-03.35.55:795][547]LogEditorTransaction: Undo Move Node
+[2024.11.13-03.35.56:390][576]LogEditorTransaction: Undo Change Number Pin Value
+[2024.11.13-03.35.57:027][611]LogEditorTransaction: Undo Change Number Pin Value
+[2024.11.13-03.35.57:685][634]LogEditorTransaction: Undo Move Node
+[2024.11.13-03.35.58:304][668]LogEditorTransaction: Undo Move Node
+[2024.11.13-03.35.59:101][722]LogEditorTransaction: Undo Add Node
+[2024.11.13-03.36.01:331][933]LogEditorTransaction: Undo Move Node
+[2024.11.13-03.36.06:800][412]BlueprintLog: New page: Compile BP_Player
+[2024.11.13-03.36.06:905][412]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2024.11.13-03.36.06:998][412]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.13-03.36.07:076][412]LogSavePackage: Moving output files for package: /Game/Blueprints/Player/BP_Player
+[2024.11.13-03.36.07:076][412]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Saved/BP_Player9EB655D94ADF601F89FDF6B48892659D.tmp' to '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/Blueprints/Player/BP_Player.uasset'
+[2024.11.13-03.36.07:085][412]LogFileHelpers: InternalPromptForCheckoutAndSave took 87 ms (total: 7.89 sec)
+[2024.11.13-03.36.07:088][412]AssetCheck: New page: Asset Save: BP_Player
+[2024.11.13-03.36.07:088][412]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Player/BP_Player.BP_Player
