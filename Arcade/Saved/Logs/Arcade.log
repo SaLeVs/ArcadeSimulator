@@ -5698,3 +5698,357 @@ Script Stack (0 frames) :
 [2024.11.13-02.48.30:891][515]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2024.11.13-02.48.30:913][515]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
 [2024.11.13-02.48.31:013][516]LogPlayLevel: Display: Destroying online subsystem :Context_48
+[2024.11.13-02.49.24:284][107]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.13-02.49.24:300][107]LogContentBundle: [TestingPlayer(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.11.13-02.49.24:300][107]LogWorldPartition: Display: GenerateStreaming for 'TestingPlayer' started...
+[2024.11.13-02.49.24:689][107]LogWorldPartition: Display: GenerateStreaming for 'TestingPlayer' took 388 ms (total: 12.5 sec)
+[2024.11.13-02.49.24:689][107]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.13-02.49.24:689][107]PIE: New page: PIE session: TestingPlayer (12 de nov de 2024 20:49:24)
+[2024.11.13-02.49.24:691][107]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TestingPlayer
+[2024.11.13-02.49.24:706][107]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016008s)
+[2024.11.13-02.49.24:706][107]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TestingPlayer.TestingPlayer to /Game/Levels/UEDPIE_0_TestingPlayer.TestingPlayer (0.016055s)
+[2024.11.13-02.49.24:724][107]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2024.11.13-02.49.24:729][107]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.13-02.49.24:729][107]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.13-02.49.24:729][107]LogAIModule: Creating AISystem for world TestingPlayer
+[2024.11.13-02.49.24:730][107]LogWorldPartition: ULevel::OnLevelLoaded(TestingPlayer)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.11.13-02.49.24:730][107]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.11.13-02.49.24:730][107]LogWorldPartition: UWorldPartition::Initialize : World = TestingPlayer, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.11.13-02.49.24:730][107]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.11.13-02.49.24:734][107]LogContentBundle: [TestingPlayer(Standalone)] Creating new contrainer.
+[2024.11.13-02.49.24:734][107]LogWorldPartition: Display: WorldPartition initialize took 3 ms (total: 1.48 sec)
+[2024.11.13-02.49.24:734][107]LogPlayLevel: PIE: World Init took: (0.004908s)
+[2024.11.13-02.49.24:734][107]LogAudio: Display: Creating Audio Device:                 Id: 23, Scope: Unique, Realtime: True
+[2024.11.13-02.49.24:734][107]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.13-02.49.24:734][107]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.13-02.49.24:734][107]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.13-02.49.24:734][107]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.13-02.49.24:734][107]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.13-02.49.24:734][107]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.13-02.49.24:734][107]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.13-02.49.24:734][107]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.13-02.49.24:735][107]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.13-02.49.24:735][107]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.13-02.49.24:735][107]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.13-02.49.24:737][107]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.13-02.49.24:775][107]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (2- USB Audio Device)
+[2024.11.13-02.49.24:776][107]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.13-02.49.24:776][107]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.13-02.49.24:776][107]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.13-02.49.24:776][107]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=23
+[2024.11.13-02.49.24:776][107]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=23
+[2024.11.13-02.49.24:778][107]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=23
+[2024.11.13-02.49.24:778][107]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=23
+[2024.11.13-02.49.24:778][107]LogInit: FAudioDevice initialized with ID 23.
+[2024.11.13-02.49.24:778][107]LogAudio: Display: Audio Device (ID: 23) registered with world 'TestingPlayer'.
+[2024.11.13-02.49.24:778][107]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 23
+[2024.11.13-02.49.24:781][107]LogLoad: Game class is 'MyGameGamemode_C'
+[2024.11.13-02.49.24:783][107]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TestingPlayer.TestingPlayer up for play (max tick rate 0) at 2024.11.12-23.49.24
+[2024.11.13-02.49.24:783][107]LogWorld: Bringing up level for play took: 0.001025
+[2024.11.13-02.49.24:785][107]LogOnline: OSS: Created online subsystem instance for: :Context_49
+[2024.11.13-02.49.24:786][107]LogWorldPartition: UWorldPartitionStreamingPolicy: CellsToActivate(41), CellsToLoad(0), CellsToUnload(0)
+[2024.11.13-02.49.24:786][107]LogWorldPartition: UWorldPartitionStreamingPolicy: Sources[0] = X=-11940.435 Y=-6681.237 Z=92.000,P=0.000000 Y=0.000000 R=-0.000000
+[2024.11.13-02.49.24:790][107]LogStreaming: Display: FlushAsyncLoading(): 95 QueuedPackages, 0 AsyncPackages
+[2024.11.13-02.49.25:066][107]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/F/2D/TPD315QEC9LXPJY0HQWR3U.StaticMesh_TestingPlayer_HLOD0_Instancing_7 being ready before playing
+[2024.11.13-02.49.25:066][107]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/F/2D/TPD315QEC9LXPJY0HQWR3U.StaticMesh_TestingPlayer_HLOD0_Instancing_6 being ready before playing
+[2024.11.13-02.49.25:066][107]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/F/2D/TPD315QEC9LXPJY0HQWR3U.StaticMesh_TestingPlayer_HLOD0_Instancing_5 being ready before playing
+[2024.11.13-02.49.25:066][107]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/F/2D/TPD315QEC9LXPJY0HQWR3U.StaticMesh_TestingPlayer_HLOD0_Instancing_4 being ready before playing
+[2024.11.13-02.49.25:066][107]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/E/Y9/F57K9DR4X7ZD8GYM3YE5ZB.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-02.49.25:066][107]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/E/W6/UQIQI82G8VBLVH5IK42IZI.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.13-02.49.25:066][107]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/E/W6/UQIQI82G8VBLVH5IK42IZI.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.13-02.49.25:066][107]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/E/GZ/K39BR99ITL6SHKPIE5N9D0.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-02.49.25:066][107]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/D/UQ/M9GFDLJOHRQEAOOFTYJL2B.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-02.49.25:066][107]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/D/JS/LO1H1JBH85WZC580YOXWQG.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.13-02.49.25:066][107]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/D/JS/LO1H1JBH85WZC580YOXWQG.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.13-02.49.25:066][107]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/D/92/8TZWL4G5TWHN468WA8CYJQ.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-02.49.25:066][107]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/D/47/8U0MNP9KBA48HBRLFBOJ6D.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-02.49.25:066][107]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/C/9O/3CV1NNXN2AQOVZR40S7YUV.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-02.49.25:066][107]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/B/WK/8GF8QJHVPV1BDIVE96T1VE.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-02.49.25:066][107]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/B/HH/NC46WDER05ONLAEN94QSKI.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-02.49.25:066][107]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/B/B5/Q25NBXKKC3EVMQMEZF4043.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.13-02.49.25:066][107]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/B/B5/Q25NBXKKC3EVMQMEZF4043.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.13-02.49.25:066][107]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/A/P8/JQZ3138SUGFFD1INBU2FF6.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-02.49.25:066][107]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/A/MK/5WWF4A9971XVQTUJJ54OVN.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-02.49.25:066][107]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/A/51/8KASR1MDVQZVTEAD5Q50XE.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.13-02.49.25:066][107]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/A/51/8KASR1MDVQZVTEAD5Q50XE.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.13-02.49.25:066][107]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/9/YR/D1Y24IBCIYAFR4E2HGN19U.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-02.49.25:066][107]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/9/H1/UCVL4RTDKB3RVTIRDQ6XK8.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-02.49.25:066][107]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/9/5F/6KLD6RO5WAJUIPVRFLS2UP.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.13-02.49.25:067][107]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/9/5F/6KLD6RO5WAJUIPVRFLS2UP.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.13-02.49.25:067][107]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/8/9E/ZFM0P0F7XGHJZIOMVV21OW.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.13-02.49.25:067][107]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/8/9E/ZFM0P0F7XGHJZIOMVV21OW.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.13-02.49.25:067][107]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/7/W3/DIP8TB64XZPEVIE8VG4KY8.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-02.49.25:067][107]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/7/RI/M3IDY963URF870M0LAMQFL.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-02.49.25:067][107]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/7/0V/1O5YVJ3X9BCZRE6R4JWQ7F.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-02.49.25:067][107]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/6/YI/66BSLDJUHJRAKCR5Y7ZMN2.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-02.49.25:067][107]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/6/I5/6QC9KRBGCC24BJTCC2OPGH.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-02.49.25:067][107]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/6/HY/ZHRLGHILC3YUWYEGQ58QBN.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-02.49.25:067][107]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/6/CA/E7KLWG5Y0QN7LOGU7EY3DY.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.13-02.49.25:067][107]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/6/CA/E7KLWG5Y0QN7LOGU7EY3DY.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.13-02.49.25:067][107]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/6/4D/QPAENHXXBJZWRBO10FSG3Y.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-02.49.25:067][107]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/5/5Z/56FMRS3TILQMIU67L3ZJRQ.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-02.49.25:067][107]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/4/VM/XMUCOP4QQ87XFW3SCDH2J9.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-02.49.25:067][107]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/4/UY/1JOK7WYZ183ZTS7Q9QS3K9.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.13-02.49.25:067][107]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/4/UY/1JOK7WYZ183ZTS7Q9QS3K9.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.13-02.49.25:067][107]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/4/P0/OFN259027Z4657HA1PY30O.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.13-02.49.25:067][107]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/4/P0/OFN259027Z4657HA1PY30O.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.13-02.49.25:067][107]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/4/I5/R54SNWEJXFQDMDM3EGY07P.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-02.49.25:067][107]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/4/G5/MK6FKUE4ODA9X5HFFCLTD5.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-02.49.25:067][107]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/4/DF/NBX7PNQ27BBMN5FSF9VLS1.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-02.49.25:067][107]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/3/ZR/LHHCUBHLPNC9KWBF9D56GR.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-02.49.25:067][107]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/3/O6/ST3CYF6FLK0VDJ8L5S26YN.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-02.49.25:067][107]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/3/LQ/W8GFJXGMZVT7LO48TUUF6T.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.13-02.49.25:067][107]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/3/LQ/W8GFJXGMZVT7LO48TUUF6T.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.13-02.49.25:067][107]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/3/D9/ZF021USLPWD2AB0YN38YTX.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.13-02.49.25:067][107]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/3/D9/ZF021USLPWD2AB0YN38YTX.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.13-02.49.25:067][107]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/3/5I/14RV2AUUAEM5OD1DKVX8D4.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-02.49.25:067][107]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/3/2H/J2BP7K9237AXOJ0LNHWME6.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-02.49.25:067][107]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/2/NL/0JODR7KT9FAZAT5FT3M1Q1.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-02.49.25:067][107]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/2/CN/1JDC7V2UGQ2YYPIY05M8H1.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-02.49.25:067][107]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/1/JR/HH979403EXFJRPZ5CZPKVP.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.13-02.49.25:067][107]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/1/JR/HH979403EXFJRPZ5CZPKVP.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.13-02.49.25:067][107]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/1/JC/LMRPQ7MLEIJKEMAA5SK3C6.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-02.49.25:067][107]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/1/I2/MDZARE0ATHANAENGC3A978.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-02.49.25:067][107]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/0/VX/QA62RGK872BLWMBLGSDQP7.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-02.49.25:067][107]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/0/LM/GLYCZ7H89WVIOXX5DJSGZB.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-02.49.25:067][107]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/0/DI/64UBU2QXHE89AL92JUOI6L.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-02.49.25:067][107]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayer/0/0I/D6R3RMOPB2SKP9RNX2E0HY.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.13-02.49.25:134][107]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.13-02.49.25:134][107]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.13-02.49.25:134][107]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.11.13-02.49.25:137][107]LogBlueprintUserMessages: [BP_CheckPointTest_C_UAID_3C2C30D06DF8F02A02_1706789087] Saved Player Data
+[2024.11.13-02.49.25:137][107]LogBlueprintUserMessages: [BP_Player_C_0] Current money is 11.702628
+[2024.11.13-02.49.25:141][107]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.11.13-02.49.25:141][107]PIE: Server logged in
+[2024.11.13-02.49.25:142][107]PIE: Play in editor total start time 0,842 seconds.
+[2024.11.13-02.49.25:315][108]LogShaderCompilers: Display: ================================================
+[2024.11.13-02.49.25:315][108]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.11.13-02.49.25:315][108]LogShaderCompilers: Display: Total job queries 195, among them cache hits 153 (78.46%)
+[2024.11.13-02.49.25:315][108]LogShaderCompilers: Display: Tracking 42 distinct input hashes that result in 22 distinct outputs (52.38%)
+[2024.11.13-02.49.25:315][108]LogShaderCompilers: Display: RAM used: 963,32 KiB of 819,20 MiB budget. Usage: 0.11%
+[2024.11.13-02.49.25:315][108]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.11.13-02.49.25:315][108]LogShaderCompilers: Display: Shaders Compiled: 2
+[2024.11.13-02.49.25:315][108]LogShaderCompilers: Display: Jobs assigned 2, completed 2 (100%)
+[2024.11.13-02.49.25:315][108]LogShaderCompilers: Display: Time job spent in pending queue: average 0.09 s, longest 0.09 s
+[2024.11.13-02.49.25:315][108]LogShaderCompilers: Display: Job execution time: average 0.43 s, max 0.43 s
+[2024.11.13-02.49.25:315][108]LogShaderCompilers: Display: Job life time (pending + execution): average 0.53 s, max 0.53
+[2024.11.13-02.49.25:315][108]LogShaderCompilers: Display: Shader code size: average 6,143 KiB, min 6,074 KiB, max 6,211 KiB
+[2024.11.13-02.49.25:315][108]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.53 s
+[2024.11.13-02.49.25:315][108]LogShaderCompilers: Display: Jobs were issued in 2 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.11.13-02.49.25:315][108]LogShaderCompilers: Display: Average processing rate: 3.80 jobs/sec
+[2024.11.13-02.49.25:315][108]LogShaderCompilers: Display: Total thread time: 0,167 s
+[2024.11.13-02.49.25:315][108]LogShaderCompilers: Display: Total thread preprocess time: 0,043 s
+[2024.11.13-02.49.25:315][108]LogShaderCompilers: Display: Percentage time preprocessing: 25.90%
+[2024.11.13-02.49.25:315][108]LogShaderCompilers: Display: Effective parallelization: 0.32 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.11.13-02.49.25:315][108]LogShaderCompilers: Display: Top 2 most expensive shader types by average time:
+[2024.11.13-02.49.25:315][108]LogShaderCompilers: Display:                                TSlateMaterialShaderPSDefault (compiled    1 times, average 0.13 sec, max 0.13 sec, min 0.13 sec)
+[2024.11.13-02.49.25:315][108]LogShaderCompilers: Display:                                  TSlateMaterialShaderVSfalse (compiled    1 times, average 0.04 sec, max 0.04 sec, min 0.04 sec)
+[2024.11.13-02.49.25:315][108]LogShaderCompilers: Display: Top 2 shader types by total compile time:
+[2024.11.13-02.49.25:315][108]LogShaderCompilers: Display:                                TSlateMaterialShaderPSDefault - 75.21% of total time (compiled    1 times, average 0.13 sec, max 0.13 sec, min 0.13 sec)
+[2024.11.13-02.49.25:315][108]LogShaderCompilers: Display:                                  TSlateMaterialShaderVSfalse - 24.79% of total time (compiled    1 times, average 0.04 sec, max 0.04 sec, min 0.04 sec)
+[2024.11.13-02.49.25:315][108]LogShaderCompilers: Display: ================================================
+[2024.11.13-02.49.47:995][120]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.13-02.49.47:995][120]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TestingPlayer
+[2024.11.13-02.49.48:010][120]LogWorld: UWorld::CleanupWorld for TestingPlayer, bSessionEnded=true, bCleanupResources=true
+[2024.11.13-02.49.48:010][120]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.13-02.49.48:010][120]LogContentBundle: [TestingPlayer(Standalone)] Deleting container.
+[2024.11.13-02.49.48:014][120]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.13-02.49.48:021][120]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.13-02.49.48:048][120]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.11.13-02.49.48:051][120]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 23
+[2024.11.13-02.49.48:051][120]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=23
+[2024.11.13-02.49.48:054][120]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=23
+[2024.11.13-02.49.48:059][120]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.13-02.49.48:080][120]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2024.11.13-02.49.48:173][121]LogPlayLevel: Display: Destroying online subsystem :Context_49
+[2024.11.13-02.50.15:766][974]LogScript: Warning: Accessed None trying to read property BP_DayCicleController
+	WB_HUD_C /Engine/Transient.World_3:WB_HUD_C_110
+	Function /Game/Widgets/HUD/WB_HUD.WB_HUD_C:ExecuteUbergraph_WB_HUD:066B
+[2024.11.13-02.50.15:766][974]LogScript: Warning: Accessed None trying to read property BP_DayCicleController
+	WB_HUD_C /Engine/Transient.World_3:WB_HUD_C_110
+	Function /Game/Widgets/HUD/WB_HUD.WB_HUD_C:ExecuteUbergraph_WB_HUD:0448
+[2024.11.13-02.50.16:862][106]BlueprintLog: New page: Compile WB_HUD
+[2024.11.13-02.50.16:901][106]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2024.11.13-02.50.17:018][106]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.13-02.50.17:048][106]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/HUD/WB_HUD" FILE="../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/Widgets/HUD/WB_HUD.uasset" SILENT=true
+[2024.11.13-02.50.17:064][106]LogSavePackage: Moving output files for package: /Game/Widgets/HUD/WB_HUD
+[2024.11.13-02.50.17:065][106]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Saved/WB_HUD495187794547187EFF4E27B0F1EDF766.tmp' to '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/Widgets/HUD/WB_HUD.uasset'
+[2024.11.13-02.50.17:073][106]LogFileHelpers: InternalPromptForCheckoutAndSave took 55 ms (total: 4.60 sec)
+[2024.11.13-02.50.17:074][106]AssetCheck: New page: Asset Save: WB_HUD
+[2024.11.13-02.50.17:074][106]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/HUD/WB_HUD.WB_HUD
+[2024.11.13-02.50.17:112][106]LogScript: Warning: Accessed None trying to read property BP_DayCicleController
+	WB_HUD_C /Engine/Transient.World_3:WB_HUD_C_112
+	Function /Game/Widgets/HUD/WB_HUD.WB_HUD_C:ExecuteUbergraph_WB_HUD:066B
+[2024.11.13-02.50.17:112][106]LogScript: Warning: Accessed None trying to read property BP_DayCicleController
+	WB_HUD_C /Engine/Transient.World_3:WB_HUD_C_112
+	Function /Game/Widgets/HUD/WB_HUD.WB_HUD_C:ExecuteUbergraph_WB_HUD:0448
+[2024.11.13-02.50.40:949][656]LogSlate: Window 'Delete Variable' being destroyed
+[2024.11.13-02.51.04:783][210]BlueprintLog: New page: Compile BP_Mop
+[2024.11.13-02.51.04:791][210]LogBlueprint: Error: [AssetLog] C:\Users\User\Documents\GitKrakenProjects\ArcadeSimulator\Arcade\Content\Blueprints\Mop\BP_Mop.uasset: [Compiler] This blueprint (self) is not a RadialSlider, therefore ' Target ' must have a connection.
+[2024.11.13-02.51.04:791][210]LogBlueprint: Error: [AssetLog] C:\Users\User\Documents\GitKrakenProjects\ArcadeSimulator\Arcade\Content\Blueprints\Mop\BP_Mop.uasset: [Compiler] This blueprint (self) is not a RadialSlider, therefore ' Target ' must have a connection.
+[2024.11.13-02.51.04:791][210]LogBlueprint: Error: [AssetLog] C:\Users\User\Documents\GitKrakenProjects\ArcadeSimulator\Arcade\Content\Blueprints\Mop\BP_Mop.uasset: [Compiler] This blueprint (self) is not a RadialSlider, therefore ' Target ' must have a connection.
+[2024.11.13-02.51.04:791][210]LogBlueprint: Error: [AssetLog] C:\Users\User\Documents\GitKrakenProjects\ArcadeSimulator\Arcade\Content\Blueprints\Mop\BP_Mop.uasset: [Compiler] This blueprint (self) is not a Widget, therefore ' Target ' must have a connection.
+[2024.11.13-02.51.04:791][210]LogBlueprint: Error: [AssetLog] C:\Users\User\Documents\GitKrakenProjects\ArcadeSimulator\Arcade\Content\Blueprints\Mop\BP_Mop.uasset: [Compiler] This blueprint (self) is not a Widget, therefore ' Target ' must have a connection.
+[2024.11.13-02.51.04:836][210]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2024.11.13-02.51.13:390][ 47]BlueprintLog: New page: Compile BP_Mop
+[2024.11.13-02.51.13:397][ 47]LogBlueprint: Error: [AssetLog] C:\Users\User\Documents\GitKrakenProjects\ArcadeSimulator\Arcade\Content\Blueprints\Mop\BP_Mop.uasset: [Compiler] This blueprint (self) is not a RadialSlider, therefore ' Target ' must have a connection.
+[2024.11.13-02.51.13:397][ 47]LogBlueprint: Error: [AssetLog] C:\Users\User\Documents\GitKrakenProjects\ArcadeSimulator\Arcade\Content\Blueprints\Mop\BP_Mop.uasset: [Compiler] This blueprint (self) is not a RadialSlider, therefore ' Target ' must have a connection.
+[2024.11.13-02.51.13:397][ 47]LogBlueprint: Error: [AssetLog] C:\Users\User\Documents\GitKrakenProjects\ArcadeSimulator\Arcade\Content\Blueprints\Mop\BP_Mop.uasset: [Compiler] This blueprint (self) is not a RadialSlider, therefore ' Target ' must have a connection.
+[2024.11.13-02.51.13:397][ 47]LogBlueprint: Error: [AssetLog] C:\Users\User\Documents\GitKrakenProjects\ArcadeSimulator\Arcade\Content\Blueprints\Mop\BP_Mop.uasset: [Compiler] This blueprint (self) is not a Widget, therefore ' Target ' must have a connection.
+[2024.11.13-02.51.13:432][ 47]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2024.11.13-02.51.29:406][864]BlueprintLog: New page: Compile BP_Mop
+[2024.11.13-02.51.29:414][864]LogBlueprint: Error: [AssetLog] C:\Users\User\Documents\GitKrakenProjects\ArcadeSimulator\Arcade\Content\Blueprints\Mop\BP_Mop.uasset: [Compiler] This blueprint (self) is not a RadialSlider, therefore ' Target ' must have a connection.
+[2024.11.13-02.51.29:414][864]LogBlueprint: Error: [AssetLog] C:\Users\User\Documents\GitKrakenProjects\ArcadeSimulator\Arcade\Content\Blueprints\Mop\BP_Mop.uasset: [Compiler] This blueprint (self) is not a RadialSlider, therefore ' Target ' must have a connection.
+[2024.11.13-02.51.29:414][864]LogBlueprint: Error: [AssetLog] C:\Users\User\Documents\GitKrakenProjects\ArcadeSimulator\Arcade\Content\Blueprints\Mop\BP_Mop.uasset: [Compiler] This blueprint (self) is not a Widget, therefore ' Target ' must have a connection.
+[2024.11.13-02.51.29:447][864]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2024.11.13-02.51.30:149][924]LogDerivedDataCache: C:/Users/User/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:07.229 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 4341 files in 5745 folders with total size 328 MiB.
+[2024.11.13-02.51.38:954][901]LogEditorTransaction: Undo Straighten Connection(s)
+[2024.11.13-02.51.42:131][210]BlueprintLog: New page: Compile BP_Mop
+[2024.11.13-02.51.42:138][210]LogBlueprint: Error: [AssetLog] C:\Users\User\Documents\GitKrakenProjects\ArcadeSimulator\Arcade\Content\Blueprints\Mop\BP_Mop.uasset: [Compiler] This blueprint (self) is not a RadialSlider, therefore ' Target ' must have a connection.
+[2024.11.13-02.51.42:138][210]LogBlueprint: Error: [AssetLog] C:\Users\User\Documents\GitKrakenProjects\ArcadeSimulator\Arcade\Content\Blueprints\Mop\BP_Mop.uasset: [Compiler] This blueprint (self) is not a RadialSlider, therefore ' Target ' must have a connection.
+[2024.11.13-02.51.42:175][210]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2024.11.13-02.51.56:841][748]LogEditorTransaction: Undo Straighten Connection(s)
+[2024.11.13-02.51.59:023][951]LogEditorTransaction: Undo Straighten Connection(s)
+[2024.11.13-02.52.48:517][900]BlueprintLog: New page: Compile BP_Mop
+[2024.11.13-02.52.48:566][900]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2024.11.13-02.52.48:624][900]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.13-02.52.48:670][900]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Mop/BP_Mop" FILE="../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/Blueprints/Mop/BP_Mop.uasset" SILENT=true
+[2024.11.13-02.52.48:692][900]LogSavePackage: Moving output files for package: /Game/Blueprints/Mop/BP_Mop
+[2024.11.13-02.52.48:694][900]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Saved/BP_MopBA9A1BE64064DBE5914612B61725A9BF.tmp' to '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/Blueprints/Mop/BP_Mop.uasset'
+[2024.11.13-02.52.48:703][900]LogFileHelpers: InternalPromptForCheckoutAndSave took 78 ms (total: 4.68 sec)
+[2024.11.13-02.52.48:704][900]AssetCheck: New page: Asset Save: BP_Mop
+[2024.11.13-02.52.48:704][900]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Mop/BP_Mop.BP_Mop
+[2024.11.13-02.52.56:869][772]BlueprintLog: New page: Compile BP_Mop
+[2024.11.13-02.52.56:914][772]LogUObjectHash: Compacting FUObjectHashTables data took   2.26ms
+[2024.11.13-02.52.56:972][772]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.13-02.52.57:011][772]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Mop/BP_Mop" FILE="../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/Blueprints/Mop/BP_Mop.uasset" SILENT=true
+[2024.11.13-02.52.57:035][772]LogSavePackage: Moving output files for package: /Game/Blueprints/Mop/BP_Mop
+[2024.11.13-02.52.57:035][772]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Saved/BP_Mop885D674B438304BBE2C7D88A8A061DB8.tmp' to '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/Blueprints/Mop/BP_Mop.uasset'
+[2024.11.13-02.52.57:045][772]LogFileHelpers: InternalPromptForCheckoutAndSave took 73 ms (total: 4.75 sec)
+[2024.11.13-02.52.57:047][772]AssetCheck: New page: Asset Save: BP_Mop
+[2024.11.13-02.52.57:047][772]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Mop/BP_Mop.BP_Mop
+[2024.11.13-02.52.59:424][ 32]BlueprintLog: New page: Compile BP_Mop
+[2024.11.13-02.52.59:472][ 32]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2024.11.13-02.52.59:533][ 32]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.13-02.52.59:582][ 32]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Mop/BP_Mop" FILE="../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/Blueprints/Mop/BP_Mop.uasset" SILENT=true
+[2024.11.13-02.52.59:604][ 32]LogSavePackage: Moving output files for package: /Game/Blueprints/Mop/BP_Mop
+[2024.11.13-02.52.59:605][ 32]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Saved/BP_Mop88E8D7EB41E8BA8878A027B32CFF2567.tmp' to '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/Blueprints/Mop/BP_Mop.uasset'
+[2024.11.13-02.52.59:613][ 32]LogFileHelpers: InternalPromptForCheckoutAndSave took 80 ms (total: 4.83 sec)
+[2024.11.13-02.52.59:614][ 32]AssetCheck: New page: Asset Save: BP_Mop
+[2024.11.13-02.52.59:614][ 32]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Mop/BP_Mop.BP_Mop
+[2024.11.13-02.53.14:348][524]BlueprintLog: New page: Compile BP_Mop
+[2024.11.13-02.53.14:389][524]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2024.11.13-02.53.14:441][524]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.13-02.53.14:488][524]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Mop/BP_Mop" FILE="../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/Blueprints/Mop/BP_Mop.uasset" SILENT=true
+[2024.11.13-02.53.14:511][524]LogSavePackage: Moving output files for package: /Game/Blueprints/Mop/BP_Mop
+[2024.11.13-02.53.14:512][524]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Saved/BP_MopC22A7CCD428F580BE16209993A1A013C.tmp' to '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/Blueprints/Mop/BP_Mop.uasset'
+[2024.11.13-02.53.14:521][524]LogFileHelpers: InternalPromptForCheckoutAndSave took 79 ms (total: 4.91 sec)
+[2024.11.13-02.53.14:522][524]AssetCheck: New page: Asset Save: BP_Mop
+[2024.11.13-02.53.14:522][524]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Mop/BP_Mop.BP_Mop
+[2024.11.13-02.53.29:920][173]BlueprintLog: New page: Compile BP_Player
+[2024.11.13-02.53.30:020][173]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2024.11.13-02.53.30:154][173]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.13-02.53.30:232][173]LogSavePackage: Moving output files for package: /Game/Blueprints/Player/BP_Player
+[2024.11.13-02.53.30:233][173]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Saved/BP_Player8BC20FB54D236EE5F71A06AC93B1028A.tmp' to '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/Blueprints/Player/BP_Player.uasset'
+[2024.11.13-02.53.30:240][173]LogFileHelpers: InternalPromptForCheckoutAndSave took 86 ms (total: 5.00 sec)
+[2024.11.13-02.53.30:243][173]AssetCheck: New page: Asset Save: BP_Player
+[2024.11.13-02.53.30:243][173]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Player/BP_Player.BP_Player
+[2024.11.13-02.53.35:352][728]BlueprintLog: New page: Compile BP_Player
+[2024.11.13-02.53.35:447][728]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
+[2024.11.13-02.53.35:552][728]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.13-02.53.35:632][728]LogSavePackage: Moving output files for package: /Game/Blueprints/Player/BP_Player
+[2024.11.13-02.53.35:632][728]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Saved/BP_PlayerECC4BE414067A75D7D0E19981D2E9BC3.tmp' to '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/Blueprints/Player/BP_Player.uasset'
+[2024.11.13-02.53.35:641][728]LogFileHelpers: InternalPromptForCheckoutAndSave took 89 ms (total: 5.08 sec)
+[2024.11.13-02.53.35:643][728]AssetCheck: New page: Asset Save: BP_Player
+[2024.11.13-02.53.35:643][728]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Player/BP_Player.BP_Player
+[2024.11.13-02.53.36:040][750]LogScript: Warning: Accessed None trying to read property BP_DayCicleController
+	WB_HUD_C /Engine/Transient.World_3:WB_HUD_C_115
+	Function /Game/Widgets/HUD/WB_HUD.WB_HUD_C:ExecuteUbergraph_WB_HUD:066B
+[2024.11.13-02.53.36:040][750]LogScript: Warning: Accessed None trying to read property BP_DayCicleController
+	WB_HUD_C /Engine/Transient.World_3:WB_HUD_C_115
+	Function /Game/Widgets/HUD/WB_HUD.WB_HUD_C:ExecuteUbergraph_WB_HUD:0448
+[2024.11.13-02.53.40:701][236]LogScript: Warning: Accessed None trying to read property BP_DayCicleController
+	WB_HUD_C /Engine/Transient.World_3:WB_HUD_C_116
+	Function /Game/Widgets/HUD/WB_HUD.WB_HUD_C:ExecuteUbergraph_WB_HUD:066B
+[2024.11.13-02.53.40:701][236]LogScript: Warning: Accessed None trying to read property BP_DayCicleController
+	WB_HUD_C /Engine/Transient.World_3:WB_HUD_C_116
+	Function /Game/Widgets/HUD/WB_HUD.WB_HUD_C:ExecuteUbergraph_WB_HUD:0448
+[2024.11.13-02.53.41:753][332]BlueprintLog: New page: Compile WB_HUD
+[2024.11.13-02.53.41:795][332]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2024.11.13-02.53.42:104][332]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.13-02.53.42:143][332]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/HUD/WB_HUD" FILE="../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/Widgets/HUD/WB_HUD.uasset" SILENT=true
+[2024.11.13-02.53.42:159][332]LogSavePackage: Moving output files for package: /Game/Widgets/HUD/WB_HUD
+[2024.11.13-02.53.42:159][332]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Saved/WB_HUDB03E9FFB4CA96C2A19E64E9D191033DE.tmp' to '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/Widgets/HUD/WB_HUD.uasset'
+[2024.11.13-02.53.42:168][332]LogFileHelpers: InternalPromptForCheckoutAndSave took 62 ms (total: 5.15 sec)
+[2024.11.13-02.53.42:190][332]AssetCheck: New page: Asset Save: WB_HUD
+[2024.11.13-02.53.42:190][332]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/HUD/WB_HUD.WB_HUD
+[2024.11.13-02.53.42:228][332]LogScript: Warning: Accessed None trying to read property BP_DayCicleController
+	WB_HUD_C /Engine/Transient.World_3:WB_HUD_C_118
+	Function /Game/Widgets/HUD/WB_HUD.WB_HUD_C:ExecuteUbergraph_WB_HUD:066B
+[2024.11.13-02.53.42:229][332]LogScript: Warning: Accessed None trying to read property BP_DayCicleController
+	WB_HUD_C /Engine/Transient.World_3:WB_HUD_C_118
+	Function /Game/Widgets/HUD/WB_HUD.WB_HUD_C:ExecuteUbergraph_WB_HUD:0448
+[2024.11.13-02.53.43:802][491]BlueprintLog: New page: Compile BP_Mop
+[2024.11.13-02.53.43:845][491]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2024.11.13-02.53.43:905][491]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.13-02.53.43:947][491]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Mop/BP_Mop" FILE="../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/Blueprints/Mop/BP_Mop.uasset" SILENT=true
+[2024.11.13-02.53.43:971][491]LogSavePackage: Moving output files for package: /Game/Blueprints/Mop/BP_Mop
+[2024.11.13-02.53.43:971][491]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Saved/BP_Mop9D60CB8544838B60D9286B802EBAB77F.tmp' to '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/Blueprints/Mop/BP_Mop.uasset'
+[2024.11.13-02.53.43:980][491]LogFileHelpers: InternalPromptForCheckoutAndSave took 75 ms (total: 5.22 sec)
+[2024.11.13-02.53.43:982][491]AssetCheck: New page: Asset Save: BP_Mop
+[2024.11.13-02.53.43:982][491]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Mop/BP_Mop.BP_Mop
+[2024.11.13-02.53.56:958][957]BlueprintLog: New page: Compile BP_Mop
+[2024.11.13-02.53.57:000][957]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2024.11.13-02.53.57:056][957]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.13-02.53.57:102][957]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Mop/BP_Mop" FILE="../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/Blueprints/Mop/BP_Mop.uasset" SILENT=true
+[2024.11.13-02.53.57:124][957]LogSavePackage: Moving output files for package: /Game/Blueprints/Mop/BP_Mop
+[2024.11.13-02.53.57:125][957]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Saved/BP_MopBA2153BF444A275B8638169AB1A68CB4.tmp' to '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/Blueprints/Mop/BP_Mop.uasset'
+[2024.11.13-02.53.57:134][957]LogFileHelpers: InternalPromptForCheckoutAndSave took 78 ms (total: 5.30 sec)
+[2024.11.13-02.53.57:137][957]AssetCheck: New page: Asset Save: BP_Mop
+[2024.11.13-02.53.57:137][957]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Mop/BP_Mop.BP_Mop
+[2024.11.13-02.54.57:153][611]BlueprintLog: New page: Compile BP_Mop
+[2024.11.13-02.54.57:199][611]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
+[2024.11.13-02.54.57:259][611]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.13-02.54.57:299][611]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Mop/BP_Mop" FILE="../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/Blueprints/Mop/BP_Mop.uasset" SILENT=true
+[2024.11.13-02.54.57:323][611]LogSavePackage: Moving output files for package: /Game/Blueprints/Mop/BP_Mop
+[2024.11.13-02.54.57:323][611]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Saved/BP_MopA397F938445045B8B27142A92458ABDF.tmp' to '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/Blueprints/Mop/BP_Mop.uasset'
+[2024.11.13-02.54.57:332][611]LogFileHelpers: InternalPromptForCheckoutAndSave took 72 ms (total: 5.37 sec)
+[2024.11.13-02.54.57:334][611]AssetCheck: New page: Asset Save: BP_Mop
+[2024.11.13-02.54.57:334][611]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Mop/BP_Mop.BP_Mop
+[2024.11.13-02.55.06:588][697]BlueprintLog: New page: Compile BP_Mop
+[2024.11.13-02.55.06:629][697]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2024.11.13-02.55.06:686][697]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.13-02.55.06:731][697]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Mop/BP_Mop" FILE="../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/Blueprints/Mop/BP_Mop.uasset" SILENT=true
+[2024.11.13-02.55.06:752][697]LogSavePackage: Moving output files for package: /Game/Blueprints/Mop/BP_Mop
+[2024.11.13-02.55.06:753][697]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Saved/BP_Mop8DCD76E9472E7FFB23232FA9011BCD51.tmp' to '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/Blueprints/Mop/BP_Mop.uasset'
+[2024.11.13-02.55.06:763][697]LogFileHelpers: InternalPromptForCheckoutAndSave took 76 ms (total: 5.45 sec)
+[2024.11.13-02.55.06:764][697]AssetCheck: New page: Asset Save: BP_Mop
+[2024.11.13-02.55.06:764][697]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Mop/BP_Mop.BP_Mop
+[2024.11.13-02.55.16:126][734]LogEditorTransaction: Undo Move Node
+[2024.11.13-02.55.19:815][ 92]BlueprintLog: New page: Compile BP_Mop
+[2024.11.13-02.55.19:861][ 92]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2024.11.13-02.55.19:918][ 92]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.13-02.55.19:960][ 92]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Mop/BP_Mop" FILE="../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/Blueprints/Mop/BP_Mop.uasset" SILENT=true
+[2024.11.13-02.55.19:982][ 92]LogSavePackage: Moving output files for package: /Game/Blueprints/Mop/BP_Mop
+[2024.11.13-02.55.19:983][ 92]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Saved/BP_Mop391B43FF4DE1DD9D8A52618E04AA9A94.tmp' to '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/Blueprints/Mop/BP_Mop.uasset'
+[2024.11.13-02.55.19:992][ 92]LogFileHelpers: InternalPromptForCheckoutAndSave took 74 ms (total: 5.53 sec)
+[2024.11.13-02.55.19:994][ 92]AssetCheck: New page: Asset Save: BP_Mop
+[2024.11.13-02.55.19:994][ 92]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Mop/BP_Mop.BP_Mop
+[2024.11.13-02.55.31:146][386]BlueprintLog: New page: Compile BP_Mop
+[2024.11.13-02.55.31:190][386]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2024.11.13-02.55.31:247][386]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.13-02.55.31:293][386]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Mop/BP_Mop" FILE="../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/Blueprints/Mop/BP_Mop.uasset" SILENT=true
+[2024.11.13-02.55.31:318][386]LogSavePackage: Moving output files for package: /Game/Blueprints/Mop/BP_Mop
+[2024.11.13-02.55.31:319][386]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Saved/BP_Mop5B786C14432B8EB706874CB9ABF1E22B.tmp' to '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/Blueprints/Mop/BP_Mop.uasset'
+[2024.11.13-02.55.31:330][386]LogFileHelpers: InternalPromptForCheckoutAndSave took 83 ms (total: 5.61 sec)
+[2024.11.13-02.55.31:331][386]AssetCheck: New page: Asset Save: BP_Mop
+[2024.11.13-02.55.31:331][386]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Mop/BP_Mop.BP_Mop
+[2024.11.13-02.56.49:879][158]BlueprintLog: New page: Compile BP_Mop
+[2024.11.13-02.56.49:925][158]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2024.11.13-02.56.49:982][158]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.13-02.56.50:020][158]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Mop/BP_Mop" FILE="../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/Blueprints/Mop/BP_Mop.uasset" SILENT=true
+[2024.11.13-02.56.50:043][158]LogSavePackage: Moving output files for package: /Game/Blueprints/Mop/BP_Mop
+[2024.11.13-02.56.50:045][158]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Saved/BP_Mop75919EEE45C3760269A9CE8AFF8CE6C6.tmp' to '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/Blueprints/Mop/BP_Mop.uasset'
+[2024.11.13-02.56.50:053][158]LogFileHelpers: InternalPromptForCheckoutAndSave took 70 ms (total: 5.68 sec)
+[2024.11.13-02.56.50:054][158]AssetCheck: New page: Asset Save: BP_Mop
+[2024.11.13-02.56.50:054][158]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Mop/BP_Mop.BP_Mop
