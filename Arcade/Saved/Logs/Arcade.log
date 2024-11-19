@@ -1317,3 +1317,919 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.11.19-01.51.11:276][326]AssetCheck: New page: Asset Save: multiple assets
 [2024.11.19-01.51.11:276][326]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Arcade_Game.Arcade_Game
 [2024.11.19-01.51.11:276][326]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Builder/Terminals/TerminalBuilds/BP_BuildTerminal_AtmMachine.BP_BuildTerminal_AtmMachine
+[2024.11.19-01.54.01:764][337]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.19-01.54.02:382][386]LogShaderCompilers: Display: ================================================
+[2024.11.19-01.54.02:382][386]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.11.19-01.54.02:382][386]LogShaderCompilers: Display: Total job queries 212, among them cache hits 27 (12.74%)
+[2024.11.19-01.54.02:382][386]LogShaderCompilers: Display: Tracking 126 distinct input hashes that result in 51 distinct outputs (40.48%)
+[2024.11.19-01.54.02:382][386]LogShaderCompilers: Display: RAM used: 2,55 MiB of 819,20 MiB budget. Usage: 0.31%
+[2024.11.19-01.54.02:382][386]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.11.19-01.54.02:382][386]LogShaderCompilers: Display: Shaders Compiled: 126
+[2024.11.19-01.54.02:382][386]LogShaderCompilers: Display: Jobs assigned 127, completed 126 (99.21%)
+[2024.11.19-01.54.02:382][386]LogShaderCompilers: Display: Average time worker was idle: 7.49 s
+[2024.11.19-01.54.02:382][386]LogShaderCompilers: Display: Time job spent in pending queue: average 3.57 s, longest 7.38 s
+[2024.11.19-01.54.02:382][386]LogShaderCompilers: Display: Job execution time: average 0.59 s, max 4.68 s
+[2024.11.19-01.54.02:382][386]LogShaderCompilers: Display: Job life time (pending + execution): average 4.18 s, max 7.79
+[2024.11.19-01.54.02:382][386]LogShaderCompilers: Display: Shader code size: average 34,747 KiB, min 4,465 KiB, max 83,52 KiB
+[2024.11.19-01.54.02:382][386]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 12.08 s
+[2024.11.19-01.54.02:382][386]LogShaderCompilers: Display: Jobs were issued in 127 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.11.19-01.54.02:382][386]LogShaderCompilers: Display: Average processing rate: 10.43 jobs/sec
+[2024.11.19-01.54.02:382][386]LogShaderCompilers: Display: Total thread time: 60,395 s
+[2024.11.19-01.54.02:382][386]LogShaderCompilers: Display: Total thread preprocess time: 6,008 s
+[2024.11.19-01.54.02:382][386]LogShaderCompilers: Display: Percentage time preprocessing: 9.95%
+[2024.11.19-01.54.02:383][386]LogShaderCompilers: Display: Effective parallelization: 5.00 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.11.19-01.54.02:383][386]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.11.19-01.54.02:383][386]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled    1 times, average 4.58 sec, max 4.58 sec, min 4.58 sec)
+[2024.11.19-01.54.02:383][386]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled   28 times, average 0.62 sec, max 1.07 sec, min 0.31 sec)
+[2024.11.19-01.54.02:383][386]LogShaderCompilers: Display:             TShadowDepthVSVertexShadowDepth_VirtualShadowMap (compiled    1 times, average 0.60 sec, max 0.60 sec, min 0.60 sec)
+[2024.11.19-01.54.02:383][386]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled   28 times, average 0.59 sec, max 1.05 sec, min 0.42 sec)
+[2024.11.19-01.54.02:383][386]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled   23 times, average 0.52 sec, max 0.79 sec, min 0.42 sec)
+[2024.11.19-01.54.02:383][386]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.11.19-01.54.02:383][386]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 28.56% of total time (compiled   28 times, average 0.62 sec, max 1.07 sec, min 0.31 sec)
+[2024.11.19-01.54.02:383][386]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 27.31% of total time (compiled   28 times, average 0.59 sec, max 1.05 sec, min 0.42 sec)
+[2024.11.19-01.54.02:383][386]LogShaderCompilers: Display:                                                 FLumenCardVS - 19.81% of total time (compiled   23 times, average 0.52 sec, max 0.79 sec, min 0.42 sec)
+[2024.11.19-01.54.02:383][386]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 8.02% of total time (compiled   23 times, average 0.21 sec, max 0.30 sec, min 0.17 sec)
+[2024.11.19-01.54.02:383][386]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 7.58% of total time (compiled    1 times, average 4.58 sec, max 4.58 sec, min 4.58 sec)
+[2024.11.19-01.54.02:383][386]LogShaderCompilers: Display: ================================================
+[2024.11.19-01.54.02:498][396]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.19-01.54.08:373][936]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.19-01.54.09:609][ 50]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.19-01.54.09:655][ 51]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.19-01.54.09:680][ 52]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.19-01.54.10:747][131]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Builder/Machines/MachineBuilds/Pinball/BP_BuildMachine_PinballV3.BP_BuildMachine_PinballV3
+[2024.11.19-01.54.10:748][131]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.19-01.54.10:748][131]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.19-01.54.10:885][131]PIE: Warning: Trying to simulate physics on ''/Engine/Transient.World_12:PersistentLevel.BP_BuildMachine_PinballV3_C_0.BuildMesh'' but it has ComplexAsSimple collision.
+[2024.11.19-01.54.11:067][146]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.19-01.54.12:168][269]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2024.11.19-01.54.12:168][269]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.19-01.54.12:205][269]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Builder/Machines/MachineBuilds/Pinball/BP_BuildMachine_PinballV3.BP_BuildMachine_PinballV3
+[2024.11.19-01.54.12:206][269]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.19-01.54.12:206][269]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.19-01.54.12:341][269]PIE: Warning: Trying to simulate physics on ''/Engine/Transient.World_14:PersistentLevel.BP_BuildMachine_PinballV3_C_0.BuildMesh'' but it has ComplexAsSimple collision.
+[2024.11.19-01.54.13:046][334]PIE: Warning: Trying to simulate physics on ''/Engine/Transient.World_14:PersistentLevel.BP_BuildMachine_PinballV3_C_0.BuildMesh'' but it has ComplexAsSimple collision.
+[2024.11.19-01.54.13:047][334]PIE: Warning: Trying to simulate physics on ''/Engine/Transient.World_14:PersistentLevel.BP_BuildMachine_PinballV3_C_0.BuildMesh'' but it has ComplexAsSimple collision.
+[2024.11.19-01.54.13:047][334]PIE: Warning: Trying to simulate physics on ''/Engine/Transient.World_14:PersistentLevel.BP_BuildMachine_PinballV3_C_0.BuildMesh'' but it has ComplexAsSimple collision.
+[2024.11.19-01.54.13:048][334]LogViewport: Scene viewport resized to 1141x685, mode Windowed.
+[2024.11.19-01.54.29:012][ 20]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2024.11.19-01.54.29:016][ 20]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.19-01.54.29:058][ 20]LogSavePackage: Moving output files for package: /Game/Blueprints/Builder/Machines/MachineBuilds/Pinball/BP_BuildMachine_PinballV3
+[2024.11.19-01.54.29:058][ 20]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Saved/BP_BuildMachine_PinballV3109D715942AB742C9D55E588EA542F65.tmp' to '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/Blueprints/Builder/Machines/MachineBuilds/Pinball/BP_BuildMachine_PinballV3.uasset'
+[2024.11.19-01.54.29:076][ 20]LogFileHelpers: InternalPromptForCheckoutAndSave took 59 ms (total: 406 ms)
+[2024.11.19-01.54.29:078][ 20]AssetCheck: New page: Asset Save: BP_BuildMachine_PinballV3
+[2024.11.19-01.54.29:078][ 20]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Builder/Machines/MachineBuilds/Pinball/BP_BuildMachine_PinballV3.BP_BuildMachine_PinballV3
+[2024.11.19-01.54.31:920][298]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Builder/Machines/MachineBuilds/Pinball/BP_BuildMachineMaster_Pinball.BP_BuildMachineMaster_Pinball
+[2024.11.19-01.54.31:921][298]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.19-01.54.31:921][298]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.19-01.54.33:100][413]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2024.11.19-01.54.33:100][413]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.19-01.54.33:138][413]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Builder/Machines/MachineBuilds/Pinball/BP_BuildMachineMaster_Pinball.BP_BuildMachineMaster_Pinball
+[2024.11.19-01.54.33:138][413]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.19-01.54.33:138][413]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.19-01.54.34:634][557]LogViewport: Scene viewport resized to 1141x685, mode Windowed.
+[2024.11.19-01.55.45:981][681]BlueprintLog: New page: Compile BP_BuildMachineMaster_Pinball
+[2024.11.19-01.55.46:044][681]PIE: Warning: Trying to simulate physics on ''/Game/Levels/Arcade_Game.Arcade_Game:PersistentLevel.BP_BuildMachine_PinballV3_C_2.BuildMesh'' but it has ComplexAsSimple collision.
+[2024.11.19-01.55.46:045][681]PIE: Warning: Trying to simulate physics on ''/Game/Levels/Arcade_Game.Arcade_Game:PersistentLevel.BP_BuildMachine_PinballV3_C_2.BuildMesh'' but it has ComplexAsSimple collision.
+[2024.11.19-01.55.46:046][681]PIE: Warning: Trying to simulate physics on ''/Engine/Transient.World_14:PersistentLevel.BP_BuildMachine_PinballV3_C_0.BuildMesh'' but it has ComplexAsSimple collision.
+[2024.11.19-01.55.46:047][681]PIE: Warning: Trying to simulate physics on ''/Engine/Transient.World_14:PersistentLevel.BP_BuildMachine_PinballV3_C_0.BuildMesh'' but it has ComplexAsSimple collision.
+[2024.11.19-01.55.46:194][681]LogUObjectHash: Compacting FUObjectHashTables data took   2.12ms
+[2024.11.19-01.55.46:209][681]PIE: Warning: Trying to simulate physics on ''/Game/Levels/Arcade_Game.Arcade_Game:PersistentLevel.BP_BuildMachine_PinballV3_C_2.BuildMesh'' but it has ComplexAsSimple collision.
+[2024.11.19-01.55.46:210][681]PIE: Warning: Trying to simulate physics on ''/Game/Levels/Arcade_Game.Arcade_Game:PersistentLevel.BP_BuildMachine_PinballV3_C_2.BuildMesh'' but it has ComplexAsSimple collision.
+[2024.11.19-01.55.46:211][681]PIE: Warning: Trying to simulate physics on ''/Game/Levels/Arcade_Game.Arcade_Game:PersistentLevel.BP_BuildMachine_PinballV3_C_2.BuildMesh'' but it has ComplexAsSimple collision.
+[2024.11.19-01.55.46:213][681]PIE: Warning: Trying to simulate physics on ''/Engine/Transient.World_14:PersistentLevel.BP_BuildMachine_PinballV3_C_0.BuildMesh'' but it has ComplexAsSimple collision.
+[2024.11.19-01.55.46:214][681]PIE: Warning: Trying to simulate physics on ''/Engine/Transient.World_14:PersistentLevel.BP_BuildMachine_PinballV3_C_0.BuildMesh'' but it has ComplexAsSimple collision.
+[2024.11.19-01.55.46:214][681]PIE: Warning: Trying to simulate physics on ''/Engine/Transient.World_14:PersistentLevel.BP_BuildMachine_PinballV3_C_0.BuildMesh'' but it has ComplexAsSimple collision.
+[2024.11.19-01.55.46:228][681]PIE: Warning: Trying to simulate physics on ''/Game/Levels/Arcade_Game.Arcade_Game:PersistentLevel.BP_BuildMachine_PinballV3_C_2.BuildMesh'' but it has ComplexAsSimple collision.
+[2024.11.19-01.55.46:229][681]PIE: Warning: Trying to simulate physics on ''/Game/Levels/Arcade_Game.Arcade_Game:PersistentLevel.BP_BuildMachine_PinballV3_C_2.BuildMesh'' but it has ComplexAsSimple collision.
+[2024.11.19-01.55.46:230][681]PIE: Warning: Trying to simulate physics on ''/Game/Levels/Arcade_Game.Arcade_Game:PersistentLevel.BP_BuildMachine_PinballV3_C_2.BuildMesh'' but it has ComplexAsSimple collision.
+[2024.11.19-01.55.46:230][681]PIE: Warning: Trying to simulate physics on ''/Engine/Transient.World_14:PersistentLevel.BP_BuildMachine_PinballV3_C_0.BuildMesh'' but it has ComplexAsSimple collision.
+[2024.11.19-01.55.46:231][681]PIE: Warning: Trying to simulate physics on ''/Engine/Transient.World_14:PersistentLevel.BP_BuildMachine_PinballV3_C_0.BuildMesh'' but it has ComplexAsSimple collision.
+[2024.11.19-01.55.46:231][681]PIE: Warning: Trying to simulate physics on ''/Engine/Transient.World_14:PersistentLevel.BP_BuildMachine_PinballV3_C_0.BuildMesh'' but it has ComplexAsSimple collision.
+[2024.11.19-01.55.46:239][681]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.19-01.55.46:291][681]LogSavePackage: Moving output files for package: /Game/Blueprints/Builder/Machines/MachineBuilds/Pinball/BP_BuildMachineMaster_Pinball
+[2024.11.19-01.55.46:292][681]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Saved/BP_BuildMachineMaster_PinballB1E8CACB471D7DD634C59FADF21AA52E.tmp' to '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/Blueprints/Builder/Machines/MachineBuilds/Pinball/BP_BuildMachineMaster_Pinball.uasset'
+[2024.11.19-01.55.46:303][681]LogFileHelpers: InternalPromptForCheckoutAndSave took 63 ms (total: 470 ms)
+[2024.11.19-01.55.46:333][681]AssetCheck: New page: Asset Save: BP_BuildMachineMaster_Pinball
+[2024.11.19-01.55.46:333][681]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Builder/Machines/MachineBuilds/Pinball/BP_BuildMachineMaster_Pinball.BP_BuildMachineMaster_Pinball
+[2024.11.19-01.55.47:499][766]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.19-01.55.47:523][766]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.19-01.55.47:523][766]PIE: New page: PIE session: Arcade_Game (18 de nov de 2024 19:55:47)
+[2024.11.19-01.55.47:527][766]LogOnline: OSS: Created online subsystem instance for: NULL
+[2024.11.19-01.55.47:527][766]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for type [NULL]
+[2024.11.19-01.55.47:527][766]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Arcade_Game
+[2024.11.19-01.55.47:537][766]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009264s)
+[2024.11.19-01.55.47:537][766]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Arcade_Game.Arcade_Game to /Game/Levels/UEDPIE_0_Arcade_Game.Arcade_Game (0.009327s)
+[2024.11.19-01.55.47:559][766]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2024.11.19-01.55.47:561][766]LogWindows: WindowsPlatformFeatures enabled
+[2024.11.19-01.55.47:561][766]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.19-01.55.47:561][766]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.19-01.55.47:563][766]LogAIModule: Creating AISystem for world Arcade_Game
+[2024.11.19-01.55.47:563][766]LogPlayLevel: PIE: World Init took: (0.001193s)
+[2024.11.19-01.55.47:563][766]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2024.11.19-01.55.47:563][766]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.19-01.55.47:563][766]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.19-01.55.47:563][766]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.19-01.55.47:563][766]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.19-01.55.47:563][766]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.19-01.55.47:563][766]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.19-01.55.47:563][766]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.19-01.55.47:563][766]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.19-01.55.47:564][766]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.19-01.55.47:564][766]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.19-01.55.47:564][766]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.19-01.55.47:566][766]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.19-01.55.47:609][766]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (2- USB Audio Device)
+[2024.11.19-01.55.47:609][766]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.19-01.55.47:610][766]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.19-01.55.47:610][766]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.19-01.55.47:610][766]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2024.11.19-01.55.47:610][766]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=2
+[2024.11.19-01.55.47:614][766]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2024.11.19-01.55.47:614][766]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2024.11.19-01.55.47:614][766]LogInit: FAudioDevice initialized with ID 2.
+[2024.11.19-01.55.47:614][766]LogAudio: Display: Audio Device (ID: 2) registered with world 'Arcade_Game'.
+[2024.11.19-01.55.47:614][766]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 2
+[2024.11.19-01.55.47:617][766]LogLoad: Game class is 'MyGameGamemode_C'
+[2024.11.19-01.55.47:621][766]PIE: Warning: Trying to simulate physics on ''/Game/Levels/UEDPIE_0_Arcade_Game.Arcade_Game:PersistentLevel.BP_BuildProps_CoffeTable_C_1.BuildMesh'' but it has ComplexAsSimple collision.
+[2024.11.19-01.55.47:623][766]PIE: Warning: Trying to simulate physics on ''/Game/Levels/UEDPIE_0_Arcade_Game.Arcade_Game:PersistentLevel.BP_BuildMachine_PinballV3_C_2.BuildMesh'' but it has ComplexAsSimple collision.
+[2024.11.19-01.55.47:623][766]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Arcade_Game.Arcade_Game up for play (max tick rate 0) at 2024.11.18-22.55.47
+[2024.11.19-01.55.47:623][766]LogWorld: Bringing up level for play took: 0.005334
+[2024.11.19-01.55.47:627][766]LogOnline: OSS: Created online subsystem instance for: :Context_18
+[2024.11.19-01.55.47:631][766]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.19-01.55.47:631][766]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.19-01.55.47:631][766]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.11.19-01.55.47:640][766]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.11.19-01.55.47:640][766]PIE: Server logged in
+[2024.11.19-01.55.47:641][766]PIE: Play in editor total start time 0,119 seconds.
+[2024.11.19-01.55.50:414][985]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.19-01.55.50:415][985]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Arcade_Game
+[2024.11.19-01.55.50:416][985]LogWorld: UWorld::CleanupWorld for Arcade_Game, bSessionEnded=true, bCleanupResources=true
+[2024.11.19-01.55.50:416][985]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.19-01.55.50:452][985]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.19-01.55.50:460][985]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.19-01.55.50:481][985]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.11.19-01.55.50:481][985]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 2
+[2024.11.19-01.55.50:483][985]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2024.11.19-01.55.50:485][985]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2024.11.19-01.55.50:490][985]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.19-01.55.50:493][985]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2024.11.19-01.55.50:660][986]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2024.11.19-01.55.51:668][ 63]LogSlate: Window 'Message Log' being destroyed
+[2024.11.19-01.55.51:679][ 63]LogSlate: Window 'Message Log' being destroyed
+[2024.11.19-01.55.55:968][444]PIE: Warning: Trying to simulate physics on ''/Engine/Transient.World_14:PersistentLevel.BP_BuildMachine_PinballV3_C_0.BuildMesh'' but it has ComplexAsSimple collision.
+[2024.11.19-01.55.55:969][444]PIE: Warning: Trying to simulate physics on ''/Engine/Transient.World_14:PersistentLevel.BP_BuildMachine_PinballV3_C_0.BuildMesh'' but it has ComplexAsSimple collision.
+[2024.11.19-01.55.55:970][444]PIE: Warning: Trying to simulate physics on ''/Engine/Transient.World_14:PersistentLevel.BP_BuildMachine_PinballV3_C_0.BuildMesh'' but it has ComplexAsSimple collision.
+[2024.11.19-01.56.01:646][  7]PIE: Warning: Trying to simulate physics on ''/Game/Levels/Arcade_Game.Arcade_Game:PersistentLevel.BP_BuildMachine_PinballV3_C_2.BuildMesh'' but it has ComplexAsSimple collision.
+[2024.11.19-01.56.01:646][  7]PIE: Warning: Trying to simulate physics on ''/Game/Levels/Arcade_Game.Arcade_Game:PersistentLevel.BP_BuildMachine_PinballV3_C_2.BuildMesh'' but it has ComplexAsSimple collision.
+[2024.11.19-01.56.01:648][  7]PIE: Warning: Trying to simulate physics on ''/Engine/Transient.World_14:PersistentLevel.BP_BuildMachine_PinballV3_C_0.BuildMesh'' but it has ComplexAsSimple collision.
+[2024.11.19-01.56.01:648][  7]PIE: Warning: Trying to simulate physics on ''/Engine/Transient.World_14:PersistentLevel.BP_BuildMachine_PinballV3_C_0.BuildMesh'' but it has ComplexAsSimple collision.
+[2024.11.19-01.56.03:929][183]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2024.11.19-01.56.03:936][183]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.19-01.56.03:981][183]LogSavePackage: Moving output files for package: /Game/Blueprints/Builder/Machines/MachineBuilds/Pinball/BP_BuildMachine_PinballV3
+[2024.11.19-01.56.03:981][183]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Saved/BP_BuildMachine_PinballV3C9EB9B5D46CE156C4BCB39BD2043E349.tmp' to '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/Blueprints/Builder/Machines/MachineBuilds/Pinball/BP_BuildMachine_PinballV3.uasset'
+[2024.11.19-01.56.03:994][183]LogFileHelpers: InternalPromptForCheckoutAndSave took 57 ms (total: 528 ms)
+[2024.11.19-01.56.03:995][183]AssetCheck: New page: Asset Save: BP_BuildMachine_PinballV3
+[2024.11.19-01.56.03:995][183]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Builder/Machines/MachineBuilds/Pinball/BP_BuildMachine_PinballV3.BP_BuildMachine_PinballV3
+[2024.11.19-01.56.15:273][284]BlueprintLog: New page: Compile BP_BuildMachineMaster_Pinball
+[2024.11.19-01.56.15:306][284]PIE: Warning: Trying to simulate physics on ''/Game/Levels/Arcade_Game.Arcade_Game:PersistentLevel.BP_BuildMachine_PinballV3_C_2.BuildMesh'' but it has ComplexAsSimple collision.
+[2024.11.19-01.56.15:307][284]PIE: Warning: Trying to simulate physics on ''/Game/Levels/Arcade_Game.Arcade_Game:PersistentLevel.BP_BuildMachine_PinballV3_C_2.BuildMesh'' but it has ComplexAsSimple collision.
+[2024.11.19-01.56.15:308][284]PIE: Warning: Trying to simulate physics on ''/Engine/Transient.World_14:PersistentLevel.BP_BuildMachine_PinballV3_C_0.BuildMesh'' but it has ComplexAsSimple collision.
+[2024.11.19-01.56.15:309][284]PIE: Warning: Trying to simulate physics on ''/Engine/Transient.World_14:PersistentLevel.BP_BuildMachine_PinballV3_C_0.BuildMesh'' but it has ComplexAsSimple collision.
+[2024.11.19-01.56.15:351][284]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2024.11.19-01.56.15:363][284]PIE: Warning: Trying to simulate physics on ''/Game/Levels/Arcade_Game.Arcade_Game:PersistentLevel.BP_BuildMachine_PinballV3_C_2.BuildMesh'' but it has ComplexAsSimple collision.
+[2024.11.19-01.56.15:364][284]PIE: Warning: Trying to simulate physics on ''/Game/Levels/Arcade_Game.Arcade_Game:PersistentLevel.BP_BuildMachine_PinballV3_C_2.BuildMesh'' but it has ComplexAsSimple collision.
+[2024.11.19-01.56.15:365][284]PIE: Warning: Trying to simulate physics on ''/Game/Levels/Arcade_Game.Arcade_Game:PersistentLevel.BP_BuildMachine_PinballV3_C_2.BuildMesh'' but it has ComplexAsSimple collision.
+[2024.11.19-01.56.15:366][284]PIE: Warning: Trying to simulate physics on ''/Engine/Transient.World_14:PersistentLevel.BP_BuildMachine_PinballV3_C_0.BuildMesh'' but it has ComplexAsSimple collision.
+[2024.11.19-01.56.15:367][284]PIE: Warning: Trying to simulate physics on ''/Engine/Transient.World_14:PersistentLevel.BP_BuildMachine_PinballV3_C_0.BuildMesh'' but it has ComplexAsSimple collision.
+[2024.11.19-01.56.15:367][284]PIE: Warning: Trying to simulate physics on ''/Engine/Transient.World_14:PersistentLevel.BP_BuildMachine_PinballV3_C_0.BuildMesh'' but it has ComplexAsSimple collision.
+[2024.11.19-01.56.15:376][284]PIE: Warning: Trying to simulate physics on ''/Game/Levels/Arcade_Game.Arcade_Game:PersistentLevel.BP_BuildMachine_PinballV3_C_2.BuildMesh'' but it has ComplexAsSimple collision.
+[2024.11.19-01.56.15:377][284]PIE: Warning: Trying to simulate physics on ''/Game/Levels/Arcade_Game.Arcade_Game:PersistentLevel.BP_BuildMachine_PinballV3_C_2.BuildMesh'' but it has ComplexAsSimple collision.
+[2024.11.19-01.56.15:378][284]PIE: Warning: Trying to simulate physics on ''/Game/Levels/Arcade_Game.Arcade_Game:PersistentLevel.BP_BuildMachine_PinballV3_C_2.BuildMesh'' but it has ComplexAsSimple collision.
+[2024.11.19-01.56.15:378][284]PIE: Warning: Trying to simulate physics on ''/Engine/Transient.World_14:PersistentLevel.BP_BuildMachine_PinballV3_C_0.BuildMesh'' but it has ComplexAsSimple collision.
+[2024.11.19-01.56.15:379][284]PIE: Warning: Trying to simulate physics on ''/Engine/Transient.World_14:PersistentLevel.BP_BuildMachine_PinballV3_C_0.BuildMesh'' but it has ComplexAsSimple collision.
+[2024.11.19-01.56.15:379][284]PIE: Warning: Trying to simulate physics on ''/Engine/Transient.World_14:PersistentLevel.BP_BuildMachine_PinballV3_C_0.BuildMesh'' but it has ComplexAsSimple collision.
+[2024.11.19-01.56.15:385][284]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.19-01.56.15:431][284]LogSavePackage: Moving output files for package: /Game/Blueprints/Builder/Machines/MachineBuilds/Pinball/BP_BuildMachineMaster_Pinball
+[2024.11.19-01.56.15:431][284]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Saved/BP_BuildMachineMaster_PinballD09298134318F51256F43D9DC68B977B.tmp' to '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/Blueprints/Builder/Machines/MachineBuilds/Pinball/BP_BuildMachineMaster_Pinball.uasset'
+[2024.11.19-01.56.15:444][284]LogSavePackage: Moving output files for package: /Game/Blueprints/Builder/Machines/MachineBuilds/Pinball/BP_BuildMachine_PinballV3
+[2024.11.19-01.56.15:445][284]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Saved/BP_BuildMachine_PinballV3B9EDCBEC42984EEC1C08D09CBEED2C7D.tmp' to '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/Blueprints/Builder/Machines/MachineBuilds/Pinball/BP_BuildMachine_PinballV3.uasset'
+[2024.11.19-01.56.15:455][284]LogFileHelpers: InternalPromptForCheckoutAndSave took 69 ms (total: 597 ms)
+[2024.11.19-01.56.15:481][284]AssetCheck: New page: Asset Save: multiple assets
+[2024.11.19-01.56.15:481][284]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Builder/Machines/MachineBuilds/Pinball/BP_BuildMachineMaster_Pinball.BP_BuildMachineMaster_Pinball
+[2024.11.19-01.56.15:481][284]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Builder/Machines/MachineBuilds/Pinball/BP_BuildMachine_PinballV3.BP_BuildMachine_PinballV3
+[2024.11.19-01.56.15:902][309]PIE: Warning: Trying to simulate physics on ''/Engine/Transient.World_14:PersistentLevel.BP_BuildMachine_PinballV3_C_0.BuildMesh'' but it has ComplexAsSimple collision.
+[2024.11.19-01.56.15:903][309]PIE: Warning: Trying to simulate physics on ''/Engine/Transient.World_14:PersistentLevel.BP_BuildMachine_PinballV3_C_0.BuildMesh'' but it has ComplexAsSimple collision.
+[2024.11.19-01.56.15:903][309]PIE: Warning: Trying to simulate physics on ''/Engine/Transient.World_14:PersistentLevel.BP_BuildMachine_PinballV3_C_0.BuildMesh'' but it has ComplexAsSimple collision.
+[2024.11.19-01.56.20:960][799]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.19-01.56.20:981][799]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.19-01.56.20:981][799]PIE: New page: PIE session: Arcade_Game (18 de nov de 2024 19:56:20)
+[2024.11.19-01.56.20:981][799]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Arcade_Game
+[2024.11.19-01.56.20:990][799]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008709s)
+[2024.11.19-01.56.20:990][799]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Arcade_Game.Arcade_Game to /Game/Levels/UEDPIE_0_Arcade_Game.Arcade_Game (0.008751s)
+[2024.11.19-01.56.21:011][799]LogUObjectHash: Compacting FUObjectHashTables data took   2.06ms
+[2024.11.19-01.56.21:014][799]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.19-01.56.21:016][799]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.19-01.56.21:016][799]LogAIModule: Creating AISystem for world Arcade_Game
+[2024.11.19-01.56.21:016][799]LogPlayLevel: PIE: World Init took: (0.001098s)
+[2024.11.19-01.56.21:016][799]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2024.11.19-01.56.21:016][799]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.19-01.56.21:016][799]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.19-01.56.21:017][799]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.19-01.56.21:017][799]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.19-01.56.21:017][799]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.19-01.56.21:017][799]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.19-01.56.21:017][799]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.19-01.56.21:017][799]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.19-01.56.21:017][799]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.19-01.56.21:017][799]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.19-01.56.21:017][799]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.19-01.56.21:018][799]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.19-01.56.21:061][799]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (2- USB Audio Device)
+[2024.11.19-01.56.21:061][799]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.19-01.56.21:061][799]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.19-01.56.21:061][799]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.19-01.56.21:062][799]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2024.11.19-01.56.21:062][799]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2024.11.19-01.56.21:064][799]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2024.11.19-01.56.21:064][799]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2024.11.19-01.56.21:064][799]LogInit: FAudioDevice initialized with ID 3.
+[2024.11.19-01.56.21:064][799]LogAudio: Display: Audio Device (ID: 3) registered with world 'Arcade_Game'.
+[2024.11.19-01.56.21:064][799]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 3
+[2024.11.19-01.56.21:067][799]LogLoad: Game class is 'MyGameGamemode_C'
+[2024.11.19-01.56.21:071][799]PIE: Warning: Trying to simulate physics on ''/Game/Levels/UEDPIE_0_Arcade_Game.Arcade_Game:PersistentLevel.BP_BuildProps_CoffeTable_C_1.BuildMesh'' but it has ComplexAsSimple collision.
+[2024.11.19-01.56.21:073][799]PIE: Warning: Trying to simulate physics on ''/Game/Levels/UEDPIE_0_Arcade_Game.Arcade_Game:PersistentLevel.BP_BuildMachine_PinballV3_C_2.BuildMesh'' but it has ComplexAsSimple collision.
+[2024.11.19-01.56.21:073][799]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Arcade_Game.Arcade_Game up for play (max tick rate 0) at 2024.11.18-22.56.21
+[2024.11.19-01.56.21:073][799]LogWorld: Bringing up level for play took: 0.004502
+[2024.11.19-01.56.21:076][799]LogOnline: OSS: Created online subsystem instance for: :Context_19
+[2024.11.19-01.56.21:077][799]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.19-01.56.21:077][799]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.19-01.56.21:077][799]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.11.19-01.56.21:083][799]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.11.19-01.56.21:083][799]PIE: Server logged in
+[2024.11.19-01.56.21:084][799]PIE: Play in editor total start time 0,102 seconds.
+[2024.11.19-01.56.28:944][506]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.19-01.56.28:944][506]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Arcade_Game
+[2024.11.19-01.56.28:945][506]LogWorld: UWorld::CleanupWorld for Arcade_Game, bSessionEnded=true, bCleanupResources=true
+[2024.11.19-01.56.28:946][506]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.19-01.56.28:955][506]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.19-01.56.28:961][506]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.19-01.56.28:982][506]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.11.19-01.56.28:982][506]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 3
+[2024.11.19-01.56.28:982][506]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2024.11.19-01.56.28:986][506]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2024.11.19-01.56.28:992][506]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.19-01.56.28:996][506]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2024.11.19-01.56.29:158][507]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2024.11.19-01.56.30:135][576]LogSlate: Window 'Message Log' being destroyed
+[2024.11.19-01.56.30:146][576]LogSlate: Window 'Message Log' being destroyed
+[2024.11.19-01.56.34:472][ 37]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2024.11.19-01.56.34:472][ 37]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.19-01.56.34:511][ 37]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildProps_Test.BP_BuildProps_Test
+[2024.11.19-01.56.34:513][ 37]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.19-01.56.34:513][ 37]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.19-01.56.35:356][106]LogViewport: Scene viewport resized to 1141x685, mode Windowed.
+[2024.11.19-01.56.37:097][287]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2024.11.19-01.56.37:097][287]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.19-01.56.41:589][691]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2024.11.19-01.56.41:589][691]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2024.11.19-01.56.41:589][691]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.19-01.56.42:075][730]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2024.11.19-01.56.42:075][730]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2024.11.19-01.56.42:075][730]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.19-01.56.46:370][100]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.19-01.56.46:407][101]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.19-01.56.47:448][196]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Builder/Machines/MachineBuilds/Claw/BP_BuildMachineMaster_Claw.BP_BuildMachineMaster_Claw
+[2024.11.19-01.56.47:448][196]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.19-01.56.47:448][196]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.19-01.56.48:717][319]LogWorld: UWorld::CleanupWorld for World_20, bSessionEnded=true, bCleanupResources=true
+[2024.11.19-01.56.48:717][319]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.19-01.56.48:766][319]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Builder/Machines/MachineBuilds/Claw/BP_BuildMachineMaster_Claw.BP_BuildMachineMaster_Claw
+[2024.11.19-01.56.48:766][319]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.19-01.56.48:766][319]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.19-01.56.49:999][428]LogViewport: Scene viewport resized to 1141x685, mode Windowed.
+[2024.11.19-01.57.05:809][ 98]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2024.11.19-01.57.05:820][ 98]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.19-01.57.05:939][ 98]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2024.11.19-01.57.05:969][ 98]LogSavePackage: Moving output files for package: /Game/Levels/Arcade_Game
+[2024.11.19-01.57.05:970][ 98]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Saved/Arcade_Game0F38CAC04CE61ACB55BFAEA55224A008.tmp' to '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/Levels/Arcade_Game.umap'
+[2024.11.19-01.57.05:988][ 98]LogFileHelpers: Saving map 'Arcade_Game' took 0.138
+[2024.11.19-01.57.05:995][ 98]LogFileHelpers: InternalPromptForCheckoutAndSave took 175 ms (total: 773 ms)
+[2024.11.19-01.57.05:997][ 98]AssetCheck: New page: Asset Save: Arcade_Game
+[2024.11.19-01.57.05:997][ 98]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Arcade_Game.Arcade_Game
+[2024.11.19-01.57.06:181][115]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.19-01.57.06:200][115]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.19-01.57.06:200][115]PIE: New page: PIE session: Arcade_Game (18 de nov de 2024 19:57:06)
+[2024.11.19-01.57.06:233][115]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Arcade_Game
+[2024.11.19-01.57.06:242][115]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007678s)
+[2024.11.19-01.57.06:242][115]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Arcade_Game.Arcade_Game to /Game/Levels/UEDPIE_0_Arcade_Game.Arcade_Game (0.007738s)
+[2024.11.19-01.57.06:257][115]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2024.11.19-01.57.06:260][115]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.19-01.57.06:260][115]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.19-01.57.06:261][115]LogAIModule: Creating AISystem for world Arcade_Game
+[2024.11.19-01.57.06:261][115]LogPlayLevel: PIE: World Init took: (0.001080s)
+[2024.11.19-01.57.06:261][115]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2024.11.19-01.57.06:261][115]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.19-01.57.06:261][115]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.19-01.57.06:261][115]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.19-01.57.06:261][115]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.19-01.57.06:261][115]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.19-01.57.06:261][115]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.19-01.57.06:261][115]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.19-01.57.06:261][115]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.19-01.57.06:262][115]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.19-01.57.06:262][115]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.19-01.57.06:262][115]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.19-01.57.06:263][115]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.19-01.57.06:301][115]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (2- USB Audio Device)
+[2024.11.19-01.57.06:301][115]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.19-01.57.06:301][115]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.19-01.57.06:301][115]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.19-01.57.06:302][115]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2024.11.19-01.57.06:302][115]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2024.11.19-01.57.06:304][115]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2024.11.19-01.57.06:304][115]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2024.11.19-01.57.06:304][115]LogInit: FAudioDevice initialized with ID 4.
+[2024.11.19-01.57.06:304][115]LogAudio: Display: Audio Device (ID: 4) registered with world 'Arcade_Game'.
+[2024.11.19-01.57.06:304][115]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 4
+[2024.11.19-01.57.06:308][115]LogLoad: Game class is 'MyGameGamemode_C'
+[2024.11.19-01.57.06:311][115]PIE: Warning: Trying to simulate physics on ''/Game/Levels/UEDPIE_0_Arcade_Game.Arcade_Game:PersistentLevel.BP_BuildProps_CoffeTable_C_1.BuildMesh'' but it has ComplexAsSimple collision.
+[2024.11.19-01.57.06:312][115]PIE: Warning: Trying to simulate physics on ''/Game/Levels/UEDPIE_0_Arcade_Game.Arcade_Game:PersistentLevel.BP_BuildMachine_PinballV3_C_2.BuildMesh'' but it has ComplexAsSimple collision.
+[2024.11.19-01.57.06:312][115]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Arcade_Game.Arcade_Game up for play (max tick rate 0) at 2024.11.18-22.57.06
+[2024.11.19-01.57.06:313][115]LogWorld: Bringing up level for play took: 0.004638
+[2024.11.19-01.57.06:317][115]LogOnline: OSS: Created online subsystem instance for: :Context_25
+[2024.11.19-01.57.06:317][115]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.19-01.57.06:317][115]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.19-01.57.06:317][115]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.11.19-01.57.06:324][115]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.11.19-01.57.06:324][115]PIE: Server logged in
+[2024.11.19-01.57.06:325][115]PIE: Play in editor total start time 0,125 seconds.
+[2024.11.19-01.57.18:454][217]LogShaderCompilers: Display: ================================================
+[2024.11.19-01.57.18:454][217]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.11.19-01.57.18:454][217]LogShaderCompilers: Display: Total job queries 226, among them cache hits 33 (14.60%)
+[2024.11.19-01.57.18:454][217]LogShaderCompilers: Display: Tracking 135 distinct input hashes that result in 55 distinct outputs (40.74%)
+[2024.11.19-01.57.18:454][217]LogShaderCompilers: Display: RAM used: 2,80 MiB of 819,20 MiB budget. Usage: 0.34%
+[2024.11.19-01.57.18:454][217]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.11.19-01.57.18:454][217]LogShaderCompilers: Display: Shaders Compiled: 135
+[2024.11.19-01.57.18:454][217]LogShaderCompilers: Display: Jobs assigned 135, completed 135 (100%)
+[2024.11.19-01.57.18:454][217]LogShaderCompilers: Display: Average time worker was idle: 15.32 s
+[2024.11.19-01.57.18:454][217]LogShaderCompilers: Display: Time job spent in pending queue: average 3.36 s, longest 7.38 s
+[2024.11.19-01.57.18:454][217]LogShaderCompilers: Display: Job execution time: average 0.58 s, max 4.68 s
+[2024.11.19-01.57.18:454][217]LogShaderCompilers: Display: Job life time (pending + execution): average 3.94 s, max 7.79
+[2024.11.19-01.57.18:454][217]LogShaderCompilers: Display: Shader code size: average 35,681 KiB, min 4,465 KiB, max 85,254 KiB
+[2024.11.19-01.57.18:454][217]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 14.57 s
+[2024.11.19-01.57.18:454][217]LogShaderCompilers: Display: Jobs were issued in 135 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.11.19-01.57.18:454][217]LogShaderCompilers: Display: Average processing rate: 9.27 jobs/sec
+[2024.11.19-01.57.18:454][217]LogShaderCompilers: Display: Total thread time: 63,39 s
+[2024.11.19-01.57.18:454][217]LogShaderCompilers: Display: Total thread preprocess time: 6,315 s
+[2024.11.19-01.57.18:454][217]LogShaderCompilers: Display: Percentage time preprocessing: 9.96%
+[2024.11.19-01.57.18:454][217]LogShaderCompilers: Display: Effective parallelization: 4.35 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.11.19-01.57.18:454][217]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.11.19-01.57.18:456][217]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled    3 times, average 1.78 sec, max 4.58 sec, min 0.29 sec)
+[2024.11.19-01.57.18:456][217]LogShaderCompilers: Display:             TShadowDepthVSVertexShadowDepth_VirtualShadowMap (compiled    1 times, average 0.60 sec, max 0.60 sec, min 0.60 sec)
+[2024.11.19-01.57.18:456][217]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled   30 times, average 0.60 sec, max 1.07 sec, min 0.31 sec)
+[2024.11.19-01.57.18:456][217]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled   31 times, average 0.57 sec, max 1.05 sec, min 0.29 sec)
+[2024.11.19-01.57.18:456][217]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled   24 times, average 0.51 sec, max 0.79 sec, min 0.32 sec)
+[2024.11.19-01.57.18:456][217]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.11.19-01.57.18:456][217]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 28.28% of total time (compiled   30 times, average 0.60 sec, max 1.07 sec, min 0.31 sec)
+[2024.11.19-01.57.18:456][217]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 27.70% of total time (compiled   31 times, average 0.57 sec, max 1.05 sec, min 0.29 sec)
+[2024.11.19-01.57.18:456][217]LogShaderCompilers: Display:                                                 FLumenCardVS - 19.38% of total time (compiled   24 times, average 0.51 sec, max 0.79 sec, min 0.32 sec)
+[2024.11.19-01.57.18:456][217]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 8.45% of total time (compiled    3 times, average 1.78 sec, max 4.58 sec, min 0.29 sec)
+[2024.11.19-01.57.18:456][217]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 7.88% of total time (compiled   24 times, average 0.21 sec, max 0.30 sec, min 0.15 sec)
+[2024.11.19-01.57.18:456][217]LogShaderCompilers: Display: ================================================
+[2024.11.19-01.57.19:323][299]LogBlueprintUserMessages: [BTTask_RecieveTokensOnTokenCashier_C_0] 1
+[2024.11.19-01.57.26:140][905]LogBlueprintUserMessages: [BTTask_ThanksForChange_C_0] playing
+[2024.11.19-01.57.29:306][212]LogBlueprintUserMessages: [BTTask_RecieveTokensOnTokenCashier_C_0] 5
+[2024.11.19-01.57.34:200][675]LogBlueprintUserMessages: [BTTask_ThanksForChange_C_0] playing
+[2024.11.19-01.57.39:335][145]LogBlueprintUserMessages: [BTTask_RecieveTokensOnTokenCashier_C_0] 4
+[2024.11.19-01.57.45:658][717]LogBlueprintUserMessages: [BTTask_ThanksForChange_C_0] playing
+[2024.11.19-01.57.49:096][ 21]LogBlueprintUserMessages: [BTTask_ThanksForChange_C_0] playing
+[2024.11.19-01.57.49:311][ 41]LogBlueprintUserMessages: [BTTask_RecieveTokensOnTokenCashier_C_0] 4
+[2024.11.19-01.57.59:250][982]LogBlueprintUserMessages: [BTTask_ThanksForChange_C_0] playing
+[2024.11.19-01.57.59:300][987]LogBlueprintUserMessages: [BTTask_RecieveTokensOnTokenCashier_C_0] 5
+[2024.11.19-01.58.05:480][564]LogBlueprintUserMessages: [BTTask_ThanksForChange_C_0] playing
+[2024.11.19-01.58.09:324][919]LogBlueprintUserMessages: [BTTask_RecieveTokensOnTokenCashier_C_0] 3
+[2024.11.19-01.58.09:433][929]LogBlueprintUserMessages: [BTTask_ThanksForChange_C_0] playing
+[2024.11.19-01.58.13:836][335]LogBlueprintUserMessages: [BTTask_ThanksForChange_C_0] playing
+[2024.11.19-01.58.16:839][616]LogBlueprintUserMessages: [BTTask_ThanksForChange_C_0] playing
+[2024.11.19-01.58.19:311][843]LogBlueprintUserMessages: [BTTask_RecieveTokensOnTokenCashier_C_0] 1
+[2024.11.19-01.58.19:591][869]LogBlueprintUserMessages: [BTTask_ThanksForChange_C_0] playing
+[2024.11.19-01.58.26:880][527]LogBlueprintUserMessages: [BTTask_ThanksForChange_C_0] playing
+[2024.11.19-01.58.29:300][754]LogBlueprintUserMessages: [BTTask_RecieveTokensOnTokenCashier_C_0] 5
+[2024.11.19-01.58.35:925][350]LogBlueprintUserMessages: [BP_BagBox_C_1] Taked Box
+[2024.11.19-01.58.39:400][676]LogBlueprintUserMessages: [BPC_BagSystem] Empty Machine
+[2024.11.19-01.58.42:674][965]LogBlueprintUserMessages: [BTTask_ThanksForChange_C_0] playing
+[2024.11.19-01.58.49:163][557]LogBlueprintUserMessages: [BTTask_RecieveTokensOnTokenCashier_C_0] 3
+[2024.11.19-01.58.49:943][626]LogBlueprintUserMessages: [BTTask_ThanksForChange_C_0] playing
+[2024.11.19-01.58.52:459][849]LogBlueprintUserMessages: [BTTask_RecieveTokensOnTokenCashier_C_0] 2
+[2024.11.19-01.58.57:264][277]LogBlueprintUserMessages: [BTTask_ThanksForChange_C_0] playing
+[2024.11.19-01.58.59:491][435]LogBlueprintUserMessages: [BTTask_RecieveTokensOnTokenCashier_C_0] 1
+[2024.11.19-01.59.00:106][487]LogBlueprintUserMessages: [BTTask_ThanksForChange_C_0] playing
+[2024.11.19-01.59.05:692][863]LogBlueprintUserMessages: [BTTask_ThanksForChange_C_0] playing
+[2024.11.19-01.59.08:680][ 82]LogBlueprintUserMessages: [BTTask_ThanksForChange_C_0] playing
+[2024.11.19-01.59.13:862][550]LogBlueprintUserMessages: [BTTask_ThanksForChange_C_0] playing
+[2024.11.19-01.59.20:801][207]LogBlueprintUserMessages: [BTTask_ThanksForChange_C_0] playing
+[2024.11.19-01.59.26:004][699]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.19-01.59.26:004][699]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Arcade_Game
+[2024.11.19-01.59.26:007][699]LogWorld: UWorld::CleanupWorld for Arcade_Game, bSessionEnded=true, bCleanupResources=true
+[2024.11.19-01.59.26:008][699]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.19-01.59.26:016][699]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.19-01.59.26:023][699]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.19-01.59.26:047][699]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.11.19-01.59.26:048][699]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 4
+[2024.11.19-01.59.26:049][699]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2024.11.19-01.59.26:051][699]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2024.11.19-01.59.26:058][699]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.19-01.59.26:063][699]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2024.11.19-01.59.26:233][700]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2024.11.19-01.59.27:191][773]LogSlate: Window 'Message Log' being destroyed
+[2024.11.19-01.59.27:201][773]LogSlate: Window 'Message Log' being destroyed
+[2024.11.19-01.59.29:017][935]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.19-01.59.32:988][257]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/AI/BP_NPC.BP_NPC_C
+[2024.11.19-01.59.32:988][257]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/AI/BP_NPC.BP_NPC_C
+[2024.11.19-01.59.32:992][257]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/AI/BP_NPC.BP_NPC as actor: BP_NPC_C /Game/Levels/Arcade_Game.Arcade_Game:PersistentLevel.BP_NPC_C_0
+[2024.11.19-01.59.32:996][257]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/AI/BP_NPC.BP_NPC as actor: BP_NPC_C /Game/Levels/Arcade_Game.Arcade_Game:PersistentLevel.BP_NPC_C_0
+[2024.11.19-01.59.33:004][257]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2024.11.19-01.59.33:213][265]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/AI/BP_NPC.BP_NPC_C
+[2024.11.19-01.59.33:213][265]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/AI/BP_NPC.BP_NPC_C
+[2024.11.19-01.59.33:221][265]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/AI/BP_NPC.BP_NPC as actor: BP_NPC_C /Game/Levels/Arcade_Game.Arcade_Game:PersistentLevel.BP_NPC_C_1
+[2024.11.19-01.59.33:224][265]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/AI/BP_NPC.BP_NPC as actor: BP_NPC_C /Game/Levels/Arcade_Game.Arcade_Game:PersistentLevel.BP_NPC_C_1
+[2024.11.19-01.59.33:946][303]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/AI/BP_NPC.BP_NPC_C
+[2024.11.19-01.59.33:946][303]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/AI/BP_NPC.BP_NPC_C
+[2024.11.19-01.59.33:947][303]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/AI/BP_NPC.BP_NPC as actor: BP_NPC_C /Game/Levels/Arcade_Game.Arcade_Game:PersistentLevel.BP_NPC_C_2
+[2024.11.19-01.59.33:949][303]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/AI/BP_NPC.BP_NPC as actor: BP_NPC_C /Game/Levels/Arcade_Game.Arcade_Game:PersistentLevel.BP_NPC_C_2
+[2024.11.19-01.59.34:190][315]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/AI/BP_NPC.BP_NPC_C
+[2024.11.19-01.59.34:190][315]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/AI/BP_NPC.BP_NPC_C
+[2024.11.19-01.59.34:197][315]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/AI/BP_NPC.BP_NPC as actor: BP_NPC_C /Game/Levels/Arcade_Game.Arcade_Game:PersistentLevel.BP_NPC_C_3
+[2024.11.19-01.59.34:199][315]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/AI/BP_NPC.BP_NPC as actor: BP_NPC_C /Game/Levels/Arcade_Game.Arcade_Game:PersistentLevel.BP_NPC_C_3
+[2024.11.19-01.59.34:824][350]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/AI/BP_NPC.BP_NPC_C
+[2024.11.19-01.59.34:824][350]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/AI/BP_NPC.BP_NPC_C
+[2024.11.19-01.59.34:828][350]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/AI/BP_NPC.BP_NPC as actor: BP_NPC_C /Game/Levels/Arcade_Game.Arcade_Game:PersistentLevel.BP_NPC_C_4
+[2024.11.19-01.59.34:830][350]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/AI/BP_NPC.BP_NPC as actor: BP_NPC_C /Game/Levels/Arcade_Game.Arcade_Game:PersistentLevel.BP_NPC_C_4
+[2024.11.19-01.59.35:007][357]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/AI/BP_NPC.BP_NPC_C
+[2024.11.19-01.59.35:007][357]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/AI/BP_NPC.BP_NPC_C
+[2024.11.19-01.59.35:012][357]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/AI/BP_NPC.BP_NPC as actor: BP_NPC_C /Game/Levels/Arcade_Game.Arcade_Game:PersistentLevel.BP_NPC_C_5
+[2024.11.19-01.59.35:014][357]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/AI/BP_NPC.BP_NPC as actor: BP_NPC_C /Game/Levels/Arcade_Game.Arcade_Game:PersistentLevel.BP_NPC_C_5
+[2024.11.19-01.59.35:626][392]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/AI/BP_NPC.BP_NPC_C
+[2024.11.19-01.59.35:626][392]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/AI/BP_NPC.BP_NPC_C
+[2024.11.19-01.59.35:629][392]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/AI/BP_NPC.BP_NPC as actor: BP_NPC_C /Game/Levels/Arcade_Game.Arcade_Game:PersistentLevel.BP_NPC_C_6
+[2024.11.19-01.59.35:631][392]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/AI/BP_NPC.BP_NPC as actor: BP_NPC_C /Game/Levels/Arcade_Game.Arcade_Game:PersistentLevel.BP_NPC_C_6
+[2024.11.19-01.59.35:845][403]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/AI/BP_NPC.BP_NPC_C
+[2024.11.19-01.59.35:845][403]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/AI/BP_NPC.BP_NPC_C
+[2024.11.19-01.59.35:851][403]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/AI/BP_NPC.BP_NPC as actor: BP_NPC_C /Game/Levels/Arcade_Game.Arcade_Game:PersistentLevel.BP_NPC_C_7
+[2024.11.19-01.59.35:853][403]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/AI/BP_NPC.BP_NPC as actor: BP_NPC_C /Game/Levels/Arcade_Game.Arcade_Game:PersistentLevel.BP_NPC_C_7
+[2024.11.19-01.59.36:382][432]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/AI/BP_NPC.BP_NPC_C
+[2024.11.19-01.59.36:382][432]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/AI/BP_NPC.BP_NPC_C
+[2024.11.19-01.59.36:386][432]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/AI/BP_NPC.BP_NPC as actor: BP_NPC_C /Game/Levels/Arcade_Game.Arcade_Game:PersistentLevel.BP_NPC_C_8
+[2024.11.19-01.59.36:388][432]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/AI/BP_NPC.BP_NPC as actor: BP_NPC_C /Game/Levels/Arcade_Game.Arcade_Game:PersistentLevel.BP_NPC_C_8
+[2024.11.19-01.59.36:546][438]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/AI/BP_NPC.BP_NPC_C
+[2024.11.19-01.59.36:546][438]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/AI/BP_NPC.BP_NPC_C
+[2024.11.19-01.59.36:551][438]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/AI/BP_NPC.BP_NPC as actor: BP_NPC_C /Game/Levels/Arcade_Game.Arcade_Game:PersistentLevel.BP_NPC_C_9
+[2024.11.19-01.59.36:553][438]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/AI/BP_NPC.BP_NPC as actor: BP_NPC_C /Game/Levels/Arcade_Game.Arcade_Game:PersistentLevel.BP_NPC_C_9
+[2024.11.19-01.59.37:067][464]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/AI/BP_NPC.BP_NPC_C
+[2024.11.19-01.59.37:067][464]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/AI/BP_NPC.BP_NPC_C
+[2024.11.19-01.59.37:070][464]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/AI/BP_NPC.BP_NPC as actor: BP_NPC_C /Game/Levels/Arcade_Game.Arcade_Game:PersistentLevel.BP_NPC_C_10
+[2024.11.19-01.59.37:071][464]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/AI/BP_NPC.BP_NPC as actor: BP_NPC_C /Game/Levels/Arcade_Game.Arcade_Game:PersistentLevel.BP_NPC_C_10
+[2024.11.19-01.59.37:684][504]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/AI/BP_NPC.BP_NPC_C
+[2024.11.19-01.59.37:684][504]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/AI/BP_NPC.BP_NPC_C
+[2024.11.19-01.59.37:689][504]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/AI/BP_NPC.BP_NPC as actor: BP_NPC_C /Game/Levels/Arcade_Game.Arcade_Game:PersistentLevel.BP_NPC_C_11
+[2024.11.19-01.59.37:692][504]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/AI/BP_NPC.BP_NPC as actor: BP_NPC_C /Game/Levels/Arcade_Game.Arcade_Game:PersistentLevel.BP_NPC_C_11
+[2024.11.19-01.59.38:396][542]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/AI/BP_NPC.BP_NPC_C
+[2024.11.19-01.59.38:396][542]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/AI/BP_NPC.BP_NPC_C
+[2024.11.19-01.59.38:399][542]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/AI/BP_NPC.BP_NPC as actor: BP_NPC_C /Game/Levels/Arcade_Game.Arcade_Game:PersistentLevel.BP_NPC_C_12
+[2024.11.19-01.59.38:401][542]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/AI/BP_NPC.BP_NPC as actor: BP_NPC_C /Game/Levels/Arcade_Game.Arcade_Game:PersistentLevel.BP_NPC_C_12
+[2024.11.19-01.59.38:754][561]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/AI/BP_NPC.BP_NPC_C
+[2024.11.19-01.59.38:756][561]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/AI/BP_NPC.BP_NPC_C
+[2024.11.19-01.59.38:761][561]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/AI/BP_NPC.BP_NPC as actor: BP_NPC_C /Game/Levels/Arcade_Game.Arcade_Game:PersistentLevel.BP_NPC_C_13
+[2024.11.19-01.59.38:763][561]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/AI/BP_NPC.BP_NPC as actor: BP_NPC_C /Game/Levels/Arcade_Game.Arcade_Game:PersistentLevel.BP_NPC_C_13
+[2024.11.19-01.59.39:366][592]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/AI/BP_NPC.BP_NPC_C
+[2024.11.19-01.59.39:366][592]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/AI/BP_NPC.BP_NPC_C
+[2024.11.19-01.59.39:369][592]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/AI/BP_NPC.BP_NPC as actor: BP_NPC_C /Game/Levels/Arcade_Game.Arcade_Game:PersistentLevel.BP_NPC_C_14
+[2024.11.19-01.59.39:370][592]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/AI/BP_NPC.BP_NPC as actor: BP_NPC_C /Game/Levels/Arcade_Game.Arcade_Game:PersistentLevel.BP_NPC_C_14
+[2024.11.19-01.59.39:625][604]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/AI/BP_NPC.BP_NPC_C
+[2024.11.19-01.59.39:625][604]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/AI/BP_NPC.BP_NPC_C
+[2024.11.19-01.59.39:630][604]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/AI/BP_NPC.BP_NPC as actor: BP_NPC_C /Game/Levels/Arcade_Game.Arcade_Game:PersistentLevel.BP_NPC_C_15
+[2024.11.19-01.59.39:633][604]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/AI/BP_NPC.BP_NPC as actor: BP_NPC_C /Game/Levels/Arcade_Game.Arcade_Game:PersistentLevel.BP_NPC_C_15
+[2024.11.19-01.59.40:171][629]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/AI/BP_NPC.BP_NPC_C
+[2024.11.19-01.59.40:171][629]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/AI/BP_NPC.BP_NPC_C
+[2024.11.19-01.59.40:176][629]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/AI/BP_NPC.BP_NPC as actor: BP_NPC_C /Game/Levels/Arcade_Game.Arcade_Game:PersistentLevel.BP_NPC_C_16
+[2024.11.19-01.59.40:178][629]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/AI/BP_NPC.BP_NPC as actor: BP_NPC_C /Game/Levels/Arcade_Game.Arcade_Game:PersistentLevel.BP_NPC_C_16
+[2024.11.19-01.59.40:431][643]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/AI/BP_NPC.BP_NPC_C
+[2024.11.19-01.59.40:431][643]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/AI/BP_NPC.BP_NPC_C
+[2024.11.19-01.59.40:437][643]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/AI/BP_NPC.BP_NPC as actor: BP_NPC_C /Game/Levels/Arcade_Game.Arcade_Game:PersistentLevel.BP_NPC_C_17
+[2024.11.19-01.59.40:439][643]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/AI/BP_NPC.BP_NPC as actor: BP_NPC_C /Game/Levels/Arcade_Game.Arcade_Game:PersistentLevel.BP_NPC_C_17
+[2024.11.19-01.59.40:971][670]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/AI/BP_NPC.BP_NPC_C
+[2024.11.19-01.59.40:971][670]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/AI/BP_NPC.BP_NPC_C
+[2024.11.19-01.59.40:975][670]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/AI/BP_NPC.BP_NPC as actor: BP_NPC_C /Game/Levels/Arcade_Game.Arcade_Game:PersistentLevel.BP_NPC_C_18
+[2024.11.19-01.59.40:976][670]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/AI/BP_NPC.BP_NPC as actor: BP_NPC_C /Game/Levels/Arcade_Game.Arcade_Game:PersistentLevel.BP_NPC_C_18
+[2024.11.19-01.59.41:339][687]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/AI/BP_NPC.BP_NPC_C
+[2024.11.19-01.59.41:339][687]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/AI/BP_NPC.BP_NPC_C
+[2024.11.19-01.59.41:344][687]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/AI/BP_NPC.BP_NPC as actor: BP_NPC_C /Game/Levels/Arcade_Game.Arcade_Game:PersistentLevel.BP_NPC_C_19
+[2024.11.19-01.59.41:346][687]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/AI/BP_NPC.BP_NPC as actor: BP_NPC_C /Game/Levels/Arcade_Game.Arcade_Game:PersistentLevel.BP_NPC_C_19
+[2024.11.19-01.59.41:918][714]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/AI/BP_NPC.BP_NPC_C
+[2024.11.19-01.59.41:918][714]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/AI/BP_NPC.BP_NPC_C
+[2024.11.19-01.59.41:921][714]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/AI/BP_NPC.BP_NPC as actor: BP_NPC_C /Game/Levels/Arcade_Game.Arcade_Game:PersistentLevel.BP_NPC_C_20
+[2024.11.19-01.59.41:922][714]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/AI/BP_NPC.BP_NPC as actor: BP_NPC_C /Game/Levels/Arcade_Game.Arcade_Game:PersistentLevel.BP_NPC_C_20
+[2024.11.19-01.59.42:378][736]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/AI/BP_NPC.BP_NPC_C
+[2024.11.19-01.59.42:378][736]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/AI/BP_NPC.BP_NPC_C
+[2024.11.19-01.59.42:384][736]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/AI/BP_NPC.BP_NPC as actor: BP_NPC_C /Game/Levels/Arcade_Game.Arcade_Game:PersistentLevel.BP_NPC_C_21
+[2024.11.19-01.59.42:386][736]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/AI/BP_NPC.BP_NPC as actor: BP_NPC_C /Game/Levels/Arcade_Game.Arcade_Game:PersistentLevel.BP_NPC_C_21
+[2024.11.19-01.59.43:018][768]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/AI/BP_NPC.BP_NPC_C
+[2024.11.19-01.59.43:018][768]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/AI/BP_NPC.BP_NPC_C
+[2024.11.19-01.59.43:022][768]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/AI/BP_NPC.BP_NPC as actor: BP_NPC_C /Game/Levels/Arcade_Game.Arcade_Game:PersistentLevel.BP_NPC_C_22
+[2024.11.19-01.59.43:024][768]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/AI/BP_NPC.BP_NPC as actor: BP_NPC_C /Game/Levels/Arcade_Game.Arcade_Game:PersistentLevel.BP_NPC_C_22
+[2024.11.19-01.59.43:269][782]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/AI/BP_NPC.BP_NPC_C
+[2024.11.19-01.59.43:269][782]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/AI/BP_NPC.BP_NPC_C
+[2024.11.19-01.59.43:274][782]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/AI/BP_NPC.BP_NPC as actor: BP_NPC_C /Game/Levels/Arcade_Game.Arcade_Game:PersistentLevel.BP_NPC_C_23
+[2024.11.19-01.59.43:276][782]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/AI/BP_NPC.BP_NPC as actor: BP_NPC_C /Game/Levels/Arcade_Game.Arcade_Game:PersistentLevel.BP_NPC_C_23
+[2024.11.19-01.59.43:956][818]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/AI/BP_NPC.BP_NPC_C
+[2024.11.19-01.59.43:958][818]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/AI/BP_NPC.BP_NPC_C
+[2024.11.19-01.59.43:961][818]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/AI/BP_NPC.BP_NPC as actor: BP_NPC_C /Game/Levels/Arcade_Game.Arcade_Game:PersistentLevel.BP_NPC_C_24
+[2024.11.19-01.59.43:962][818]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/AI/BP_NPC.BP_NPC as actor: BP_NPC_C /Game/Levels/Arcade_Game.Arcade_Game:PersistentLevel.BP_NPC_C_24
+[2024.11.19-01.59.44:625][848]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/AI/BP_NPC.BP_NPC_C
+[2024.11.19-01.59.44:625][848]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/AI/BP_NPC.BP_NPC_C
+[2024.11.19-01.59.44:631][848]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/AI/BP_NPC.BP_NPC as actor: BP_NPC_C /Game/Levels/Arcade_Game.Arcade_Game:PersistentLevel.BP_NPC_C_25
+[2024.11.19-01.59.44:632][848]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/AI/BP_NPC.BP_NPC as actor: BP_NPC_C /Game/Levels/Arcade_Game.Arcade_Game:PersistentLevel.BP_NPC_C_25
+[2024.11.19-01.59.45:311][884]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/AI/BP_NPC.BP_NPC_C
+[2024.11.19-01.59.45:311][884]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/AI/BP_NPC.BP_NPC_C
+[2024.11.19-01.59.45:315][884]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/AI/BP_NPC.BP_NPC as actor: BP_NPC_C /Game/Levels/Arcade_Game.Arcade_Game:PersistentLevel.BP_NPC_C_26
+[2024.11.19-01.59.45:317][884]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/AI/BP_NPC.BP_NPC as actor: BP_NPC_C /Game/Levels/Arcade_Game.Arcade_Game:PersistentLevel.BP_NPC_C_26
+[2024.11.19-01.59.45:584][900]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/AI/BP_NPC.BP_NPC_C
+[2024.11.19-01.59.45:584][900]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/AI/BP_NPC.BP_NPC_C
+[2024.11.19-01.59.45:590][900]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/AI/BP_NPC.BP_NPC as actor: BP_NPC_C /Game/Levels/Arcade_Game.Arcade_Game:PersistentLevel.BP_NPC_C_27
+[2024.11.19-01.59.45:592][900]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/AI/BP_NPC.BP_NPC as actor: BP_NPC_C /Game/Levels/Arcade_Game.Arcade_Game:PersistentLevel.BP_NPC_C_27
+[2024.11.19-01.59.46:231][933]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/AI/BP_NPC.BP_NPC_C
+[2024.11.19-01.59.46:231][933]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/AI/BP_NPC.BP_NPC_C
+[2024.11.19-01.59.46:236][933]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/AI/BP_NPC.BP_NPC as actor: BP_NPC_C /Game/Levels/Arcade_Game.Arcade_Game:PersistentLevel.BP_NPC_C_28
+[2024.11.19-01.59.46:237][933]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/AI/BP_NPC.BP_NPC as actor: BP_NPC_C /Game/Levels/Arcade_Game.Arcade_Game:PersistentLevel.BP_NPC_C_28
+[2024.11.19-01.59.46:426][945]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/AI/BP_NPC.BP_NPC_C
+[2024.11.19-01.59.46:426][945]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/AI/BP_NPC.BP_NPC_C
+[2024.11.19-01.59.46:431][945]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/AI/BP_NPC.BP_NPC as actor: BP_NPC_C /Game/Levels/Arcade_Game.Arcade_Game:PersistentLevel.BP_NPC_C_29
+[2024.11.19-01.59.46:434][945]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/AI/BP_NPC.BP_NPC as actor: BP_NPC_C /Game/Levels/Arcade_Game.Arcade_Game:PersistentLevel.BP_NPC_C_29
+[2024.11.19-01.59.47:058][977]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/AI/BP_NPC.BP_NPC_C
+[2024.11.19-01.59.47:058][977]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/AI/BP_NPC.BP_NPC_C
+[2024.11.19-01.59.47:061][977]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/AI/BP_NPC.BP_NPC as actor: BP_NPC_C /Game/Levels/Arcade_Game.Arcade_Game:PersistentLevel.BP_NPC_C_30
+[2024.11.19-01.59.47:063][977]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/AI/BP_NPC.BP_NPC as actor: BP_NPC_C /Game/Levels/Arcade_Game.Arcade_Game:PersistentLevel.BP_NPC_C_30
+[2024.11.19-01.59.47:558][  5]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/AI/BP_NPC.BP_NPC_C
+[2024.11.19-01.59.47:558][  5]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/AI/BP_NPC.BP_NPC_C
+[2024.11.19-01.59.47:563][  5]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/AI/BP_NPC.BP_NPC as actor: BP_NPC_C /Game/Levels/Arcade_Game.Arcade_Game:PersistentLevel.BP_NPC_C_31
+[2024.11.19-01.59.47:566][  5]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/AI/BP_NPC.BP_NPC as actor: BP_NPC_C /Game/Levels/Arcade_Game.Arcade_Game:PersistentLevel.BP_NPC_C_31
+[2024.11.19-01.59.48:670][ 83]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.19-01.59.48:691][ 83]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.19-01.59.48:691][ 83]PIE: New page: PIE session: Arcade_Game (18 de nov de 2024 19:59:48)
+[2024.11.19-01.59.48:691][ 83]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Arcade_Game
+[2024.11.19-01.59.48:703][ 83]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012399s)
+[2024.11.19-01.59.48:704][ 83]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Arcade_Game.Arcade_Game to /Game/Levels/UEDPIE_0_Arcade_Game.Arcade_Game (0.012441s)
+[2024.11.19-01.59.48:768][ 83]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2024.11.19-01.59.48:773][ 83]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.19-01.59.48:774][ 83]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.19-01.59.48:774][ 83]LogAIModule: Creating AISystem for world Arcade_Game
+[2024.11.19-01.59.48:774][ 83]LogPlayLevel: PIE: World Init took: (0.001023s)
+[2024.11.19-01.59.48:774][ 83]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2024.11.19-01.59.48:774][ 83]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.19-01.59.48:774][ 83]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.19-01.59.48:774][ 83]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.19-01.59.48:774][ 83]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.19-01.59.48:774][ 83]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.19-01.59.48:774][ 83]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.19-01.59.48:774][ 83]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.19-01.59.48:774][ 83]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.19-01.59.48:775][ 83]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.19-01.59.48:775][ 83]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.19-01.59.48:775][ 83]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.19-01.59.48:777][ 83]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.19-01.59.48:816][ 83]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (2- USB Audio Device)
+[2024.11.19-01.59.48:816][ 83]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.19-01.59.48:816][ 83]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.19-01.59.48:816][ 83]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.19-01.59.48:817][ 83]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2024.11.19-01.59.48:817][ 83]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=5
+[2024.11.19-01.59.48:818][ 83]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2024.11.19-01.59.48:818][ 83]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2024.11.19-01.59.48:818][ 83]LogInit: FAudioDevice initialized with ID 5.
+[2024.11.19-01.59.48:820][ 83]LogAudio: Display: Audio Device (ID: 5) registered with world 'Arcade_Game'.
+[2024.11.19-01.59.48:820][ 83]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 5
+[2024.11.19-01.59.48:824][ 83]LogLoad: Game class is 'MyGameGamemode_C'
+[2024.11.19-01.59.48:827][ 83]PIE: Warning: Trying to simulate physics on ''/Game/Levels/UEDPIE_0_Arcade_Game.Arcade_Game:PersistentLevel.BP_BuildProps_CoffeTable_C_1.BuildMesh'' but it has ComplexAsSimple collision.
+[2024.11.19-01.59.48:828][ 83]PIE: Warning: Trying to simulate physics on ''/Game/Levels/UEDPIE_0_Arcade_Game.Arcade_Game:PersistentLevel.BP_BuildMachine_PinballV3_C_2.BuildMesh'' but it has ComplexAsSimple collision.
+[2024.11.19-01.59.48:833][ 83]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Arcade_Game.Arcade_Game up for play (max tick rate 0) at 2024.11.18-22.59.48
+[2024.11.19-01.59.48:836][ 83]LogWorld: Bringing up level for play took: 0.011704
+[2024.11.19-01.59.48:840][ 83]LogOnline: OSS: Created online subsystem instance for: :Context_27
+[2024.11.19-01.59.48:841][ 83]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.19-01.59.48:841][ 83]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.19-01.59.48:841][ 83]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.11.19-01.59.48:852][ 83]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.11.19-01.59.48:852][ 83]PIE: Server logged in
+[2024.11.19-01.59.48:853][ 83]PIE: Play in editor total start time 0,162 seconds.
+[2024.11.19-01.59.52:557][359]LogBlueprintUserMessages: [BTTask_RecieveTokensOnTokenCashier_C_0] 3
+[2024.11.19-01.59.56:077][659]LogBlueprintUserMessages: [BTTask_RecieveTokensOnTokenCashier_C_0] 3
+[2024.11.19-01.59.58:692][879]LogBlueprintUserMessages: [BTTask_ThanksForChange_C_0] playing
+[2024.11.19-01.59.59:481][945]LogBlueprintUserMessages: [BTTask_RecieveTokensOnTokenCashier_C_0] 3
+[2024.11.19-02.00.01:146][ 85]LogBlueprintUserMessages: [BTTask_ThanksForChange_C_0] playing
+[2024.11.19-02.00.02:831][216]LogBlueprintUserMessages: [BTTask_RecieveTokensOnTokenCashier_C_0] 4
+[2024.11.19-02.00.03:601][274]LogBlueprintUserMessages: [BTTask_ThanksForChange_C_0] playing
+[2024.11.19-02.00.08:550][649]LogBlueprintUserMessages: [BTTask_RecieveTokensOnTokenCashier_C_0] 2
+[2024.11.19-02.00.11:721][901]LogBlueprintUserMessages: [BTTask_RecieveTokensOnTokenCashier_C_0] 5
+[2024.11.19-02.00.13:304][ 13]LogBlueprintUserMessages: [BTTask_ThanksForChange_C_0] playing
+[2024.11.19-02.00.13:758][ 47]LogBlueprintUserMessages: [BTTask_ThanksForChange_C_0] playing
+[2024.11.19-02.00.15:310][164]LogBlueprintUserMessages: [BTTask_RecieveTokensOnTokenCashier_C_0] 1
+[2024.11.19-02.00.15:587][187]LogBlueprintUserMessages: [BTTask_ThanksForChange_C_0] playing
+[2024.11.19-02.00.19:373][498]LogBlueprintUserMessages: [BTTask_RecieveTokensOnTokenCashier_C_0] 3
+[2024.11.19-02.00.23:478][840]LogBlueprintUserMessages: [BTTask_ThanksForChange_C_0] playing
+[2024.11.19-02.00.23:563][846]LogBlueprintUserMessages: [BTTask_RecieveTokensOnTokenCashier_C_0] 3
+[2024.11.19-02.00.23:924][874]LogBlueprintUserMessages: [BTTask_ThanksForChange_C_0] playing
+[2024.11.19-02.00.25:245][976]LogBlueprintUserMessages: [BTTask_ThanksForChange_C_0] playing
+[2024.11.19-02.00.27:302][149]LogBlueprintUserMessages: [BTTask_RecieveTokensOnTokenCashier_C_0] 2
+[2024.11.19-02.00.30:427][410]LogBlueprintUserMessages: [BTTask_ThanksForChange_C_0] playing
+[2024.11.19-02.00.31:265][481]LogBlueprintUserMessages: [BTTask_RecieveTokensOnTokenCashier_C_0] 2
+[2024.11.19-02.00.33:672][686]LogBlueprintUserMessages: [BTTask_ThanksForChange_C_0] playing
+[2024.11.19-02.00.34:351][743]LogBlueprintUserMessages: [BTTask_RecieveTokensOnTokenCashier_C_0] 1
+[2024.11.19-02.00.35:124][806]LogBlueprintUserMessages: [BTTask_ThanksForChange_C_0] playing
+[2024.11.19-02.00.35:607][847]LogBlueprintUserMessages: [BTTask_ThanksForChange_C_0] playing
+[2024.11.19-02.00.37:403][  1]LogBlueprintUserMessages: [BTTask_RecieveTokensOnTokenCashier_C_0] 1
+[2024.11.19-02.00.40:280][249]LogBlueprintUserMessages: [BTTask_RecieveTokensOnTokenCashier_C_0] 2
+[2024.11.19-02.00.40:808][293]LogBlueprintUserMessages: [BTTask_ThanksForChange_C_0] playing
+[2024.11.19-02.00.43:561][532]LogBlueprintUserMessages: [BTTask_RecieveTokensOnTokenCashier_C_0] 1
+[2024.11.19-02.00.43:876][558]LogBlueprintUserMessages: [BTTask_ThanksForChange_C_0] playing
+[2024.11.19-02.00.46:003][742]LogBlueprintUserMessages: [BTTask_ThanksForChange_C_0] playing
+[2024.11.19-02.00.51:194][192]LogBlueprintUserMessages: [BTTask_ThanksForChange_C_0] playing
+[2024.11.19-02.00.57:267][732]LogBlueprintUserMessages: [BP_BagBox_C_1] Taked Box
+[2024.11.19-02.00.59:501][924]LogBlueprintUserMessages: [BTTask_ThanksForChange_C_0] playing
+[2024.11.19-02.00.59:710][943]LogBlueprintUserMessages: [BPC_BagSystem] Empty Machine
+[2024.11.19-02.01.02:328][148]LogBlueprintUserMessages: [BTTask_ThanksForChange_C_0] playing
+[2024.11.19-02.01.17:224][261]LogBlueprintUserMessages: [BTTask_ThanksForChange_C_0] playing
+[2024.11.19-02.02.06:601][739]LogBlueprintUserMessages: [BP_BagBox_C_1] Taked Box
+[2024.11.19-02.02.09:954][ 28]LogBlueprintUserMessages: [BPC_BagSystem] Empty Machine
+[2024.11.19-02.03.33:884][702]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.19-02.03.33:884][702]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Arcade_Game
+[2024.11.19-02.03.33:885][702]LogWorld: UWorld::CleanupWorld for Arcade_Game, bSessionEnded=true, bCleanupResources=true
+[2024.11.19-02.03.33:887][702]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.19-02.03.33:896][702]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.19-02.03.33:902][702]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.19-02.03.33:929][702]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.19-02.03.33:929][702]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 5
+[2024.11.19-02.03.33:929][702]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2024.11.19-02.03.33:932][702]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2024.11.19-02.03.33:944][702]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
+[2024.11.19-02.03.34:234][703]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2024.11.19-02.03.35:340][790]LogSlate: Window 'Message Log' being destroyed
+[2024.11.19-02.03.35:351][790]LogSlate: Window 'Message Log' being destroyed
+[2024.11.19-02.04.18:408][933]BlueprintLog: New page: Compile BP_BuildMachineMaster_Claw
+[2024.11.19-02.04.18:530][933]LogUObjectHash: Compacting FUObjectHashTables data took   2.31ms
+[2024.11.19-02.04.18:556][933]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.19-02.04.18:607][933]LogSavePackage: Moving output files for package: /Game/Blueprints/Builder/Machines/MachineBuilds/Claw/BP_BuildMachineMaster_Claw
+[2024.11.19-02.04.18:608][933]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Saved/BP_BuildMachineMaster_Claw5270653B404FF0102698BCB372CA0E48.tmp' to '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/Blueprints/Builder/Machines/MachineBuilds/Claw/BP_BuildMachineMaster_Claw.uasset'
+[2024.11.19-02.04.18:616][933]LogFileHelpers: InternalPromptForCheckoutAndSave took 59 ms (total: 833 ms)
+[2024.11.19-02.04.18:642][933]AssetCheck: New page: Asset Save: BP_BuildMachineMaster_Claw
+[2024.11.19-02.04.18:642][933]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Builder/Machines/MachineBuilds/Claw/BP_BuildMachineMaster_Claw.BP_BuildMachineMaster_Claw
+[2024.11.19-02.04.34:897][594]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2024.11.19-02.04.34:908][594]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.19-02.04.35:036][594]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2024.11.19-02.04.35:083][594]LogSavePackage: Moving output files for package: /Game/Levels/Arcade_Game
+[2024.11.19-02.04.35:084][594]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Saved/Arcade_GameD291BBCA42B4B03F521A5A9E9EBA7819.tmp' to '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/Levels/Arcade_Game.umap'
+[2024.11.19-02.04.35:103][594]LogFileHelpers: Saving map 'Arcade_Game' took 0.162
+[2024.11.19-02.04.35:110][594]LogFileHelpers: InternalPromptForCheckoutAndSave took 202 ms (total: 1.03 sec)
+[2024.11.19-02.04.35:113][594]AssetCheck: New page: Asset Save: Arcade_Game
+[2024.11.19-02.04.35:113][594]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Arcade_Game.Arcade_Game
+[2024.11.19-02.04.53:497][277]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Builder/Machines/MachineBuilds/Claw/BP_BuildMachine_ClawV1.BP_BuildMachine_ClawV1
+[2024.11.19-02.04.53:498][277]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.19-02.04.53:498][277]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.19-02.04.55:726][519]LogWorld: UWorld::CleanupWorld for World_23, bSessionEnded=true, bCleanupResources=true
+[2024.11.19-02.04.55:726][519]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.19-02.04.55:768][519]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Builder/Machines/MachineBuilds/Claw/BP_BuildMachine_ClawV1.BP_BuildMachine_ClawV1
+[2024.11.19-02.04.55:769][519]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.19-02.04.55:769][519]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.19-02.04.56:945][624]LogViewport: Scene viewport resized to 1141x685, mode Windowed.
+[2024.11.19-02.05.54:548][357]BlueprintLog: New page: Compile BP_BuildMachine_ClawV1
+[2024.11.19-02.05.54:678][357]LogUObjectHash: Compacting FUObjectHashTables data took   2.06ms
+[2024.11.19-02.05.54:703][357]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.19-02.05.54:746][357]LogSavePackage: Moving output files for package: /Game/Blueprints/Builder/Machines/MachineBuilds/Claw/BP_BuildMachine_ClawV1
+[2024.11.19-02.05.54:747][357]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Saved/BP_BuildMachine_ClawV133E0F21F44193EDF134277B296EC247F.tmp' to '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/Blueprints/Builder/Machines/MachineBuilds/Claw/BP_BuildMachine_ClawV1.uasset'
+[2024.11.19-02.05.54:755][357]LogFileHelpers: InternalPromptForCheckoutAndSave took 52 ms (total: 1.08 sec)
+[2024.11.19-02.05.54:781][357]AssetCheck: New page: Asset Save: BP_BuildMachine_ClawV1
+[2024.11.19-02.05.54:781][357]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Builder/Machines/MachineBuilds/Claw/BP_BuildMachine_ClawV1.BP_BuildMachine_ClawV1
+[2024.11.19-02.06.02:796][128]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.19-02.06.02:829][128]LogSavePackage: Moving output files for package: /Game/Blueprints/Builder/Machines/MachineBuilds/Claw/BP_BuildMachine_ClawV1
+[2024.11.19-02.06.02:830][128]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Saved/BP_BuildMachine_ClawV1B257931845D542779719B2B6009A6A7C.tmp' to '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/Blueprints/Builder/Machines/MachineBuilds/Claw/BP_BuildMachine_ClawV1.uasset'
+[2024.11.19-02.06.02:837][128]LogFileHelpers: InternalPromptForCheckoutAndSave took 40 ms (total: 1.12 sec)
+[2024.11.19-02.06.02:838][128]AssetCheck: New page: Asset Save: BP_BuildMachine_ClawV1
+[2024.11.19-02.06.02:838][128]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Builder/Machines/MachineBuilds/Claw/BP_BuildMachine_ClawV1.BP_BuildMachine_ClawV1
+[2024.11.19-02.06.20:110][863]BlueprintLog: New page: Compile BP_BuildMachineMaster_Claw
+[2024.11.19-02.06.20:209][863]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2024.11.19-02.06.20:241][863]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.19-02.06.20:291][863]LogSavePackage: Moving output files for package: /Game/Blueprints/Builder/Machines/MachineBuilds/Claw/BP_BuildMachineMaster_Claw
+[2024.11.19-02.06.20:291][863]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Saved/BP_BuildMachineMaster_Claw54E1F81A49B909495C7398AD7FFA38EC.tmp' to '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/Blueprints/Builder/Machines/MachineBuilds/Claw/BP_BuildMachineMaster_Claw.uasset'
+[2024.11.19-02.06.20:304][863]LogSavePackage: Moving output files for package: /Game/Blueprints/Builder/Machines/MachineBuilds/Claw/BP_BuildMachine_ClawV1
+[2024.11.19-02.06.20:306][863]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Saved/BP_BuildMachine_ClawV1373A667C46F3E70883E390A655134D52.tmp' to '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/Blueprints/Builder/Machines/MachineBuilds/Claw/BP_BuildMachine_ClawV1.uasset'
+[2024.11.19-02.06.20:314][863]LogFileHelpers: InternalPromptForCheckoutAndSave took 72 ms (total: 1.20 sec)
+[2024.11.19-02.06.20:341][863]AssetCheck: New page: Asset Save: multiple assets
+[2024.11.19-02.06.20:341][863]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Builder/Machines/MachineBuilds/Claw/BP_BuildMachineMaster_Claw.BP_BuildMachineMaster_Claw
+[2024.11.19-02.06.20:341][863]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Builder/Machines/MachineBuilds/Claw/BP_BuildMachine_ClawV1.BP_BuildMachine_ClawV1
+[2024.11.19-02.06.29:986][765]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.19-02.06.30:131][765]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2024.11.19-02.06.30:184][765]LogSavePackage: Moving output files for package: /Game/Levels/Arcade_Game
+[2024.11.19-02.06.30:185][765]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Saved/Arcade_Game9DDBA96042B2C04808C692B3FF80308A.tmp' to '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/Levels/Arcade_Game.umap'
+[2024.11.19-02.06.30:204][765]LogFileHelpers: Saving map 'Arcade_Game' took 0.181
+[2024.11.19-02.06.30:214][765]LogFileHelpers: InternalPromptForCheckoutAndSave took 228 ms (total: 1.42 sec)
+[2024.11.19-02.06.30:218][765]AssetCheck: New page: Asset Save: Arcade_Game
+[2024.11.19-02.06.30:218][765]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Arcade_Game.Arcade_Game
+[2024.11.19-02.06.43:102][962]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.19-02.06.56:199][920]Cmd: DELETE
+[2024.11.19-02.06.56:200][920]Cmd: ACTOR DELETE
+[2024.11.19-02.06.56:222][920]LogEditorActor: Deleted Actor: BP_NPC_C
+[2024.11.19-02.06.56:224][920]LogEditorActor: Deleted Actor: BP_NPC_C
+[2024.11.19-02.06.56:226][920]LogEditorActor: Deleted Actor: BP_NPC_C
+[2024.11.19-02.06.56:228][920]LogEditorActor: Deleted Actor: BP_NPC_C
+[2024.11.19-02.06.56:230][920]LogEditorActor: Deleted Actor: BP_NPC_C
+[2024.11.19-02.06.56:231][920]LogEditorActor: Deleted Actor: BP_NPC_C
+[2024.11.19-02.06.56:232][920]LogEditorActor: Deleted Actor: BP_NPC_C
+[2024.11.19-02.06.56:234][920]LogEditorActor: Deleted Actor: BP_NPC_C
+[2024.11.19-02.06.56:236][920]LogEditorActor: Deleted Actor: BP_NPC_C
+[2024.11.19-02.06.56:238][920]LogEditorActor: Deleted Actor: BP_NPC_C
+[2024.11.19-02.06.56:239][920]LogEditorActor: Deleted Actor: BP_NPC_C
+[2024.11.19-02.06.56:242][920]LogEditorActor: Deleted Actor: BP_NPC_C
+[2024.11.19-02.06.56:243][920]LogEditorActor: Deleted Actor: BP_NPC_C
+[2024.11.19-02.06.56:245][920]LogEditorActor: Deleted Actor: BP_NPC_C
+[2024.11.19-02.06.56:247][920]LogEditorActor: Deleted Actor: BP_NPC_C
+[2024.11.19-02.06.56:248][920]LogEditorActor: Deleted Actor: BP_NPC_C
+[2024.11.19-02.06.56:282][920]LogUObjectHash: Compacting FUObjectHashTables data took   2.23ms
+[2024.11.19-02.06.56:288][920]LogEditorActor: Deleted 16 Actors (0.086 secs)
+[2024.11.19-02.06.58:024][ 79]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.19-02.06.58:147][ 79]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2024.11.19-02.06.58:183][ 79]LogSavePackage: Moving output files for package: /Game/Levels/Arcade_Game
+[2024.11.19-02.06.58:184][ 79]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Saved/Arcade_GameB170EABC4E4AD5116170458EEB4DDE42.tmp' to '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/Levels/Arcade_Game.umap'
+[2024.11.19-02.06.58:202][ 79]LogFileHelpers: Saving map 'Arcade_Game' took 0.147
+[2024.11.19-02.06.58:210][ 79]LogFileHelpers: InternalPromptForCheckoutAndSave took 185 ms (total: 1.61 sec)
+[2024.11.19-02.06.58:213][ 79]AssetCheck: New page: Asset Save: Arcade_Game
+[2024.11.19-02.06.58:213][ 79]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Arcade_Game.Arcade_Game
+[2024.11.19-02.07.09:897][161]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Builder/BP_BuildablesMaster.BP_BuildablesMaster
+[2024.11.19-02.07.09:898][161]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.19-02.07.09:898][161]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.19-02.07.11:449][308]LogViewport: Scene viewport resized to 1141x685, mode Windowed.
+[2024.11.19-02.07.16:694][864]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Builder/Machines/MachineBuilds/Arcade/BP_BuildMachine_ArcadeV1.BP_BuildMachine_ArcadeV1
+[2024.11.19-02.07.16:694][864]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.19-02.07.16:696][864]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.19-02.07.19:161][126]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.19-02.07.19:182][127]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.19-02.07.19:702][164]LogShaderCompilers: Display: ================================================
+[2024.11.19-02.07.19:702][164]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.11.19-02.07.19:702][164]LogShaderCompilers: Display: Total job queries 248, among them cache hits 37 (14.92%)
+[2024.11.19-02.07.19:702][164]LogShaderCompilers: Display: Tracking 150 distinct input hashes that result in 62 distinct outputs (41.33%)
+[2024.11.19-02.07.19:702][164]LogShaderCompilers: Display: RAM used: 3,13 MiB of 819,20 MiB budget. Usage: 0.38%
+[2024.11.19-02.07.19:702][164]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.11.19-02.07.19:702][164]LogShaderCompilers: Display: Shaders Compiled: 150
+[2024.11.19-02.07.19:702][164]LogShaderCompilers: Display: Jobs assigned 153, completed 150 (98.04%)
+[2024.11.19-02.07.19:702][164]LogShaderCompilers: Display: Average time worker was idle: 45.03 s
+[2024.11.19-02.07.19:702][164]LogShaderCompilers: Display: Time job spent in pending queue: average 2.97 s, longest 7.38 s
+[2024.11.19-02.07.19:702][164]LogShaderCompilers: Display: Job execution time: average 0.59 s, max 4.68 s
+[2024.11.19-02.07.19:702][164]LogShaderCompilers: Display: Job life time (pending + execution): average 3.61 s, max 7.79
+[2024.11.19-02.07.19:702][164]LogShaderCompilers: Display: Shader code size: average 35,403 KiB, min 4,465 KiB, max 85,254 KiB
+[2024.11.19-02.07.19:702][164]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 17.60 s
+[2024.11.19-02.07.19:702][164]LogShaderCompilers: Display: Jobs were issued in 153 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.11.19-02.07.19:702][164]LogShaderCompilers: Display: Average processing rate: 8.52 jobs/sec
+[2024.11.19-02.07.19:702][164]LogShaderCompilers: Display: Total thread time: 69,624 s
+[2024.11.19-02.07.19:703][164]LogShaderCompilers: Display: Total thread preprocess time: 6,987 s
+[2024.11.19-02.07.19:703][164]LogShaderCompilers: Display: Percentage time preprocessing: 10.04%
+[2024.11.19-02.07.19:703][164]LogShaderCompilers: Display: Effective parallelization: 3.96 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.11.19-02.07.19:703][164]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.11.19-02.07.19:703][164]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled    3 times, average 1.78 sec, max 4.58 sec, min 0.29 sec)
+[2024.11.19-02.07.19:703][164]LogShaderCompilers: Display:             TShadowDepthVSVertexShadowDepth_VirtualShadowMap (compiled    1 times, average 0.60 sec, max 0.60 sec, min 0.60 sec)
+[2024.11.19-02.07.19:703][164]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled   32 times, average 0.60 sec, max 1.07 sec, min 0.31 sec)
+[2024.11.19-02.07.19:703][164]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled   33 times, average 0.56 sec, max 1.05 sec, min 0.29 sec)
+[2024.11.19-02.07.19:703][164]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled   26 times, average 0.51 sec, max 0.79 sec, min 0.32 sec)
+[2024.11.19-02.07.19:703][164]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.11.19-02.07.19:703][164]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 27.41% of total time (compiled   32 times, average 0.60 sec, max 1.07 sec, min 0.31 sec)
+[2024.11.19-02.07.19:703][164]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 26.65% of total time (compiled   33 times, average 0.56 sec, max 1.05 sec, min 0.29 sec)
+[2024.11.19-02.07.19:703][164]LogShaderCompilers: Display:                                                 FLumenCardVS - 19.03% of total time (compiled   26 times, average 0.51 sec, max 0.79 sec, min 0.32 sec)
+[2024.11.19-02.07.19:703][164]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 8.07% of total time (compiled   27 times, average 0.21 sec, max 0.33 sec, min 0.14 sec)
+[2024.11.19-02.07.19:703][164]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 7.69% of total time (compiled    3 times, average 1.78 sec, max 4.58 sec, min 0.29 sec)
+[2024.11.19-02.07.19:703][164]LogShaderCompilers: Display: ================================================
+[2024.11.19-02.07.20:199][201]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Builder/Machines/MachineBuilds/Arcade/BP_BuildMachineMaster_Arcade.BP_BuildMachineMaster_Arcade
+[2024.11.19-02.07.20:200][201]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.19-02.07.20:200][201]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.19-02.07.21:308][304]LogWorld: UWorld::CleanupWorld for World_30, bSessionEnded=true, bCleanupResources=true
+[2024.11.19-02.07.21:308][304]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.19-02.07.21:349][304]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Builder/Machines/MachineBuilds/Arcade/BP_BuildMachineMaster_Arcade.BP_BuildMachineMaster_Arcade
+[2024.11.19-02.07.21:350][304]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.19-02.07.21:350][304]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.19-02.07.21:979][344]LogViewport: Scene viewport resized to 1141x685, mode Windowed.
+[2024.11.19-02.08.46:231][799]LogUObjectHash: Compacting FUObjectHashTables data took   2.23ms
+[2024.11.19-02.08.46:238][799]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.19-02.08.46:376][799]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2024.11.19-02.08.46:412][799]LogSavePackage: Moving output files for package: /Game/Levels/Arcade_Game
+[2024.11.19-02.08.46:413][799]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Saved/Arcade_GameCE43D730447D4EA7DD1B68A63437AF5B.tmp' to '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/Levels/Arcade_Game.umap'
+[2024.11.19-02.08.46:432][799]LogFileHelpers: Saving map 'Arcade_Game' took 0.157
+[2024.11.19-02.08.46:444][799]LogSavePackage: Moving output files for package: /Game/Blueprints/Builder/Machines/MachineBuilds/Arcade/BP_BuildMachine_ArcadeV1
+[2024.11.19-02.08.46:445][799]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Saved/BP_BuildMachine_ArcadeV132663AFF46A869DDFF8F0E8B4CF73402.tmp' to '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/Blueprints/Builder/Machines/MachineBuilds/Arcade/BP_BuildMachine_ArcadeV1.uasset'
+[2024.11.19-02.08.46:459][799]LogSavePackage: Moving output files for package: /Game/Blueprints/Builder/Machines/MachineBuilds/Arcade/BP_BuildMachineMaster_Arcade
+[2024.11.19-02.08.46:460][799]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Saved/BP_BuildMachineMaster_Arcade8FFD701E447B8EB5564B74B2347E4547.tmp' to '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/Blueprints/Builder/Machines/MachineBuilds/Arcade/BP_BuildMachineMaster_Arcade.uasset'
+[2024.11.19-02.08.46:470][799]LogFileHelpers: InternalPromptForCheckoutAndSave took 231 ms (total: 1.84 sec)
+[2024.11.19-02.08.46:474][799]AssetCheck: New page: Asset Save: multiple assets
+[2024.11.19-02.08.46:474][799]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Arcade_Game.Arcade_Game
+[2024.11.19-02.08.46:474][799]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Builder/Machines/MachineBuilds/Arcade/BP_BuildMachine_ArcadeV1.BP_BuildMachine_ArcadeV1
+[2024.11.19-02.08.46:474][799]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Builder/Machines/MachineBuilds/Arcade/BP_BuildMachineMaster_Arcade.BP_BuildMachineMaster_Arcade
+[2024.11.19-02.08.46:597][809]BlueprintLog: New page: Compile BP_BuildMachineMaster_Arcade
+[2024.11.19-02.08.46:723][809]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2024.11.19-02.08.56:869][753]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2024.11.19-02.08.56:876][753]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.19-02.08.57:011][753]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2024.11.19-02.08.57:047][753]LogSavePackage: Moving output files for package: /Game/Levels/Arcade_Game
+[2024.11.19-02.08.57:048][753]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Saved/Arcade_GameEDF1F0FC42CC47377D3502A1E5F50811.tmp' to '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/Levels/Arcade_Game.umap'
+[2024.11.19-02.08.57:067][753]LogFileHelpers: Saving map 'Arcade_Game' took 0.156
+[2024.11.19-02.08.57:078][753]LogSavePackage: Moving output files for package: /Game/Blueprints/Builder/Machines/MachineBuilds/Arcade/BP_BuildMachine_ArcadeV1
+[2024.11.19-02.08.57:080][753]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Saved/BP_BuildMachine_ArcadeV10DCFF65C479550AB904100BE1CCF0FBA.tmp' to '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/Blueprints/Builder/Machines/MachineBuilds/Arcade/BP_BuildMachine_ArcadeV1.uasset'
+[2024.11.19-02.08.57:094][753]LogSavePackage: Moving output files for package: /Game/Blueprints/Builder/Machines/MachineBuilds/Arcade/BP_BuildMachineMaster_Arcade
+[2024.11.19-02.08.57:095][753]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Saved/BP_BuildMachineMaster_ArcadeDACD820D460E4EFE5B1655979073161F.tmp' to '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/Blueprints/Builder/Machines/MachineBuilds/Arcade/BP_BuildMachineMaster_Arcade.uasset'
+[2024.11.19-02.08.57:105][753]LogFileHelpers: InternalPromptForCheckoutAndSave took 228 ms (total: 2.07 sec)
+[2024.11.19-02.08.57:108][753]AssetCheck: New page: Asset Save: multiple assets
+[2024.11.19-02.08.57:108][753]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Arcade_Game.Arcade_Game
+[2024.11.19-02.08.57:108][753]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Builder/Machines/MachineBuilds/Arcade/BP_BuildMachine_ArcadeV1.BP_BuildMachine_ArcadeV1
+[2024.11.19-02.08.57:108][753]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Builder/Machines/MachineBuilds/Arcade/BP_BuildMachineMaster_Arcade.BP_BuildMachineMaster_Arcade
+[2024.11.19-02.08.57:271][768]BlueprintLog: New page: Compile BP_BuildMachineMaster_Arcade
+[2024.11.19-02.08.57:392][768]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2024.11.19-02.09.02:508][249]BlueprintLog: New page: Compile BP_BuildMachineMaster_Arcade
+[2024.11.19-02.09.02:629][249]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2024.11.19-02.09.02:660][249]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.19-02.09.02:710][249]LogSavePackage: Moving output files for package: /Game/Blueprints/Builder/Machines/MachineBuilds/Arcade/BP_BuildMachineMaster_Arcade
+[2024.11.19-02.09.02:711][249]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Saved/BP_BuildMachineMaster_Arcade82EF5C30494FB69C74D6729A06432169.tmp' to '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/Blueprints/Builder/Machines/MachineBuilds/Arcade/BP_BuildMachineMaster_Arcade.uasset'
+[2024.11.19-02.09.02:726][249]LogSavePackage: Moving output files for package: /Game/Blueprints/Builder/Machines/MachineBuilds/Arcade/BP_BuildMachine_ArcadeV1
+[2024.11.19-02.09.02:727][249]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Saved/BP_BuildMachine_ArcadeV14B3F49184DCFB09EC1CDC29F2DE688EB.tmp' to '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/Blueprints/Builder/Machines/MachineBuilds/Arcade/BP_BuildMachine_ArcadeV1.uasset'
+[2024.11.19-02.09.02:734][249]LogFileHelpers: InternalPromptForCheckoutAndSave took 74 ms (total: 2.14 sec)
+[2024.11.19-02.09.02:756][249]AssetCheck: New page: Asset Save: multiple assets
+[2024.11.19-02.09.02:756][249]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Builder/Machines/MachineBuilds/Arcade/BP_BuildMachineMaster_Arcade.BP_BuildMachineMaster_Arcade
+[2024.11.19-02.09.02:756][249]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Builder/Machines/MachineBuilds/Arcade/BP_BuildMachine_ArcadeV1.BP_BuildMachine_ArcadeV1
+[2024.11.19-02.09.04:776][452]LogWorld: UWorld::CleanupWorld for World_27, bSessionEnded=true, bCleanupResources=true
+[2024.11.19-02.09.04:776][452]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.19-02.09.04:818][452]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Builder/Machines/MachineBuilds/Arcade/BP_BuildMachine_ArcadeV1.BP_BuildMachine_ArcadeV1
+[2024.11.19-02.09.04:818][452]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.19-02.09.04:818][452]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.19-02.09.07:280][690]LogViewport: Scene viewport resized to 1141x685, mode Windowed.
+[2024.11.19-02.09.16:924][708]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2024.11.19-02.09.16:931][708]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.19-02.09.17:053][708]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2024.11.19-02.09.17:091][708]LogSavePackage: Moving output files for package: /Game/Levels/Arcade_Game
+[2024.11.19-02.09.17:091][708]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Saved/Arcade_GameDA54CE154A662FED3B787E8D2A623DBE.tmp' to '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/Levels/Arcade_Game.umap'
+[2024.11.19-02.09.17:111][708]LogFileHelpers: Saving map 'Arcade_Game' took 0.154
+[2024.11.19-02.09.17:118][708]LogFileHelpers: InternalPromptForCheckoutAndSave took 187 ms (total: 2.33 sec)
+[2024.11.19-02.09.17:120][708]AssetCheck: New page: Asset Save: Arcade_Game
+[2024.11.19-02.09.17:120][708]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Arcade_Game.Arcade_Game
+[2024.11.19-02.09.18:422][815]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.19-02.09.18:441][815]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.19-02.09.18:441][815]PIE: New page: PIE session: Arcade_Game (18 de nov de 2024 20:09:18)
+[2024.11.19-02.09.18:462][815]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Arcade_Game
+[2024.11.19-02.09.18:470][815]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008533s)
+[2024.11.19-02.09.18:470][815]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Arcade_Game.Arcade_Game to /Game/Levels/UEDPIE_0_Arcade_Game.Arcade_Game (0.008602s)
+[2024.11.19-02.09.18:501][815]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2024.11.19-02.09.18:503][815]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.19-02.09.18:503][815]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.19-02.09.18:503][815]LogAIModule: Creating AISystem for world Arcade_Game
+[2024.11.19-02.09.18:505][815]LogPlayLevel: PIE: World Init took: (0.001160s)
+[2024.11.19-02.09.18:505][815]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2024.11.19-02.09.18:505][815]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.19-02.09.18:505][815]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.19-02.09.18:505][815]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.19-02.09.18:505][815]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.19-02.09.18:505][815]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.19-02.09.18:505][815]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.19-02.09.18:505][815]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.19-02.09.18:505][815]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.19-02.09.18:505][815]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.19-02.09.18:505][815]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.19-02.09.18:505][815]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.19-02.09.18:508][815]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.19-02.09.18:547][815]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (2- USB Audio Device)
+[2024.11.19-02.09.18:548][815]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.19-02.09.18:548][815]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.19-02.09.18:548][815]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.19-02.09.18:549][815]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=6
+[2024.11.19-02.09.18:549][815]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=6
+[2024.11.19-02.09.18:551][815]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=6
+[2024.11.19-02.09.18:551][815]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=6
+[2024.11.19-02.09.18:551][815]LogInit: FAudioDevice initialized with ID 6.
+[2024.11.19-02.09.18:551][815]LogAudio: Display: Audio Device (ID: 6) registered with world 'Arcade_Game'.
+[2024.11.19-02.09.18:551][815]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 6
+[2024.11.19-02.09.18:555][815]LogLoad: Game class is 'MyGameGamemode_C'
+[2024.11.19-02.09.18:557][815]PIE: Warning: Trying to simulate physics on ''/Game/Levels/UEDPIE_0_Arcade_Game.Arcade_Game:PersistentLevel.BP_BuildProps_CoffeTable_C_1.BuildMesh'' but it has ComplexAsSimple collision.
+[2024.11.19-02.09.18:558][815]PIE: Warning: Trying to simulate physics on ''/Game/Levels/UEDPIE_0_Arcade_Game.Arcade_Game:PersistentLevel.BP_BuildMachine_PinballV3_C_2.BuildMesh'' but it has ComplexAsSimple collision.
+[2024.11.19-02.09.18:558][815]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Arcade_Game.Arcade_Game up for play (max tick rate 0) at 2024.11.18-23.09.18
+[2024.11.19-02.09.18:559][815]LogWorld: Bringing up level for play took: 0.003848
+[2024.11.19-02.09.18:562][815]LogOnline: OSS: Created online subsystem instance for: :Context_38
+[2024.11.19-02.09.18:563][815]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.19-02.09.18:563][815]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.19-02.09.18:563][815]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.11.19-02.09.18:569][815]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.11.19-02.09.18:569][815]PIE: Server logged in
+[2024.11.19-02.09.18:571][815]PIE: Play in editor total start time 0,13 seconds.
+[2024.11.19-02.09.31:713][290]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.19-02.09.31:713][290]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Arcade_Game
+[2024.11.19-02.09.31:714][290]LogWorld: UWorld::CleanupWorld for Arcade_Game, bSessionEnded=true, bCleanupResources=true
+[2024.11.19-02.09.31:715][290]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.19-02.09.31:725][290]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.19-02.09.31:732][290]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.19-02.09.31:768][290]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.19-02.09.31:769][290]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 6
+[2024.11.19-02.09.31:769][290]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2024.11.19-02.09.31:772][290]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2024.11.19-02.09.31:781][290]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2024.11.19-02.09.31:933][291]LogPlayLevel: Display: Destroying online subsystem :Context_38
+[2024.11.19-02.09.33:638][419]LogSlate: Window 'Message Log' being destroyed
+[2024.11.19-02.09.33:648][419]LogSlate: Window 'Message Log' being destroyed
