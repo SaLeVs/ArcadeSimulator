@@ -4393,3 +4393,582 @@ Script Stack (0 frames) :
 [2024.11.20-17.12.33:070][629]LogFileHelpers: InternalPromptForCheckoutAndSave took 80 ms (total: 8.11 sec)
 [2024.11.20-17.12.33:114][629]AssetCheck: New page: Asset Save: BP_BuildProps_FrameCellphone
 [2024.11.20-17.12.33:114][629]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildProps_FrameCellphone.BP_BuildProps_FrameCellphone
+[2024.11.20-17.17.30:747][106]LogEditorFactories: Performing atomic reimport of [C:/Users/pedro/Downloads/Coisas Faculdade/Objs p_ texturizar/SM_Frame.fbx]
+[2024.11.20-17.17.30:782][106]LogFbx: Loading FBX Scene from C:/Users/pedro/Downloads/Coisas Faculdade/Objs p_ texturizar/SM_Frame.fbx
+[2024.11.20-17.17.30:794][106]LogFbx: FBX Scene Loaded Succesfully
+[2024.11.20-17.17.30:860][106]LogFbx: Display: Triangulating static mesh Frame.001
+[2024.11.20-17.17.30:884][106]LogStaticMesh: Display: Building static mesh SM_Frame...
+[2024.11.20-17.17.30:934][106]LogStaticMesh: Built static mesh [0.05s] /Game/Meshs/Scenery/Frames/SM_Frame.SM_Frame
+[2024.11.20-17.17.30:976][106]LogEditorFactories: -- imported successfully
+[2024.11.20-17.17.36:467][442]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.20-17.17.36:501][442]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.20-17.17.36:501][442]PIE: New page: PIE session: Arcade_Game (20 de nov de 2024 11:17:36)
+[2024.11.20-17.17.36:549][442]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Arcade_Game
+[2024.11.20-17.17.36:559][442]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010857s)
+[2024.11.20-17.17.36:560][442]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Arcade_Game.Arcade_Game to /Game/Levels/UEDPIE_0_Arcade_Game.Arcade_Game (0.010956s)
+[2024.11.20-17.17.36:592][442]LogUObjectHash: Compacting FUObjectHashTables data took   3.26ms
+[2024.11.20-17.17.36:597][442]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.20-17.17.36:597][442]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.20-17.17.36:598][442]LogAIModule: Creating AISystem for world Arcade_Game
+[2024.11.20-17.17.36:599][442]LogPlayLevel: PIE: World Init took: (0.001938s)
+[2024.11.20-17.17.36:599][442]LogAudio: Display: Creating Audio Device:                 Id: 19, Scope: Unique, Realtime: True
+[2024.11.20-17.17.36:599][442]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.20-17.17.36:599][442]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.20-17.17.36:599][442]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.20-17.17.36:599][442]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.20-17.17.36:599][442]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.20-17.17.36:599][442]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.20-17.17.36:599][442]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.20-17.17.36:599][442]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.20-17.17.36:600][442]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.20-17.17.36:600][442]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.20-17.17.36:600][442]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.20-17.17.36:603][442]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.20-17.17.36:647][442]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (HyperX Cloud Stinger Core + 7.1)
+[2024.11.20-17.17.36:648][442]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.20-17.17.36:648][442]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.20-17.17.36:648][442]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.20-17.17.36:650][442]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=19
+[2024.11.20-17.17.36:650][442]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=19
+[2024.11.20-17.17.36:652][442]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=19
+[2024.11.20-17.17.36:653][442]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=19
+[2024.11.20-17.17.36:653][442]LogInit: FAudioDevice initialized with ID 19.
+[2024.11.20-17.17.36:653][442]LogAudio: Display: Audio Device (ID: 19) registered with world 'Arcade_Game'.
+[2024.11.20-17.17.36:653][442]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 19
+[2024.11.20-17.17.36:657][442]LogLoad: Game class is 'MyGameGamemode_C'
+[2024.11.20-17.17.36:661][442]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Arcade_Game.Arcade_Game up for play (max tick rate 0) at 2024.11.20-14.17.36
+[2024.11.20-17.17.36:662][442]LogWorld: Bringing up level for play took: 0.004743
+[2024.11.20-17.17.36:665][442]LogOnline: OSS: Created online subsystem instance for: :Context_178
+[2024.11.20-17.17.36:667][442]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.20-17.17.36:667][442]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.20-17.17.36:667][442]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.11.20-17.17.36:672][442]LogBlueprintUserMessages: [BP_LoadController_C_1] Spawned Buildable
+[2024.11.20-17.17.36:674][442]LogBlueprintUserMessages: [BP_LoadController_C_1] Spawned Buildable
+[2024.11.20-17.17.36:676][442]LogBlueprintUserMessages: [BP_LoadController_C_1] Spawned Buildable
+[2024.11.20-17.17.36:681][442]LogBlueprintUserMessages: [BP_LoadController_C_1] Spawned Buildable
+[2024.11.20-17.17.36:684][442]LogBlueprintUserMessages: [BP_LoadController_C_1] Spawned Buildable
+[2024.11.20-17.17.36:686][442]LogBlueprintUserMessages: [BP_LoadController_C_1] Spawned Buildable
+[2024.11.20-17.17.36:705][442]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.11.20-17.17.36:705][442]PIE: Server logged in
+[2024.11.20-17.17.36:707][442]PIE: Play in editor total start time 0,205 seconds.
+[2024.11.20-17.17.38:996][577]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.11.20-17.17.38:996][577]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2024.11.20-17.17.38:996][577]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2024.11.20-17.17.42:656][900]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.11.20-17.17.42:656][900]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2024.11.20-17.17.52:119][821]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.20-17.17.52:119][821]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Arcade_Game
+[2024.11.20-17.17.52:123][821]LogWorld: UWorld::CleanupWorld for Arcade_Game, bSessionEnded=true, bCleanupResources=true
+[2024.11.20-17.17.52:125][821]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.20-17.17.52:130][821]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.20-17.17.52:140][821]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.20-17.17.52:165][821]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.11.20-17.17.52:165][821]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 19
+[2024.11.20-17.17.52:165][821]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2024.11.20-17.17.52:167][821]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2024.11.20-17.17.52:174][821]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.20-17.17.52:183][821]LogUObjectHash: Compacting FUObjectHashTables data took   2.42ms
+[2024.11.20-17.17.52:317][822]LogPlayLevel: Display: Destroying online subsystem :Context_178
+[2024.11.20-17.18.17:160][992]LogUObjectHash: Compacting FUObjectHashTables data took   3.21ms
+[2024.11.20-17.18.17:162][992]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/Arcade_Game' took 0.028
+[2024.11.20-17.18.17:163][992]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Meshs/Scenery/Frames/SM_Frame] ([1] browsable assets)...
+[2024.11.20-17.18.17:204][992]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Meshs/Scenery/Frames/SM_Frame.SM_Frame]
+[2024.11.20-17.18.17:204][992]OBJ SavePackage: Finished generating thumbnails for package [/Game/Meshs/Scenery/Frames/SM_Frame]
+[2024.11.20-17.18.17:210][992]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Meshs/Scenery/Frames/SM_Frame_Auto3
+[2024.11.20-17.18.17:210][992]LogSavePackage: Moving 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Saved/SM_Frame_Auto38BD05BCD4D434AE5AF3FDD84A180C87C.tmp' to 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Saved/Autosaves/Game/Meshs/Scenery/Frames/SM_Frame_Auto3.uasset'
+[2024.11.20-17.18.17:211][992]LogFileHelpers: Auto-saving content packages took 0.048
+[2024.11.20-17.18.30:470][242]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.20-17.18.30:503][242]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.20-17.18.30:503][242]PIE: New page: PIE session: Arcade_Game (20 de nov de 2024 11:18:30)
+[2024.11.20-17.18.30:503][242]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Arcade_Game
+[2024.11.20-17.18.30:513][242]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009412s)
+[2024.11.20-17.18.30:513][242]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Arcade_Game.Arcade_Game to /Game/Levels/UEDPIE_0_Arcade_Game.Arcade_Game (0.009467s)
+[2024.11.20-17.18.30:535][242]LogUObjectHash: Compacting FUObjectHashTables data took   2.12ms
+[2024.11.20-17.18.30:537][242]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.20-17.18.30:538][242]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.20-17.18.30:539][242]LogAIModule: Creating AISystem for world Arcade_Game
+[2024.11.20-17.18.30:539][242]LogPlayLevel: PIE: World Init took: (0.001958s)
+[2024.11.20-17.18.30:539][242]LogAudio: Display: Creating Audio Device:                 Id: 20, Scope: Unique, Realtime: True
+[2024.11.20-17.18.30:539][242]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.20-17.18.30:539][242]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.20-17.18.30:539][242]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.20-17.18.30:539][242]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.20-17.18.30:539][242]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.20-17.18.30:539][242]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.20-17.18.30:539][242]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.20-17.18.30:539][242]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.20-17.18.30:540][242]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.20-17.18.30:540][242]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.20-17.18.30:540][242]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.20-17.18.30:543][242]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.20-17.18.30:581][242]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (HyperX Cloud Stinger Core + 7.1)
+[2024.11.20-17.18.30:582][242]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.20-17.18.30:582][242]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.20-17.18.30:582][242]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.20-17.18.30:583][242]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=20
+[2024.11.20-17.18.30:583][242]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=20
+[2024.11.20-17.18.30:586][242]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=20
+[2024.11.20-17.18.30:586][242]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=20
+[2024.11.20-17.18.30:586][242]LogInit: FAudioDevice initialized with ID 20.
+[2024.11.20-17.18.30:586][242]LogAudio: Display: Audio Device (ID: 20) registered with world 'Arcade_Game'.
+[2024.11.20-17.18.30:586][242]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 20
+[2024.11.20-17.18.30:590][242]LogLoad: Game class is 'MyGameGamemode_C'
+[2024.11.20-17.18.30:593][242]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Arcade_Game.Arcade_Game up for play (max tick rate 0) at 2024.11.20-14.18.30
+[2024.11.20-17.18.30:594][242]LogWorld: Bringing up level for play took: 0.003711
+[2024.11.20-17.18.30:598][242]LogOnline: OSS: Created online subsystem instance for: :Context_179
+[2024.11.20-17.18.30:599][242]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.20-17.18.30:599][242]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.20-17.18.30:599][242]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.11.20-17.18.30:604][242]LogBlueprintUserMessages: [BP_LoadController_C_1] Spawned Buildable
+[2024.11.20-17.18.30:606][242]LogBlueprintUserMessages: [BP_LoadController_C_1] Spawned Buildable
+[2024.11.20-17.18.30:608][242]LogBlueprintUserMessages: [BP_LoadController_C_1] Spawned Buildable
+[2024.11.20-17.18.30:613][242]LogBlueprintUserMessages: [BP_LoadController_C_1] Spawned Buildable
+[2024.11.20-17.18.30:615][242]LogBlueprintUserMessages: [BP_LoadController_C_1] Spawned Buildable
+[2024.11.20-17.18.30:618][242]LogBlueprintUserMessages: [BP_LoadController_C_1] Spawned Buildable
+[2024.11.20-17.18.30:651][242]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.11.20-17.18.30:651][242]PIE: Server logged in
+[2024.11.20-17.18.30:652][242]PIE: Play in editor total start time 0,149 seconds.
+[2024.11.20-17.18.32:424][342]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.11.20-17.18.32:424][342]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2024.11.20-17.18.32:424][342]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2024.11.20-17.18.38:704][935]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.11.20-17.18.38:704][935]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2024.11.20-17.18.47:029][776]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.20-17.18.47:029][776]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Arcade_Game
+[2024.11.20-17.18.47:033][776]LogWorld: UWorld::CleanupWorld for Arcade_Game, bSessionEnded=true, bCleanupResources=true
+[2024.11.20-17.18.47:034][776]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.20-17.18.47:040][776]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.20-17.18.47:050][776]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.20-17.18.47:074][776]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.20-17.18.47:075][776]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 20
+[2024.11.20-17.18.47:075][776]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2024.11.20-17.18.47:078][776]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2024.11.20-17.18.47:094][776]LogUObjectHash: Compacting FUObjectHashTables data took   2.61ms
+[2024.11.20-17.18.47:212][777]LogPlayLevel: Display: Destroying online subsystem :Context_179
+[2024.11.20-17.19.32:671][193]LogEditorFactories: Performing atomic reimport of [C:/Users/pedro/Downloads/Coisas Faculdade/Objs p_ texturizar/SM_FrameSlide.fbx]
+[2024.11.20-17.19.32:680][193]LogFbx: Loading FBX Scene from C:/Users/pedro/Downloads/Coisas Faculdade/Objs p_ texturizar/SM_FrameSlide.fbx
+[2024.11.20-17.19.32:685][193]LogFbx: FBX Scene Loaded Succesfully
+[2024.11.20-17.19.32:755][193]LogFbx: Display: Triangulating static mesh FrameSlide
+[2024.11.20-17.19.32:766][193]LogStaticMesh: Display: Building static mesh SM_FrameSlide...
+[2024.11.20-17.19.32:809][193]LogStaticMesh: Built static mesh [0.04s] /Game/Meshs/Scenery/Frames/SM_FrameSlide.SM_FrameSlide
+[2024.11.20-17.19.32:846][193]LogEditorFactories: -- imported successfully
+[2024.11.20-17.19.34:209][251]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.20-17.19.34:273][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshs/Scenery/Frames/SM_FrameSlide" FILE="D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Content/Meshs/Scenery/Frames/SM_FrameSlide.uasset" SILENT=true
+[2024.11.20-17.19.34:277][251]LogSavePackage: Moving output files for package: /Game/Meshs/Scenery/Frames/SM_FrameSlide
+[2024.11.20-17.19.34:278][251]LogSavePackage: Moving 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Saved/SM_FrameSlide6282C7D542B76EAC9EEF45AD178C70B2.tmp' to 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Content/Meshs/Scenery/Frames/SM_FrameSlide.uasset'
+[2024.11.20-17.19.34:279][251]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Meshs/Scenery/Frames/SM_Frame" FILE="D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Content/Meshs/Scenery/Frames/SM_Frame.uasset" SILENT=true
+[2024.11.20-17.19.34:283][251]LogSavePackage: Moving output files for package: /Game/Meshs/Scenery/Frames/SM_Frame
+[2024.11.20-17.19.34:283][251]LogSavePackage: Moving 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Saved/SM_FrameFF50B020444784D8AC412193776724D7.tmp' to 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Content/Meshs/Scenery/Frames/SM_Frame.uasset'
+[2024.11.20-17.19.34:297][251]LogFileHelpers: InternalPromptForCheckoutAndSave took 88 ms (total: 8.20 sec)
+[2024.11.20-17.19.34:299][251]AssetCheck: New page: Asset Save: multiple assets
+[2024.11.20-17.19.34:299][251]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Meshs/Scenery/Frames/SM_FrameSlide.SM_FrameSlide
+[2024.11.20-17.19.34:299][251]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Meshs/Scenery/Frames/SM_Frame.SM_Frame
+[2024.11.20-17.19.35:825][365]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.20-17.19.35:857][365]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.20-17.19.35:857][365]PIE: New page: PIE session: Arcade_Game (20 de nov de 2024 11:19:35)
+[2024.11.20-17.19.35:888][365]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Arcade_Game
+[2024.11.20-17.19.35:895][365]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007433s)
+[2024.11.20-17.19.35:896][365]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Arcade_Game.Arcade_Game to /Game/Levels/UEDPIE_0_Arcade_Game.Arcade_Game (0.007499s)
+[2024.11.20-17.19.35:918][365]LogUObjectHash: Compacting FUObjectHashTables data took   2.75ms
+[2024.11.20-17.19.35:921][365]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.20-17.19.35:921][365]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.20-17.19.35:921][365]LogAIModule: Creating AISystem for world Arcade_Game
+[2024.11.20-17.19.35:922][365]LogPlayLevel: PIE: World Init took: (0.001302s)
+[2024.11.20-17.19.35:922][365]LogAudio: Display: Creating Audio Device:                 Id: 21, Scope: Unique, Realtime: True
+[2024.11.20-17.19.35:922][365]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.20-17.19.35:922][365]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.20-17.19.35:922][365]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.20-17.19.35:922][365]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.20-17.19.35:922][365]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.20-17.19.35:922][365]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.20-17.19.35:922][365]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.20-17.19.35:922][365]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.20-17.19.35:923][365]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.20-17.19.35:923][365]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.20-17.19.35:923][365]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.20-17.19.35:925][365]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.20-17.19.35:962][365]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (HyperX Cloud Stinger Core + 7.1)
+[2024.11.20-17.19.35:962][365]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.20-17.19.35:962][365]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.20-17.19.35:962][365]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.20-17.19.35:963][365]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=21
+[2024.11.20-17.19.35:963][365]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=21
+[2024.11.20-17.19.35:966][365]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=21
+[2024.11.20-17.19.35:966][365]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=21
+[2024.11.20-17.19.35:966][365]LogInit: FAudioDevice initialized with ID 21.
+[2024.11.20-17.19.35:966][365]LogAudio: Display: Audio Device (ID: 21) registered with world 'Arcade_Game'.
+[2024.11.20-17.19.35:966][365]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 21
+[2024.11.20-17.19.35:969][365]LogLoad: Game class is 'MyGameGamemode_C'
+[2024.11.20-17.19.35:973][365]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Arcade_Game.Arcade_Game up for play (max tick rate 0) at 2024.11.20-14.19.35
+[2024.11.20-17.19.35:973][365]LogWorld: Bringing up level for play took: 0.003548
+[2024.11.20-17.19.35:976][365]LogOnline: OSS: Created online subsystem instance for: :Context_180
+[2024.11.20-17.19.35:977][365]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.20-17.19.35:977][365]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.20-17.19.35:978][365]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.11.20-17.19.35:982][365]LogBlueprintUserMessages: [BP_LoadController_C_1] Spawned Buildable
+[2024.11.20-17.19.35:985][365]LogBlueprintUserMessages: [BP_LoadController_C_1] Spawned Buildable
+[2024.11.20-17.19.35:986][365]LogBlueprintUserMessages: [BP_LoadController_C_1] Spawned Buildable
+[2024.11.20-17.19.35:991][365]LogBlueprintUserMessages: [BP_LoadController_C_1] Spawned Buildable
+[2024.11.20-17.19.35:994][365]LogBlueprintUserMessages: [BP_LoadController_C_1] Spawned Buildable
+[2024.11.20-17.19.35:995][365]LogBlueprintUserMessages: [BP_LoadController_C_1] Spawned Buildable
+[2024.11.20-17.19.36:014][365]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.11.20-17.19.36:014][365]PIE: Server logged in
+[2024.11.20-17.19.36:015][365]PIE: Play in editor total start time 0,158 seconds.
+[2024.11.20-17.19.37:899][457]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.11.20-17.19.37:899][457]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2024.11.20-17.19.37:899][457]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2024.11.20-17.19.41:649][799]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.11.20-17.19.41:649][799]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2024.11.20-17.19.42:554][879]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.11.20-17.19.42:554][879]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2024.11.20-17.19.43:969][ 17]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.11.20-17.19.43:970][ 17]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2024.11.20-17.19.57:719][299]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.20-17.19.57:719][299]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Arcade_Game
+[2024.11.20-17.19.57:723][299]LogWorld: UWorld::CleanupWorld for Arcade_Game, bSessionEnded=true, bCleanupResources=true
+[2024.11.20-17.19.57:724][299]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.20-17.19.57:730][299]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.20-17.19.57:740][299]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.20-17.19.57:763][299]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.20-17.19.57:763][299]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 21
+[2024.11.20-17.19.57:764][299]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2024.11.20-17.19.57:766][299]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2024.11.20-17.19.57:782][299]LogUObjectHash: Compacting FUObjectHashTables data took   2.98ms
+[2024.11.20-17.19.57:914][300]LogPlayLevel: Display: Destroying online subsystem :Context_180
+[2024.11.20-17.20.00:438][518]LogWorld: UWorld::CleanupWorld for World_158, bSessionEnded=true, bCleanupResources=true
+[2024.11.20-17.20.00:438][518]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.20-17.20.20:293][ 72]LogEditorFactories: Performing atomic reimport of [C:/Users/pedro/Downloads/Coisas Faculdade/Objs p_ texturizar/SM_PowerBox.fbx]
+[2024.11.20-17.20.20:310][ 72]LogFbx: Loading FBX Scene from C:/Users/pedro/Downloads/Coisas Faculdade/Objs p_ texturizar/SM_PowerBox.fbx
+[2024.11.20-17.20.20:315][ 72]LogFbx: FBX Scene Loaded Succesfully
+[2024.11.20-17.20.20:402][ 72]LogFbx: Display: Triangulating static mesh Plane.013
+[2024.11.20-17.20.20:422][ 72]LogStaticMesh: Display: Building static mesh SM_PowerBox_Plane_013...
+[2024.11.20-17.20.20:464][ 72]LogStaticMesh: Built static mesh [0.04s] /Game/Meshs/Scenery/DecorationFloor/SM_PowerBox_Plane_013.SM_PowerBox_Plane_013
+[2024.11.20-17.20.20:494][ 72]LogEditorFactories: -- imported successfully
+[2024.11.20-17.20.25:774][341]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Meshs/Scenery/DecorationFloor/SM_PowerBox_Plane_013.SM_PowerBox_Plane_013
+[2024.11.20-17.20.25:823][341]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.20-17.20.25:823][341]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.20-17.20.26:922][341]LogViewport: Scene viewport resized to 903x528, mode Windowed.
+[2024.11.20-17.20.28:782][422]LogViewport: Scene viewport resized to 900x551, mode Windowed.
+[2024.11.20-17.20.28:861][424]LogViewport: Scene viewport resized to 577x316, mode Windowed.
+[2024.11.20-17.20.29:076][435]LogViewport: Scene viewport resized to 1405x902, mode Windowed.
+[2024.11.20-17.20.29:328][446]LogSlate: Window 'SM_PowerBox_Plane_013' being destroyed
+[2024.11.20-17.20.42:574][295]LogInterchangeEngine: [Pending] Importing
+[2024.11.20-17.20.42:575][295]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/pedro/Downl...de/Texturas/PowerBox/SM_PowerBox_DefaultMaterial_BaseColor.png]
+[2024.11.20-17.20.42:583][295]LogInterchangeEngine: [Pending] Importing -  (2)
+[2024.11.20-17.20.42:583][295]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/pedro/Downl...de/Texturas/PowerBox/SM_PowerBox_DefaultMaterial_Normal.png]
+[2024.11.20-17.20.42:592][295]LogInterchangeEngine: [Pending] Importing -  (3)
+[2024.11.20-17.20.42:592][295]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/pedro/Downl...de/Texturas/PowerBox/SM_PowerBox_DefaultMaterial_OcclusionRoughnessMetallic.png]
+[2024.11.20-17.20.42:638][296]LogInterchangeEngine: [Pending] Importing -  (3)
+[2024.11.20-17.20.42:915][302]LogTexture: Display: Building textures: /Game/Materials/Meshs/PowerBox/SM_PowerBox_DefaultMaterial_BaseColor.SM_PowerBox_DefaultMaterial_BaseColor (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.11.20-17.20.43:181][302]LogTexture: Display: Building textures: /Game/Materials/Meshs/PowerBox/SM_PowerBox_DefaultMaterial_Normal.SM_PowerBox_DefaultMaterial_Normal (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 291.562488 MB), EncodeSpeed: Fast
+[2024.11.20-17.20.43:395][302]LogTexture: Display: Building textures: /Game/Materials/Meshs/PowerBox/SM_PowerBox_DefaultMaterial_OcclusionRoughnessMetallic.SM_PowerBox_DefaultMaterial_OcclusionRoughnessMetallic (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.11.20-17.20.43:593][303]LogInterchangeEngine: [Pending] Importing -  (2)
+[2024.11.20-17.20.43:593][303]LogInterchangeEngine: [Pending] Importing -  (1)
+[2024.11.20-17.20.43:593][303]LogInterchangeEngine: [Success] Import Done
+[2024.11.20-17.20.43:607][303]LogInterchangeEngine: [Success] Import Done
+[2024.11.20-17.20.46:725][493]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.20-17.20.46:976][493]LogSavePackage: Moving output files for package: /Game/Materials/Meshs/PowerBox/SM_PowerBox_DefaultMaterial_BaseColor
+[2024.11.20-17.20.46:977][493]LogSavePackage: Moving 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Saved/SM_PowerBox_DefaultMaterial_BaseBC6A25E4406E6D05A6A721A3340CF10B.tmp' to 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Content/Materials/Meshs/PowerBox/SM_PowerBox_DefaultMaterial_BaseColor.uasset'
+[2024.11.20-17.20.47:194][493]LogSavePackage: Moving output files for package: /Game/Materials/Meshs/PowerBox/SM_PowerBox_DefaultMaterial_Normal
+[2024.11.20-17.20.47:195][493]LogSavePackage: Moving 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Saved/SM_PowerBox_DefaultMaterial_NormE2019E5342CB350213B0BFAB7071E7AE.tmp' to 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Content/Materials/Meshs/PowerBox/SM_PowerBox_DefaultMaterial_Normal.uasset'
+[2024.11.20-17.20.47:375][493]LogSavePackage: Moving output files for package: /Game/Materials/Meshs/PowerBox/SM_PowerBox_DefaultMaterial_OcclusionRoughnessMetallic
+[2024.11.20-17.20.47:376][493]LogSavePackage: Moving 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Saved/SM_PowerBox_DefaultMaterial_OcclF4657E9D48C19A348EBA55B9001D4D7A.tmp' to 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Content/Materials/Meshs/PowerBox/SM_PowerBox_DefaultMaterial_OcclusionRoughnessMetallic.uasset'
+[2024.11.20-17.20.47:391][493]LogFileHelpers: InternalPromptForCheckoutAndSave took 665 ms (total: 8.86 sec)
+[2024.11.20-17.20.47:393][493]AssetCheck: New page: Asset Save: multiple assets
+[2024.11.20-17.20.47:393][493]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Materials/Meshs/PowerBox/SM_PowerBox_DefaultMaterial_BaseColor.SM_PowerBox_DefaultMaterial_BaseColor
+[2024.11.20-17.20.47:393][493]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Materials/Meshs/PowerBox/SM_PowerBox_DefaultMaterial_Normal.SM_PowerBox_DefaultMaterial_Normal
+[2024.11.20-17.20.47:393][493]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Materials/Meshs/PowerBox/SM_PowerBox_DefaultMaterial_OcclusionRoughnessMetallic.SM_PowerBox_DefaultMaterial_OcclusionRoughnessMetallic
+[2024.11.20-17.20.57:542][262]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.20-17.20.57:621][262]LogSavePackage: Moving output files for package: /Game/Meshs/Scenery/DecorationFloor/SM_PowerBox_Plane_013
+[2024.11.20-17.20.57:622][262]LogSavePackage: Moving 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Saved/SM_PowerBox_Plane_01370241259407B05686ABA0DBCC4276F31.tmp' to 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Content/Meshs/Scenery/DecorationFloor/SM_PowerBox_Plane_013.uasset'
+[2024.11.20-17.20.57:639][262]LogFileHelpers: InternalPromptForCheckoutAndSave took 97 ms (total: 8.96 sec)
+[2024.11.20-17.20.57:641][262]AssetCheck: New page: Asset Save: SM_PowerBox_Plane_013
+[2024.11.20-17.20.57:641][262]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Meshs/Scenery/DecorationFloor/SM_PowerBox_Plane_013.SM_PowerBox_Plane_013
+[2024.11.20-17.20.58:637][328]LogWorld: UWorld::CleanupWorld for World_160, bSessionEnded=true, bCleanupResources=true
+[2024.11.20-17.20.58:637][328]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.20-17.21.10:575][ 35]LogShaderCompilers: Display: ================================================
+[2024.11.20-17.21.10:575][ 35]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.11.20-17.21.10:575][ 35]LogShaderCompilers: Display: Total job queries 204, among them cache hits 100 (49.02%)
+[2024.11.20-17.21.10:575][ 35]LogShaderCompilers: Display: Tracking 102 distinct input hashes that result in 47 distinct outputs (46.08%)
+[2024.11.20-17.21.10:575][ 35]LogShaderCompilers: Display: RAM used: 2,25 MiB of 819,20 MiB budget. Usage: 0.27%
+[2024.11.20-17.21.10:575][ 35]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.11.20-17.21.10:575][ 35]LogShaderCompilers: Display: Shaders Compiled: 11
+[2024.11.20-17.21.10:575][ 35]LogShaderCompilers: Display: Jobs assigned 11, completed 11 (100%)
+[2024.11.20-17.21.10:575][ 35]LogShaderCompilers: Display: Average time worker was idle: 525.70 s
+[2024.11.20-17.21.10:575][ 35]LogShaderCompilers: Display: Time job spent in pending queue: average 1.03 s, longest 2.05 s
+[2024.11.20-17.21.10:575][ 35]LogShaderCompilers: Display: Job execution time: average 1.44 s, max 3.26 s
+[2024.11.20-17.21.10:575][ 35]LogShaderCompilers: Display: Job life time (pending + execution): average 2.47 s, max 3.34
+[2024.11.20-17.21.10:575][ 35]LogShaderCompilers: Display: Shader code size: average 35,664 KiB, min 4,465 KiB, max 66,25 KiB
+[2024.11.20-17.21.10:576][ 35]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 6.93 s
+[2024.11.20-17.21.10:576][ 35]LogShaderCompilers: Display: Jobs were issued in 11 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.11.20-17.21.10:576][ 35]LogShaderCompilers: Display: Average processing rate: 1.59 jobs/sec
+[2024.11.20-17.21.10:576][ 35]LogShaderCompilers: Display: Total thread time: 8,335 s
+[2024.11.20-17.21.10:576][ 35]LogShaderCompilers: Display: Total thread preprocess time: 2,059 s
+[2024.11.20-17.21.10:576][ 35]LogShaderCompilers: Display: Percentage time preprocessing: 24.70%
+[2024.11.20-17.21.10:576][ 35]LogShaderCompilers: Display: Effective parallelization: 1.20 (times faster than compiling all shaders on one thread). Compare with number of workers: 4
+[2024.11.20-17.21.10:576][ 35]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.11.20-17.21.10:576][ 35]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    3 times, average 1.22 sec, max 1.92 sec, min 0.77 sec)
+[2024.11.20-17.21.10:576][ 35]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    2 times, average 0.74 sec, max 0.84 sec, min 0.63 sec)
+[2024.11.20-17.21.10:576][ 35]LogShaderCompilers: Display:                                                  FHitProxyVS (compiled    1 times, average 0.73 sec, max 0.73 sec, min 0.73 sec)
+[2024.11.20-17.21.10:576][ 35]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    2 times, average 0.70 sec, max 0.77 sec, min 0.64 sec)
+[2024.11.20-17.21.10:576][ 35]LogShaderCompilers: Display:                                          FLumenCardPS<false> (compiled    2 times, average 0.36 sec, max 0.37 sec, min 0.34 sec)
+[2024.11.20-17.21.10:576][ 35]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.11.20-17.21.10:576][ 35]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 43.99% of total time (compiled    3 times, average 1.22 sec, max 1.92 sec, min 0.77 sec)
+[2024.11.20-17.21.10:576][ 35]LogShaderCompilers: Display:                                                 FLumenCardVS - 17.67% of total time (compiled    2 times, average 0.74 sec, max 0.84 sec, min 0.63 sec)
+[2024.11.20-17.21.10:576][ 35]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 16.91% of total time (compiled    2 times, average 0.70 sec, max 0.77 sec, min 0.64 sec)
+[2024.11.20-17.21.10:576][ 35]LogShaderCompilers: Display:                                                  FHitProxyVS - 8.76% of total time (compiled    1 times, average 0.73 sec, max 0.73 sec, min 0.73 sec)
+[2024.11.20-17.21.10:576][ 35]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 8.54% of total time (compiled    2 times, average 0.36 sec, max 0.37 sec, min 0.34 sec)
+[2024.11.20-17.21.10:576][ 35]LogShaderCompilers: Display: ================================================
+[2024.11.20-17.21.19:092][537]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Meshs/Scenery/NeonFlipStructure/SM_TopLight2.SM_TopLight2
+[2024.11.20-17.21.19:110][537]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/Meshs/Scenery/NeonFlipStructure/SM_TopLight2) ...
+[2024.11.20-17.21.19:176][537]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.20-17.21.19:176][537]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.20-17.21.20:254][537]LogViewport: Scene viewport resized to 903x528, mode Windowed.
+[2024.11.20-17.21.21:690][595]LogViewport: Scene viewport resized to 900x551, mode Windowed.
+[2024.11.20-17.21.21:781][597]LogViewport: Scene viewport resized to 577x316, mode Windowed.
+[2024.11.20-17.21.21:986][607]LogViewport: Scene viewport resized to 1405x902, mode Windowed.
+[2024.11.20-17.21.22:304][624]LogSlate: Window 'SM_TopLight2' being destroyed
+[2024.11.20-17.21.39:866][973]LogUObjectHash: Compacting FUObjectHashTables data took   2.23ms
+[2024.11.20-17.21.42:776][973]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/Meshs/SceneryCollisions/SM_SodaCollider) ...
+[2024.11.20-17.21.44:412][973]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/Meshs/SceneryCollisions/SM_PantryCollider) ...
+[2024.11.20-17.21.44:421][973]LogStaticMesh: Display: Building static mesh SM_RoofEntranceCollider...
+[2024.11.20-17.21.44:427][973]LogStaticMesh: Built static mesh [0.01s] /Game/Meshs/SceneryCollisions/SM_RoofEntranceCollider.SM_RoofEntranceCollider
+[2024.11.20-17.21.45:080][973]LogStaticMesh: Display: Building static mesh SM_WallBackLedCollider...
+[2024.11.20-17.21.45:090][973]LogStaticMesh: Built static mesh [0.01s] /Game/Meshs/SceneryCollisions/SM_WallBackLedCollider.SM_WallBackLedCollider
+[2024.11.20-17.21.45:173][973]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.20-17.21.45:246][973]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Levels/Ilumination.Ilumination
+[2024.11.20-17.21.45:246][973]Cmd: MAP LOAD FILE="D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Content/Levels/Ilumination.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2024.11.20-17.21.45:246][973]LightingResults: New page: Lighting Build
+[2024.11.20-17.21.45:278][973]LoadErrors: New page: Loading map: Ilumination.umap
+[2024.11.20-17.21.45:459][973]LogStaticMesh: Display: Building static mesh SM_RoofLed...
+[2024.11.20-17.21.45:467][973]LogStaticMesh: Built static mesh [0.01s] /Game/Meshs/Scenery/NeonFlipStructure/SM_RoofLed.SM_RoofLed
+[2024.11.20-17.21.45:550][973]LogWorld: UWorld::CleanupWorld for Arcade_Game, bSessionEnded=true, bCleanupResources=true
+[2024.11.20-17.21.45:550][973]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.20-17.21.45:550][973]MapCheck: New page: Map Check
+[2024.11.20-17.21.45:551][973]LightingResults: New page: Lighting Build
+[2024.11.20-17.21.45:583][973]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.11.20-17.21.45:608][973]LogUObjectHash: Compacting FUObjectHashTables data took   4.15ms
+[2024.11.20-17.21.45:615][973]LogStaticMesh: Display: Building static mesh SM_WallBackLed...
+[2024.11.20-17.21.45:623][973]LogStaticMesh: Built static mesh [0.01s] /Game/Meshs/Scenery/NeonFlipStructure/SM_WallBackLed.SM_WallBackLed
+[2024.11.20-17.21.45:641][973]LogStaticMesh: Display: Waiting for static meshes to be ready 0/18 (/Game/Meshs/Scenery/NeonFlipStructure/SM_TopLightPink) ...
+[2024.11.20-17.21.45:839][973]LogMeshUtilities: Finished distance field build in 1.4s - 126x126x7 sparse distance field, 0.2Mb total, 0.0Mb always loaded, 97% occupied, 9 triangles, SM_RoofEntranceCollider
+[2024.11.20-17.21.46:748][973]LogWorld: UWorld::CleanupWorld for Ilumination, bSessionEnded=true, bCleanupResources=true
+[2024.11.20-17.21.46:750][973]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.20-17.21.46:800][973]LogUObjectHash: Compacting FUObjectHashTables data took   3.63ms
+[2024.11.20-17.21.46:837][973]LogUObjectHash: Compacting FUObjectHashTables data took   3.60ms
+[2024.11.20-17.21.46:894][973]LogAudio: Display: Audio Device (ID: 1) registered with world 'Ilumination'.
+[2024.11.20-17.21.46:894][973]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.20-17.21.46:894][973]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.20-17.21.46:895][973]LogAIModule: Creating AISystem for world Ilumination
+[2024.11.20-17.21.47:123][973]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.11.20-17.21.47:172][973]LogUObjectHash: Compacting FUObjectHashTables data took   3.15ms
+[2024.11.20-17.21.47:202][973]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.11.20-17.21.47:202][973]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,17ms to complete.
+[2024.11.20-17.23.19:901][371]LogContentBrowser: Deferred new asset file creation: SM_TopLightBlue1
+[2024.11.20-17.23.19:918][371]LogContentBrowser: Creating deferred item: SM_TopLightBlue1
+[2024.11.20-17.23.19:937][372]LogContentBrowser: Renaming the item being created (Deferred Item: SM_TopLightBlue1).
+[2024.11.20-17.23.25:908][816]LogContentBrowser: Attempting asset rename: SM_TopLightBlue1 -> SM_TopLightYellow
+[2024.11.20-17.23.25:931][816]LogContentBrowser: End creating deferred item SM_TopLightBlue1
+[2024.11.20-17.23.27:553][902]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.20-17.23.27:612][902]LogSavePackage: Moving output files for package: /Game/Meshs/Scenery/NeonFlipStructure/SM_TopLightYellow
+[2024.11.20-17.23.27:612][902]LogSavePackage: Moving 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Saved/SM_TopLightYellow4DB2A3AE444C97553F8E458EB36F3716.tmp' to 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Content/Meshs/Scenery/NeonFlipStructure/SM_TopLightYellow.uasset'
+[2024.11.20-17.23.27:623][902]LogFileHelpers: InternalPromptForCheckoutAndSave took 70 ms (total: 9.03 sec)
+[2024.11.20-17.23.27:624][902]AssetCheck: New page: Asset Save: SM_TopLightYellow
+[2024.11.20-17.23.27:624][902]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Meshs/Scenery/NeonFlipStructure/SM_TopLightYellow.SM_TopLightYellow
+[2024.11.20-17.24.06:727][263]LogInterchangeEngine: [Pending] Importing
+[2024.11.20-17.24.06:727][263]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/pedro/Downl...turas/Light/TopLight/SM_TopLight_DefaultMaterial_OcclusionRoughnessMetallic.png]
+[2024.11.20-17.24.06:771][264]LogInterchangeEngine: [Pending] Importing
+[2024.11.20-17.24.06:870][267]LogTexture: Display: Building textures: /Game/Materials/Meshs/Lights/TopLight/SM_TopLight_DefaultMaterial_OcclusionRoughnessMetallic.SM_TopLight_DefaultMaterial_OcclusionRoughnessMetallic (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.11.20-17.24.07:041][267]LogInterchangeEngine: [Success] Import Done
+[2024.11.20-17.24.07:062][268]LogInterchangeEngine: [Success] Import Done
+[2024.11.20-17.24.14:671][614]LogInterchangeEngine: [Pending] Importing
+[2024.11.20-17.24.14:671][614]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/pedro/Downl...turas/Light/TopLight/SM_TopLight_DefaultMaterial_Normal.png]
+[2024.11.20-17.24.14:701][615]LogInterchangeEngine: [Pending] Importing
+[2024.11.20-17.24.14:826][619]LogTexture: Display: Building textures: /Game/Materials/Meshs/Lights/TopLight/SM_TopLight_DefaultMaterial_Normal.SM_TopLight_DefaultMaterial_Normal (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 291.562488 MB), EncodeSpeed: Fast
+[2024.11.20-17.24.14:986][619]LogInterchangeEngine: [Success] Import Done
+[2024.11.20-17.24.15:006][620]LogInterchangeEngine: [Success] Import Done
+[2024.11.20-17.24.20:980][802]LogInterchangeEngine: [Pending] Importing
+[2024.11.20-17.24.20:980][802]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/pedro/Downl...turas/Light/TopLight/SM_TopLight_DefaultMaterial_BaseColor.png]
+[2024.11.20-17.24.21:013][803]LogInterchangeEngine: [Pending] Importing
+[2024.11.20-17.24.21:141][807]LogTexture: Display: Building textures: /Game/Materials/Meshs/Lights/TopLight/SM_TopLight_DefaultMaterial_BaseColor.SM_TopLight_DefaultMaterial_BaseColor (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.11.20-17.24.21:254][807]LogInterchangeEngine: [Success] Import Done
+[2024.11.20-17.24.21:375][808]LogInterchangeEngine: [Success] Import Done
+[2024.11.20-17.24.31:262][328]LogInterchangeEngine: [Pending] Importing
+[2024.11.20-17.24.31:262][328]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/pedro/Downl...turas/Light/TopLight/SM_TopLight_DefaultMaterial_Emissive.png]
+[2024.11.20-17.24.31:298][329]LogInterchangeEngine: [Pending] Importing
+[2024.11.20-17.24.31:391][332]LogTexture: Display: Building textures: /Game/Materials/Meshs/Lights/TopLight/SM_TopLightBlue_DefaultMaterial_Emissive.SM_TopLightBlue_DefaultMaterial_Emissive (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.11.20-17.24.31:529][332]LogInterchangeEngine: [Success] Import Done
+[2024.11.20-17.24.31:547][333]LogInterchangeEngine: [Success] Import Done
+[2024.11.20-17.24.37:741][458]LogInterchangeEngine: [Pending] Importing
+[2024.11.20-17.24.37:742][458]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/pedro/Downl.../Light/TopLight/Rosa/SM_TopLight_DefaultMaterial_Emissive.png]
+[2024.11.20-17.24.37:778][459]LogInterchangeEngine: [Pending] Importing
+[2024.11.20-17.24.37:880][462]LogTexture: Display: Building textures: /Game/Materials/Meshs/Lights/TopLight/SM_TopLight_DefaultMaterial_EmissiveRose.SM_TopLight_DefaultMaterial_EmissiveRose (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.11.20-17.24.37:992][462]LogInterchangeEngine: [Success] Import Done
+[2024.11.20-17.24.38:040][463]LogInterchangeEngine: [Success] Import Done
+[2024.11.20-17.24.40:467][610]LogTexture: Display: Building textures: /Game/Materials/Meshs/Lights/TopLight/SM_TopLight_DefaultMaterial_Emissive.SM_TopLight_DefaultMaterial_Emissive (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.11.20-17.24.44:407][610]LogInterchangeEngine: [Pending] Importing
+[2024.11.20-17.24.44:407][610]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/pedro/Downl...ght/TopLight/Amarelo/SM_TopLight_DefaultMaterial_Emissive.png]
+[2024.11.20-17.24.44:440][611]LogInterchangeEngine: [Pending] Importing
+[2024.11.20-17.24.44:551][614]LogTexture: Display: Building textures: /Game/Materials/Meshs/Lights/TopLight/SM_TopLight_DefaultMaterial_Emissive.SM_TopLight_DefaultMaterial_Emissive (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.11.20-17.24.44:644][614]LogInterchangeEngine: [Success] Import Done
+[2024.11.20-17.24.44:730][615]LogInterchangeEngine: [Success] Import Done
+[2024.11.20-17.24.47:120][742]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.20-17.24.47:307][742]LogSavePackage: Moving output files for package: /Game/Materials/Meshs/Lights/TopLight/SM_TopLight_DefaultMaterial_BaseColor
+[2024.11.20-17.24.47:308][742]LogSavePackage: Moving 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Saved/SM_TopLight_DefaultMaterial_Base2A6BCBBD4DA05936C7014ABC6E033E11.tmp' to 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Content/Materials/Meshs/Lights/TopLight/SM_TopLight_DefaultMaterial_BaseColor.uasset'
+[2024.11.20-17.24.47:466][742]LogSavePackage: Moving output files for package: /Game/Materials/Meshs/Lights/TopLight/SM_TopLight_DefaultMaterial_Emissive
+[2024.11.20-17.24.47:467][742]LogSavePackage: Moving 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Saved/SM_TopLight_DefaultMaterial_Emis7BA7C10A43241EA5C47FD79419B84236.tmp' to 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Content/Materials/Meshs/Lights/TopLight/SM_TopLight_DefaultMaterial_Emissive.uasset'
+[2024.11.20-17.24.47:599][742]LogSavePackage: Moving output files for package: /Game/Materials/Meshs/Lights/TopLight/SM_TopLight_DefaultMaterial_EmissiveRose
+[2024.11.20-17.24.47:600][742]LogSavePackage: Moving 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Saved/SM_TopLight_DefaultMaterial_EmisA1FDC51C4E8CA909575BB493E9A4B542.tmp' to 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Content/Materials/Meshs/Lights/TopLight/SM_TopLight_DefaultMaterial_EmissiveRose.uasset'
+[2024.11.20-17.24.47:769][742]LogSavePackage: Moving output files for package: /Game/Materials/Meshs/Lights/TopLight/SM_TopLight_DefaultMaterial_Normal
+[2024.11.20-17.24.47:769][742]LogSavePackage: Moving 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Saved/SM_TopLight_DefaultMaterial_NormA39EBA5041EE2CD2022AABA465E68783.tmp' to 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Content/Materials/Meshs/Lights/TopLight/SM_TopLight_DefaultMaterial_Normal.uasset'
+[2024.11.20-17.24.47:915][742]LogSavePackage: Moving output files for package: /Game/Materials/Meshs/Lights/TopLight/SM_TopLight_DefaultMaterial_OcclusionRoughnessMetallic
+[2024.11.20-17.24.47:916][742]LogSavePackage: Moving 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Saved/SM_TopLight_DefaultMaterial_Occl1E4366F744B7D5E659D3FB8E75EE570F.tmp' to 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Content/Materials/Meshs/Lights/TopLight/SM_TopLight_DefaultMaterial_OcclusionRoughnessMetallic.uasset'
+[2024.11.20-17.24.48:051][742]LogSavePackage: Moving output files for package: /Game/Materials/Meshs/Lights/TopLight/SM_TopLightBlue_DefaultMaterial_Emissive
+[2024.11.20-17.24.48:051][742]LogSavePackage: Moving 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Saved/SM_TopLightBlue_DefaultMaterial_B31F36444AA8286B5E32C78B119E65FE.tmp' to 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Content/Materials/Meshs/Lights/TopLight/SM_TopLightBlue_DefaultMaterial_Emissive.uasset'
+[2024.11.20-17.24.48:066][742]LogFileHelpers: InternalPromptForCheckoutAndSave took 946 ms (total: 9.97 sec)
+[2024.11.20-17.24.48:067][742]AssetCheck: New page: Asset Save: multiple assets
+[2024.11.20-17.24.48:067][742]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Materials/Meshs/Lights/TopLight/SM_TopLight_DefaultMaterial_BaseColor.SM_TopLight_DefaultMaterial_BaseColor
+[2024.11.20-17.24.48:067][742]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Materials/Meshs/Lights/TopLight/SM_TopLight_DefaultMaterial_Emissive.SM_TopLight_DefaultMaterial_Emissive
+[2024.11.20-17.24.48:067][742]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Materials/Meshs/Lights/TopLight/SM_TopLight_DefaultMaterial_EmissiveRose.SM_TopLight_DefaultMaterial_EmissiveRose
+[2024.11.20-17.24.48:068][742]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Materials/Meshs/Lights/TopLight/SM_TopLight_DefaultMaterial_Normal.SM_TopLight_DefaultMaterial_Normal
+[2024.11.20-17.24.48:068][742]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Materials/Meshs/Lights/TopLight/SM_TopLight_DefaultMaterial_OcclusionRoughnessMetallic.SM_TopLight_DefaultMaterial_OcclusionRoughnessMetallic
+[2024.11.20-17.24.48:068][742]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Materials/Meshs/Lights/TopLight/SM_TopLightBlue_DefaultMaterial_Emissive.SM_TopLightBlue_DefaultMaterial_Emissive
+[2024.11.20-17.25.02:901][564]LogEditorFactories: Performing atomic reimport of [C:/Users/pedro/Downloads/Coisas Faculdade/Objs p_ texturizar/SM_TopLight.fbx]
+[2024.11.20-17.25.02:911][564]LogFbx: Loading FBX Scene from C:/Users/pedro/Downloads/Coisas Faculdade/Objs p_ texturizar/SM_TopLight.fbx
+[2024.11.20-17.25.02:916][564]LogFbx: FBX Scene Loaded Succesfully
+[2024.11.20-17.25.02:964][564]LogFbx: Display: Triangulating static mesh TopLight
+[2024.11.20-17.25.02:991][564]LogStaticMesh: Display: Building static mesh SM_TopLightBlue...
+[2024.11.20-17.25.03:031][564]LogStaticMesh: Built static mesh [0.04s] /Game/Meshs/Scenery/NeonFlipStructure/SM_TopLightBlue.SM_TopLightBlue
+[2024.11.20-17.25.03:074][564]LogEditorFactories: -- imported successfully
+[2024.11.20-17.25.09:933][701]LogEditorFactories: Performing atomic reimport of [C:/Users/pedro/Downloads/Coisas Faculdade/Objs p_ texturizar/SM_TopLight.fbx]
+[2024.11.20-17.25.09:943][701]LogFbx: Loading FBX Scene from C:/Users/pedro/Downloads/Coisas Faculdade/Objs p_ texturizar/SM_TopLight.fbx
+[2024.11.20-17.25.09:949][701]LogFbx: FBX Scene Loaded Succesfully
+[2024.11.20-17.25.10:009][701]LogFbx: Display: Triangulating static mesh TopLight
+[2024.11.20-17.25.10:062][701]LogEditorFactories: -- imported successfully
+[2024.11.20-17.25.16:843][817]LogEditorFactories: Performing atomic reimport of [C:/Users/pedro/Downloads/Coisas Faculdade/Objs p_ texturizar/SM_TopLight.fbx]
+[2024.11.20-17.25.16:854][817]LogFbx: Loading FBX Scene from C:/Users/pedro/Downloads/Coisas Faculdade/Objs p_ texturizar/SM_TopLight.fbx
+[2024.11.20-17.25.16:860][817]LogFbx: FBX Scene Loaded Succesfully
+[2024.11.20-17.25.16:920][817]LogFbx: Display: Triangulating static mesh TopLight
+[2024.11.20-17.25.16:965][817]LogEditorFactories: -- imported successfully
+[2024.11.20-17.25.18:305][864]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.20-17.25.18:361][864]LogSavePackage: Moving output files for package: /Game/Meshs/Scenery/NeonFlipStructure/SM_TopLightYellow
+[2024.11.20-17.25.18:362][864]LogSavePackage: Moving 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Saved/SM_TopLightYellowC2AB79C94CC81B4AB96D7C882119DDD9.tmp' to 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Content/Meshs/Scenery/NeonFlipStructure/SM_TopLightYellow.uasset'
+[2024.11.20-17.25.18:379][864]LogSavePackage: Moving output files for package: /Game/Meshs/Scenery/NeonFlipStructure/SM_TopLightBlue
+[2024.11.20-17.25.18:379][864]LogSavePackage: Moving 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Saved/SM_TopLightBlueD59B090E4B1FD41F3F3678B40769C6A0.tmp' to 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Content/Meshs/Scenery/NeonFlipStructure/SM_TopLightBlue.uasset'
+[2024.11.20-17.25.18:395][864]LogSavePackage: Moving output files for package: /Game/Meshs/Scenery/NeonFlipStructure/SM_TopLightPink
+[2024.11.20-17.25.18:395][864]LogSavePackage: Moving 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Saved/SM_TopLightPink5BDD614A49B3C5725850B2BE79A7C36C.tmp' to 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Content/Meshs/Scenery/NeonFlipStructure/SM_TopLightPink.uasset'
+[2024.11.20-17.25.18:413][864]LogFileHelpers: InternalPromptForCheckoutAndSave took 108 ms (total: 10.0 sec)
+[2024.11.20-17.25.18:417][864]AssetCheck: New page: Asset Save: multiple assets
+[2024.11.20-17.25.18:417][864]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Meshs/Scenery/NeonFlipStructure/SM_TopLightYellow.SM_TopLightYellow
+[2024.11.20-17.25.18:417][864]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Meshs/Scenery/NeonFlipStructure/SM_TopLightBlue.SM_TopLightBlue
+[2024.11.20-17.25.18:417][864]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Meshs/Scenery/NeonFlipStructure/SM_TopLightPink.SM_TopLightPink
+[2024.11.20-17.25.29:777][524]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Meshs/Scenery/NeonFlipStructure/SM_TopLightBlue.SM_TopLightBlue
+[2024.11.20-17.25.29:789][524]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.20-17.25.29:789][524]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.20-17.25.30:968][524]LogViewport: Scene viewport resized to 1405x902, mode Windowed.
+[2024.11.20-17.25.39:474][148]LogWorld: UWorld::CleanupWorld for World_162, bSessionEnded=true, bCleanupResources=true
+[2024.11.20-17.25.39:474][148]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.20-17.25.44:426][464]LogWorld: UWorld::CleanupWorld for World_161, bSessionEnded=true, bCleanupResources=true
+[2024.11.20-17.25.44:426][464]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.20-17.25.46:853][591]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Meshs/Scenery/NeonFlipStructure/SM_TopLightYellow.SM_TopLightYellow
+[2024.11.20-17.25.46:898][591]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.20-17.25.46:898][591]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.20-17.25.48:037][591]LogViewport: Scene viewport resized to 903x528, mode Windowed.
+[2024.11.20-17.25.49:469][653]LogViewport: Scene viewport resized to 900x551, mode Windowed.
+[2024.11.20-17.25.49:560][655]LogViewport: Scene viewport resized to 577x316, mode Windowed.
+[2024.11.20-17.25.49:870][672]LogViewport: Scene viewport resized to 1405x902, mode Windowed.
+[2024.11.20-17.25.50:075][681]LogSlate: Window 'SM_TopLightYellow' being destroyed
+[2024.11.20-17.25.52:717][805]LogShaderCompilers: Display: ================================================
+[2024.11.20-17.25.52:717][805]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.11.20-17.25.52:717][805]LogShaderCompilers: Display: Total job queries 235, among them cache hits 114 (48.51%)
+[2024.11.20-17.25.52:717][805]LogShaderCompilers: Display: Tracking 119 distinct input hashes that result in 52 distinct outputs (43.70%)
+[2024.11.20-17.25.52:717][805]LogShaderCompilers: Display: RAM used: 2,61 MiB of 819,20 MiB budget. Usage: 0.32%
+[2024.11.20-17.25.52:717][805]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.11.20-17.25.52:717][805]LogShaderCompilers: Display: Shaders Compiled: 15
+[2024.11.20-17.25.52:717][805]LogShaderCompilers: Display: Jobs assigned 15, completed 15 (100%)
+[2024.11.20-17.25.52:717][805]LogShaderCompilers: Display: Average time worker was idle: 5523.65 s
+[2024.11.20-17.25.52:717][805]LogShaderCompilers: Display: Time job spent in pending queue: average 0.79 s, longest 2.05 s
+[2024.11.20-17.25.52:717][805]LogShaderCompilers: Display: Job execution time: average 1.44 s, max 3.26 s
+[2024.11.20-17.25.52:717][805]LogShaderCompilers: Display: Job life time (pending + execution): average 2.23 s, max 3.34
+[2024.11.20-17.25.52:717][805]LogShaderCompilers: Display: Shader code size: average 35,606 KiB, min 4,465 KiB, max 66,25 KiB
+[2024.11.20-17.25.52:717][805]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 8.60 s
+[2024.11.20-17.25.52:717][805]LogShaderCompilers: Display: Jobs were issued in 15 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.11.20-17.25.52:717][805]LogShaderCompilers: Display: Average processing rate: 1.74 jobs/sec
+[2024.11.20-17.25.52:717][805]LogShaderCompilers: Display: Total thread time: 11,396 s
+[2024.11.20-17.25.52:717][805]LogShaderCompilers: Display: Total thread preprocess time: 2,417 s
+[2024.11.20-17.25.52:717][805]LogShaderCompilers: Display: Percentage time preprocessing: 21.21%
+[2024.11.20-17.25.52:717][805]LogShaderCompilers: Display: Effective parallelization: 1.33 (times faster than compiling all shaders on one thread). Compare with number of workers: 4
+[2024.11.20-17.25.52:717][805]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.11.20-17.25.52:718][805]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    4 times, average 1.15 sec, max 1.92 sec, min 0.77 sec)
+[2024.11.20-17.25.52:718][805]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    3 times, average 0.76 sec, max 0.84 sec, min 0.63 sec)
+[2024.11.20-17.25.52:718][805]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    3 times, average 0.76 sec, max 0.86 sec, min 0.64 sec)
+[2024.11.20-17.25.52:718][805]LogShaderCompilers: Display:                                                  FHitProxyVS (compiled    1 times, average 0.73 sec, max 0.73 sec, min 0.73 sec)
+[2024.11.20-17.25.52:718][805]LogShaderCompilers: Display:                                          FLumenCardPS<false> (compiled    3 times, average 0.38 sec, max 0.44 sec, min 0.34 sec)
+[2024.11.20-17.25.52:718][805]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.11.20-17.25.52:718][805]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 40.49% of total time (compiled    4 times, average 1.15 sec, max 1.92 sec, min 0.77 sec)
+[2024.11.20-17.25.52:718][805]LogShaderCompilers: Display:                                                 FLumenCardVS - 20.07% of total time (compiled    3 times, average 0.76 sec, max 0.84 sec, min 0.63 sec)
+[2024.11.20-17.25.52:718][805]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 19.92% of total time (compiled    3 times, average 0.76 sec, max 0.86 sec, min 0.64 sec)
+[2024.11.20-17.25.52:718][805]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 10.09% of total time (compiled    3 times, average 0.38 sec, max 0.44 sec, min 0.34 sec)
+[2024.11.20-17.25.52:718][805]LogShaderCompilers: Display:                                                  FHitProxyVS - 6.41% of total time (compiled    1 times, average 0.73 sec, max 0.73 sec, min 0.73 sec)
+[2024.11.20-17.25.52:718][805]LogShaderCompilers: Display: ================================================
+[2024.11.20-17.26.00:639][368]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.20-17.26.00:707][368]LogSavePackage: Moving output files for package: /Game/Meshs/Scenery/NeonFlipStructure/SM_TopLightYellow
+[2024.11.20-17.26.00:708][368]LogSavePackage: Moving 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Saved/SM_TopLightYellow96EC04F1417CA1DB39F61AA4817E6F78.tmp' to 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Content/Meshs/Scenery/NeonFlipStructure/SM_TopLightYellow.uasset'
+[2024.11.20-17.26.00:721][368]LogFileHelpers: InternalPromptForCheckoutAndSave took 81 ms (total: 10.1 sec)
+[2024.11.20-17.26.00:723][368]AssetCheck: New page: Asset Save: SM_TopLightYellow
+[2024.11.20-17.26.00:723][368]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Meshs/Scenery/NeonFlipStructure/SM_TopLightYellow.SM_TopLightYellow
+[2024.11.20-17.26.01:716][438]LogWorld: UWorld::CleanupWorld for World_163, bSessionEnded=true, bCleanupResources=true
+[2024.11.20-17.26.01:716][438]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.20-17.26.14:331][281]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Meshs/Scenery/NeonFlipStructure/SM_TopLightYellow.SM_TopLightYellow
+[2024.11.20-17.26.14:331][281]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Meshs/Scenery/NeonFlipStructure/SM_TopLightYellow.SM_TopLightYellow
+[2024.11.20-17.26.14:333][281]LogActorFactory: Actor Factory spawned StaticMesh /Game/Meshs/Scenery/NeonFlipStructure/SM_TopLightYellow.SM_TopLightYellow as actor: StaticMeshActor /Game/Levels/Ilumination.Ilumination:PersistentLevel.StaticMeshActor_37
+[2024.11.20-17.26.15:826][361]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Meshs/Scenery/NeonFlipStructure/SM_TopLightYellow.SM_TopLightYellow
+[2024.11.20-17.26.15:826][361]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Meshs/Scenery/NeonFlipStructure/SM_TopLightYellow.SM_TopLightYellow
+[2024.11.20-17.26.15:828][361]LogActorFactory: Actor Factory spawned StaticMesh /Game/Meshs/Scenery/NeonFlipStructure/SM_TopLightYellow.SM_TopLightYellow as actor: StaticMeshActor /Game/Levels/Ilumination.Ilumination:PersistentLevel.StaticMeshActor_38
+[2024.11.20-17.26.20:971][718]Cmd: TRANSACTION UNDO
+[2024.11.20-17.26.20:971][718]LogEditorTransaction: Undo Paste Location
+[2024.11.20-17.26.29:653][347]Cmd: TRANSACTION UNDO
+[2024.11.20-17.26.29:654][347]LogEditorTransaction: Undo Clicking on Elements
+[2024.11.20-17.26.38:049][ 21]Cmd: TRANSACTION UNDO
+[2024.11.20-17.26.38:049][ 21]LogEditorTransaction: Undo Clicking on Elements
+[2024.11.20-17.26.39:073][ 73]Cmd: TRANSACTION UNDO
+[2024.11.20-17.26.39:073][ 73]LogEditorTransaction: Undo Move Elements
+[2024.11.20-17.26.55:974][412]Cmd: DELETE
+[2024.11.20-17.26.55:974][412]Cmd: ACTOR DELETE
+[2024.11.20-17.26.56:006][412]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.11.20-17.26.56:037][412]LogUObjectHash: Compacting FUObjectHashTables data took   2.34ms
+[2024.11.20-17.26.56:042][412]LogEditorActor: Deleted 1 Actors (0.067 secs)
+[2024.11.20-17.27.32:332][504]Cmd: DUPLICATE
+[2024.11.20-17.27.32:332][504]Cmd: ACTOR DUPLICATE
+[2024.11.20-17.27.38:818][ 24]Cmd: DELETE
+[2024.11.20-17.27.38:818][ 24]Cmd: ACTOR DELETE
+[2024.11.20-17.27.38:837][ 24]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.11.20-17.27.38:862][ 24]LogUObjectHash: Compacting FUObjectHashTables data took   2.56ms
+[2024.11.20-17.27.38:868][ 24]LogEditorActor: Deleted 1 Actors (0.050 secs)
+[2024.11.20-17.28.15:451][998]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Meshs/Scenery/NeonFlipStructure/SM_TopLightYellow.SM_TopLightYellow
+[2024.11.20-17.28.15:451][998]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Meshs/Scenery/NeonFlipStructure/SM_TopLightYellow.SM_TopLightYellow
+[2024.11.20-17.28.15:452][998]LogActorFactory: Actor Factory spawned StaticMesh /Game/Meshs/Scenery/NeonFlipStructure/SM_TopLightYellow.SM_TopLightYellow as actor: StaticMeshActor /Game/Levels/Ilumination.Ilumination:PersistentLevel.StaticMeshActor_41
+[2024.11.20-17.28.16:604][ 47]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Meshs/Scenery/NeonFlipStructure/SM_TopLightYellow.SM_TopLightYellow
+[2024.11.20-17.28.16:604][ 47]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/Meshs/Scenery/NeonFlipStructure/SM_TopLightYellow.SM_TopLightYellow
+[2024.11.20-17.28.16:606][ 47]LogActorFactory: Actor Factory spawned StaticMesh /Game/Meshs/Scenery/NeonFlipStructure/SM_TopLightYellow.SM_TopLightYellow as actor: StaticMeshActor /Game/Levels/Ilumination.Ilumination:PersistentLevel.StaticMeshActor_53
+[2024.11.20-17.28.26:798][773]Cmd: DELETE
+[2024.11.20-17.28.26:798][773]Cmd: ACTOR DELETE
+[2024.11.20-17.28.26:817][773]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.11.20-17.28.26:845][773]LogUObjectHash: Compacting FUObjectHashTables data took   2.25ms
+[2024.11.20-17.28.26:850][773]LogEditorActor: Deleted 1 Actors (0.051 secs)
+[2024.11.20-17.28.51:542][295]Cmd: DUPLICATE
+[2024.11.20-17.28.51:542][295]Cmd: ACTOR DUPLICATE
+[2024.11.20-17.28.56:719][473]Cmd: DELETE
+[2024.11.20-17.28.56:719][473]Cmd: ACTOR DELETE
+[2024.11.20-17.28.56:756][473]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.11.20-17.28.56:801][473]LogUObjectHash: Compacting FUObjectHashTables data took   4.18ms
+[2024.11.20-17.28.56:806][473]LogEditorActor: Deleted 1 Actors (0.087 secs)
+[2024.11.20-17.29.12:782][ 86]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.20-17.29.12:850][ 86]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Ilumination" FILE="D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Content/Levels/Ilumination.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.11.20-17.29.13:157][ 86]LogUObjectHash: Compacting FUObjectHashTables data took   3.14ms
+[2024.11.20-17.29.13:419][ 86]LogSavePackage: Moving output files for package: /Game/Levels/Ilumination
+[2024.11.20-17.29.13:420][ 86]LogSavePackage: Moving 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Saved/Ilumination162C1F4B41C81CBF52D84CA8BF26B286.tmp' to 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Content/Levels/Ilumination.umap'
+[2024.11.20-17.29.13:498][ 86]LogFileHelpers: Saving map 'Ilumination' took 0.650
+[2024.11.20-17.29.13:518][ 86]LogFileHelpers: InternalPromptForCheckoutAndSave took 735 ms (total: 10.9 sec)
+[2024.11.20-17.29.13:521][ 86]AssetCheck: New page: Asset Save: Ilumination
+[2024.11.20-17.29.13:521][ 86]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Ilumination.Ilumination
