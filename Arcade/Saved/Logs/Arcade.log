@@ -3406,3 +3406,263 @@ Make sure 'WB_Computer_C' has been compiled for  Get WB_Tooltip_Decoration
 [2024.11.20-01.20.46:553][853]LogUObjectHash: Compacting FUObjectHashTables data took   2.16ms
 [2024.11.20-01.20.46:616][854]LogPlayLevel: Display: Destroying online subsystem :Context_30
 [2024.11.20-01.23.02:772][228]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
+[2024.11.20-01.24.16:293][179]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.20-01.24.16:315][179]LogContentBundle: [TestingPlayerV3(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.11.20-01.24.16:315][179]LogWorldPartition: Display: GenerateStreaming for 'TestingPlayerV3' started...
+[2024.11.20-01.24.16:700][179]LogWorldPartition: Display: GenerateStreaming for 'TestingPlayerV3' took 385 ms (total: 7.13 sec)
+[2024.11.20-01.24.16:701][179]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.20-01.24.16:701][179]PIE: New page: PIE session: TestingPlayerV3 (19 de nov de 2024 19:24:16)
+[2024.11.20-01.24.16:722][179]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TestingPlayerV3
+[2024.11.20-01.24.16:738][179]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015859s)
+[2024.11.20-01.24.16:738][179]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TestingPlayerV3.TestingPlayerV3 to /Game/Levels/UEDPIE_0_TestingPlayerV3.TestingPlayerV3 (0.015911s)
+[2024.11.20-01.24.16:770][179]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2024.11.20-01.24.16:776][179]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.20-01.24.16:777][179]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.20-01.24.16:777][179]LogAIModule: Creating AISystem for world TestingPlayerV3
+[2024.11.20-01.24.16:778][179]LogWorldPartition: ULevel::OnLevelLoaded(TestingPlayerV3)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.11.20-01.24.16:778][179]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.11.20-01.24.16:778][179]LogWorldPartition: UWorldPartition::Initialize : World = TestingPlayerV3, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.11.20-01.24.16:778][179]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.11.20-01.24.16:781][179]LogContentBundle: [TestingPlayerV3(Standalone)] Creating new contrainer.
+[2024.11.20-01.24.16:781][179]LogWorldPartition: Display: WorldPartition initialize took 3 ms (total: 2.01 sec)
+[2024.11.20-01.24.16:781][179]LogPlayLevel: PIE: World Init took: (0.005022s)
+[2024.11.20-01.24.16:781][179]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2024.11.20-01.24.16:781][179]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.20-01.24.16:781][179]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.20-01.24.16:781][179]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.20-01.24.16:781][179]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.20-01.24.16:781][179]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.20-01.24.16:781][179]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.20-01.24.16:781][179]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.20-01.24.16:781][179]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.20-01.24.16:781][179]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.20-01.24.16:781][179]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.20-01.24.16:781][179]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.20-01.24.16:783][179]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.20-01.24.16:822][179]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (2- USB Audio Device)
+[2024.11.20-01.24.16:822][179]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.20-01.24.16:822][179]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.20-01.24.16:822][179]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.20-01.24.16:823][179]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=10
+[2024.11.20-01.24.16:823][179]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=10
+[2024.11.20-01.24.16:825][179]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=10
+[2024.11.20-01.24.16:825][179]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=10
+[2024.11.20-01.24.16:825][179]LogInit: FAudioDevice initialized with ID 10.
+[2024.11.20-01.24.16:825][179]LogAudio: Display: Audio Device (ID: 10) registered with world 'TestingPlayerV3'.
+[2024.11.20-01.24.16:825][179]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 10
+[2024.11.20-01.24.16:828][179]LogLoad: Game class is 'MyGameGamemode_C'
+[2024.11.20-01.24.16:830][179]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TestingPlayerV3.TestingPlayerV3 up for play (max tick rate 0) at 2024.11.19-22.24.16
+[2024.11.20-01.24.16:830][179]LogWorld: Bringing up level for play took: 0.001077
+[2024.11.20-01.24.16:832][179]LogOnline: OSS: Created online subsystem instance for: :Context_31
+[2024.11.20-01.24.16:833][179]LogWorldPartition: UWorldPartitionStreamingPolicy: CellsToActivate(41), CellsToLoad(0), CellsToUnload(0)
+[2024.11.20-01.24.16:833][179]LogWorldPartition: UWorldPartitionStreamingPolicy: Sources[0] = X=-11940.435 Y=-6681.237 Z=92.000,P=0.000000 Y=0.000000 R=-0.000000
+[2024.11.20-01.24.16:837][179]LogStreaming: Display: FlushAsyncLoading(): 101 QueuedPackages, 0 AsyncPackages
+[2024.11.20-01.24.17:144][179]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/F/3V/SGXHP7QS5GRT1JBHT33KQ0.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.20-01.24.17:144][179]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/E/VL/X5Q085BFSP21DDX5UIEABG.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.20-01.24.17:144][179]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/E/H6/S0WC83HTY3H1Q6ZIEHXIDA.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.20-01.24.17:144][179]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/D/ZL/1M0AVZH3IH9U4BHF3XWLRB.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.20-01.24.17:144][179]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/D/VQ/LN8O9M33QV1LRFSFAGYGQE.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.20-01.24.17:144][179]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/D/PB/ITGTQXTF3W42FMEJUDC86F.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.20-01.24.17:144][179]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/D/PB/ITGTQXTF3W42FMEJUDC86F.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.20-01.24.17:144][179]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/D/MM/9NZ17YYZ7CIJDL9YCKJLAB.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.20-01.24.17:144][179]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/D/HK/9Q6DJT0B2S4K5Y3XK0XARX.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.20-01.24.17:144][179]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/D/0Q/HVZS5ZMERV3TW98Y0DX6SC.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.20-01.24.17:144][179]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/C/S3/H9GBJD0ENTCLGLFPYRVBNN.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.20-01.24.17:144][179]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/C/RQ/Q3BMFHGD4NV0OO8O87ZWR9.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.20-01.24.17:144][179]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/C/IZ/4BHZVNE3HLV86YURX5I32Q.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.20-01.24.17:144][179]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/C/IZ/4BHZVNE3HLV86YURX5I32Q.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.20-01.24.17:144][179]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/B/XF/53570J3X5SQKO6IXAICG05.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.20-01.24.17:144][179]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/B/VS/6IAPNLB1TA49NVF9V5T6LO.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.20-01.24.17:144][179]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/B/4S/7YHACLFH9MIU6FU0V2J82F.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.20-01.24.17:144][179]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/B/2E/1PY734PC1GI5QUQYSG9PY5.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.20-01.24.17:144][179]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/A/YJ/S3P81HND5RPWJ98FILI9US.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.20-01.24.17:144][179]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/A/N8/0OSA4YEZEY0SAJDMM533QP.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.20-01.24.17:144][179]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/A/3V/39S28UELJ8RROZ43YVMS9I.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.20-01.24.17:144][179]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/A/2W/7UVZO6XUMEB5HNHV8G3RAD.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.20-01.24.17:145][179]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/A/0B/58344MYAVPMKOGBBTY9GHF.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.20-01.24.17:145][179]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/A/0B/58344MYAVPMKOGBBTY9GHF.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.20-01.24.17:145][179]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/9/QN/U0FIVVDR1FD83DD800E9OE.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.20-01.24.17:145][179]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/9/MN/5OG9KQ7PPP6SC8Y7HAPU9W.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.20-01.24.17:145][179]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/8/WS/8DWMRN3YHHDRCG251BIVG9.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.20-01.24.17:145][179]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/8/WS/8DWMRN3YHHDRCG251BIVG9.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.20-01.24.17:145][179]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/8/RW/JI6IWZ8USTTA382KYB7AE5.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.20-01.24.17:145][179]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/8/RW/JI6IWZ8USTTA382KYB7AE5.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.20-01.24.17:145][179]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/8/OO/70ASEH7LQG8LAF3X7WJ4OE.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.20-01.24.17:145][179]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/8/OO/70ASEH7LQG8LAF3X7WJ4OE.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.20-01.24.17:145][179]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/8/IW/B9L9R56UDOKPEY2FYIVA84.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.20-01.24.17:145][179]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/8/IW/B9L9R56UDOKPEY2FYIVA84.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.20-01.24.17:145][179]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/8/A7/D1A0TDUF3P1P1RGDPQNXBP.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.20-01.24.17:145][179]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/8/A7/D1A0TDUF3P1P1RGDPQNXBP.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.20-01.24.17:145][179]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/7/ZL/Z4E57TBCO86Q8WUA96R6R4.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.20-01.24.17:145][179]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/7/ER/0CLB5CRJP6YGHJ5GPU3LRC.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.20-01.24.17:145][179]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/7/1M/LGSFCU0DFTR385FGLFLDIU.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.20-01.24.17:145][179]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/7/1M/LGSFCU0DFTR385FGLFLDIU.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.20-01.24.17:145][179]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/6/F5/CRBFSZI9KXO1Z3X9PE8JJ0.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.20-01.24.17:145][179]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/6/60/8BFJB4BK2XQ54I6TV7P3Z8.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.20-01.24.17:145][179]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/5/Y7/VJD4QITZGJ1SH7PZVIEZEX.StaticMesh_TestingPlayer_HLOD0_Instancing_7 being ready before playing
+[2024.11.20-01.24.17:145][179]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/5/Y7/VJD4QITZGJ1SH7PZVIEZEX.StaticMesh_TestingPlayer_HLOD0_Instancing_6 being ready before playing
+[2024.11.20-01.24.17:145][179]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/5/Y7/VJD4QITZGJ1SH7PZVIEZEX.StaticMesh_TestingPlayer_HLOD0_Instancing_5 being ready before playing
+[2024.11.20-01.24.17:145][179]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/5/Y7/VJD4QITZGJ1SH7PZVIEZEX.StaticMesh_TestingPlayer_HLOD0_Instancing_4 being ready before playing
+[2024.11.20-01.24.17:145][179]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/5/W9/65VMTCNFIT90VWA7RT2ENZ.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.20-01.24.17:145][179]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/5/N7/CMCF25TEG58RLN82SSAZ9M.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.20-01.24.17:145][179]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/5/LW/KH0EFZB35LZJE3HL6YTSPF.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.20-01.24.17:145][179]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/5/LW/KH0EFZB35LZJE3HL6YTSPF.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.20-01.24.17:145][179]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/2/D9/1AWAXE32A0Z461CFDKLF52.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.20-01.24.17:145][179]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/2/BP/QK49DVY62Z0FWRN0VBWHHE.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.20-01.24.17:145][179]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/2/BP/QK49DVY62Z0FWRN0VBWHHE.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.20-01.24.17:145][179]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/2/87/VQNVO7UZWUQP4Y0B1VA7T7.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.20-01.24.17:145][179]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/1/NR/DL6PX7RRS0GIZFUFDQZNVK.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.20-01.24.17:145][179]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/1/MK/L87UU7CRFBGRO8Q1YZYKBW.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.20-01.24.17:145][179]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/1/J2/036XKETCC6O300PIDLNXUN.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.20-01.24.17:145][179]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/1/G8/2LYN577GRGR8X783YCKF56.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.20-01.24.17:145][179]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/1/2L/60252UNVPG0VY69MOSQWSY.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.20-01.24.17:145][179]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/0/YT/0COB3VRMPDP3O4KDPL0NX0.StaticMesh_TestingPlayer_HLOD0_Instancing_3 being ready before playing
+[2024.11.20-01.24.17:145][179]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/0/YT/0COB3VRMPDP3O4KDPL0NX0.StaticMesh_TestingPlayer_HLOD0_Instancing_2 being ready before playing
+[2024.11.20-01.24.17:145][179]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/0/B4/KG7KFX7NG6MWAAQ87237GG.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.20-01.24.17:145][179]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/0/3W/1P5ZXA2I6LMI4NAG0UB1SV.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.20-01.24.17:145][179]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Levels/TestingPlayerV3/0/2S/9O10TOMKEG3NRO8TDA9CWX.StaticMesh_TestingPlayer_HLOD0_Instancing_1 being ready before playing
+[2024.11.20-01.24.17:391][179]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.20-01.24.17:391][179]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.20-01.24.17:391][179]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.11.20-01.24.17:401][179]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.11.20-01.24.17:401][179]PIE: Server logged in
+[2024.11.20-01.24.17:402][179]PIE: Play in editor total start time 1,087 seconds.
+[2024.11.20-01.24.17:584][180]LogShaderCompilers: Display: ================================================
+[2024.11.20-01.24.17:585][180]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.11.20-01.24.17:585][180]LogShaderCompilers: Display: Total job queries 226, among them cache hits 124 (54.87%)
+[2024.11.20-01.24.17:585][180]LogShaderCompilers: Display: Tracking 102 distinct input hashes that result in 46 distinct outputs (45.10%)
+[2024.11.20-01.24.17:585][180]LogShaderCompilers: Display: RAM used: 2,20 MiB of 819,20 MiB budget. Usage: 0.27%
+[2024.11.20-01.24.17:585][180]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.11.20-01.24.17:585][180]LogShaderCompilers: Display: Shaders Compiled: 1
+[2024.11.20-01.24.17:585][180]LogShaderCompilers: Display: Jobs assigned 1, completed 1 (100%)
+[2024.11.20-01.24.17:585][180]LogShaderCompilers: Display: Time job spent in pending queue: average 0.00 s, longest 0.00 s
+[2024.11.20-01.24.17:585][180]LogShaderCompilers: Display: Job execution time: average 3.06 s, max 3.06 s
+[2024.11.20-01.24.17:585][180]LogShaderCompilers: Display: Job life time (pending + execution): average 3.06 s, max 3.06
+[2024.11.20-01.24.17:585][180]LogShaderCompilers: Display: Shader code size: average 34,695 KiB, min 31,258 KiB, max 38,133 KiB
+[2024.11.20-01.24.17:585][180]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 3.06 s
+[2024.11.20-01.24.17:585][180]LogShaderCompilers: Display: Jobs were issued in 1 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.11.20-01.24.17:585][180]LogShaderCompilers: Display: Average processing rate: 0.33 jobs/sec
+[2024.11.20-01.24.17:585][180]LogShaderCompilers: Display: Total thread time: 0,944 s
+[2024.11.20-01.24.17:585][180]LogShaderCompilers: Display: Total thread preprocess time: 0,621 s
+[2024.11.20-01.24.17:585][180]LogShaderCompilers: Display: Percentage time preprocessing: 65.78%
+[2024.11.20-01.24.17:585][180]LogShaderCompilers: Display: Effective parallelization: 0.31 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.11.20-01.24.17:585][180]LogShaderCompilers: Display: Top 2 most expensive shader types by average time:
+[2024.11.20-01.24.17:585][180]LogShaderCompilers: Display:                                                  FVelocityPS (compiled    1 times, average 0.70 sec, max 0.70 sec, min 0.70 sec)
+[2024.11.20-01.24.17:585][180]LogShaderCompilers: Display:                                                  FVelocityVS (compiled    1 times, average 0.24 sec, max 0.24 sec, min 0.24 sec)
+[2024.11.20-01.24.17:585][180]LogShaderCompilers: Display: Top 2 shader types by total compile time:
+[2024.11.20-01.24.17:585][180]LogShaderCompilers: Display:                                                  FVelocityPS - 74.25% of total time (compiled    1 times, average 0.70 sec, max 0.70 sec, min 0.70 sec)
+[2024.11.20-01.24.17:585][180]LogShaderCompilers: Display:                                                  FVelocityVS - 25.75% of total time (compiled    1 times, average 0.24 sec, max 0.24 sec, min 0.24 sec)
+[2024.11.20-01.24.17:585][180]LogShaderCompilers: Display: ================================================
+[2024.11.20-01.24.38:098][690]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.11.20-01.24.38:098][690]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2024.11.20-01.24.38:098][690]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2024.11.20-01.24.48:854][555]LogViewport: Scene viewport resized to 1065x501, mode Windowed.
+[2024.11.20-01.24.48:872][556]LogViewport: Scene viewport resized to 1065x509, mode Windowed.
+[2024.11.20-01.24.48:890][557]LogViewport: Scene viewport resized to 1065x521, mode Windowed.
+[2024.11.20-01.24.48:909][558]LogViewport: Scene viewport resized to 1065x540, mode Windowed.
+[2024.11.20-01.24.48:928][559]LogViewport: Scene viewport resized to 1065x560, mode Windowed.
+[2024.11.20-01.24.48:946][560]LogViewport: Scene viewport resized to 1065x581, mode Windowed.
+[2024.11.20-01.24.48:965][561]LogViewport: Scene viewport resized to 1065x597, mode Windowed.
+[2024.11.20-01.24.48:985][562]LogViewport: Scene viewport resized to 1065x608, mode Windowed.
+[2024.11.20-01.24.49:003][563]LogViewport: Scene viewport resized to 1065x618, mode Windowed.
+[2024.11.20-01.24.49:019][564]LogViewport: Scene viewport resized to 1065x627, mode Windowed.
+[2024.11.20-01.24.49:039][565]LogViewport: Scene viewport resized to 1065x634, mode Windowed.
+[2024.11.20-01.24.49:055][566]LogViewport: Scene viewport resized to 1065x637, mode Windowed.
+[2024.11.20-01.24.49:071][567]LogViewport: Scene viewport resized to 1065x641, mode Windowed.
+[2024.11.20-01.24.49:088][568]LogViewport: Scene viewport resized to 1065x643, mode Windowed.
+[2024.11.20-01.24.49:105][569]LogViewport: Scene viewport resized to 1065x645, mode Windowed.
+[2024.11.20-01.24.49:121][570]LogViewport: Scene viewport resized to 1065x648, mode Windowed.
+[2024.11.20-01.24.49:136][571]LogViewport: Scene viewport resized to 1065x650, mode Windowed.
+[2024.11.20-01.24.49:152][572]LogViewport: Scene viewport resized to 1065x651, mode Windowed.
+[2024.11.20-01.24.49:169][573]LogViewport: Scene viewport resized to 1065x655, mode Windowed.
+[2024.11.20-01.24.49:186][574]LogViewport: Scene viewport resized to 1065x657, mode Windowed.
+[2024.11.20-01.24.49:203][575]LogViewport: Scene viewport resized to 1065x661, mode Windowed.
+[2024.11.20-01.24.49:220][576]LogViewport: Scene viewport resized to 1065x664, mode Windowed.
+[2024.11.20-01.24.49:237][577]LogViewport: Scene viewport resized to 1065x665, mode Windowed.
+[2024.11.20-01.24.49:286][582]LogViewport: Scene viewport resized to 1065x667, mode Windowed.
+[2024.11.20-01.24.49:301][583]LogViewport: Scene viewport resized to 1065x669, mode Windowed.
+[2024.11.20-01.24.49:317][584]LogViewport: Scene viewport resized to 1065x670, mode Windowed.
+[2024.11.20-01.24.49:333][585]LogViewport: Scene viewport resized to 1065x671, mode Windowed.
+[2024.11.20-01.25.29:752][981]Cmd: LevelEditor.ToggleImmersive
+[2024.11.20-01.25.29:776][981]LogViewport: Scene viewport resized to 852x333, mode Windowed.
+[2024.11.20-01.25.29:784][981]LogViewport: Scene viewport resized to 208x333, mode Windowed.
+[2024.11.20-01.25.29:794][981]LogViewport: Scene viewport resized to 208x333, mode Windowed.
+[2024.11.20-01.25.29:805][981]LogViewport: Scene viewport resized to 1421x821, mode Windowed.
+[2024.11.20-01.25.29:835][982]LogViewport: Scene viewport resized to 1846x1001, mode Windowed.
+[2024.11.20-01.25.29:855][983]LogViewport: Scene viewport resized to 1892x1021, mode Windowed.
+[2024.11.20-01.25.29:880][984]LogViewport: Scene viewport resized to 1917x1031, mode Windowed.
+[2024.11.20-01.25.29:909][985]LogViewport: Scene viewport resized to 1920x1032, mode Windowed.
+[2024.11.20-01.25.37:273][848]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.20-01.25.37:273][848]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TestingPlayerV3
+[2024.11.20-01.25.37:284][848]LogWorld: UWorld::CleanupWorld for TestingPlayerV3, bSessionEnded=true, bCleanupResources=true
+[2024.11.20-01.25.37:285][848]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.20-01.25.37:285][848]LogContentBundle: [TestingPlayerV3(Standalone)] Deleting container.
+[2024.11.20-01.25.37:291][848]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.20-01.25.37:303][848]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.20-01.25.37:358][848]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.20-01.25.37:358][848]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 10
+[2024.11.20-01.25.37:359][848]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2024.11.20-01.25.37:361][848]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2024.11.20-01.25.37:391][848]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2024.11.20-01.25.37:437][849]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2024.11.20-01.25.38:870][ 10]LogViewport: Scene viewport resized to 1768x968, mode Windowed.
+[2024.11.20-01.25.38:892][ 11]LogViewport: Scene viewport resized to 1340x787, mode Windowed.
+[2024.11.20-01.25.38:914][ 12]LogViewport: Scene viewport resized to 1221x738, mode Windowed.
+[2024.11.20-01.25.38:938][ 13]LogViewport: Scene viewport resized to 1148x706, mode Windowed.
+[2024.11.20-01.25.38:959][ 14]LogViewport: Scene viewport resized to 1102x687, mode Windowed.
+[2024.11.20-01.25.38:982][ 15]LogViewport: Scene viewport resized to 1076x676, mode Windowed.
+[2024.11.20-01.25.39:002][ 16]LogViewport: Scene viewport resized to 1067x672, mode Windowed.
+[2024.11.20-01.25.39:026][ 17]LogViewport: Scene viewport resized to 1065x671, mode Windowed.
+[2024.11.20-01.26.07:368][598]BlueprintLog: New page: Compile WB_Tooltip
+[2024.11.20-01.26.07:642][598]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2024.11.20-01.26.07:801][598]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.20-01.26.07:838][598]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/WB_Tooltip" FILE="../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/Widgets/WB_Tooltip.uasset" SILENT=true
+[2024.11.20-01.26.07:844][598]LogSavePackage: Moving output files for package: /Game/Widgets/WB_Tooltip
+[2024.11.20-01.26.07:845][598]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Saved/WB_TooltipAB26205A46BD91F0321075A9A2F07DFD.tmp' to '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/Widgets/WB_Tooltip.uasset'
+[2024.11.20-01.26.07:852][598]LogFileHelpers: InternalPromptForCheckoutAndSave took 51 ms (total: 4.19 sec)
+[2024.11.20-01.26.07:861][598]AssetCheck: New page: Asset Save: WB_Tooltip
+[2024.11.20-01.26.07:861][598]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/WB_Tooltip.WB_Tooltip
+[2024.11.20-01.26.14:457][301]BlueprintLog: New page: Compile WB_Tooltip
+[2024.11.20-01.26.14:700][301]LogUObjectHash: Compacting FUObjectHashTables data took   2.08ms
+[2024.11.20-01.26.14:859][301]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.20-01.26.14:891][301]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/WB_Tooltip" FILE="../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/Widgets/WB_Tooltip.uasset" SILENT=true
+[2024.11.20-01.26.14:898][301]LogSavePackage: Moving output files for package: /Game/Widgets/WB_Tooltip
+[2024.11.20-01.26.14:899][301]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Saved/WB_Tooltip576F9E154850BAE2BDE4DB8C2229DA82.tmp' to '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/Widgets/WB_Tooltip.uasset'
+[2024.11.20-01.26.14:906][301]LogFileHelpers: InternalPromptForCheckoutAndSave took 46 ms (total: 4.24 sec)
+[2024.11.20-01.26.14:922][301]AssetCheck: New page: Asset Save: WB_Tooltip
+[2024.11.20-01.26.14:922][301]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/WB_Tooltip.WB_Tooltip
+[2024.11.20-01.26.19:722][737]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.20-01.26.19:756][737]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/WB_Tooltip" FILE="../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/Widgets/WB_Tooltip.uasset" SILENT=true
+[2024.11.20-01.26.19:762][737]LogSavePackage: Moving output files for package: /Game/Widgets/WB_Tooltip
+[2024.11.20-01.26.19:762][737]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Saved/WB_Tooltip9362F4BA4886A862A8421BAA90FD871E.tmp' to '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/Widgets/WB_Tooltip.uasset'
+[2024.11.20-01.26.19:770][737]LogFileHelpers: InternalPromptForCheckoutAndSave took 48 ms (total: 4.29 sec)
+[2024.11.20-01.26.19:772][737]AssetCheck: New page: Asset Save: WB_Tooltip
+[2024.11.20-01.26.19:772][737]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/WB_Tooltip.WB_Tooltip
+[2024.11.20-01.27.12:292][957]LogEditorTransaction: Undo Edit Width Override
+[2024.11.20-01.27.36:878][396]BlueprintLog: New page: Compile WB_Tooltip
+[2024.11.20-01.27.37:118][396]LogUObjectHash: Compacting FUObjectHashTables data took   2.02ms
+[2024.11.20-01.27.37:479][396]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.20-01.27.37:521][396]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/WB_Tooltip" FILE="../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/Widgets/WB_Tooltip.uasset" SILENT=true
+[2024.11.20-01.27.37:527][396]LogSavePackage: Moving output files for package: /Game/Widgets/WB_Tooltip
+[2024.11.20-01.27.37:528][396]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Saved/WB_Tooltip89FF86B0438EB2D7D1588C84B5FCE2D0.tmp' to '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/Widgets/WB_Tooltip.uasset'
+[2024.11.20-01.27.37:534][396]LogFileHelpers: InternalPromptForCheckoutAndSave took 55 ms (total: 4.34 sec)
+[2024.11.20-01.27.37:551][396]AssetCheck: New page: Asset Save: WB_Tooltip
+[2024.11.20-01.27.37:551][396]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/WB_Tooltip.WB_Tooltip
+[2024.11.20-01.27.57:407][241]BlueprintLog: New page: Compile WB_Tooltip
+[2024.11.20-01.27.57:646][241]LogUObjectHash: Compacting FUObjectHashTables data took   1.98ms
+[2024.11.20-01.27.58:007][241]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.20-01.27.58:049][241]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/WB_Tooltip" FILE="../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/Widgets/WB_Tooltip.uasset" SILENT=true
+[2024.11.20-01.27.58:055][241]LogSavePackage: Moving output files for package: /Game/Widgets/WB_Tooltip
+[2024.11.20-01.27.58:056][241]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Saved/WB_TooltipB8419D144AC7C44FF9AD51B4A96F8ACB.tmp' to '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/Widgets/WB_Tooltip.uasset'
+[2024.11.20-01.27.58:063][241]LogFileHelpers: InternalPromptForCheckoutAndSave took 55 ms (total: 4.40 sec)
+[2024.11.20-01.27.58:078][241]AssetCheck: New page: Asset Save: WB_Tooltip
+[2024.11.20-01.27.58:078][241]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/WB_Tooltip.WB_Tooltip
+[2024.11.20-01.28.17:395][ 82]BlueprintLog: New page: Compile WB_Tooltip
+[2024.11.20-01.28.17:671][ 82]LogUObjectHash: Compacting FUObjectHashTables data took   2.25ms
+[2024.11.20-01.28.18:098][ 82]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.20-01.28.18:142][ 82]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/WB_Tooltip" FILE="../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/Widgets/WB_Tooltip.uasset" SILENT=true
+[2024.11.20-01.28.18:149][ 82]LogSavePackage: Moving output files for package: /Game/Widgets/WB_Tooltip
+[2024.11.20-01.28.18:150][ 82]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Saved/WB_Tooltip3DCF2BFA45C5130F48F001AB0CE86CF4.tmp' to '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/Widgets/WB_Tooltip.uasset'
+[2024.11.20-01.28.18:157][ 82]LogFileHelpers: InternalPromptForCheckoutAndSave took 59 ms (total: 4.46 sec)
+[2024.11.20-01.28.18:174][ 82]AssetCheck: New page: Asset Save: WB_Tooltip
+[2024.11.20-01.28.18:174][ 82]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/WB_Tooltip.WB_Tooltip
