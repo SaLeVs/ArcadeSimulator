@@ -1736,3 +1736,633 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.11.24-20.54.18:236][443]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/AI/Tasks/BTTask_MoveToMachines.BTTask_MoveToMachines
 [2024.11.24-20.54.40:406][  8]BlueprintLog: New page: Compile BTTask_MoveToTokenCashier
 [2024.11.24-20.54.40:437][  8]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2024.11.24-20.55.13:926][864]BlueprintLog: New page: Compile BTTask_MoveToTokenCashier
+[2024.11.24-20.55.13:955][864]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2024.11.24-20.55.13:996][864]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.24-20.55.14:021][864]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AI/Tasks/BTTask_MoveToTokenCashier" FILE="F:/UnrealProjects/ArcadeSimulator/Arcade/Content/Blueprints/AI/Tasks/BTTask_MoveToTokenCashier.uasset" SILENT=true
+[2024.11.24-20.55.14:040][864]LogSavePackage: Moving output files for package: /Game/Blueprints/AI/Tasks/BTTask_MoveToTokenCashier
+[2024.11.24-20.55.14:040][864]LogSavePackage: Moving 'F:/UnrealProjects/ArcadeSimulator/Arcade/Saved/BTTask_MoveToTokenCashierAF9FF0E24A698484C9B92581956A0D29.tmp' to 'F:/UnrealProjects/ArcadeSimulator/Arcade/Content/Blueprints/AI/Tasks/BTTask_MoveToTokenCashier.uasset'
+[2024.11.24-20.55.14:048][864]LogFileHelpers: InternalPromptForCheckoutAndSave took 51 ms (total: 657 ms)
+[2024.11.24-20.55.14:049][864]AssetCheck: New page: Asset Save: BTTask_MoveToTokenCashier
+[2024.11.24-20.55.14:049][864]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/AI/Tasks/BTTask_MoveToTokenCashier.BTTask_MoveToTokenCashier
+[2024.11.24-20.55.14:966][962]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.24-20.55.14:981][962]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.24-20.55.14:981][962]PIE: New page: PIE session: Ilumination (Nov 24, 2024, 2:55:14 PM)
+[2024.11.24-20.55.14:981][962]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Ilumination
+[2024.11.24-20.55.14:991][962]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009939s)
+[2024.11.24-20.55.14:991][962]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Ilumination.Ilumination to /Game/Levels/UEDPIE_0_Ilumination.Ilumination (0.009970s)
+[2024.11.24-20.55.15:003][962]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2024.11.24-20.55.15:005][962]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.24-20.55.15:005][962]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.24-20.55.15:006][962]LogAIModule: Creating AISystem for world Ilumination
+[2024.11.24-20.55.15:006][962]LogPlayLevel: PIE: World Init took: (0.000819s)
+[2024.11.24-20.55.15:006][962]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2024.11.24-20.55.15:006][962]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.24-20.55.15:006][962]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.24-20.55.15:006][962]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.24-20.55.15:006][962]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.24-20.55.15:006][962]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.24-20.55.15:006][962]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.24-20.55.15:006][962]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.24-20.55.15:006][962]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.24-20.55.15:007][962]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.24-20.55.15:007][962]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.24-20.55.15:007][962]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.24-20.55.15:008][962]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.24-20.55.15:025][962]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (Realtek(R) Audio)
+[2024.11.24-20.55.15:026][962]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.24-20.55.15:026][962]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.24-20.55.15:026][962]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.24-20.55.15:026][962]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2024.11.24-20.55.15:026][962]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=5
+[2024.11.24-20.55.15:027][962]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2024.11.24-20.55.15:027][962]LogInit: FAudioDevice initialized with ID 5.
+[2024.11.24-20.55.15:027][962]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2024.11.24-20.55.15:027][962]LogAudio: Display: Audio Device (ID: 5) registered with world 'Ilumination'.
+[2024.11.24-20.55.15:027][962]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 5
+[2024.11.24-20.55.15:030][962]LogLoad: Game class is 'MyGameGamemode_C'
+[2024.11.24-20.55.15:034][962]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Ilumination.Ilumination up for play (max tick rate 0) at 2024.11.24-17.55.15
+[2024.11.24-20.55.15:034][962]LogWorld: Bringing up level for play took: 0.004306
+[2024.11.24-20.55.15:037][962]LogOnline: OSS: Created online subsystem instance for: :Context_10
+[2024.11.24-20.55.15:037][962]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.24-20.55.15:037][962]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.24-20.55.15:037][962]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.11.24-20.55.15:056][962]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.11.24-20.55.15:056][962]PIE: Server logged in
+[2024.11.24-20.55.15:057][962]PIE: Play in editor total start time 0.079 seconds.
+[2024.11.24-20.55.29:494][684]LogBlueprintUserMessages: [BTTask_MoveToTokenCashier_C_1] demorei
+[2024.11.24-20.55.35:295][376]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.24-20.55.35:295][376]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Ilumination
+[2024.11.24-20.55.35:297][376]LogWorld: UWorld::CleanupWorld for Ilumination, bSessionEnded=true, bCleanupResources=true
+[2024.11.24-20.55.35:298][376]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.24-20.55.35:302][376]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.24-20.55.35:306][376]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.24-20.55.35:316][376]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.11.24-20.55.35:316][376]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 5
+[2024.11.24-20.55.35:316][376]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2024.11.24-20.55.35:317][376]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2024.11.24-20.55.35:321][376]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.24-20.55.35:325][376]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2024.11.24-20.55.35:378][377]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2024.11.24-20.57.03:986][938]BlueprintLog: New page: Compile BTTask_MoveToTokenCashier
+[2024.11.24-20.57.04:045][938]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2024.11.24-20.57.04:086][938]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.24-20.57.04:115][938]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AI/Tasks/BTTask_MoveToTokenCashier" FILE="F:/UnrealProjects/ArcadeSimulator/Arcade/Content/Blueprints/AI/Tasks/BTTask_MoveToTokenCashier.uasset" SILENT=true
+[2024.11.24-20.57.04:135][938]LogSavePackage: Moving output files for package: /Game/Blueprints/AI/Tasks/BTTask_MoveToTokenCashier
+[2024.11.24-20.57.04:135][938]LogSavePackage: Moving 'F:/UnrealProjects/ArcadeSimulator/Arcade/Saved/BTTask_MoveToTokenCashier45FEAA6A4DEC25EE3FAE0DB2DFEB2674.tmp' to 'F:/UnrealProjects/ArcadeSimulator/Arcade/Content/Blueprints/AI/Tasks/BTTask_MoveToTokenCashier.uasset'
+[2024.11.24-20.57.04:141][938]LogFileHelpers: InternalPromptForCheckoutAndSave took 54 ms (total: 711 ms)
+[2024.11.24-20.57.04:143][938]AssetCheck: New page: Asset Save: BTTask_MoveToTokenCashier
+[2024.11.24-20.57.04:143][938]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/AI/Tasks/BTTask_MoveToTokenCashier.BTTask_MoveToTokenCashier
+[2024.11.24-20.57.05:227][ 57]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.24-20.57.05:242][ 57]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.24-20.57.05:242][ 57]PIE: New page: PIE session: Ilumination (Nov 24, 2024, 2:57:05 PM)
+[2024.11.24-20.57.05:273][ 57]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Ilumination
+[2024.11.24-20.57.05:283][ 57]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009895s)
+[2024.11.24-20.57.05:283][ 57]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Ilumination.Ilumination to /Game/Levels/UEDPIE_0_Ilumination.Ilumination (0.009932s)
+[2024.11.24-20.57.05:292][ 57]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2024.11.24-20.57.05:296][ 57]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.24-20.57.05:296][ 57]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.24-20.57.05:296][ 57]LogAIModule: Creating AISystem for world Ilumination
+[2024.11.24-20.57.05:297][ 57]LogPlayLevel: PIE: World Init took: (0.000796s)
+[2024.11.24-20.57.05:297][ 57]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2024.11.24-20.57.05:297][ 57]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.24-20.57.05:297][ 57]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.24-20.57.05:297][ 57]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.24-20.57.05:297][ 57]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.24-20.57.05:297][ 57]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.24-20.57.05:297][ 57]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.24-20.57.05:297][ 57]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.24-20.57.05:297][ 57]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.24-20.57.05:297][ 57]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.24-20.57.05:297][ 57]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.24-20.57.05:297][ 57]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.24-20.57.05:299][ 57]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.24-20.57.05:316][ 57]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (Realtek(R) Audio)
+[2024.11.24-20.57.05:317][ 57]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.24-20.57.05:317][ 57]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.24-20.57.05:317][ 57]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.24-20.57.05:317][ 57]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=6
+[2024.11.24-20.57.05:317][ 57]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=6
+[2024.11.24-20.57.05:318][ 57]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=6
+[2024.11.24-20.57.05:318][ 57]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=6
+[2024.11.24-20.57.05:318][ 57]LogInit: FAudioDevice initialized with ID 6.
+[2024.11.24-20.57.05:318][ 57]LogAudio: Display: Audio Device (ID: 6) registered with world 'Ilumination'.
+[2024.11.24-20.57.05:318][ 57]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 6
+[2024.11.24-20.57.05:321][ 57]LogLoad: Game class is 'MyGameGamemode_C'
+[2024.11.24-20.57.05:325][ 57]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Ilumination.Ilumination up for play (max tick rate 0) at 2024.11.24-17.57.05
+[2024.11.24-20.57.05:325][ 57]LogWorld: Bringing up level for play took: 0.004100
+[2024.11.24-20.57.05:327][ 57]LogOnline: OSS: Created online subsystem instance for: :Context_11
+[2024.11.24-20.57.05:328][ 57]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.24-20.57.05:328][ 57]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.24-20.57.05:328][ 57]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.11.24-20.57.05:346][ 57]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.11.24-20.57.05:346][ 57]PIE: Server logged in
+[2024.11.24-20.57.05:347][ 57]PIE: Play in editor total start time 0.107 seconds.
+[2024.11.24-20.57.24:228][299]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.11.24-20.57.24:228][299]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2024.11.24-20.57.24:228][299]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2024.11.24-20.57.26:353][552]LogBlueprintUserMessages: [WB_Computer_C_0] BP_BuildBox_Small_C
+[2024.11.24-20.57.27:424][680]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.11.24-20.57.27:424][680]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2024.11.24-20.57.38:250][972]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.11.24-20.57.38:250][972]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2024.11.24-20.57.40:110][195]LogBlueprintUserMessages: [BTTask_MoveToTokenCashier_C_1] Fail move to token cashier queueBP_NPCMaster2
+[2024.11.24-20.57.51:088][511]LogBlueprintUserMessages: [WB_Computer_C_0] BP_BuildBox_Big_C
+[2024.11.24-20.57.51:917][610]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.11.24-20.57.51:917][610]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2024.11.24-20.57.57:947][328]LogShaderCompilers: Display: ================================================
+[2024.11.24-20.57.57:947][328]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.11.24-20.57.57:947][328]LogShaderCompilers: Display: Total job queries 255, among them cache hits 124 (48.63%)
+[2024.11.24-20.57.57:947][328]LogShaderCompilers: Display: Tracking 131 distinct input hashes that result in 51 distinct outputs (38.93%)
+[2024.11.24-20.57.57:947][328]LogShaderCompilers: Display: RAM used: 2.86 MiB of 1.60 GiB budget. Usage: 0.17%
+[2024.11.24-20.57.57:947][328]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.11.24-20.57.57:947][328]LogShaderCompilers: Display: Shaders Compiled: 0
+[2024.11.24-20.57.57:947][328]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0%)
+[2024.11.24-20.57.57:947][328]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2024.11.24-20.57.57:947][328]LogShaderCompilers: Display: ================================================
+[2024.11.24-20.58.18:896][833]LogBlueprintUserMessages: [BTTask_ThanksForChange_C_0] Fail move to machines queueBP_NPCMaster3
+[2024.11.24-20.58.19:130][861]LogBlueprintUserMessages: [BTTask_MoveToTokenCashier_C_1] Fail move to token cashier queueBP_NPCMaster6
+[2024.11.24-20.58.23:860][428]LogBlueprintUserMessages: [BTTask_ThanksForChange_C_0] Fail move to machines queueBP_NPCMaster4
+[2024.11.24-20.58.31:399][330]LogBlueprintUserMessages: [BTTask_MoveToTokenCashier_C_1] Fail move to token cashier queueBP_NPCMaster7
+[2024.11.24-20.58.38:941][231]LogBlueprintUserMessages: [BTTask_MoveToTokenCashier_C_1] Fail move to token cashier queueBP_NPCMaster8
+[2024.11.24-20.58.46:089][ 87]LogBlueprintUserMessages: [BTTask_ThanksForChange_C_0] Fail move to machines queueBP_NPCMaster4
+[2024.11.24-20.58.56:753][362]LogBlueprintUserMessages: [BTTask_ThanksForChange_C_0] Fail to update machines queueBP_NPCMaster8
+[2024.11.24-20.58.57:094][400]LogBlueprintUserMessages: [BTTask_ThanksForChange_C_0] Fail to update machines queueBP_NPCMaster8
+[2024.11.24-20.59.03:903][211]LogBlueprintUserMessages: [BTTask_ThanksForChange_C_0] Fail move to machines queueBP_NPCMaster4
+[2024.11.24-20.59.03:903][211]LogBlueprintUserMessages: [BTTask_ThanksForChange_C_0] Fail move to machines queueBP_NPCMaster5
+[2024.11.24-20.59.09:241][845]LogBlueprintUserMessages: [BTTask_ThanksForChange_C_0] Fail move to machines queueBP_NPCMaster6
+[2024.11.24-20.59.15:363][576]LogBlueprintUserMessages: [BTTask_ThanksForChange_C_0] for each move
+[2024.11.24-21.00.05:928][525]LogBlueprintUserMessages: [BTTask_ThanksForChange_C_0] for each move
+[2024.11.24-21.00.17:005][850]LogBlueprintUserMessages: [BTTask_ThanksForChange_C_0] Fail move to machines queueBP_NPCMaster7
+[2024.11.24-21.01.16:615][878]LogBlueprintUserMessages: [BTTask_ThanksForChange_C_0] for each move
+[2024.11.24-21.02.18:601][272]LogBlueprintUserMessages: [BTTask_ThanksForChange_C_0] for each move
+[2024.11.24-21.02.36:854][452]LogBlueprintUserMessages: [BTTask_MoveToCashier_C_0] Fail move to cashier queueBP_NPCMaster11
+[2024.11.24-21.03.25:160][188]LogBlueprintUserMessages: [BTTask_MoveToTokenCashier_C_1] Fail move to token cashier queueBP_NPCMaster18
+[2024.11.24-21.03.30:559][828]LogBlueprintUserMessages: [BTTask_ThanksForChange_C_0] Fail move to machines queueBP_NPCMaster19
+[2024.11.24-21.03.48:286][921]LogBlueprintUserMessages: [BTTask_ThanksForChange_C_0] Fail move to machines queueBP_NPCMaster12
+[2024.11.24-21.04.19:542][580]LogBlueprintUserMessages: [BTTask_MoveToTokenCashier_C_1] Fail move to token cashier queueBP_NPCMaster21
+[2024.11.24-21.04.52:116][470]LogBlueprintUserMessages: [BTTask_ThanksForChange_C_0] for each move
+[2024.11.24-21.05.11:562][747]LogBlueprintUserMessages: [BTTask_ThanksForChange_C_0] for each move
+[2024.11.24-21.05.14:112][ 13]LogBlueprintUserMessages: [BTTask_ThanksForChange_C_0] Fail move to machines queueBP_NPCMaster20
+[2024.11.24-21.05.22:410][983]LogBlueprintUserMessages: [BTTask_ThanksForChange_C_0] for each move
+[2024.11.24-21.05.22:637][  9]LogBlueprintUserMessages: [BTTask_ThanksForChange_C_0] for each move
+[2024.11.24-21.05.25:358][325]LogBlueprintUserMessages: [BTTask_ThanksForChange_C_0] Fail move to machines queueBP_NPCMaster18
+[2024.11.24-21.05.26:033][404]LogBlueprintUserMessages: [BTTask_ThanksForChange_C_0] Fail move to machines queueBP_NPCMaster12
+[2024.11.24-21.05.28:713][710]LogBlueprintUserMessages: [BTTask_ThanksForChange_C_0] for each move
+[2024.11.24-21.05.30:930][974]LogBlueprintUserMessages: [BTTask_ThanksForChange_C_0] for each move
+[2024.11.24-21.05.31:366][ 26]LogBlueprintUserMessages: [BTTask_ThanksForChange_C_0] Fail move to machines queueBP_NPCMaster19
+[2024.11.24-21.05.36:702][632]LogBlueprintUserMessages: [BTTask_ThanksForChange_C_0] Fail move to machines queueBP_NPCMaster20
+[2024.11.24-21.05.42:536][300]LogBlueprintUserMessages: [BTTask_ThanksForChange_C_0] for each move
+[2024.11.24-21.05.45:988][688]LogBlueprintUserMessages: [BTTask_ThanksForChange_C_0] Fail move to machines queueBP_NPCMaster16
+[2024.11.24-21.05.47:359][843]LogBlueprintUserMessages: [BTTask_ThanksForChange_C_0] Fail move to machines queueBP_NPCMaster21
+[2024.11.24-21.05.47:704][883]LogBlueprintUserMessages: [BTTask_ThanksForChange_C_0] Fail to update machines queueBP_NPCMaster21
+[2024.11.24-21.05.48:028][920]LogBlueprintUserMessages: [BTTask_ThanksForChange_C_0] Fail to update machines queueBP_NPCMaster21
+[2024.11.24-21.05.53:237][527]LogBlueprintUserMessages: [BTTask_ThanksForChange_C_0] for each move
+[2024.11.24-21.06.02:688][655]LogBlueprintUserMessages: [BTTask_MoveToCashier_C_0] Fail move to cashier queueBP_NPCMaster19
+[2024.11.24-21.06.14:805][ 97]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [Scalability]
+[2024.11.24-21.06.14:805][ 97]LogConfig: Set CVar [[r.SkeletalMeshLODBias:0]]
+[2024.11.24-21.06.14:805][ 97]LogConfig: Set CVar [[r.ViewDistanceScale:1.0]]
+[2024.11.24-21.06.14:805][ 97]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [Scalability]
+[2024.11.24-21.06.14:805][ 97]LogConfig: Set CVar [[r.FXAA.Quality:4]]
+[2024.11.24-21.06.14:805][ 97]LogConfig: Set CVar [[r.TemporalAA.Quality:2]]
+[2024.11.24-21.06.14:805][ 97]LogConfig: Set CVar [[r.TSR.History.ScreenPercentage:200]]
+[2024.11.24-21.06.14:805][ 97]LogConfig: Set CVar [[r.TSR.History.UpdateQuality:3]]
+[2024.11.24-21.06.14:805][ 97]LogConfig: Set CVar [[r.TSR.ShadingRejection.Flickering:1]]
+[2024.11.24-21.06.14:805][ 97]LogConfig: Set CVar [[r.TSR.ShadingRejection.TileOverscan:3]]
+[2024.11.24-21.06.14:805][ 97]LogConfig: CVar [[r.TSR.Velocity.Extrapolation:1]] deferred - dummy variable created
+[2024.11.24-21.06.14:805][ 97]LogConfig: Set CVar [[r.TSR.RejectionAntiAliasingQuality:2]]
+[2024.11.24-21.06.14:805][ 97]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [Scalability]
+[2024.11.24-21.06.14:805][ 97]LogConfig: Set CVar [[r.ShadowQuality:5]]
+[2024.11.24-21.06.14:805][ 97]LogConfig: Set CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2024.11.24-21.06.14:805][ 97]LogConfig: Set CVar [[r.Shadow.MaxResolution:2048]]
+[2024.11.24-21.06.14:805][ 97]LogConfig: Set CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2024.11.24-21.06.14:805][ 97]LogConfig: Set CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2024.11.24-21.06.14:805][ 97]LogConfig: Set CVar [[r.Shadow.DistanceScale:1.0]]
+[2024.11.24-21.06.14:805][ 97]LogConfig: Set CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2024.11.24-21.06.14:805][ 97]LogConfig: Set CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2024.11.24-21.06.14:805][ 97]LogConfig: Set CVar [[r.DistanceFieldShadowing:1]]
+[2024.11.24-21.06.14:805][ 97]LogConfig: Set CVar [[r.VolumetricFog:1]]
+[2024.11.24-21.06.14:805][ 97]LogConfig: Set CVar [[r.LightMaxDrawDistanceScale:1]]
+[2024.11.24-21.06.14:805][ 97]LogConfig: Set CVar [[r.Shadow.Virtual.MaxPhysicalPages:4096]]
+[2024.11.24-21.06.14:805][ 97]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasDirectional:-1.5]]
+[2024.11.24-21.06.14:805][ 97]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasDirectionalMoving:-1.5]]
+[2024.11.24-21.06.14:805][ 97]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasLocal:0.0]]
+[2024.11.24-21.06.14:805][ 97]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasLocalMoving:1.0]]
+[2024.11.24-21.06.14:805][ 97]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.RayCountDirectional:8]]
+[2024.11.24-21.06.14:805][ 97]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.SamplesPerRayDirectional:4]]
+[2024.11.24-21.06.14:805][ 97]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.RayCountLocal:8]]
+[2024.11.24-21.06.14:805][ 97]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.SamplesPerRayLocal:4]]
+[2024.11.24-21.06.14:805][ 97]LogConfig: Applying CVar settings from Section [GlobalIlluminationQuality@3] File [Scalability]
+[2024.11.24-21.06.14:805][ 97]LogConfig: Set CVar [[r.AOQuality:2]]
+[2024.11.24-21.06.14:805][ 97]LogConfig: Set CVar [[r.Lumen.DiffuseIndirect.Allow:1]]
+[2024.11.24-21.06.14:805][ 97]LogConfig: Applying CVar settings from Section [ReflectionQuality@3] File [Scalability]
+[2024.11.24-21.06.14:805][ 97]LogConfig: Set CVar [[r.SSR.Quality:3]]
+[2024.11.24-21.06.14:805][ 97]LogConfig: Set CVar [[r.SSR.HalfResSceneColor:0]]
+[2024.11.24-21.06.14:805][ 97]LogConfig: Set CVar [[r.Lumen.Reflections.Allow:1]]
+[2024.11.24-21.06.14:805][ 97]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [Scalability]
+[2024.11.24-21.06.14:805][ 97]LogConfig: Set CVar [[r.MotionBlurQuality:4]]
+[2024.11.24-21.06.14:805][ 97]LogConfig: Set CVar [[r.MotionBlur.HalfResGather:0]]
+[2024.11.24-21.06.14:805][ 97]LogConfig: Set CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2024.11.24-21.06.14:805][ 97]LogConfig: Set CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2024.11.24-21.06.14:805][ 97]LogConfig: Set CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2024.11.24-21.06.14:805][ 97]LogConfig: Set CVar [[r.DepthOfFieldQuality:2]]
+[2024.11.24-21.06.14:805][ 97]LogConfig: Set CVar [[r.RenderTargetPoolMin:400]]
+[2024.11.24-21.06.14:805][ 97]LogConfig: Set CVar [[r.LensFlareQuality:2]]
+[2024.11.24-21.06.14:805][ 97]LogConfig: Set CVar [[r.SceneColorFringeQuality:1]]
+[2024.11.24-21.06.14:805][ 97]LogConfig: Set CVar [[r.BloomQuality:5]]
+[2024.11.24-21.06.14:805][ 97]LogConfig: Set CVar [[r.Bloom.ScreenPercentage:50.000]]
+[2024.11.24-21.06.14:805][ 97]LogConfig: Set CVar [[r.FastBlurThreshold:100]]
+[2024.11.24-21.06.14:805][ 97]LogConfig: Set CVar [[r.Upscale.Quality:3]]
+[2024.11.24-21.06.14:805][ 97]LogConfig: Set CVar [[r.LightShaftQuality:1]]
+[2024.11.24-21.06.14:805][ 97]LogConfig: Set CVar [[r.Filter.SizeScale:1]]
+[2024.11.24-21.06.14:805][ 97]LogConfig: Set CVar [[r.Tonemapper.Quality:5]]
+[2024.11.24-21.06.14:805][ 97]LogConfig: Set CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2024.11.24-21.06.14:806][ 97]LogConfig: Set CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2024.11.24-21.06.14:806][ 97]LogConfig: Set CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2024.11.24-21.06.14:806][ 97]LogConfig: Set CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2024.11.24-21.06.14:806][ 97]LogConfig: Set CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2024.11.24-21.06.14:806][ 97]LogConfig: Set CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2024.11.24-21.06.14:806][ 97]LogConfig: Set CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2024.11.24-21.06.14:806][ 97]LogConfig: Set CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2024.11.24-21.06.14:806][ 97]LogConfig: Set CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2024.11.24-21.06.14:806][ 97]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [Scalability]
+[2024.11.24-21.06.14:806][ 97]LogConfig: Set CVar [[r.Streaming.MipBias:0]]
+[2024.11.24-21.06.14:806][ 97]LogConfig: Set CVar [[r.MaxAnisotropy:8]]
+[2024.11.24-21.06.14:806][ 97]LogConfig: Set CVar [[r.VT.MaxAnisotropy:8]]
+[2024.11.24-21.06.14:806][ 97]LogConfig: Set CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2024.11.24-21.06.14:806][ 97]LogConfig: Set CVar [[r.Streaming.PoolSize:1000]]
+[2024.11.24-21.06.14:806][ 97]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [Scalability]
+[2024.11.24-21.06.14:806][ 97]LogConfig: Set CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2024.11.24-21.06.14:806][ 97]LogConfig: Set CVar [[r.RefractionQuality:2]]
+[2024.11.24-21.06.14:806][ 97]LogConfig: Set CVar [[r.SceneColorFormat:4]]
+[2024.11.24-21.06.14:806][ 97]LogConfig: Set CVar [[r.DetailMode:2]]
+[2024.11.24-21.06.14:806][ 97]LogConfig: Set CVar [[r.TranslucencyVolumeBlur:1]]
+[2024.11.24-21.06.14:806][ 97]LogConfig: Set CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2024.11.24-21.06.14:806][ 97]LogConfig: Set CVar [[r.SSS.Scale:1]]
+[2024.11.24-21.06.14:806][ 97]LogConfig: Set CVar [[r.SSS.SampleSet:2]]
+[2024.11.24-21.06.14:806][ 97]LogConfig: Set CVar [[r.SSS.Quality:1]]
+[2024.11.24-21.06.14:806][ 97]LogConfig: Set CVar [[r.SSS.HalfRes:0]]
+[2024.11.24-21.06.14:806][ 97]LogConfig: Set CVar [[r.SSGI.Quality:3]]
+[2024.11.24-21.06.14:806][ 97]LogConfig: Set CVar [[r.EmitterSpawnRateScale:1.0]]
+[2024.11.24-21.06.14:806][ 97]LogConfig: Set CVar [[r.ParticleLightQuality:2]]
+[2024.11.24-21.06.14:806][ 97]LogConfig: Set CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2024.11.24-21.06.14:806][ 97]LogConfig: Set CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2024.11.24-21.06.14:806][ 97]LogConfig: Set CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2024.11.24-21.06.14:806][ 97]LogConfig: Set CVar [[r.SkyLight.RealTimeReflectionCapture:1]]
+[2024.11.24-21.06.14:806][ 97]LogConfig: Set CVar [[fx.Niagara.QualityLevel:3]]
+[2024.11.24-21.06.14:806][ 97]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [Scalability]
+[2024.11.24-21.06.14:806][ 97]LogConfig: Set CVar [[foliage.DensityScale:1.0]]
+[2024.11.24-21.06.14:806][ 97]LogConfig: Set CVar [[grass.DensityScale:1.0]]
+[2024.11.24-21.06.14:806][ 97]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [Scalability]
+[2024.11.24-21.06.14:806][ 97]LogConfig: Set CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2024.11.24-21.06.14:806][ 97]LogConfig: Set CVar [[r.AnisotropicMaterials:1]]
+[2024.11.24-21.06.14:939][ 99]LogShaderCompilers: Display: ================================================
+[2024.11.24-21.06.14:939][ 99]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.11.24-21.06.14:939][ 99]LogShaderCompilers: Display: Total job queries 263, among them cache hits 128 (48.67%)
+[2024.11.24-21.06.14:939][ 99]LogShaderCompilers: Display: Tracking 135 distinct input hashes that result in 55 distinct outputs (40.74%)
+[2024.11.24-21.06.14:939][ 99]LogShaderCompilers: Display: RAM used: 2.94 MiB of 1.60 GiB budget. Usage: 0.18%
+[2024.11.24-21.06.14:939][ 99]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.11.24-21.06.14:939][ 99]LogShaderCompilers: Display: Shaders Compiled: 0
+[2024.11.24-21.06.14:939][ 99]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0%)
+[2024.11.24-21.06.14:939][ 99]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2024.11.24-21.06.14:939][ 99]LogShaderCompilers: Display: ================================================
+[2024.11.24-21.06.15:003][100]LogContentStreaming: Texture pool size now 1000 MB
+[2024.11.24-21.06.16:007][216]LogRenderer: Display: Recreating Shadow.Virtual.PhysicalPagePool due to size or flags change. This will also drop any cached pages.
+[2024.11.24-21.06.41:065][766]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.11.24-21.06.41:065][766]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2024.11.24-21.06.52:340][ 48]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.11.24-21.06.52:340][ 48]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2024.11.24-21.07.03:800][161]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.11.24-21.07.03:800][161]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2024.11.24-21.07.06:374][456]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.11.24-21.07.06:374][456]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2024.11.24-21.07.16:393][386]LogBlueprintUserMessages: [BTTask_ThanksForChange_C_0] for each move
+[2024.11.24-21.07.23:038][ 87]LogBlueprintUserMessages: [BTTask_ThanksForChange_C_0] Fail move to machines queueBP_NPCMaster20
+[2024.11.24-21.07.28:245][623]LogBlueprintUserMessages: [BTTask_ThanksForChange_C_0] Fail move to machines queueBP_NPCMaster24
+[2024.11.24-21.07.38:645][696]LogBlueprintUserMessages: [BTTask_ThanksForChange_C_0] Fail move to machines queueBP_NPCMaster23
+[2024.11.24-21.07.43:851][228]LogBlueprintUserMessages: [BTTask_ThanksForChange_C_0] Fail move to machines queueBP_NPCMaster20
+[2024.11.24-21.07.50:459][918]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.24-21.07.50:528][919]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.24-21.07.54:253][213]LogBlueprintUserMessages: [BTTask_ThanksForChange_C_0] Fail move to machines queueBP_NPCMaster24
+[2024.11.24-21.08.01:361][985]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/AI/Tasks/BTTask_RoamAround.BTTask_RoamAround
+[2024.11.24-21.08.01:361][985]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.24-21.08.01:361][985]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.24-21.08.43:567][ 14]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.24-21.08.43:568][ 14]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Ilumination
+[2024.11.24-21.08.43:570][ 14]LogWorld: UWorld::CleanupWorld for Ilumination, bSessionEnded=true, bCleanupResources=true
+[2024.11.24-21.08.43:571][ 14]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.24-21.08.43:587][ 14]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.24-21.08.43:592][ 14]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.24-21.08.43:604][ 14]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.24-21.08.43:604][ 14]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 6
+[2024.11.24-21.08.43:604][ 14]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2024.11.24-21.08.43:606][ 14]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2024.11.24-21.08.43:616][ 14]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2024.11.24-21.08.43:662][ 18]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2024.11.24-21.09.22:844][449]BlueprintLog: New page: Compile BTTask_RoamAround
+[2024.11.24-21.09.22:846][449]LogBlueprint: Error: [AssetLog] F:\UnrealProjects\ArcadeSimulator\Arcade\Content\Blueprints\AI\Tasks\BTTask_RoamAround.uasset: [Compiler] This blueprint (self) is not a Actor, therefore ' Target ' must have a connection.
+[2024.11.24-21.09.22:861][449]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2024.11.24-21.09.22:878][449]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.24-21.09.22:906][449]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AI/Tasks/BTTask_RoamAround" FILE="F:/UnrealProjects/ArcadeSimulator/Arcade/Content/Blueprints/AI/Tasks/BTTask_RoamAround.uasset" SILENT=true
+[2024.11.24-21.09.22:912][449]LogSavePackage: Moving output files for package: /Game/Blueprints/AI/Tasks/BTTask_RoamAround
+[2024.11.24-21.09.22:912][449]LogSavePackage: Moving 'F:/UnrealProjects/ArcadeSimulator/Arcade/Saved/BTTask_RoamAroundD51D49404C160AFB766521B2E3A867B8.tmp' to 'F:/UnrealProjects/ArcadeSimulator/Arcade/Content/Blueprints/AI/Tasks/BTTask_RoamAround.uasset'
+[2024.11.24-21.09.22:918][449]LogFileHelpers: InternalPromptForCheckoutAndSave took 40 ms (total: 752 ms)
+[2024.11.24-21.09.22:919][449]AssetCheck: New page: Asset Save: BTTask_RoamAround
+[2024.11.24-21.09.22:919][449]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/AI/Tasks/BTTask_RoamAround.BTTask_RoamAround
+[2024.11.24-21.09.33:557][705]BlueprintLog: New page: Compile BTTask_RoamAround
+[2024.11.24-21.09.33:576][705]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2024.11.24-21.09.33:594][705]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.24-21.09.33:613][705]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AI/Tasks/BTTask_RoamAround" FILE="F:/UnrealProjects/ArcadeSimulator/Arcade/Content/Blueprints/AI/Tasks/BTTask_RoamAround.uasset" SILENT=true
+[2024.11.24-21.09.33:619][705]LogSavePackage: Moving output files for package: /Game/Blueprints/AI/Tasks/BTTask_RoamAround
+[2024.11.24-21.09.33:620][705]LogSavePackage: Moving 'F:/UnrealProjects/ArcadeSimulator/Arcade/Saved/BTTask_RoamAround5553C15A468D2B6C178EE8AFA6F45992.tmp' to 'F:/UnrealProjects/ArcadeSimulator/Arcade/Content/Blueprints/AI/Tasks/BTTask_RoamAround.uasset'
+[2024.11.24-21.09.33:627][705]LogFileHelpers: InternalPromptForCheckoutAndSave took 32 ms (total: 784 ms)
+[2024.11.24-21.09.33:629][705]AssetCheck: New page: Asset Save: BTTask_RoamAround
+[2024.11.24-21.09.33:629][705]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/AI/Tasks/BTTask_RoamAround.BTTask_RoamAround
+[2024.11.24-21.09.43:556][819]BlueprintLog: New page: Compile BTTask_RoamAround
+[2024.11.24-21.09.43:575][819]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2024.11.24-21.09.43:594][819]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.24-21.09.43:617][819]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AI/Tasks/BTTask_RoamAround" FILE="F:/UnrealProjects/ArcadeSimulator/Arcade/Content/Blueprints/AI/Tasks/BTTask_RoamAround.uasset" SILENT=true
+[2024.11.24-21.09.43:624][819]LogSavePackage: Moving output files for package: /Game/Blueprints/AI/Tasks/BTTask_RoamAround
+[2024.11.24-21.09.43:624][819]LogSavePackage: Moving 'F:/UnrealProjects/ArcadeSimulator/Arcade/Saved/BTTask_RoamAroundFA44C8174639306879ADA1911F3F071E.tmp' to 'F:/UnrealProjects/ArcadeSimulator/Arcade/Content/Blueprints/AI/Tasks/BTTask_RoamAround.uasset'
+[2024.11.24-21.09.43:632][819]LogFileHelpers: InternalPromptForCheckoutAndSave took 37 ms (total: 822 ms)
+[2024.11.24-21.09.43:634][819]AssetCheck: New page: Asset Save: BTTask_RoamAround
+[2024.11.24-21.09.43:634][819]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/AI/Tasks/BTTask_RoamAround.BTTask_RoamAround
+[2024.11.24-21.09.53:204][961]BlueprintLog: New page: Compile BTTask_RoamAround
+[2024.11.24-21.09.53:223][961]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2024.11.24-21.09.53:242][961]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.24-21.09.53:273][961]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AI/Tasks/BTTask_RoamAround" FILE="F:/UnrealProjects/ArcadeSimulator/Arcade/Content/Blueprints/AI/Tasks/BTTask_RoamAround.uasset" SILENT=true
+[2024.11.24-21.09.53:279][961]LogSavePackage: Moving output files for package: /Game/Blueprints/AI/Tasks/BTTask_RoamAround
+[2024.11.24-21.09.53:279][961]LogSavePackage: Moving 'F:/UnrealProjects/ArcadeSimulator/Arcade/Saved/BTTask_RoamAroundCB10FD2147AD3EA2BF12F29D78D2426D.tmp' to 'F:/UnrealProjects/ArcadeSimulator/Arcade/Content/Blueprints/AI/Tasks/BTTask_RoamAround.uasset'
+[2024.11.24-21.09.53:286][961]LogFileHelpers: InternalPromptForCheckoutAndSave took 43 ms (total: 866 ms)
+[2024.11.24-21.09.53:287][961]AssetCheck: New page: Asset Save: BTTask_RoamAround
+[2024.11.24-21.09.53:287][961]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/AI/Tasks/BTTask_RoamAround.BTTask_RoamAround
+[2024.11.24-21.09.55:526][201]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.24-21.09.55:540][201]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.24-21.09.55:540][201]PIE: New page: PIE session: Ilumination (Nov 24, 2024, 3:09:55 PM)
+[2024.11.24-21.09.55:540][201]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Ilumination
+[2024.11.24-21.09.55:551][201]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009979s)
+[2024.11.24-21.09.55:551][201]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Ilumination.Ilumination to /Game/Levels/UEDPIE_0_Ilumination.Ilumination (0.010009s)
+[2024.11.24-21.09.55:562][201]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2024.11.24-21.09.55:565][201]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.24-21.09.55:565][201]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.24-21.09.55:565][201]LogAIModule: Creating AISystem for world Ilumination
+[2024.11.24-21.09.55:566][201]LogPlayLevel: PIE: World Init took: (0.000934s)
+[2024.11.24-21.09.55:566][201]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2024.11.24-21.09.55:566][201]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.24-21.09.55:566][201]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.24-21.09.55:566][201]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.24-21.09.55:566][201]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.24-21.09.55:566][201]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.24-21.09.55:566][201]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.24-21.09.55:566][201]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.24-21.09.55:566][201]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.24-21.09.55:566][201]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.24-21.09.55:566][201]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.24-21.09.55:567][201]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.24-21.09.55:568][201]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.24-21.09.55:587][201]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (Realtek(R) Audio)
+[2024.11.24-21.09.55:587][201]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.24-21.09.55:587][201]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.24-21.09.55:587][201]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.24-21.09.55:587][201]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=7
+[2024.11.24-21.09.55:587][201]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=7
+[2024.11.24-21.09.55:589][201]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=7
+[2024.11.24-21.09.55:589][201]LogInit: FAudioDevice initialized with ID 7.
+[2024.11.24-21.09.55:589][201]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=7
+[2024.11.24-21.09.55:589][201]LogAudio: Display: Audio Device (ID: 7) registered with world 'Ilumination'.
+[2024.11.24-21.09.55:589][201]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 7
+[2024.11.24-21.09.55:591][201]LogLoad: Game class is 'MyGameGamemode_C'
+[2024.11.24-21.09.55:595][201]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Ilumination.Ilumination up for play (max tick rate 0) at 2024.11.24-18.09.55
+[2024.11.24-21.09.55:595][201]LogWorld: Bringing up level for play took: 0.003983
+[2024.11.24-21.09.55:597][201]LogOnline: OSS: Created online subsystem instance for: :Context_15
+[2024.11.24-21.09.55:598][201]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.24-21.09.55:598][201]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.24-21.09.55:598][201]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.11.24-21.09.55:616][201]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.11.24-21.09.55:616][201]PIE: Server logged in
+[2024.11.24-21.09.55:617][201]PIE: Play in editor total start time 0.079 seconds.
+[2024.11.24-21.09.58:066][446]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.24-21.09.58:066][446]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Ilumination
+[2024.11.24-21.09.58:067][446]LogWorld: UWorld::CleanupWorld for Ilumination, bSessionEnded=true, bCleanupResources=true
+[2024.11.24-21.09.58:068][446]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.24-21.09.58:070][446]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.24-21.09.58:075][446]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.24-21.09.58:085][446]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.24-21.09.58:086][446]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 7
+[2024.11.24-21.09.58:086][446]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2024.11.24-21.09.58:087][446]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2024.11.24-21.09.58:096][446]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2024.11.24-21.09.58:141][447]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2024.11.24-21.10.26:534][770]BlueprintLog: New page: Compile BTTask_RoamAround
+[2024.11.24-21.10.26:557][770]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2024.11.24-21.10.26:577][770]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.24-21.10.26:603][770]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AI/Tasks/BTTask_RoamAround" FILE="F:/UnrealProjects/ArcadeSimulator/Arcade/Content/Blueprints/AI/Tasks/BTTask_RoamAround.uasset" SILENT=true
+[2024.11.24-21.10.26:609][770]LogSavePackage: Moving output files for package: /Game/Blueprints/AI/Tasks/BTTask_RoamAround
+[2024.11.24-21.10.26:609][770]LogSavePackage: Moving 'F:/UnrealProjects/ArcadeSimulator/Arcade/Saved/BTTask_RoamAround1550744B439CAE448FCD44BDCF9768E4.tmp' to 'F:/UnrealProjects/ArcadeSimulator/Arcade/Content/Blueprints/AI/Tasks/BTTask_RoamAround.uasset'
+[2024.11.24-21.10.26:616][770]LogFileHelpers: InternalPromptForCheckoutAndSave took 39 ms (total: 905 ms)
+[2024.11.24-21.10.26:618][770]AssetCheck: New page: Asset Save: BTTask_RoamAround
+[2024.11.24-21.10.26:618][770]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/AI/Tasks/BTTask_RoamAround.BTTask_RoamAround
+[2024.11.24-21.10.27:456][858]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.24-21.10.27:471][858]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.24-21.10.27:471][858]PIE: New page: PIE session: Ilumination (Nov 24, 2024, 3:10:27 PM)
+[2024.11.24-21.10.27:471][858]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Ilumination
+[2024.11.24-21.10.27:482][858]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010984s)
+[2024.11.24-21.10.27:482][858]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Ilumination.Ilumination to /Game/Levels/UEDPIE_0_Ilumination.Ilumination (0.011016s)
+[2024.11.24-21.10.27:495][858]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2024.11.24-21.10.27:498][858]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.24-21.10.27:498][858]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.24-21.10.27:498][858]LogAIModule: Creating AISystem for world Ilumination
+[2024.11.24-21.10.27:498][858]LogPlayLevel: PIE: World Init took: (0.000737s)
+[2024.11.24-21.10.27:498][858]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2024.11.24-21.10.27:498][858]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.24-21.10.27:498][858]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.24-21.10.27:498][858]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.24-21.10.27:498][858]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.24-21.10.27:498][858]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.24-21.10.27:498][858]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.24-21.10.27:498][858]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.24-21.10.27:498][858]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.24-21.10.27:499][858]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.24-21.10.27:499][858]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.24-21.10.27:499][858]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.24-21.10.27:500][858]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.24-21.10.27:519][858]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (Realtek(R) Audio)
+[2024.11.24-21.10.27:519][858]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.24-21.10.27:519][858]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.24-21.10.27:519][858]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.24-21.10.27:520][858]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=8
+[2024.11.24-21.10.27:520][858]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=8
+[2024.11.24-21.10.27:522][858]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=8
+[2024.11.24-21.10.27:522][858]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=8
+[2024.11.24-21.10.27:522][858]LogInit: FAudioDevice initialized with ID 8.
+[2024.11.24-21.10.27:522][858]LogAudio: Display: Audio Device (ID: 8) registered with world 'Ilumination'.
+[2024.11.24-21.10.27:522][858]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 8
+[2024.11.24-21.10.27:524][858]LogLoad: Game class is 'MyGameGamemode_C'
+[2024.11.24-21.10.27:528][858]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Ilumination.Ilumination up for play (max tick rate 0) at 2024.11.24-18.10.27
+[2024.11.24-21.10.27:528][858]LogWorld: Bringing up level for play took: 0.004150
+[2024.11.24-21.10.27:530][858]LogOnline: OSS: Created online subsystem instance for: :Context_16
+[2024.11.24-21.10.27:531][858]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.24-21.10.27:531][858]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.24-21.10.27:531][858]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.11.24-21.10.27:549][858]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.11.24-21.10.27:549][858]PIE: Server logged in
+[2024.11.24-21.10.27:549][858]PIE: Play in editor total start time 0.081 seconds.
+[2024.11.24-21.10.52:289][401]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.11.24-21.10.52:289][401]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2024.11.24-21.10.52:289][401]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2024.11.24-21.10.55:652][785]LogBlueprintUserMessages: [WB_Computer_C_0] BP_BuildBox_Small_C
+[2024.11.24-21.10.56:538][883]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.11.24-21.10.56:538][883]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2024.11.24-21.11.12:854][548]LogBlueprintUserMessages: [BTTask_ThanksForChange_C_0] Fail move to machines queueBP_NPCMaster2
+[2024.11.24-21.11.20:392][315]LogBlueprintUserMessages: [BTTask_ThanksForChange_C_0] Fail move to machines queueBP_NPCMaster3
+[2024.11.24-21.11.20:392][315]LogBlueprintUserMessages: [BTTask_ThanksForChange_C_0] Fail move to machines queueBP_NPCMaster1
+[2024.11.24-21.11.30:962][321]LogBlueprintUserMessages: [BTTask_ThanksForChange_C_0] Fail move to machines queueBP_NPCMaster4
+[2024.11.24-21.11.36:898][880]LogBlueprintUserMessages: [BTTask_ThanksForChange_C_0] Fail move to machines queueBP_NPCMaster5
+[2024.11.24-21.11.54:394][612]LogBlueprintUserMessages: [BTTask_ThanksForChange_C_0] Fail move to machines queueBP_NPCMaster5
+[2024.11.24-21.12.05:103][701]LogBlueprintUserMessages: [BTTask_MoveToCashier_C_0] Fail move to cashier queueBP_NPCMaster4
+[2024.11.24-21.12.46:076][813]LogBlueprintUserMessages: [BTTask_RoamAround_C_2] Fail roaming
+[2024.11.24-21.13.23:939][214]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.24-21.13.23:940][214]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Ilumination
+[2024.11.24-21.13.23:942][214]LogWorld: UWorld::CleanupWorld for Ilumination, bSessionEnded=true, bCleanupResources=true
+[2024.11.24-21.13.23:943][214]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.24-21.13.23:946][214]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.24-21.13.23:950][214]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.24-21.13.23:959][214]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.24-21.13.23:960][214]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 8
+[2024.11.24-21.13.23:960][214]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2024.11.24-21.13.23:961][214]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2024.11.24-21.13.23:971][214]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2024.11.24-21.13.24:035][220]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2024.11.24-21.13.38:967][972]BlueprintLog: New page: Compile BTTask_GiveMoneyOnCashier
+[2024.11.24-21.13.38:993][972]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2024.11.24-21.13.39:035][972]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.24-21.13.39:065][972]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AI/Tasks/BTTask_GiveMoneyOnCashier" FILE="F:/UnrealProjects/ArcadeSimulator/Arcade/Content/Blueprints/AI/Tasks/BTTask_GiveMoneyOnCashier.uasset" SILENT=true
+[2024.11.24-21.13.39:083][972]LogSavePackage: Moving output files for package: /Game/Blueprints/AI/Tasks/BTTask_GiveMoneyOnCashier
+[2024.11.24-21.13.39:084][972]LogSavePackage: Moving 'F:/UnrealProjects/ArcadeSimulator/Arcade/Saved/BTTask_GiveMoneyOnCashierA1AD8C2648152A1B9CFD79AA1938F62E.tmp' to 'F:/UnrealProjects/ArcadeSimulator/Arcade/Content/Blueprints/AI/Tasks/BTTask_GiveMoneyOnCashier.uasset'
+[2024.11.24-21.13.39:091][972]LogFileHelpers: InternalPromptForCheckoutAndSave took 56 ms (total: 961 ms)
+[2024.11.24-21.13.39:093][972]AssetCheck: New page: Asset Save: BTTask_GiveMoneyOnCashier
+[2024.11.24-21.13.39:093][972]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/AI/Tasks/BTTask_GiveMoneyOnCashier.BTTask_GiveMoneyOnCashier
+[2024.11.24-21.13.42:564][380]BlueprintLog: New page: Compile BTTask_GiveMoneyOnCashier
+[2024.11.24-21.13.42:590][380]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2024.11.24-21.13.42:637][380]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.24-21.13.42:664][380]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AI/Tasks/BTTask_GiveMoneyOnCashier" FILE="F:/UnrealProjects/ArcadeSimulator/Arcade/Content/Blueprints/AI/Tasks/BTTask_GiveMoneyOnCashier.uasset" SILENT=true
+[2024.11.24-21.13.42:681][380]LogSavePackage: Moving output files for package: /Game/Blueprints/AI/Tasks/BTTask_GiveMoneyOnCashier
+[2024.11.24-21.13.42:681][380]LogSavePackage: Moving 'F:/UnrealProjects/ArcadeSimulator/Arcade/Saved/BTTask_GiveMoneyOnCashier312179FB4C3B21D744F91289150E2FF1.tmp' to 'F:/UnrealProjects/ArcadeSimulator/Arcade/Content/Blueprints/AI/Tasks/BTTask_GiveMoneyOnCashier.uasset'
+[2024.11.24-21.13.42:689][380]LogFileHelpers: InternalPromptForCheckoutAndSave took 52 ms (total: 1.01 sec)
+[2024.11.24-21.13.42:691][380]AssetCheck: New page: Asset Save: BTTask_GiveMoneyOnCashier
+[2024.11.24-21.13.42:691][380]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/AI/Tasks/BTTask_GiveMoneyOnCashier.BTTask_GiveMoneyOnCashier
+[2024.11.24-21.13.46:586][820]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.24-21.13.46:601][820]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.24-21.13.46:601][820]PIE: New page: PIE session: Ilumination (Nov 24, 2024, 3:13:46 PM)
+[2024.11.24-21.13.46:601][820]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Ilumination
+[2024.11.24-21.13.46:611][820]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009945s)
+[2024.11.24-21.13.46:611][820]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Ilumination.Ilumination to /Game/Levels/UEDPIE_0_Ilumination.Ilumination (0.009973s)
+[2024.11.24-21.13.46:623][820]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2024.11.24-21.13.46:627][820]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.24-21.13.46:627][820]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.24-21.13.46:627][820]LogAIModule: Creating AISystem for world Ilumination
+[2024.11.24-21.13.46:627][820]LogPlayLevel: PIE: World Init took: (0.000823s)
+[2024.11.24-21.13.46:628][820]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2024.11.24-21.13.46:628][820]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.24-21.13.46:628][820]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.24-21.13.46:628][820]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.24-21.13.46:628][820]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.24-21.13.46:628][820]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.24-21.13.46:628][820]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.24-21.13.46:628][820]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.24-21.13.46:628][820]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.24-21.13.46:628][820]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.24-21.13.46:628][820]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.24-21.13.46:628][820]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.24-21.13.46:629][820]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.24-21.13.46:647][820]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (Realtek(R) Audio)
+[2024.11.24-21.13.46:647][820]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.24-21.13.46:647][820]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.24-21.13.46:647][820]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.24-21.13.46:648][820]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=9
+[2024.11.24-21.13.46:648][820]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=9
+[2024.11.24-21.13.46:649][820]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=9
+[2024.11.24-21.13.46:649][820]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=9
+[2024.11.24-21.13.46:649][820]LogInit: FAudioDevice initialized with ID 9.
+[2024.11.24-21.13.46:649][820]LogAudio: Display: Audio Device (ID: 9) registered with world 'Ilumination'.
+[2024.11.24-21.13.46:649][820]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 9
+[2024.11.24-21.13.46:652][820]LogLoad: Game class is 'MyGameGamemode_C'
+[2024.11.24-21.13.46:656][820]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Ilumination.Ilumination up for play (max tick rate 0) at 2024.11.24-18.13.46
+[2024.11.24-21.13.46:656][820]LogWorld: Bringing up level for play took: 0.004110
+[2024.11.24-21.13.46:658][820]LogOnline: OSS: Created online subsystem instance for: :Context_17
+[2024.11.24-21.13.46:659][820]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.24-21.13.46:659][820]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.24-21.13.46:659][820]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.11.24-21.13.46:676][820]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.11.24-21.13.46:676][820]PIE: Server logged in
+[2024.11.24-21.13.46:677][820]PIE: Play in editor total start time 0.079 seconds.
+[2024.11.24-21.14.38:276][867]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.24-21.14.58:035][585]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.24-21.14.58:035][585]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Ilumination
+[2024.11.24-21.14.58:037][585]LogWorld: UWorld::CleanupWorld for Ilumination, bSessionEnded=true, bCleanupResources=true
+[2024.11.24-21.14.58:038][585]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.24-21.14.58:041][585]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.24-21.14.58:046][585]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.24-21.14.58:059][585]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.11.24-21.14.58:059][585]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 9
+[2024.11.24-21.14.58:059][585]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2024.11.24-21.14.58:061][585]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2024.11.24-21.14.58:065][585]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.24-21.14.58:070][585]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2024.11.24-21.14.58:126][586]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2024.11.24-21.14.59:072][690]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Mop/BP_BucketOfWater.BP_BucketOfWater
+[2024.11.24-21.14.59:073][690]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.24-21.14.59:073][690]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.24-21.14.59:805][753]LogViewport: Scene viewport resized to 1330x1235, mode Windowed.
+[2024.11.24-21.14.59:876][755]LogShaderCompilers: Display: ================================================
+[2024.11.24-21.14.59:876][755]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.11.24-21.14.59:876][755]LogShaderCompilers: Display: Total job queries 277, among them cache hits 133 (48.01%)
+[2024.11.24-21.14.59:876][755]LogShaderCompilers: Display: Tracking 144 distinct input hashes that result in 60 distinct outputs (41.67%)
+[2024.11.24-21.14.59:876][755]LogShaderCompilers: Display: RAM used: 3.18 MiB of 1.60 GiB budget. Usage: 0.19%
+[2024.11.24-21.14.59:876][755]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.11.24-21.14.59:876][755]LogShaderCompilers: Display: Shaders Compiled: 0
+[2024.11.24-21.14.59:876][755]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0%)
+[2024.11.24-21.14.59:876][755]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2024.11.24-21.14.59:876][755]LogShaderCompilers: Display: ================================================
+[2024.11.24-21.15.07:829][683]BlueprintLog: New page: Compile BP_BucketOfWater
+[2024.11.24-21.15.07:861][683]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2024.11.24-21.15.07:889][683]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.24-21.15.07:923][683]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.24-21.15.07:974][683]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Mop/BP_BucketOfWater" FILE="F:/UnrealProjects/ArcadeSimulator/Arcade/Content/Blueprints/Mop/BP_BucketOfWater.uasset" SILENT=true
+[2024.11.24-21.15.07:985][683]LogSavePackage: Moving output files for package: /Game/Blueprints/Mop/BP_BucketOfWater
+[2024.11.24-21.15.07:985][683]LogSavePackage: Moving 'F:/UnrealProjects/ArcadeSimulator/Arcade/Saved/BP_BucketOfWater6985C7E9432B5A0CB46271ABDF159D48.tmp' to 'F:/UnrealProjects/ArcadeSimulator/Arcade/Content/Blueprints/Mop/BP_BucketOfWater.uasset'
+[2024.11.24-21.15.07:991][683]LogFileHelpers: InternalPromptForCheckoutAndSave took 102 ms (total: 1.11 sec)
+[2024.11.24-21.15.08:012][683]AssetCheck: New page: Asset Save: BP_BucketOfWater
+[2024.11.24-21.15.08:012][683]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Mop/BP_BucketOfWater.BP_BucketOfWater
+[2024.11.24-21.15.15:476][559]BlueprintLog: New page: Compile BP_BucketOfWater
+[2024.11.24-21.15.15:511][559]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2024.11.24-21.15.15:532][559]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.24-21.15.15:605][559]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Mop/BP_BucketOfWater" FILE="F:/UnrealProjects/ArcadeSimulator/Arcade/Content/Blueprints/Mop/BP_BucketOfWater.uasset" SILENT=true
+[2024.11.24-21.15.15:613][559]LogSavePackage: Moving output files for package: /Game/Blueprints/Mop/BP_BucketOfWater
+[2024.11.24-21.15.15:613][559]LogSavePackage: Moving 'F:/UnrealProjects/ArcadeSimulator/Arcade/Saved/BP_BucketOfWater0FBADFD143EA9EECBE743C905B740DBD.tmp' to 'F:/UnrealProjects/ArcadeSimulator/Arcade/Content/Blueprints/Mop/BP_BucketOfWater.uasset'
+[2024.11.24-21.15.15:621][559]LogFileHelpers: InternalPromptForCheckoutAndSave took 90 ms (total: 1.20 sec)
+[2024.11.24-21.15.15:650][559]AssetCheck: New page: Asset Save: BP_BucketOfWater
+[2024.11.24-21.15.15:650][559]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Mop/BP_BucketOfWater.BP_BucketOfWater
+[2024.11.24-21.15.21:806][262]BlueprintLog: New page: Compile BP_BucketOfWater
+[2024.11.24-21.15.21:841][262]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2024.11.24-21.15.21:860][262]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.24-21.15.21:925][262]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Mop/BP_BucketOfWater" FILE="F:/UnrealProjects/ArcadeSimulator/Arcade/Content/Blueprints/Mop/BP_BucketOfWater.uasset" SILENT=true
+[2024.11.24-21.15.21:933][262]LogSavePackage: Moving output files for package: /Game/Blueprints/Mop/BP_BucketOfWater
+[2024.11.24-21.15.21:933][262]LogSavePackage: Moving 'F:/UnrealProjects/ArcadeSimulator/Arcade/Saved/BP_BucketOfWaterC220DF5A474A75A96E61A48D3692A758.tmp' to 'F:/UnrealProjects/ArcadeSimulator/Arcade/Content/Blueprints/Mop/BP_BucketOfWater.uasset'
+[2024.11.24-21.15.21:940][262]LogFileHelpers: InternalPromptForCheckoutAndSave took 79 ms (total: 1.28 sec)
+[2024.11.24-21.15.21:968][262]AssetCheck: New page: Asset Save: BP_BucketOfWater
+[2024.11.24-21.15.21:968][262]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Mop/BP_BucketOfWater.BP_BucketOfWater
+[2024.11.24-21.15.33:358][460]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Mop/BP_Mop.BP_Mop
+[2024.11.24-21.15.33:358][460]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.24-21.15.33:358][460]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.24-21.15.35:352][671]LogViewport: Scene viewport resized to 1330x1235, mode Windowed.
+[2024.11.24-21.15.42:325][472]BlueprintLog: New page: Compile BP_Mop
+[2024.11.24-21.15.42:360][472]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2024.11.24-21.15.42:409][472]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.24-21.15.42:439][472]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.24-21.15.42:490][472]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Mop/BP_Mop" FILE="F:/UnrealProjects/ArcadeSimulator/Arcade/Content/Blueprints/Mop/BP_Mop.uasset" SILENT=true
+[2024.11.24-21.15.42:506][472]LogSavePackage: Moving output files for package: /Game/Blueprints/Mop/BP_Mop
+[2024.11.24-21.15.42:507][472]LogSavePackage: Moving 'F:/UnrealProjects/ArcadeSimulator/Arcade/Saved/BP_Mop857DE21D486EBCE945585BBF1349F4A1.tmp' to 'F:/UnrealProjects/ArcadeSimulator/Arcade/Content/Blueprints/Mop/BP_Mop.uasset'
+[2024.11.24-21.15.42:515][472]LogFileHelpers: InternalPromptForCheckoutAndSave took 105 ms (total: 1.39 sec)
+[2024.11.24-21.15.42:540][472]AssetCheck: New page: Asset Save: BP_Mop
+[2024.11.24-21.15.42:541][472]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Mop/BP_Mop.BP_Mop
