@@ -5459,3 +5459,106 @@ Make sure 'BPC_BagSystem_C' has been compiled for  Get BP Player
 [2024.11.24-18.40.44:728][562]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=32
 [2024.11.24-18.40.44:735][562]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
 [2024.11.24-18.40.44:801][563]LogPlayLevel: Display: Destroying online subsystem :Context_83
+[2024.11.24-18.41.11:981][ 90]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.24-18.41.11:994][ 90]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.24-18.41.11:994][ 90]PIE: New page: PIE session: Ilumination (Nov 24, 2024, 12:41:11 PM)
+[2024.11.24-18.41.12:017][ 90]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Ilumination
+[2024.11.24-18.41.12:026][ 90]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009855s)
+[2024.11.24-18.41.12:026][ 90]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Ilumination.Ilumination to /Game/Levels/UEDPIE_0_Ilumination.Ilumination (0.009898s)
+[2024.11.24-18.41.12:040][ 90]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2024.11.24-18.41.12:042][ 90]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.24-18.41.12:042][ 90]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.24-18.41.12:042][ 90]LogAIModule: Creating AISystem for world Ilumination
+[2024.11.24-18.41.12:043][ 90]LogPlayLevel: PIE: World Init took: (0.000767s)
+[2024.11.24-18.41.12:043][ 90]LogAudio: Display: Creating Audio Device:                 Id: 33, Scope: Unique, Realtime: True
+[2024.11.24-18.41.12:043][ 90]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.24-18.41.12:043][ 90]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.24-18.41.12:043][ 90]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.24-18.41.12:043][ 90]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.24-18.41.12:043][ 90]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.24-18.41.12:043][ 90]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.24-18.41.12:043][ 90]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.24-18.41.12:043][ 90]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.24-18.41.12:043][ 90]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.24-18.41.12:043][ 90]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.24-18.41.12:043][ 90]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.24-18.41.12:045][ 90]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.24-18.41.12:063][ 90]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (Realtek(R) Audio)
+[2024.11.24-18.41.12:063][ 90]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.24-18.41.12:063][ 90]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.24-18.41.12:063][ 90]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.24-18.41.12:063][ 90]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=33
+[2024.11.24-18.41.12:063][ 90]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=33
+[2024.11.24-18.41.12:065][ 90]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=33
+[2024.11.24-18.41.12:065][ 90]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=33
+[2024.11.24-18.41.12:065][ 90]LogInit: FAudioDevice initialized with ID 33.
+[2024.11.24-18.41.12:065][ 90]LogAudio: Display: Audio Device (ID: 33) registered with world 'Ilumination'.
+[2024.11.24-18.41.12:065][ 90]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 33
+[2024.11.24-18.41.12:067][ 90]LogLoad: Game class is 'MyGameGamemode_C'
+[2024.11.24-18.41.12:071][ 90]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Ilumination.Ilumination up for play (max tick rate 0) at 2024.11.24-15.41.12
+[2024.11.24-18.41.12:071][ 90]LogWorld: Bringing up level for play took: 0.003985
+[2024.11.24-18.41.12:074][ 90]LogOnline: OSS: Created online subsystem instance for: :Context_84
+[2024.11.24-18.41.12:074][ 90]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.24-18.41.12:074][ 90]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.24-18.41.12:074][ 90]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.11.24-18.41.12:092][ 90]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.11.24-18.41.12:092][ 90]PIE: Server logged in
+[2024.11.24-18.41.12:093][ 90]PIE: Play in editor total start time 0.099 seconds.
+[2024.11.24-18.41.12:973][186]Cmd: LevelEditor.ToggleImmersive
+[2024.11.24-18.41.13:000][186]LogViewport: Scene viewport resized to 1144x339, mode Windowed.
+[2024.11.24-18.41.13:013][186]LogViewport: Scene viewport resized to 279x339, mode Windowed.
+[2024.11.24-18.41.13:031][186]LogViewport: Scene viewport resized to 279x340, mode Windowed.
+[2024.11.24-18.41.13:049][186]LogViewport: Scene viewport resized to 2000x1046, mode Windowed.
+[2024.11.24-18.41.13:076][187]LogViewport: Scene viewport resized to 2538x1386, mode Windowed.
+[2024.11.24-18.41.13:103][188]LogViewport: Scene viewport resized to 2560x1400, mode Windowed.
+[2024.11.24-18.41.38:480][224]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.11.24-18.41.38:480][224]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2024.11.24-18.41.38:480][224]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2024.11.24-18.41.38:955][281]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.11.24-18.41.38:955][281]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2024.11.24-18.41.59:637][759]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.24-18.41.59:637][759]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Ilumination
+[2024.11.24-18.41.59:639][759]LogWorld: UWorld::CleanupWorld for Ilumination, bSessionEnded=true, bCleanupResources=true
+[2024.11.24-18.41.59:640][759]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.24-18.41.59:647][759]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.24-18.41.59:653][759]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.24-18.41.59:664][759]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.24-18.41.59:665][759]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 33
+[2024.11.24-18.41.59:665][759]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=33
+[2024.11.24-18.41.59:667][759]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=33
+[2024.11.24-18.41.59:677][759]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2024.11.24-18.41.59:726][760]LogPlayLevel: Display: Destroying online subsystem :Context_84
+[2024.11.24-18.42.00:741][870]LogViewport: Scene viewport resized to 2099x1107, mode Windowed.
+[2024.11.24-18.42.00:781][871]LogViewport: Scene viewport resized to 1499x729, mode Windowed.
+[2024.11.24-18.42.00:823][872]LogViewport: Scene viewport resized to 1443x694, mode Windowed.
+[2024.11.24-18.42.00:852][873]LogViewport: Scene viewport resized to 1428x684, mode Windowed.
+[2024.11.24-18.42.06:349][393]LogViewport: Scene viewport resized to 1428x682, mode Windowed.
+[2024.11.24-18.42.06:375][394]LogViewport: Scene viewport resized to 1428x649, mode Windowed.
+[2024.11.24-18.42.06:401][395]LogViewport: Scene viewport resized to 1428x588, mode Windowed.
+[2024.11.24-18.42.06:430][396]LogViewport: Scene viewport resized to 1428x506, mode Windowed.
+[2024.11.24-18.42.06:458][397]LogViewport: Scene viewport resized to 1428x434, mode Windowed.
+[2024.11.24-18.42.06:487][398]LogViewport: Scene viewport resized to 1428x382, mode Windowed.
+[2024.11.24-18.42.06:516][399]LogViewport: Scene viewport resized to 1428x354, mode Windowed.
+[2024.11.24-18.42.06:543][400]LogViewport: Scene viewport resized to 1428x346, mode Windowed.
+[2024.11.24-18.43.36:078][157]LogViewport: Scene viewport resized to 1428x347, mode Windowed.
+[2024.11.24-18.43.36:106][158]LogViewport: Scene viewport resized to 1428x371, mode Windowed.
+[2024.11.24-18.43.36:134][159]LogViewport: Scene viewport resized to 1428x426, mode Windowed.
+[2024.11.24-18.43.36:162][160]LogViewport: Scene viewport resized to 1428x495, mode Windowed.
+[2024.11.24-18.43.36:192][161]LogViewport: Scene viewport resized to 1428x570, mode Windowed.
+[2024.11.24-18.43.36:222][162]LogViewport: Scene viewport resized to 1428x640, mode Windowed.
+[2024.11.24-18.43.36:250][163]LogViewport: Scene viewport resized to 1428x687, mode Windowed.
+[2024.11.24-18.43.36:276][164]LogViewport: Scene viewport resized to 1428x702, mode Windowed.
+[2024.11.24-18.43.36:299][165]LogViewport: Scene viewport resized to 1428x708, mode Windowed.
+[2024.11.24-18.43.36:323][166]LogViewport: Scene viewport resized to 1428x712, mode Windowed.
+[2024.11.24-18.43.36:345][167]LogViewport: Scene viewport resized to 1428x715, mode Windowed.
+[2024.11.24-18.43.36:369][168]LogViewport: Scene viewport resized to 1428x717, mode Windowed.
+[2024.11.24-18.43.44:564][969]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.24-18.43.44:584][969]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Ilumination" FILE="F:/UnrealProjects/ArcadeSimulator/Arcade/Content/Levels/Ilumination.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.11.24-18.43.44:637][969]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2024.11.24-18.43.44:676][969]LogSavePackage: Moving output files for package: /Game/Levels/Ilumination
+[2024.11.24-18.43.44:676][969]LogSavePackage: Moving 'F:/UnrealProjects/ArcadeSimulator/Arcade/Saved/Ilumination27E72D0647A0360F274700A2BC22F46D.tmp' to 'F:/UnrealProjects/ArcadeSimulator/Arcade/Content/Levels/Ilumination.umap'
+[2024.11.24-18.43.44:688][969]LogFileHelpers: Saving map 'Ilumination' took 0.104
+[2024.11.24-18.43.44:694][969]LogFileHelpers: InternalPromptForCheckoutAndSave took 129 ms (total: 6.17 sec)
+[2024.11.24-18.43.44:696][969]AssetCheck: New page: Asset Save: Ilumination
+[2024.11.24-18.43.44:696][969]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Ilumination.Ilumination
+[2024.11.24-18.43.45:837][ 63]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
