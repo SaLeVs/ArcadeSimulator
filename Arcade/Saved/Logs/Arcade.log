@@ -1381,3 +1381,713 @@ LogConfig: CVar [[framepro.ScopeMinTimeMicroseconds:10]] deferred - dummy variab
 [2024.11.25-10.49.24:951][912]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
 [2024.11.25-10.49.24:963][912]Cmd: MAP CHECKDEP NOCLEARLOG
 [2024.11.25-10.49.24:963][912]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,113ms to complete.
+[2024.11.25-10.50.02:874][182]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.25-10.50.02:889][182]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.25-10.50.02:890][182]PIE: New page: PIE session: Ilumination (25 de nov de 2024 04:50:02)
+[2024.11.25-10.50.02:893][182]LogOnline: OSS: Created online subsystem instance for: NULL
+[2024.11.25-10.50.02:893][182]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for type [NULL]
+[2024.11.25-10.50.02:893][182]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Ilumination
+[2024.11.25-10.50.02:904][182]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011048s)
+[2024.11.25-10.50.02:904][182]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Ilumination.Ilumination to /Game/Levels/UEDPIE_0_Ilumination.Ilumination (0.011082s)
+[2024.11.25-10.50.02:912][182]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2024.11.25-10.50.02:914][182]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-10.50.02:914][182]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.25-10.50.02:914][182]LogAIModule: Creating AISystem for world Ilumination
+[2024.11.25-10.50.02:914][182]LogPlayLevel: PIE: World Init took: (0.000859s)
+[2024.11.25-10.50.02:914][182]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2024.11.25-10.50.02:914][182]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.25-10.50.02:914][182]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.25-10.50.02:914][182]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.25-10.50.02:914][182]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.25-10.50.02:914][182]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.25-10.50.02:914][182]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.25-10.50.02:914][182]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.25-10.50.02:914][182]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.25-10.50.02:915][182]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.25-10.50.02:915][182]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.25-10.50.02:915][182]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.25-10.50.02:917][182]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.25-10.50.02:951][182]LogAudioMixer: Display: Using Audio Hardware Device Fones de ouvido (A-589)
+[2024.11.25-10.50.02:951][182]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.25-10.50.02:951][182]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.25-10.50.02:951][182]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.25-10.50.02:951][182]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2024.11.25-10.50.02:951][182]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=2
+[2024.11.25-10.50.02:954][182]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2024.11.25-10.50.02:954][182]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2024.11.25-10.50.02:954][182]LogInit: FAudioDevice initialized with ID 2.
+[2024.11.25-10.50.02:954][182]LogAudio: Display: Audio Device (ID: 2) registered with world 'Ilumination'.
+[2024.11.25-10.50.02:954][182]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 2
+[2024.11.25-10.50.02:956][182]LogLoad: Game class is 'MyGameGamemode_C'
+[2024.11.25-10.50.02:962][182]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Ilumination.Ilumination up for play (max tick rate 0) at 2024.11.25-07.50.02
+[2024.11.25-10.50.02:962][182]LogWorld: Bringing up level for play took: 0.005868
+[2024.11.25-10.50.02:965][182]LogOnline: OSS: Created online subsystem instance for: :Context_1
+[2024.11.25-10.50.02:968][182]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.25-10.50.02:968][182]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.25-10.50.02:968][182]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.11.25-10.50.02:969][182]LogWindows: WindowsPlatformFeatures enabled
+[2024.11.25-10.50.02:977][182]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.11.25-10.50.02:977][182]PIE: Server logged in
+[2024.11.25-10.50.02:978][182]PIE: Play in editor total start time 0,089 seconds.
+[2024.11.25-10.50.04:507][358]Cmd: LevelEditor.ToggleImmersive
+[2024.11.25-10.50.04:516][358]LogViewport: Scene viewport resized to 812x210, mode Windowed.
+[2024.11.25-10.50.04:523][358]LogSlate: Took 0.000160 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2024.11.25-10.50.04:523][358]LogViewport: Scene viewport resized to 198x210, mode Windowed.
+[2024.11.25-10.50.04:532][358]LogViewport: Scene viewport resized to 198x210, mode Windowed.
+[2024.11.25-10.50.04:541][358]LogViewport: Scene viewport resized to 1216x558, mode Windowed.
+[2024.11.25-10.50.04:554][359]LogViewport: Scene viewport resized to 1660x849, mode Windowed.
+[2024.11.25-10.50.04:576][360]LogViewport: Scene viewport resized to 1798x941, mode Windowed.
+[2024.11.25-10.50.04:608][361]LogViewport: Scene viewport resized to 1897x1006, mode Windowed.
+[2024.11.25-10.50.04:632][362]LogViewport: Scene viewport resized to 1921x1022, mode Windowed.
+[2024.11.25-10.50.04:657][363]LogViewport: Scene viewport resized to 1924x1024, mode Windowed.
+[2024.11.25-10.50.17:962][660]LogDerivedDataCache: C:/Users/alves/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:11.121 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 6473 files in 8134 folders with total size 547 MiB.
+[2024.11.25-10.52.59:640][472]LogShaderCompilers: Display: ================================================
+[2024.11.25-10.52.59:640][472]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.11.25-10.52.59:640][472]LogShaderCompilers: Display: Total job queries 268, among them cache hits 131 (48.88%)
+[2024.11.25-10.52.59:640][472]LogShaderCompilers: Display: Tracking 137 distinct input hashes that result in 57 distinct outputs (41.61%)
+[2024.11.25-10.52.59:640][472]LogShaderCompilers: Display: RAM used: 2,92 MiB of 819,20 MiB budget. Usage: 0.36%
+[2024.11.25-10.52.59:640][472]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.11.25-10.52.59:640][472]LogShaderCompilers: Display: Shaders Compiled: 0
+[2024.11.25-10.52.59:640][472]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0%)
+[2024.11.25-10.52.59:640][472]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2024.11.25-10.52.59:640][472]LogShaderCompilers: Display: ================================================
+[2024.11.25-10.53.00:088][497]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.25-10.53.00:088][497]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Ilumination
+[2024.11.25-10.53.00:094][497]LogWorld: UWorld::CleanupWorld for Ilumination, bSessionEnded=true, bCleanupResources=true
+[2024.11.25-10.53.00:098][497]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.25-10.53.00:108][497]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.25-10.53.00:112][497]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.25-10.53.00:120][497]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.11.25-10.53.00:121][497]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 2
+[2024.11.25-10.53.00:122][497]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2024.11.25-10.53.00:123][497]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2024.11.25-10.53.00:127][497]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.25-10.53.00:132][497]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2024.11.25-10.53.00:162][497]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.25-10.53.00:169][498]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2024.11.25-10.53.00:170][498]LogSlate: Took 0.000149 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2024.11.25-10.53.00:195][498]LogSlate: Took 0.000167 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2024.11.25-10.53.00:196][498]LogSlate: Took 0.000111 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2024.11.25-10.53.00:197][498]LogSlate: Took 0.000091 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2024.11.25-10.53.00:197][498]LogSlate: Took 0.000081 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2024.11.25-10.53.02:181][735]LogViewport: Scene viewport resized to 1805x945, mode Windowed.
+[2024.11.25-10.53.02:196][736]LogViewport: Scene viewport resized to 1569x790, mode Windowed.
+[2024.11.25-10.53.02:212][737]LogViewport: Scene viewport resized to 1429x698, mode Windowed.
+[2024.11.25-10.53.02:228][738]LogViewport: Scene viewport resized to 1306x617, mode Windowed.
+[2024.11.25-10.53.02:244][739]LogViewport: Scene viewport resized to 1217x558, mode Windowed.
+[2024.11.25-10.53.02:257][740]LogViewport: Scene viewport resized to 1153x516, mode Windowed.
+[2024.11.25-10.53.02:273][741]LogViewport: Scene viewport resized to 1105x484, mode Windowed.
+[2024.11.25-10.53.02:283][742]LogViewport: Scene viewport resized to 1076x466, mode Windowed.
+[2024.11.25-10.53.02:297][743]LogViewport: Scene viewport resized to 1051x449, mode Windowed.
+[2024.11.25-10.53.02:309][744]LogViewport: Scene viewport resized to 1036x439, mode Windowed.
+[2024.11.25-10.53.02:321][745]LogViewport: Scene viewport resized to 1027x432, mode Windowed.
+[2024.11.25-10.53.02:332][746]LogViewport: Scene viewport resized to 1020x429, mode Windowed.
+[2024.11.25-10.53.02:342][747]LogViewport: Scene viewport resized to 1018x427, mode Windowed.
+[2024.11.25-10.53.02:354][748]LogViewport: Scene viewport resized to 1017x427, mode Windowed.
+[2024.11.25-10.53.02:379][750]LogViewport: Scene viewport resized to 1016x426, mode Windowed.
+[2024.11.25-10.53.17:767][544]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2024.11.25-10.53.18:028][544]LogTexture: Display: Building textures: /Game/Materials/Meshs/Blackboard/SM_WhiteBoard_DefaultMaterial_BaseColor.SM_WhiteBoard_DefaultMaterial_BaseColor (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.11.25-10.53.18:102][544]LogTexture: Display: Building textures: /Game/Materials/Meshs/Blackboard/SM_WhiteBoard_DefaultMaterial_Emissive.SM_WhiteBoard_DefaultMaterial_Emissive (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 276.062484 MB), EncodeSpeed: Fast
+[2024.11.25-10.53.18:163][544]LogTexture: Display: Building textures: /Game/Materials/Meshs/Blackboard/SM_WhiteBoard_DefaultMaterial_Normal.SM_WhiteBoard_DefaultMaterial_Normal (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 381.562488 MB), EncodeSpeed: Fast
+[2024.11.25-10.53.18:241][544]LogTexture: Display: Building textures: /Game/Materials/Meshs/Blackboard/SM_WhiteBoard_DefaultMaterial_OcclusionRoughnessMetallic.SM_WhiteBoard_DefaultMaterial_OcclusionRoughnessMetallic (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.11.25-10.53.18:292][544]LogStaticMesh: Display: Building static mesh SM_WhiteBoard...
+[2024.11.25-10.53.18:315][544]LogStaticMesh: Built static mesh [0.02s] /Game/Meshs/Scenery/TutorialBoard/SM_WhiteBoard.SM_WhiteBoard
+[2024.11.25-10.53.18:324][544]LogTexture: Display: Building textures: /Game/Materials/Meshs/Walls/Tutorial/WallDoor/SM_WallTutorialDoor_DefaultMaterial_BaseColor.SM_WallTutorialDoor_DefaultMaterial_BaseColor (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.11.25-10.53.18:400][544]LogTexture: Display: Building textures: /Game/Materials/Meshs/Walls/Tutorial/WallDoor/SM_WallTutorialDoor_DefaultMaterial_Normal.SM_WallTutorialDoor_DefaultMaterial_Normal (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 381.562488 MB), EncodeSpeed: Fast
+[2024.11.25-10.53.18:466][544]LogTexture: Display: Building textures: /Game/Materials/Meshs/Walls/Tutorial/WallDoor/SM_WallTutorialDoor_DefaultMaterial_OcclusionRoughnessMetallic.SM_WallTutorialDoor_DefaultMaterial_OcclusionRoughnessMetallic (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.11.25-10.53.18:530][544]LogStaticMesh: Display: Building static mesh SM_WallCollider...
+[2024.11.25-10.53.18:534][544]LogStaticMesh: Built static mesh [0.00s] /Game/Meshs/SceneryCollisions/SM_WallCollider.SM_WallCollider
+[2024.11.25-10.53.18:536][544]LogStaticMesh: Display: Building static mesh SM_WallTutorialDoor...
+[2024.11.25-10.53.18:540][544]LogStaticMesh: Built static mesh [0.00s] /Game/Meshs/Scenery/NeonFlipStructure/Tutorial/SM_WallTutorialDoor.SM_WallTutorialDoor
+[2024.11.25-10.53.18:549][544]LogTexture: Display: Building textures: /Game/UI_Assets/TutorialBoards/tutorial_room1.tutorial_room1 (TFO_AutoDXT, 1920x1080 x1x1x1) (Required Memory Estimate: 168.460938 MB), EncodeSpeed: Fast
+[2024.11.25-10.53.18:576][544]LogTexture: Display: Building textures: /Game/UI_Assets/TutorialBoards/tutorial_room2.tutorial_room2 (TFO_AutoDXT, 1920x1080 x1x1x1) (Required Memory Estimate: 168.460938 MB), EncodeSpeed: Fast
+[2024.11.25-10.53.18:605][544]LogTexture: Display: Building textures: /Game/UI_Assets/TutorialBoards/tutorial_room4v1.tutorial_room4v1 (TFO_AutoDXT, 1920x1080 x1x1x1) (Required Memory Estimate: 168.460938 MB), EncodeSpeed: Fast
+[2024.11.25-10.53.18:632][544]LogTexture: Display: Building textures: /Game/UI_Assets/TutorialBoards/tutorial_room4v2.tutorial_room4v2 (TFO_AutoDXT, 1920x1080 x1x1x1) (Required Memory Estimate: 168.460938 MB), EncodeSpeed: Fast
+[2024.11.25-10.53.18:667][544]LogTexture: Display: Building textures: /Game/UI_Assets/TutorialBoards/tutorial_room5.tutorial_room5 (TFO_AutoDXT, 1920x1080 x1x1x1) (Required Memory Estimate: 168.460938 MB), EncodeSpeed: Fast
+[2024.11.25-10.53.18:690][544]LogTexture: Display: Building textures: /Game/UI_Assets/TutorialBoards/tutorial_room7.tutorial_room7 (TFO_AutoDXT, 1920x1080 x1x1x1) (Required Memory Estimate: 168.460938 MB), EncodeSpeed: Fast
+[2024.11.25-10.53.18:712][544]LogTexture: Display: Building textures: /Game/UI_Assets/TutorialBoards/Tutorial_Room7_2.Tutorial_Room7_2 (TFO_AutoDXT, 1920x1080 x1x1x1) (Required Memory Estimate: 168.460938 MB), EncodeSpeed: Fast
+[2024.11.25-10.53.18:735][544]LogTexture: Display: Building textures: /Game/UI_Assets/TutorialBoards/tutorial_room8v1.tutorial_room8v1 (TFO_AutoDXT, 1920x1080 x1x1x1) (Required Memory Estimate: 168.460938 MB), EncodeSpeed: Fast
+[2024.11.25-10.53.18:759][544]LogTexture: Display: Building textures: /Game/UI_Assets/TutorialBoards/tutorial_room8v2.tutorial_room8v2 (BGRA8, 1921x1080 x1x1x1) (Required Memory Estimate: 60.738617 MB), EncodeSpeed: Fast
+[2024.11.25-10.53.18:787][544]LogTexture: Display: Building textures: /Game/UI_Assets/TutorialBoards/UI_Room6_1.UI_Room6_1 (TFO_AutoDXT, 1920x1080 x1x1x1) (Required Memory Estimate: 168.460938 MB), EncodeSpeed: Fast
+[2024.11.25-10.53.18:812][544]LogTexture: Display: Building textures: /Game/UI_Assets/TutorialBoards/UI_Room6_2.UI_Room6_2 (TFO_AutoDXT, 1920x1080 x1x1x1) (Required Memory Estimate: 168.460938 MB), EncodeSpeed: Fast
+[2024.11.25-10.53.18:838][544]LogTexture: Display: Building textures: /Game/UI_Assets/TutorialBoards/UI_Room6_3.UI_Room6_3 (TFO_AutoDXT, 1920x1080 x1x1x1) (Required Memory Estimate: 168.460938 MB), EncodeSpeed: Fast
+[2024.11.25-10.53.18:857][544]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-10.53.18:888][544]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Levels/TutorialScene.TutorialScene
+[2024.11.25-10.53.18:889][544]Cmd: MAP LOAD FILE="../../../../../../Users/alves/Documents/GitKraken Projects/ArcadeSimulator/Arcade/Content/Levels/TutorialScene.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2024.11.25-10.53.18:889][544]LightingResults: New page: Lighting Build
+[2024.11.25-10.53.18:889][544]LoadErrors: New page: Loading map: TutorialScene.umap
+[2024.11.25-10.53.18:966][544]LogWorld: UWorld::CleanupWorld for Ilumination, bSessionEnded=true, bCleanupResources=true
+[2024.11.25-10.53.18:966][544]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.25-10.53.18:966][544]MapCheck: New page: Map Check
+[2024.11.25-10.53.18:967][544]LightingResults: New page: Lighting Build
+[2024.11.25-10.53.18:974][544]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.11.25-10.53.18:982][544]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2024.11.25-10.53.19:129][544]LogWorld: UWorld::CleanupWorld for TutorialScene, bSessionEnded=true, bCleanupResources=true
+[2024.11.25-10.53.19:130][544]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.25-10.53.19:140][544]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2024.11.25-10.53.19:143][544]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2024.11.25-10.53.19:158][544]LogAudio: Display: Audio Device (ID: 1) registered with world 'TutorialScene'.
+[2024.11.25-10.53.19:158][544]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-10.53.19:158][544]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.25-10.53.19:158][544]LogAIModule: Creating AISystem for world TutorialScene
+[2024.11.25-10.53.19:240][544]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.11.25-10.53.19:252][544]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2024.11.25-10.53.19:262][544]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.11.25-10.53.19:262][544]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,096ms to complete.
+[2024.11.25-10.53.29:258][689]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-10.53.32:924][ 99]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2024.11.25-10.53.36:695][513]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2024.11.25-10.53.39:470][791]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2024.11.25-10.53.41:321][  5]LogWindowsTextInputMethodSystem: Activated input method: Português (Brasil) - (Keyboard).
+[2024.11.25-10.53.41:321][  5]LogWindowsTextInputMethodSystem: Activated input method: Português (Brasil) - (Keyboard).
+[2024.11.25-10.53.42:942][170]LogUObjectHash: Compacting FUObjectHashTables data took   0.33ms
+[2024.11.25-10.53.42:946][170]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.25-10.53.43:069][170]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2024.11.25-10.53.43:120][170]LogSavePackage: Moving output files for package: /Game/Levels/TutorialScene
+[2024.11.25-10.53.43:120][170]LogSavePackage: Moving '../../../../../../Users/alves/Documents/GitKraken Projects/ArcadeSimulator/Arcade/Saved/TutorialScene7AF159FD48B10A688C9C769841E848FC.tmp' to '../../../../../../Users/alves/Documents/GitKraken Projects/ArcadeSimulator/Arcade/Content/Levels/TutorialScene.umap'
+[2024.11.25-10.53.43:134][170]LogFileHelpers: Saving map 'TutorialScene' took 0.115
+[2024.11.25-10.53.43:143][170]LogFileHelpers: InternalPromptForCheckoutAndSave took 195 ms (total: 724 ms)
+[2024.11.25-10.53.43:147][170]AssetCheck: New page: Asset Save: TutorialScene
+[2024.11.25-10.53.43:147][170]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/TutorialScene.TutorialScene
+[2024.11.25-10.53.44:887][364]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 333.995422
+[2024.11.25-10.53.45:079][384]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2024.11.25-10.53.45:079][384]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 334.177551, Update Interval: 300.772736
+[2024.11.25-10.53.51:715][152]LogTexture: Display: Building textures: /Game/UI_Assets/TutorialBoards/tutorial_room3v2.tutorial_room3v2 (TFO_AutoDXT, 1920x1080 x1x1x1) (Required Memory Estimate: 168.460938 MB), EncodeSpeed: Fast
+[2024.11.25-10.53.51:728][152]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/UI_Assets/TutorialBoards/tutorial_room3v2.tutorial_room3v2
+[2024.11.25-10.53.51:903][152]LogViewport: Scene viewport resized to 1413x835, mode Windowed.
+[2024.11.25-10.53.53:623][298]LogSlate: Window 'tutorial_room3v2' being destroyed
+[2024.11.25-10.53.54:473][385]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/UI_Assets/TutorialBoards/tutorial_room4v1.tutorial_room4v1
+[2024.11.25-10.53.54:597][385]LogViewport: Scene viewport resized to 1413x835, mode Windowed.
+[2024.11.25-10.53.55:965][500]LogSlate: Window 'tutorial_room4v1' being destroyed
+[2024.11.25-10.53.57:204][622]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/UI_Assets/TutorialBoards/Tutorial_Room7_2.Tutorial_Room7_2
+[2024.11.25-10.53.57:332][622]LogViewport: Scene viewport resized to 1413x835, mode Windowed.
+[2024.11.25-10.53.59:720][829]LogSlate: Window 'Tutorial_Room7_2' being destroyed
+[2024.11.25-10.54.15:290][273]LogInterchangeEngine: [Pending] Importing
+[2024.11.25-10.54.15:291][273]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/alves/Downloads/Tutorial_Room7_1.png]
+[2024.11.25-10.54.15:325][274]LogTexture: Display: Building textures: /Game/UI_Assets/TutorialBoards/Tutorial_Room7_2.Tutorial_Room7_2 (TFO_AutoDXT, 1920x1080 x1x1x1) (Required Memory Estimate: 168.460938 MB), EncodeSpeed: Final
+[2024.11.25-10.54.15:360][274]LogInterchangeEngine: [Pending] Importing
+[2024.11.25-10.54.15:361][274]LogInterchangeEngine: [Success] Import Done
+[2024.11.25-10.54.15:421][275]LogInterchangeEngine: [Success] Import Done
+[2024.11.25-10.54.17:066][415]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.25-10.54.17:152][415]LogSavePackage: Moving output files for package: /Game/UI_Assets/TutorialBoards/Tutorial_Room7_2
+[2024.11.25-10.54.17:152][415]LogSavePackage: Moving '../../../../../../Users/alves/Documents/GitKraken Projects/ArcadeSimulator/Arcade/Saved/Tutorial_Room7_2BC67BA56414DAA2C8D24958A8BEBEFDC.tmp' to '../../../../../../Users/alves/Documents/GitKraken Projects/ArcadeSimulator/Arcade/Content/UI_Assets/TutorialBoards/Tutorial_Room7_2.uasset'
+[2024.11.25-10.54.17:162][415]LogFileHelpers: InternalPromptForCheckoutAndSave took 97 ms (total: 821 ms)
+[2024.11.25-10.54.17:164][415]AssetCheck: New page: Asset Save: Tutorial_Room7_2
+[2024.11.25-10.54.17:164][415]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/UI_Assets/TutorialBoards/Tutorial_Room7_2.Tutorial_Room7_2
+[2024.11.25-10.54.20:513][726]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/UI_Assets/TutorialBoards/UI_Room6_2.UI_Room6_2
+[2024.11.25-10.54.20:686][726]LogViewport: Scene viewport resized to 1413x835, mode Windowed.
+[2024.11.25-10.54.22:212][854]LogSlate: Window 'UI_Room6_2' being destroyed
+[2024.11.25-10.54.22:966][926]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/UI_Assets/TutorialBoards/UI_Room6_3.UI_Room6_3
+[2024.11.25-10.54.23:095][926]LogViewport: Scene viewport resized to 1413x835, mode Windowed.
+[2024.11.25-10.54.25:119][ 96]LogSlate: Window 'UI_Room6_3' being destroyed
+[2024.11.25-10.54.40:766][792]LogInterchangeEngine: [Pending] Importing
+[2024.11.25-10.54.40:766][792]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/alves/Downloads/UI_Room6.3.1.png]
+[2024.11.25-10.54.40:799][793]LogInterchangeEngine: [Pending] Importing
+[2024.11.25-10.54.41:127][793]LogTexture: Display: Building textures: /Game/UI_Assets/TutorialBoards/UI_Room6_3_1.UI_Room6_3_1 (TFO_AutoDXT, 1920x1080 x1x1x1) (Required Memory Estimate: 168.460938 MB), EncodeSpeed: Fast
+[2024.11.25-10.54.41:459][794]LogInterchangeEngine: [Success] Import Done
+[2024.11.25-10.54.41:486][795]LogInterchangeEngine: [Success] Import Done
+[2024.11.25-10.54.45:660][915]LogUObjectHash: Compacting FUObjectHashTables data took   0.43ms
+[2024.11.25-10.54.45:664][915]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.25-10.54.45:739][915]LogSavePackage: Moving output files for package: /Game/UI_Assets/TutorialBoards/UI_Room6_3_1
+[2024.11.25-10.54.45:740][915]LogSavePackage: Moving '../../../../../../Users/alves/Documents/GitKraken Projects/ArcadeSimulator/Arcade/Saved/UI_Room6_3_1A28AB82A4DBC806754EAB7A8B7266F0E.tmp' to '../../../../../../Users/alves/Documents/GitKraken Projects/ArcadeSimulator/Arcade/Content/UI_Assets/TutorialBoards/UI_Room6_3_1.uasset'
+[2024.11.25-10.54.45:750][915]LogFileHelpers: InternalPromptForCheckoutAndSave took 86 ms (total: 907 ms)
+[2024.11.25-10.54.45:751][915]AssetCheck: New page: Asset Save: UI_Room6_3_1
+[2024.11.25-10.54.45:751][915]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/UI_Assets/TutorialBoards/UI_Room6_3_1.UI_Room6_3_1
+[2024.11.25-10.54.59:921][366]Cmd: DUPLICATE
+[2024.11.25-10.54.59:921][366]Cmd: ACTOR DUPLICATE
+[2024.11.25-10.55.12:708][744]LogViewport: Scene viewport resized to 1016x428, mode Windowed.
+[2024.11.25-10.55.12:722][745]LogViewport: Scene viewport resized to 1016x431, mode Windowed.
+[2024.11.25-10.55.12:735][746]LogViewport: Scene viewport resized to 1016x439, mode Windowed.
+[2024.11.25-10.55.12:749][747]LogViewport: Scene viewport resized to 1016x446, mode Windowed.
+[2024.11.25-10.55.12:762][748]LogViewport: Scene viewport resized to 1016x455, mode Windowed.
+[2024.11.25-10.55.12:786][749]LogViewport: Scene viewport resized to 1016x465, mode Windowed.
+[2024.11.25-10.55.12:799][750]LogViewport: Scene viewport resized to 1016x471, mode Windowed.
+[2024.11.25-10.55.12:813][751]LogViewport: Scene viewport resized to 1016x474, mode Windowed.
+[2024.11.25-10.55.12:826][752]LogViewport: Scene viewport resized to 1016x476, mode Windowed.
+[2024.11.25-10.55.12:841][753]LogViewport: Scene viewport resized to 1016x482, mode Windowed.
+[2024.11.25-10.55.12:854][754]LogViewport: Scene viewport resized to 1016x486, mode Windowed.
+[2024.11.25-10.55.12:869][755]LogViewport: Scene viewport resized to 1016x492, mode Windowed.
+[2024.11.25-10.55.12:885][756]LogViewport: Scene viewport resized to 1016x497, mode Windowed.
+[2024.11.25-10.55.12:899][757]LogViewport: Scene viewport resized to 1016x502, mode Windowed.
+[2024.11.25-10.55.12:913][758]LogViewport: Scene viewport resized to 1016x505, mode Windowed.
+[2024.11.25-10.55.12:929][759]LogViewport: Scene viewport resized to 1016x506, mode Windowed.
+[2024.11.25-10.55.12:944][760]LogViewport: Scene viewport resized to 1016x509, mode Windowed.
+[2024.11.25-10.55.12:958][761]LogViewport: Scene viewport resized to 1016x511, mode Windowed.
+[2024.11.25-10.55.12:989][764]LogViewport: Scene viewport resized to 1016x512, mode Windowed.
+[2024.11.25-10.55.14:959][982]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2024.11.25-10.55.14:963][982]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.25-10.55.15:085][982]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2024.11.25-10.55.15:136][982]LogSavePackage: Moving output files for package: /Game/Levels/TutorialScene
+[2024.11.25-10.55.15:137][982]LogSavePackage: Moving '../../../../../../Users/alves/Documents/GitKraken Projects/ArcadeSimulator/Arcade/Saved/TutorialSceneFCE4D1274A9164BE85EE139B14731600.tmp' to '../../../../../../Users/alves/Documents/GitKraken Projects/ArcadeSimulator/Arcade/Content/Levels/TutorialScene.umap'
+[2024.11.25-10.55.15:149][982]LogFileHelpers: Saving map 'TutorialScene' took 0.119
+[2024.11.25-10.55.15:158][982]LogFileHelpers: InternalPromptForCheckoutAndSave took 193 ms (total: 1.10 sec)
+[2024.11.25-10.55.15:160][982]AssetCheck: New page: Asset Save: TutorialScene
+[2024.11.25-10.55.15:160][982]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/TutorialScene.TutorialScene
+[2024.11.25-10.55.15:909][ 67]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.25-10.55.15:922][ 67]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.25-10.55.15:922][ 67]PIE: New page: PIE session: TutorialScene (25 de nov de 2024 04:55:15)
+[2024.11.25-10.55.15:922][ 67]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TutorialScene
+[2024.11.25-10.55.15:937][ 67]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014716s)
+[2024.11.25-10.55.15:937][ 67]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TutorialScene.TutorialScene to /Game/Levels/UEDPIE_0_TutorialScene.TutorialScene (0.014750s)
+[2024.11.25-10.55.15:956][ 67]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2024.11.25-10.55.15:957][ 67]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-10.55.15:957][ 67]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.25-10.55.15:957][ 67]LogAIModule: Creating AISystem for world TutorialScene
+[2024.11.25-10.55.15:957][ 67]LogPlayLevel: PIE: World Init took: (0.000843s)
+[2024.11.25-10.55.15:957][ 67]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2024.11.25-10.55.15:957][ 67]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.25-10.55.15:957][ 67]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.25-10.55.15:957][ 67]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.25-10.55.15:957][ 67]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.25-10.55.15:957][ 67]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.25-10.55.15:957][ 67]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.25-10.55.15:957][ 67]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.25-10.55.15:957][ 67]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.25-10.55.15:958][ 67]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.25-10.55.15:958][ 67]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.25-10.55.15:958][ 67]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.25-10.55.15:959][ 67]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.25-10.55.15:996][ 67]LogAudioMixer: Display: Using Audio Hardware Device Fones de ouvido (A-589)
+[2024.11.25-10.55.15:997][ 67]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.25-10.55.15:997][ 67]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.25-10.55.15:997][ 67]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.25-10.55.15:997][ 67]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2024.11.25-10.55.15:997][ 67]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2024.11.25-10.55.15:999][ 67]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2024.11.25-10.55.15:999][ 67]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2024.11.25-10.55.15:999][ 67]LogInit: FAudioDevice initialized with ID 3.
+[2024.11.25-10.55.15:999][ 67]LogAudio: Display: Audio Device (ID: 3) registered with world 'TutorialScene'.
+[2024.11.25-10.55.15:999][ 67]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 3
+[2024.11.25-10.55.16:001][ 67]LogLoad: Game class is 'MyGameGamemode_C'
+[2024.11.25-10.55.16:011][ 67]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TutorialScene.TutorialScene up for play (max tick rate 0) at 2024.11.25-07.55.16
+[2024.11.25-10.55.16:012][ 67]LogWorld: Bringing up level for play took: 0.010689
+[2024.11.25-10.55.16:015][ 67]LogOnline: OSS: Created online subsystem instance for: :Context_3
+[2024.11.25-10.55.16:016][ 67]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.25-10.55.16:016][ 67]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.25-10.55.16:016][ 67]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.11.25-10.55.16:030][ 67]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.11.25-10.55.16:030][ 67]PIE: Server logged in
+[2024.11.25-10.55.16:031][ 67]PIE: Play in editor total start time 0,108 seconds.
+[2024.11.25-10.55.19:645][487]Cmd: LevelEditor.ToggleImmersive
+[2024.11.25-10.55.19:651][487]LogViewport: Scene viewport resized to 812x253, mode Windowed.
+[2024.11.25-10.55.19:659][487]LogSlate: Took 0.000157 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2024.11.25-10.55.19:660][487]LogViewport: Scene viewport resized to 198x253, mode Windowed.
+[2024.11.25-10.55.19:667][487]LogViewport: Scene viewport resized to 198x253, mode Windowed.
+[2024.11.25-10.55.19:675][487]LogViewport: Scene viewport resized to 1207x619, mode Windowed.
+[2024.11.25-10.55.19:687][488]LogViewport: Scene viewport resized to 1604x843, mode Windowed.
+[2024.11.25-10.55.19:698][489]LogViewport: Scene viewport resized to 1695x894, mode Windowed.
+[2024.11.25-10.55.19:711][490]LogViewport: Scene viewport resized to 1779x942, mode Windowed.
+[2024.11.25-10.55.19:727][491]LogViewport: Scene viewport resized to 1852x983, mode Windowed.
+[2024.11.25-10.55.19:743][492]LogViewport: Scene viewport resized to 1890x1005, mode Windowed.
+[2024.11.25-10.55.19:761][493]LogViewport: Scene viewport resized to 1917x1020, mode Windowed.
+[2024.11.25-10.55.19:785][494]LogViewport: Scene viewport resized to 1924x1024, mode Windowed.
+[2024.11.25-10.56.03:763][434]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.11.25-10.56.03:764][434]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2024.11.25-10.56.03:764][434]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2024.11.25-10.56.33:143][261]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.11.25-10.56.33:143][261]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2024.11.25-10.57.26:785][363]LogBlueprintUserMessages: [BTTask_ThanksForChange_C_0] for each move
+[2024.11.25-10.57.34:627][771]LogBlueprintUserMessages: [BTTask_ThanksForChange_C_0] Fail move to machines queueBP_NPCMaster4
+[2024.11.25-10.57.34:845][782]LogBlueprintUserMessages: [BTTask_ThanksForChange_C_0] Fail move to machines queueBP_NPCMaster5
+[2024.11.25-10.57.45:137][227]LogShaderCompilers: Display: ================================================
+[2024.11.25-10.57.45:137][227]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.11.25-10.57.45:137][227]LogShaderCompilers: Display: Total job queries 329, among them cache hits 173 (52.58%)
+[2024.11.25-10.57.45:137][227]LogShaderCompilers: Display: Tracking 156 distinct input hashes that result in 65 distinct outputs (41.67%)
+[2024.11.25-10.57.45:137][227]LogShaderCompilers: Display: RAM used: 3,38 MiB of 819,20 MiB budget. Usage: 0.41%
+[2024.11.25-10.57.45:137][227]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.11.25-10.57.45:137][227]LogShaderCompilers: Display: Shaders Compiled: 4
+[2024.11.25-10.57.45:137][227]LogShaderCompilers: Display: Jobs assigned 4, completed 4 (100%)
+[2024.11.25-10.57.45:137][227]LogShaderCompilers: Display: Time job spent in pending queue: average 0.04 s, longest 0.04 s
+[2024.11.25-10.57.45:137][227]LogShaderCompilers: Display: Job execution time: average 0.45 s, max 0.55 s
+[2024.11.25-10.57.45:137][227]LogShaderCompilers: Display: Job life time (pending + execution): average 0.49 s, max 0.59
+[2024.11.25-10.57.45:137][227]LogShaderCompilers: Display: Shader code size: average 35,574 KiB, min 33,09 KiB, max 38,156 KiB
+[2024.11.25-10.57.45:137][227]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.59 s
+[2024.11.25-10.57.45:137][227]LogShaderCompilers: Display: Jobs were issued in 4 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.11.25-10.57.45:137][227]LogShaderCompilers: Display: Average processing rate: 6.74 jobs/sec
+[2024.11.25-10.57.45:137][227]LogShaderCompilers: Display: Total thread time: 0,742 s
+[2024.11.25-10.57.45:137][227]LogShaderCompilers: Display: Total thread preprocess time: 0,091 s
+[2024.11.25-10.57.45:137][227]LogShaderCompilers: Display: Percentage time preprocessing: 12.23%
+[2024.11.25-10.57.45:137][227]LogShaderCompilers: Display: Effective parallelization: 1.25 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.11.25-10.57.45:137][227]LogShaderCompilers: Display: Top 4 most expensive shader types by average time:
+[2024.11.25-10.57.45:137][227]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    1 times, average 0.24 sec, max 0.24 sec, min 0.24 sec)
+[2024.11.25-10.57.45:137][227]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    1 times, average 0.21 sec, max 0.21 sec, min 0.21 sec)
+[2024.11.25-10.57.45:137][227]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    1 times, average 0.20 sec, max 0.20 sec, min 0.20 sec)
+[2024.11.25-10.57.45:137][227]LogShaderCompilers: Display:                                          FLumenCardPS<false> (compiled    1 times, average 0.10 sec, max 0.10 sec, min 0.10 sec)
+[2024.11.25-10.57.45:137][227]LogShaderCompilers: Display: Top 4 shader types by total compile time:
+[2024.11.25-10.57.45:137][227]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 32.24% of total time (compiled    1 times, average 0.24 sec, max 0.24 sec, min 0.24 sec)
+[2024.11.25-10.57.45:137][227]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 27.93% of total time (compiled    1 times, average 0.21 sec, max 0.21 sec, min 0.21 sec)
+[2024.11.25-10.57.45:137][227]LogShaderCompilers: Display:                                                 FLumenCardVS - 26.59% of total time (compiled    1 times, average 0.20 sec, max 0.20 sec, min 0.20 sec)
+[2024.11.25-10.57.45:137][227]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 13.24% of total time (compiled    1 times, average 0.10 sec, max 0.10 sec, min 0.10 sec)
+[2024.11.25-10.57.45:137][227]LogShaderCompilers: Display: ================================================
+[2024.11.25-10.58.48:027][250]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 637.134155
+[2024.11.25-10.58.48:252][260]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2024.11.25-10.58.48:252][260]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 637.336853, Update Interval: 349.549866
+[2024.11.25-10.58.52:766][461]LogScript: Warning: Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue
+	BTTask_LeaveArcade_C /Game/Levels/UEDPIE_0_TutorialScene.TutorialScene:PersistentLevel.AI_Controller_C_0.BTComponent.BTTask_LeaveArcade_C_0
+	Function /Game/Blueprints/AI/Tasks/BTTask_LeaveArcade.BTTask_LeaveArcade_C:ExecuteUbergraph_BTTask_LeaveArcade:0047
+[2024.11.25-10.58.52:768][461]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.58.52:768][461]LogScript: Warning: Accessed None
+	BTTask_LeaveArcade_C /Game/Levels/UEDPIE_0_TutorialScene.TutorialScene:PersistentLevel.AI_Controller_C_0.BTComponent.BTTask_LeaveArcade_C_0
+	Function /Game/Blueprints/AI/Tasks/BTTask_LeaveArcade.BTTask_LeaveArcade_C:ExecuteUbergraph_BTTask_LeaveArcade:005C
+[2024.11.25-10.58.52:768][461]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.58.52:880][466]LogScript: Warning: Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue
+	BTTask_LeaveArcade_C /Game/Levels/UEDPIE_0_TutorialScene.TutorialScene:PersistentLevel.AI_Controller_C_0.BTComponent.BTTask_LeaveArcade_C_0
+	Function /Game/Blueprints/AI/Tasks/BTTask_LeaveArcade.BTTask_LeaveArcade_C:ExecuteUbergraph_BTTask_LeaveArcade:0047
+[2024.11.25-10.58.52:881][466]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.58.52:881][466]LogScript: Warning: Accessed None
+	BTTask_LeaveArcade_C /Game/Levels/UEDPIE_0_TutorialScene.TutorialScene:PersistentLevel.AI_Controller_C_0.BTComponent.BTTask_LeaveArcade_C_0
+	Function /Game/Blueprints/AI/Tasks/BTTask_LeaveArcade.BTTask_LeaveArcade_C:ExecuteUbergraph_BTTask_LeaveArcade:005C
+[2024.11.25-10.58.52:881][466]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.58.52:994][471]LogScript: Warning: Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue
+	BTTask_LeaveArcade_C /Game/Levels/UEDPIE_0_TutorialScene.TutorialScene:PersistentLevel.AI_Controller_C_0.BTComponent.BTTask_LeaveArcade_C_0
+	Function /Game/Blueprints/AI/Tasks/BTTask_LeaveArcade.BTTask_LeaveArcade_C:ExecuteUbergraph_BTTask_LeaveArcade:0047
+[2024.11.25-10.58.52:994][471]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.58.52:994][471]LogScript: Warning: Accessed None
+	BTTask_LeaveArcade_C /Game/Levels/UEDPIE_0_TutorialScene.TutorialScene:PersistentLevel.AI_Controller_C_0.BTComponent.BTTask_LeaveArcade_C_0
+	Function /Game/Blueprints/AI/Tasks/BTTask_LeaveArcade.BTTask_LeaveArcade_C:ExecuteUbergraph_BTTask_LeaveArcade:005C
+[2024.11.25-10.58.52:994][471]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.58.53:107][476]LogScript: Warning: Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue
+	BTTask_LeaveArcade_C /Game/Levels/UEDPIE_0_TutorialScene.TutorialScene:PersistentLevel.AI_Controller_C_0.BTComponent.BTTask_LeaveArcade_C_0
+	Function /Game/Blueprints/AI/Tasks/BTTask_LeaveArcade.BTTask_LeaveArcade_C:ExecuteUbergraph_BTTask_LeaveArcade:0047
+[2024.11.25-10.58.53:107][476]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.58.53:107][476]LogScript: Warning: Accessed None
+	BTTask_LeaveArcade_C /Game/Levels/UEDPIE_0_TutorialScene.TutorialScene:PersistentLevel.AI_Controller_C_0.BTComponent.BTTask_LeaveArcade_C_0
+	Function /Game/Blueprints/AI/Tasks/BTTask_LeaveArcade.BTTask_LeaveArcade_C:ExecuteUbergraph_BTTask_LeaveArcade:005C
+[2024.11.25-10.58.53:107][476]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.58.53:221][481]LogScript: Warning: Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue
+	BTTask_LeaveArcade_C /Game/Levels/UEDPIE_0_TutorialScene.TutorialScene:PersistentLevel.AI_Controller_C_0.BTComponent.BTTask_LeaveArcade_C_0
+	Function /Game/Blueprints/AI/Tasks/BTTask_LeaveArcade.BTTask_LeaveArcade_C:ExecuteUbergraph_BTTask_LeaveArcade:0047
+[2024.11.25-10.58.53:221][481]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.58.53:221][481]LogScript: Warning: Accessed None
+	BTTask_LeaveArcade_C /Game/Levels/UEDPIE_0_TutorialScene.TutorialScene:PersistentLevel.AI_Controller_C_0.BTComponent.BTTask_LeaveArcade_C_0
+	Function /Game/Blueprints/AI/Tasks/BTTask_LeaveArcade.BTTask_LeaveArcade_C:ExecuteUbergraph_BTTask_LeaveArcade:005C
+[2024.11.25-10.58.53:221][481]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.58.53:334][486]LogScript: Warning: Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue
+	BTTask_LeaveArcade_C /Game/Levels/UEDPIE_0_TutorialScene.TutorialScene:PersistentLevel.AI_Controller_C_0.BTComponent.BTTask_LeaveArcade_C_0
+	Function /Game/Blueprints/AI/Tasks/BTTask_LeaveArcade.BTTask_LeaveArcade_C:ExecuteUbergraph_BTTask_LeaveArcade:0047
+[2024.11.25-10.58.53:334][486]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.58.53:334][486]LogScript: Warning: Accessed None
+	BTTask_LeaveArcade_C /Game/Levels/UEDPIE_0_TutorialScene.TutorialScene:PersistentLevel.AI_Controller_C_0.BTComponent.BTTask_LeaveArcade_C_0
+	Function /Game/Blueprints/AI/Tasks/BTTask_LeaveArcade.BTTask_LeaveArcade_C:ExecuteUbergraph_BTTask_LeaveArcade:005C
+[2024.11.25-10.58.53:334][486]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.58.53:448][491]LogScript: Warning: Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue
+	BTTask_LeaveArcade_C /Game/Levels/UEDPIE_0_TutorialScene.TutorialScene:PersistentLevel.AI_Controller_C_0.BTComponent.BTTask_LeaveArcade_C_0
+	Function /Game/Blueprints/AI/Tasks/BTTask_LeaveArcade.BTTask_LeaveArcade_C:ExecuteUbergraph_BTTask_LeaveArcade:0047
+[2024.11.25-10.58.53:448][491]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.58.53:448][491]LogScript: Warning: Accessed None
+	BTTask_LeaveArcade_C /Game/Levels/UEDPIE_0_TutorialScene.TutorialScene:PersistentLevel.AI_Controller_C_0.BTComponent.BTTask_LeaveArcade_C_0
+	Function /Game/Blueprints/AI/Tasks/BTTask_LeaveArcade.BTTask_LeaveArcade_C:ExecuteUbergraph_BTTask_LeaveArcade:005C
+[2024.11.25-10.58.53:448][491]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.58.53:560][496]LogScript: Warning: Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue
+	BTTask_LeaveArcade_C /Game/Levels/UEDPIE_0_TutorialScene.TutorialScene:PersistentLevel.AI_Controller_C_0.BTComponent.BTTask_LeaveArcade_C_0
+	Function /Game/Blueprints/AI/Tasks/BTTask_LeaveArcade.BTTask_LeaveArcade_C:ExecuteUbergraph_BTTask_LeaveArcade:0047
+[2024.11.25-10.58.53:560][496]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.58.53:560][496]LogScript: Warning: Accessed None
+	BTTask_LeaveArcade_C /Game/Levels/UEDPIE_0_TutorialScene.TutorialScene:PersistentLevel.AI_Controller_C_0.BTComponent.BTTask_LeaveArcade_C_0
+	Function /Game/Blueprints/AI/Tasks/BTTask_LeaveArcade.BTTask_LeaveArcade_C:ExecuteUbergraph_BTTask_LeaveArcade:005C
+[2024.11.25-10.58.53:560][496]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.58.53:670][501]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.58.53:670][501]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.58.53:779][506]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.58.53:779][506]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.58.53:890][511]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.58.53:890][511]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.58.54:001][516]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.58.54:001][516]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.58.54:110][521]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.58.54:111][521]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.58.54:220][526]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.58.54:220][526]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.58.54:330][531]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.58.54:330][531]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.58.54:440][536]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.58.54:440][536]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.58.54:550][541]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.58.54:550][541]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.58.54:659][546]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.58.54:659][546]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.58.54:767][551]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.58.54:767][551]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.58.54:875][556]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.58.54:875][556]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.58.54:982][561]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.58.54:982][561]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.58.55:092][566]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.58.55:092][566]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.58.55:201][571]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.58.55:202][571]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.58.55:306][576]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.58.55:306][576]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.58.55:413][581]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.58.55:413][581]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.58.55:519][586]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.58.55:519][586]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.58.55:625][591]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.58.55:625][591]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.58.55:735][596]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.58.55:735][596]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.58.55:845][601]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.58.55:845][601]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.58.55:961][606]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.58.55:961][606]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.58.56:073][611]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.58.56:073][611]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.58.56:184][616]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.58.56:184][616]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.58.56:298][621]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.58.56:298][621]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.58.56:411][626]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.58.56:411][626]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.58.56:524][631]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.58.56:524][631]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.58.56:637][636]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.58.56:637][636]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.58.56:749][641]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.58.56:749][641]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.58.56:861][646]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.58.56:861][646]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.58.56:974][651]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.58.56:974][651]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.58.57:089][656]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.58.57:089][656]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.58.57:204][661]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.58.57:204][661]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.58.57:319][666]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.58.57:319][666]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.58.57:433][671]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.58.57:433][671]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.58.57:547][676]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.58.57:547][676]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.58.57:659][681]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.58.57:659][681]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.58.57:772][686]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.58.57:772][686]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.58.57:880][691]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.58.57:881][691]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.58.57:990][696]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.58.57:990][696]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.58.58:099][701]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.58.58:099][701]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.58.58:209][706]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.58.58:209][706]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.58.58:318][711]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.58.58:318][711]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.58.58:432][716]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.58.58:432][716]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.58.58:556][721]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.58.58:556][721]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.58.58:668][726]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.58.58:668][726]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.58.58:768][730]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.58.58:769][730]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.58.58:881][735]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.58.58:881][735]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.58.58:996][740]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.58.58:996][740]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.58.59:114][745]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.58.59:114][745]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.58.59:233][750]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.58.59:233][750]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.58.59:353][755]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.58.59:353][755]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.58.59:470][760]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.58.59:470][760]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.58.59:589][765]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.58.59:589][765]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.58.59:703][770]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.58.59:703][770]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.58.59:814][775]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.58.59:814][775]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.58.59:929][780]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.58.59:929][780]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.00:047][785]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.00:047][785]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.00:158][790]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.00:158][790]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.00:269][795]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.00:269][795]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.00:379][800]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.00:379][800]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.00:492][805]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.00:492][805]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.00:607][810]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.00:607][810]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.00:727][815]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.00:727][815]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.00:845][820]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.00:846][820]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.00:961][825]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.00:961][825]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.01:079][830]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.01:079][830]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.01:194][835]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.01:194][835]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.01:310][840]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.01:310][840]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.01:422][845]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.01:422][845]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.01:540][850]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.01:540][850]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.01:653][855]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.01:653][855]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.01:767][860]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.01:767][860]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.01:881][865]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.01:881][865]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.01:994][870]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.01:994][870]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.02:099][875]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.02:100][875]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.02:201][881]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.02:201][881]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.02:307][888]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.02:307][888]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.02:406][895]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.02:406][895]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.02:507][902]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.02:507][902]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.02:620][910]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.02:620][910]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.02:730][918]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.02:731][918]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.02:843][926]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.02:843][926]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.02:952][934]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.02:952][934]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.03:060][942]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.03:060][942]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.03:165][950]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.03:165][950]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.03:267][958]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.03:267][958]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.03:369][966]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.03:369][966]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.03:470][974]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.03:470][974]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.03:572][982]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.03:572][982]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.03:681][990]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.03:681][990]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.03:793][998]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.03:793][998]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.03:902][  6]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.03:902][  6]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.04:012][ 14]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.04:012][ 14]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.04:120][ 22]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.04:120][ 22]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.04:222][ 29]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.04:222][ 29]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.04:337][ 36]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.04:337][ 36]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.04:438][ 42]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.04:438][ 42]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.04:539][ 48]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.04:539][ 48]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.04:641][ 54]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.04:641][ 54]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.04:750][ 61]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.04:750][ 61]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.04:860][ 68]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.04:860][ 68]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.04:969][ 75]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.04:969][ 75]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.05:074][ 82]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.05:074][ 82]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.05:178][ 89]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.05:178][ 89]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.05:283][ 96]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.05:283][ 96]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.05:390][103]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.05:390][103]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.05:494][110]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.05:494][110]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.05:598][117]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.05:598][117]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.05:702][124]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.05:703][124]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.05:808][131]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.05:808][131]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.05:916][138]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.05:916][138]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.06:025][145]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.06:026][145]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.06:123][152]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.06:123][152]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.06:232][160]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.06:232][160]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.06:338][168]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.06:338][168]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.06:447][176]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.06:447][176]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.06:557][184]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.06:557][184]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.06:665][192]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.06:665][192]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.06:773][200]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.06:773][200]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.06:883][208]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.06:883][208]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.06:991][216]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.06:991][216]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.07:094][224]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.07:094][224]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.07:197][232]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.07:197][232]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.07:299][240]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.07:299][240]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.07:406][248]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.07:406][248]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.07:513][256]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.07:513][256]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.07:618][264]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.07:618][264]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.07:720][272]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.07:720][272]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.07:820][280]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.07:821][280]PIE: Error: Blueprint Runtime Error: "Accessed None". Node:  AI MoveTo Graph:  EventGraph Function:  Execute Ubergraph BTTask Leave Arcade Blueprint:  BTTask_LeaveArcade
+[2024.11.25-10.59.07:876][282]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.25-10.59.07:876][282]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TutorialScene
+[2024.11.25-10.59.07:879][282]LogWorld: UWorld::CleanupWorld for TutorialScene, bSessionEnded=true, bCleanupResources=true
+[2024.11.25-10.59.07:881][282]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.25-10.59.07:888][282]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.25-10.59.07:890][282]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.25-10.59.07:898][282]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.25-10.59.07:899][282]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 3
+[2024.11.25-10.59.07:899][282]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2024.11.25-10.59.07:901][282]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2024.11.25-10.59.07:910][282]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2024.11.25-10.59.08:062][283]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2024.11.25-10.59.13:822][784]LogSlate: Window 'Message Log' being destroyed
+[2024.11.25-10.59.13:837][784]LogSlate: Window 'Message Log' being destroyed
+[2024.11.25-10.59.15:648][959]LogViewport: Scene viewport resized to 1659x874, mode Windowed.
+[2024.11.25-10.59.15:663][960]LogViewport: Scene viewport resized to 1369x711, mode Windowed.
+[2024.11.25-10.59.15:677][961]LogViewport: Scene viewport resized to 1276x658, mode Windowed.
+[2024.11.25-10.59.15:692][962]LogViewport: Scene viewport resized to 1196x613, mode Windowed.
+[2024.11.25-10.59.15:708][963]LogViewport: Scene viewport resized to 1132x578, mode Windowed.
+[2024.11.25-10.59.15:722][964]LogViewport: Scene viewport resized to 1089x553, mode Windowed.
+[2024.11.25-10.59.15:737][965]LogViewport: Scene viewport resized to 1058x535, mode Windowed.
+[2024.11.25-10.59.15:750][966]LogViewport: Scene viewport resized to 1040x525, mode Windowed.
+[2024.11.25-10.59.15:763][967]LogViewport: Scene viewport resized to 1028x519, mode Windowed.
+[2024.11.25-10.59.15:776][968]LogViewport: Scene viewport resized to 1022x514, mode Windowed.
+[2024.11.25-10.59.15:789][969]LogViewport: Scene viewport resized to 1018x513, mode Windowed.
+[2024.11.25-10.59.15:803][970]LogViewport: Scene viewport resized to 1017x513, mode Windowed.
+[2024.11.25-10.59.15:824][972]LogViewport: Scene viewport resized to 1016x512, mode Windowed.
+[2024.11.25-10.59.16:991][106]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2024.11.25-10.59.22:056][575]Cmd: MAP LOAD FILE="../../../../../../Users/alves/Documents/GitKraken Projects/ArcadeSimulator/Arcade/Content/Levels/Ilumination.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2024.11.25-10.59.22:056][575]LightingResults: New page: Lighting Build
+[2024.11.25-10.59.22:056][575]LoadErrors: New page: Loading map: Ilumination.umap
+[2024.11.25-10.59.22:148][575]LogWorld: UWorld::CleanupWorld for TutorialScene, bSessionEnded=true, bCleanupResources=true
+[2024.11.25-10.59.22:148][575]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.25-10.59.22:149][575]MapCheck: New page: Map Check
+[2024.11.25-10.59.22:149][575]LightingResults: New page: Lighting Build
+[2024.11.25-10.59.22:153][575]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.11.25-10.59.22:165][575]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2024.11.25-10.59.22:195][575]LogAudio: Display: Audio Device (ID: 1) registered with world 'Ilumination'.
+[2024.11.25-10.59.22:195][575]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-10.59.22:196][575]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.25-10.59.22:196][575]LogAIModule: Creating AISystem for world Ilumination
+[2024.11.25-10.59.22:271][575]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.11.25-10.59.22:281][575]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2024.11.25-10.59.22:292][575]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.11.25-10.59.22:292][575]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,106ms to complete.
