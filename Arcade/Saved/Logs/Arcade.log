@@ -11658,3 +11658,914 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.11.25-16.54.36:801][774]LogFileHelpers: InternalPromptForCheckoutAndSave took 204 ms (total: 58.3 sec)
 [2024.11.25-16.54.36:803][774]AssetCheck: New page: Asset Save: Ilumination
 [2024.11.25-16.54.36:803][774]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Ilumination.Ilumination
+[2024.11.25-16.55.58:418][ 65]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.25-16.55.58:626][ 65]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2024.11.25-16.55.58:678][ 65]LogSavePackage: Moving output files for package: /Game/Levels/Ilumination
+[2024.11.25-16.55.58:678][ 65]LogSavePackage: Moving '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Saved/Ilumination433D57A2432D67AC7B2A39863B688218.tmp' to '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Content/Levels/Ilumination.umap'
+[2024.11.25-16.55.58:691][ 65]LogFileHelpers: Saving map 'Ilumination' took 0.125
+[2024.11.25-16.55.58:708][ 65]LogFileHelpers: InternalPromptForCheckoutAndSave took 289 ms (total: 58.6 sec)
+[2024.11.25-16.55.58:711][ 65]AssetCheck: New page: Asset Save: Ilumination
+[2024.11.25-16.55.58:711][ 65]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Ilumination.Ilumination
+[2024.11.25-16.55.59:626][ 91]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.25-16.55.59:638][ 91]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.25-16.55.59:638][ 91]PIE: New page: PIE session: Ilumination (25 de nov de 2024 10:55:59)
+[2024.11.25-16.55.59:638][ 91]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Ilumination
+[2024.11.25-16.55.59:651][ 91]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012755s)
+[2024.11.25-16.55.59:651][ 91]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Ilumination.Ilumination to /Game/Levels/UEDPIE_0_Ilumination.Ilumination (0.012790s)
+[2024.11.25-16.55.59:666][ 91]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2024.11.25-16.55.59:668][ 91]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-16.55.59:668][ 91]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.25-16.55.59:668][ 91]LogAIModule: Creating AISystem for world Ilumination
+[2024.11.25-16.55.59:669][ 91]LogPlayLevel: PIE: World Init took: (0.001268s)
+[2024.11.25-16.55.59:669][ 91]LogAudio: Display: Creating Audio Device:                 Id: 105, Scope: Unique, Realtime: True
+[2024.11.25-16.55.59:669][ 91]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.25-16.55.59:669][ 91]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.25-16.55.59:669][ 91]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.25-16.55.59:669][ 91]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.25-16.55.59:669][ 91]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.25-16.55.59:669][ 91]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.25-16.55.59:669][ 91]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.25-16.55.59:669][ 91]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.25-16.55.59:669][ 91]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.25-16.55.59:669][ 91]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.25-16.55.59:669][ 91]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.25-16.55.59:671][ 91]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.25-16.55.59:680][ 91]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (Realtek(R) Audio)
+[2024.11.25-16.55.59:680][ 91]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.25-16.55.59:680][ 91]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.25-16.55.59:680][ 91]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.25-16.55.59:682][ 91]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=105
+[2024.11.25-16.55.59:682][ 91]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=105
+[2024.11.25-16.55.59:684][ 91]LogInit: FAudioDevice initialized with ID 105.
+[2024.11.25-16.55.59:684][ 91]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=105
+[2024.11.25-16.55.59:684][ 91]LogAudio: Display: Audio Device (ID: 105) registered with world 'Ilumination'.
+[2024.11.25-16.55.59:684][ 91]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=105
+[2024.11.25-16.55.59:684][ 91]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 105
+[2024.11.25-16.55.59:686][ 91]LogLoad: Game class is 'MyGameGamemode_C'
+[2024.11.25-16.55.59:694][ 91]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Ilumination.Ilumination up for play (max tick rate 0) at 2024.11.25-13.55.59
+[2024.11.25-16.55.59:695][ 91]LogWorld: Bringing up level for play took: 0.007981
+[2024.11.25-16.55.59:698][ 91]LogOnline: OSS: Created online subsystem instance for: :Context_119
+[2024.11.25-16.55.59:698][ 91]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.25-16.55.59:698][ 91]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.25-16.55.59:698][ 91]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.11.25-16.55.59:711][ 91]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.11.25-16.55.59:711][ 91]PIE: Server logged in
+[2024.11.25-16.55.59:712][ 91]PIE: Play in editor total start time 0,074 seconds.
+[2024.11.25-16.56.15:223][513]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.25-16.56.15:223][513]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Ilumination
+[2024.11.25-16.56.15:225][513]LogWorld: UWorld::CleanupWorld for Ilumination, bSessionEnded=true, bCleanupResources=true
+[2024.11.25-16.56.15:226][513]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.25-16.56.15:259][513]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.25-16.56.15:263][513]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.25-16.56.15:277][513]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.11.25-16.56.15:278][513]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 105
+[2024.11.25-16.56.15:278][513]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=105
+[2024.11.25-16.56.15:280][513]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=105
+[2024.11.25-16.56.15:283][513]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.25-16.56.15:289][513]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2024.11.25-16.56.15:384][514]LogPlayLevel: Display: Destroying online subsystem :Context_119
+[2024.11.25-16.56.16:220][534]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.25-16.56.16:419][534]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2024.11.25-16.56.16:461][534]LogSavePackage: Moving output files for package: /Game/Levels/Ilumination
+[2024.11.25-16.56.16:462][534]LogSavePackage: Moving '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Saved/IluminationAE3F0A6140F53C277DD0A39ABB9411EB.tmp' to '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Content/Levels/Ilumination.umap'
+[2024.11.25-16.56.16:473][534]LogFileHelpers: Saving map 'Ilumination' took 0.110
+[2024.11.25-16.56.16:486][534]LogFileHelpers: InternalPromptForCheckoutAndSave took 266 ms (total: 58.8 sec)
+[2024.11.25-16.56.16:488][534]AssetCheck: New page: Asset Save: Ilumination
+[2024.11.25-16.56.16:488][534]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Ilumination.Ilumination
+[2024.11.25-16.56.42:657][ 12]LogInterchangeEngine: [Pending] Importing
+[2024.11.25-16.56.42:657][ 12]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/ra00333610/Downloads/Rectangle 2 (8).png]
+[2024.11.25-16.56.42:686][ 13]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background, due to setting PNGInfill == OnlyOnBinaryTransparency
+[2024.11.25-16.56.42:688][ 13]LogInterchangeEngine: [Pending] Importing
+[2024.11.25-16.56.43:030][ 13]LogTexture: Display: Building textures: /Game/UI_Assets/PointedLine/Rectangle_2__8_.Rectangle_2__8_ (TFO_AutoDXT, 900x900 x1x1x1) (Required Memory Estimate: 130.706421 MB), EncodeSpeed: Fast
+[2024.11.25-16.56.43:074][ 14]LogInterchangeEngine: [Success] Import Done
+[2024.11.25-16.56.43:094][ 14]LogInterchangeEngine: [Success] Import Done
+[2024.11.25-16.56.48:424][100]LogContentBrowser: Deferred new asset file creation: NewMaterial
+[2024.11.25-16.56.48:430][100]LogContentBrowser: Creating deferred item: NewMaterial
+[2024.11.25-16.56.48:438][101]LogContentBrowser: Renaming the item being created (Deferred Item: NewMaterial).
+[2024.11.25-16.56.58:817][383]LogContentBrowser: Attempting asset rename: NewMaterial -> P_Line3_3
+[2024.11.25-16.56.58:819][383]LogContentBrowser: End creating deferred item NewMaterial
+[2024.11.25-16.57.00:455][423]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/UI_Assets/PointedLine/P_Line3_3.P_Line3_3
+[2024.11.25-16.57.00:460][423]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-16.57.00:461][423]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.25-16.57.00:652][423]MaterialEditorStats: Texture samplers: 0/16
+[2024.11.25-16.57.00:652][423]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.11.25-16.57.00:652][423]MaterialEditorStats: Shader Count: 0
+[2024.11.25-16.57.00:658][423]LogViewport: Scene viewport resized to 325x383, mode Windowed.
+[2024.11.25-16.57.00:687][424]LogShaderCompilers: Display: ================================================
+[2024.11.25-16.57.00:687][424]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.11.25-16.57.00:687][424]LogShaderCompilers: Display: Total job queries 520, among them cache hits 325 (62.50%)
+[2024.11.25-16.57.00:687][424]LogShaderCompilers: Display: Tracking 195 distinct input hashes that result in 99 distinct outputs (50.77%)
+[2024.11.25-16.57.00:687][424]LogShaderCompilers: Display: RAM used: 4,41 MiB of 819,20 MiB budget. Usage: 0.54%
+[2024.11.25-16.57.00:687][424]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.11.25-16.57.00:687][424]LogShaderCompilers: Display: Shaders Compiled: 76
+[2024.11.25-16.57.00:687][424]LogShaderCompilers: Display: Jobs assigned 76, completed 76 (100%)
+[2024.11.25-16.57.00:687][424]LogShaderCompilers: Display: Average time worker was idle: 19.00 s
+[2024.11.25-16.57.00:687][424]LogShaderCompilers: Display: Time job spent in pending queue: average 0.04 s, longest 0.11 s
+[2024.11.25-16.57.00:687][424]LogShaderCompilers: Display: Job execution time: average 0.58 s, max 1.04 s
+[2024.11.25-16.57.00:687][424]LogShaderCompilers: Display: Job life time (pending + execution): average 0.62 s, max 1.07
+[2024.11.25-16.57.00:687][424]LogShaderCompilers: Display: Shader code size: average 42,265 KiB, min 32,969 KiB, max 62,73 KiB
+[2024.11.25-16.57.00:687][424]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 8.38 s
+[2024.11.25-16.57.00:687][424]LogShaderCompilers: Display: Jobs were issued in 76 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.11.25-16.57.00:687][424]LogShaderCompilers: Display: Average processing rate: 9.07 jobs/sec
+[2024.11.25-16.57.00:687][424]LogShaderCompilers: Display: Total thread time: 33,389 s
+[2024.11.25-16.57.00:687][424]LogShaderCompilers: Display: Total thread preprocess time: 3,524 s
+[2024.11.25-16.57.00:687][424]LogShaderCompilers: Display: Percentage time preprocessing: 10.55%
+[2024.11.25-16.57.00:687][424]LogShaderCompilers: Display: Effective parallelization: 3.98 (times faster than compiling all shaders on one thread). Compare with number of workers: 10
+[2024.11.25-16.57.00:687][424]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.11.25-16.57.00:687][424]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled    4 times, average 0.71 sec, max 0.76 sec, min 0.66 sec)
+[2024.11.25-16.57.00:687][424]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight (compiled    4 times, average 0.68 sec, max 0.78 sec, min 0.53 sec)
+[2024.11.25-16.57.00:687][424]LogShaderCompilers: Display:                TBasePassPSFCachedPointIndirectLightingPolicy (compiled    4 times, average 0.68 sec, max 0.75 sec, min 0.57 sec)
+[2024.11.25-16.57.00:687][424]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight (compiled    4 times, average 0.66 sec, max 0.76 sec, min 0.53 sec)
+[2024.11.25-16.57.00:687][424]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy (compiled    4 times, average 0.65 sec, max 0.73 sec, min 0.53 sec)
+[2024.11.25-16.57.00:687][424]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.11.25-16.57.00:687][424]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight - 8.54% of total time (compiled    4 times, average 0.71 sec, max 0.76 sec, min 0.66 sec)
+[2024.11.25-16.57.00:687][424]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight - 8.13% of total time (compiled    4 times, average 0.68 sec, max 0.78 sec, min 0.53 sec)
+[2024.11.25-16.57.00:687][424]LogShaderCompilers: Display:                TBasePassPSFCachedPointIndirectLightingPolicy - 8.11% of total time (compiled    4 times, average 0.68 sec, max 0.75 sec, min 0.57 sec)
+[2024.11.25-16.57.00:687][424]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight - 7.89% of total time (compiled    4 times, average 0.66 sec, max 0.76 sec, min 0.53 sec)
+[2024.11.25-16.57.00:687][424]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy - 7.81% of total time (compiled    4 times, average 0.65 sec, max 0.73 sec, min 0.53 sec)
+[2024.11.25-16.57.00:687][424]LogShaderCompilers: Display: ================================================
+[2024.11.25-16.57.00:716][425]MaterialEditorStats: Base pass shader: 187 instructions
+[2024.11.25-16.57.00:716][425]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.11.25-16.57.00:716][425]MaterialEditorStats: Texture samplers: 2/16
+[2024.11.25-16.57.00:716][425]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.11.25-16.57.00:716][425]MaterialEditorStats: Shader Count: 2
+[2024.11.25-16.57.07:594][574]MaterialEditorStats: Texture samplers: 0/16
+[2024.11.25-16.57.07:594][574]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.11.25-16.57.07:594][574]MaterialEditorStats: Shader Count: 0
+[2024.11.25-16.57.07:637][576]MaterialEditorStats: Base pass shader: 187 instructions
+[2024.11.25-16.57.07:637][576]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.11.25-16.57.07:637][576]MaterialEditorStats: Texture samplers: 2/16
+[2024.11.25-16.57.07:637][576]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.11.25-16.57.07:637][576]MaterialEditorStats: Shader Count: 4
+[2024.11.25-16.57.11:334][657]MaterialEditorStats: Texture samplers: 0/16
+[2024.11.25-16.57.11:334][657]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2024.11.25-16.57.11:334][657]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.11.25-16.57.11:334][657]MaterialEditorStats: Shader Count: 0
+[2024.11.25-16.57.11:430][659]MaterialEditorStats: Base pass shader: 194 instructions
+[2024.11.25-16.57.11:430][659]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.11.25-16.57.11:430][659]MaterialEditorStats: Texture samplers: 3/16
+[2024.11.25-16.57.11:430][659]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2024.11.25-16.57.11:430][659]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.11.25-16.57.11:430][659]MaterialEditorStats: Shader Count: 4
+[2024.11.25-16.57.12:927][692]LogMaterialEditor: Applying material P_Line3_3
+[2024.11.25-16.57.13:087][692]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2024.11.25-16.57.13:780][692]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2024.11.25-16.57.13:789][692]MaterialEditorStats: Texture samplers: 1/16
+[2024.11.25-16.57.13:789][692]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2024.11.25-16.57.13:789][692]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.11.25-16.57.13:789][692]MaterialEditorStats: Shader Count: 2
+[2024.11.25-16.57.13:799][693]MaterialEditorStats: Base pass shader: 194 instructions
+[2024.11.25-16.57.13:799][693]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.11.25-16.57.13:799][693]MaterialEditorStats: Texture samplers: 3/16
+[2024.11.25-16.57.13:799][693]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2024.11.25-16.57.13:799][693]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.11.25-16.57.13:799][693]MaterialEditorStats: Shader Count: 4
+[2024.11.25-16.57.14:565][711]LogMaterialEditor: Saving and Compiling material P_Line3_3
+[2024.11.25-16.57.14:567][711]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.25-16.57.15:866][711]LogSavePackage: Moving output files for package: /Game/UI_Assets/PointedLine/P_Line3_3
+[2024.11.25-16.57.15:866][711]LogSavePackage: Moving '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Saved/P_Line3_3DE9C2348471D30DC7A25448A1C2C61E5.tmp' to '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Content/UI_Assets/PointedLine/P_Line3_3.uasset'
+[2024.11.25-16.57.15:873][711]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.30 sec (total: 1:00 min)
+[2024.11.25-16.57.15:874][711]AssetCheck: New page: Asset Save: P_Line3_3
+[2024.11.25-16.57.15:874][711]LogContentValidation: Display: Validating /Script/Engine.Material /Game/UI_Assets/PointedLine/P_Line3_3.P_Line3_3
+[2024.11.25-16.57.15:874][711]MaterialEditorStats: Base pass shader: 194 instructions
+[2024.11.25-16.57.15:874][711]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.11.25-16.57.15:874][711]MaterialEditorStats: MaxSampler: 244 instructions
+[2024.11.25-16.57.15:874][711]MaterialEditorStats: Texture samplers: 4/16
+[2024.11.25-16.57.15:874][711]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2024.11.25-16.57.15:874][711]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.11.25-16.57.15:874][711]MaterialEditorStats: Shader Count: 16
+[2024.11.25-17.00.08:947][584]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/UI_Assets/PointedLine/PLine1_1.PLine1_1
+[2024.11.25-17.00.08:958][584]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-17.00.08:959][584]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.25-17.00.09:160][584]MaterialEditorStats: Texture samplers: 0/16
+[2024.11.25-17.00.09:160][584]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2024.11.25-17.00.09:160][584]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.11.25-17.00.09:160][584]MaterialEditorStats: Shader Count: 0
+[2024.11.25-17.00.09:166][584]LogViewport: Scene viewport resized to 325x383, mode Windowed.
+[2024.11.25-17.00.09:188][585]LogShaderCompilers: Display: ================================================
+[2024.11.25-17.00.09:188][585]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.11.25-17.00.09:188][585]LogShaderCompilers: Display: Total job queries 572, among them cache hits 363 (63.46%)
+[2024.11.25-17.00.09:188][585]LogShaderCompilers: Display: Tracking 209 distinct input hashes that result in 108 distinct outputs (51.67%)
+[2024.11.25-17.00.09:188][585]LogShaderCompilers: Display: RAM used: 4,75 MiB of 819,20 MiB budget. Usage: 0.58%
+[2024.11.25-17.00.09:188][585]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.11.25-17.00.09:188][585]LogShaderCompilers: Display: Shaders Compiled: 88
+[2024.11.25-17.00.09:188][585]LogShaderCompilers: Display: Jobs assigned 88, completed 88 (100%)
+[2024.11.25-17.00.09:188][585]LogShaderCompilers: Display: Average time worker was idle: 1185.52 s
+[2024.11.25-17.00.09:188][585]LogShaderCompilers: Display: Time job spent in pending queue: average 0.05 s, longest 0.11 s
+[2024.11.25-17.00.09:188][585]LogShaderCompilers: Display: Job execution time: average 0.62 s, max 1.06 s
+[2024.11.25-17.00.09:188][585]LogShaderCompilers: Display: Job life time (pending + execution): average 0.67 s, max 1.16
+[2024.11.25-17.00.09:188][585]LogShaderCompilers: Display: Shader code size: average 42,683 KiB, min 32,969 KiB, max 62,73 KiB
+[2024.11.25-17.00.09:188][585]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 10.05 s
+[2024.11.25-17.00.09:188][585]LogShaderCompilers: Display: Jobs were issued in 88 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.11.25-17.00.09:188][585]LogShaderCompilers: Display: Average processing rate: 8.75 jobs/sec
+[2024.11.25-17.00.09:188][585]LogShaderCompilers: Display: Total thread time: 40,227 s
+[2024.11.25-17.00.09:188][585]LogShaderCompilers: Display: Total thread preprocess time: 4,294 s
+[2024.11.25-17.00.09:188][585]LogShaderCompilers: Display: Percentage time preprocessing: 10.68%
+[2024.11.25-17.00.09:188][585]LogShaderCompilers: Display: Effective parallelization: 4.00 (times faster than compiling all shaders on one thread). Compare with number of workers: 10
+[2024.11.25-17.00.09:188][585]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.11.25-17.00.09:188][585]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled    5 times, average 0.71 sec, max 0.76 sec, min 0.66 sec)
+[2024.11.25-17.00.09:188][585]LogShaderCompilers: Display:                TBasePassPSFCachedPointIndirectLightingPolicy (compiled    5 times, average 0.68 sec, max 0.75 sec, min 0.57 sec)
+[2024.11.25-17.00.09:188][585]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight (compiled    5 times, average 0.67 sec, max 0.76 sec, min 0.53 sec)
+[2024.11.25-17.00.09:188][585]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy (compiled    5 times, average 0.67 sec, max 0.73 sec, min 0.53 sec)
+[2024.11.25-17.00.09:188][585]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight (compiled    5 times, average 0.66 sec, max 0.78 sec, min 0.53 sec)
+[2024.11.25-17.00.09:188][585]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.11.25-17.00.09:188][585]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight - 8.86% of total time (compiled    5 times, average 0.71 sec, max 0.76 sec, min 0.66 sec)
+[2024.11.25-17.00.09:188][585]LogShaderCompilers: Display:                TBasePassPSFCachedPointIndirectLightingPolicy - 8.39% of total time (compiled    5 times, average 0.68 sec, max 0.75 sec, min 0.57 sec)
+[2024.11.25-17.00.09:188][585]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight - 8.33% of total time (compiled    5 times, average 0.67 sec, max 0.76 sec, min 0.53 sec)
+[2024.11.25-17.00.09:188][585]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy - 8.27% of total time (compiled    5 times, average 0.67 sec, max 0.73 sec, min 0.53 sec)
+[2024.11.25-17.00.09:188][585]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight - 8.25% of total time (compiled    5 times, average 0.66 sec, max 0.78 sec, min 0.53 sec)
+[2024.11.25-17.00.09:188][585]LogShaderCompilers: Display: ================================================
+[2024.11.25-17.00.09:327][587]MaterialEditorStats: Base pass vertex shader: 287 instructions
+[2024.11.25-17.00.09:327][587]MaterialEditorStats: Texture samplers: 3/16
+[2024.11.25-17.00.09:327][587]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2024.11.25-17.00.09:327][587]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.11.25-17.00.09:327][587]MaterialEditorStats: Shader Count: 4
+[2024.11.25-17.00.18:985][828]MaterialEditorStats: Texture samplers: 0/16
+[2024.11.25-17.00.18:985][828]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2024.11.25-17.00.18:985][828]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.11.25-17.00.18:985][828]MaterialEditorStats: Shader Count: 0
+[2024.11.25-17.00.19:046][830]MaterialEditorStats: Base pass shader: 194 instructions
+[2024.11.25-17.00.19:046][830]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.11.25-17.00.19:046][830]MaterialEditorStats: Texture samplers: 3/16
+[2024.11.25-17.00.19:046][830]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2024.11.25-17.00.19:046][830]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.11.25-17.00.19:046][830]MaterialEditorStats: Shader Count: 4
+[2024.11.25-17.00.41:982][562]MaterialEditorStats: Texture samplers: 0/16
+[2024.11.25-17.00.41:982][562]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2024.11.25-17.00.41:982][562]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.11.25-17.00.41:982][562]MaterialEditorStats: Shader Count: 0
+[2024.11.25-17.00.42:655][584]MaterialEditorStats: Base pass vertex shader: 287 instructions
+[2024.11.25-17.00.42:655][584]MaterialEditorStats: Texture samplers: 3/16
+[2024.11.25-17.00.42:655][584]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2024.11.25-17.00.42:655][584]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.11.25-17.00.42:655][584]MaterialEditorStats: Shader Count: 2
+[2024.11.25-17.00.44:373][634]MaterialEditorStats: Texture samplers: 0/16
+[2024.11.25-17.00.44:373][634]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2024.11.25-17.00.44:373][634]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.11.25-17.00.44:373][634]MaterialEditorStats: Shader Count: 0
+[2024.11.25-17.00.44:861][650]MaterialEditorStats: Texture samplers: 3/16
+[2024.11.25-17.00.44:861][650]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2024.11.25-17.00.44:861][650]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.11.25-17.00.44:861][650]MaterialEditorStats: Shader Count: 1
+[2024.11.25-17.00.44:956][653]MaterialEditorStats: Base pass vertex shader: 287 instructions
+[2024.11.25-17.00.44:956][653]MaterialEditorStats: Texture samplers: 3/16
+[2024.11.25-17.00.44:956][653]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2024.11.25-17.00.44:956][653]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.11.25-17.00.44:956][653]MaterialEditorStats: Shader Count: 2
+[2024.11.25-17.00.45:468][668]LogMaterialEditor: Applying material P_Line3_3
+[2024.11.25-17.00.45:539][668]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2024.11.25-17.00.46:073][668]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2024.11.25-17.00.46:085][668]MaterialEditorStats: Texture samplers: 1/16
+[2024.11.25-17.00.46:085][668]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2024.11.25-17.00.46:085][668]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.11.25-17.00.46:085][668]MaterialEditorStats: Shader Count: 2
+[2024.11.25-17.00.46:093][669]MaterialEditorStats: Base pass vertex shader: 287 instructions
+[2024.11.25-17.00.46:093][669]MaterialEditorStats: Texture samplers: 3/16
+[2024.11.25-17.00.46:093][669]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2024.11.25-17.00.46:093][669]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.11.25-17.00.46:093][669]MaterialEditorStats: Shader Count: 4
+[2024.11.25-17.00.46:606][686]LogMaterialEditor: Saving and Compiling material P_Line3_3
+[2024.11.25-17.00.46:608][686]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.25-17.00.48:573][686]LogSavePackage: Moving output files for package: /Game/UI_Assets/PointedLine/P_Line3_3
+[2024.11.25-17.00.48:573][686]LogSavePackage: Moving '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Saved/P_Line3_338EAA5B2432396EB3F5BFD9F403407C0.tmp' to '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Content/UI_Assets/PointedLine/P_Line3_3.uasset'
+[2024.11.25-17.00.48:578][686]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.96 sec (total: 1:02 min)
+[2024.11.25-17.00.48:579][686]AssetCheck: New page: Asset Save: P_Line3_3
+[2024.11.25-17.00.48:579][686]LogContentValidation: Display: Validating /Script/Engine.Material /Game/UI_Assets/PointedLine/P_Line3_3.P_Line3_3
+[2024.11.25-17.00.48:579][686]MaterialEditorStats: Base pass shader: 201 instructions
+[2024.11.25-17.00.48:579][686]MaterialEditorStats: Base pass vertex shader: 287 instructions
+[2024.11.25-17.00.48:579][686]MaterialEditorStats: Texture samplers: 3/16
+[2024.11.25-17.00.48:579][686]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2024.11.25-17.00.48:579][686]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.11.25-17.00.48:579][686]MaterialEditorStats: Shader Count: 20
+[2024.11.25-17.01.25:290][509]BlueprintLog: New page: Compile BP_LocalForInstantiate
+[2024.11.25-17.01.25:368][509]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2024.11.25-17.01.25:391][509]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.25-17.01.25:432][509]LogSavePackage: Moving output files for package: /Game/Blueprints/ComputerBuy/BP_LocalForInstantiate
+[2024.11.25-17.01.25:433][509]LogSavePackage: Moving '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Saved/BP_LocalForInstantiate362D354D48357B0140E3F491FFFBFF64.tmp' to '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Content/Blueprints/ComputerBuy/BP_LocalForInstantiate.uasset'
+[2024.11.25-17.01.25:439][509]LogFileHelpers: InternalPromptForCheckoutAndSave took 47 ms (total: 1:02 min)
+[2024.11.25-17.01.25:455][509]AssetCheck: New page: Asset Save: BP_LocalForInstantiate
+[2024.11.25-17.01.25:455][509]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/ComputerBuy/BP_LocalForInstantiate.BP_LocalForInstantiate
+[2024.11.25-17.01.27:280][550]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.25-17.01.27:403][550]LogSavePackage: Moving output files for package: /Game/Blueprints/ComputerBuy/BP_LocalForInstantiate
+[2024.11.25-17.01.27:403][550]LogSavePackage: Moving '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Saved/BP_LocalForInstantiate7407FCC54894FF273BBCD6894BFD03B6.tmp' to '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Content/Blueprints/ComputerBuy/BP_LocalForInstantiate.uasset'
+[2024.11.25-17.01.27:409][550]LogFileHelpers: InternalPromptForCheckoutAndSave took 128 ms (total: 1:02 min)
+[2024.11.25-17.01.27:410][550]AssetCheck: New page: Asset Save: BP_LocalForInstantiate
+[2024.11.25-17.01.27:410][550]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/ComputerBuy/BP_LocalForInstantiate.BP_LocalForInstantiate
+[2024.11.25-17.01.30:278][618]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.25-17.01.30:290][618]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.25-17.01.30:290][618]PIE: New page: PIE session: Ilumination (25 de nov de 2024 11:01:30)
+[2024.11.25-17.01.30:325][618]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Ilumination
+[2024.11.25-17.01.30:337][618]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011930s)
+[2024.11.25-17.01.30:337][618]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Ilumination.Ilumination to /Game/Levels/UEDPIE_0_Ilumination.Ilumination (0.011983s)
+[2024.11.25-17.01.30:351][618]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2024.11.25-17.01.30:354][618]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-17.01.30:354][618]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.25-17.01.30:355][618]LogAIModule: Creating AISystem for world Ilumination
+[2024.11.25-17.01.30:355][618]LogPlayLevel: PIE: World Init took: (0.001859s)
+[2024.11.25-17.01.30:355][618]LogAudio: Display: Creating Audio Device:                 Id: 106, Scope: Unique, Realtime: True
+[2024.11.25-17.01.30:356][618]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.25-17.01.30:356][618]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.25-17.01.30:356][618]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.25-17.01.30:356][618]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.25-17.01.30:356][618]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.25-17.01.30:356][618]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.25-17.01.30:356][618]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.25-17.01.30:356][618]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.25-17.01.30:356][618]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.25-17.01.30:356][618]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.25-17.01.30:356][618]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.25-17.01.30:358][618]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.25-17.01.30:365][618]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (Realtek(R) Audio)
+[2024.11.25-17.01.30:365][618]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.25-17.01.30:365][618]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.25-17.01.30:365][618]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.25-17.01.30:366][618]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=106
+[2024.11.25-17.01.30:366][618]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=106
+[2024.11.25-17.01.30:367][618]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=106
+[2024.11.25-17.01.30:367][618]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=106
+[2024.11.25-17.01.30:367][618]LogInit: FAudioDevice initialized with ID 106.
+[2024.11.25-17.01.30:367][618]LogAudio: Display: Audio Device (ID: 106) registered with world 'Ilumination'.
+[2024.11.25-17.01.30:367][618]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 106
+[2024.11.25-17.01.30:370][618]LogLoad: Game class is 'MyGameGamemode_C'
+[2024.11.25-17.01.30:378][618]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Ilumination.Ilumination up for play (max tick rate 0) at 2024.11.25-14.01.30
+[2024.11.25-17.01.30:378][618]LogWorld: Bringing up level for play took: 0.007148
+[2024.11.25-17.01.30:380][618]LogOnline: OSS: Created online subsystem instance for: :Context_122
+[2024.11.25-17.01.30:381][618]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.25-17.01.30:381][618]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.25-17.01.30:381][618]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.11.25-17.01.30:390][618]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.11.25-17.01.30:390][618]PIE: Server logged in
+[2024.11.25-17.01.30:390][618]PIE: Play in editor total start time 0,1 seconds.
+[2024.11.25-17.01.42:506][956]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.25-17.01.42:506][956]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Ilumination
+[2024.11.25-17.01.42:508][956]LogWorld: UWorld::CleanupWorld for Ilumination, bSessionEnded=true, bCleanupResources=true
+[2024.11.25-17.01.42:509][956]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.25-17.01.42:542][956]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.25-17.01.42:547][956]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.25-17.01.42:560][956]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.11.25-17.01.42:560][956]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 106
+[2024.11.25-17.01.42:560][956]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=106
+[2024.11.25-17.01.42:562][956]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=106
+[2024.11.25-17.01.42:566][956]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.25-17.01.42:571][956]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2024.11.25-17.01.42:651][957]LogPlayLevel: Display: Destroying online subsystem :Context_122
+[2024.11.25-17.01.43:511][978]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.25-17.01.43:698][978]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2024.11.25-17.01.43:740][978]LogSavePackage: Moving output files for package: /Game/Levels/Ilumination
+[2024.11.25-17.01.43:740][978]LogSavePackage: Moving '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Saved/IluminationEE65479E4B7BD1B06EFD7BA20B028983.tmp' to '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Content/Levels/Ilumination.umap'
+[2024.11.25-17.01.43:751][978]LogFileHelpers: Saving map 'Ilumination' took 0.109
+[2024.11.25-17.01.43:757][978]LogFileHelpers: InternalPromptForCheckoutAndSave took 245 ms (total: 1:02 min)
+[2024.11.25-17.01.43:759][978]AssetCheck: New page: Asset Save: Ilumination
+[2024.11.25-17.01.43:759][978]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Ilumination.Ilumination
+[2024.11.25-17.02.12:087][775]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Meshs/Scenery/NeonFlipStructure/SM_WallSingleDoor_WallSingleDoor.SM_WallSingleDoor_WallSingleDoor
+[2024.11.25-17.02.12:113][775]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-17.02.12:114][775]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.25-17.02.12:504][775]LogViewport: Scene viewport resized to 1217x772, mode Windowed.
+[2024.11.25-17.02.47:304][374]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.25-17.02.47:468][374]LogSavePackage: Moving output files for package: /Game/Meshs/Scenery/NeonFlipStructure/SM_WallSingleDoor_WallSingleDoor
+[2024.11.25-17.02.47:469][374]LogSavePackage: Moving '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Saved/SM_WallSingleDoor_WallSingleDoor53130EF64488499267FB129E8A5455B6.tmp' to '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Content/Meshs/Scenery/NeonFlipStructure/SM_WallSingleDoor_WallSingleDoor.uasset'
+[2024.11.25-17.02.47:474][374]LogFileHelpers: InternalPromptForCheckoutAndSave took 170 ms (total: 1:02 min)
+[2024.11.25-17.02.47:475][374]AssetCheck: New page: Asset Save: SM_WallSingleDoor_WallSingleDoor
+[2024.11.25-17.02.47:475][374]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Meshs/Scenery/NeonFlipStructure/SM_WallSingleDoor_WallSingleDoor.SM_WallSingleDoor_WallSingleDoor
+[2024.11.25-17.02.49:855][417]LogSlate: Window 'SM_WallSingleDoor_WallSingleDoor' being destroyed
+[2024.11.25-17.02.49:874][417]LogSlate: Window 'SM_WallSingleDoor_WallSingleDoor' being destroyed
+[2024.11.25-17.02.49:913][417]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2024.11.25-17.02.49:913][417]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.25-17.02.49:943][417]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2024.11.25-17.02.49:943][417]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.25-17.02.50:011][417]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2024.11.25-17.02.50:011][417]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.25-17.02.50:052][417]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2024.11.25-17.02.50:052][417]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.25-17.02.50:108][417]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2024.11.25-17.02.50:108][417]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.25-17.02.51:465][459]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.25-17.02.51:478][459]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.25-17.02.51:478][459]PIE: New page: PIE session: Ilumination (25 de nov de 2024 11:02:51)
+[2024.11.25-17.02.51:478][459]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Ilumination
+[2024.11.25-17.02.51:492][459]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013463s)
+[2024.11.25-17.02.51:492][459]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Ilumination.Ilumination to /Game/Levels/UEDPIE_0_Ilumination.Ilumination (0.013500s)
+[2024.11.25-17.02.51:506][459]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2024.11.25-17.02.51:510][459]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-17.02.51:510][459]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.25-17.02.51:510][459]LogAIModule: Creating AISystem for world Ilumination
+[2024.11.25-17.02.51:511][459]LogPlayLevel: PIE: World Init took: (0.000823s)
+[2024.11.25-17.02.51:511][459]LogAudio: Display: Creating Audio Device:                 Id: 107, Scope: Unique, Realtime: True
+[2024.11.25-17.02.51:511][459]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.25-17.02.51:511][459]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.25-17.02.51:511][459]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.25-17.02.51:511][459]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.25-17.02.51:511][459]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.25-17.02.51:511][459]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.25-17.02.51:511][459]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.25-17.02.51:511][459]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.25-17.02.51:511][459]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.25-17.02.51:511][459]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.25-17.02.51:511][459]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.25-17.02.51:513][459]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.25-17.02.51:520][459]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (Realtek(R) Audio)
+[2024.11.25-17.02.51:520][459]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.25-17.02.51:520][459]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.25-17.02.51:520][459]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.25-17.02.51:521][459]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=107
+[2024.11.25-17.02.51:521][459]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=107
+[2024.11.25-17.02.51:522][459]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=107
+[2024.11.25-17.02.51:522][459]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=107
+[2024.11.25-17.02.51:522][459]LogInit: FAudioDevice initialized with ID 107.
+[2024.11.25-17.02.51:522][459]LogAudio: Display: Audio Device (ID: 107) registered with world 'Ilumination'.
+[2024.11.25-17.02.51:522][459]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 107
+[2024.11.25-17.02.51:528][459]LogLoad: Game class is 'MyGameGamemode_C'
+[2024.11.25-17.02.51:536][459]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Ilumination.Ilumination up for play (max tick rate 0) at 2024.11.25-14.02.51
+[2024.11.25-17.02.51:536][459]LogWorld: Bringing up level for play took: 0.007691
+[2024.11.25-17.02.51:539][459]LogOnline: OSS: Created online subsystem instance for: :Context_124
+[2024.11.25-17.02.51:539][459]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.25-17.02.51:539][459]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.25-17.02.51:539][459]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.11.25-17.02.51:548][459]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.11.25-17.02.51:548][459]PIE: Server logged in
+[2024.11.25-17.02.51:549][459]PIE: Play in editor total start time 0,071 seconds.
+[2024.11.25-17.03.03:179][770]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.11.25-17.03.03:179][770]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2024.11.25-17.03.03:179][770]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2024.11.25-17.03.18:795][200]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.11.25-17.03.18:795][200]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2024.11.25-17.04.09:880][642]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.25-17.04.09:881][642]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Ilumination
+[2024.11.25-17.04.09:882][642]LogWorld: UWorld::CleanupWorld for Ilumination, bSessionEnded=true, bCleanupResources=true
+[2024.11.25-17.04.09:883][642]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.25-17.04.09:927][642]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.25-17.04.09:931][642]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.25-17.04.09:945][642]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.11.25-17.04.09:945][642]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 107
+[2024.11.25-17.04.09:945][642]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=107
+[2024.11.25-17.04.09:947][642]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=107
+[2024.11.25-17.04.09:951][642]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.25-17.04.09:956][642]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2024.11.25-17.04.10:057][643]LogPlayLevel: Display: Destroying online subsystem :Context_124
+[2024.11.25-17.04.10:926][663]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.25-17.04.11:126][663]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2024.11.25-17.04.11:167][663]LogSavePackage: Moving output files for package: /Game/Levels/Ilumination
+[2024.11.25-17.04.11:168][663]LogSavePackage: Moving '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Saved/IluminationA7BA0EDE415A24784A9C96A3D0ECF847.tmp' to '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Content/Levels/Ilumination.umap'
+[2024.11.25-17.04.11:179][663]LogFileHelpers: Saving map 'Ilumination' took 0.105
+[2024.11.25-17.04.11:185][663]LogFileHelpers: InternalPromptForCheckoutAndSave took 258 ms (total: 1:03 min)
+[2024.11.25-17.04.11:186][663]AssetCheck: New page: Asset Save: Ilumination
+[2024.11.25-17.04.11:186][663]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Ilumination.Ilumination
+[2024.11.25-17.04.15:950][790]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.25-17.04.16:059][790]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2024.11.25-17.04.16:105][790]LogSavePackage: Moving output files for package: /Game/Levels/Ilumination
+[2024.11.25-17.04.16:105][790]LogSavePackage: Moving '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Saved/Ilumination7A33951B4DD71E79A4FFBAB6D003B839.tmp' to '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Content/Levels/Ilumination.umap'
+[2024.11.25-17.04.16:117][790]LogFileHelpers: Saving map 'Ilumination' took 0.112
+[2024.11.25-17.04.16:122][790]LogFileHelpers: InternalPromptForCheckoutAndSave took 172 ms (total: 1:03 min)
+[2024.11.25-17.04.16:124][790]AssetCheck: New page: Asset Save: Ilumination
+[2024.11.25-17.04.16:124][790]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Ilumination.Ilumination
+[2024.11.25-17.05.18:798][568]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.25-17.05.18:878][568]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2024.11.25-17.05.18:919][568]LogSavePackage: Moving output files for package: /Game/Levels/Ilumination
+[2024.11.25-17.05.18:919][568]LogSavePackage: Moving '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Saved/Ilumination401F6332425D5A9276665DB5BF8B79C0.tmp' to '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Content/Levels/Ilumination.umap'
+[2024.11.25-17.05.18:930][568]LogFileHelpers: Saving map 'Ilumination' took 0.106
+[2024.11.25-17.05.18:936][568]LogFileHelpers: InternalPromptForCheckoutAndSave took 138 ms (total: 1:03 min)
+[2024.11.25-17.05.18:938][568]AssetCheck: New page: Asset Save: Ilumination
+[2024.11.25-17.05.18:938][568]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Ilumination.Ilumination
+[2024.11.25-17.05.21:088][641]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.25-17.05.21:100][641]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.25-17.05.21:100][641]PIE: New page: PIE session: Ilumination (25 de nov de 2024 11:05:21)
+[2024.11.25-17.05.21:101][641]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Ilumination
+[2024.11.25-17.05.21:113][641]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012368s)
+[2024.11.25-17.05.21:113][641]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Ilumination.Ilumination to /Game/Levels/UEDPIE_0_Ilumination.Ilumination (0.012410s)
+[2024.11.25-17.05.21:124][641]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2024.11.25-17.05.21:125][641]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-17.05.21:125][641]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.25-17.05.21:126][641]LogAIModule: Creating AISystem for world Ilumination
+[2024.11.25-17.05.21:126][641]LogPlayLevel: PIE: World Init took: (0.000844s)
+[2024.11.25-17.05.21:126][641]LogAudio: Display: Creating Audio Device:                 Id: 108, Scope: Unique, Realtime: True
+[2024.11.25-17.05.21:126][641]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.25-17.05.21:126][641]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.25-17.05.21:126][641]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.25-17.05.21:126][641]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.25-17.05.21:126][641]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.25-17.05.21:126][641]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.25-17.05.21:126][641]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.25-17.05.21:126][641]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.25-17.05.21:126][641]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.25-17.05.21:126][641]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.25-17.05.21:126][641]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.25-17.05.21:128][641]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.25-17.05.21:135][641]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (Realtek(R) Audio)
+[2024.11.25-17.05.21:135][641]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.25-17.05.21:135][641]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.25-17.05.21:135][641]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.25-17.05.21:136][641]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=108
+[2024.11.25-17.05.21:136][641]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=108
+[2024.11.25-17.05.21:137][641]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=108
+[2024.11.25-17.05.21:137][641]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=108
+[2024.11.25-17.05.21:137][641]LogInit: FAudioDevice initialized with ID 108.
+[2024.11.25-17.05.21:137][641]LogAudio: Display: Audio Device (ID: 108) registered with world 'Ilumination'.
+[2024.11.25-17.05.21:137][641]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 108
+[2024.11.25-17.05.21:139][641]LogLoad: Game class is 'MyGameGamemode_C'
+[2024.11.25-17.05.21:146][641]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Ilumination.Ilumination up for play (max tick rate 0) at 2024.11.25-14.05.21
+[2024.11.25-17.05.21:146][641]LogWorld: Bringing up level for play took: 0.006934
+[2024.11.25-17.05.21:149][641]LogOnline: OSS: Created online subsystem instance for: :Context_125
+[2024.11.25-17.05.21:149][641]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.25-17.05.21:149][641]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.25-17.05.21:149][641]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.11.25-17.05.21:159][641]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.11.25-17.05.21:159][641]PIE: Server logged in
+[2024.11.25-17.05.21:159][641]PIE: Play in editor total start time 0,059 seconds.
+[2024.11.25-17.05.27:536][803]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.11.25-17.05.27:536][803]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2024.11.25-17.05.27:536][803]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2024.11.25-17.05.46:448][333]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.11.25-17.05.46:449][333]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2024.11.25-17.06.10:374][  3]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.25-17.06.10:374][  3]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Ilumination
+[2024.11.25-17.06.10:375][  3]LogWorld: UWorld::CleanupWorld for Ilumination, bSessionEnded=true, bCleanupResources=true
+[2024.11.25-17.06.10:376][  3]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.25-17.06.10:401][  3]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.25-17.06.10:405][  3]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.25-17.06.10:416][  3]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.25-17.06.10:417][  3]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 108
+[2024.11.25-17.06.10:417][  3]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=108
+[2024.11.25-17.06.10:419][  3]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=108
+[2024.11.25-17.06.10:427][  3]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2024.11.25-17.06.10:566][  4]LogPlayLevel: Display: Destroying online subsystem :Context_125
+[2024.11.25-17.06.23:655][348]Cmd: TRANSACTION UNDO
+[2024.11.25-17.06.23:655][348]LogEditorTransaction: Undo Move Elements
+[2024.11.25-17.06.30:577][507]Cmd: TRANSACTION UNDO
+[2024.11.25-17.06.30:577][507]LogEditorTransaction: Undo Move Elements
+[2024.11.25-17.06.56:754][198]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.25-17.06.56:766][198]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.25-17.06.56:766][198]PIE: New page: PIE session: Ilumination (25 de nov de 2024 11:06:56)
+[2024.11.25-17.06.56:766][198]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Ilumination
+[2024.11.25-17.06.56:779][198]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012062s)
+[2024.11.25-17.06.56:779][198]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Ilumination.Ilumination to /Game/Levels/UEDPIE_0_Ilumination.Ilumination (0.012093s)
+[2024.11.25-17.06.56:790][198]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2024.11.25-17.06.56:794][198]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-17.06.56:794][198]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.25-17.06.56:794][198]LogAIModule: Creating AISystem for world Ilumination
+[2024.11.25-17.06.56:794][198]LogPlayLevel: PIE: World Init took: (0.000746s)
+[2024.11.25-17.06.56:794][198]LogAudio: Display: Creating Audio Device:                 Id: 109, Scope: Unique, Realtime: True
+[2024.11.25-17.06.56:794][198]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.25-17.06.56:794][198]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.25-17.06.56:794][198]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.25-17.06.56:794][198]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.25-17.06.56:794][198]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.25-17.06.56:794][198]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.25-17.06.56:794][198]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.25-17.06.56:795][198]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.25-17.06.56:795][198]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.25-17.06.56:795][198]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.25-17.06.56:795][198]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.25-17.06.56:796][198]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.25-17.06.56:803][198]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (Realtek(R) Audio)
+[2024.11.25-17.06.56:804][198]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.25-17.06.56:804][198]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.25-17.06.56:804][198]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.25-17.06.56:805][198]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=109
+[2024.11.25-17.06.56:805][198]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=109
+[2024.11.25-17.06.56:806][198]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=109
+[2024.11.25-17.06.56:806][198]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=109
+[2024.11.25-17.06.56:806][198]LogInit: FAudioDevice initialized with ID 109.
+[2024.11.25-17.06.56:806][198]LogAudio: Display: Audio Device (ID: 109) registered with world 'Ilumination'.
+[2024.11.25-17.06.56:806][198]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 109
+[2024.11.25-17.06.56:807][198]LogLoad: Game class is 'MyGameGamemode_C'
+[2024.11.25-17.06.56:814][198]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Ilumination.Ilumination up for play (max tick rate 0) at 2024.11.25-14.06.56
+[2024.11.25-17.06.56:814][198]LogWorld: Bringing up level for play took: 0.006681
+[2024.11.25-17.06.56:817][198]LogOnline: OSS: Created online subsystem instance for: :Context_126
+[2024.11.25-17.06.56:817][198]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.25-17.06.56:817][198]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.25-17.06.56:817][198]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.11.25-17.06.56:827][198]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.11.25-17.06.56:827][198]PIE: Server logged in
+[2024.11.25-17.06.56:827][198]PIE: Play in editor total start time 0,061 seconds.
+[2024.11.25-17.07.00:621][296]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.11.25-17.07.00:621][296]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2024.11.25-17.07.00:621][296]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2024.11.25-17.07.04:881][413]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.11.25-17.07.04:881][413]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2024.11.25-17.07.20:179][850]LogCharacterMovement: BP_Player_C_0 is stuck and failed to move! Velocity: X=324.95 Y=29.19 Z=0.00 Location: X=130.93 Y=-521.96 Z=217.09 Normal: X=-0.22 Y=-0.22 Z=0.95 PenetrationDepth:1.793 Actor:BP_BuildProps_BoomBox_C_1 Component:BuildMesh BoneName:None (0 other events since notify)
+[2024.11.25-17.07.33:357][208]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.25-17.07.33:357][208]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Ilumination
+[2024.11.25-17.07.33:358][208]LogWorld: UWorld::CleanupWorld for Ilumination, bSessionEnded=true, bCleanupResources=true
+[2024.11.25-17.07.33:360][208]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.25-17.07.33:396][208]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.25-17.07.33:400][208]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.25-17.07.33:412][208]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.11.25-17.07.33:412][208]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 109
+[2024.11.25-17.07.33:412][208]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=109
+[2024.11.25-17.07.33:414][208]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=109
+[2024.11.25-17.07.33:417][208]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.25-17.07.33:424][208]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2024.11.25-17.07.33:509][209]LogPlayLevel: Display: Destroying online subsystem :Context_126
+[2024.11.25-17.08.11:669][199]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2024.11.25-17.08.11:676][199]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.25-17.08.11:784][199]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2024.11.25-17.08.11:826][199]LogSavePackage: Moving output files for package: /Game/Levels/Ilumination
+[2024.11.25-17.08.11:826][199]LogSavePackage: Moving '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Saved/Ilumination50B480F94CE743E3E6F3778062C0D308.tmp' to '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Content/Levels/Ilumination.umap'
+[2024.11.25-17.08.11:840][199]LogFileHelpers: Saving map 'Ilumination' took 0.109
+[2024.11.25-17.08.11:851][199]LogSavePackage: Moving output files for package: /Game/UI_Assets/PointedLine/Rectangle_2__8_
+[2024.11.25-17.08.11:851][199]LogSavePackage: Moving '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Saved/Rectangle_2__8_CDA84C8F4C56581994DC0F86D1CBC8F4.tmp' to '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Content/UI_Assets/PointedLine/Rectangle_2__8_.uasset'
+[2024.11.25-17.08.11:859][199]LogFileHelpers: InternalPromptForCheckoutAndSave took 182 ms (total: 1:03 min)
+[2024.11.25-17.08.11:862][199]AssetCheck: New page: Asset Save: multiple assets
+[2024.11.25-17.08.11:862][199]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Ilumination.Ilumination
+[2024.11.25-17.08.11:862][199]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/UI_Assets/PointedLine/Rectangle_2__8_.Rectangle_2__8_
+[2024.11.25-17.08.12:518][220]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.25-17.08.12:531][220]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.25-17.08.12:531][220]PIE: New page: PIE session: Ilumination (25 de nov de 2024 11:08:12)
+[2024.11.25-17.08.12:531][220]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Ilumination
+[2024.11.25-17.08.12:543][220]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011839s)
+[2024.11.25-17.08.12:543][220]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Ilumination.Ilumination to /Game/Levels/UEDPIE_0_Ilumination.Ilumination (0.011873s)
+[2024.11.25-17.08.12:551][220]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2024.11.25-17.08.12:553][220]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-17.08.12:553][220]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.25-17.08.12:553][220]LogAIModule: Creating AISystem for world Ilumination
+[2024.11.25-17.08.12:553][220]LogPlayLevel: PIE: World Init took: (0.000749s)
+[2024.11.25-17.08.12:554][220]LogAudio: Display: Creating Audio Device:                 Id: 110, Scope: Unique, Realtime: True
+[2024.11.25-17.08.12:554][220]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.25-17.08.12:554][220]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.25-17.08.12:554][220]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.25-17.08.12:554][220]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.25-17.08.12:554][220]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.25-17.08.12:554][220]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.25-17.08.12:554][220]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.25-17.08.12:554][220]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.25-17.08.12:554][220]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.25-17.08.12:554][220]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.25-17.08.12:554][220]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.25-17.08.12:555][220]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.25-17.08.12:562][220]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (Realtek(R) Audio)
+[2024.11.25-17.08.12:562][220]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.25-17.08.12:562][220]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.25-17.08.12:562][220]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.25-17.08.12:563][220]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=110
+[2024.11.25-17.08.12:563][220]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=110
+[2024.11.25-17.08.12:564][220]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=110
+[2024.11.25-17.08.12:564][220]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=110
+[2024.11.25-17.08.12:564][220]LogInit: FAudioDevice initialized with ID 110.
+[2024.11.25-17.08.12:564][220]LogAudio: Display: Audio Device (ID: 110) registered with world 'Ilumination'.
+[2024.11.25-17.08.12:564][220]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 110
+[2024.11.25-17.08.12:566][220]LogLoad: Game class is 'MyGameGamemode_C'
+[2024.11.25-17.08.12:573][220]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Ilumination.Ilumination up for play (max tick rate 0) at 2024.11.25-14.08.12
+[2024.11.25-17.08.12:573][220]LogWorld: Bringing up level for play took: 0.006734
+[2024.11.25-17.08.12:576][220]LogOnline: OSS: Created online subsystem instance for: :Context_127
+[2024.11.25-17.08.12:576][220]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.25-17.08.12:576][220]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.25-17.08.12:576][220]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.11.25-17.08.12:585][220]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.11.25-17.08.12:585][220]PIE: Server logged in
+[2024.11.25-17.08.12:585][220]PIE: Play in editor total start time 0,055 seconds.
+[2024.11.25-17.08.43:648][ 67]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.25-17.08.43:648][ 67]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Ilumination
+[2024.11.25-17.08.43:650][ 67]LogWorld: UWorld::CleanupWorld for Ilumination, bSessionEnded=true, bCleanupResources=true
+[2024.11.25-17.08.43:651][ 67]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.25-17.08.43:688][ 67]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.25-17.08.43:694][ 67]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.25-17.08.43:704][ 67]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.11.25-17.08.43:706][ 67]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 110
+[2024.11.25-17.08.43:706][ 67]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=110
+[2024.11.25-17.08.43:708][ 67]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=110
+[2024.11.25-17.08.43:711][ 67]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.25-17.08.43:717][ 67]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2024.11.25-17.08.43:819][ 68]LogPlayLevel: Display: Destroying online subsystem :Context_127
+[2024.11.25-17.08.47:178][150]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@0] File [Scalability]
+[2024.11.25-17.08.47:178][150]LogConfig: Set CVar [[r.SkeletalMeshLODBias:2]]
+[2024.11.25-17.08.47:178][150]LogConfig: Set CVar [[r.ViewDistanceScale:0.4]]
+[2024.11.25-17.08.47:178][150]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@0] File [Scalability]
+[2024.11.25-17.08.47:178][150]LogConfig: Set CVar [[r.FXAA.Quality:0]]
+[2024.11.25-17.08.47:178][150]LogConfig: Set CVar [[r.TemporalAA.Quality:0]]
+[2024.11.25-17.08.47:178][150]LogConfig: Set CVar [[r.TSR.History.UpdateQuality:0]]
+[2024.11.25-17.08.47:178][150]LogConfig: Set CVar [[r.TSR.ShadingRejection.Flickering:0]]
+[2024.11.25-17.08.47:178][150]LogConfig: Set CVar [[r.TSR.ShadingRejection.TileOverscan:2]]
+[2024.11.25-17.08.47:178][150]LogConfig: CVar [[r.TSR.Velocity.Extrapolation:0]] deferred - dummy variable created
+[2024.11.25-17.08.47:178][150]LogConfig: Set CVar [[r.TSR.RejectionAntiAliasingQuality:0]]
+[2024.11.25-17.08.47:178][150]LogConfig: Applying CVar settings from Section [ShadowQuality@0] File [Scalability]
+[2024.11.25-17.08.47:178][150]LogConfig: Set CVar [[r.LightFunctionQuality:0]]
+[2024.11.25-17.08.47:178][150]LogConfig: Set CVar [[r.ShadowQuality:0]]
+[2024.11.25-17.08.47:178][150]LogConfig: Set CVar [[r.Shadow.CSM.MaxCascades:1]]
+[2024.11.25-17.08.47:178][150]LogConfig: Set CVar [[r.Shadow.MaxResolution:512]]
+[2024.11.25-17.08.47:178][150]LogConfig: Set CVar [[r.Shadow.MaxCSMResolution:512]]
+[2024.11.25-17.08.47:178][150]LogConfig: Set CVar [[r.Shadow.RadiusThreshold:0.06]]
+[2024.11.25-17.08.47:178][150]LogConfig: Set CVar [[r.Shadow.DistanceScale:0.6]]
+[2024.11.25-17.08.47:178][150]LogConfig: Set CVar [[r.Shadow.CSM.TransitionScale:0]]
+[2024.11.25-17.08.47:178][150]LogConfig: Set CVar [[r.DistanceFieldShadowing:0]]
+[2024.11.25-17.08.47:178][150]LogConfig: Set CVar [[r.VolumetricFog:0]]
+[2024.11.25-17.08.47:178][150]LogConfig: Set CVar [[r.LightMaxDrawDistanceScale:0]]
+[2024.11.25-17.08.47:178][150]LogConfig: Set CVar [[r.CapsuleShadows:0]]
+[2024.11.25-17.08.47:178][150]LogConfig: Set CVar [[r.Shadow.Virtual.MaxPhysicalPages:512]]
+[2024.11.25-17.08.47:178][150]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasDirectional:0.0]]
+[2024.11.25-17.08.47:178][150]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasDirectionalMoving:0.0]]
+[2024.11.25-17.08.47:178][150]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasLocal:1.0]]
+[2024.11.25-17.08.47:178][150]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasLocalMoving:2.0]]
+[2024.11.25-17.08.47:178][150]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.RayCountDirectional:0]]
+[2024.11.25-17.08.47:178][150]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.SamplesPerRayDirectional:2]]
+[2024.11.25-17.08.47:178][150]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.RayCountLocal:0]]
+[2024.11.25-17.08.47:178][150]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.SamplesPerRayLocal:2]]
+[2024.11.25-17.08.47:178][150]LogConfig: Applying CVar settings from Section [GlobalIlluminationQuality@0] File [Scalability]
+[2024.11.25-17.08.47:178][150]LogConfig: Set CVar [[r.DistanceFieldAO:0]]
+[2024.11.25-17.08.47:178][150]LogConfig: Set CVar [[r.Lumen.DiffuseIndirect.Allow:0]]
+[2024.11.25-17.08.47:178][150]LogConfig: Applying CVar settings from Section [ReflectionQuality@0] File [Scalability]
+[2024.11.25-17.08.47:178][150]LogConfig: Set CVar [[r.SSR.Quality:0]]
+[2024.11.25-17.08.47:178][150]LogConfig: Set CVar [[r.Lumen.Reflections.Allow:0]]
+[2024.11.25-17.08.47:178][150]LogConfig: Applying CVar settings from Section [PostProcessQuality@0] File [Scalability]
+[2024.11.25-17.08.47:178][150]LogConfig: Set CVar [[r.MotionBlurQuality:0]]
+[2024.11.25-17.08.47:178][150]LogConfig: Set CVar [[r.MotionBlur.HalfResGather:1]]
+[2024.11.25-17.08.47:178][150]LogConfig: Set CVar [[r.AmbientOcclusionMipLevelFactor:1.0]]
+[2024.11.25-17.08.47:178][150]LogConfig: Set CVar [[r.AmbientOcclusionMaxQuality:0]]
+[2024.11.25-17.08.47:178][150]LogConfig: Set CVar [[r.AmbientOcclusionLevels:0]]
+[2024.11.25-17.08.47:179][150]LogConfig: Set CVar [[r.AmbientOcclusionRadiusScale:1.2]]
+[2024.11.25-17.08.47:179][150]LogConfig: Set CVar [[r.DepthOfFieldQuality:0]]
+[2024.11.25-17.08.47:179][150]LogConfig: Set CVar [[r.RenderTargetPoolMin:300]]
+[2024.11.25-17.08.47:179][150]LogConfig: Set CVar [[r.LensFlareQuality:0]]
+[2024.11.25-17.08.47:179][150]LogConfig: Set CVar [[r.SceneColorFringeQuality:0]]
+[2024.11.25-17.08.47:179][150]LogConfig: Set CVar [[r.BloomQuality:4]]
+[2024.11.25-17.08.47:179][150]LogConfig: Set CVar [[r.Bloom.ScreenPercentage:25.000]]
+[2024.11.25-17.08.47:179][150]LogConfig: Set CVar [[r.FastBlurThreshold:0]]
+[2024.11.25-17.08.47:179][150]LogConfig: Set CVar [[r.Upscale.Quality:1]]
+[2024.11.25-17.08.47:179][150]LogConfig: Set CVar [[r.LightShaftQuality:0]]
+[2024.11.25-17.08.47:179][150]LogConfig: Set CVar [[r.Filter.SizeScale:0.6]]
+[2024.11.25-17.08.47:179][150]LogConfig: Set CVar [[r.Tonemapper.Quality:0]]
+[2024.11.25-17.08.47:179][150]LogConfig: Applying CVar settings from Section [TextureQuality@0] File [Scalability]
+[2024.11.25-17.08.47:179][150]LogConfig: Set CVar [[r.Streaming.MipBias:16]]
+[2024.11.25-17.08.47:179][150]LogConfig: Set CVar [[r.Streaming.AmortizeCPUToGPUCopy:1]]
+[2024.11.25-17.08.47:179][150]LogConfig: Set CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:1]]
+[2024.11.25-17.08.47:179][150]LogConfig: Set CVar [[r.Streaming.Boost:0.3]]
+[2024.11.25-17.08.47:179][150]LogConfig: Set CVar [[r.MaxAnisotropy:0]]
+[2024.11.25-17.08.47:179][150]LogConfig: Set CVar [[r.VT.MaxAnisotropy:4]]
+[2024.11.25-17.08.47:179][150]LogConfig: Set CVar [[r.Streaming.PoolSize:400]]
+[2024.11.25-17.08.47:179][150]LogConfig: Applying CVar settings from Section [EffectsQuality@0] File [Scalability]
+[2024.11.25-17.08.47:179][150]LogConfig: Set CVar [[r.TranslucencyLightingVolumeDim:24]]
+[2024.11.25-17.08.47:179][150]LogConfig: Set CVar [[r.RefractionQuality:0]]
+[2024.11.25-17.08.47:179][150]LogConfig: Set CVar [[r.DetailMode:0]]
+[2024.11.25-17.08.47:179][150]LogConfig: Set CVar [[r.TranslucencyVolumeBlur:0]]
+[2024.11.25-17.08.47:179][150]LogConfig: Set CVar [[r.MaterialQualityLevel:0 ; Low quality]]
+[2024.11.25-17.08.47:179][150]LogConfig: Set CVar [[r.SSS.Scale:0]]
+[2024.11.25-17.08.47:179][150]LogConfig: Set CVar [[r.SSS.SampleSet:0]]
+[2024.11.25-17.08.47:179][150]LogConfig: Set CVar [[r.SSS.Quality:0]]
+[2024.11.25-17.08.47:179][150]LogConfig: Set CVar [[r.SSGI.Quality:0]]
+[2024.11.25-17.08.47:179][150]LogConfig: Set CVar [[r.EmitterSpawnRateScale:0.125]]
+[2024.11.25-17.08.47:179][150]LogConfig: Set CVar [[r.ParticleLightQuality:0]]
+[2024.11.25-17.08.47:179][150]LogConfig: Set CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:1]]
+[2024.11.25-17.08.47:179][150]LogConfig: Set CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:8.0]]
+[2024.11.25-17.08.47:179][150]LogConfig: Set CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:2.0]]
+[2024.11.25-17.08.47:179][150]LogConfig: Set CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:16.0]]
+[2024.11.25-17.08.47:179][150]LogConfig: Set CVar [[r.SkyAtmosphere.SampleCountMin:2.0]]
+[2024.11.25-17.08.47:180][150]LogConfig: Set CVar [[r.SkyAtmosphere.SampleCountMax:16.0]]
+[2024.11.25-17.08.47:180][150]LogConfig: Set CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:1]]
+[2024.11.25-17.08.47:180][150]LogConfig: Set CVar [[r.SkyLight.RealTimeReflectionCapture:0]]
+[2024.11.25-17.08.47:180][150]LogConfig: Set CVar [[fx.Niagara.QualityLevel:0]]
+[2024.11.25-17.08.47:180][150]LogConfig: Applying CVar settings from Section [FoliageQuality@0] File [Scalability]
+[2024.11.25-17.08.47:180][150]LogConfig: Set CVar [[foliage.DensityScale:0]]
+[2024.11.25-17.08.47:180][150]LogConfig: Set CVar [[grass.DensityScale:0]]
+[2024.11.25-17.08.47:180][150]LogConfig: Applying CVar settings from Section [ShadingQuality@0] File [Scalability]
+[2024.11.25-17.08.47:180][150]LogConfig: Set CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:1]]
+[2024.11.25-17.08.47:180][150]LogConfig: Set CVar [[r.AnisotropicMaterials:0]]
+[2024.11.25-17.08.47:314][150]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2024.11.25-17.08.47:410][153]LogContentStreaming: Texture pool size now 400 MB
+[2024.11.25-17.09.21:572][749]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.25-17.09.21:585][749]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.25-17.09.21:585][749]PIE: New page: PIE session: Ilumination (25 de nov de 2024 11:09:21)
+[2024.11.25-17.09.21:608][749]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Ilumination
+[2024.11.25-17.09.21:621][749]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012729s)
+[2024.11.25-17.09.21:621][749]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Ilumination.Ilumination to /Game/Levels/UEDPIE_0_Ilumination.Ilumination (0.012773s)
+[2024.11.25-17.09.21:635][749]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2024.11.25-17.09.21:639][749]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-17.09.21:639][749]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.25-17.09.21:640][749]LogAIModule: Creating AISystem for world Ilumination
+[2024.11.25-17.09.21:640][749]LogPlayLevel: PIE: World Init took: (0.000881s)
+[2024.11.25-17.09.21:640][749]LogAudio: Display: Creating Audio Device:                 Id: 111, Scope: Unique, Realtime: True
+[2024.11.25-17.09.21:640][749]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.25-17.09.21:640][749]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.25-17.09.21:640][749]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.25-17.09.21:640][749]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.25-17.09.21:640][749]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.25-17.09.21:640][749]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.25-17.09.21:640][749]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.25-17.09.21:640][749]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.25-17.09.21:641][749]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.25-17.09.21:641][749]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.25-17.09.21:641][749]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.25-17.09.21:642][749]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.25-17.09.21:649][749]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (Realtek(R) Audio)
+[2024.11.25-17.09.21:649][749]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.25-17.09.21:649][749]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.25-17.09.21:649][749]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.25-17.09.21:650][749]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=111
+[2024.11.25-17.09.21:650][749]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=111
+[2024.11.25-17.09.21:651][749]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=111
+[2024.11.25-17.09.21:651][749]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=111
+[2024.11.25-17.09.21:651][749]LogInit: FAudioDevice initialized with ID 111.
+[2024.11.25-17.09.21:651][749]LogAudio: Display: Audio Device (ID: 111) registered with world 'Ilumination'.
+[2024.11.25-17.09.21:651][749]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 111
+[2024.11.25-17.09.21:653][749]LogLoad: Game class is 'MyGameGamemode_C'
+[2024.11.25-17.09.21:659][749]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Ilumination.Ilumination up for play (max tick rate 0) at 2024.11.25-14.09.21
+[2024.11.25-17.09.21:660][749]LogWorld: Bringing up level for play took: 0.006190
+[2024.11.25-17.09.21:663][749]LogOnline: OSS: Created online subsystem instance for: :Context_128
+[2024.11.25-17.09.21:663][749]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.25-17.09.21:663][749]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.25-17.09.21:663][749]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.11.25-17.09.21:672][749]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.11.25-17.09.21:672][749]PIE: Server logged in
+[2024.11.25-17.09.21:673][749]PIE: Play in editor total start time 0,087 seconds.
+[2024.11.25-17.09.26:918][294]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.25-17.09.26:918][294]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Ilumination
+[2024.11.25-17.09.26:920][294]LogWorld: UWorld::CleanupWorld for Ilumination, bSessionEnded=true, bCleanupResources=true
+[2024.11.25-17.09.26:921][294]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.25-17.09.26:924][294]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.25-17.09.26:928][294]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.25-17.09.26:939][294]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.25-17.09.26:940][294]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 111
+[2024.11.25-17.09.26:940][294]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=111
+[2024.11.25-17.09.26:942][294]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=111
+[2024.11.25-17.09.26:949][294]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2024.11.25-17.09.27:016][295]LogPlayLevel: Display: Destroying online subsystem :Context_128
+[2024.11.25-17.09.35:147][139]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.25-17.09.35:159][139]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.25-17.09.35:159][139]PIE: New page: PIE session: Ilumination (25 de nov de 2024 11:09:35)
+[2024.11.25-17.09.35:159][139]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Ilumination
+[2024.11.25-17.09.35:171][139]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012175s)
+[2024.11.25-17.09.35:171][139]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Ilumination.Ilumination to /Game/Levels/UEDPIE_0_Ilumination.Ilumination (0.012207s)
+[2024.11.25-17.09.35:181][139]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2024.11.25-17.09.35:183][139]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-17.09.35:184][139]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.25-17.09.35:184][139]LogAIModule: Creating AISystem for world Ilumination
+[2024.11.25-17.09.35:184][139]LogPlayLevel: PIE: World Init took: (0.000846s)
+[2024.11.25-17.09.35:184][139]LogAudio: Display: Creating Audio Device:                 Id: 112, Scope: Unique, Realtime: True
+[2024.11.25-17.09.35:184][139]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.25-17.09.35:184][139]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.25-17.09.35:184][139]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.25-17.09.35:184][139]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.25-17.09.35:184][139]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.25-17.09.35:184][139]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.25-17.09.35:184][139]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.25-17.09.35:184][139]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.25-17.09.35:185][139]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.25-17.09.35:185][139]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.25-17.09.35:185][139]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.25-17.09.35:187][139]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.25-17.09.35:193][139]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (Realtek(R) Audio)
+[2024.11.25-17.09.35:193][139]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.25-17.09.35:193][139]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.25-17.09.35:193][139]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.25-17.09.35:194][139]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=112
+[2024.11.25-17.09.35:194][139]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=112
+[2024.11.25-17.09.35:195][139]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=112
+[2024.11.25-17.09.35:195][139]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=112
+[2024.11.25-17.09.35:195][139]LogInit: FAudioDevice initialized with ID 112.
+[2024.11.25-17.09.35:195][139]LogAudio: Display: Audio Device (ID: 112) registered with world 'Ilumination'.
+[2024.11.25-17.09.35:195][139]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 112
+[2024.11.25-17.09.35:200][139]LogLoad: Game class is 'MyGameGamemode_C'
+[2024.11.25-17.09.35:206][139]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Ilumination.Ilumination up for play (max tick rate 0) at 2024.11.25-14.09.35
+[2024.11.25-17.09.35:206][139]LogWorld: Bringing up level for play took: 0.006062
+[2024.11.25-17.09.35:209][139]LogOnline: OSS: Created online subsystem instance for: :Context_129
+[2024.11.25-17.09.35:209][139]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.25-17.09.35:209][139]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.25-17.09.35:209][139]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.11.25-17.09.35:211][139]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2024.11.25-17.09.35:219][139]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.11.25-17.09.35:219][139]PIE: Server logged in
+[2024.11.25-17.09.35:220][139]PIE: Play in editor total start time 0,061 seconds.
+[2024.11.25-17.09.44:179][130]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.25-17.09.44:179][130]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Ilumination
+[2024.11.25-17.09.44:181][130]LogWorld: UWorld::CleanupWorld for Ilumination, bSessionEnded=true, bCleanupResources=true
+[2024.11.25-17.09.44:182][130]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.25-17.09.44:185][130]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.25-17.09.44:189][130]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.25-17.09.44:201][130]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.25-17.09.44:202][130]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 112
+[2024.11.25-17.09.44:202][130]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=112
+[2024.11.25-17.09.44:204][130]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=112
+[2024.11.25-17.09.44:212][130]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2024.11.25-17.09.44:277][131]LogPlayLevel: Display: Destroying online subsystem :Context_129
+[2024.11.25-17.09.47:614][520]Cmd: TRANSACTION UNDO
+[2024.11.25-17.09.47:614][520]LogEditorTransaction: Undo Scale Elements
+[2024.11.25-17.09.55:396][339]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.25-17.09.55:502][339]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2024.11.25-17.09.55:544][339]LogSavePackage: Moving output files for package: /Game/Levels/Ilumination
+[2024.11.25-17.09.55:544][339]LogSavePackage: Moving '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Saved/Ilumination9B19CCCC49577D7F07A754A23467AFC7.tmp' to '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Content/Levels/Ilumination.umap'
+[2024.11.25-17.09.55:555][339]LogFileHelpers: Saving map 'Ilumination' took 0.107
+[2024.11.25-17.09.55:560][339]LogFileHelpers: InternalPromptForCheckoutAndSave took 164 ms (total: 1:03 min)
+[2024.11.25-17.09.55:562][339]AssetCheck: New page: Asset Save: Ilumination
+[2024.11.25-17.09.55:562][339]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Ilumination.Ilumination
+[2024.11.25-17.10.04:490][325]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.25-17.10.04:605][325]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2024.11.25-17.10.04:648][325]LogSavePackage: Moving output files for package: /Game/Levels/Ilumination
+[2024.11.25-17.10.04:649][325]LogSavePackage: Moving '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Saved/Ilumination89168AF248F74D19FA71A282A9E818D5.tmp' to '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Content/Levels/Ilumination.umap'
+[2024.11.25-17.10.04:660][325]LogFileHelpers: Saving map 'Ilumination' took 0.112
+[2024.11.25-17.10.04:665][325]LogFileHelpers: InternalPromptForCheckoutAndSave took 174 ms (total: 1:03 min)
+[2024.11.25-17.10.04:667][325]AssetCheck: New page: Asset Save: Ilumination
+[2024.11.25-17.10.04:667][325]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Ilumination.Ilumination
+[2024.11.25-17.10.16:727][752]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.25-17.10.16:836][752]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2024.11.25-17.10.16:876][752]LogSavePackage: Moving output files for package: /Game/Levels/Ilumination
+[2024.11.25-17.10.16:877][752]LogSavePackage: Moving '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Saved/IluminationDFB0E9E741242A4438A81E9C8D703956.tmp' to '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Content/Levels/Ilumination.umap'
+[2024.11.25-17.10.16:889][752]LogFileHelpers: Saving map 'Ilumination' took 0.109
+[2024.11.25-17.10.16:895][752]LogFileHelpers: InternalPromptForCheckoutAndSave took 167 ms (total: 1:04 min)
+[2024.11.25-17.10.16:896][752]AssetCheck: New page: Asset Save: Ilumination
+[2024.11.25-17.10.16:897][752]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Ilumination.Ilumination
+[2024.11.25-17.10.24:945][361]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.25-17.10.25:033][361]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2024.11.25-17.10.25:075][361]LogSavePackage: Moving output files for package: /Game/Levels/Ilumination
+[2024.11.25-17.10.25:075][361]LogSavePackage: Moving '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Saved/IluminationF1AC564142ADC68734D6AFAA1B5435D9.tmp' to '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Content/Levels/Ilumination.umap'
+[2024.11.25-17.10.25:088][361]LogFileHelpers: Saving map 'Ilumination' took 0.108
+[2024.11.25-17.10.25:098][361]LogFileHelpers: InternalPromptForCheckoutAndSave took 153 ms (total: 1:04 min)
+[2024.11.25-17.10.25:100][361]AssetCheck: New page: Asset Save: Ilumination
+[2024.11.25-17.10.25:101][361]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Ilumination.Ilumination
