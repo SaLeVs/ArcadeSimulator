@@ -7747,3 +7747,681 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.11.25-03.41.13:963][ 13]LogFileHelpers: InternalPromptForCheckoutAndSave took 134 ms (total: 8.30 sec)
 [2024.11.25-03.41.13:966][ 13]AssetCheck: New page: Asset Save: Ilumination
 [2024.11.25-03.41.13:966][ 13]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Ilumination.Ilumination
+[2024.11.25-03.41.45:696][681]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.25-03.41.45:710][681]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.25-03.41.45:710][681]PIE: New page: PIE session: Ilumination (Nov 24, 2024, 9:41:45 PM)
+[2024.11.25-03.41.45:738][681]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Ilumination
+[2024.11.25-03.41.45:748][681]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010397s)
+[2024.11.25-03.41.45:748][681]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Ilumination.Ilumination to /Game/Levels/UEDPIE_0_Ilumination.Ilumination (0.010435s)
+[2024.11.25-03.41.45:758][681]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2024.11.25-03.41.45:760][681]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-03.41.45:760][681]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.25-03.41.45:761][681]LogAIModule: Creating AISystem for world Ilumination
+[2024.11.25-03.41.45:761][681]LogPlayLevel: PIE: World Init took: (0.000803s)
+[2024.11.25-03.41.45:761][681]LogAudio: Display: Creating Audio Device:                 Id: 60, Scope: Unique, Realtime: True
+[2024.11.25-03.41.45:761][681]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.25-03.41.45:761][681]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.25-03.41.45:761][681]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.25-03.41.45:761][681]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.25-03.41.45:761][681]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.25-03.41.45:761][681]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.25-03.41.45:761][681]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.25-03.41.45:761][681]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.25-03.41.45:761][681]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.25-03.41.45:761][681]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.25-03.41.45:761][681]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.25-03.41.45:763][681]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.25-03.41.45:780][681]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (Realtek(R) Audio)
+[2024.11.25-03.41.45:780][681]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.25-03.41.45:780][681]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.25-03.41.45:780][681]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.25-03.41.45:780][681]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=60
+[2024.11.25-03.41.45:780][681]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=60
+[2024.11.25-03.41.45:782][681]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=60
+[2024.11.25-03.41.45:782][681]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=60
+[2024.11.25-03.41.45:782][681]LogInit: FAudioDevice initialized with ID 60.
+[2024.11.25-03.41.45:782][681]LogAudio: Display: Audio Device (ID: 60) registered with world 'Ilumination'.
+[2024.11.25-03.41.45:782][681]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 60
+[2024.11.25-03.41.45:784][681]LogLoad: Game class is 'MyGameGamemode_C'
+[2024.11.25-03.41.45:788][681]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Ilumination.Ilumination up for play (max tick rate 0) at 2024.11.25-00.41.45
+[2024.11.25-03.41.45:788][681]LogWorld: Bringing up level for play took: 0.003962
+[2024.11.25-03.41.45:791][681]LogOnline: OSS: Created online subsystem instance for: :Context_153
+[2024.11.25-03.41.45:791][681]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.25-03.41.45:791][681]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.25-03.41.45:791][681]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.11.25-03.41.45:810][681]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.11.25-03.41.45:810][681]PIE: Server logged in
+[2024.11.25-03.41.45:811][681]PIE: Play in editor total start time 0.104 seconds.
+[2024.11.25-03.42.53:655][629]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-03.42.53:679][630]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-03.42.55:002][732]LogAssetEditorSubsystem: Opening Asset editor for SkeletalMesh /Game/Characters/Childs/Mesh/ChildrenOficialFemale1.ChildrenOficialFemale1
+[2024.11.25-03.42.55:107][732]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-03.42.55:107][732]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.25-03.42.55:125][732]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_107:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.11.25-03.42.55:558][732]LogViewport: Scene viewport resized to 1237x736, mode Windowed.
+[2024.11.25-03.42.57:646][803]LogAssetEditorSubsystem: Opening Asset editor for Skeleton /Game/Characters/Childs/Mesh/ChildrenOficialFemale1_Skeleton.ChildrenOficialFemale1_Skeleton
+[2024.11.25-03.42.57:646][803]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-03.42.57:646][803]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.25-03.42.57:651][803]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_108:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.11.25-03.42.57:823][803]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-03.42.57:823][803]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.25-03.42.57:978][803]LogViewport: Scene viewport resized to 986x736, mode Windowed.
+[2024.11.25-03.42.59:484][895]LogAssetEditorSubsystem: Opening Asset editor for AnimSequence /Game/Characters/Childs/Animation/ChildFemale1ClawMachine.ChildFemale1ClawMachine
+[2024.11.25-03.42.59:488][895]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-03.42.59:488][895]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.25-03.42.59:502][895]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_110:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.11.25-03.42.59:676][895]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-03.42.59:676][895]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.25-03.42.59:874][895]LogUObjectGlobals: Warning: Failed to find object 'Class /Script/ApexDestruction.DestructibleMesh'
+[2024.11.25-03.42.59:879][895]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-03.42.59:879][895]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.25-03.42.59:908][895]LogViewport: Scene viewport resized to 986x460, mode Windowed.
+[2024.11.25-03.42.59:954][895]LogContentBrowser: Verbose: The majority of assets in the view are of type: /Script/Engine.AnimSequence
+[2024.11.25-03.43.01:523][973]LogAssetEditorSubsystem: Opening Asset editor for PhysicsAsset /Game/Characters/Childs/Mesh/ChildrenOficialFemale1_PhysicsAsset.ChildrenOficialFemale1_PhysicsAsset
+[2024.11.25-03.43.01:627][973]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-03.43.01:627][973]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.25-03.43.01:671][973]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_113:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
+[2024.11.25-03.43.01:880][973]LogToolMenus: Warning: Toolbar 'AssetEditor.PhysicsAssetEditor.ToolBar.PhysicsAssetEditorMode', item 'ReferencePose', Toolbars do not support: EMultiBlockType::MenuEntry
+[2024.11.25-03.43.01:934][973]LogToolMenus: Warning: Toolbar 'AssetEditor.PhysicsAssetEditor.ToolBar.PhysicsAssetEditorMode', item 'ReferencePose', Toolbars do not support: EMultiBlockType::MenuEntry
+[2024.11.25-03.43.02:024][973]LogViewport: Scene viewport resized to 986x736, mode Windowed.
+[2024.11.25-03.43.08:418][324]LogSlate: Window 'ChildrenOficialFemale1_PhysicsAsset' being destroyed
+[2024.11.25-03.43.08:425][324]LogSlate: Window 'ChildrenOficialFemale1_PhysicsAsset' being destroyed
+[2024.11.25-03.43.08:453][324]LogWorld: UWorld::CleanupWorld for World_107, bSessionEnded=true, bCleanupResources=true
+[2024.11.25-03.43.08:453][324]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.25-03.43.08:566][324]LogWorld: UWorld::CleanupWorld for World_108, bSessionEnded=true, bCleanupResources=true
+[2024.11.25-03.43.08:566][324]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.25-03.43.08:620][324]LogWorld: UWorld::CleanupWorld for World_109, bSessionEnded=true, bCleanupResources=true
+[2024.11.25-03.43.08:621][324]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.25-03.43.08:662][324]LogWorld: UWorld::CleanupWorld for World_112, bSessionEnded=true, bCleanupResources=true
+[2024.11.25-03.43.08:662][324]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.25-03.43.08:673][324]LogWorld: UWorld::CleanupWorld for World_110, bSessionEnded=true, bCleanupResources=true
+[2024.11.25-03.43.08:673][324]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.25-03.43.08:722][324]LogWorld: UWorld::CleanupWorld for World_111, bSessionEnded=true, bCleanupResources=true
+[2024.11.25-03.43.08:723][324]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.25-03.43.08:762][324]LogWorld: UWorld::CleanupWorld for World_113, bSessionEnded=true, bCleanupResources=true
+[2024.11.25-03.43.08:762][324]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.25-03.43.45:762][671]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.25-03.43.45:762][671]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Ilumination
+[2024.11.25-03.43.45:764][671]LogWorld: UWorld::CleanupWorld for Ilumination, bSessionEnded=true, bCleanupResources=true
+[2024.11.25-03.43.45:766][671]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.25-03.43.45:770][671]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.25-03.43.45:777][671]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.25-03.43.45:791][671]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.11.25-03.43.45:791][671]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 60
+[2024.11.25-03.43.45:791][671]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=60
+[2024.11.25-03.43.45:792][671]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=60
+[2024.11.25-03.43.45:796][671]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.25-03.43.45:804][671]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2024.11.25-03.43.45:847][672]LogPlayLevel: Display: Destroying online subsystem :Context_153
+[2024.11.25-03.44.24:883][114]BlueprintLog: New page: Compile WB_ToughBubble
+[2024.11.25-03.44.24:913][114]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2024.11.25-03.44.24:932][114]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.25-03.44.24:964][114]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/WB_ToughBubble" FILE="F:/UnrealProjects/ArcadeSimulator/Arcade/Content/Widgets/WB_ToughBubble.uasset" SILENT=true
+[2024.11.25-03.44.24:975][114]LogSavePackage: Moving output files for package: /Game/Widgets/WB_ToughBubble
+[2024.11.25-03.44.24:976][114]LogSavePackage: Moving 'F:/UnrealProjects/ArcadeSimulator/Arcade/Saved/WB_ToughBubble44CF2F1746BAB4E671BFDDA091B5F473.tmp' to 'F:/UnrealProjects/ArcadeSimulator/Arcade/Content/Widgets/WB_ToughBubble.uasset'
+[2024.11.25-03.44.24:982][114]LogFileHelpers: InternalPromptForCheckoutAndSave took 49 ms (total: 8.35 sec)
+[2024.11.25-03.44.24:983][114]AssetCheck: New page: Asset Save: WB_ToughBubble
+[2024.11.25-03.44.24:983][114]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/WB_ToughBubble.WB_ToughBubble
+[2024.11.25-03.44.33:631][116]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.25-03.44.33:645][116]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.25-03.44.33:645][116]PIE: New page: PIE session: Ilumination (Nov 24, 2024, 9:44:33 PM)
+[2024.11.25-03.44.33:645][116]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Ilumination
+[2024.11.25-03.44.33:657][116]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011644s)
+[2024.11.25-03.44.33:657][116]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Ilumination.Ilumination to /Game/Levels/UEDPIE_0_Ilumination.Ilumination (0.011674s)
+[2024.11.25-03.44.33:669][116]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2024.11.25-03.44.33:673][116]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-03.44.33:673][116]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.25-03.44.33:673][116]LogAIModule: Creating AISystem for world Ilumination
+[2024.11.25-03.44.33:674][116]LogPlayLevel: PIE: World Init took: (0.000778s)
+[2024.11.25-03.44.33:674][116]LogAudio: Display: Creating Audio Device:                 Id: 61, Scope: Unique, Realtime: True
+[2024.11.25-03.44.33:674][116]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.25-03.44.33:674][116]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.25-03.44.33:674][116]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.25-03.44.33:674][116]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.25-03.44.33:674][116]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.25-03.44.33:674][116]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.25-03.44.33:674][116]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.25-03.44.33:674][116]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.25-03.44.33:674][116]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.25-03.44.33:674][116]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.25-03.44.33:674][116]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.25-03.44.33:675][116]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.25-03.44.33:694][116]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (Realtek(R) Audio)
+[2024.11.25-03.44.33:694][116]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.25-03.44.33:694][116]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.25-03.44.33:694][116]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.25-03.44.33:695][116]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=61
+[2024.11.25-03.44.33:695][116]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=61
+[2024.11.25-03.44.33:697][116]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=61
+[2024.11.25-03.44.33:697][116]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=61
+[2024.11.25-03.44.33:697][116]LogInit: FAudioDevice initialized with ID 61.
+[2024.11.25-03.44.33:697][116]LogAudio: Display: Audio Device (ID: 61) registered with world 'Ilumination'.
+[2024.11.25-03.44.33:697][116]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 61
+[2024.11.25-03.44.33:700][116]LogLoad: Game class is 'MyGameGamemode_C'
+[2024.11.25-03.44.33:704][116]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Ilumination.Ilumination up for play (max tick rate 0) at 2024.11.25-00.44.33
+[2024.11.25-03.44.33:704][116]LogWorld: Bringing up level for play took: 0.003903
+[2024.11.25-03.44.33:706][116]LogOnline: OSS: Created online subsystem instance for: :Context_163
+[2024.11.25-03.44.33:706][116]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.25-03.44.33:706][116]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.25-03.44.33:706][116]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.11.25-03.44.33:727][116]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.11.25-03.44.33:727][116]PIE: Server logged in
+[2024.11.25-03.44.33:727][116]PIE: Play in editor total start time 0.085 seconds.
+[2024.11.25-03.45.04:932][572]LogBlueprintUserMessages: [BTTask_ThanksForChange_C_0] Fail move to machines queueBP_NPCMaster0
+[2024.11.25-03.46.06:281][392]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.25-03.46.06:281][392]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Ilumination
+[2024.11.25-03.46.06:283][392]LogWorld: UWorld::CleanupWorld for Ilumination, bSessionEnded=true, bCleanupResources=true
+[2024.11.25-03.46.06:285][392]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.25-03.46.06:290][392]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.25-03.46.06:295][392]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.25-03.46.06:305][392]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.11.25-03.46.06:306][392]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 61
+[2024.11.25-03.46.06:306][392]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=61
+[2024.11.25-03.46.06:308][392]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=61
+[2024.11.25-03.46.06:311][392]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.25-03.46.06:317][392]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2024.11.25-03.46.06:363][393]LogPlayLevel: Display: Destroying online subsystem :Context_163
+[2024.11.25-03.46.18:018][763]BlueprintLog: New page: Compile WB_ToughBubble
+[2024.11.25-03.46.18:040][763]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2024.11.25-03.46.18:125][763]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.25-03.46.18:154][763]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/WB_ToughBubble" FILE="F:/UnrealProjects/ArcadeSimulator/Arcade/Content/Widgets/WB_ToughBubble.uasset" SILENT=true
+[2024.11.25-03.46.18:163][763]LogSavePackage: Moving output files for package: /Game/Widgets/WB_ToughBubble
+[2024.11.25-03.46.18:163][763]LogSavePackage: Moving 'F:/UnrealProjects/ArcadeSimulator/Arcade/Saved/WB_ToughBubble031A49DB44CEC7E62C82A4ABD7B722D7.tmp' to 'F:/UnrealProjects/ArcadeSimulator/Arcade/Content/Widgets/WB_ToughBubble.uasset'
+[2024.11.25-03.46.18:171][763]LogFileHelpers: InternalPromptForCheckoutAndSave took 45 ms (total: 8.39 sec)
+[2024.11.25-03.46.18:181][763]AssetCheck: New page: Asset Save: WB_ToughBubble
+[2024.11.25-03.46.18:181][763]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/WB_ToughBubble.WB_ToughBubble
+[2024.11.25-03.46.20:208][982]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.25-03.46.20:222][982]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.25-03.46.20:222][982]PIE: New page: PIE session: Ilumination (Nov 24, 2024, 9:46:20 PM)
+[2024.11.25-03.46.20:258][982]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Ilumination
+[2024.11.25-03.46.20:268][982]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010123s)
+[2024.11.25-03.46.20:268][982]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Ilumination.Ilumination to /Game/Levels/UEDPIE_0_Ilumination.Ilumination (0.010162s)
+[2024.11.25-03.46.20:280][982]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2024.11.25-03.46.20:285][982]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-03.46.20:285][982]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.25-03.46.20:285][982]LogAIModule: Creating AISystem for world Ilumination
+[2024.11.25-03.46.20:285][982]LogPlayLevel: PIE: World Init took: (0.000810s)
+[2024.11.25-03.46.20:285][982]LogAudio: Display: Creating Audio Device:                 Id: 62, Scope: Unique, Realtime: True
+[2024.11.25-03.46.20:285][982]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.25-03.46.20:285][982]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.25-03.46.20:285][982]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.25-03.46.20:285][982]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.25-03.46.20:285][982]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.25-03.46.20:285][982]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.25-03.46.20:285][982]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.25-03.46.20:285][982]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.25-03.46.20:286][982]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.25-03.46.20:286][982]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.25-03.46.20:286][982]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.25-03.46.20:287][982]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.25-03.46.20:305][982]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (Realtek(R) Audio)
+[2024.11.25-03.46.20:305][982]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.25-03.46.20:305][982]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.25-03.46.20:305][982]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.25-03.46.20:306][982]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=62
+[2024.11.25-03.46.20:306][982]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=62
+[2024.11.25-03.46.20:307][982]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=62
+[2024.11.25-03.46.20:307][982]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=62
+[2024.11.25-03.46.20:307][982]LogInit: FAudioDevice initialized with ID 62.
+[2024.11.25-03.46.20:307][982]LogAudio: Display: Audio Device (ID: 62) registered with world 'Ilumination'.
+[2024.11.25-03.46.20:307][982]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 62
+[2024.11.25-03.46.20:309][982]LogLoad: Game class is 'MyGameGamemode_C'
+[2024.11.25-03.46.20:313][982]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Ilumination.Ilumination up for play (max tick rate 0) at 2024.11.25-00.46.20
+[2024.11.25-03.46.20:313][982]LogWorld: Bringing up level for play took: 0.003962
+[2024.11.25-03.46.20:316][982]LogOnline: OSS: Created online subsystem instance for: :Context_164
+[2024.11.25-03.46.20:316][982]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.25-03.46.20:316][982]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.25-03.46.20:316][982]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.11.25-03.46.20:336][982]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.11.25-03.46.20:336][982]PIE: Server logged in
+[2024.11.25-03.46.20:336][982]PIE: Play in editor total start time 0.117 seconds.
+[2024.11.25-03.46.38:590][ 29]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.25-03.46.38:590][ 29]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Ilumination
+[2024.11.25-03.46.38:592][ 29]LogWorld: UWorld::CleanupWorld for Ilumination, bSessionEnded=true, bCleanupResources=true
+[2024.11.25-03.46.38:593][ 29]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.25-03.46.38:604][ 29]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.25-03.46.38:609][ 29]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.25-03.46.38:642][ 29]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.11.25-03.46.38:642][ 29]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 62
+[2024.11.25-03.46.38:642][ 29]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=62
+[2024.11.25-03.46.38:644][ 29]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=62
+[2024.11.25-03.46.38:648][ 29]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.25-03.46.38:654][ 29]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2024.11.25-03.46.38:700][ 30]LogPlayLevel: Display: Destroying online subsystem :Context_164
+[2024.11.25-03.46.41:480][356]LogWorld: UWorld::CleanupWorld for World_104, bSessionEnded=true, bCleanupResources=true
+[2024.11.25-03.46.41:480][356]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.25-03.46.42:659][485]LogWorld: UWorld::CleanupWorld for World_102, bSessionEnded=true, bCleanupResources=true
+[2024.11.25-03.46.42:659][485]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.25-03.46.48:249][124]LogWorld: UWorld::CleanupWorld for World_96, bSessionEnded=true, bCleanupResources=true
+[2024.11.25-03.46.48:249][124]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.25-03.46.56:336][ 40]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Player/BP_Player.BP_Player
+[2024.11.25-03.46.56:336][ 40]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-03.46.56:336][ 40]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.25-03.47.08:647][156]BlueprintLog: New page: Compile BP_Player
+[2024.11.25-03.47.08:774][156]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2024.11.25-03.47.08:889][156]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.25-03.47.08:920][156]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player/BP_Player" FILE="F:/UnrealProjects/ArcadeSimulator/Arcade/Content/Blueprints/Player/BP_Player.uasset" SILENT=true
+[2024.11.25-03.47.08:953][156]LogSavePackage: Moving output files for package: /Game/Blueprints/Player/BP_Player
+[2024.11.25-03.47.08:953][156]LogSavePackage: Moving 'F:/UnrealProjects/ArcadeSimulator/Arcade/Saved/BP_Player063D26994FAAEBB7EADD2997687287C1.tmp' to 'F:/UnrealProjects/ArcadeSimulator/Arcade/Content/Blueprints/Player/BP_Player.uasset'
+[2024.11.25-03.47.08:961][156]LogFileHelpers: InternalPromptForCheckoutAndSave took 71 ms (total: 8.46 sec)
+[2024.11.25-03.47.09:019][156]AssetCheck: New page: Asset Save: BP_Player
+[2024.11.25-03.47.09:020][156]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Player/BP_Player.BP_Player
+[2024.11.25-03.47.11:291][380]LogWorld: UWorld::CleanupWorld for World_116, bSessionEnded=true, bCleanupResources=true
+[2024.11.25-03.47.11:291][380]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.25-03.47.31:663][736]BlueprintLog: New page: Compile BP_NPCMaster
+[2024.11.25-03.47.31:733][736]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
+[2024.11.25-03.47.31:769][736]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.25-03.47.31:806][736]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AI/BP_NPCMaster" FILE="F:/UnrealProjects/ArcadeSimulator/Arcade/Content/Blueprints/AI/BP_NPCMaster.uasset" SILENT=true
+[2024.11.25-03.47.31:825][736]LogSavePackage: Moving output files for package: /Game/Blueprints/AI/BP_NPCMaster
+[2024.11.25-03.47.31:826][736]LogSavePackage: Moving 'F:/UnrealProjects/ArcadeSimulator/Arcade/Saved/BP_NPCMasterDD3A628F46997FC19686FDB6B92F5C65.tmp' to 'F:/UnrealProjects/ArcadeSimulator/Arcade/Content/Blueprints/AI/BP_NPCMaster.uasset'
+[2024.11.25-03.47.31:832][736]LogFileHelpers: InternalPromptForCheckoutAndSave took 62 ms (total: 8.53 sec)
+[2024.11.25-03.47.31:849][736]AssetCheck: New page: Asset Save: BP_NPCMaster
+[2024.11.25-03.47.31:849][736]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/AI/BP_NPCMaster.BP_NPCMaster
+[2024.11.25-03.48.38:861][671]BlueprintLog: New page: Compile WB_ToughBubble
+[2024.11.25-03.48.38:890][671]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2024.11.25-03.48.38:996][671]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.25-03.48.39:043][671]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/WB_ToughBubble" FILE="F:/UnrealProjects/ArcadeSimulator/Arcade/Content/Widgets/WB_ToughBubble.uasset" SILENT=true
+[2024.11.25-03.48.39:052][671]LogSavePackage: Moving output files for package: /Game/Widgets/WB_ToughBubble
+[2024.11.25-03.48.39:052][671]LogSavePackage: Moving 'F:/UnrealProjects/ArcadeSimulator/Arcade/Saved/WB_ToughBubble2DB78A8646FE16617F24DE853EA616FD.tmp' to 'F:/UnrealProjects/ArcadeSimulator/Arcade/Content/Widgets/WB_ToughBubble.uasset'
+[2024.11.25-03.48.39:058][671]LogFileHelpers: InternalPromptForCheckoutAndSave took 61 ms (total: 8.59 sec)
+[2024.11.25-03.48.39:068][671]AssetCheck: New page: Asset Save: WB_ToughBubble
+[2024.11.25-03.48.39:068][671]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/WB_ToughBubble.WB_ToughBubble
+[2024.11.25-03.48.50:698][ 10]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-03.48.50:733][ 11]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-03.48.50:752][ 12]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-03.48.50:772][ 13]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-03.48.50:789][ 14]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-03.48.50:807][ 15]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-03.48.50:825][ 16]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-03.48.50:842][ 17]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-03.48.50:860][ 18]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-03.48.50:879][ 19]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-03.48.50:898][ 20]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-03.48.50:916][ 21]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-03.48.50:936][ 22]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-03.48.50:955][ 23]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-03.48.50:977][ 24]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-03.48.50:996][ 25]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-03.48.51:017][ 26]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-03.48.51:052][ 27]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-03.48.51:083][ 28]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-03.48.51:112][ 29]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-03.48.51:176][ 30]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-03.48.51:211][ 31]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-03.48.51:256][ 32]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-03.48.51:296][ 33]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-03.48.51:332][ 34]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-03.48.51:376][ 35]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-03.48.51:413][ 36]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-03.48.51:451][ 37]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-03.48.51:499][ 38]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-03.48.51:545][ 39]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-03.48.51:597][ 40]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-03.48.51:634][ 41]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-03.48.51:673][ 42]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-03.48.51:715][ 43]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-03.49.03:544][330]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreview_NeonTetrisV1.BP_BuildPropsPreview_NeonTetrisV1
+[2024.11.25-03.49.03:545][330]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-03.49.03:545][330]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.25-03.49.04:665][446]LogWorld: UWorld::CleanupWorld for World_152, bSessionEnded=true, bCleanupResources=true
+[2024.11.25-03.49.04:665][446]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.25-03.49.04:693][446]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreview_NeonTetrisV1.BP_BuildPropsPreview_NeonTetrisV1
+[2024.11.25-03.49.04:693][446]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-03.49.04:693][446]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.25-03.49.05:425][511]LogViewport: Scene viewport resized to 1330x1235, mode Windowed.
+[2024.11.25-03.49.20:969][730]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-03.49.20:982][730]LogShaderCompilers: Display: ================================================
+[2024.11.25-03.49.20:982][730]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.11.25-03.49.20:982][730]LogShaderCompilers: Display: Total job queries 405, among them cache hits 239 (59.01%)
+[2024.11.25-03.49.20:982][730]LogShaderCompilers: Display: Tracking 166 distinct input hashes that result in 68 distinct outputs (40.96%)
+[2024.11.25-03.49.20:982][730]LogShaderCompilers: Display: RAM used: 3.66 MiB of 1.60 GiB budget. Usage: 0.22%
+[2024.11.25-03.49.20:982][730]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.11.25-03.49.20:982][730]LogShaderCompilers: Display: Shaders Compiled: 0
+[2024.11.25-03.49.20:982][730]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0%)
+[2024.11.25-03.49.20:982][730]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2024.11.25-03.49.20:982][730]LogShaderCompilers: Display: ================================================
+[2024.11.25-03.49.21:143][732]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-03.49.21:244][734]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-03.49.21:312][737]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-03.49.21:351][738]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-03.49.21:429][742]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-03.49.21:525][746]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-03.49.21:669][750]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-03.49.21:747][754]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-03.49.22:009][761]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-03.49.23:578][769]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-03.49.23:600][770]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-03.49.23:626][771]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-03.49.23:826][778]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-03.49.23:943][785]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-03.49.24:060][792]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-03.49.24:200][800]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-03.49.25:039][810]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-03.49.25:258][819]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildProps_NeonTetrisV1.BP_BuildProps_NeonTetrisV1
+[2024.11.25-03.49.25:259][819]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-03.49.25:259][819]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.25-03.49.25:490][821]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-03.49.25:640][831]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-03.49.25:795][842]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-03.49.25:936][851]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-03.49.26:103][863]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-03.49.26:132][864]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-03.49.26:275][874]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-03.49.26:638][875]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-03.49.27:072][877]LogWorld: UWorld::CleanupWorld for World_172, bSessionEnded=true, bCleanupResources=true
+[2024.11.25-03.49.27:072][877]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.25-03.49.27:102][877]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildProps_NeonTetrisV1.BP_BuildProps_NeonTetrisV1
+[2024.11.25-03.49.27:102][877]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-03.49.27:102][877]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.25-03.49.28:046][892]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-03.49.29:087][909]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-03.49.29:299][922]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-03.49.29:318][923]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-03.49.29:529][937]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-03.49.29:554][938]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-03.49.30:233][940]LogViewport: Scene viewport resized to 1330x1235, mode Windowed.
+[2024.11.25-03.49.30:749][959]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-03.49.31:272][976]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-03.50.07:358][969]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildProps_Sofa.BP_BuildProps_Sofa
+[2024.11.25-03.50.07:362][969]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-03.50.07:364][969]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.25-03.50.08:948][ 98]LogWorld: UWorld::CleanupWorld for World_190, bSessionEnded=true, bCleanupResources=true
+[2024.11.25-03.50.08:954][ 98]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.25-03.50.09:019][ 98]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildProps_Sofa.BP_BuildProps_Sofa
+[2024.11.25-03.50.09:019][ 98]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-03.50.09:019][ 98]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.25-03.50.10:201][204]LogViewport: Scene viewport resized to 1330x1235, mode Windowed.
+[2024.11.25-03.50.29:169][369]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Meshs/Scenery/DecorationWalls/SM_NeonTetrisV1_1.SM_NeonTetrisV1_1
+[2024.11.25-03.50.29:240][369]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-03.50.29:240][369]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.25-03.50.29:868][369]LogViewport: Scene viewport resized to 1215x772, mode Windowed.
+[2024.11.25-03.50.41:163][318]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.25-03.50.41:264][318]LogSavePackage: Moving output files for package: /Game/Meshs/Scenery/DecorationWalls/SM_NeonTetrisV1_1
+[2024.11.25-03.50.41:265][318]LogSavePackage: Moving 'F:/UnrealProjects/ArcadeSimulator/Arcade/Saved/SM_NeonTetrisV1_1FB7171B54458ACB4B98618860A7A6B5D.tmp' to 'F:/UnrealProjects/ArcadeSimulator/Arcade/Content/Meshs/Scenery/DecorationWalls/SM_NeonTetrisV1_1.uasset'
+[2024.11.25-03.50.41:285][318]LogFileHelpers: InternalPromptForCheckoutAndSave took 122 ms (total: 8.71 sec)
+[2024.11.25-03.50.41:300][318]AssetCheck: New page: Asset Save: SM_NeonTetrisV1_1
+[2024.11.25-03.50.41:300][318]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Meshs/Scenery/DecorationWalls/SM_NeonTetrisV1_1.SM_NeonTetrisV1_1
+[2024.11.25-03.50.42:481][422]LogSlate: Window 'SM_NeonTetrisV1_1' being destroyed
+[2024.11.25-03.50.42:550][422]LogWorld: UWorld::CleanupWorld for World_192, bSessionEnded=true, bCleanupResources=true
+[2024.11.25-03.50.42:550][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.25-03.50.46:535][846]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildProps_NeonTetrisV2.BP_BuildProps_NeonTetrisV2
+[2024.11.25-03.50.46:535][846]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-03.50.46:535][846]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.25-03.50.48:105][ 12]LogWorld: UWorld::CleanupWorld for World_193, bSessionEnded=true, bCleanupResources=true
+[2024.11.25-03.50.48:106][ 12]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.25-03.50.48:136][ 12]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildProps_NeonTetrisV2.BP_BuildProps_NeonTetrisV2
+[2024.11.25-03.50.48:136][ 12]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-03.50.48:136][ 12]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.25-03.50.49:125][105]LogViewport: Scene viewport resized to 1330x1235, mode Windowed.
+[2024.11.25-03.50.51:103][306]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Meshs/Scenery/DecorationWalls/SM_NeonTetrisV2_1.SM_NeonTetrisV2_1
+[2024.11.25-03.50.51:132][306]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-03.50.51:133][306]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.25-03.50.51:736][306]LogViewport: Scene viewport resized to 1215x772, mode Windowed.
+[2024.11.25-03.50.59:914][970]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.25-03.50.59:950][970]LogSavePackage: Moving output files for package: /Game/Meshs/Scenery/DecorationWalls/SM_NeonTetrisV2_1
+[2024.11.25-03.50.59:951][970]LogSavePackage: Moving 'F:/UnrealProjects/ArcadeSimulator/Arcade/Saved/SM_NeonTetrisV2_1BFF063FD4CF2EF2A5FB375B247191D7B.tmp' to 'F:/UnrealProjects/ArcadeSimulator/Arcade/Content/Meshs/Scenery/DecorationWalls/SM_NeonTetrisV2_1.uasset'
+[2024.11.25-03.50.59:960][970]LogFileHelpers: InternalPromptForCheckoutAndSave took 45 ms (total: 8.76 sec)
+[2024.11.25-03.50.59:962][970]AssetCheck: New page: Asset Save: SM_NeonTetrisV2_1
+[2024.11.25-03.50.59:962][970]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Meshs/Scenery/DecorationWalls/SM_NeonTetrisV2_1.SM_NeonTetrisV2_1
+[2024.11.25-03.51.00:718][ 33]LogSlate: Window 'SM_NeonTetrisV2_1' being destroyed
+[2024.11.25-03.51.00:778][ 33]LogWorld: UWorld::CleanupWorld for World_195, bSessionEnded=true, bCleanupResources=true
+[2024.11.25-03.51.00:778][ 33]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.25-03.51.02:561][217]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildProps_NeonTetrisV3.BP_BuildProps_NeonTetrisV3
+[2024.11.25-03.51.02:562][217]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-03.51.02:562][217]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.25-03.51.03:524][313]LogWorld: UWorld::CleanupWorld for World_196, bSessionEnded=true, bCleanupResources=true
+[2024.11.25-03.51.03:524][313]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.25-03.51.03:553][313]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildProps_NeonTetrisV3.BP_BuildProps_NeonTetrisV3
+[2024.11.25-03.51.03:553][313]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-03.51.03:553][313]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.25-03.51.04:451][398]LogViewport: Scene viewport resized to 1330x1235, mode Windowed.
+[2024.11.25-03.51.10:633][ 47]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/Meshs/Scenery/DecorationWalls/SM_NeonTetrisV3_1.SM_NeonTetrisV3_1
+[2024.11.25-03.51.10:659][ 47]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-03.51.10:659][ 47]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.25-03.51.11:254][ 47]LogViewport: Scene viewport resized to 1215x772, mode Windowed.
+[2024.11.25-03.51.18:824][715]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.25-03.51.18:866][715]LogSavePackage: Moving output files for package: /Game/Meshs/Scenery/DecorationWalls/SM_NeonTetrisV3_1
+[2024.11.25-03.51.18:866][715]LogSavePackage: Moving 'F:/UnrealProjects/ArcadeSimulator/Arcade/Saved/SM_NeonTetrisV3_1FBF7B24C412024EBBF594F8C6B304217.tmp' to 'F:/UnrealProjects/ArcadeSimulator/Arcade/Content/Meshs/Scenery/DecorationWalls/SM_NeonTetrisV3_1.uasset'
+[2024.11.25-03.51.18:873][715]LogFileHelpers: InternalPromptForCheckoutAndSave took 48 ms (total: 8.80 sec)
+[2024.11.25-03.51.18:875][715]AssetCheck: New page: Asset Save: SM_NeonTetrisV3_1
+[2024.11.25-03.51.18:875][715]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Meshs/Scenery/DecorationWalls/SM_NeonTetrisV3_1.SM_NeonTetrisV3_1
+[2024.11.25-03.51.19:686][786]LogSlate: Window 'SM_NeonTetrisV3_1' being destroyed
+[2024.11.25-03.51.19:746][786]LogWorld: UWorld::CleanupWorld for World_198, bSessionEnded=true, bCleanupResources=true
+[2024.11.25-03.51.19:746][786]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.25-03.51.21:786][ 13]LogWorld: UWorld::CleanupWorld for World_197, bSessionEnded=true, bCleanupResources=true
+[2024.11.25-03.51.21:786][ 13]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.25-03.51.23:011][148]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2024.11.25-03.51.23:011][148]LogWorld: UWorld::CleanupWorld for World_194, bSessionEnded=true, bCleanupResources=true
+[2024.11.25-03.51.23:011][148]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.25-03.51.24:443][310]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2024.11.25-03.51.24:443][310]LogWorld: UWorld::CleanupWorld for World_191, bSessionEnded=true, bCleanupResources=true
+[2024.11.25-03.51.24:443][310]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.25-03.51.25:752][459]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2024.11.25-03.51.25:752][459]LogWorld: UWorld::CleanupWorld for World_181, bSessionEnded=true, bCleanupResources=true
+[2024.11.25-03.51.25:752][459]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.25-03.51.28:280][745]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2024.11.25-03.51.28:280][745]LogWorld: UWorld::CleanupWorld for World_153, bSessionEnded=true, bCleanupResources=true
+[2024.11.25-03.51.28:280][745]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.25-03.51.32:423][133]LogUObjectHash: Compacting FUObjectHashTables data took   8.12ms
+[2024.11.25-03.51.38:542][767]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.25-03.51.38:584][767]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.25-03.51.38:593][767]PIE: New page: PIE session: Ilumination (Nov 24, 2024, 9:51:38 PM)
+[2024.11.25-03.51.38:624][767]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Ilumination
+[2024.11.25-03.51.38:685][767]LogPlayLevel: PIE: StaticDuplicateObject took: (0.060126s)
+[2024.11.25-03.51.38:685][767]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Ilumination.Ilumination to /Game/Levels/UEDPIE_0_Ilumination.Ilumination (0.060841s)
+[2024.11.25-03.51.38:696][767]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2024.11.25-03.51.38:709][767]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-03.51.38:715][767]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.25-03.51.38:717][767]LogAIModule: Creating AISystem for world Ilumination
+[2024.11.25-03.51.38:727][767]LogPlayLevel: PIE: World Init took: (0.021483s)
+[2024.11.25-03.51.38:730][767]LogAudio: Display: Creating Audio Device:                 Id: 63, Scope: Unique, Realtime: True
+[2024.11.25-03.51.38:731][767]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.25-03.51.38:731][767]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.25-03.51.38:731][767]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.25-03.51.38:732][767]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.25-03.51.38:732][767]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.25-03.51.38:732][767]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.25-03.51.38:732][767]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.25-03.51.38:732][767]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.25-03.51.38:735][767]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.25-03.51.38:736][767]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.25-03.51.38:736][767]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.25-03.51.38:878][767]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.25-03.51.38:906][767]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (Realtek(R) Audio)
+[2024.11.25-03.51.38:910][767]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.25-03.51.38:911][767]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.25-03.51.38:911][767]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.25-03.51.38:917][767]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=63
+[2024.11.25-03.51.38:917][767]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=63
+[2024.11.25-03.51.38:919][767]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=63
+[2024.11.25-03.51.38:919][767]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=63
+[2024.11.25-03.51.38:919][767]LogInit: FAudioDevice initialized with ID 63.
+[2024.11.25-03.51.38:920][767]LogAudio: Display: Audio Device (ID: 63) registered with world 'Ilumination'.
+[2024.11.25-03.51.38:920][767]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 63
+[2024.11.25-03.51.38:948][767]LogLoad: Game class is 'MyGameGamemode_C'
+[2024.11.25-03.51.38:962][767]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Ilumination.Ilumination up for play (max tick rate 0) at 2024.11.25-00.51.38
+[2024.11.25-03.51.38:974][767]LogWorld: Bringing up level for play took: 0.024887
+[2024.11.25-03.51.38:994][767]LogOnline: OSS: Created online subsystem instance for: :Context_247
+[2024.11.25-03.51.39:016][767]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.25-03.51.39:016][767]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.25-03.51.39:016][767]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.11.25-03.51.39:091][767]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.11.25-03.51.39:093][767]PIE: Server logged in
+[2024.11.25-03.51.39:094][767]PIE: Play in editor total start time 0.533 seconds.
+[2024.11.25-03.52.01:253][218]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.25-03.52.01:253][218]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Ilumination
+[2024.11.25-03.52.01:259][218]LogWorld: UWorld::CleanupWorld for Ilumination, bSessionEnded=true, bCleanupResources=true
+[2024.11.25-03.52.01:262][218]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.25-03.52.01:275][218]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.25-03.52.01:283][218]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.25-03.52.01:296][218]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.25-03.52.01:298][218]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 63
+[2024.11.25-03.52.01:299][218]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=63
+[2024.11.25-03.52.01:305][218]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=63
+[2024.11.25-03.52.01:348][218]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2024.11.25-03.52.01:396][219]LogPlayLevel: Display: Destroying online subsystem :Context_247
+[2024.11.25-03.52.06:724][795]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Builder/Machines/MachineBuilds/BP_BuildMachineMaster.BP_BuildMachineMaster
+[2024.11.25-03.52.06:724][795]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-03.52.06:724][795]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.25-03.52.07:674][876]LogViewport: Scene viewport resized to 1330x1235, mode Windowed.
+[2024.11.25-03.52.17:965][ 54]LogWorld: UWorld::CleanupWorld for World_199, bSessionEnded=true, bCleanupResources=true
+[2024.11.25-03.52.17:965][ 54]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.25-03.53.25:131][680]BlueprintLog: New page: Compile WB_ToughBubble
+[2024.11.25-03.53.25:228][680]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2024.11.25-03.53.25:360][680]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.25-03.53.25:395][680]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/WB_ToughBubble" FILE="F:/UnrealProjects/ArcadeSimulator/Arcade/Content/Widgets/WB_ToughBubble.uasset" SILENT=true
+[2024.11.25-03.53.25:412][680]LogSavePackage: Moving output files for package: /Game/Widgets/WB_ToughBubble
+[2024.11.25-03.53.25:412][680]LogSavePackage: Moving 'F:/UnrealProjects/ArcadeSimulator/Arcade/Saved/WB_ToughBubble138A33604013CEB5B1A146AE19C33208.tmp' to 'F:/UnrealProjects/ArcadeSimulator/Arcade/Content/Widgets/WB_ToughBubble.uasset'
+[2024.11.25-03.53.25:418][680]LogFileHelpers: InternalPromptForCheckoutAndSave took 58 ms (total: 8.86 sec)
+[2024.11.25-03.53.25:421][680]AssetCheck: New page: Asset Save: WB_ToughBubble
+[2024.11.25-03.53.25:421][680]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/WB_ToughBubble.WB_ToughBubble
+[2024.11.25-03.53.27:208][871]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.25-03.53.27:223][871]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.25-03.53.27:223][871]PIE: New page: PIE session: Ilumination (Nov 24, 2024, 9:53:27 PM)
+[2024.11.25-03.53.27:247][871]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Ilumination
+[2024.11.25-03.53.27:259][871]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011655s)
+[2024.11.25-03.53.27:259][871]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Ilumination.Ilumination to /Game/Levels/UEDPIE_0_Ilumination.Ilumination (0.011692s)
+[2024.11.25-03.53.27:272][871]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2024.11.25-03.53.27:277][871]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-03.53.27:277][871]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.25-03.53.27:278][871]LogAIModule: Creating AISystem for world Ilumination
+[2024.11.25-03.53.27:278][871]LogPlayLevel: PIE: World Init took: (0.000999s)
+[2024.11.25-03.53.27:278][871]LogAudio: Display: Creating Audio Device:                 Id: 64, Scope: Unique, Realtime: True
+[2024.11.25-03.53.27:278][871]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.25-03.53.27:278][871]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.25-03.53.27:278][871]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.25-03.53.27:278][871]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.25-03.53.27:278][871]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.25-03.53.27:278][871]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.25-03.53.27:278][871]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.25-03.53.27:278][871]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.25-03.53.27:278][871]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.25-03.53.27:278][871]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.25-03.53.27:278][871]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.25-03.53.27:281][871]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.25-03.53.27:299][871]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (Realtek(R) Audio)
+[2024.11.25-03.53.27:299][871]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.25-03.53.27:299][871]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.25-03.53.27:299][871]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.25-03.53.27:300][871]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=64
+[2024.11.25-03.53.27:300][871]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=64
+[2024.11.25-03.53.27:301][871]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=64
+[2024.11.25-03.53.27:301][871]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=64
+[2024.11.25-03.53.27:301][871]LogInit: FAudioDevice initialized with ID 64.
+[2024.11.25-03.53.27:301][871]LogAudio: Display: Audio Device (ID: 64) registered with world 'Ilumination'.
+[2024.11.25-03.53.27:301][871]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 64
+[2024.11.25-03.53.27:303][871]LogLoad: Game class is 'MyGameGamemode_C'
+[2024.11.25-03.53.27:308][871]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Ilumination.Ilumination up for play (max tick rate 0) at 2024.11.25-00.53.27
+[2024.11.25-03.53.27:308][871]LogWorld: Bringing up level for play took: 0.004276
+[2024.11.25-03.53.27:311][871]LogOnline: OSS: Created online subsystem instance for: :Context_249
+[2024.11.25-03.53.27:311][871]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.25-03.53.27:311][871]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.25-03.53.27:311][871]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.11.25-03.53.27:332][871]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.11.25-03.53.27:332][871]PIE: Server logged in
+[2024.11.25-03.53.27:333][871]PIE: Play in editor total start time 0.112 seconds.
+[2024.11.25-03.53.46:611][ 30]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.25-03.53.46:611][ 30]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Ilumination
+[2024.11.25-03.53.46:613][ 30]LogWorld: UWorld::CleanupWorld for Ilumination, bSessionEnded=true, bCleanupResources=true
+[2024.11.25-03.53.46:614][ 30]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.25-03.53.46:618][ 30]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.25-03.53.46:623][ 30]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.25-03.53.46:634][ 30]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.11.25-03.53.46:634][ 30]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 64
+[2024.11.25-03.53.46:634][ 30]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=64
+[2024.11.25-03.53.46:655][ 30]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=64
+[2024.11.25-03.53.46:664][ 30]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.25-03.53.46:670][ 30]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2024.11.25-03.53.46:716][ 31]LogPlayLevel: Display: Destroying online subsystem :Context_249
+[2024.11.25-03.53.48:864][247]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/ExpandArcade/BP_WallToMove.BP_WallToMove
+[2024.11.25-03.53.48:864][247]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-03.53.48:864][247]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.25-03.53.49:547][304]LogViewport: Scene viewport resized to 1330x1235, mode Windowed.
+[2024.11.25-03.53.56:564][ 63]LogPhysics: Warning: Scale for /Engine/Transient.World_201:PersistentLevel.BP_WallToMove_C_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=28.594 Z=1.256
+[2024.11.25-03.53.56:565][ 63]LogPhysics: Warning: Scale for /Game/Levels/Ilumination.Ilumination:PersistentLevel.BP_WallToMove_C_1.Box has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=28.594 Z=1.256
+[2024.11.25-03.53.56:565][ 63]LogPhysics: Warning: Scale for /Engine/Transient.World_201:PersistentLevel.BP_WallToMove_C_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=28.594 Z=1.256
+[2024.11.25-03.53.56:572][ 64]LogPhysics: Warning: Scale for /Engine/Transient.World_201:PersistentLevel.BP_WallToMove_C_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=28.594 Z=1.256
+[2024.11.25-03.53.56:698][ 79]LogPhysics: Warning: Scale for /Engine/Transient.World_201:PersistentLevel.BP_WallToMove_C_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=28.594 Z=1.256
+[2024.11.25-03.53.56:699][ 79]LogPhysics: Warning: Scale for /Game/Levels/Ilumination.Ilumination:PersistentLevel.BP_WallToMove_C_1.Box has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=28.594 Z=1.256
+[2024.11.25-03.53.56:699][ 79]LogPhysics: Warning: Scale for /Engine/Transient.World_201:PersistentLevel.BP_WallToMove_C_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=28.594 Z=1.256
+[2024.11.25-03.53.56:707][ 80]LogPhysics: Warning: Scale for /Engine/Transient.World_201:PersistentLevel.BP_WallToMove_C_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=28.594 Z=1.256
+[2024.11.25-03.53.56:715][ 81]LogPhysics: Warning: Scale for /Engine/Transient.World_201:PersistentLevel.BP_WallToMove_C_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=28.594 Z=1.256
+[2024.11.25-03.53.56:723][ 82]LogPhysics: Warning: Scale for /Engine/Transient.World_201:PersistentLevel.BP_WallToMove_C_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=28.594 Z=1.256
+[2024.11.25-03.53.56:731][ 83]LogPhysics: Warning: Scale for /Engine/Transient.World_201:PersistentLevel.BP_WallToMove_C_0.Box has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=28.594 Z=1.256
+[2024.11.25-03.54.09:966][548]BlueprintLog: New page: Compile BP_WallToMove
+[2024.11.25-03.54.10:006][548]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2024.11.25-03.54.10:022][548]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.25-03.54.10:050][548]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-03.54.10:069][548]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/ExpandArcade/BP_WallToMove" FILE="F:/UnrealProjects/ArcadeSimulator/Arcade/Content/Blueprints/ExpandArcade/BP_WallToMove.uasset" SILENT=true
+[2024.11.25-03.54.10:074][548]LogSavePackage: Moving output files for package: /Game/Blueprints/ExpandArcade/BP_WallToMove
+[2024.11.25-03.54.10:074][548]LogSavePackage: Moving 'F:/UnrealProjects/ArcadeSimulator/Arcade/Saved/BP_WallToMoveB5EE768D4D3BDCDDDAFC99BBDDE7615B.tmp' to 'F:/UnrealProjects/ArcadeSimulator/Arcade/Content/Blueprints/ExpandArcade/BP_WallToMove.uasset'
+[2024.11.25-03.54.10:081][548]LogFileHelpers: InternalPromptForCheckoutAndSave took 59 ms (total: 8.92 sec)
+[2024.11.25-03.54.10:100][548]AssetCheck: New page: Asset Save: BP_WallToMove
+[2024.11.25-03.54.10:100][548]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/ExpandArcade/BP_WallToMove.BP_WallToMove
+[2024.11.25-03.54.11:338][657]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.25-03.54.11:353][657]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.25-03.54.11:353][657]PIE: New page: PIE session: Ilumination (Nov 24, 2024, 9:54:11 PM)
+[2024.11.25-03.54.11:353][657]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Ilumination
+[2024.11.25-03.54.11:364][657]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010542s)
+[2024.11.25-03.54.11:364][657]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Ilumination.Ilumination to /Game/Levels/UEDPIE_0_Ilumination.Ilumination (0.010572s)
+[2024.11.25-03.54.11:375][657]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2024.11.25-03.54.11:381][657]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-03.54.11:381][657]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.25-03.54.11:381][657]LogAIModule: Creating AISystem for world Ilumination
+[2024.11.25-03.54.11:382][657]LogPlayLevel: PIE: World Init took: (0.000821s)
+[2024.11.25-03.54.11:382][657]LogAudio: Display: Creating Audio Device:                 Id: 65, Scope: Unique, Realtime: True
+[2024.11.25-03.54.11:382][657]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.25-03.54.11:382][657]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.25-03.54.11:382][657]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.25-03.54.11:382][657]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.25-03.54.11:382][657]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.25-03.54.11:382][657]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.25-03.54.11:382][657]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.25-03.54.11:382][657]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.25-03.54.11:382][657]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.25-03.54.11:382][657]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.25-03.54.11:382][657]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.25-03.54.11:384][657]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.25-03.54.11:401][657]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (Realtek(R) Audio)
+[2024.11.25-03.54.11:401][657]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.25-03.54.11:401][657]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.25-03.54.11:401][657]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.25-03.54.11:401][657]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=65
+[2024.11.25-03.54.11:402][657]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=65
+[2024.11.25-03.54.11:403][657]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=65
+[2024.11.25-03.54.11:403][657]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=65
+[2024.11.25-03.54.11:403][657]LogInit: FAudioDevice initialized with ID 65.
+[2024.11.25-03.54.11:403][657]LogAudio: Display: Audio Device (ID: 65) registered with world 'Ilumination'.
+[2024.11.25-03.54.11:403][657]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 65
+[2024.11.25-03.54.11:406][657]LogLoad: Game class is 'MyGameGamemode_C'
+[2024.11.25-03.54.11:410][657]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Ilumination.Ilumination up for play (max tick rate 0) at 2024.11.25-00.54.11
+[2024.11.25-03.54.11:410][657]LogWorld: Bringing up level for play took: 0.004349
+[2024.11.25-03.54.11:413][657]LogOnline: OSS: Created online subsystem instance for: :Context_252
+[2024.11.25-03.54.11:414][657]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.25-03.54.11:414][657]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.25-03.54.11:414][657]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.11.25-03.54.11:436][657]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.11.25-03.54.11:436][657]PIE: Server logged in
+[2024.11.25-03.54.11:437][657]PIE: Play in editor total start time 0.087 seconds.
+[2024.11.25-03.56.40:301][116]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.25-03.56.40:301][116]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Ilumination
+[2024.11.25-03.56.40:304][116]LogWorld: UWorld::CleanupWorld for Ilumination, bSessionEnded=true, bCleanupResources=true
+[2024.11.25-03.56.40:306][116]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.25-03.56.40:315][116]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.25-03.56.40:324][116]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.25-03.56.40:334][116]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.25-03.56.40:337][116]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 65
+[2024.11.25-03.56.40:338][116]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=65
+[2024.11.25-03.56.40:342][116]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=65
+[2024.11.25-03.56.40:356][116]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2024.11.25-03.56.40:419][117]LogPlayLevel: Display: Destroying online subsystem :Context_252
+[2024.11.25-03.56.43:776][440]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2024.11.25-03.56.43:782][440]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.25-03.56.43:811][440]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Ilumination" FILE="F:/UnrealProjects/ArcadeSimulator/Arcade/Content/Levels/Ilumination.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.11.25-03.56.43:880][440]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2024.11.25-03.56.43:922][440]LogSavePackage: Moving output files for package: /Game/Levels/Ilumination
+[2024.11.25-03.56.43:922][440]LogSavePackage: Moving 'F:/UnrealProjects/ArcadeSimulator/Arcade/Saved/IluminationC9A8BD7146C34CDF7278D99F79D0C997.tmp' to 'F:/UnrealProjects/ArcadeSimulator/Arcade/Content/Levels/Ilumination.umap'
+[2024.11.25-03.56.43:939][440]LogFileHelpers: Saving map 'Ilumination' took 0.132
+[2024.11.25-03.56.43:945][440]LogFileHelpers: InternalPromptForCheckoutAndSave took 163 ms (total: 9.09 sec)
+[2024.11.25-03.56.43:948][440]AssetCheck: New page: Asset Save: Ilumination
+[2024.11.25-03.56.43:948][440]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Ilumination.Ilumination
