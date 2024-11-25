@@ -1565,3 +1565,672 @@ LogConfig: CVar [[con.DebugLateCheat:1]] deferred - dummy variable created
 [2024.11.25-15.28.38:534][943]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
 [2024.11.25-15.28.38:578][944]LogPlayLevel: Display: Destroying online subsystem :Context_25
 [2024.11.25-15.28.41:239][ 96]LogUObjectHash: Compacting FUObjectHashTables data took   2.64ms
+[2024.11.25-15.29.20:844][337]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.25-15.29.20:858][337]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.25-15.29.20:858][337]PIE: New page: PIE session: Ilumination (Nov 25, 2024, 9:29:20 AM)
+[2024.11.25-15.29.20:858][337]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Ilumination
+[2024.11.25-15.29.20:869][337]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011196s)
+[2024.11.25-15.29.20:869][337]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Ilumination.Ilumination to /Game/Levels/UEDPIE_0_Ilumination.Ilumination (0.011237s)
+[2024.11.25-15.29.20:879][337]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2024.11.25-15.29.20:880][337]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-15.29.20:880][337]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.25-15.29.20:881][337]LogAIModule: Creating AISystem for world Ilumination
+[2024.11.25-15.29.20:881][337]LogPlayLevel: PIE: World Init took: (0.000974s)
+[2024.11.25-15.29.20:881][337]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2024.11.25-15.29.20:881][337]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.25-15.29.20:881][337]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.25-15.29.20:881][337]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.25-15.29.20:881][337]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.25-15.29.20:881][337]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.25-15.29.20:881][337]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.25-15.29.20:881][337]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.25-15.29.20:881][337]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.25-15.29.20:882][337]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.25-15.29.20:882][337]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.25-15.29.20:882][337]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.25-15.29.20:883][337]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.25-15.29.20:929][337]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.11.25-15.29.20:929][337]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.25-15.29.20:929][337]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.25-15.29.20:929][337]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.25-15.29.20:930][337]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2024.11.25-15.29.20:930][337]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2024.11.25-15.29.20:931][337]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2024.11.25-15.29.20:931][337]LogInit: FAudioDevice initialized with ID 4.
+[2024.11.25-15.29.20:931][337]LogAudio: Display: Audio Device (ID: 4) registered with world 'Ilumination'.
+[2024.11.25-15.29.20:931][337]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2024.11.25-15.29.20:931][337]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 4
+[2024.11.25-15.29.20:934][337]LogLoad: Game class is 'MyGameGamemode_C'
+[2024.11.25-15.29.20:941][337]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Ilumination.Ilumination up for play (max tick rate 60) at 2024.11.25-12.29.20
+[2024.11.25-15.29.20:941][337]LogWorld: Bringing up level for play took: 0.006480
+[2024.11.25-15.29.20:944][337]LogOnline: OSS: Created online subsystem instance for: :Context_26
+[2024.11.25-15.29.20:945][337]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.25-15.29.20:945][337]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.25-15.29.20:945][337]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.11.25-15.29.20:955][337]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.11.25-15.29.20:955][337]PIE: Server logged in
+[2024.11.25-15.29.20:955][337]PIE: Play in editor total start time 0.098 seconds.
+[2024.11.25-15.29.22:356][417]Cmd: LevelEditor.ToggleImmersive
+[2024.11.25-15.29.22:364][417]LogViewport: Scene viewport resized to 891x221, mode Windowed.
+[2024.11.25-15.29.22:379][417]LogSlate: Took 0.000299 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2024.11.25-15.29.22:379][417]LogViewport: Scene viewport resized to 217x221, mode Windowed.
+[2024.11.25-15.29.22:474][417]LogViewport: Scene viewport resized to 217x221, mode Windowed.
+[2024.11.25-15.29.23:065][417]LogViewport: Scene viewport resized to 1394x648, mode Windowed.
+[2024.11.25-15.29.24:129][418]LogViewport: Scene viewport resized to 1924x1024, mode Windowed.
+[2024.11.25-15.29.32:453][866]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.11.25-15.29.32:453][866]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2024.11.25-15.29.32:453][866]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2024.11.25-15.29.34:752][  4]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.11.25-15.29.34:752][  4]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2024.11.25-15.29.42:562][461]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.11.25-15.29.42:563][461]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2024.11.25-15.29.46:613][704]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.11.25-15.29.46:613][704]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2024.11.25-15.29.53:615][ 72]LogSlate: Took 0.000579 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2024.11.25-15.30.14:310][301]LogShaderCompilers: Display: ================================================
+[2024.11.25-15.30.14:310][301]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.11.25-15.30.14:310][301]LogShaderCompilers: Display: Total job queries 165, among them cache hits 78 (47.27%)
+[2024.11.25-15.30.14:310][301]LogShaderCompilers: Display: Tracking 87 distinct input hashes that result in 38 distinct outputs (43.68%)
+[2024.11.25-15.30.14:310][301]LogShaderCompilers: Display: RAM used: 1.92 MiB of 819.20 MiB budget. Usage: 0.23%
+[2024.11.25-15.30.14:310][301]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.11.25-15.30.14:310][301]LogShaderCompilers: Display: Shaders Compiled: 0
+[2024.11.25-15.30.14:310][301]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0%)
+[2024.11.25-15.30.14:310][301]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2024.11.25-15.30.14:310][301]LogShaderCompilers: Display: ================================================
+[2024.11.25-15.30.53:630][651]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(954)]!
+[2024.11.25-15.30.53:630][651]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.11.25-15.30.53:630][651]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2024.11.25-15.30.57:311][872]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.11.25-15.30.57:311][872]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2024.11.25-15.30.57:315][872]LogBlueprintUserMessages: [MyGameInstance_C_2] Saved All
+[2024.11.25-15.31.02:030][155]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.11.25-15.31.02:030][155]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2024.11.25-15.31.04:630][311]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.11.25-15.31.04:630][311]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2024.11.25-15.32.06:965][358]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.11.25-15.32.06:965][358]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2024.11.25-15.32.09:615][517]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.11.25-15.32.09:615][517]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2024.11.25-15.32.11:733][644]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(954)]!
+[2024.11.25-15.32.11:733][644]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.11.25-15.32.11:733][644]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2024.11.25-15.32.14:865][832]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.11.25-15.32.14:865][832]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2024.11.25-15.32.14:866][832]LogBlueprintUserMessages: [BP_ExpansesController_C_1] can pay
+[2024.11.25-15.32.14:868][832]LogBlueprintUserMessages: [MyGameInstance_C_2] Saved All
+[2024.11.25-15.32.22:716][303]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.11.25-15.32.22:716][303]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2024.11.25-15.32.26:015][501]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.11.25-15.32.26:015][501]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2024.11.25-15.33.41:454][603]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(954)]!
+[2024.11.25-15.33.41:454][603]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.11.25-15.33.41:454][603]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2024.11.25-15.33.42:668][676]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.11.25-15.33.42:668][676]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2024.11.25-15.33.42:668][676]LogBlueprintUserMessages: [BP_ExpansesController_C_1] can pay
+[2024.11.25-15.33.42:668][676]LogBlueprintUserMessages: [BP_ExpansesController_C_1] can pay
+[2024.11.25-15.33.42:670][676]LogBlueprintUserMessages: [MyGameInstance_C_2] Saved All
+[2024.11.25-15.33.46:703][918]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.11.25-15.33.46:703][918]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2024.11.25-15.33.53:253][311]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.11.25-15.33.53:253][311]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2024.11.25-15.34.36:601][910]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2876.400146
+[2024.11.25-15.34.36:817][923]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2024.11.25-15.34.36:818][923]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2876.600830, Update Interval: 325.631897
+[2024.11.25-15.34.58:833][243]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(954)]!
+[2024.11.25-15.34.58:833][243]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.11.25-15.34.58:833][243]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2024.11.25-15.34.59:582][288]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.11.25-15.34.59:582][288]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2024.11.25-15.34.59:582][288]LogBlueprintUserMessages: [BP_ExpansesController_C_1] can pay
+[2024.11.25-15.34.59:582][288]LogBlueprintUserMessages: [BP_ExpansesController_C_1] can pay
+[2024.11.25-15.34.59:582][288]LogBlueprintUserMessages: [BP_ExpansesController_C_1] can pay
+[2024.11.25-15.34.59:584][288]LogBlueprintUserMessages: [MyGameInstance_C_2] Saved All
+[2024.11.25-15.35.03:900][547]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.11.25-15.35.03:900][547]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2024.11.25-15.35.12:800][ 81]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.11.25-15.35.12:800][ 81]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2024.11.25-15.36.17:901][985]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(954)]!
+[2024.11.25-15.36.17:901][985]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.11.25-15.36.17:901][985]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2024.11.25-15.36.19:416][ 76]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.11.25-15.36.19:416][ 76]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2024.11.25-15.36.19:416][ 76]LogBlueprintUserMessages: [BP_ExpansesController_C_1] can pay
+[2024.11.25-15.36.19:416][ 76]LogBlueprintUserMessages: [BP_ExpansesController_C_1] game over
+[2024.11.25-15.36.19:417][ 76]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.11.25-15.36.19:417][ 76]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2024.11.25-15.36.19:419][ 76]LogBlueprintUserMessages: [MyGameInstance_C_2] Saved All
+[2024.11.25-15.36.30:801][759]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CaptureDuringMouseDown
+[2024.11.25-15.36.30:805][759]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2024.11.25-15.36.30:805][759]LogGameState: Match State Changed from InProgress to LeavingMap
+[2024.11.25-15.36.30:805][759]LogNet: Browse: /Game/Levels/MainMenu_lvl
+[2024.11.25-15.36.30:805][759]LogLoad: LoadMap: /Game/Levels/MainMenu_lvl
+[2024.11.25-15.36.30:805][759]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Ilumination
+[2024.11.25-15.36.30:809][759]LogWorld: UWorld::CleanupWorld for Ilumination, bSessionEnded=true, bCleanupResources=true
+[2024.11.25-15.36.30:810][759]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.25-15.36.30:823][759]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.11.25-15.36.30:828][759]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2024.11.25-15.36.30:923][759]LogAudio: Display: Audio Device (ID: 4) registered with world 'MainMenu_lvl'.
+[2024.11.25-15.36.30:923][759]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-15.36.30:923][759]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.25-15.36.30:923][759]LogAIModule: Creating AISystem for world MainMenu_lvl
+[2024.11.25-15.36.30:924][759]LogPlayLevel: PIE: World Init took: (0.001024s)
+[2024.11.25-15.36.30:924][759]LogLoad: Game class is 'GameModeBase'
+[2024.11.25-15.36.30:924][759]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Meshs/Scenery/NeonFlipStructure/SM_WallSide.SM_WallSide being ready before playing
+[2024.11.25-15.36.30:924][759]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Meshs/Scenery/NeonFlipStructure/WallWithDoors_RightDoor.WallWithDoors_RightDoor being ready before playing
+[2024.11.25-15.36.30:934][759]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainMenu_lvl.MainMenu_lvl up for play (max tick rate 60) at 2024.11.25-12.36.30
+[2024.11.25-15.36.30:935][759]LogWorld: Bringing up level for play took: 0.010485
+[2024.11.25-15.36.30:940][759]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> NoCapture
+[2024.11.25-15.36.30:941][759]LogLoad: Took 0.135531 seconds to LoadMap(/Game/Levels/MainMenu_lvl)
+[2024.11.25-15.36.30:988][760]LogShaderCompilers: Display: ================================================
+[2024.11.25-15.36.30:988][760]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.11.25-15.36.30:989][760]LogShaderCompilers: Display: Total job queries 201, among them cache hits 102 (50.75%)
+[2024.11.25-15.36.30:989][760]LogShaderCompilers: Display: Tracking 99 distinct input hashes that result in 40 distinct outputs (40.40%)
+[2024.11.25-15.36.30:989][760]LogShaderCompilers: Display: RAM used: 2.16 MiB of 819.20 MiB budget. Usage: 0.26%
+[2024.11.25-15.36.30:989][760]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.11.25-15.36.30:989][760]LogShaderCompilers: Display: Shaders Compiled: 0
+[2024.11.25-15.36.30:989][760]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0%)
+[2024.11.25-15.36.30:989][760]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2024.11.25-15.36.30:989][760]LogShaderCompilers: Display: ================================================
+[2024.11.25-15.36.32:553][795]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.11.25-15.36.32:553][795]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2024.11.25-15.36.32:554][795]LogNet: Browse: /Game/Levels/Ilumination
+[2024.11.25-15.36.32:555][795]LogLoad: LoadMap: /Game/Levels/Ilumination
+[2024.11.25-15.36.32:555][795]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_MainMenu_lvl
+[2024.11.25-15.36.32:556][795]LogWorld: UWorld::CleanupWorld for MainMenu_lvl, bSessionEnded=true, bCleanupResources=true
+[2024.11.25-15.36.32:556][795]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.25-15.36.32:567][795]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.11.25-15.36.32:579][795]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2024.11.25-15.36.32:594][795]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Ilumination
+[2024.11.25-15.36.32:607][795]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012918s)
+[2024.11.25-15.36.32:607][795]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Ilumination.Ilumination to /Game/Levels/UEDPIE_0_Ilumination.Ilumination (0.012993s)
+[2024.11.25-15.36.32:607][795]LogAudio: Display: Audio Device (ID: 4) registered with world 'Ilumination'.
+[2024.11.25-15.36.32:607][795]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-15.36.32:608][795]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.25-15.36.32:608][795]LogAIModule: Creating AISystem for world Ilumination
+[2024.11.25-15.36.32:608][795]LogPlayLevel: PIE: World Init took: (0.000928s)
+[2024.11.25-15.36.32:608][795]LogLoad: Game class is 'MyGameGamemode_C'
+[2024.11.25-15.36.32:613][795]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Ilumination.Ilumination up for play (max tick rate 60) at 2024.11.25-12.36.32
+[2024.11.25-15.36.32:614][795]LogWorld: Bringing up level for play took: 0.004908
+[2024.11.25-15.36.32:616][795]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.25-15.36.32:616][795]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.25-15.36.32:616][795]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.11.25-15.36.32:640][795]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.11.25-15.36.32:640][795]LogLoad: Took 0.085484 seconds to LoadMap(/Game/Levels/UEDPIE_0_Ilumination)
+[2024.11.25-15.36.43:874][465]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.11.25-15.36.43:875][465]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2024.11.25-15.36.46:774][639]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.11.25-15.36.46:774][639]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2024.11.25-15.36.48:641][751]Cmd: LevelEditor.ToggleImmersive
+[2024.11.25-15.36.48:659][751]LogViewport: Scene viewport resized to 1711x872, mode Windowed.
+[2024.11.25-15.36.48:670][752]LogViewport: Scene viewport resized to 1514x732, mode Windowed.
+[2024.11.25-15.36.48:723][753]LogViewport: Scene viewport resized to 1233x533, mode Windowed.
+[2024.11.25-15.36.48:769][754]LogViewport: Scene viewport resized to 1135x464, mode Windowed.
+[2024.11.25-15.36.48:809][755]LogViewport: Scene viewport resized to 1115x450, mode Windowed.
+[2024.11.25-15.36.48:831][756]LogViewport: Scene viewport resized to 1114x449, mode Windowed.
+[2024.11.25-15.36.48:847][757]LogViewport: Scene viewport resized to 1114x448, mode Windowed.
+[2024.11.25-15.36.58:134][314]LogViewport: Scene viewport resized to 1114x450, mode Windowed.
+[2024.11.25-15.36.58:183][317]LogViewport: Scene viewport resized to 1114x453, mode Windowed.
+[2024.11.25-15.36.58:199][318]LogViewport: Scene viewport resized to 1114x456, mode Windowed.
+[2024.11.25-15.36.58:226][319]LogViewport: Scene viewport resized to 1114x464, mode Windowed.
+[2024.11.25-15.36.58:243][320]LogViewport: Scene viewport resized to 1114x468, mode Windowed.
+[2024.11.25-15.36.58:260][321]LogViewport: Scene viewport resized to 1114x470, mode Windowed.
+[2024.11.25-15.36.58:277][322]LogViewport: Scene viewport resized to 1114x473, mode Windowed.
+[2024.11.25-15.36.58:294][323]LogViewport: Scene viewport resized to 1114x475, mode Windowed.
+[2024.11.25-15.36.58:311][324]LogViewport: Scene viewport resized to 1114x476, mode Windowed.
+[2024.11.25-15.36.58:327][325]LogViewport: Scene viewport resized to 1114x478, mode Windowed.
+[2024.11.25-15.36.58:460][333]LogViewport: Scene viewport resized to 1114x479, mode Windowed.
+[2024.11.25-15.36.58:478][334]LogViewport: Scene viewport resized to 1114x481, mode Windowed.
+[2024.11.25-15.36.58:495][335]LogViewport: Scene viewport resized to 1114x484, mode Windowed.
+[2024.11.25-15.36.58:512][336]LogViewport: Scene viewport resized to 1114x493, mode Windowed.
+[2024.11.25-15.36.58:529][337]LogViewport: Scene viewport resized to 1114x500, mode Windowed.
+[2024.11.25-15.36.58:546][338]LogViewport: Scene viewport resized to 1114x507, mode Windowed.
+[2024.11.25-15.36.58:562][339]LogViewport: Scene viewport resized to 1114x514, mode Windowed.
+[2024.11.25-15.36.58:580][340]LogViewport: Scene viewport resized to 1114x522, mode Windowed.
+[2024.11.25-15.36.58:597][341]LogViewport: Scene viewport resized to 1114x528, mode Windowed.
+[2024.11.25-15.36.58:612][342]LogViewport: Scene viewport resized to 1114x534, mode Windowed.
+[2024.11.25-15.36.58:630][343]LogViewport: Scene viewport resized to 1114x537, mode Windowed.
+[2024.11.25-15.36.58:645][344]LogViewport: Scene viewport resized to 1114x539, mode Windowed.
+[2024.11.25-15.36.58:663][345]LogViewport: Scene viewport resized to 1114x542, mode Windowed.
+[2024.11.25-15.36.58:679][346]LogViewport: Scene viewport resized to 1114x543, mode Windowed.
+[2024.11.25-15.36.58:695][347]LogViewport: Scene viewport resized to 1114x547, mode Windowed.
+[2024.11.25-15.36.58:711][348]LogViewport: Scene viewport resized to 1114x550, mode Windowed.
+[2024.11.25-15.36.58:729][349]LogViewport: Scene viewport resized to 1114x552, mode Windowed.
+[2024.11.25-15.36.58:744][350]LogViewport: Scene viewport resized to 1114x554, mode Windowed.
+[2024.11.25-15.36.58:795][353]LogViewport: Scene viewport resized to 1114x553, mode Windowed.
+[2024.11.25-15.36.58:817][354]LogViewport: Scene viewport resized to 1114x536, mode Windowed.
+[2024.11.25-15.37.11:388][104]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Expanses/BP_ExpansesController.BP_ExpansesController
+[2024.11.25-15.37.11:389][104]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-15.37.11:389][104]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.25-15.37.23:345][807]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Interfaces/MyGameInstance.MyGameInstance
+[2024.11.25-15.37.23:345][807]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-15.37.23:345][807]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.25-15.37.39:006][692]LogSlate: Window 'Output Log' being destroyed
+[2024.11.25-15.37.40:799][799]LogViewport: Scene viewport resized to 1114x532, mode Windowed.
+[2024.11.25-15.37.40:816][800]LogViewport: Scene viewport resized to 1114x522, mode Windowed.
+[2024.11.25-15.37.40:838][801]LogViewport: Scene viewport resized to 1114x507, mode Windowed.
+[2024.11.25-15.37.40:854][802]LogViewport: Scene viewport resized to 1114x493, mode Windowed.
+[2024.11.25-15.37.40:869][803]LogViewport: Scene viewport resized to 1114x479, mode Windowed.
+[2024.11.25-15.37.40:886][804]LogViewport: Scene viewport resized to 1114x464, mode Windowed.
+[2024.11.25-15.37.40:903][805]LogViewport: Scene viewport resized to 1114x452, mode Windowed.
+[2024.11.25-15.37.40:919][806]LogViewport: Scene viewport resized to 1114x443, mode Windowed.
+[2024.11.25-15.37.40:936][807]LogViewport: Scene viewport resized to 1114x434, mode Windowed.
+[2024.11.25-15.37.40:953][808]LogViewport: Scene viewport resized to 1114x429, mode Windowed.
+[2024.11.25-15.37.40:972][809]LogViewport: Scene viewport resized to 1114x421, mode Windowed.
+[2024.11.25-15.37.44:749][ 15]LogSlate: Window 'Output Log' being destroyed
+[2024.11.25-15.37.48:420][231]LogBlueprintUserMessages: [MyGameInstance_C_2] Saved All
+[2024.11.25-15.37.55:217][634]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.25-15.37.55:218][634]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Ilumination
+[2024.11.25-15.37.55:220][634]LogWorld: UWorld::CleanupWorld for Ilumination, bSessionEnded=true, bCleanupResources=true
+[2024.11.25-15.37.55:221][634]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.25-15.37.55:232][634]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.25-15.37.55:236][634]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.25-15.37.55:246][634]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.25-15.37.55:248][634]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 4
+[2024.11.25-15.37.55:248][634]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2024.11.25-15.37.55:250][634]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2024.11.25-15.37.55:262][634]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2024.11.25-15.37.55:302][635]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2024.11.25-15.37.56:286][693]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.25-15.37.56:299][693]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.25-15.37.56:299][693]PIE: New page: PIE session: Ilumination (Nov 25, 2024, 9:37:56 AM)
+[2024.11.25-15.37.56:299][693]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Ilumination
+[2024.11.25-15.37.56:311][693]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011968s)
+[2024.11.25-15.37.56:311][693]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Ilumination.Ilumination to /Game/Levels/UEDPIE_0_Ilumination.Ilumination (0.012007s)
+[2024.11.25-15.37.56:321][693]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2024.11.25-15.37.56:323][693]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-15.37.56:323][693]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.25-15.37.56:323][693]LogAIModule: Creating AISystem for world Ilumination
+[2024.11.25-15.37.56:323][693]LogPlayLevel: PIE: World Init took: (0.000900s)
+[2024.11.25-15.37.56:323][693]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2024.11.25-15.37.56:323][693]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.25-15.37.56:323][693]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.25-15.37.56:323][693]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.25-15.37.56:323][693]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.25-15.37.56:323][693]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.25-15.37.56:323][693]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.25-15.37.56:323][693]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.25-15.37.56:323][693]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.25-15.37.56:323][693]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.25-15.37.56:323][693]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.25-15.37.56:323][693]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.25-15.37.56:326][693]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.25-15.37.56:371][693]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.11.25-15.37.56:372][693]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.25-15.37.56:372][693]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.25-15.37.56:372][693]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.25-15.37.56:373][693]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2024.11.25-15.37.56:373][693]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=5
+[2024.11.25-15.37.56:374][693]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2024.11.25-15.37.56:374][693]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2024.11.25-15.37.56:374][693]LogInit: FAudioDevice initialized with ID 5.
+[2024.11.25-15.37.56:374][693]LogAudio: Display: Audio Device (ID: 5) registered with world 'Ilumination'.
+[2024.11.25-15.37.56:374][693]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 5
+[2024.11.25-15.37.56:376][693]LogLoad: Game class is 'MyGameGamemode_C'
+[2024.11.25-15.37.56:382][693]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Ilumination.Ilumination up for play (max tick rate 60) at 2024.11.25-12.37.56
+[2024.11.25-15.37.56:382][693]LogWorld: Bringing up level for play took: 0.005870
+[2024.11.25-15.37.56:385][693]LogOnline: OSS: Created online subsystem instance for: :Context_29
+[2024.11.25-15.37.56:385][693]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.25-15.37.56:385][693]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.25-15.37.56:385][693]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.11.25-15.37.56:410][693]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.11.25-15.37.56:410][693]PIE: Server logged in
+[2024.11.25-15.37.56:410][693]PIE: Play in editor total start time 0.111 seconds.
+[2024.11.25-15.39.18:448][686]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(954)]!
+[2024.11.25-15.39.18:448][686]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.11.25-15.39.18:448][686]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2024.11.25-15.39.27:764][245]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.11.25-15.39.27:764][245]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2024.11.25-15.39.27:764][245]LogBlueprintUserMessages: [BP_ExpansesController_C_1] game over
+[2024.11.25-15.39.27:764][245]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.11.25-15.39.27:764][245]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2024.11.25-15.39.27:766][245]LogBlueprintUserMessages: [MyGameInstance_C_3] Saved All
+[2024.11.25-15.39.42:048][102]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2024.11.25-15.39.42:048][102]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CaptureDuringMouseDown
+[2024.11.25-15.39.42:049][102]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2024.11.25-15.39.42:049][102]LogGameState: Match State Changed from InProgress to LeavingMap
+[2024.11.25-15.39.42:049][102]LogNet: Browse: /Game/Levels/MainMenu_lvl
+[2024.11.25-15.39.42:049][102]LogLoad: LoadMap: /Game/Levels/MainMenu_lvl
+[2024.11.25-15.39.42:049][102]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Ilumination
+[2024.11.25-15.39.42:052][102]LogWorld: UWorld::CleanupWorld for Ilumination, bSessionEnded=true, bCleanupResources=true
+[2024.11.25-15.39.42:053][102]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.25-15.39.42:064][102]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.11.25-15.39.42:069][102]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2024.11.25-15.39.42:081][102]LogAudio: Display: Audio Device (ID: 5) registered with world 'MainMenu_lvl'.
+[2024.11.25-15.39.42:081][102]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-15.39.42:082][102]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.25-15.39.42:082][102]LogAIModule: Creating AISystem for world MainMenu_lvl
+[2024.11.25-15.39.42:082][102]LogPlayLevel: PIE: World Init took: (0.000870s)
+[2024.11.25-15.39.42:082][102]LogLoad: Game class is 'GameModeBase'
+[2024.11.25-15.39.42:091][102]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainMenu_lvl.MainMenu_lvl up for play (max tick rate 60) at 2024.11.25-12.39.42
+[2024.11.25-15.39.42:091][102]LogWorld: Bringing up level for play took: 0.009289
+[2024.11.25-15.39.42:095][102]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> NoCapture
+[2024.11.25-15.39.42:095][102]LogLoad: Took 0.046968 seconds to LoadMap(/Game/Levels/MainMenu_lvl)
+[2024.11.25-15.39.46:131][344]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.11.25-15.39.46:131][344]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2024.11.25-15.39.46:133][344]LogNet: Browse: /Game/Levels/Ilumination
+[2024.11.25-15.39.46:133][344]LogLoad: LoadMap: /Game/Levels/Ilumination
+[2024.11.25-15.39.46:133][344]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_MainMenu_lvl
+[2024.11.25-15.39.46:134][344]LogWorld: UWorld::CleanupWorld for MainMenu_lvl, bSessionEnded=true, bCleanupResources=true
+[2024.11.25-15.39.46:135][344]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.25-15.39.46:145][344]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.11.25-15.39.46:149][344]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2024.11.25-15.39.46:152][344]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Ilumination
+[2024.11.25-15.39.46:164][344]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011416s)
+[2024.11.25-15.39.46:164][344]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Ilumination.Ilumination to /Game/Levels/UEDPIE_0_Ilumination.Ilumination (0.011462s)
+[2024.11.25-15.39.46:164][344]LogAudio: Display: Audio Device (ID: 5) registered with world 'Ilumination'.
+[2024.11.25-15.39.46:164][344]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-15.39.46:164][344]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.25-15.39.46:164][344]LogAIModule: Creating AISystem for world Ilumination
+[2024.11.25-15.39.46:164][344]LogPlayLevel: PIE: World Init took: (0.000758s)
+[2024.11.25-15.39.46:164][344]LogLoad: Game class is 'MyGameGamemode_C'
+[2024.11.25-15.39.46:167][344]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Ilumination.Ilumination up for play (max tick rate 60) at 2024.11.25-12.39.46
+[2024.11.25-15.39.46:168][344]LogWorld: Bringing up level for play took: 0.003606
+[2024.11.25-15.39.46:169][344]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.25-15.39.46:169][344]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.25-15.39.46:169][344]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.11.25-15.39.46:190][344]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.11.25-15.39.46:191][344]LogLoad: Took 0.056982 seconds to LoadMap(/Game/Levels/UEDPIE_0_Ilumination)
+[2024.11.25-15.39.50:152][577]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.11.25-15.39.50:153][577]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2024.11.25-15.39.56:885][981]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.11.25-15.39.56:886][981]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2024.11.25-15.40.56:618][545]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3256.414551
+[2024.11.25-15.40.56:818][557]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2024.11.25-15.40.56:818][557]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3256.598389, Update Interval: 345.900452
+[2024.11.25-15.41.24:732][231]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(954)]!
+[2024.11.25-15.41.24:732][231]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.11.25-15.41.24:732][231]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2024.11.25-15.41.27:347][388]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.11.25-15.41.27:347][388]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2024.11.25-15.41.27:347][388]LogBlueprintUserMessages: [BP_ExpansesController_C_1] game over
+[2024.11.25-15.41.27:347][388]LogBlueprintDebug: Warning: Hit breakpoint on node 'CallFunc_DeleteSave', from offset 1061
+[2024.11.25-15.41.27:347][388]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/Blueprints/Expanses/BP_ExpansesController.BP_ExpansesController_C:OnDayChanged
+	Function /Game/Blueprints/Expanses/BP_ExpansesController.BP_ExpansesController_C:ExecuteUbergraph_BP_ExpansesController
+	Function /Game/Blueprints/Expanses/BP_ExpansesController.BP_ExpansesController_C:UpdateCurrentExpansesDay
+
+[2024.11.25-15.41.29:409][388]LogBlueprintDebug: Warning: Hit breakpoint on node 'K2Node_Event', from offset 0
+[2024.11.25-15.41.29:410][388]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/Blueprints/Expanses/BP_ExpansesController.BP_ExpansesController_C:OnDayChanged
+	Function /Game/Blueprints/Expanses/BP_ExpansesController.BP_ExpansesController_C:ExecuteUbergraph_BP_ExpansesController
+	Function /Game/Blueprints/Expanses/BP_ExpansesController.BP_ExpansesController_C:UpdateCurrentExpansesDay
+	Function /Game/Blueprints/Interfaces/MyGameInstance.MyGameInstance_C:DeleteSave
+
+[2024.11.25-15.41.37:972][388]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.11.25-15.41.37:972][388]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2024.11.25-15.41.39:257][388]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Widgets/Menus/WB_GameOver.WB_GameOver
+[2024.11.25-15.41.39:258][388]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-15.41.39:258][388]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.25-15.41.39:266][388]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-15.41.39:266][388]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.25-15.42.02:407][388]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Engine/EditorBlueprintResources/StandardMacros.StandardMacros
+[2024.11.25-15.42.02:407][388]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-15.42.02:407][388]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.25-15.42.17:706][388]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Widgets/Computer/WB_Computer.WB_Computer
+[2024.11.25-15.42.17:706][388]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-15.42.17:706][388]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.25-15.42.17:715][388]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-15.42.17:715][388]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.25-15.42.20:871][388]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Widgets/Computer/WB_ExpanseSlot.WB_ExpanseSlot
+[2024.11.25-15.42.20:871][388]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-15.42.20:871][388]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.25-15.42.20:879][388]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-15.42.20:879][388]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.25-15.42.53:859][388]LogSlate: Window 'WB_Computer' being destroyed
+[2024.11.25-15.42.59:461][388]LogBlueprintDebug: Warning: Hit breakpoint on node 'K2Node_Event', from offset 0
+[2024.11.25-15.42.59:461][388]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/Widgets/UI/WB_EndDay.WB_EndDay_C:BndEvt__WB_EndDay_NextDayBtn_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature
+	Function /Game/Widgets/UI/WB_EndDay.WB_EndDay_C:ExecuteUbergraph_WB_EndDay
+	Function /Game/Blueprints/DayCicle/BP_DayCicleController.BP_DayCicleController_C:NextDay
+	Function /Game/Blueprints/DayCicle/BP_DayCicleController.BP_DayCicleController_C:ExecuteUbergraph_BP_DayCicleController
+	Function /Game/Blueprints/Interfaces/MyGameInstance.MyGameInstance_C:SaveAll
+
+[2024.11.25-15.43.06:901][388]LogBlueprintUserMessages: [MyGameInstance_C_3] Saved All
+[2024.11.25-15.43.06:988][388]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.25-15.43.06:988][388]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Ilumination
+[2024.11.25-15.43.06:994][388]LogWorld: UWorld::CleanupWorld for Ilumination, bSessionEnded=true, bCleanupResources=true
+[2024.11.25-15.43.06:996][388]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.25-15.43.07:064][388]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.25-15.43.07:076][388]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.25-15.43.07:092][388]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.25-15.43.07:096][388]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 5
+[2024.11.25-15.43.07:096][388]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2024.11.25-15.43.07:098][388]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2024.11.25-15.43.07:121][388]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
+[2024.11.25-15.43.07:149][389]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2024.11.25-15.43.44:071][591]LogViewport: Scene viewport resized to 1114x424, mode Windowed.
+[2024.11.25-15.43.44:090][592]LogViewport: Scene viewport resized to 1114x430, mode Windowed.
+[2024.11.25-15.43.44:107][593]LogViewport: Scene viewport resized to 1114x440, mode Windowed.
+[2024.11.25-15.43.44:123][594]LogViewport: Scene viewport resized to 1114x453, mode Windowed.
+[2024.11.25-15.43.44:140][595]LogViewport: Scene viewport resized to 1114x468, mode Windowed.
+[2024.11.25-15.43.44:159][596]LogViewport: Scene viewport resized to 1114x483, mode Windowed.
+[2024.11.25-15.43.44:173][597]LogViewport: Scene viewport resized to 1114x497, mode Windowed.
+[2024.11.25-15.43.44:190][598]LogViewport: Scene viewport resized to 1114x512, mode Windowed.
+[2024.11.25-15.43.44:206][599]LogViewport: Scene viewport resized to 1114x530, mode Windowed.
+[2024.11.25-15.43.44:224][600]LogViewport: Scene viewport resized to 1114x544, mode Windowed.
+[2024.11.25-15.43.44:240][601]LogViewport: Scene viewport resized to 1114x559, mode Windowed.
+[2024.11.25-15.43.44:256][602]LogViewport: Scene viewport resized to 1114x572, mode Windowed.
+[2024.11.25-15.43.44:273][603]LogViewport: Scene viewport resized to 1114x587, mode Windowed.
+[2024.11.25-15.43.44:289][604]LogViewport: Scene viewport resized to 1114x599, mode Windowed.
+[2024.11.25-15.43.44:307][605]LogViewport: Scene viewport resized to 1114x610, mode Windowed.
+[2024.11.25-15.43.44:323][606]LogViewport: Scene viewport resized to 1114x620, mode Windowed.
+[2024.11.25-15.43.44:340][607]LogViewport: Scene viewport resized to 1114x627, mode Windowed.
+[2024.11.25-15.43.44:357][608]LogViewport: Scene viewport resized to 1114x632, mode Windowed.
+[2024.11.25-15.43.44:373][609]LogViewport: Scene viewport resized to 1114x635, mode Windowed.
+[2024.11.25-15.43.44:390][610]LogViewport: Scene viewport resized to 1114x637, mode Windowed.
+[2024.11.25-15.43.44:407][611]LogViewport: Scene viewport resized to 1114x639, mode Windowed.
+[2024.11.25-15.44.23:243][934]BlueprintLog: New page: Compile MyGameInstance
+[2024.11.25-15.44.23:350][934]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2024.11.25-15.44.23:577][934]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.25-15.44.23:717][934]LogSavePackage: Moving output files for package: /Game/Blueprints/Interfaces/MyGameInstance
+[2024.11.25-15.44.23:717][934]LogSavePackage: Moving '../../../../../../Users/jfkab/Documents/Unreal Projects/ArcadeSimulator/Arcade/Saved/MyGameInstanceE298CE2F4B58E3A77D86FD8005E2B5D9.tmp' to '../../../../../../Users/jfkab/Documents/Unreal Projects/ArcadeSimulator/Arcade/Content/Blueprints/Interfaces/MyGameInstance.uasset'
+[2024.11.25-15.44.23:730][934]LogFileHelpers: InternalPromptForCheckoutAndSave took 152 ms (total: 665 ms)
+[2024.11.25-15.44.23:735][934]AssetCheck: New page: Asset Save: MyGameInstance
+[2024.11.25-15.44.23:735][934]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Interfaces/MyGameInstance.MyGameInstance
+[2024.11.25-15.44.34:056][507]LogBlueprintDebug: Display: Encountered a blueprint breakpoint in /Game/Blueprints/Expanses/BP_ExpansesController.BP_ExpansesController without an associated node. The blueprint breakpoint has been removed
+[2024.11.25-15.44.34:056][507]LogBlueprintDebug: Display: Encountered a blueprint breakpoint in /Game/Blueprints/Expanses/BP_ExpansesController.BP_ExpansesController without an associated node. The blueprint breakpoint has been removed
+[2024.11.25-15.44.54:313][678]BlueprintLog: New page: Compile WB_GameOver
+[2024.11.25-15.44.54:349][678]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2024.11.25-15.44.54:407][678]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.25-15.44.54:484][678]LogScript: Warning: Accessed None trying to read property CallFunc_GetMyGameInstance_myGameInstance_6
+	WB_GameOver_C /Game/Levels/Ilumination.Ilumination:WB_GameOver_C_0
+	Function /Game/Widgets/Menus/WB_GameOver.WB_GameOver_C:UpdageGameStatistics:01E6
+[2024.11.25-15.44.54:484][678]LogScript: Warning: Accessed None trying to read property CallFunc_GetMyGameInstance_myGameInstance_5
+	WB_GameOver_C /Game/Levels/Ilumination.Ilumination:WB_GameOver_C_0
+	Function /Game/Widgets/Menus/WB_GameOver.WB_GameOver_C:UpdageGameStatistics:02B7
+[2024.11.25-15.44.54:484][678]LogScript: Warning: Accessed None trying to read property CallFunc_GetMyGameInstance_myGameInstance_4
+	WB_GameOver_C /Game/Levels/Ilumination.Ilumination:WB_GameOver_C_0
+	Function /Game/Widgets/Menus/WB_GameOver.WB_GameOver_C:UpdageGameStatistics:0388
+[2024.11.25-15.44.54:484][678]LogScript: Warning: Accessed None trying to read property CallFunc_GetMyGameInstance_myGameInstance_4
+	WB_GameOver_C /Game/Levels/Ilumination.Ilumination:WB_GameOver_C_0
+	Function /Game/Widgets/Menus/WB_GameOver.WB_GameOver_C:UpdageGameStatistics:03A7
+[2024.11.25-15.44.54:484][678]LogScript: Warning: Accessed None trying to read property CallFunc_GetMyGameInstance_myGameInstance_3
+	WB_GameOver_C /Game/Levels/Ilumination.Ilumination:WB_GameOver_C_0
+	Function /Game/Widgets/Menus/WB_GameOver.WB_GameOver_C:UpdageGameStatistics:049D
+[2024.11.25-15.44.54:484][678]LogScript: Warning: Accessed None trying to read property CallFunc_GetMyGameInstance_myGameInstance_2
+	WB_GameOver_C /Game/Levels/Ilumination.Ilumination:WB_GameOver_C_0
+	Function /Game/Widgets/Menus/WB_GameOver.WB_GameOver_C:UpdageGameStatistics:0546
+[2024.11.25-15.44.54:485][678]LogScript: Warning: Accessed None trying to read property CallFunc_GetMyGameInstance_myGameInstance_1
+	WB_GameOver_C /Game/Levels/Ilumination.Ilumination:WB_GameOver_C_0
+	Function /Game/Widgets/Menus/WB_GameOver.WB_GameOver_C:UpdageGameStatistics:05EF
+[2024.11.25-15.44.54:485][678]LogScript: Warning: Accessed None trying to read property CallFunc_GetMyGameInstance_myGameInstance
+	WB_GameOver_C /Game/Levels/Ilumination.Ilumination:WB_GameOver_C_0
+	Function /Game/Widgets/Menus/WB_GameOver.WB_GameOver_C:UpdageGameStatistics:009B
+[2024.11.25-15.44.54:493][678]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/Menus/WB_GameOver" FILE="../../../../../../Users/jfkab/Documents/Unreal Projects/ArcadeSimulator/Arcade/Content/Widgets/Menus/WB_GameOver.uasset" SILENT=true
+[2024.11.25-15.44.54:517][678]LogSavePackage: Moving output files for package: /Game/Widgets/Menus/WB_GameOver
+[2024.11.25-15.44.54:518][678]LogSavePackage: Moving '../../../../../../Users/jfkab/Documents/Unreal Projects/ArcadeSimulator/Arcade/Saved/WB_GameOverC07045EA4BC0A0423C948CA70A5F739C.tmp' to '../../../../../../Users/jfkab/Documents/Unreal Projects/ArcadeSimulator/Arcade/Content/Widgets/Menus/WB_GameOver.uasset'
+[2024.11.25-15.44.54:528][678]LogFileHelpers: InternalPromptForCheckoutAndSave took 120 ms (total: 785 ms)
+[2024.11.25-15.44.54:530][678]AssetCheck: New page: Asset Save: WB_GameOver
+[2024.11.25-15.44.54:530][678]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/Menus/WB_GameOver.WB_GameOver
+[2024.11.25-15.44.57:029][820]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.25-15.44.57:044][820]BlueprintLog: New page: Pre-Play auto-recompile
+[2024.11.25-15.44.57:061][820]LogPlayLevel: [PlayLevel] Compiling BP_ExpansesController before play...
+[2024.11.25-15.44.57:250][820]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.25-15.44.57:327][820]LogSavePackage: Moving output files for package: /Game/Blueprints/Expanses/BP_ExpansesController
+[2024.11.25-15.44.57:327][820]LogSavePackage: Moving '../../../../../../Users/jfkab/Documents/Unreal Projects/ArcadeSimulator/Arcade/Saved/BP_ExpansesController981538974E89289F5DC774ABB4A1F3AA.tmp' to '../../../../../../Users/jfkab/Documents/Unreal Projects/ArcadeSimulator/Arcade/Content/Blueprints/Expanses/BP_ExpansesController.uasset'
+[2024.11.25-15.44.57:337][820]LogFileHelpers: InternalPromptForCheckoutAndSave took 87 ms (total: 872 ms)
+[2024.11.25-15.44.57:357][820]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2024.11.25-15.44.57:363][820]LogPlayLevel: PlayLevel: Blueprint regeneration took 319 ms (1 blueprints)
+[2024.11.25-15.44.57:363][820]PIE: New page: PIE session: Ilumination (Nov 25, 2024, 9:44:57 AM)
+[2024.11.25-15.44.57:363][820]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Ilumination
+[2024.11.25-15.44.57:375][820]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011703s)
+[2024.11.25-15.44.57:375][820]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Ilumination.Ilumination to /Game/Levels/UEDPIE_0_Ilumination.Ilumination (0.011744s)
+[2024.11.25-15.44.57:386][820]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2024.11.25-15.44.57:388][820]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-15.44.57:388][820]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.25-15.44.57:388][820]LogAIModule: Creating AISystem for world Ilumination
+[2024.11.25-15.44.57:389][820]LogPlayLevel: PIE: World Init took: (0.001008s)
+[2024.11.25-15.44.57:389][820]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2024.11.25-15.44.57:389][820]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.25-15.44.57:389][820]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.25-15.44.57:389][820]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.25-15.44.57:389][820]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.25-15.44.57:389][820]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.25-15.44.57:389][820]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.25-15.44.57:389][820]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.25-15.44.57:389][820]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.25-15.44.57:389][820]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.25-15.44.57:389][820]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.25-15.44.57:389][820]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.25-15.44.57:391][820]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.25-15.44.57:464][820]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.11.25-15.44.57:464][820]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.25-15.44.57:464][820]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.25-15.44.57:464][820]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.25-15.44.57:465][820]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=6
+[2024.11.25-15.44.57:465][820]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=6
+[2024.11.25-15.44.57:466][820]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=6
+[2024.11.25-15.44.57:466][820]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=6
+[2024.11.25-15.44.57:466][820]LogInit: FAudioDevice initialized with ID 6.
+[2024.11.25-15.44.57:466][820]LogAudio: Display: Audio Device (ID: 6) registered with world 'Ilumination'.
+[2024.11.25-15.44.57:466][820]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 6
+[2024.11.25-15.44.57:469][820]LogLoad: Game class is 'MyGameGamemode_C'
+[2024.11.25-15.44.57:478][820]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Ilumination.Ilumination up for play (max tick rate 60) at 2024.11.25-12.44.57
+[2024.11.25-15.44.57:479][820]LogWorld: Bringing up level for play took: 0.008883
+[2024.11.25-15.44.57:482][820]LogOnline: OSS: Created online subsystem instance for: :Context_37
+[2024.11.25-15.44.57:482][820]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.25-15.44.57:482][820]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.25-15.44.57:482][820]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.11.25-15.44.57:506][820]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.11.25-15.44.57:506][820]PIE: Server logged in
+[2024.11.25-15.44.57:507][820]PIE: Play in editor total start time 0.463 seconds.
+[2024.11.25-15.44.57:580][821]AssetCheck: New page: Asset Save: BP_ExpansesController
+[2024.11.25-15.44.57:580][821]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Expanses/BP_ExpansesController.BP_ExpansesController
+[2024.11.25-15.45.06:135][293]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.11.25-15.45.06:135][293]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2024.11.25-15.45.06:135][293]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2024.11.25-15.45.08:651][444]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.11.25-15.45.08:651][444]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2024.11.25-15.46.15:275][441]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(954)]!
+[2024.11.25-15.46.15:275][441]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.11.25-15.46.15:275][441]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2024.11.25-15.46.32:174][455]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.11.25-15.46.32:174][455]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2024.11.25-15.46.32:174][455]LogBlueprintUserMessages: [BP_ExpansesController_C_1] game over
+[2024.11.25-15.46.32:174][455]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.11.25-15.46.32:174][455]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2024.11.25-15.46.32:176][455]LogBlueprintDebug: Warning: Hit breakpoint on node 'K2Node_Event', from offset 0
+[2024.11.25-15.46.32:176][455]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/Widgets/UI/WB_EndDay.WB_EndDay_C:BndEvt__WB_EndDay_NextDayBtn_K2Node_ComponentBoundEvent_0_OnButtonClickedEvent__DelegateSignature
+	Function /Game/Widgets/UI/WB_EndDay.WB_EndDay_C:ExecuteUbergraph_WB_EndDay
+	Function /Game/Blueprints/DayCicle/BP_DayCicleController.BP_DayCicleController_C:NextDay
+	Function /Game/Blueprints/DayCicle/BP_DayCicleController.BP_DayCicleController_C:ExecuteUbergraph_BP_DayCicleController
+	Function /Game/Blueprints/Interfaces/MyGameInstance.MyGameInstance_C:SaveAll
+
+[2024.11.25-15.46.35:633][455]LogBlueprintUserMessages: [MyGameInstance_C_4] Saved All
+[2024.11.25-15.46.35:643][456]LogBlueprintDebug: Warning: Hit breakpoint on node 'K2Node_Event', from offset 0
+[2024.11.25-15.46.35:644][456]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/Widgets/Menus/WB_GameOver.WB_GameOver_C:ExecuteUbergraph_WB_GameOver
+	Function /Game/Blueprints/Interfaces/MyGameInstance.MyGameInstance_C:DeleteSave
+
+[2024.11.25-15.46.39:119][456]LogBlueprintDebug: Display: Encountered a blueprint breakpoint in /Game/Blueprints/Interfaces/MyGameInstance.MyGameInstance without an associated node. The blueprint breakpoint has been removed
+[2024.11.25-15.46.39:119][456]LogBlueprintDebug: Display: Encountered a blueprint breakpoint in /Game/Blueprints/Interfaces/MyGameInstance.MyGameInstance without an associated node. The blueprint breakpoint has been removed
+[2024.11.25-15.46.42:579][456]LogBlueprintDebug: Display: Encountered a blueprint breakpoint in /Game/Blueprints/Interfaces/MyGameInstance.MyGameInstance without an associated node. The blueprint breakpoint has been removed
+[2024.11.25-15.46.42:579][456]LogBlueprintDebug: Display: Encountered a blueprint breakpoint in /Game/Blueprints/Interfaces/MyGameInstance.MyGameInstance without an associated node. The blueprint breakpoint has been removed
+[2024.11.25-15.46.54:051][ 99]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CaptureDuringMouseDown
+[2024.11.25-15.46.54:054][ 99]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2024.11.25-15.46.54:054][ 99]LogGameState: Match State Changed from InProgress to LeavingMap
+[2024.11.25-15.46.54:054][ 99]LogNet: Browse: /Game/Levels/MainMenu_lvl
+[2024.11.25-15.46.54:055][ 99]LogLoad: LoadMap: /Game/Levels/MainMenu_lvl
+[2024.11.25-15.46.54:055][ 99]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Ilumination
+[2024.11.25-15.46.54:058][ 99]LogWorld: UWorld::CleanupWorld for Ilumination, bSessionEnded=true, bCleanupResources=true
+[2024.11.25-15.46.54:059][ 99]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.25-15.46.54:073][ 99]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.11.25-15.46.54:078][ 99]LogUObjectHash: Compacting FUObjectHashTables data took   1.22ms
+[2024.11.25-15.46.54:091][ 99]LogAudio: Display: Audio Device (ID: 6) registered with world 'MainMenu_lvl'.
+[2024.11.25-15.46.54:091][ 99]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-15.46.54:091][ 99]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.25-15.46.54:092][ 99]LogAIModule: Creating AISystem for world MainMenu_lvl
+[2024.11.25-15.46.54:092][ 99]LogPlayLevel: PIE: World Init took: (0.000932s)
+[2024.11.25-15.46.54:092][ 99]LogLoad: Game class is 'GameModeBase'
+[2024.11.25-15.46.54:102][ 99]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainMenu_lvl.MainMenu_lvl up for play (max tick rate 60) at 2024.11.25-12.46.54
+[2024.11.25-15.46.54:102][ 99]LogWorld: Bringing up level for play took: 0.010033
+[2024.11.25-15.46.54:106][ 99]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> NoCapture
+[2024.11.25-15.46.54:106][ 99]LogLoad: Took 0.051475 seconds to LoadMap(/Game/Levels/MainMenu_lvl)
+[2024.11.25-15.46.55:375][174]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.11.25-15.46.55:375][174]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2024.11.25-15.46.55:376][174]LogNet: Browse: /Game/Levels/Ilumination
+[2024.11.25-15.46.55:376][174]LogLoad: LoadMap: /Game/Levels/Ilumination
+[2024.11.25-15.46.55:376][174]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_MainMenu_lvl
+[2024.11.25-15.46.55:378][174]LogWorld: UWorld::CleanupWorld for MainMenu_lvl, bSessionEnded=true, bCleanupResources=true
+[2024.11.25-15.46.55:378][174]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.25-15.46.55:390][174]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.11.25-15.46.55:392][174]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2024.11.25-15.46.55:395][174]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Ilumination
+[2024.11.25-15.46.55:409][174]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013757s)
+[2024.11.25-15.46.55:409][174]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Ilumination.Ilumination to /Game/Levels/UEDPIE_0_Ilumination.Ilumination (0.013838s)
+[2024.11.25-15.46.55:409][174]LogAudio: Display: Audio Device (ID: 6) registered with world 'Ilumination'.
+[2024.11.25-15.46.55:409][174]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-15.46.55:409][174]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.25-15.46.55:410][174]LogAIModule: Creating AISystem for world Ilumination
+[2024.11.25-15.46.55:410][174]LogPlayLevel: PIE: World Init took: (0.000832s)
+[2024.11.25-15.46.55:410][174]LogLoad: Game class is 'MyGameGamemode_C'
+[2024.11.25-15.46.55:414][174]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Ilumination.Ilumination up for play (max tick rate 60) at 2024.11.25-12.46.55
+[2024.11.25-15.46.55:414][174]LogWorld: Bringing up level for play took: 0.003860
+[2024.11.25-15.46.55:416][174]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.25-15.46.55:416][174]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.25-15.46.55:416][174]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.11.25-15.46.55:426][174]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.11.25-15.46.55:426][174]LogLoad: Took 0.049727 seconds to LoadMap(/Game/Levels/UEDPIE_0_Ilumination)
+[2024.11.25-15.46.58:447][350]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.25-15.46.58:448][350]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Ilumination
+[2024.11.25-15.46.58:449][350]LogWorld: UWorld::CleanupWorld for Ilumination, bSessionEnded=true, bCleanupResources=true
+[2024.11.25-15.46.58:451][350]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.25-15.46.58:456][350]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.25-15.46.58:461][350]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.25-15.46.58:471][350]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.25-15.46.58:472][350]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 6
+[2024.11.25-15.46.58:472][350]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2024.11.25-15.46.58:473][350]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2024.11.25-15.46.58:484][350]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2024.11.25-15.46.58:567][351]LogPlayLevel: Display: Destroying online subsystem :Context_37
+[2024.11.25-15.47.01:280][510]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2024.11.25-15.47.01:280][510]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.25-15.47.01:358][510]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2024.11.25-15.47.01:358][510]LogWorld: UWorld::CleanupWorld for World_20, bSessionEnded=true, bCleanupResources=true
+[2024.11.25-15.47.01:358][510]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.25-15.47.01:435][510]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2024.11.25-15.47.01:435][510]LogWorld: UWorld::CleanupWorld for World_23, bSessionEnded=true, bCleanupResources=true
+[2024.11.25-15.47.01:435][510]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.25-15.47.01:494][510]LogWorld: UWorld::CleanupWorld for World_31, bSessionEnded=true, bCleanupResources=true
+[2024.11.25-15.47.01:494][510]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.25-15.47.01:516][510]LogWorld: UWorld::CleanupWorld for World_30, bSessionEnded=true, bCleanupResources=true
+[2024.11.25-15.47.01:516][510]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.25-15.47.01:569][510]LogWorld: UWorld::CleanupWorld for World_29, bSessionEnded=true, bCleanupResources=true
+[2024.11.25-15.47.01:569][510]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.25-15.47.01:589][510]LogWorld: UWorld::CleanupWorld for World_28, bSessionEnded=true, bCleanupResources=true
+[2024.11.25-15.47.01:589][510]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.25-15.47.01:658][510]LogWorld: UWorld::CleanupWorld for World_24, bSessionEnded=true, bCleanupResources=true
+[2024.11.25-15.47.01:658][510]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.25-15.47.01:741][510]LogWorld: UWorld::CleanupWorld for World_26, bSessionEnded=true, bCleanupResources=true
+[2024.11.25-15.47.01:741][510]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.25-15.47.01:762][510]LogWorld: UWorld::CleanupWorld for World_25, bSessionEnded=true, bCleanupResources=true
+[2024.11.25-15.47.01:762][510]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.25-15.47.01:833][510]LogWorld: UWorld::CleanupWorld for World_27, bSessionEnded=true, bCleanupResources=true
+[2024.11.25-15.47.01:833][510]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
