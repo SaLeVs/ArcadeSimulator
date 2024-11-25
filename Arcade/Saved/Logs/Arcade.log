@@ -36,10 +36,14 @@ LogConfig: Display: Loading IOS ini files took 0.27 seconds
 LogPluginManager: Mounting Engine plugin Bridge
 LogConfig: Display: Loading Android ini files took 0.30 seconds
 LogPluginManager: Mounting Engine plugin EnhancedInput
+LogConfig: Display: Loading Linux ini files took 0.04 seconds
 LogPluginManager: Found config from plugin[EnhancedInput] Input
-LogPluginManager: Mounting Engine plugin Fab
+LogConfig: Display: Loading LinuxArm64 ini files took 0.04 seconds
 LogPluginManager: Mounting Engine plugin FastBuildController
+LogConfig: Display: Loading TVOS ini files took 0.04 seconds
+LogAssetRegistry: Display: Asset registry cache read as 25.3 MiB from ../../../../../../Users/ra00339799/Documents/Unreal Projects/ArcadeSimulator/Arcade/Intermediate/CachedAssetRegistry_0.bin
 LogPluginManager: Mounting Engine plugin MeshPainting
+LogPluginManager: Mounting Engine plugin Bridge
 LogPluginManager: Mounting Engine plugin TraceUtilities
 LogConfig: Display: Loading LinuxArm64 ini files took 0.36 seconds
 LogPluginManager: Mounting Engine plugin XGEController
@@ -152,6 +156,8 @@ LogPluginManager: Mounting Engine plugin AssetTags
 LogPluginManager: Mounting Engine plugin AudioSynesthesia
 LogPluginManager: Mounting Engine plugin AudioCapture
 LogPluginManager: Mounting Engine plugin AudioWidgets
+LogPluginManager: Mounting Engine plugin AndroidMoviePlayer
+LogPluginManager: Mounting Engine plugin CustomMeshComponent
 LogPluginManager: Mounting Engine plugin ChunkDownloader
 LogPluginManager: Mounting Engine plugin CableComponent
 LogPluginManager: Mounting Engine plugin ExampleDeviceProfileSelector
@@ -160,6 +166,7 @@ LogPluginManager: Mounting Engine plugin GeometryCache
 LogPluginManager: Mounting Engine plugin GeometryProcessing
 LogPluginManager: Mounting Engine plugin GoogleCloudMessaging
 LogPluginManager: Mounting Engine plugin GooglePAD
+LogPluginManager: Mounting Engine plugin GeometryProcessing
 LogPluginManager: Mounting Engine plugin InputDebugging
 LogPluginManager: Found config from plugin[InputDebugging] Input
 LogPluginManager: Mounting Engine plugin LinuxDeviceProfileSelector
@@ -209,8 +216,9 @@ LogPluginManager: Mounting Engine plugin ContentBrowserClassDataSource
 LogPluginManager: Mounting Engine plugin ObjectMixer
 LogPluginManager: Mounting Engine plugin OnlineSubsystemGooglePlay
 LogPluginManager: Mounting Engine plugin OnlineSubsystemIOS
+LogPluginManager: Mounting Engine plugin LightMixer
+LogPluginManager: Mounting Engine plugin ObjectMixer
 LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Bridge/Content/' mounted to '/Bridge/'
-LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Fab/Content/' mounted to '/Fab/'
 LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/TraceUtilities/Content/' mounted to '/TraceUtilities/'
 LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/ChaosCaching/Content/' mounted to '/ChaosCaching/'
 LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/ChaosNiagara/Content/' mounted to '/ChaosNiagara/'
@@ -262,7 +270,6 @@ LogWindows: File 'WinPixGpuCapturer.dll' does not exist
 PixWinPlugin: PIX capture plugin failed to initialize! Check that the process is launched from PIX.
 LogConfig: Applying CVar settings from Section [/Script/RenderDocPlugin.RenderDocPluginSettings] File [Engine]
 RenderDocPlugin: Display: RenderDoc plugin will not be loaded. Use '-AttachRenderDoc' on the cmd line or enable 'renderdoc.AutoAttach' in the plugin settings.
-LogEOSSDK: Initializing EOSSDK Version:1.16.1-27379709
 LogInit: Using libcurl 8.4.0
 LogInit:  - built for Windows
 LogInit:  - supports SSL with OpenSSL/1.1.1t
