@@ -2381,3 +2381,1041 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.11.24-22.33.08:507][576]LogScript: Warning: Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue
 	WB_Computer_C /Engine/Transient.World_16:WB_Computer_C_14
 	Function /Game/Widgets/WB_Computer.WB_Computer_C:ExecuteUbergraph_WB_Computer:0071
+[2024.11.24-22.33.59:340][169]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.24-22.33.59:352][169]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.24-22.33.59:352][169]PIE: New page: PIE session: MainMenu_lvl (Nov 24, 2024, 4:33:59 PM)
+[2024.11.24-22.33.59:390][169]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainMenu_lvl
+[2024.11.24-22.33.59:395][169]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005012s)
+[2024.11.24-22.33.59:395][169]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainMenu_lvl.MainMenu_lvl to /Game/Levels/UEDPIE_0_MainMenu_lvl.MainMenu_lvl (0.005053s)
+[2024.11.24-22.33.59:415][169]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2024.11.24-22.33.59:417][169]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.24-22.33.59:417][169]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.24-22.33.59:417][169]LogAIModule: Creating AISystem for world MainMenu_lvl
+[2024.11.24-22.33.59:417][169]LogPlayLevel: PIE: World Init took: (0.000762s)
+[2024.11.24-22.33.59:417][169]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2024.11.24-22.33.59:418][169]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.24-22.33.59:418][169]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.24-22.33.59:418][169]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.24-22.33.59:418][169]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.24-22.33.59:418][169]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.24-22.33.59:418][169]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.24-22.33.59:418][169]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.24-22.33.59:418][169]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.24-22.33.59:418][169]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.24-22.33.59:418][169]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.24-22.33.59:418][169]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.24-22.33.59:420][169]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.24-22.33.59:437][169]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (Realtek(R) Audio)
+[2024.11.24-22.33.59:437][169]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.24-22.33.59:437][169]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.24-22.33.59:437][169]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.24-22.33.59:438][169]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=7
+[2024.11.24-22.33.59:438][169]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=7
+[2024.11.24-22.33.59:439][169]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=7
+[2024.11.24-22.33.59:439][169]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=7
+[2024.11.24-22.33.59:439][169]LogInit: FAudioDevice initialized with ID 7.
+[2024.11.24-22.33.59:439][169]LogAudio: Display: Audio Device (ID: 7) registered with world 'MainMenu_lvl'.
+[2024.11.24-22.33.59:439][169]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 7
+[2024.11.24-22.33.59:442][169]LogLoad: Game class is 'GameModeBase'
+[2024.11.24-22.33.59:443][169]PIE: Warning: Trying to simulate physics on ''/Game/Levels/UEDPIE_0_MainMenu_lvl.MainMenu_lvl:PersistentLevel.BP_BuildMachine_PinballV1_C_1.BuildMesh'' but it has ComplexAsSimple collision.
+[2024.11.24-22.33.59:443][169]PIE: Warning: Trying to simulate physics on ''/Game/Levels/UEDPIE_0_MainMenu_lvl.MainMenu_lvl:PersistentLevel.BP_BuildMachine_PinballV2_C_1.BuildMesh'' but it has ComplexAsSimple collision.
+[2024.11.24-22.33.59:443][169]PIE: Warning: Trying to simulate physics on ''/Game/Levels/UEDPIE_0_MainMenu_lvl.MainMenu_lvl:PersistentLevel.BP_BuildMachine_PinballV3_C_1.BuildMesh'' but it has ComplexAsSimple collision.
+[2024.11.24-22.33.59:443][169]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainMenu_lvl.MainMenu_lvl up for play (max tick rate 0) at 2024.11.24-19.33.59
+[2024.11.24-22.33.59:443][169]LogWorld: Bringing up level for play took: 0.001577
+[2024.11.24-22.33.59:445][169]LogOnline: OSS: Created online subsystem instance for: :Context_21
+[2024.11.24-22.33.59:448][169]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.11.24-22.33.59:448][169]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2024.11.24-22.33.59:448][169]PIE: Server logged in
+[2024.11.24-22.33.59:449][169]PIE: Play in editor total start time 0.097 seconds.
+[2024.11.24-22.34.00:401][255]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.11.24-22.34.00:401][255]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2024.11.24-22.34.00:402][255]LogNet: Browse: /Game/Levels/Ilumination
+[2024.11.24-22.34.00:402][255]LogLoad: LoadMap: /Game/Levels/Ilumination
+[2024.11.24-22.34.00:402][255]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_MainMenu_lvl
+[2024.11.24-22.34.00:403][255]LogWorld: UWorld::CleanupWorld for MainMenu_lvl, bSessionEnded=true, bCleanupResources=true
+[2024.11.24-22.34.00:403][255]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.24-22.34.00:452][255]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.11.24-22.34.00:455][255]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2024.11.24-22.34.00:468][255]LogAudio: Display: Audio Device (ID: 7) registered with world 'Ilumination'.
+[2024.11.24-22.34.00:469][255]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.24-22.34.00:469][255]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.24-22.34.00:469][255]LogAIModule: Creating AISystem for world Ilumination
+[2024.11.24-22.34.00:469][255]LogPlayLevel: PIE: World Init took: (0.000764s)
+[2024.11.24-22.34.00:469][255]LogLoad: Game class is 'MyGameGamemode_C'
+[2024.11.24-22.34.00:481][255]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Ilumination.Ilumination up for play (max tick rate 0) at 2024.11.24-19.34.00
+[2024.11.24-22.34.00:481][255]LogWorld: Bringing up level for play took: 0.011954
+[2024.11.24-22.34.00:483][255]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.24-22.34.00:483][255]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.24-22.34.00:483][255]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.11.24-22.34.00:491][255]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.11.24-22.34.00:491][255]LogLoad: Took 0.088816 seconds to LoadMap(/Game/Levels/Ilumination)
+[2024.11.24-22.34.02:392][439]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.11.24-22.34.02:392][439]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2024.11.24-22.34.02:392][439]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2024.11.24-22.34.59:099][532]LogBlueprintUserMessages: [WB_Computer_C_0] BP_BuildBox_Small_C
+[2024.11.24-22.35.00:951][730]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.11.24-22.35.00:951][730]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2024.11.24-22.35.02:648][914]Cmd: LevelEditor.ToggleImmersive
+[2024.11.24-22.35.02:660][914]LogViewport: Scene viewport resized to 1680x854, mode Windowed.
+[2024.11.24-22.35.02:684][915]LogViewport: Scene viewport resized to 2067x1094, mode Windowed.
+[2024.11.24-22.35.02:713][916]LogViewport: Scene viewport resized to 2366x1279, mode Windowed.
+[2024.11.24-22.35.02:752][917]LogViewport: Scene viewport resized to 2529x1380, mode Windowed.
+[2024.11.24-22.35.02:784][918]LogViewport: Scene viewport resized to 2560x1400, mode Windowed.
+[2024.11.24-22.35.09:050][348]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.24-22.35.09:051][348]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Ilumination
+[2024.11.24-22.35.09:052][348]LogWorld: UWorld::CleanupWorld for Ilumination, bSessionEnded=true, bCleanupResources=true
+[2024.11.24-22.35.09:053][348]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.24-22.35.09:060][348]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.24-22.35.09:065][348]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.24-22.35.09:078][348]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.24-22.35.09:079][348]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 7
+[2024.11.24-22.35.09:079][348]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2024.11.24-22.35.09:080][348]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2024.11.24-22.35.09:087][348]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2024.11.24-22.35.09:152][349]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2024.11.24-22.35.23:858][ 70]LogViewport: Scene viewport resized to 2414x1310, mode Windowed.
+[2024.11.24-22.35.23:882][ 71]LogViewport: Scene viewport resized to 1969x1034, mode Windowed.
+[2024.11.24-22.35.23:906][ 72]LogViewport: Scene viewport resized to 1755x900, mode Windowed.
+[2024.11.24-22.35.23:929][ 73]LogViewport: Scene viewport resized to 1607x809, mode Windowed.
+[2024.11.24-22.35.23:986][ 74]LogViewport: Scene viewport resized to 1448x710, mode Windowed.
+[2024.11.24-22.35.24:008][ 75]LogViewport: Scene viewport resized to 1432x700, mode Windowed.
+[2024.11.24-22.35.24:043][ 76]LogViewport: Scene viewport resized to 1428x697, mode Windowed.
+[2024.11.24-22.35.24:873][157]Cmd: SELECT NONE
+[2024.11.24-22.35.28:690][566]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.24-22.35.28:784][568]LogShaderCompilers: Display: ================================================
+[2024.11.24-22.35.28:784][568]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.11.24-22.35.28:784][568]LogShaderCompilers: Display: Total job queries 336, among them cache hits 192 (57.14%)
+[2024.11.24-22.35.28:784][568]LogShaderCompilers: Display: Tracking 144 distinct input hashes that result in 58 distinct outputs (40.28%)
+[2024.11.24-22.35.28:784][568]LogShaderCompilers: Display: RAM used: 3.14 MiB of 1.60 GiB budget. Usage: 0.19%
+[2024.11.24-22.35.28:784][568]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.11.24-22.35.28:784][568]LogShaderCompilers: Display: Shaders Compiled: 0
+[2024.11.24-22.35.28:784][568]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0%)
+[2024.11.24-22.35.28:784][568]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2024.11.24-22.35.28:784][568]LogShaderCompilers: Display: ================================================
+[2024.11.24-22.35.29:242][605]LogScript: Warning: Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue
+	WB_Computer_C /Game/Levels/MainMenu_lvl.MainMenu_lvl:WB_Computer_C_8
+	Function /Game/Widgets/WB_Computer.WB_Computer_C:ExecuteUbergraph_WB_Computer:0071
+[2024.11.24-22.35.29:352][614]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/AI/BP_NPCMaster.BP_NPCMaster
+[2024.11.24-22.35.29:352][614]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.24-22.35.29:352][614]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.24-22.35.29:615][615]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.24-22.35.30:074][619]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.24-22.35.30:434][656]LogScript: Warning: Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue
+	WB_Computer_C /Game/Levels/MainMenu_lvl.MainMenu_lvl:WB_Computer_C_8
+	Function /Game/Widgets/WB_Computer.WB_Computer_C:ExecuteUbergraph_WB_Computer:0071
+[2024.11.24-22.35.31:448][774]LogViewport: Scene viewport resized to 1330x1235, mode Windowed.
+[2024.11.24-22.35.36:058][278]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.24-22.35.36:107][279]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.24-22.35.38:670][552]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.24-22.35.38:730][553]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.24-22.35.38:751][554]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.24-22.35.39:223][594]LogScript: Warning: Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue
+	WB_Computer_C /Game/Levels/MainMenu_lvl.MainMenu_lvl:WB_Computer_C_8
+	Function /Game/Widgets/WB_Computer.WB_Computer_C:ExecuteUbergraph_WB_Computer:0071
+[2024.11.24-22.35.39:572][627]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Builder/Box/BoxBuilds/BP_BuildBoxMaster.BP_BuildBoxMaster
+[2024.11.24-22.35.39:573][627]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.24-22.35.39:573][627]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.24-22.35.40:300][682]LogViewport: Scene viewport resized to 1330x1235, mode Windowed.
+[2024.11.24-22.35.49:436][736]BlueprintLog: New page: Compile BP_NPCMaster
+[2024.11.24-22.35.49:518][736]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2024.11.24-22.35.49:545][736]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.24-22.35.49:566][736]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.24-22.35.49:598][736]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AI/BP_NPCMaster" FILE="F:/UnrealProjects/ArcadeSimulator/Arcade/Content/Blueprints/AI/BP_NPCMaster.uasset" SILENT=true
+[2024.11.24-22.35.49:618][736]LogSavePackage: Moving output files for package: /Game/Blueprints/AI/BP_NPCMaster
+[2024.11.24-22.35.49:618][736]LogSavePackage: Moving 'F:/UnrealProjects/ArcadeSimulator/Arcade/Saved/BP_NPCMaster4232A4DA4E357764D327E59AFB25E185.tmp' to 'F:/UnrealProjects/ArcadeSimulator/Arcade/Content/Blueprints/AI/BP_NPCMaster.uasset'
+[2024.11.24-22.35.49:624][736]LogFileHelpers: InternalPromptForCheckoutAndSave took 78 ms (total: 1.48 sec)
+[2024.11.24-22.35.49:641][736]AssetCheck: New page: Asset Save: BP_NPCMaster
+[2024.11.24-22.35.49:641][736]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/AI/BP_NPCMaster.BP_NPCMaster
+[2024.11.24-22.35.58:850][782]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.24-22.35.58:868][782]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.24-22.35.58:868][782]PIE: New page: PIE session: MainMenu_lvl (Nov 24, 2024, 4:35:58 PM)
+[2024.11.24-22.35.58:900][782]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainMenu_lvl
+[2024.11.24-22.35.58:905][782]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004586s)
+[2024.11.24-22.35.58:905][782]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainMenu_lvl.MainMenu_lvl to /Game/Levels/UEDPIE_0_MainMenu_lvl.MainMenu_lvl (0.004621s)
+[2024.11.24-22.35.58:920][782]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2024.11.24-22.35.58:921][782]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.24-22.35.58:921][782]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.24-22.35.58:921][782]LogAIModule: Creating AISystem for world MainMenu_lvl
+[2024.11.24-22.35.58:922][782]LogPlayLevel: PIE: World Init took: (0.000702s)
+[2024.11.24-22.35.58:922][782]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2024.11.24-22.35.58:922][782]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.24-22.35.58:922][782]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.24-22.35.58:922][782]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.24-22.35.58:922][782]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.24-22.35.58:922][782]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.24-22.35.58:922][782]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.24-22.35.58:922][782]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.24-22.35.58:922][782]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.24-22.35.58:922][782]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.24-22.35.58:922][782]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.24-22.35.58:922][782]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.24-22.35.58:923][782]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.24-22.35.58:941][782]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (Realtek(R) Audio)
+[2024.11.24-22.35.58:941][782]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.24-22.35.58:941][782]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.24-22.35.58:941][782]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.24-22.35.58:942][782]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=8
+[2024.11.24-22.35.58:942][782]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=8
+[2024.11.24-22.35.58:943][782]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=8
+[2024.11.24-22.35.58:943][782]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=8
+[2024.11.24-22.35.58:943][782]LogInit: FAudioDevice initialized with ID 8.
+[2024.11.24-22.35.58:943][782]LogAudio: Display: Audio Device (ID: 8) registered with world 'MainMenu_lvl'.
+[2024.11.24-22.35.58:943][782]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 8
+[2024.11.24-22.35.58:945][782]LogLoad: Game class is 'GameModeBase'
+[2024.11.24-22.35.58:947][782]PIE: Warning: Trying to simulate physics on ''/Game/Levels/UEDPIE_0_MainMenu_lvl.MainMenu_lvl:PersistentLevel.BP_BuildMachine_PinballV1_C_1.BuildMesh'' but it has ComplexAsSimple collision.
+[2024.11.24-22.35.58:947][782]PIE: Warning: Trying to simulate physics on ''/Game/Levels/UEDPIE_0_MainMenu_lvl.MainMenu_lvl:PersistentLevel.BP_BuildMachine_PinballV2_C_1.BuildMesh'' but it has ComplexAsSimple collision.
+[2024.11.24-22.35.58:947][782]PIE: Warning: Trying to simulate physics on ''/Game/Levels/UEDPIE_0_MainMenu_lvl.MainMenu_lvl:PersistentLevel.BP_BuildMachine_PinballV3_C_1.BuildMesh'' but it has ComplexAsSimple collision.
+[2024.11.24-22.35.58:947][782]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainMenu_lvl.MainMenu_lvl up for play (max tick rate 0) at 2024.11.24-19.35.58
+[2024.11.24-22.35.58:947][782]LogWorld: Bringing up level for play took: 0.001583
+[2024.11.24-22.35.58:948][782]LogOnline: OSS: Created online subsystem instance for: :Context_33
+[2024.11.24-22.35.58:952][782]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.11.24-22.35.58:952][782]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2024.11.24-22.35.58:952][782]PIE: Server logged in
+[2024.11.24-22.35.58:952][782]PIE: Play in editor total start time 0.084 seconds.
+[2024.11.24-22.36.00:749][790]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.11.24-22.36.00:749][790]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2024.11.24-22.36.00:750][790]LogNet: Browse: /Game/Levels/Ilumination
+[2024.11.24-22.36.00:751][790]LogLoad: LoadMap: /Game/Levels/Ilumination
+[2024.11.24-22.36.00:751][790]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_MainMenu_lvl
+[2024.11.24-22.36.00:751][790]LogWorld: UWorld::CleanupWorld for MainMenu_lvl, bSessionEnded=true, bCleanupResources=true
+[2024.11.24-22.36.00:752][790]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.24-22.36.00:793][790]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.11.24-22.36.00:795][790]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2024.11.24-22.36.00:809][790]LogAudio: Display: Audio Device (ID: 8) registered with world 'Ilumination'.
+[2024.11.24-22.36.00:809][790]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.24-22.36.00:810][790]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.24-22.36.00:810][790]LogAIModule: Creating AISystem for world Ilumination
+[2024.11.24-22.36.00:810][790]LogPlayLevel: PIE: World Init took: (0.000746s)
+[2024.11.24-22.36.00:810][790]LogLoad: Game class is 'MyGameGamemode_C'
+[2024.11.24-22.36.00:824][790]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Ilumination.Ilumination up for play (max tick rate 0) at 2024.11.24-19.36.00
+[2024.11.24-22.36.00:824][790]LogWorld: Bringing up level for play took: 0.013600
+[2024.11.24-22.36.00:826][790]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.24-22.36.00:826][790]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.24-22.36.00:826][790]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.11.24-22.36.00:835][790]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.11.24-22.36.00:836][790]LogLoad: Took 0.084215 seconds to LoadMap(/Game/Levels/Ilumination)
+[2024.11.24-22.36.39:400][326]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.24-22.36.39:400][326]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Ilumination
+[2024.11.24-22.36.39:403][326]LogWorld: UWorld::CleanupWorld for Ilumination, bSessionEnded=true, bCleanupResources=true
+[2024.11.24-22.36.39:404][326]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.24-22.36.39:407][326]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.24-22.36.39:412][326]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.24-22.36.39:423][326]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.24-22.36.39:425][326]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 8
+[2024.11.24-22.36.39:425][326]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2024.11.24-22.36.39:426][326]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2024.11.24-22.36.39:434][326]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2024.11.24-22.36.39:495][327]LogPlayLevel: Display: Destroying online subsystem :Context_33
+[2024.11.24-22.36.51:942][688]LogAssetEditorSubsystem: Opening Asset editor for MaterialInstanceConstant /Engine/EngineMaterials/Widget3DPassThrough_Masked.Widget3DPassThrough_Masked
+[2024.11.24-22.36.51:966][688]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.24-22.36.51:966][688]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.24-22.36.52:185][688]LogViewport: Scene viewport resized to 1154x772, mode Windowed.
+[2024.11.24-22.36.56:174][150]LogSlate: Window 'Widget3DPassThrough_Masked' being destroyed
+[2024.11.24-22.36.56:178][150]LogSlate: Window 'Widget3DPassThrough_Masked' being destroyed
+[2024.11.24-22.36.56:210][150]LogWorld: UWorld::CleanupWorld for World_32, bSessionEnded=true, bCleanupResources=true
+[2024.11.24-22.36.56:210][150]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.24-22.37.29:514][ 88]BlueprintLog: New page: Compile BP_NPCMaster
+[2024.11.24-22.37.29:591][ 88]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2024.11.24-22.37.39:477][195]LogScript: Warning: Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue
+	WB_Computer_C /Game/Levels/MainMenu_lvl.MainMenu_lvl:WB_Computer_C_9
+	Function /Game/Widgets/WB_Computer.WB_Computer_C:ExecuteUbergraph_WB_Computer:0071
+[2024.11.24-22.37.40:431][290]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.24-22.37.40:443][290]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.24-22.37.40:443][290]PIE: New page: PIE session: MainMenu_lvl (Nov 24, 2024, 4:37:40 PM)
+[2024.11.24-22.37.40:470][290]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainMenu_lvl
+[2024.11.24-22.37.40:475][290]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004540s)
+[2024.11.24-22.37.40:475][290]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainMenu_lvl.MainMenu_lvl to /Game/Levels/UEDPIE_0_MainMenu_lvl.MainMenu_lvl (0.004573s)
+[2024.11.24-22.37.40:490][290]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2024.11.24-22.37.40:491][290]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.24-22.37.40:491][290]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.24-22.37.40:492][290]LogAIModule: Creating AISystem for world MainMenu_lvl
+[2024.11.24-22.37.40:492][290]LogPlayLevel: PIE: World Init took: (0.000738s)
+[2024.11.24-22.37.40:492][290]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2024.11.24-22.37.40:492][290]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.24-22.37.40:492][290]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.24-22.37.40:492][290]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.24-22.37.40:492][290]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.24-22.37.40:492][290]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.24-22.37.40:492][290]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.24-22.37.40:492][290]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.24-22.37.40:492][290]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.24-22.37.40:492][290]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.24-22.37.40:492][290]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.24-22.37.40:492][290]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.24-22.37.40:494][290]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.24-22.37.40:511][290]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (Realtek(R) Audio)
+[2024.11.24-22.37.40:511][290]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.24-22.37.40:511][290]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.24-22.37.40:511][290]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.24-22.37.40:512][290]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=9
+[2024.11.24-22.37.40:512][290]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=9
+[2024.11.24-22.37.40:513][290]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=9
+[2024.11.24-22.37.40:513][290]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=9
+[2024.11.24-22.37.40:513][290]LogInit: FAudioDevice initialized with ID 9.
+[2024.11.24-22.37.40:513][290]LogAudio: Display: Audio Device (ID: 9) registered with world 'MainMenu_lvl'.
+[2024.11.24-22.37.40:513][290]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 9
+[2024.11.24-22.37.40:515][290]LogLoad: Game class is 'GameModeBase'
+[2024.11.24-22.37.40:516][290]PIE: Warning: Trying to simulate physics on ''/Game/Levels/UEDPIE_0_MainMenu_lvl.MainMenu_lvl:PersistentLevel.BP_BuildMachine_PinballV1_C_1.BuildMesh'' but it has ComplexAsSimple collision.
+[2024.11.24-22.37.40:517][290]PIE: Warning: Trying to simulate physics on ''/Game/Levels/UEDPIE_0_MainMenu_lvl.MainMenu_lvl:PersistentLevel.BP_BuildMachine_PinballV2_C_1.BuildMesh'' but it has ComplexAsSimple collision.
+[2024.11.24-22.37.40:517][290]PIE: Warning: Trying to simulate physics on ''/Game/Levels/UEDPIE_0_MainMenu_lvl.MainMenu_lvl:PersistentLevel.BP_BuildMachine_PinballV3_C_1.BuildMesh'' but it has ComplexAsSimple collision.
+[2024.11.24-22.37.40:517][290]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainMenu_lvl.MainMenu_lvl up for play (max tick rate 0) at 2024.11.24-19.37.40
+[2024.11.24-22.37.40:517][290]LogWorld: Bringing up level for play took: 0.001605
+[2024.11.24-22.37.40:518][290]LogOnline: OSS: Created online subsystem instance for: :Context_35
+[2024.11.24-22.37.40:521][290]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.11.24-22.37.40:521][290]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2024.11.24-22.37.40:521][290]PIE: Server logged in
+[2024.11.24-22.37.40:522][290]PIE: Play in editor total start time 0.079 seconds.
+[2024.11.24-22.37.41:642][397]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.11.24-22.37.41:642][397]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2024.11.24-22.37.41:643][397]LogNet: Browse: /Game/Levels/Ilumination
+[2024.11.24-22.37.41:643][397]LogLoad: LoadMap: /Game/Levels/Ilumination
+[2024.11.24-22.37.41:643][397]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_MainMenu_lvl
+[2024.11.24-22.37.41:644][397]LogWorld: UWorld::CleanupWorld for MainMenu_lvl, bSessionEnded=true, bCleanupResources=true
+[2024.11.24-22.37.41:645][397]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.24-22.37.41:682][397]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.11.24-22.37.41:684][397]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2024.11.24-22.37.41:699][397]LogAudio: Display: Audio Device (ID: 9) registered with world 'Ilumination'.
+[2024.11.24-22.37.41:699][397]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.24-22.37.41:699][397]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.24-22.37.41:699][397]LogAIModule: Creating AISystem for world Ilumination
+[2024.11.24-22.37.41:700][397]LogPlayLevel: PIE: World Init took: (0.000723s)
+[2024.11.24-22.37.41:700][397]LogLoad: Game class is 'MyGameGamemode_C'
+[2024.11.24-22.37.41:712][397]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Ilumination.Ilumination up for play (max tick rate 0) at 2024.11.24-19.37.41
+[2024.11.24-22.37.41:712][397]LogWorld: Bringing up level for play took: 0.012096
+[2024.11.24-22.37.41:713][397]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.24-22.37.41:713][397]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.24-22.37.41:713][397]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.11.24-22.37.41:721][397]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.11.24-22.37.41:721][397]LogLoad: Took 0.077686 seconds to LoadMap(/Game/Levels/Ilumination)
+[2024.11.24-22.37.59:961][ 62]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.24-22.37.59:961][ 62]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Ilumination
+[2024.11.24-22.37.59:963][ 62]LogWorld: UWorld::CleanupWorld for Ilumination, bSessionEnded=true, bCleanupResources=true
+[2024.11.24-22.37.59:964][ 62]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.24-22.37.59:966][ 62]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.24-22.37.59:972][ 62]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.24-22.37.59:984][ 62]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.24-22.37.59:985][ 62]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 9
+[2024.11.24-22.37.59:985][ 62]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2024.11.24-22.37.59:986][ 62]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2024.11.24-22.37.59:996][ 62]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2024.11.24-22.38.00:063][ 63]LogPlayLevel: Display: Destroying online subsystem :Context_35
+[2024.11.24-22.56.31:074][643]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.24-22.56.31:088][643]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.24-22.56.31:088][643]PIE: New page: PIE session: MainMenu_lvl (Nov 24, 2024, 4:56:31 PM)
+[2024.11.24-22.56.31:120][643]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainMenu_lvl
+[2024.11.24-22.56.31:130][643]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009908s)
+[2024.11.24-22.56.31:130][643]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainMenu_lvl.MainMenu_lvl to /Game/Levels/UEDPIE_0_MainMenu_lvl.MainMenu_lvl (0.009953s)
+[2024.11.24-22.56.31:163][643]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2024.11.24-22.56.31:165][643]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.24-22.56.31:170][643]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.24-22.56.31:172][643]LogAIModule: Creating AISystem for world MainMenu_lvl
+[2024.11.24-22.56.31:173][643]LogPlayLevel: PIE: World Init took: (0.007906s)
+[2024.11.24-22.56.31:173][643]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2024.11.24-22.56.31:173][643]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.24-22.56.31:173][643]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.24-22.56.31:173][643]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.24-22.56.31:173][643]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.24-22.56.31:173][643]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.24-22.56.31:173][643]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.24-22.56.31:173][643]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.24-22.56.31:173][643]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.24-22.56.31:173][643]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.24-22.56.31:173][643]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.24-22.56.31:173][643]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.24-22.56.31:176][643]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.24-22.56.31:195][643]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (Realtek(R) Audio)
+[2024.11.24-22.56.31:195][643]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.24-22.56.31:195][643]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.24-22.56.31:195][643]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.24-22.56.31:196][643]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=10
+[2024.11.24-22.56.31:196][643]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=10
+[2024.11.24-22.56.31:197][643]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=10
+[2024.11.24-22.56.31:197][643]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=10
+[2024.11.24-22.56.31:197][643]LogInit: FAudioDevice initialized with ID 10.
+[2024.11.24-22.56.31:197][643]LogAudio: Display: Audio Device (ID: 10) registered with world 'MainMenu_lvl'.
+[2024.11.24-22.56.31:197][643]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 10
+[2024.11.24-22.56.31:200][643]LogLoad: Game class is 'GameModeBase'
+[2024.11.24-22.56.31:202][643]PIE: Warning: Trying to simulate physics on ''/Game/Levels/UEDPIE_0_MainMenu_lvl.MainMenu_lvl:PersistentLevel.BP_BuildMachine_PinballV1_C_1.BuildMesh'' but it has ComplexAsSimple collision.
+[2024.11.24-22.56.31:202][643]PIE: Warning: Trying to simulate physics on ''/Game/Levels/UEDPIE_0_MainMenu_lvl.MainMenu_lvl:PersistentLevel.BP_BuildMachine_PinballV2_C_1.BuildMesh'' but it has ComplexAsSimple collision.
+[2024.11.24-22.56.31:202][643]PIE: Warning: Trying to simulate physics on ''/Game/Levels/UEDPIE_0_MainMenu_lvl.MainMenu_lvl:PersistentLevel.BP_BuildMachine_PinballV3_C_1.BuildMesh'' but it has ComplexAsSimple collision.
+[2024.11.24-22.56.31:202][643]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainMenu_lvl.MainMenu_lvl up for play (max tick rate 0) at 2024.11.24-19.56.31
+[2024.11.24-22.56.31:203][643]LogWorld: Bringing up level for play took: 0.002497
+[2024.11.24-22.56.31:205][643]LogOnline: OSS: Created online subsystem instance for: :Context_36
+[2024.11.24-22.56.31:210][643]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.11.24-22.56.31:210][643]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2024.11.24-22.56.31:210][643]PIE: Server logged in
+[2024.11.24-22.56.31:211][643]PIE: Play in editor total start time 0.124 seconds.
+[2024.11.24-22.56.34:201][959]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.24-22.56.34:201][959]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_MainMenu_lvl
+[2024.11.24-22.56.34:202][959]LogWorld: UWorld::CleanupWorld for MainMenu_lvl, bSessionEnded=true, bCleanupResources=true
+[2024.11.24-22.56.34:202][959]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.24-22.56.34:204][959]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.24-22.56.34:209][959]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.24-22.56.34:220][959]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.24-22.56.34:220][959]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 10
+[2024.11.24-22.56.34:220][959]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2024.11.24-22.56.34:223][959]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10
+[2024.11.24-22.56.34:229][959]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2024.11.24-22.56.34:289][960]LogPlayLevel: Display: Destroying online subsystem :Context_36
+[2024.11.24-22.56.38:410][377]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.24-22.56.38:422][377]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.24-22.56.38:422][377]PIE: New page: PIE session: MainMenu_lvl (Nov 24, 2024, 4:56:38 PM)
+[2024.11.24-22.56.38:450][377]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainMenu_lvl
+[2024.11.24-22.56.38:454][377]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004560s)
+[2024.11.24-22.56.38:454][377]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainMenu_lvl.MainMenu_lvl to /Game/Levels/UEDPIE_0_MainMenu_lvl.MainMenu_lvl (0.004591s)
+[2024.11.24-22.56.38:465][377]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2024.11.24-22.56.38:467][377]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.24-22.56.38:467][377]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.24-22.56.38:467][377]LogAIModule: Creating AISystem for world MainMenu_lvl
+[2024.11.24-22.56.38:467][377]LogPlayLevel: PIE: World Init took: (0.000674s)
+[2024.11.24-22.56.38:467][377]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2024.11.24-22.56.38:467][377]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.24-22.56.38:467][377]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.24-22.56.38:467][377]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.24-22.56.38:467][377]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.24-22.56.38:467][377]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.24-22.56.38:467][377]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.24-22.56.38:467][377]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.24-22.56.38:467][377]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.24-22.56.38:468][377]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.24-22.56.38:468][377]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.24-22.56.38:468][377]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.24-22.56.38:469][377]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.24-22.56.38:486][377]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (Realtek(R) Audio)
+[2024.11.24-22.56.38:486][377]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.24-22.56.38:486][377]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.24-22.56.38:486][377]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.24-22.56.38:486][377]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=11
+[2024.11.24-22.56.38:486][377]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=11
+[2024.11.24-22.56.38:487][377]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=11
+[2024.11.24-22.56.38:487][377]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=11
+[2024.11.24-22.56.38:487][377]LogInit: FAudioDevice initialized with ID 11.
+[2024.11.24-22.56.38:487][377]LogAudio: Display: Audio Device (ID: 11) registered with world 'MainMenu_lvl'.
+[2024.11.24-22.56.38:488][377]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 11
+[2024.11.24-22.56.38:490][377]LogLoad: Game class is 'GameModeBase'
+[2024.11.24-22.56.38:491][377]PIE: Warning: Trying to simulate physics on ''/Game/Levels/UEDPIE_0_MainMenu_lvl.MainMenu_lvl:PersistentLevel.BP_BuildMachine_PinballV1_C_1.BuildMesh'' but it has ComplexAsSimple collision.
+[2024.11.24-22.56.38:491][377]PIE: Warning: Trying to simulate physics on ''/Game/Levels/UEDPIE_0_MainMenu_lvl.MainMenu_lvl:PersistentLevel.BP_BuildMachine_PinballV2_C_1.BuildMesh'' but it has ComplexAsSimple collision.
+[2024.11.24-22.56.38:491][377]PIE: Warning: Trying to simulate physics on ''/Game/Levels/UEDPIE_0_MainMenu_lvl.MainMenu_lvl:PersistentLevel.BP_BuildMachine_PinballV3_C_1.BuildMesh'' but it has ComplexAsSimple collision.
+[2024.11.24-22.56.38:491][377]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainMenu_lvl.MainMenu_lvl up for play (max tick rate 0) at 2024.11.24-19.56.38
+[2024.11.24-22.56.38:492][377]LogWorld: Bringing up level for play took: 0.001569
+[2024.11.24-22.56.38:493][377]LogOnline: OSS: Created online subsystem instance for: :Context_37
+[2024.11.24-22.56.38:496][377]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.11.24-22.56.38:496][377]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2024.11.24-22.56.38:496][377]PIE: Server logged in
+[2024.11.24-22.56.38:497][377]PIE: Play in editor total start time 0.075 seconds.
+[2024.11.24-22.56.56:052][ 84]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.11.24-22.56.56:052][ 84]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2024.11.24-22.56.56:054][ 84]LogNet: Browse: /Game/Levels/Ilumination
+[2024.11.24-22.56.56:054][ 84]LogLoad: LoadMap: /Game/Levels/Ilumination
+[2024.11.24-22.56.56:054][ 84]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_MainMenu_lvl
+[2024.11.24-22.56.56:055][ 84]LogWorld: UWorld::CleanupWorld for MainMenu_lvl, bSessionEnded=true, bCleanupResources=true
+[2024.11.24-22.56.56:055][ 84]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.24-22.56.56:091][ 84]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.11.24-22.56.56:094][ 84]LogUObjectHash: Compacting FUObjectHashTables data took   1.24ms
+[2024.11.24-22.56.56:115][ 84]LogAudio: Display: Audio Device (ID: 11) registered with world 'Ilumination'.
+[2024.11.24-22.56.56:115][ 84]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.24-22.56.56:115][ 84]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.24-22.56.56:115][ 84]LogAIModule: Creating AISystem for world Ilumination
+[2024.11.24-22.56.56:115][ 84]LogPlayLevel: PIE: World Init took: (0.000694s)
+[2024.11.24-22.56.56:115][ 84]LogLoad: Game class is 'MyGameGamemode_C'
+[2024.11.24-22.56.56:129][ 84]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Ilumination.Ilumination up for play (max tick rate 0) at 2024.11.24-19.56.56
+[2024.11.24-22.56.56:138][ 84]LogWorld: Bringing up level for play took: 0.022663
+[2024.11.24-22.56.56:140][ 84]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.24-22.56.56:140][ 84]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.24-22.56.56:140][ 84]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.11.24-22.56.56:153][ 84]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.11.24-22.56.56:153][ 84]LogLoad: Took 0.098591 seconds to LoadMap(/Game/Levels/Ilumination)
+[2024.11.24-22.56.56:987][153]Cmd: LevelEditor.ToggleImmersive
+[2024.11.24-22.56.57:004][153]LogViewport: Scene viewport resized to 1712x873, mode Windowed.
+[2024.11.24-22.56.57:027][154]LogViewport: Scene viewport resized to 2127x1131, mode Windowed.
+[2024.11.24-22.56.57:061][155]LogViewport: Scene viewport resized to 2413x1310, mode Windowed.
+[2024.11.24-22.56.57:104][156]LogViewport: Scene viewport resized to 2547x1393, mode Windowed.
+[2024.11.24-22.56.57:166][157]LogViewport: Scene viewport resized to 2560x1400, mode Windowed.
+[2024.11.24-22.57.18:090][506]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.24-22.57.18:090][506]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Ilumination
+[2024.11.24-22.57.18:092][506]LogWorld: UWorld::CleanupWorld for Ilumination, bSessionEnded=true, bCleanupResources=true
+[2024.11.24-22.57.18:093][506]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.24-22.57.18:100][506]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.24-22.57.18:106][506]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.24-22.57.18:119][506]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.24-22.57.18:120][506]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 11
+[2024.11.24-22.57.18:120][506]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2024.11.24-22.57.18:121][506]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11
+[2024.11.24-22.57.18:132][506]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2024.11.24-22.57.18:198][507]LogPlayLevel: Display: Destroying online subsystem :Context_37
+[2024.11.24-22.57.19:638][650]LogViewport: Scene viewport resized to 2417x1311, mode Windowed.
+[2024.11.24-22.57.19:666][651]LogViewport: Scene viewport resized to 1917x1000, mode Windowed.
+[2024.11.24-22.57.19:688][652]LogViewport: Scene viewport resized to 1731x885, mode Windowed.
+[2024.11.24-22.57.19:712][653]LogViewport: Scene viewport resized to 1599x803, mode Windowed.
+[2024.11.24-22.57.19:732][654]LogViewport: Scene viewport resized to 1514x751, mode Windowed.
+[2024.11.24-22.57.19:756][655]LogViewport: Scene viewport resized to 1461x717, mode Windowed.
+[2024.11.24-22.57.19:778][656]LogViewport: Scene viewport resized to 1437x703, mode Windowed.
+[2024.11.24-22.57.19:816][657]LogViewport: Scene viewport resized to 1428x697, mode Windowed.
+[2024.11.24-22.57.23:574][ 47]Cmd: MAP LOAD FILE="F:/UnrealProjects/ArcadeSimulator/Arcade/Content/Levels/TutorialScene.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2024.11.24-22.57.23:629][ 47]LightingResults: New page: Lighting Build
+[2024.11.24-22.57.23:670][ 47]LoadErrors: New page: Loading map: TutorialScene.umap
+[2024.11.24-22.57.23:734][ 47]LogWorld: UWorld::CleanupWorld for MainMenu_lvl, bSessionEnded=true, bCleanupResources=true
+[2024.11.24-22.57.23:734][ 47]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.24-22.57.23:735][ 47]MapCheck: New page: Map Check
+[2024.11.24-22.57.23:735][ 47]LightingResults: New page: Lighting Build
+[2024.11.24-22.57.23:752][ 47]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.11.24-22.57.23:779][ 47]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2024.11.24-22.57.24:087][ 47]LogAudio: Display: Audio Device (ID: 1) registered with world 'TutorialScene'.
+[2024.11.24-22.57.24:087][ 47]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.24-22.57.24:088][ 47]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.24-22.57.24:088][ 47]LogAIModule: Creating AISystem for world TutorialScene
+[2024.11.24-22.57.24:105][ 47]PIE: Warning: Trying to simulate physics on ''/Game/Levels/TutorialScene.TutorialScene:PersistentLevel.BP_BuildMachine_PinballV1_C_1.BuildMesh'' but it has ComplexAsSimple collision.
+[2024.11.24-22.57.24:134][ 47]PIE: Warning: Trying to simulate physics on ''/Game/Levels/TutorialScene.TutorialScene:PersistentLevel.BP_BuildMachine_PinballV1_C_1.BuildMesh'' but it has ComplexAsSimple collision.
+[2024.11.24-22.57.24:135][ 47]PIE: Warning: Trying to simulate physics on ''/Game/Levels/TutorialScene.TutorialScene:PersistentLevel.BP_BuildMachine_PinballV1_C_1.BuildMesh'' but it has ComplexAsSimple collision.
+[2024.11.24-22.57.24:202][ 47]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.11.24-22.57.24:224][ 47]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2024.11.24-22.57.24:236][ 47]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.11.24-22.57.24:236][ 47]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.282ms to complete.
+[2024.11.24-22.57.24:374][ 49]LogShaderCompilers: Display: ================================================
+[2024.11.24-22.57.24:374][ 49]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.11.24-22.57.24:374][ 49]LogShaderCompilers: Display: Total job queries 360, among them cache hits 207 (57.50%)
+[2024.11.24-22.57.24:374][ 49]LogShaderCompilers: Display: Tracking 153 distinct input hashes that result in 63 distinct outputs (41.18%)
+[2024.11.24-22.57.24:374][ 49]LogShaderCompilers: Display: RAM used: 3.38 MiB of 1.60 GiB budget. Usage: 0.21%
+[2024.11.24-22.57.24:374][ 49]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.11.24-22.57.24:374][ 49]LogShaderCompilers: Display: Shaders Compiled: 0
+[2024.11.24-22.57.24:374][ 49]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0%)
+[2024.11.24-22.57.24:374][ 49]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2024.11.24-22.57.24:374][ 49]LogShaderCompilers: Display: ================================================
+[2024.11.24-22.57.26:344][242]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.24-22.57.26:356][242]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.24-22.57.26:356][242]PIE: New page: PIE session: TutorialScene (Nov 24, 2024, 4:57:26 PM)
+[2024.11.24-22.57.26:380][242]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TutorialScene
+[2024.11.24-22.57.26:392][242]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011825s)
+[2024.11.24-22.57.26:392][242]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TutorialScene.TutorialScene to /Game/Levels/UEDPIE_0_TutorialScene.TutorialScene (0.011869s)
+[2024.11.24-22.57.26:403][242]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2024.11.24-22.57.26:404][242]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.24-22.57.26:404][242]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.24-22.57.26:405][242]LogAIModule: Creating AISystem for world TutorialScene
+[2024.11.24-22.57.26:405][242]LogPlayLevel: PIE: World Init took: (0.000751s)
+[2024.11.24-22.57.26:405][242]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2024.11.24-22.57.26:405][242]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.24-22.57.26:405][242]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.24-22.57.26:405][242]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.24-22.57.26:405][242]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.24-22.57.26:405][242]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.24-22.57.26:405][242]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.24-22.57.26:405][242]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.24-22.57.26:405][242]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.24-22.57.26:406][242]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.24-22.57.26:406][242]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.24-22.57.26:406][242]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.24-22.57.26:407][242]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.24-22.57.26:424][242]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (Realtek(R) Audio)
+[2024.11.24-22.57.26:424][242]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.24-22.57.26:424][242]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.24-22.57.26:424][242]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.24-22.57.26:425][242]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=12
+[2024.11.24-22.57.26:425][242]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=12
+[2024.11.24-22.57.26:426][242]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=12
+[2024.11.24-22.57.26:426][242]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=12
+[2024.11.24-22.57.26:426][242]LogInit: FAudioDevice initialized with ID 12.
+[2024.11.24-22.57.26:426][242]LogAudio: Display: Audio Device (ID: 12) registered with world 'TutorialScene'.
+[2024.11.24-22.57.26:426][242]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 12
+[2024.11.24-22.57.26:428][242]LogLoad: Game class is 'MyGameGamemode_C'
+[2024.11.24-22.57.26:432][242]PIE: Warning: Trying to simulate physics on ''/Game/Levels/UEDPIE_0_TutorialScene.TutorialScene:PersistentLevel.BP_BuildMachine_PinballV1_C_1.BuildMesh'' but it has ComplexAsSimple collision.
+[2024.11.24-22.57.26:434][242]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TutorialScene.TutorialScene up for play (max tick rate 0) at 2024.11.24-19.57.26
+[2024.11.24-22.57.26:435][242]LogWorld: Bringing up level for play took: 0.006325
+[2024.11.24-22.57.26:437][242]LogOnline: OSS: Created online subsystem instance for: :Context_38
+[2024.11.24-22.57.26:438][242]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.24-22.57.26:438][242]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.24-22.57.26:438][242]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.11.24-22.57.26:450][242]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.11.24-22.57.26:450][242]PIE: Server logged in
+[2024.11.24-22.57.26:451][242]PIE: Play in editor total start time 0.095 seconds.
+[2024.11.24-22.57.28:531][434]Cmd: LevelEditor.ToggleImmersive
+[2024.11.24-22.57.28:546][434]LogViewport: Scene viewport resized to 1714x874, mode Windowed.
+[2024.11.24-22.57.28:570][435]LogViewport: Scene viewport resized to 2097x1113, mode Windowed.
+[2024.11.24-22.57.28:601][436]LogViewport: Scene viewport resized to 2388x1293, mode Windowed.
+[2024.11.24-22.57.28:636][437]LogViewport: Scene viewport resized to 2529x1380, mode Windowed.
+[2024.11.24-22.57.28:687][438]LogViewport: Scene viewport resized to 2560x1400, mode Windowed.
+[2024.11.24-22.59.16:838][570]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.11.24-22.59.16:838][570]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2024.11.24-22.59.16:838][570]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2024.11.24-23.00.06:946][181]LogBlueprintUserMessages: [WB_Computer_C_0] BP_BuildBox_Big_C
+[2024.11.24-23.00.22:317][296]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.11.24-23.00.22:317][296]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2024.11.24-23.00.38:004][424]LogShaderCompilers: Display: ================================================
+[2024.11.24-23.00.38:004][424]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.11.24-23.00.38:004][424]LogShaderCompilers: Display: Total job queries 375, among them cache hits 217 (57.87%)
+[2024.11.24-23.00.38:004][424]LogShaderCompilers: Display: Tracking 158 distinct input hashes that result in 66 distinct outputs (41.77%)
+[2024.11.24-23.00.38:004][424]LogShaderCompilers: Display: RAM used: 3.50 MiB of 1.60 GiB budget. Usage: 0.21%
+[2024.11.24-23.00.38:004][424]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.11.24-23.00.38:004][424]LogShaderCompilers: Display: Shaders Compiled: 0
+[2024.11.24-23.00.38:004][424]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0%)
+[2024.11.24-23.00.38:004][424]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2024.11.24-23.00.38:004][424]LogShaderCompilers: Display: ================================================
+[2024.11.24-23.02.53:374][644]LogBlueprintUserMessages: [BTTask_RoamAround_C_2] Fail roaming
+[2024.11.24-23.03.05:379][571]LogBlueprintUserMessages: [BTTask_RoamAround_C_2] Fail roaming
+[2024.11.24-23.03.08:548][835]LogBlueprintUserMessages: [BTTask_ThanksForChange_C_0] Fail move to machines queueBP_NPCMaster4
+[2024.11.24-23.03.10:530][995]LogBlueprintUserMessages: [BTTask_MoveToCashier_C_0] Fail move to cashier queueBP_NPCMaster3
+[2024.11.24-23.03.37:125][223]LogBlueprintUserMessages: [BTTask_ThanksForChange_C_0] Fail move to machines queueBP_NPCMaster
+[2024.11.24-23.03.49:751][246]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.24-23.03.49:751][246]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TutorialScene
+[2024.11.24-23.03.49:753][246]LogWorld: UWorld::CleanupWorld for TutorialScene, bSessionEnded=true, bCleanupResources=true
+[2024.11.24-23.03.49:754][246]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.24-23.03.49:760][246]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.24-23.03.49:764][246]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.24-23.03.49:772][246]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.11.24-23.03.49:773][246]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 12
+[2024.11.24-23.03.49:773][246]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2024.11.24-23.03.49:775][246]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2024.11.24-23.03.49:779][246]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.24-23.03.49:785][246]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2024.11.24-23.03.49:846][247]LogPlayLevel: Display: Destroying online subsystem :Context_38
+[2024.11.24-23.03.54:533][779]LogViewport: Scene viewport resized to 2415x1311, mode Windowed.
+[2024.11.24-23.03.54:559][780]LogViewport: Scene viewport resized to 1885x981, mode Windowed.
+[2024.11.24-23.03.54:583][781]LogViewport: Scene viewport resized to 1699x866, mode Windowed.
+[2024.11.24-23.03.54:608][782]LogViewport: Scene viewport resized to 1562x780, mode Windowed.
+[2024.11.24-23.03.54:632][783]LogViewport: Scene viewport resized to 1489x735, mode Windowed.
+[2024.11.24-23.03.54:656][784]LogViewport: Scene viewport resized to 1447x709, mode Windowed.
+[2024.11.24-23.03.54:678][785]LogViewport: Scene viewport resized to 1431x700, mode Windowed.
+[2024.11.24-23.03.54:701][786]LogViewport: Scene viewport resized to 1428x697, mode Windowed.
+[2024.11.24-23.03.59:867][274]Cmd: MAP LOAD FILE="F:/UnrealProjects/ArcadeSimulator/Arcade/Content/Levels/Ilumination.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2024.11.24-23.03.59:868][274]LightingResults: New page: Lighting Build
+[2024.11.24-23.03.59:868][274]LoadErrors: New page: Loading map: Ilumination.umap
+[2024.11.24-23.03.59:951][274]LogWorld: UWorld::CleanupWorld for TutorialScene, bSessionEnded=true, bCleanupResources=true
+[2024.11.24-23.03.59:951][274]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.24-23.03.59:952][274]MapCheck: New page: Map Check
+[2024.11.24-23.03.59:952][274]LightingResults: New page: Lighting Build
+[2024.11.24-23.03.59:964][274]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.11.24-23.03.59:972][274]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2024.11.24-23.03.59:986][274]LogAudio: Display: Audio Device (ID: 1) registered with world 'Ilumination'.
+[2024.11.24-23.03.59:987][274]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.24-23.03.59:987][274]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.24-23.03.59:987][274]LogAIModule: Creating AISystem for world Ilumination
+[2024.11.24-23.04.00:045][274]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.11.24-23.04.00:064][274]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2024.11.24-23.04.00:075][274]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.11.24-23.04.00:075][274]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.142ms to complete.
+[2024.11.24-23.04.01:931][463]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.24-23.04.01:943][463]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.24-23.04.01:943][463]PIE: New page: PIE session: Ilumination (Nov 24, 2024, 5:04:01 PM)
+[2024.11.24-23.04.01:980][463]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Ilumination
+[2024.11.24-23.04.01:991][463]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010553s)
+[2024.11.24-23.04.01:991][463]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Ilumination.Ilumination to /Game/Levels/UEDPIE_0_Ilumination.Ilumination (0.010617s)
+[2024.11.24-23.04.01:999][463]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2024.11.24-23.04.02:001][463]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.24-23.04.02:001][463]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.24-23.04.02:002][463]LogAIModule: Creating AISystem for world Ilumination
+[2024.11.24-23.04.02:002][463]LogPlayLevel: PIE: World Init took: (0.000800s)
+[2024.11.24-23.04.02:002][463]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2024.11.24-23.04.02:002][463]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.24-23.04.02:002][463]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.24-23.04.02:002][463]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.24-23.04.02:002][463]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.24-23.04.02:002][463]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.24-23.04.02:002][463]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.24-23.04.02:002][463]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.24-23.04.02:002][463]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.24-23.04.02:002][463]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.24-23.04.02:002][463]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.24-23.04.02:002][463]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.24-23.04.02:004][463]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.24-23.04.02:023][463]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (Realtek(R) Audio)
+[2024.11.24-23.04.02:024][463]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.24-23.04.02:024][463]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.24-23.04.02:024][463]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.24-23.04.02:024][463]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=13
+[2024.11.24-23.04.02:024][463]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=13
+[2024.11.24-23.04.02:025][463]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=13
+[2024.11.24-23.04.02:025][463]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=13
+[2024.11.24-23.04.02:025][463]LogInit: FAudioDevice initialized with ID 13.
+[2024.11.24-23.04.02:025][463]LogAudio: Display: Audio Device (ID: 13) registered with world 'Ilumination'.
+[2024.11.24-23.04.02:025][463]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 13
+[2024.11.24-23.04.02:028][463]LogLoad: Game class is 'MyGameGamemode_C'
+[2024.11.24-23.04.02:032][463]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Ilumination.Ilumination up for play (max tick rate 0) at 2024.11.24-20.04.02
+[2024.11.24-23.04.02:032][463]LogWorld: Bringing up level for play took: 0.004531
+[2024.11.24-23.04.02:035][463]LogOnline: OSS: Created online subsystem instance for: :Context_39
+[2024.11.24-23.04.02:035][463]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.24-23.04.02:035][463]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.24-23.04.02:035][463]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.11.24-23.04.02:044][463]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.11.24-23.04.02:044][463]PIE: Server logged in
+[2024.11.24-23.04.02:045][463]PIE: Play in editor total start time 0.103 seconds.
+[2024.11.24-23.04.04:901][730]Cmd: LevelEditor.ToggleImmersive
+[2024.11.24-23.04.04:919][730]LogViewport: Scene viewport resized to 1780x916, mode Windowed.
+[2024.11.24-23.04.04:952][731]LogViewport: Scene viewport resized to 2241x1203, mode Windowed.
+[2024.11.24-23.04.05:001][732]LogViewport: Scene viewport resized to 2505x1366, mode Windowed.
+[2024.11.24-23.04.05:042][733]LogViewport: Scene viewport resized to 2560x1400, mode Windowed.
+[2024.11.24-23.04.30:210][471]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.11.24-23.04.30:210][471]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2024.11.24-23.04.30:210][471]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2024.11.24-23.04.47:129][733]LogBlueprintUserMessages: [WB_Computer_C_0] BP_BuildBox_Small_C
+[2024.11.24-23.04.50:460][983]LogBlueprintUserMessages: [WB_Computer_C_0] BP_BuildBox_Small_C
+[2024.11.24-23.04.59:590][659]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.11.24-23.04.59:590][659]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2024.11.24-23.06.38:645][302]LogBlueprintUserMessages: [BTTask_ThanksForChange_C_0] Fail move to machines queueBP_NPCMaster3
+[2024.11.24-23.06.47:428][858]LogBlueprintUserMessages: [BTTask_ThanksForChange_C_0] Fail move to machines queueBP_NPCMaster2
+[2024.11.24-23.07.03:240][812]LogShaderCompilers: Display: ================================================
+[2024.11.24-23.07.03:240][812]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.11.24-23.07.03:240][812]LogShaderCompilers: Display: Total job queries 387, among them cache hits 225 (58.14%)
+[2024.11.24-23.07.03:240][812]LogShaderCompilers: Display: Tracking 162 distinct input hashes that result in 66 distinct outputs (40.74%)
+[2024.11.24-23.07.03:240][812]LogShaderCompilers: Display: RAM used: 3.58 MiB of 1.60 GiB budget. Usage: 0.22%
+[2024.11.24-23.07.03:240][812]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.11.24-23.07.03:240][812]LogShaderCompilers: Display: Shaders Compiled: 0
+[2024.11.24-23.07.03:240][812]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0%)
+[2024.11.24-23.07.03:240][812]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2024.11.24-23.07.03:240][812]LogShaderCompilers: Display: ================================================
+[2024.11.24-23.07.20:506][844]LogBlueprintUserMessages: [BTTask_MoveToTokenCashier_C_1] Fail move to token cashier queueBP_NPCMaster8
+[2024.11.24-23.07.23:222][  6]LogBlueprintUserMessages: [BTTask_ThanksForChange_C_0] Fail move to machines queueBP_NPCMaster1
+[2024.11.24-23.07.23:222][  6]LogBlueprintUserMessages: [BTTask_ThanksForChange_C_0] Fail move to machines queueBP_NPCMaster5
+[2024.11.24-23.07.40:034][  6]LogBlueprintUserMessages: [BTTask_RoamAround_C_2] Fail roaming
+[2024.11.24-23.07.49:734][576]LogBlueprintUserMessages: [BTTask_ThanksForChange_C_0] Fail move to machines queueBP_NPCMaster6
+[2024.11.24-23.08.04:796][497]LogBlueprintUserMessages: [BTTask_ThanksForChange_C_0] Fail move to machines queueBP_NPCMaster6
+[2024.11.24-23.08.04:796][497]LogBlueprintUserMessages: [BTTask_ThanksForChange_C_0] Fail move to machines queueBP_NPCMaster5
+[2024.11.24-23.08.15:091][145]LogBlueprintUserMessages: [BTTask_ThanksForChange_C_0] Fail move to machines queueBP_NPCMaster4
+[2024.11.24-23.08.33:092][315]LogBlueprintUserMessages: [BTTask_RoamAround_C_2] Fail roaming
+[2024.11.24-23.09.52:230][460]LogBlueprintUserMessages: [BTTask_RoamAround_C_2] Fail roaming
+[2024.11.24-23.10.21:934][357]LogBlueprintUserMessages: [BTTask_RoamAround_C_2] Fail roaming
+[2024.11.24-23.10.41:782][526]LogBlueprintUserMessages: [BTTask_ThanksForChange_C_0] Fail move to machines queueBP_NPCMaster9
+[2024.11.24-23.11.19:922][915]LogBlueprintUserMessages: [BTTask_ThanksForChange_C_0] Fail move to machines queueBP_NPCMaster4
+[2024.11.24-23.11.25:202][220]LogBlueprintUserMessages: [BTTask_ThanksForChange_C_0] Fail move to machines queueBP_NPCMaster9
+[2024.11.24-23.11.39:116][ 73]LogBlueprintUserMessages: [BTTask_RoamAround_C_2] Fail roaming
+[2024.11.24-23.11.46:989][617]LogBlueprintUserMessages: [BTTask_ThanksForChange_C_0] Fail move to machines queueBP_NPCMaster11
+[2024.11.24-23.12.13:799][285]LogBlueprintUserMessages: [BTTask_ThanksForChange_C_0] Fail move to machines queueBP_NPCMaster12
+[2024.11.24-23.13.04:881][477]LogBlueprintUserMessages: [BTTask_RoamAround_C_2] Fail roaming
+[2024.11.24-23.14.10:999][702]LogBlueprintUserMessages: [BTTask_MoveToCashier_C_0] Fail move to cashier queueBP_NPCMaster6
+[2024.11.24-23.14.17:724][141]LogBlueprintUserMessages: [BTTask_RoamAround_C_2] Fail roaming
+[2024.11.24-23.14.50:469][216]LogBlueprintUserMessages: [BTTask_ThanksForChange_C_0] Fail move to machines queueBP_NPCMaster11
+[2024.11.24-23.15.01:292][909]LogBlueprintUserMessages: [BTTask_MoveToCashier_C_0] Fail move to cashier queueBP_NPCMaster7
+[2024.11.24-23.15.16:200][872]LogBlueprintUserMessages: [BTTask_RoamAround_C_2] Fail roaming
+[2024.11.24-23.15.21:806][248]LogBlueprintUserMessages: [BTTask_RoamAround_C_2] Fail roaming
+[2024.11.24-23.15.31:576][872]LogBlueprintUserMessages: [BTTask_RoamAround_C_2] Fail roaming
+[2024.11.24-23.16.18:344][696]LogBlueprintUserMessages: [BTTask_MoveToTokenCashier_C_1] Fail move to token cashier queueBP_NPCMaster18
+[2024.11.24-23.19.21:238][289]LogBlueprintUserMessages: [BTTask_ThanksForChange_C_0] Fail move to machines queueBP_NPCMaster19
+[2024.11.24-23.19.29:206][812]LogBlueprintUserMessages: [BTTask_ThanksForChange_C_0] Fail move to machines queueBP_NPCMaster16
+[2024.11.24-23.19.29:206][812]LogBlueprintUserMessages: [BTTask_ThanksForChange_C_0] Fail move to machines queueBP_NPCMaster17
+[2024.11.24-23.19.39:854][458]LogBlueprintUserMessages: [BTTask_ThanksForChange_C_0] Fail move to machines queueBP_NPCMaster19
+[2024.11.24-23.20.02:419][848]LogBlueprintUserMessages: [BTTask_ThanksForChange_C_0] Fail move to machines queueBP_NPCMaster15
+[2024.11.24-23.20.25:025][394]LogBlueprintUserMessages: [BTTask_RoamAround_C_2] Fail roaming
+[2024.11.24-23.20.41:026][412]LogBlueprintUserMessages: [BTTask_ThanksForChange_C_0] Fail move to machines queueBP_NPCMaster15
+[2024.11.24-23.21.21:451][107]LogBlueprintUserMessages: [BTTask_ThanksForChange_C_0] Fail move to machines queueBP_NPCMaster18
+[2024.11.24-23.21.35:931][157]LogBlueprintUserMessages: [BTTask_MoveToCashier_C_0] Fail move to cashier queueBP_NPCMaster17
+[2024.11.24-23.22.26:469][339]LogBlueprintUserMessages: [MyGameInstance_C_11] Saved All
+[2024.11.24-23.24.46:926][611]LogBlueprintUserMessages: [BTTask_ThanksForChange_C_0] Fail to update machines queueBP_NPCMaster16
+[2024.11.24-23.24.58:426][360]LogBlueprintUserMessages: [BTTask_ThanksForChange_C_0] Fail move to machines queueBP_NPCMaster19
+[2024.11.24-23.25.18:982][601]LogBlueprintUserMessages: [BTTask_ThanksForChange_C_0] Fail to update machines queueBP_NPCMaster16
+[2024.11.24-23.25.24:526][934]LogDerivedDataCache: C:/Users/jfkab/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:13.352 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 7119 files in 8741 folders with total size 807 MiB.
+[2024.11.24-23.26.04:947][569]LogBlueprintUserMessages: [BTTask_ThanksForChange_C_0] Fail move to machines queueBP_NPCMaster16
+[2024.11.24-23.27.07:681][710]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(954)]!
+[2024.11.24-23.27.07:681][710]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.11.24-23.27.07:681][710]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2024.11.24-23.27.28:254][154]LogBlueprintUserMessages: [MyGameInstance_C_11] Saved All
+[2024.11.24-23.27.28:254][154]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.11.24-23.27.28:254][154]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2024.11.24-23.27.37:386][775]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.11.24-23.27.37:386][775]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2024.11.24-23.27.46:329][422]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.11.24-23.27.46:329][422]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2024.11.24-23.31.06:770][952]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.24-23.31.06:770][952]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Ilumination
+[2024.11.24-23.31.06:773][952]LogWorld: UWorld::CleanupWorld for Ilumination, bSessionEnded=true, bCleanupResources=true
+[2024.11.24-23.31.06:774][952]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.24-23.31.06:781][952]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.24-23.31.06:788][952]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.24-23.31.06:798][952]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.24-23.31.06:798][952]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 13
+[2024.11.24-23.31.06:799][952]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2024.11.24-23.31.06:800][952]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2024.11.24-23.31.06:809][952]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2024.11.24-23.31.06:849][953]LogPlayLevel: Display: Destroying online subsystem :Context_39
+[2024.11.24-23.36.16:340][ 75]LogHttp: Warning: 000008BF4D6E6E00: request failed, libcurl error: 65 (Send failed since rewinding of the data stream failed)
+[2024.11.24-23.36.16:340][ 75]LogHttp: Warning: 000008BF4D6E6E00: libcurl info message cache 0 (Found bundle for host: 0x8beda170b10 [serially])
+[2024.11.24-23.36.16:341][ 75]LogHttp: Warning: 000008BF4D6E6E00: libcurl info message cache 1 (Re-using existing connection with host datarouter.ol.epicgames.com)
+[2024.11.24-23.36.16:341][ 75]LogHttp: Warning: 000008BF4D6E6E00: libcurl info message cache 2 (We are completely uploaded and fine)
+[2024.11.24-23.36.16:341][ 75]LogHttp: Warning: 000008BF4D6E6E00: libcurl info message cache 3 (Connection died, retrying a fresh connect (retry count: 1))
+[2024.11.24-23.36.16:341][ 75]LogHttp: Warning: 000008BF4D6E6E00: libcurl info message cache 4 (state.rewindbeforesend = TRUE)
+[2024.11.24-23.36.16:341][ 75]LogHttp: Warning: 000008BF4D6E6E00: libcurl info message cache 5 (Closing connection)
+[2024.11.24-23.36.16:341][ 75]LogHttp: Warning: 000008BF4D6E6E00: libcurl info message cache 6 (TLSv1.3 (OUT), TLS alert, close notify (256):)
+[2024.11.24-23.36.16:341][ 75]LogHttp: Warning: 000008BF4D6E6E00: libcurl info message cache 7 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B80778415-4CBB-2390-A973-A688E4CDFDC4%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=56541611416ff50e98ea9e98a2eb32e8%7C348509588dfa4f30974adfae8fb2b35f%7Ce8cdf9f3-81fc-4bae-ac28-242e2208f4e9&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2024.11.24-23.36.16:341][ 75]LogHttp: Warning: 000008BF4D6E6E00: libcurl info message cache 8 (  Trying 52.3.64.90:443...)
+[2024.11.24-23.36.16:341][ 75]LogHttp: Warning: 000008BF4D6E6E00: libcurl info message cache 9 (Connected to datarouter.ol.epicgames.com (52.3.64.90) port 443)
+[2024.11.24-23.36.16:341][ 75]LogHttp: Warning: 000008BF4D6E6E00: libcurl info message cache 10 (ALPN: curl offers http/1.1)
+[2024.11.24-23.36.16:341][ 75]LogHttp: Warning: 000008BF4D6E6E00: libcurl info message cache 11 (SSL reusing session ID)
+[2024.11.24-23.36.16:341][ 75]LogHttp: Warning: 000008BF4D6E6E00: libcurl info message cache 12 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2024.11.24-23.36.16:341][ 75]LogHttp: Warning: 000008BF4D6E6E00: libcurl info message cache 13 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2024.11.24-23.36.16:341][ 75]LogHttp: Warning: 000008BF4D6E6E00: libcurl info message cache 14 (TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):)
+[2024.11.24-23.36.16:341][ 75]LogHttp: Warning: 000008BF4D6E6E00: libcurl info message cache 15 (TLSv1.3 (IN), TLS handshake, Certificate (11):)
+[2024.11.24-23.36.16:341][ 75]LogHttp: Warning: 000008BF4D6E6E00: libcurl info message cache 16 (TLSv1.3 (IN), TLS handshake, CERT verify (15):)
+[2024.11.24-23.36.16:341][ 75]LogHttp: Warning: 000008BF4D6E6E00: libcurl info message cache 17 (TLSv1.3 (IN), TLS handshake, Finished (20):)
+[2024.11.24-23.36.16:341][ 75]LogHttp: Warning: 000008BF4D6E6E00: libcurl info message cache 18 (TLSv1.3 (OUT), TLS change cipher, Change cipher spec (1):)
+[2024.11.24-23.36.16:341][ 75]LogHttp: Warning: 000008BF4D6E6E00: libcurl info message cache 19 (TLSv1.3 (OUT), TLS handshake, Finished (20):)
+[2024.11.24-23.36.16:341][ 75]LogHttp: Warning: 000008BF4D6E6E00: libcurl info message cache 20 (SSL connection using TLSv1.3 / TLS_AES_128_GCM_SHA256)
+[2024.11.24-23.36.16:341][ 75]LogHttp: Warning: 000008BF4D6E6E00: libcurl info message cache 21 (ALPN: server accepted http/1.1)
+[2024.11.24-23.36.16:341][ 75]LogHttp: Warning: 000008BF4D6E6E00: libcurl info message cache 22 (Server certificate:)
+[2024.11.24-23.36.16:341][ 75]LogHttp: Warning: 000008BF4D6E6E00: libcurl info message cache 23 ( subject: CN=datarouter.cfef.live.use1a.on.epicgames.com)
+[2024.11.24-23.36.16:341][ 75]LogHttp: Warning: 000008BF4D6E6E00: libcurl info message cache 24 ( start date: Mar  4 00:00:00 2024 GMT)
+[2024.11.24-23.36.16:341][ 75]LogHttp: Warning: 000008BF4D6E6E00: libcurl info message cache 25 ( expire date: Apr  2 23:59:59 2025 GMT)
+[2024.11.24-23.36.16:341][ 75]LogHttp: Warning: 000008BF4D6E6E00: libcurl info message cache 26 ( subjectAltName: host "datarouter.ol.epicgames.com" matched cert's "datarouter.ol.epicgames.com")
+[2024.11.24-23.36.16:341][ 75]LogHttp: Warning: 000008BF4D6E6E00: libcurl info message cache 27 ( issuer: C=US; O=Amazon; CN=Amazon RSA 2048 M03)
+[2024.11.24-23.36.16:341][ 75]LogHttp: Warning: 000008BF4D6E6E00: libcurl info message cache 28 ( SSL certificate verify ok.)
+[2024.11.24-23.36.16:341][ 75]LogHttp: Warning: 000008BF4D6E6E00: libcurl info message cache 29 (using HTTP/1.1)
+[2024.11.24-23.36.16:341][ 75]LogHttp: Warning: 000008BF4D6E6E00: libcurl info message cache 30 (necessary data rewind wasn't possible)
+[2024.11.24-23.36.16:341][ 75]LogHttp: Warning: 000008BF4D6E6E00: libcurl info message cache 31 (Closing connection)
+[2024.11.24-23.36.16:341][ 75]LogHttp: Warning: 000008BF4D6E6E00: libcurl info message cache 32 (TLSv1.3 (OUT), TLS alert, close notify (256):)
+[2024.11.24-23.36.16:341][ 75]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B80778415-4CBB-2390-A973-A688E4CDFDC4%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=56541611416ff50e98ea9e98a2eb32e8%7C348509588dfa4f30974adfae8fb2b35f%7Ce8cdf9f3-81fc-4bae-ac28-242e2208f4e9&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.11.25-00.25.24:282][790]LogDerivedDataCache: C:/Users/jfkab/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:13.108 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 7119 files in 8741 folders with total size 807 MiB.
+[2024.11.25-00.30.27:934][149]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2024.11.25-00.34.24:781][455]LogViewport: Scene viewport resized to 2412x1308, mode Windowed.
+[2024.11.25-00.34.24:809][456]LogViewport: Scene viewport resized to 1874x974, mode Windowed.
+[2024.11.25-00.34.24:833][457]LogViewport: Scene viewport resized to 1686x858, mode Windowed.
+[2024.11.25-00.34.24:860][458]LogViewport: Scene viewport resized to 1551x774, mode Windowed.
+[2024.11.25-00.34.24:886][459]LogViewport: Scene viewport resized to 1473x726, mode Windowed.
+[2024.11.25-00.34.24:913][460]LogViewport: Scene viewport resized to 1439x704, mode Windowed.
+[2024.11.25-00.34.24:941][461]LogViewport: Scene viewport resized to 1428x698, mode Windowed.
+[2024.11.25-00.34.24:978][462]LogViewport: Scene viewport resized to 1428x697, mode Windowed.
+[2024.11.25-00.34.26:148][587]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.25-00.34.26:160][587]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.25-00.34.26:160][587]PIE: New page: PIE session: Ilumination (Nov 24, 2024, 6:34:26 PM)
+[2024.11.25-00.34.26:188][587]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Ilumination
+[2024.11.25-00.34.26:199][587]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011340s)
+[2024.11.25-00.34.26:199][587]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Ilumination.Ilumination to /Game/Levels/UEDPIE_0_Ilumination.Ilumination (0.011386s)
+[2024.11.25-00.34.26:215][587]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2024.11.25-00.34.26:216][587]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-00.34.26:216][587]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.25-00.34.26:216][587]LogAIModule: Creating AISystem for world Ilumination
+[2024.11.25-00.34.26:217][587]LogPlayLevel: PIE: World Init took: (0.000892s)
+[2024.11.25-00.34.26:217][587]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2024.11.25-00.34.26:217][587]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.25-00.34.26:217][587]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.25-00.34.26:217][587]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.25-00.34.26:217][587]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.25-00.34.26:217][587]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.25-00.34.26:217][587]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.25-00.34.26:217][587]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.25-00.34.26:217][587]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.25-00.34.26:217][587]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.25-00.34.26:217][587]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.25-00.34.26:217][587]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.25-00.34.26:220][587]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.25-00.34.26:238][587]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (Realtek(R) Audio)
+[2024.11.25-00.34.26:238][587]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.25-00.34.26:238][587]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.25-00.34.26:238][587]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.25-00.34.26:239][587]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=14
+[2024.11.25-00.34.26:239][587]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=14
+[2024.11.25-00.34.26:240][587]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=14
+[2024.11.25-00.34.26:240][587]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=14
+[2024.11.25-00.34.26:240][587]LogInit: FAudioDevice initialized with ID 14.
+[2024.11.25-00.34.26:240][587]LogAudio: Display: Audio Device (ID: 14) registered with world 'Ilumination'.
+[2024.11.25-00.34.26:240][587]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 14
+[2024.11.25-00.34.26:243][587]LogLoad: Game class is 'MyGameGamemode_C'
+[2024.11.25-00.34.26:247][587]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Ilumination.Ilumination up for play (max tick rate 0) at 2024.11.24-21.34.26
+[2024.11.25-00.34.26:247][587]LogWorld: Bringing up level for play took: 0.004289
+[2024.11.25-00.34.26:250][587]LogOnline: OSS: Created online subsystem instance for: :Context_40
+[2024.11.25-00.34.26:250][587]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.25-00.34.26:250][587]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.25-00.34.26:250][587]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.11.25-00.34.26:273][587]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.11.25-00.34.26:273][587]PIE: Server logged in
+[2024.11.25-00.34.26:274][587]PIE: Play in editor total start time 0.113 seconds.
+[2024.11.25-00.34.28:798][827]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.11.25-00.34.28:798][827]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2024.11.25-00.34.28:798][827]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2024.11.25-00.34.31:077][ 63]Cmd: LevelEditor.ToggleImmersive
+[2024.11.25-00.34.31:092][ 63]LogViewport: Scene viewport resized to 1720x879, mode Windowed.
+[2024.11.25-00.34.31:119][ 64]LogViewport: Scene viewport resized to 2125x1130, mode Windowed.
+[2024.11.25-00.34.31:148][ 65]LogViewport: Scene viewport resized to 2391x1295, mode Windowed.
+[2024.11.25-00.34.31:181][ 66]LogViewport: Scene viewport resized to 2522x1377, mode Windowed.
+[2024.11.25-00.34.31:212][ 67]LogViewport: Scene viewport resized to 2558x1399, mode Windowed.
+[2024.11.25-00.34.31:255][ 68]LogViewport: Scene viewport resized to 2560x1400, mode Windowed.
+[2024.11.25-00.39.48:559][781]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.11.25-00.39.48:559][781]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2024.11.25-00.41.47:654][ 48]LogBlueprintUserMessages: [BTTask_RoamAround_C_2] Fail roaming
+[2024.11.25-00.41.49:379][157]LogBlueprintUserMessages: [BTTask_RoamAround_C_2] Fail roaming
+[2024.11.25-00.42.19:334][ 72]LogBlueprintUserMessages: [BTTask_RoamAround_C_2] Fail roaming
+[2024.11.25-00.42.20:000][114]LogBlueprintUserMessages: [BTTask_RoamAround_C_2] Fail roaming
+[2024.11.25-00.42.57:157][429]LogBlueprintUserMessages: [BTTask_RoamAround_C_2] Fail roaming
+[2024.11.25-00.43.02:757][777]LogBlueprintUserMessages: [BTTask_RoamAround_C_2] Fail roaming
+[2024.11.25-00.43.08:348][119]LogBlueprintUserMessages: [BTTask_RoamAround_C_2] Fail roaming
+[2024.11.25-00.43.24:976][169]LogBlueprintUserMessages: [BTTask_RoamAround_C_2] Fail roaming
+[2024.11.25-00.43.28:776][408]LogBlueprintUserMessages: [BTTask_RoamAround_C_2] Fail roaming
+[2024.11.25-00.43.33:503][706]LogBlueprintUserMessages: [BTTask_RoamAround_C_2] Fail roaming
+[2024.11.25-00.43.42:139][243]LogBlueprintUserMessages: [BTTask_RoamAround_C_2] Fail roaming
+[2024.11.25-00.43.52:701][914]LogBlueprintUserMessages: [BTTask_RoamAround_C_2] Fail roaming
+[2024.11.25-00.44.14:217][248]LogBlueprintUserMessages: [BTTask_RoamAround_C_2] Fail roaming
+[2024.11.25-00.44.16:300][375]LogBlueprintUserMessages: [BTTask_RoamAround_C_2] Fail roaming
+[2024.11.25-00.44.21:413][691]LogBlueprintUserMessages: [BTTask_RoamAround_C_2] Fail roaming
+[2024.11.25-00.44.37:548][714]LogBlueprintUserMessages: [BTTask_RoamAround_C_2] Fail roaming
+[2024.11.25-00.44.58:752][ 53]LogBlueprintUserMessages: [BTTask_RoamAround_C_2] Fail roaming
+[2024.11.25-00.45.11:708][887]LogBlueprintUserMessages: [BTTask_RoamAround_C_2] Fail roaming
+[2024.11.25-00.45.16:221][164]LogHttp: Warning: 000008BF57F5AF00: request failed, libcurl error: 65 (Send failed since rewinding of the data stream failed)
+[2024.11.25-00.45.16:221][164]LogHttp: Warning: 000008BF57F5AF00: libcurl info message cache 0 (Found bundle for host: 0x8beda170900 [serially])
+[2024.11.25-00.45.16:221][164]LogHttp: Warning: 000008BF57F5AF00: libcurl info message cache 1 (Re-using existing connection with host datarouter.ol.epicgames.com)
+[2024.11.25-00.45.16:221][164]LogHttp: Warning: 000008BF57F5AF00: libcurl info message cache 2 (We are completely uploaded and fine)
+[2024.11.25-00.45.16:221][164]LogHttp: Warning: 000008BF57F5AF00: libcurl info message cache 3 (Connection died, retrying a fresh connect (retry count: 1))
+[2024.11.25-00.45.16:221][164]LogHttp: Warning: 000008BF57F5AF00: libcurl info message cache 4 (state.rewindbeforesend = TRUE)
+[2024.11.25-00.45.16:221][164]LogHttp: Warning: 000008BF57F5AF00: libcurl info message cache 5 (Closing connection)
+[2024.11.25-00.45.16:221][164]LogHttp: Warning: 000008BF57F5AF00: libcurl info message cache 6 (TLSv1.3 (OUT), TLS alert, close notify (256):)
+[2024.11.25-00.45.16:221][164]LogHttp: Warning: 000008BF57F5AF00: libcurl info message cache 7 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B80778415-4CBB-2390-A973-A688E4CDFDC4%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=56541611416ff50e98ea9e98a2eb32e8%7C348509588dfa4f30974adfae8fb2b35f%7Ce8cdf9f3-81fc-4bae-ac28-242e2208f4e9&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2024.11.25-00.45.16:221][164]LogHttp: Warning: 000008BF57F5AF00: libcurl info message cache 8 (  Trying 3.215.93.151:443...)
+[2024.11.25-00.45.16:221][164]LogHttp: Warning: 000008BF57F5AF00: libcurl info message cache 9 (Connected to datarouter.ol.epicgames.com (3.215.93.151) port 443)
+[2024.11.25-00.45.16:221][164]LogHttp: Warning: 000008BF57F5AF00: libcurl info message cache 10 (ALPN: curl offers http/1.1)
+[2024.11.25-00.45.16:221][164]LogHttp: Warning: 000008BF57F5AF00: libcurl info message cache 11 (SSL reusing session ID)
+[2024.11.25-00.45.16:221][164]LogHttp: Warning: 000008BF57F5AF00: libcurl info message cache 12 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2024.11.25-00.45.16:221][164]LogHttp: Warning: 000008BF57F5AF00: libcurl info message cache 13 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2024.11.25-00.45.16:221][164]LogHttp: Warning: 000008BF57F5AF00: libcurl info message cache 14 (TLSv1.3 (IN), TLS handshake, Encrypted Extensions (8):)
+[2024.11.25-00.45.16:221][164]LogHttp: Warning: 000008BF57F5AF00: libcurl info message cache 15 (TLSv1.3 (IN), TLS handshake, Certificate (11):)
+[2024.11.25-00.45.16:221][164]LogHttp: Warning: 000008BF57F5AF00: libcurl info message cache 16 (TLSv1.3 (IN), TLS handshake, CERT verify (15):)
+[2024.11.25-00.45.16:221][164]LogHttp: Warning: 000008BF57F5AF00: libcurl info message cache 17 (TLSv1.3 (IN), TLS handshake, Finished (20):)
+[2024.11.25-00.45.16:221][164]LogHttp: Warning: 000008BF57F5AF00: libcurl info message cache 18 (TLSv1.3 (OUT), TLS change cipher, Change cipher spec (1):)
+[2024.11.25-00.45.16:221][164]LogHttp: Warning: 000008BF57F5AF00: libcurl info message cache 19 (TLSv1.3 (OUT), TLS handshake, Finished (20):)
+[2024.11.25-00.45.16:221][164]LogHttp: Warning: 000008BF57F5AF00: libcurl info message cache 20 (SSL connection using TLSv1.3 / TLS_AES_128_GCM_SHA256)
+[2024.11.25-00.45.16:221][164]LogHttp: Warning: 000008BF57F5AF00: libcurl info message cache 21 (ALPN: server accepted http/1.1)
+[2024.11.25-00.45.16:221][164]LogHttp: Warning: 000008BF57F5AF00: libcurl info message cache 22 (Server certificate:)
+[2024.11.25-00.45.16:221][164]LogHttp: Warning: 000008BF57F5AF00: libcurl info message cache 23 ( subject: CN=datarouter.cfef.live.use1a.on.epicgames.com)
+[2024.11.25-00.45.16:221][164]LogHttp: Warning: 000008BF57F5AF00: libcurl info message cache 24 ( start date: Mar  4 00:00:00 2024 GMT)
+[2024.11.25-00.45.16:221][164]LogHttp: Warning: 000008BF57F5AF00: libcurl info message cache 25 ( expire date: Apr  2 23:59:59 2025 GMT)
+[2024.11.25-00.45.16:221][164]LogHttp: Warning: 000008BF57F5AF00: libcurl info message cache 26 ( subjectAltName: host "datarouter.ol.epicgames.com" matched cert's "datarouter.ol.epicgames.com")
+[2024.11.25-00.45.16:221][164]LogHttp: Warning: 000008BF57F5AF00: libcurl info message cache 27 ( issuer: C=US; O=Amazon; CN=Amazon RSA 2048 M03)
+[2024.11.25-00.45.16:221][164]LogHttp: Warning: 000008BF57F5AF00: libcurl info message cache 28 ( SSL certificate verify ok.)
+[2024.11.25-00.45.16:221][164]LogHttp: Warning: 000008BF57F5AF00: libcurl info message cache 29 (using HTTP/1.1)
+[2024.11.25-00.45.16:221][164]LogHttp: Warning: 000008BF57F5AF00: libcurl info message cache 30 (necessary data rewind wasn't possible)
+[2024.11.25-00.45.16:221][164]LogHttp: Warning: 000008BF57F5AF00: libcurl info message cache 31 (Closing connection)
+[2024.11.25-00.45.16:221][164]LogHttp: Warning: 000008BF57F5AF00: libcurl info message cache 32 (TLSv1.3 (OUT), TLS alert, close notify (256):)
+[2024.11.25-00.45.16:221][164]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B80778415-4CBB-2390-A973-A688E4CDFDC4%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=56541611416ff50e98ea9e98a2eb32e8%7C348509588dfa4f30974adfae8fb2b35f%7Ce8cdf9f3-81fc-4bae-ac28-242e2208f4e9&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.11.25-00.45.27:004][793]LogBlueprintUserMessages: [BTTask_RoamAround_C_2] Fail roaming
+[2024.11.25-00.45.49:748][141]LogBlueprintUserMessages: [BTTask_RoamAround_C_2] Fail roaming
+[2024.11.25-00.45.55:005][471]LogBlueprintUserMessages: [BTTask_RoamAround_C_2] Fail roaming
+[2024.11.25-00.46.00:086][789]LogBlueprintUserMessages: [BTTask_RoamAround_C_2] Fail roaming
+[2024.11.25-00.46.04:870][ 77]LogBlueprintUserMessages: [BTTask_RoamAround_C_2] Fail roaming
+[2024.11.25-00.46.04:889][ 78]LogCharacterMovement: BP_NPCMaster_C_5 is stuck and failed to move! Velocity: X=-38.15 Y=-8.65 Z=0.00 Location: X=184.89 Y=1407.24 Z=2.00 Normal: X=0.32 Y=0.95 Z=0.00 PenetrationDepth:11.658 Actor:StaticMeshActor_4 Component:StaticMeshComponent0 BoneName:None (0 other events since notify)
+[2024.11.25-00.46.05:932][142]LogCharacterMovement: BP_NPCMaster_C_5 is stuck and failed to move! Velocity: X=-131.36 Y=-48.41 Z=0.00 Location: X=119.92 Y=1441.31 Z=2.19 Normal: X=-0.32 Y=-0.95 Z=0.00 PenetrationDepth:68.125 Actor:StaticMeshActor_4 Component:StaticMeshComponent0 BoneName:None (27 other events since notify)
+[2024.11.25-00.46.06:933][204]LogCharacterMovement: BP_NPCMaster_C_5 is stuck and failed to move! Velocity: X=-121.79 Y=-69.04 Z=0.00 Location: X=43.47 Y=1466.80 Z=2.19 Normal: X=-0.32 Y=-0.95 Z=0.00 PenetrationDepth:68.125 Actor:StaticMeshActor_4 Component:StaticMeshComponent0 BoneName:None (17 other events since notify)
+[2024.11.25-00.46.07:940][268]LogCharacterMovement: BP_NPCMaster_C_5 is stuck and failed to move! Velocity: X=-105.90 Y=-91.58 Z=0.00 Location: X=-23.78 Y=1489.21 Z=2.19 Normal: X=-0.32 Y=-0.95 Z=0.00 PenetrationDepth:68.125 Actor:StaticMeshActor_4 Component:StaticMeshComponent0 BoneName:None (16 other events since notify)
+[2024.11.25-00.46.08:958][330]LogCharacterMovement: BP_NPCMaster_C_5 is stuck and failed to move! Velocity: X=-88.29 Y=-108.65 Z=0.00 Location: X=-71.33 Y=1505.06 Z=2.19 Normal: X=-0.32 Y=-0.95 Z=0.00 PenetrationDepth:68.125 Actor:StaticMeshActor_4 Component:StaticMeshComponent0 BoneName:None (20 other events since notify)
+[2024.11.25-00.46.09:978][390]LogCharacterMovement: BP_NPCMaster_C_5 is stuck and failed to move! Velocity: X=-71.77 Y=-120.20 Z=0.00 Location: X=-105.76 Y=1516.54 Z=2.19 Normal: X=-0.32 Y=-0.95 Z=0.00 PenetrationDepth:68.125 Actor:StaticMeshActor_4 Component:StaticMeshComponent0 BoneName:None (16 other events since notify)
+[2024.11.25-00.46.11:083][454]LogCharacterMovement: BP_NPCMaster_C_5 is stuck and failed to move! Velocity: X=-59.53 Y=-126.71 Z=0.00 Location: X=-128.11 Y=1523.99 Z=2.19 Normal: X=-0.32 Y=-0.95 Z=0.00 PenetrationDepth:68.125 Actor:StaticMeshActor_4 Component:StaticMeshComponent0 BoneName:None (16 other events since notify)
+[2024.11.25-00.46.12:156][516]LogCharacterMovement: BP_NPCMaster_C_5 is stuck and failed to move! Velocity: X=-52.60 Y=-129.74 Z=0.00 Location: X=-140.05 Y=1527.97 Z=2.19 Normal: X=-0.32 Y=-0.95 Z=0.00 PenetrationDepth:68.125 Actor:StaticMeshActor_4 Component:StaticMeshComponent0 BoneName:None (15 other events since notify)
+[2024.11.25-00.46.13:161][574]LogCharacterMovement: BP_NPCMaster_C_5 is stuck and failed to move! Velocity: X=-48.96 Y=-131.16 Z=0.00 Location: X=-146.19 Y=1530.02 Z=2.19 Normal: X=-0.32 Y=-0.95 Z=0.00 PenetrationDepth:68.125 Actor:StaticMeshActor_4 Component:StaticMeshComponent0 BoneName:None (14 other events since notify)
+[2024.11.25-00.46.14:270][642]LogCharacterMovement: BP_NPCMaster_C_5 is stuck and failed to move! Velocity: X=-46.72 Y=-131.97 Z=0.00 Location: X=-149.92 Y=1531.26 Z=2.19 Normal: X=-0.32 Y=-0.95 Z=0.00 PenetrationDepth:68.125 Actor:StaticMeshActor_4 Component:StaticMeshComponent0 BoneName:None (15 other events since notify)
+[2024.11.25-00.46.15:284][704]LogCharacterMovement: BP_NPCMaster_C_5 is stuck and failed to move! Velocity: X=-45.65 Y=-132.35 Z=0.00 Location: X=-151.69 Y=1531.85 Z=2.19 Normal: X=-0.32 Y=-0.95 Z=0.00 PenetrationDepth:68.125 Actor:StaticMeshActor_4 Component:StaticMeshComponent0 BoneName:None (17 other events since notify)
+[2024.11.25-00.46.16:351][768]LogCharacterMovement: BP_NPCMaster_C_5 is stuck and failed to move! Velocity: X=-45.01 Y=-132.57 Z=0.00 Location: X=-152.75 Y=1532.20 Z=2.19 Normal: X=-0.32 Y=-0.95 Z=0.00 PenetrationDepth:68.125 Actor:StaticMeshActor_4 Component:StaticMeshComponent0 BoneName:None (16 other events since notify)
+[2024.11.25-00.46.17:380][826]LogCharacterMovement: BP_NPCMaster_C_5 is stuck and failed to move! Velocity: X=-44.68 Y=-132.68 Z=0.00 Location: X=-153.30 Y=1532.39 Z=2.19 Normal: X=-0.32 Y=-0.95 Z=0.00 PenetrationDepth:68.125 Actor:StaticMeshActor_4 Component:StaticMeshComponent0 BoneName:None (13 other events since notify)
+[2024.11.25-00.46.18:416][890]LogCharacterMovement: BP_NPCMaster_C_5 is stuck and failed to move! Velocity: X=-44.49 Y=-132.74 Z=0.00 Location: X=-153.61 Y=1532.49 Z=2.19 Normal: X=-0.32 Y=-0.95 Z=0.00 PenetrationDepth:68.125 Actor:StaticMeshActor_4 Component:StaticMeshComponent0 BoneName:None (14 other events since notify)
+[2024.11.25-00.46.19:427][948]LogCharacterMovement: BP_NPCMaster_C_5 is stuck and failed to move! Velocity: X=-44.39 Y=-132.78 Z=0.00 Location: X=-153.77 Y=1532.54 Z=2.19 Normal: X=-0.32 Y=-0.95 Z=0.00 PenetrationDepth:68.125 Actor:StaticMeshActor_4 Component:StaticMeshComponent0 BoneName:None (13 other events since notify)
+[2024.11.25-00.46.20:525][ 16]LogCharacterMovement: BP_NPCMaster_C_5 is stuck and failed to move! Velocity: X=-44.33 Y=-132.80 Z=0.00 Location: X=-153.87 Y=1532.58 Z=2.19 Normal: X=-0.32 Y=-0.95 Z=0.00 PenetrationDepth:68.125 Actor:StaticMeshActor_4 Component:StaticMeshComponent0 BoneName:None (12 other events since notify)
+[2024.11.25-00.46.21:537][ 76]LogCharacterMovement: BP_NPCMaster_C_5 is stuck and failed to move! Velocity: X=-44.31 Y=-132.80 Z=0.00 Location: X=-153.92 Y=1532.59 Z=2.19 Normal: X=-0.32 Y=-0.95 Z=0.00 PenetrationDepth:68.125 Actor:StaticMeshActor_4 Component:StaticMeshComponent0 BoneName:None (13 other events since notify)
+[2024.11.25-00.46.22:511][132]LogBlueprintUserMessages: [BTTask_RoamAround_C_2] Fail roaming
+[2024.11.25-00.46.22:992][160]LogCharacterMovement: BP_NPCMaster_C_5 is stuck and failed to move! Velocity: X=-44.29 Y=-132.81 Z=0.00 Location: X=-153.94 Y=1532.60 Z=2.19 Normal: X=-0.32 Y=-0.95 Z=0.00 PenetrationDepth:68.125 Actor:StaticMeshActor_4 Component:StaticMeshComponent0 BoneName:None (14 other events since notify)
+[2024.11.25-00.46.27:111][412]LogBlueprintUserMessages: [BTTask_RoamAround_C_2] Fail roaming
+[2024.11.25-00.46.27:253][421]LogBlueprintUserMessages: [BTTask_RoamAround_C_2] Fail roaming
+[2024.11.25-00.46.27:268][422]LogCharacterMovement: BP_NPCMaster_C_5 is stuck and failed to move! Velocity: X=2.02 Y=-31.55 Z=0.00 Location: X=-153.94 Y=1532.60 Z=2.19 Normal: X=-0.32 Y=-0.95 Z=0.00 PenetrationDepth:68.125 Actor:StaticMeshActor_4 Component:StaticMeshComponent0 BoneName:None (0 other events since notify)
+[2024.11.25-00.46.28:293][488]LogCharacterMovement: BP_NPCMaster_C_5 is stuck and failed to move! Velocity: X=2.71 Y=-139.97 Z=0.00 Location: X=-118.78 Y=1520.88 Z=2.19 Normal: X=-0.32 Y=-0.95 Z=0.00 PenetrationDepth:68.125 Actor:StaticMeshActor_4 Component:StaticMeshComponent0 BoneName:None (19 other events since notify)
+[2024.11.25-00.46.29:391][558]LogCharacterMovement: BP_NPCMaster_C_5 is stuck and failed to move! Velocity: X=-3.91 Y=-139.95 Z=0.00 Location: X=-82.73 Y=1508.86 Z=2.19 Normal: X=-0.32 Y=-0.95 Z=0.00 PenetrationDepth:68.125 Actor:StaticMeshActor_4 Component:StaticMeshComponent0 BoneName:None (17 other events since notify)
+[2024.11.25-00.46.30:421][624]LogCharacterMovement: BP_NPCMaster_C_5 is stuck and failed to move! Velocity: X=-9.32 Y=-139.69 Z=0.00 Location: X=-54.03 Y=1499.30 Z=2.19 Normal: X=-0.32 Y=-0.95 Z=0.00 PenetrationDepth:68.125 Actor:StaticMeshActor_4 Component:StaticMeshComponent0 BoneName:None (17 other events since notify)
+[2024.11.25-00.46.31:537][692]LogCharacterMovement: BP_NPCMaster_C_5 is stuck and failed to move! Velocity: X=-14.81 Y=-139.21 Z=0.00 Location: X=-25.41 Y=1489.76 Z=2.19 Normal: X=-0.32 Y=-0.95 Z=0.00 PenetrationDepth:68.125 Actor:StaticMeshActor_4 Component:StaticMeshComponent0 BoneName:None (14 other events since notify)
+[2024.11.25-00.46.31:680][701]LogBlueprintUserMessages: [BTTask_RoamAround_C_2] Fail roaming
+[2024.11.25-00.46.32:538][750]LogCharacterMovement: BP_NPCMaster_C_5 is stuck and failed to move! Velocity: X=-18.83 Y=-138.73 Z=0.00 Location: X=-4.70 Y=1482.85 Z=2.19 Normal: X=-0.32 Y=-0.95 Z=0.00 PenetrationDepth:68.125 Actor:StaticMeshActor_4 Component:StaticMeshComponent0 BoneName:None (15 other events since notify)
+[2024.11.25-00.46.33:403][805]LogBlueprintUserMessages: [BTTask_RoamAround_C_2] Fail roaming
+[2024.11.25-00.46.33:606][818]LogCharacterMovement: BP_NPCMaster_C_5 is stuck and failed to move! Velocity: X=-22.68 Y=-138.15 Z=0.00 Location: X=15.06 Y=1476.27 Z=2.19 Normal: X=-0.32 Y=-0.95 Z=0.00 PenetrationDepth:68.125 Actor:StaticMeshActor_4 Component:StaticMeshComponent0 BoneName:None (16 other events since notify)
+[2024.11.25-00.46.34:656][886]LogCharacterMovement: BP_NPCMaster_C_5 is stuck and failed to move! Velocity: X=-26.18 Y=-137.53 Z=0.00 Location: X=32.86 Y=1470.33 Z=2.19 Normal: X=-0.32 Y=-0.95 Z=0.00 PenetrationDepth:68.125 Actor:StaticMeshActor_4 Component:StaticMeshComponent0 BoneName:None (11 other events since notify)
+[2024.11.25-00.46.35:679][952]LogCharacterMovement: BP_NPCMaster_C_5 is stuck and failed to move! Velocity: X=-28.97 Y=-136.97 Z=0.00 Location: X=47.08 Y=1465.59 Z=2.19 Normal: X=-0.32 Y=-0.95 Z=0.00 PenetrationDepth:68.125 Actor:StaticMeshActor_4 Component:StaticMeshComponent0 BoneName:None (12 other events since notify)
+[2024.11.25-00.46.36:285][992]LogBlueprintUserMessages: [BTTask_RoamAround_C_2] Fail roaming
+[2024.11.25-00.46.36:703][ 18]LogCharacterMovement: BP_NPCMaster_C_5 is stuck and failed to move! Velocity: X=-31.10 Y=-136.50 Z=0.00 Location: X=57.91 Y=1461.98 Z=2.19 Normal: X=-0.32 Y=-0.95 Z=0.00 PenetrationDepth:68.125 Actor:StaticMeshActor_4 Component:StaticMeshComponent0 BoneName:None (18 other events since notify)
+[2024.11.25-00.46.37:729][ 78]LogCharacterMovement: BP_NPCMaster_C_5 is stuck and failed to move! Velocity: X=-32.92 Y=-136.07 Z=0.00 Location: X=67.17 Y=1458.90 Z=2.19 Normal: X=-0.32 Y=-0.95 Z=0.00 PenetrationDepth:68.125 Actor:StaticMeshActor_4 Component:StaticMeshComponent0 BoneName:None (17 other events since notify)
+[2024.11.25-00.46.38:778][146]LogCharacterMovement: BP_NPCMaster_C_5 is stuck and failed to move! Velocity: X=-34.52 Y=-135.68 Z=0.00 Location: X=75.28 Y=1456.19 Z=2.19 Normal: X=-0.32 Y=-0.95 Z=0.00 PenetrationDepth:68.125 Actor:StaticMeshActor_4 Component:StaticMeshComponent0 BoneName:None (20 other events since notify)
+[2024.11.25-00.46.39:880][218]LogCharacterMovement: BP_NPCMaster_C_5 is stuck and failed to move! Velocity: X=-36.01 Y=-135.29 Z=0.00 Location: X=82.88 Y=1453.66 Z=2.19 Normal: X=-0.32 Y=-0.95 Z=0.00 PenetrationDepth:68.125 Actor:StaticMeshActor_4 Component:StaticMeshComponent0 BoneName:None (19 other events since notify)
+[2024.11.25-00.46.40:863][282]LogBlueprintUserMessages: [BTTask_RoamAround_C_2] Fail roaming
+[2024.11.25-00.46.40:894][284]LogCharacterMovement: BP_NPCMaster_C_5 is stuck and failed to move! Velocity: X=-37.10 Y=-135.00 Z=0.00 Location: X=88.45 Y=1451.80 Z=2.19 Normal: X=-0.32 Y=-0.95 Z=0.00 PenetrationDepth:68.125 Actor:StaticMeshActor_4 Component:StaticMeshComponent0 BoneName:None (21 other events since notify)
+[2024.11.25-00.46.41:903][350]LogCharacterMovement: BP_NPCMaster_C_5 is stuck and failed to move! Velocity: X=-38.15 Y=-134.70 Z=0.00 Location: X=93.81 Y=1450.02 Z=2.19 Normal: X=-0.32 Y=-0.95 Z=0.00 PenetrationDepth:68.125 Actor:StaticMeshActor_4 Component:StaticMeshComponent0 BoneName:None (15 other events since notify)
+[2024.11.25-00.46.42:908][416]LogCharacterMovement: BP_NPCMaster_C_5 is stuck and failed to move! Velocity: X=-38.97 Y=-134.47 Z=0.00 Location: X=98.02 Y=1448.61 Z=2.19 Normal: X=-0.32 Y=-0.95 Z=0.00 PenetrationDepth:68.125 Actor:StaticMeshActor_4 Component:StaticMeshComponent0 BoneName:None (20 other events since notify)
+[2024.11.25-00.46.43:931][482]LogCharacterMovement: BP_NPCMaster_C_5 is stuck and failed to move! Velocity: X=-39.74 Y=-134.24 Z=0.00 Location: X=101.97 Y=1447.30 Z=2.19 Normal: X=-0.32 Y=-0.95 Z=0.00 PenetrationDepth:68.125 Actor:StaticMeshActor_4 Component:StaticMeshComponent0 BoneName:None (16 other events since notify)
+[2024.11.25-00.46.44:968][550]LogCharacterMovement: BP_NPCMaster_C_5 is stuck and failed to move! Velocity: X=-40.41 Y=-134.04 Z=0.00 Location: X=105.42 Y=1446.14 Z=2.19 Normal: X=-0.32 Y=-0.95 Z=0.00 PenetrationDepth:68.125 Actor:StaticMeshActor_4 Component:StaticMeshComponent0 BoneName:None (16 other events since notify)
+[2024.11.25-00.46.45:426][580]LogBlueprintUserMessages: [BTTask_RoamAround_C_2] Fail roaming
+[2024.11.25-00.46.46:007][618]LogCharacterMovement: BP_NPCMaster_C_5 is stuck and failed to move! Velocity: X=-40.99 Y=-133.86 Z=0.00 Location: X=108.39 Y=1445.16 Z=2.19 Normal: X=-0.32 Y=-0.95 Z=0.00 PenetrationDepth:68.125 Actor:StaticMeshActor_4 Component:StaticMeshComponent0 BoneName:None (16 other events since notify)
+[2024.11.25-00.46.47:108][690]LogCharacterMovement: BP_NPCMaster_C_5 is stuck and failed to move! Velocity: X=-41.50 Y=-133.71 Z=0.00 Location: X=111.00 Y=1444.29 Z=2.19 Normal: X=-0.32 Y=-0.95 Z=0.00 PenetrationDepth:68.125 Actor:StaticMeshActor_4 Component:StaticMeshComponent0 BoneName:None (18 other events since notify)
+[2024.11.25-00.46.48:110][752]LogCharacterMovement: BP_NPCMaster_C_5 is stuck and failed to move! Velocity: X=-41.87 Y=-133.59 Z=0.00 Location: X=112.94 Y=1443.64 Z=2.19 Normal: X=-0.32 Y=-0.95 Z=0.00 PenetrationDepth:68.125 Actor:StaticMeshActor_4 Component:StaticMeshComponent0 BoneName:None (18 other events since notify)
+[2024.11.25-00.46.49:170][820]LogCharacterMovement: BP_NPCMaster_C_5 is stuck and failed to move! Velocity: X=-42.22 Y=-133.48 Z=0.00 Location: X=114.72 Y=1443.05 Z=2.19 Normal: X=-0.32 Y=-0.95 Z=0.00 PenetrationDepth:68.125 Actor:StaticMeshActor_4 Component:StaticMeshComponent0 BoneName:None (19 other events since notify)
+[2024.11.25-00.46.50:001][875]LogBlueprintUserMessages: [BTTask_RoamAround_C_2] Fail roaming
+[2024.11.25-00.46.50:176][886]LogCharacterMovement: BP_NPCMaster_C_5 is stuck and failed to move! Velocity: X=-42.52 Y=-133.39 Z=0.00 Location: X=116.26 Y=1442.53 Z=2.19 Normal: X=-0.32 Y=-0.95 Z=0.00 PenetrationDepth:68.125 Actor:StaticMeshActor_4 Component:StaticMeshComponent0 BoneName:None (15 other events since notify)
+[2024.11.25-00.46.51:204][948]LogCharacterMovement: BP_NPCMaster_C_5 is stuck and failed to move! Velocity: X=-42.76 Y=-133.31 Z=0.00 Location: X=117.50 Y=1442.12 Z=2.19 Normal: X=-0.32 Y=-0.95 Z=0.00 PenetrationDepth:68.125 Actor:StaticMeshActor_4 Component:StaticMeshComponent0 BoneName:None (18 other events since notify)
+[2024.11.25-00.46.52:267][  8]LogCharacterMovement: BP_NPCMaster_C_5 is stuck and failed to move! Velocity: X=-42.99 Y=-133.24 Z=0.00 Location: X=118.69 Y=1441.72 Z=2.19 Normal: X=-0.32 Y=-0.95 Z=0.00 PenetrationDepth:68.125 Actor:StaticMeshActor_4 Component:StaticMeshComponent0 BoneName:None (14 other events since notify)
+[2024.11.25-00.46.53:276][ 68]LogCharacterMovement: BP_NPCMaster_C_5 is stuck and failed to move! Velocity: X=-43.16 Y=-133.18 Z=0.00 Location: X=119.56 Y=1441.43 Z=2.19 Normal: X=-0.32 Y=-0.95 Z=0.00 PenetrationDepth:68.125 Actor:StaticMeshActor_4 Component:StaticMeshComponent0 BoneName:None (19 other events since notify)
+[2024.11.25-00.46.54:336][132]LogCharacterMovement: BP_NPCMaster_C_5 is stuck and failed to move! Velocity: X=-43.33 Y=-133.13 Z=0.00 Location: X=120.43 Y=1441.14 Z=2.19 Normal: X=-0.32 Y=-0.95 Z=0.00 PenetrationDepth:68.125 Actor:StaticMeshActor_4 Component:StaticMeshComponent0 BoneName:None (15 other events since notify)
+[2024.11.25-00.46.54:616][150]LogBlueprintUserMessages: [BTTask_RoamAround_C_2] Fail roaming
+[2024.11.25-00.46.55:455][204]LogCharacterMovement: BP_NPCMaster_C_5 is stuck and failed to move! Velocity: X=-43.46 Y=-133.08 Z=0.00 Location: X=121.12 Y=1440.91 Z=2.19 Normal: X=-0.32 Y=-0.95 Z=0.00 PenetrationDepth:68.125 Actor:StaticMeshActor_4 Component:StaticMeshComponent0 BoneName:None (24 other events since notify)
+[2024.11.25-00.46.56:543][274]LogCharacterMovement: BP_NPCMaster_C_5 is stuck and failed to move! Velocity: X=-43.58 Y=-133.04 Z=0.00 Location: X=121.75 Y=1440.70 Z=2.19 Normal: X=-0.32 Y=-0.95 Z=0.00 PenetrationDepth:68.125 Actor:StaticMeshActor_4 Component:StaticMeshComponent0 BoneName:None (18 other events since notify)
+[2024.11.25-00.46.57:568][340]LogCharacterMovement: BP_NPCMaster_C_5 is stuck and failed to move! Velocity: X=-43.68 Y=-133.01 Z=0.00 Location: X=122.24 Y=1440.54 Z=2.19 Normal: X=-0.32 Y=-0.95 Z=0.00 PenetrationDepth:68.125 Actor:StaticMeshActor_4 Component:StaticMeshComponent0 BoneName:None (20 other events since notify)
+[2024.11.25-00.46.58:610][406]LogCharacterMovement: BP_NPCMaster_C_5 is stuck and failed to move! Velocity: X=-43.76 Y=-132.98 Z=0.00 Location: X=122.69 Y=1440.39 Z=2.19 Normal: X=-0.32 Y=-0.95 Z=0.00 PenetrationDepth:68.125 Actor:StaticMeshActor_4 Component:StaticMeshComponent0 BoneName:None (17 other events since notify)
+[2024.11.25-00.46.59:228][445]LogBlueprintUserMessages: [BTTask_RoamAround_C_2] Fail roaming
+[2024.11.25-00.46.59:653][472]LogCharacterMovement: BP_NPCMaster_C_5 is stuck and failed to move! Velocity: X=-43.85 Y=-132.96 Z=0.00 Location: X=123.11 Y=1440.25 Z=2.19 Normal: X=-0.32 Y=-0.95 Z=0.00 PenetrationDepth:68.125 Actor:StaticMeshActor_4 Component:StaticMeshComponent0 BoneName:None (12 other events since notify)
+[2024.11.25-00.47.00:656][536]LogCharacterMovement: BP_NPCMaster_C_5 is stuck and failed to move! Velocity: X=-43.90 Y=-132.94 Z=0.00 Location: X=123.40 Y=1440.15 Z=2.19 Normal: X=-0.32 Y=-0.95 Z=0.00 PenetrationDepth:68.125 Actor:StaticMeshActor_4 Component:StaticMeshComponent0 BoneName:None (19 other events since notify)
+[2024.11.25-00.47.01:686][602]LogCharacterMovement: BP_NPCMaster_C_5 is stuck and failed to move! Velocity: X=-43.96 Y=-132.92 Z=0.00 Location: X=123.69 Y=1440.06 Z=2.19 Normal: X=-0.32 Y=-0.95 Z=0.00 PenetrationDepth:68.125 Actor:StaticMeshActor_4 Component:StaticMeshComponent0 BoneName:None (15 other events since notify)
+[2024.11.25-00.47.02:817][672]LogCharacterMovement: BP_NPCMaster_C_5 is stuck and failed to move! Velocity: X=-44.01 Y=-132.90 Z=0.00 Location: X=123.94 Y=1439.97 Z=2.19 Normal: X=-0.32 Y=-0.95 Z=0.00 PenetrationDepth:68.125 Actor:StaticMeshActor_4 Component:StaticMeshComponent0 BoneName:None (19 other events since notify)
+[2024.11.25-00.47.03:816][733]LogBlueprintUserMessages: [BTTask_RoamAround_C_2] Fail roaming
+[2024.11.25-00.47.03:831][734]LogCharacterMovement: BP_NPCMaster_C_5 is stuck and failed to move! Velocity: X=-44.04 Y=-132.89 Z=0.00 Location: X=124.14 Y=1439.91 Z=2.19 Normal: X=-0.32 Y=-0.95 Z=0.00 PenetrationDepth:68.125 Actor:StaticMeshActor_4 Component:StaticMeshComponent0 BoneName:None (15 other events since notify)
+[2024.11.25-00.47.04:835][794]LogCharacterMovement: BP_NPCMaster_C_5 is stuck and failed to move! Velocity: X=-44.08 Y=-132.88 Z=0.00 Location: X=124.30 Y=1439.85 Z=2.19 Normal: X=-0.32 Y=-0.95 Z=0.00 PenetrationDepth:68.125 Actor:StaticMeshActor_4 Component:StaticMeshComponent0 BoneName:None (15 other events since notify)
+[2024.11.25-00.47.05:915][860]LogCharacterMovement: BP_NPCMaster_C_5 is stuck and failed to move! Velocity: X=-44.11 Y=-132.87 Z=0.00 Location: X=124.46 Y=1439.80 Z=2.19 Normal: X=-0.32 Y=-0.95 Z=0.00 PenetrationDepth:68.125 Actor:StaticMeshActor_4 Component:StaticMeshComponent0 BoneName:None (16 other events since notify)
+[2024.11.25-00.47.06:968][924]LogCharacterMovement: BP_NPCMaster_C_5 is stuck and failed to move! Velocity: X=-44.13 Y=-132.86 Z=0.00 Location: X=124.59 Y=1439.76 Z=2.19 Normal: X=-0.32 Y=-0.95 Z=0.00 PenetrationDepth:68.125 Actor:StaticMeshActor_4 Component:StaticMeshComponent0 BoneName:None (16 other events since notify)
+[2024.11.25-00.47.07:980][992]LogCharacterMovement: BP_NPCMaster_C_5 is stuck and failed to move! Velocity: X=-44.15 Y=-132.86 Z=0.00 Location: X=124.69 Y=1439.72 Z=2.19 Normal: X=-0.32 Y=-0.95 Z=0.00 PenetrationDepth:68.125 Actor:StaticMeshActor_4 Component:StaticMeshComponent0 BoneName:None (18 other events since notify)
+[2024.11.25-00.47.08:404][ 19]LogBlueprintUserMessages: [BTTask_RoamAround_C_2] Fail roaming
+[2024.11.25-00.47.09:053][ 58]LogCharacterMovement: BP_NPCMaster_C_5 is stuck and failed to move! Velocity: X=-44.17 Y=-132.85 Z=0.00 Location: X=124.78 Y=1439.69 Z=2.19 Normal: X=-0.32 Y=-0.95 Z=0.00 PenetrationDepth:68.125 Actor:StaticMeshActor_4 Component:StaticMeshComponent0 BoneName:None (18 other events since notify)
+[2024.11.25-00.47.10:081][118]LogCharacterMovement: BP_NPCMaster_C_5 is stuck and failed to move! Velocity: X=-44.18 Y=-132.85 Z=0.00 Location: X=124.85 Y=1439.67 Z=2.19 Normal: X=-0.32 Y=-0.95 Z=0.00 PenetrationDepth:68.125 Actor:StaticMeshActor_4 Component:StaticMeshComponent0 BoneName:None (19 other events since notify)
+[2024.11.25-00.47.11:190][182]LogCharacterMovement: BP_NPCMaster_C_5 is stuck and failed to move! Velocity: X=-44.20 Y=-132.84 Z=0.00 Location: X=124.92 Y=1439.65 Z=2.19 Normal: X=-0.32 Y=-0.95 Z=0.00 PenetrationDepth:68.125 Actor:StaticMeshActor_4 Component:StaticMeshComponent0 BoneName:None (17 other events since notify)
+[2024.11.25-00.47.12:215][242]LogCharacterMovement: BP_NPCMaster_C_5 is stuck and failed to move! Velocity: X=-44.21 Y=-132.84 Z=0.00 Location: X=124.98 Y=1439.63 Z=2.19 Normal: X=-0.32 Y=-0.95 Z=0.00 PenetrationDepth:68.125 Actor:StaticMeshActor_4 Component:StaticMeshComponent0 BoneName:None (16 other events since notify)
+[2024.11.25-00.47.13:020][288]LogBlueprintUserMessages: [BTTask_RoamAround_C_2] Fail roaming
+[2024.11.25-00.47.13:216][300]LogCharacterMovement: BP_NPCMaster_C_5 is stuck and failed to move! Velocity: X=-44.22 Y=-132.83 Z=0.00 Location: X=125.02 Y=1439.61 Z=2.19 Normal: X=-0.32 Y=-0.95 Z=0.00 PenetrationDepth:68.125 Actor:StaticMeshActor_4 Component:StaticMeshComponent0 BoneName:None (15 other events since notify)
+[2024.11.25-00.47.14:295][362]LogCharacterMovement: BP_NPCMaster_C_5 is stuck and failed to move! Velocity: X=-44.22 Y=-132.83 Z=0.00 Location: X=125.07 Y=1439.60 Z=2.19 Normal: X=-0.32 Y=-0.95 Z=0.00 PenetrationDepth:68.125 Actor:StaticMeshActor_4 Component:StaticMeshComponent0 BoneName:None (19 other events since notify)
+[2024.11.25-00.47.15:300][420]LogCharacterMovement: BP_NPCMaster_C_5 is stuck and failed to move! Velocity: X=-44.23 Y=-132.83 Z=0.00 Location: X=125.10 Y=1439.59 Z=2.19 Normal: X=-0.32 Y=-0.95 Z=0.00 PenetrationDepth:68.125 Actor:StaticMeshActor_4 Component:StaticMeshComponent0 BoneName:None (15 other events since notify)
+[2024.11.25-00.47.16:309][478]LogCharacterMovement: BP_NPCMaster_C_5 is stuck and failed to move! Velocity: X=-44.24 Y=-132.83 Z=0.00 Location: X=125.13 Y=1439.58 Z=2.19 Normal: X=-0.32 Y=-0.95 Z=0.00 PenetrationDepth:68.125 Actor:StaticMeshActor_4 Component:StaticMeshComponent0 BoneName:None (15 other events since notify)
+[2024.11.25-00.47.17:379][540]LogCharacterMovement: BP_NPCMaster_C_5 is stuck and failed to move! Velocity: X=-44.24 Y=-132.83 Z=0.00 Location: X=125.15 Y=1439.57 Z=2.19 Normal: X=-0.32 Y=-0.95 Z=0.00 PenetrationDepth:68.125 Actor:StaticMeshActor_4 Component:StaticMeshComponent0 BoneName:None (21 other events since notify)
+[2024.11.25-00.47.17:631][555]LogBlueprintUserMessages: [BTTask_RoamAround_C_2] Fail roaming
+[2024.11.25-00.47.18:390][602]LogCharacterMovement: BP_NPCMaster_C_5 is stuck and failed to move! Velocity: X=-44.25 Y=-132.82 Z=0.00 Location: X=125.18 Y=1439.56 Z=2.19 Normal: X=-0.32 Y=-0.95 Z=0.00 PenetrationDepth:68.125 Actor:StaticMeshActor_4 Component:StaticMeshComponent0 BoneName:None (13 other events since notify)
+[2024.11.25-00.47.19:465][666]LogCharacterMovement: BP_NPCMaster_C_5 is stuck and failed to move! Velocity: X=-44.25 Y=-132.82 Z=0.00 Location: X=125.19 Y=1439.56 Z=2.19 Normal: X=-0.32 Y=-0.95 Z=0.00 PenetrationDepth:68.125 Actor:StaticMeshActor_4 Component:StaticMeshComponent0 BoneName:None (12 other events since notify)
+[2024.11.25-00.47.20:852][752]LogCharacterMovement: BP_NPCMaster_C_5 is stuck and failed to move! Velocity: X=-44.25 Y=-132.82 Z=0.00 Location: X=125.20 Y=1439.55 Z=2.19 Normal: X=-0.32 Y=-0.95 Z=0.00 PenetrationDepth:68.125 Actor:StaticMeshActor_4 Component:StaticMeshComponent0 BoneName:None (5 other events since notify)
+[2024.11.25-00.47.22:022][821]LogCharacterMovement: BP_NPCMaster_C_5 is stuck and failed to move! Velocity: X=-44.25 Y=-132.82 Z=0.00 Location: X=125.21 Y=1439.55 Z=2.19 Normal: X=-0.32 Y=-0.95 Z=0.00 PenetrationDepth:68.125 Actor:StaticMeshActor_4 Component:StaticMeshComponent0 BoneName:None (3 other events since notify)
+[2024.11.25-00.47.22:207][832]LogBlueprintUserMessages: [BTTask_RoamAround_C_2] Fail roaming
+[2024.11.25-00.47.23:710][929]LogBlueprintUserMessages: [BTTask_RoamAround_C_2] Fail roaming
+[2024.11.25-00.47.23:726][930]LogCharacterMovement: BP_NPCMaster_C_5 is stuck and failed to move! Velocity: X=-32.81 Y=-8.20 Z=0.00 Location: X=125.21 Y=1439.55 Z=2.19 Normal: X=-0.32 Y=-0.95 Z=0.00 PenetrationDepth:68.125 Actor:StaticMeshActor_4 Component:StaticMeshComponent0 BoneName:None (2 other events since notify)
+[2024.11.25-00.47.24:756][994]LogCharacterMovement: BP_NPCMaster_C_5 is stuck and failed to move! Velocity: X=-121.18 Y=-68.91 Z=0.00 Location: X=38.64 Y=1468.41 Z=2.19 Normal: X=-0.32 Y=-0.95 Z=0.00 PenetrationDepth:68.125 Actor:StaticMeshActor_4 Component:StaticMeshComponent0 BoneName:None (16 other events since notify)
+[2024.11.25-00.47.25:789][ 60]LogCharacterMovement: BP_NPCMaster_C_5 is stuck and failed to move! Velocity: X=-82.32 Y=-112.78 Z=0.00 Location: X=-28.83 Y=1490.89 Z=2.19 Normal: X=-0.32 Y=-0.95 Z=0.00 PenetrationDepth:68.125 Actor:StaticMeshActor_4 Component:StaticMeshComponent0 BoneName:None (18 other events since notify)
+[2024.11.25-00.47.26:793][129]LogBlueprintUserMessages: [BTTask_RoamAround_C_2] Fail roaming
+[2024.11.25-00.47.26:924][138]LogCharacterMovement: BP_NPCMaster_C_5 is stuck and failed to move! Velocity: X=-52.34 Y=-129.85 Z=0.00 Location: X=-57.37 Y=1500.41 Z=2.19 Normal: X=-0.32 Y=-0.95 Z=0.00 PenetrationDepth:68.125 Actor:StaticMeshActor_4 Component:StaticMeshComponent0 BoneName:None (20 other events since notify)
+[2024.11.25-00.47.27:991][206]LogCharacterMovement: BP_NPCMaster_C_5 is stuck and failed to move! Velocity: X=-45.90 Y=-132.26 Z=0.00 Location: X=-63.33 Y=1502.40 Z=2.19 Normal: X=-0.32 Y=-0.95 Z=0.00 PenetrationDepth:68.125 Actor:StaticMeshActor_4 Component:StaticMeshComponent0 BoneName:None (14 other events since notify)
+[2024.11.25-00.47.29:023][270]LogCharacterMovement: BP_NPCMaster_C_5 is stuck and failed to move! Velocity: X=-44.62 Y=-132.70 Z=0.00 Location: X=-64.50 Y=1502.79 Z=2.19 Normal: X=-0.32 Y=-0.95 Z=0.00 PenetrationDepth:68.125 Actor:StaticMeshActor_4 Component:StaticMeshComponent0 BoneName:None (13 other events since notify)
+[2024.11.25-00.47.29:564][304]Cmd: LevelEditor.ToggleImmersive
+[2024.11.25-00.47.29:604][304]LogViewport: Scene viewport resized to 1952x1023, mode Windowed.
+[2024.11.25-00.47.29:632][305]LogViewport: Scene viewport resized to 1710x872, mode Windowed.
+[2024.11.25-00.47.29:669][306]LogViewport: Scene viewport resized to 1530x760, mode Windowed.
+[2024.11.25-00.47.29:697][307]LogViewport: Scene viewport resized to 1459x717, mode Windowed.
+[2024.11.25-00.47.29:726][308]LogViewport: Scene viewport resized to 1432x701, mode Windowed.
+[2024.11.25-00.47.29:758][309]LogViewport: Scene viewport resized to 1428x697, mode Windowed.
+[2024.11.25-00.47.30:044][333]LogCharacterMovement: BP_NPCMaster_C_5 is stuck and failed to move! Velocity: X=-44.35 Y=-132.79 Z=0.00 Location: X=-64.74 Y=1502.87 Z=2.19 Normal: X=-0.32 Y=-0.95 Z=0.00 PenetrationDepth:68.125 Actor:StaticMeshActor_4 Component:StaticMeshComponent0 BoneName:None (16 other events since notify)
+[2024.11.25-00.47.31:139][431]LogCharacterMovement: BP_NPCMaster_C_5 is stuck and failed to move! Velocity: X=-44.30 Y=-132.81 Z=0.00 Location: X=-64.79 Y=1502.88 Z=2.19 Normal: X=-0.32 Y=-0.95 Z=0.00 PenetrationDepth:68.125 Actor:StaticMeshActor_4 Component:StaticMeshComponent0 BoneName:None (14 other events since notify)
+[2024.11.25-00.47.31:366][451]LogBlueprintUserMessages: [BTTask_RoamAround_C_2] Fail roaming
+[2024.11.25-00.47.32:659][566]LogCharacterMovement: BP_NPCMaster_C_5 is stuck and failed to move! Velocity: X=-44.30 Y=-132.81 Z=0.00 Location: X=-64.79 Y=1502.88 Z=2.19 Normal: X=-0.32 Y=-0.95 Z=0.00 PenetrationDepth:68.125 Actor:StaticMeshActor_4 Component:StaticMeshComponent0 BoneName:None (1 other events since notify)
+[2024.11.25-00.47.34:639][713]LogCharacterMovement: BP_NPCMaster_C_5 is stuck and failed to move! Velocity: X=-44.29 Y=-132.81 Z=0.00 Location: X=-64.80 Y=1502.89 Z=2.19 Normal: X=-0.32 Y=-0.95 Z=0.00 PenetrationDepth:68.125 Actor:StaticMeshActor_4 Component:StaticMeshComponent0 BoneName:None (5 other events since notify)
+[2024.11.25-00.47.34:885][726]LogBlueprintUserMessages: [BTTask_RoamAround_C_2] Fail roaming
+[2024.11.25-00.47.35:640][771]LogCharacterMovement: BP_NPCMaster_C_5 is stuck and failed to move! Velocity: X=-71.72 Y=-120.23 Z=0.00 Location: X=-83.87 Y=1509.24 Z=2.19 Normal: X=-0.32 Y=-0.95 Z=0.00 PenetrationDepth:68.125 Actor:StaticMeshActor_4 Component:StaticMeshComponent0 BoneName:None (13 other events since notify)
+[2024.11.25-00.47.36:123][793]LogBlueprintUserMessages: [BTTask_RoamAround_C_2] Fail roaming
+[2024.11.25-00.47.36:716][829]LogCharacterMovement: BP_NPCMaster_C_5 is stuck and failed to move! Velocity: X=-62.32 Y=-125.37 Z=0.00 Location: X=-107.18 Y=1517.01 Z=2.19 Normal: X=-0.32 Y=-0.95 Z=0.00 PenetrationDepth:68.125 Actor:StaticMeshActor_4 Component:StaticMeshComponent0 BoneName:None (14 other events since notify)
+[2024.11.25-00.47.37:863][894]LogCharacterMovement: BP_NPCMaster_C_5 is stuck and failed to move! Velocity: X=-55.95 Y=-128.34 Z=0.00 Location: X=-122.17 Y=1522.01 Z=2.19 Normal: X=-0.32 Y=-0.95 Z=0.00 PenetrationDepth:68.125 Actor:StaticMeshActor_4 Component:StaticMeshComponent0 BoneName:None (17 other events since notify)
+[2024.11.25-00.47.40:732][ 90]LogBlueprintUserMessages: [BTTask_RoamAround_C_2] Fail roaming
+[2024.11.25-00.47.45:286][472]LogBlueprintUserMessages: [BTTask_RoamAround_C_2] Fail roaming
+[2024.11.25-00.47.49:854][855]LogBlueprintUserMessages: [BTTask_RoamAround_C_2] Fail roaming
+[2024.11.25-00.47.51:919][ 20]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.25-00.47.51:919][ 20]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Ilumination
+[2024.11.25-00.47.51:923][ 20]LogWorld: UWorld::CleanupWorld for Ilumination, bSessionEnded=true, bCleanupResources=true
+[2024.11.25-00.47.51:924][ 20]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.25-00.47.51:927][ 20]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.25-00.47.51:932][ 20]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.25-00.47.51:945][ 20]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.25-00.47.51:946][ 20]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 14
+[2024.11.25-00.47.51:946][ 20]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2024.11.25-00.47.51:948][ 20]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2024.11.25-00.47.51:958][ 20]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2024.11.25-00.47.52:009][ 21]LogPlayLevel: Display: Destroying online subsystem :Context_40
+[2024.11.25-00.48.02:578][116]LogViewport: Scene viewport resized to 1428x699, mode Windowed.
+[2024.11.25-00.48.02:602][117]LogViewport: Scene viewport resized to 1428x712, mode Windowed.
+[2024.11.25-00.48.02:627][118]LogViewport: Scene viewport resized to 1428x739, mode Windowed.
+[2024.11.25-00.48.02:652][119]LogViewport: Scene viewport resized to 1428x775, mode Windowed.
+[2024.11.25-00.48.02:682][120]LogViewport: Scene viewport resized to 1428x825, mode Windowed.
+[2024.11.25-00.48.02:711][121]LogViewport: Scene viewport resized to 1428x860, mode Windowed.
+[2024.11.25-00.48.02:742][122]LogViewport: Scene viewport resized to 1428x881, mode Windowed.
+[2024.11.25-00.48.02:768][123]LogViewport: Scene viewport resized to 1428x886, mode Windowed.
