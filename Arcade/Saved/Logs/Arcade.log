@@ -4385,3 +4385,370 @@ LogConfig: CVar [[framepro.ScopeMinTimeMicroseconds:10]] deferred - dummy variab
 [2024.11.25-11.31.29:375][645]LogScript: Warning: Accessed None trying to read property CallFunc_GetMyGameInstance_myGameInstance_1
 	WB_EndDay_C /Engine/Transient.World_13:WB_EndDay_C_42
 	Function /Game/Widgets/UI/WB_EndDay.WB_EndDay_C:UpdateDayInfo:009B
+[2024.11.25-11.33.42:224][394]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2024.11.25-11.33.43:680][480]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2024.11.25-11.33.43:680][480]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.25-11.33.43:695][480]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2024.11.25-11.33.43:695][480]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.25-11.33.44:964][553]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.25-11.33.44:979][553]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.25-11.33.44:979][553]PIE: New page: PIE session: TutorialScene (25 de nov de 2024 05:33:44)
+[2024.11.25-11.33.44:979][553]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TutorialScene
+[2024.11.25-11.33.44:994][553]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015442s)
+[2024.11.25-11.33.44:995][553]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TutorialScene.TutorialScene to /Game/Levels/UEDPIE_0_TutorialScene.TutorialScene (0.015477s)
+[2024.11.25-11.33.45:011][553]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2024.11.25-11.33.45:015][553]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-11.33.45:016][553]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.25-11.33.45:016][553]LogAIModule: Creating AISystem for world TutorialScene
+[2024.11.25-11.33.45:016][553]LogPlayLevel: PIE: World Init took: (0.000999s)
+[2024.11.25-11.33.45:016][553]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2024.11.25-11.33.45:016][553]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.25-11.33.45:016][553]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.25-11.33.45:016][553]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.25-11.33.45:016][553]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.25-11.33.45:016][553]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.25-11.33.45:016][553]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.25-11.33.45:016][553]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.25-11.33.45:016][553]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.25-11.33.45:017][553]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.25-11.33.45:017][553]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.25-11.33.45:017][553]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.25-11.33.45:019][553]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.25-11.33.45:052][553]LogAudioMixer: Display: Using Audio Hardware Device Fones de ouvido (A-589)
+[2024.11.25-11.33.45:053][553]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.25-11.33.45:053][553]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.25-11.33.45:053][553]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.25-11.33.45:053][553]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=6
+[2024.11.25-11.33.45:053][553]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=6
+[2024.11.25-11.33.45:055][553]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=6
+[2024.11.25-11.33.45:055][553]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=6
+[2024.11.25-11.33.45:055][553]LogInit: FAudioDevice initialized with ID 6.
+[2024.11.25-11.33.45:055][553]LogAudio: Display: Audio Device (ID: 6) registered with world 'TutorialScene'.
+[2024.11.25-11.33.45:055][553]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 6
+[2024.11.25-11.33.45:057][553]LogLoad: Game class is 'MyGameGamemode_C'
+[2024.11.25-11.33.45:066][553]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TutorialScene.TutorialScene up for play (max tick rate 60) at 2024.11.25-08.33.45
+[2024.11.25-11.33.45:067][553]LogWorld: Bringing up level for play took: 0.009190
+[2024.11.25-11.33.45:070][553]LogOnline: OSS: Created online subsystem instance for: :Context_16
+[2024.11.25-11.33.45:070][553]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.25-11.33.45:070][553]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.25-11.33.45:070][553]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.11.25-11.33.45:084][553]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.11.25-11.33.45:084][553]PIE: Server logged in
+[2024.11.25-11.33.45:084][553]PIE: Play in editor total start time 0,106 seconds.
+[2024.11.25-11.33.46:357][628]Cmd: LevelEditor.ToggleImmersive
+[2024.11.25-11.33.46:366][628]LogViewport: Scene viewport resized to 1331x609, mode Windowed.
+[2024.11.25-11.33.46:389][629]LogViewport: Scene viewport resized to 1553x764, mode Windowed.
+[2024.11.25-11.33.46:405][630]LogViewport: Scene viewport resized to 1695x863, mode Windowed.
+[2024.11.25-11.33.46:420][631]LogViewport: Scene viewport resized to 1795x934, mode Windowed.
+[2024.11.25-11.33.46:437][632]LogViewport: Scene viewport resized to 1863x981, mode Windowed.
+[2024.11.25-11.33.46:453][633]LogViewport: Scene viewport resized to 1900x1008, mode Windowed.
+[2024.11.25-11.33.46:470][634]LogViewport: Scene viewport resized to 1918x1020, mode Windowed.
+[2024.11.25-11.33.46:484][635]LogViewport: Scene viewport resized to 1923x1023, mode Windowed.
+[2024.11.25-11.33.46:505][636]LogViewport: Scene viewport resized to 1924x1024, mode Windowed.
+[2024.11.25-11.34.13:902][279]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.11.25-11.34.13:902][279]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2024.11.25-11.34.13:902][279]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2024.11.25-11.34.14:634][323]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.11.25-11.34.14:634][323]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2024.11.25-11.34.18:736][569]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.11.25-11.34.18:736][569]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2024.11.25-11.34.24:069][889]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.11.25-11.34.24:070][889]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2024.11.25-11.34.28:486][154]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2777.631104
+[2024.11.25-11.34.28:702][167]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2024.11.25-11.34.28:702][167]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2777.830566, Update Interval: 300.080566
+[2024.11.25-11.34.32:216][377]LogShaderCompilers: Display: ================================================
+[2024.11.25-11.34.32:216][377]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.11.25-11.34.32:216][377]LogShaderCompilers: Display: Total job queries 397, among them cache hits 221 (55.67%)
+[2024.11.25-11.34.32:216][377]LogShaderCompilers: Display: Tracking 176 distinct input hashes that result in 71 distinct outputs (40.34%)
+[2024.11.25-11.34.32:216][377]LogShaderCompilers: Display: RAM used: 3,81 MiB of 819,20 MiB budget. Usage: 0.47%
+[2024.11.25-11.34.32:216][377]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.11.25-11.34.32:216][377]LogShaderCompilers: Display: Shaders Compiled: 4
+[2024.11.25-11.34.32:216][377]LogShaderCompilers: Display: Jobs assigned 4, completed 4 (100%)
+[2024.11.25-11.34.32:216][377]LogShaderCompilers: Display: Time job spent in pending queue: average 0.04 s, longest 0.04 s
+[2024.11.25-11.34.32:216][377]LogShaderCompilers: Display: Job execution time: average 0.45 s, max 0.55 s
+[2024.11.25-11.34.32:217][377]LogShaderCompilers: Display: Job life time (pending + execution): average 0.49 s, max 0.59
+[2024.11.25-11.34.32:217][377]LogShaderCompilers: Display: Shader code size: average 35,574 KiB, min 33,09 KiB, max 38,156 KiB
+[2024.11.25-11.34.32:217][377]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.59 s
+[2024.11.25-11.34.32:217][377]LogShaderCompilers: Display: Jobs were issued in 4 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.11.25-11.34.32:217][377]LogShaderCompilers: Display: Average processing rate: 6.74 jobs/sec
+[2024.11.25-11.34.32:217][377]LogShaderCompilers: Display: Total thread time: 0,742 s
+[2024.11.25-11.34.32:217][377]LogShaderCompilers: Display: Total thread preprocess time: 0,091 s
+[2024.11.25-11.34.32:217][377]LogShaderCompilers: Display: Percentage time preprocessing: 12.23%
+[2024.11.25-11.34.32:217][377]LogShaderCompilers: Display: Effective parallelization: 1.25 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.11.25-11.34.32:217][377]LogShaderCompilers: Display: Top 4 most expensive shader types by average time:
+[2024.11.25-11.34.32:217][377]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    1 times, average 0.24 sec, max 0.24 sec, min 0.24 sec)
+[2024.11.25-11.34.32:217][377]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    1 times, average 0.21 sec, max 0.21 sec, min 0.21 sec)
+[2024.11.25-11.34.32:217][377]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    1 times, average 0.20 sec, max 0.20 sec, min 0.20 sec)
+[2024.11.25-11.34.32:217][377]LogShaderCompilers: Display:                                          FLumenCardPS<false> (compiled    1 times, average 0.10 sec, max 0.10 sec, min 0.10 sec)
+[2024.11.25-11.34.32:217][377]LogShaderCompilers: Display: Top 4 shader types by total compile time:
+[2024.11.25-11.34.32:217][377]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 32.24% of total time (compiled    1 times, average 0.24 sec, max 0.24 sec, min 0.24 sec)
+[2024.11.25-11.34.32:217][377]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 27.93% of total time (compiled    1 times, average 0.21 sec, max 0.21 sec, min 0.21 sec)
+[2024.11.25-11.34.32:217][377]LogShaderCompilers: Display:                                                 FLumenCardVS - 26.59% of total time (compiled    1 times, average 0.20 sec, max 0.20 sec, min 0.20 sec)
+[2024.11.25-11.34.32:217][377]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 13.24% of total time (compiled    1 times, average 0.10 sec, max 0.10 sec, min 0.10 sec)
+[2024.11.25-11.34.32:217][377]LogShaderCompilers: Display: ================================================
+[2024.11.25-11.34.32:231][378]LogScript: Warning: Accessed None trying to read property CallFunc_GetMyGameInstance_myGameInstance_6
+	WB_EndDay_C /Game/Levels/TutorialScene.TutorialScene:WB_EndDay_C_30
+	Function /Game/Widgets/UI/WB_EndDay.WB_EndDay_C:UpdateDayInfo:01E6
+[2024.11.25-11.34.32:232][378]LogScript: Warning: Accessed None trying to read property CallFunc_GetMyGameInstance_myGameInstance_5
+	WB_EndDay_C /Game/Levels/TutorialScene.TutorialScene:WB_EndDay_C_30
+	Function /Game/Widgets/UI/WB_EndDay.WB_EndDay_C:UpdateDayInfo:02B7
+[2024.11.25-11.34.32:232][378]LogScript: Warning: Accessed None trying to read property CallFunc_GetMyGameInstance_myGameInstance_4
+	WB_EndDay_C /Game/Levels/TutorialScene.TutorialScene:WB_EndDay_C_30
+	Function /Game/Widgets/UI/WB_EndDay.WB_EndDay_C:UpdateDayInfo:0388
+[2024.11.25-11.34.32:232][378]LogScript: Warning: Accessed None trying to read property CallFunc_GetMyGameInstance_myGameInstance_4
+	WB_EndDay_C /Game/Levels/TutorialScene.TutorialScene:WB_EndDay_C_30
+	Function /Game/Widgets/UI/WB_EndDay.WB_EndDay_C:UpdateDayInfo:03A7
+[2024.11.25-11.34.32:232][378]LogScript: Warning: Accessed None trying to read property CallFunc_GetMyGameInstance_myGameInstance_3
+	WB_EndDay_C /Game/Levels/TutorialScene.TutorialScene:WB_EndDay_C_30
+	Function /Game/Widgets/UI/WB_EndDay.WB_EndDay_C:UpdateDayInfo:049D
+[2024.11.25-11.34.32:232][378]LogScript: Warning: Accessed None trying to read property CallFunc_GetMyGameInstance_myGameInstance_2
+	WB_EndDay_C /Game/Levels/TutorialScene.TutorialScene:WB_EndDay_C_30
+	Function /Game/Widgets/UI/WB_EndDay.WB_EndDay_C:UpdateDayInfo:0546
+[2024.11.25-11.34.32:232][378]LogScript: Warning: Accessed None trying to read property CallFunc_GetMyGameInstance_myGameInstance
+	WB_EndDay_C /Game/Levels/TutorialScene.TutorialScene:WB_EndDay_C_30
+	Function /Game/Widgets/UI/WB_EndDay.WB_EndDay_C:UpdateDayInfo:05EF
+[2024.11.25-11.35.42:817][595]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.25-11.35.42:817][595]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TutorialScene
+[2024.11.25-11.35.42:822][595]LogWorld: UWorld::CleanupWorld for TutorialScene, bSessionEnded=true, bCleanupResources=true
+[2024.11.25-11.35.42:825][595]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.25-11.35.42:832][595]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.25-11.35.42:838][595]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.25-11.35.42:851][595]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.25-11.35.42:852][595]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 6
+[2024.11.25-11.35.42:852][595]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2024.11.25-11.35.42:855][595]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2024.11.25-11.35.42:867][595]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2024.11.25-11.35.42:918][596]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2024.11.25-11.35.45:028][718]LogViewport: Scene viewport resized to 1454x694, mode Windowed.
+[2024.11.25-11.35.45:055][719]LogViewport: Scene viewport resized to 1176x500, mode Windowed.
+[2024.11.25-11.35.45:067][720]LogViewport: Scene viewport resized to 1128x466, mode Windowed.
+[2024.11.25-11.35.45:085][721]LogViewport: Scene viewport resized to 1081x433, mode Windowed.
+[2024.11.25-11.35.45:101][722]LogViewport: Scene viewport resized to 1050x411, mode Windowed.
+[2024.11.25-11.35.45:128][723]LogViewport: Scene viewport resized to 1023x393, mode Windowed.
+[2024.11.25-11.35.45:155][724]LogViewport: Scene viewport resized to 1017x389, mode Windowed.
+[2024.11.25-11.35.45:185][726]LogViewport: Scene viewport resized to 1016x388, mode Windowed.
+[2024.11.25-11.36.01:930][ 47]LogScript: Warning: Accessed None trying to read property CallFunc_GetMyGameInstance_myGameInstance_6
+	WB_EndDay_C /Game/Levels/TutorialScene.TutorialScene:WB_EndDay_C_31
+	Function /Game/Widgets/UI/WB_EndDay.WB_EndDay_C:UpdateDayInfo:01E6
+[2024.11.25-11.36.01:930][ 47]LogScript: Warning: Accessed None trying to read property CallFunc_GetMyGameInstance_myGameInstance_5
+	WB_EndDay_C /Game/Levels/TutorialScene.TutorialScene:WB_EndDay_C_31
+	Function /Game/Widgets/UI/WB_EndDay.WB_EndDay_C:UpdateDayInfo:02B7
+[2024.11.25-11.36.01:930][ 47]LogScript: Warning: Accessed None trying to read property CallFunc_GetMyGameInstance_myGameInstance_4
+	WB_EndDay_C /Game/Levels/TutorialScene.TutorialScene:WB_EndDay_C_31
+	Function /Game/Widgets/UI/WB_EndDay.WB_EndDay_C:UpdateDayInfo:0388
+[2024.11.25-11.36.01:930][ 47]LogScript: Warning: Accessed None trying to read property CallFunc_GetMyGameInstance_myGameInstance_4
+	WB_EndDay_C /Game/Levels/TutorialScene.TutorialScene:WB_EndDay_C_31
+	Function /Game/Widgets/UI/WB_EndDay.WB_EndDay_C:UpdateDayInfo:03A7
+[2024.11.25-11.36.01:930][ 47]LogScript: Warning: Accessed None trying to read property CallFunc_GetMyGameInstance_myGameInstance_3
+	WB_EndDay_C /Game/Levels/TutorialScene.TutorialScene:WB_EndDay_C_31
+	Function /Game/Widgets/UI/WB_EndDay.WB_EndDay_C:UpdateDayInfo:049D
+[2024.11.25-11.36.01:930][ 47]LogScript: Warning: Accessed None trying to read property CallFunc_GetMyGameInstance_myGameInstance_2
+	WB_EndDay_C /Game/Levels/TutorialScene.TutorialScene:WB_EndDay_C_31
+	Function /Game/Widgets/UI/WB_EndDay.WB_EndDay_C:UpdateDayInfo:0546
+[2024.11.25-11.36.01:930][ 47]LogScript: Warning: Accessed None trying to read property CallFunc_GetMyGameInstance_myGameInstance
+	WB_EndDay_C /Game/Levels/TutorialScene.TutorialScene:WB_EndDay_C_31
+	Function /Game/Widgets/UI/WB_EndDay.WB_EndDay_C:UpdateDayInfo:05EF
+[2024.11.25-11.36.01:930][ 47]LogScript: Warning: Accessed None trying to read property CallFunc_GetMyGameInstance_myGameInstance_1
+	WB_EndDay_C /Game/Levels/TutorialScene.TutorialScene:WB_EndDay_C_31
+	Function /Game/Widgets/UI/WB_EndDay.WB_EndDay_C:UpdateDayInfo:009B
+[2024.11.25-11.36.01:947][ 48]LogScript: Warning: Accessed None trying to read property CallFunc_GetMyGameInstance_myGameInstance_6
+	WB_EndDay_C /Game/Levels/TutorialScene.TutorialScene:WB_EndDay_C_31
+	Function /Game/Widgets/UI/WB_EndDay.WB_EndDay_C:UpdateDayInfo:01E6
+[2024.11.25-11.36.01:947][ 48]LogScript: Warning: Accessed None trying to read property CallFunc_GetMyGameInstance_myGameInstance_5
+	WB_EndDay_C /Game/Levels/TutorialScene.TutorialScene:WB_EndDay_C_31
+	Function /Game/Widgets/UI/WB_EndDay.WB_EndDay_C:UpdateDayInfo:02B7
+[2024.11.25-11.36.01:947][ 48]LogScript: Warning: Accessed None trying to read property CallFunc_GetMyGameInstance_myGameInstance_4
+	WB_EndDay_C /Game/Levels/TutorialScene.TutorialScene:WB_EndDay_C_31
+	Function /Game/Widgets/UI/WB_EndDay.WB_EndDay_C:UpdateDayInfo:0388
+[2024.11.25-11.36.01:947][ 48]LogScript: Warning: Accessed None trying to read property CallFunc_GetMyGameInstance_myGameInstance_4
+	WB_EndDay_C /Game/Levels/TutorialScene.TutorialScene:WB_EndDay_C_31
+	Function /Game/Widgets/UI/WB_EndDay.WB_EndDay_C:UpdateDayInfo:03A7
+[2024.11.25-11.36.01:947][ 48]LogScript: Warning: Accessed None trying to read property CallFunc_GetMyGameInstance_myGameInstance_3
+	WB_EndDay_C /Game/Levels/TutorialScene.TutorialScene:WB_EndDay_C_31
+	Function /Game/Widgets/UI/WB_EndDay.WB_EndDay_C:UpdateDayInfo:049D
+[2024.11.25-11.36.01:947][ 48]LogScript: Warning: Accessed None trying to read property CallFunc_GetMyGameInstance_myGameInstance_2
+	WB_EndDay_C /Game/Levels/TutorialScene.TutorialScene:WB_EndDay_C_31
+	Function /Game/Widgets/UI/WB_EndDay.WB_EndDay_C:UpdateDayInfo:0546
+[2024.11.25-11.36.01:947][ 48]LogScript: Warning: Accessed None trying to read property CallFunc_GetMyGameInstance_myGameInstance
+	WB_EndDay_C /Game/Levels/TutorialScene.TutorialScene:WB_EndDay_C_31
+	Function /Game/Widgets/UI/WB_EndDay.WB_EndDay_C:UpdateDayInfo:05EF
+[2024.11.25-11.36.01:947][ 48]LogScript: Warning: Accessed None trying to read property CallFunc_GetMyGameInstance_myGameInstance_1
+	WB_EndDay_C /Game/Levels/TutorialScene.TutorialScene:WB_EndDay_C_31
+	Function /Game/Widgets/UI/WB_EndDay.WB_EndDay_C:UpdateDayInfo:009B
+[2024.11.25-11.36.05:302][244]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Widgets/UI/WB_EndDay.WB_EndDay
+[2024.11.25-11.36.05:302][244]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-11.36.05:302][244]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.25-11.36.05:307][244]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-11.36.05:307][244]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.25-11.36.49:719][886]LogEditorTransaction: Undo Paste Category Properties
+[2024.11.25-11.37.07:060][896]LogEditorTransaction: Undo Edit Bottom
+[2024.11.25-11.39.23:940][ 44]BlueprintLog: New page: Compile WB_EndDay
+[2024.11.25-11.39.23:979][ 44]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2024.11.25-11.39.24:083][ 44]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.25-11.39.24:152][ 44]LogScript: Warning: Accessed None trying to read property CallFunc_GetMyGameInstance_myGameInstance_6
+	WB_EndDay_C /Game/Levels/TutorialScene.TutorialScene:WB_EndDay_C_32
+	Function /Game/Widgets/UI/WB_EndDay.WB_EndDay_C:UpdateDayInfo:01E6
+[2024.11.25-11.39.24:152][ 44]LogScript: Warning: Accessed None trying to read property CallFunc_GetMyGameInstance_myGameInstance_5
+	WB_EndDay_C /Game/Levels/TutorialScene.TutorialScene:WB_EndDay_C_32
+	Function /Game/Widgets/UI/WB_EndDay.WB_EndDay_C:UpdateDayInfo:02B7
+[2024.11.25-11.39.24:152][ 44]LogScript: Warning: Accessed None trying to read property CallFunc_GetMyGameInstance_myGameInstance_4
+	WB_EndDay_C /Game/Levels/TutorialScene.TutorialScene:WB_EndDay_C_32
+	Function /Game/Widgets/UI/WB_EndDay.WB_EndDay_C:UpdateDayInfo:0388
+[2024.11.25-11.39.24:152][ 44]LogScript: Warning: Accessed None trying to read property CallFunc_GetMyGameInstance_myGameInstance_4
+	WB_EndDay_C /Game/Levels/TutorialScene.TutorialScene:WB_EndDay_C_32
+	Function /Game/Widgets/UI/WB_EndDay.WB_EndDay_C:UpdateDayInfo:03A7
+[2024.11.25-11.39.24:154][ 44]LogScript: Warning: Accessed None trying to read property CallFunc_GetMyGameInstance_myGameInstance_3
+	WB_EndDay_C /Game/Levels/TutorialScene.TutorialScene:WB_EndDay_C_32
+	Function /Game/Widgets/UI/WB_EndDay.WB_EndDay_C:UpdateDayInfo:049D
+[2024.11.25-11.39.24:154][ 44]LogScript: Warning: Accessed None trying to read property CallFunc_GetMyGameInstance_myGameInstance_2
+	WB_EndDay_C /Game/Levels/TutorialScene.TutorialScene:WB_EndDay_C_32
+	Function /Game/Widgets/UI/WB_EndDay.WB_EndDay_C:UpdateDayInfo:0546
+[2024.11.25-11.39.24:154][ 44]LogScript: Warning: Accessed None trying to read property CallFunc_GetMyGameInstance_myGameInstance
+	WB_EndDay_C /Game/Levels/TutorialScene.TutorialScene:WB_EndDay_C_32
+	Function /Game/Widgets/UI/WB_EndDay.WB_EndDay_C:UpdateDayInfo:05EF
+[2024.11.25-11.39.24:156][ 44]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/UI/WB_EndDay" FILE="../../../../../../Users/alves/Documents/GitKraken Projects/ArcadeSimulator/Arcade/Content/Widgets/UI/WB_EndDay.uasset" SILENT=true
+[2024.11.25-11.39.24:174][ 44]LogSavePackage: Moving output files for package: /Game/Widgets/UI/WB_EndDay
+[2024.11.25-11.39.24:174][ 44]LogSavePackage: Moving '../../../../../../Users/alves/Documents/GitKraken Projects/ArcadeSimulator/Arcade/Saved/WB_EndDayB21EE2674292125C9A4115A0C95F17A8.tmp' to '../../../../../../Users/alves/Documents/GitKraken Projects/ArcadeSimulator/Arcade/Content/Widgets/UI/WB_EndDay.uasset'
+[2024.11.25-11.39.24:180][ 44]LogFileHelpers: InternalPromptForCheckoutAndSave took 97 ms (total: 4.22 sec)
+[2024.11.25-11.39.24:189][ 44]AssetCheck: New page: Asset Save: WB_EndDay
+[2024.11.25-11.39.24:189][ 44]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/UI/WB_EndDay.WB_EndDay
+[2024.11.25-11.39.43:636][185]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2024.11.25-11.39.43:641][185]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.25-11.39.43:701][185]LogScript: Warning: Accessed None trying to read property CallFunc_GetMyGameInstance_myGameInstance_6
+	WB_EndDay_C /Game/Levels/TutorialScene.TutorialScene:WB_EndDay_C_33
+	Function /Game/Widgets/UI/WB_EndDay.WB_EndDay_C:UpdateDayInfo:01E6
+[2024.11.25-11.39.43:701][185]LogScript: Warning: Accessed None trying to read property CallFunc_GetMyGameInstance_myGameInstance_5
+	WB_EndDay_C /Game/Levels/TutorialScene.TutorialScene:WB_EndDay_C_33
+	Function /Game/Widgets/UI/WB_EndDay.WB_EndDay_C:UpdateDayInfo:02B7
+[2024.11.25-11.39.43:701][185]LogScript: Warning: Accessed None trying to read property CallFunc_GetMyGameInstance_myGameInstance_4
+	WB_EndDay_C /Game/Levels/TutorialScene.TutorialScene:WB_EndDay_C_33
+	Function /Game/Widgets/UI/WB_EndDay.WB_EndDay_C:UpdateDayInfo:0388
+[2024.11.25-11.39.43:701][185]LogScript: Warning: Accessed None trying to read property CallFunc_GetMyGameInstance_myGameInstance_4
+	WB_EndDay_C /Game/Levels/TutorialScene.TutorialScene:WB_EndDay_C_33
+	Function /Game/Widgets/UI/WB_EndDay.WB_EndDay_C:UpdateDayInfo:03A7
+[2024.11.25-11.39.43:701][185]LogScript: Warning: Accessed None trying to read property CallFunc_GetMyGameInstance_myGameInstance_3
+	WB_EndDay_C /Game/Levels/TutorialScene.TutorialScene:WB_EndDay_C_33
+	Function /Game/Widgets/UI/WB_EndDay.WB_EndDay_C:UpdateDayInfo:049D
+[2024.11.25-11.39.43:701][185]LogScript: Warning: Accessed None trying to read property CallFunc_GetMyGameInstance_myGameInstance_2
+	WB_EndDay_C /Game/Levels/TutorialScene.TutorialScene:WB_EndDay_C_33
+	Function /Game/Widgets/UI/WB_EndDay.WB_EndDay_C:UpdateDayInfo:0546
+[2024.11.25-11.39.43:701][185]LogScript: Warning: Accessed None trying to read property CallFunc_GetMyGameInstance_myGameInstance
+	WB_EndDay_C /Game/Levels/TutorialScene.TutorialScene:WB_EndDay_C_33
+	Function /Game/Widgets/UI/WB_EndDay.WB_EndDay_C:UpdateDayInfo:05EF
+[2024.11.25-11.39.43:701][185]LogScript: Warning: Accessed None trying to read property CallFunc_GetMyGameInstance_myGameInstance_1
+	WB_EndDay_C /Game/Levels/TutorialScene.TutorialScene:WB_EndDay_C_33
+	Function /Game/Widgets/UI/WB_EndDay.WB_EndDay_C:UpdateDayInfo:009B
+[2024.11.25-11.39.43:703][185]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/UI/WB_EndDay" FILE="../../../../../../Users/alves/Documents/GitKraken Projects/ArcadeSimulator/Arcade/Content/Widgets/UI/WB_EndDay.uasset" SILENT=true
+[2024.11.25-11.39.43:721][185]LogSavePackage: Moving output files for package: /Game/Widgets/UI/WB_EndDay
+[2024.11.25-11.39.43:721][185]LogSavePackage: Moving '../../../../../../Users/alves/Documents/GitKraken Projects/ArcadeSimulator/Arcade/Saved/WB_EndDayCE63B5914BCE9200192AF28C4160684C.tmp' to '../../../../../../Users/alves/Documents/GitKraken Projects/ArcadeSimulator/Arcade/Content/Widgets/UI/WB_EndDay.uasset'
+[2024.11.25-11.39.43:726][185]LogFileHelpers: InternalPromptForCheckoutAndSave took 85 ms (total: 4.30 sec)
+[2024.11.25-11.39.43:728][185]AssetCheck: New page: Asset Save: WB_EndDay
+[2024.11.25-11.39.43:728][185]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/UI/WB_EndDay.WB_EndDay
+[2024.11.25-11.39.43:736][186]LogScript: Warning: Accessed None trying to read property CallFunc_GetMyGameInstance_myGameInstance_6
+	WB_EndDay_C /Game/Levels/TutorialScene.TutorialScene:WB_EndDay_C_33
+	Function /Game/Widgets/UI/WB_EndDay.WB_EndDay_C:UpdateDayInfo:01E6
+[2024.11.25-11.39.43:736][186]LogScript: Warning: Accessed None trying to read property CallFunc_GetMyGameInstance_myGameInstance_5
+	WB_EndDay_C /Game/Levels/TutorialScene.TutorialScene:WB_EndDay_C_33
+	Function /Game/Widgets/UI/WB_EndDay.WB_EndDay_C:UpdateDayInfo:02B7
+[2024.11.25-11.39.43:736][186]LogScript: Warning: Accessed None trying to read property CallFunc_GetMyGameInstance_myGameInstance_4
+	WB_EndDay_C /Game/Levels/TutorialScene.TutorialScene:WB_EndDay_C_33
+	Function /Game/Widgets/UI/WB_EndDay.WB_EndDay_C:UpdateDayInfo:0388
+[2024.11.25-11.39.43:736][186]LogScript: Warning: Accessed None trying to read property CallFunc_GetMyGameInstance_myGameInstance_4
+	WB_EndDay_C /Game/Levels/TutorialScene.TutorialScene:WB_EndDay_C_33
+	Function /Game/Widgets/UI/WB_EndDay.WB_EndDay_C:UpdateDayInfo:03A7
+[2024.11.25-11.39.43:736][186]LogScript: Warning: Accessed None trying to read property CallFunc_GetMyGameInstance_myGameInstance_3
+	WB_EndDay_C /Game/Levels/TutorialScene.TutorialScene:WB_EndDay_C_33
+	Function /Game/Widgets/UI/WB_EndDay.WB_EndDay_C:UpdateDayInfo:049D
+[2024.11.25-11.39.43:736][186]LogScript: Warning: Accessed None trying to read property CallFunc_GetMyGameInstance_myGameInstance_2
+	WB_EndDay_C /Game/Levels/TutorialScene.TutorialScene:WB_EndDay_C_33
+	Function /Game/Widgets/UI/WB_EndDay.WB_EndDay_C:UpdateDayInfo:0546
+[2024.11.25-11.39.43:736][186]LogScript: Warning: Accessed None trying to read property CallFunc_GetMyGameInstance_myGameInstance
+	WB_EndDay_C /Game/Levels/TutorialScene.TutorialScene:WB_EndDay_C_33
+	Function /Game/Widgets/UI/WB_EndDay.WB_EndDay_C:UpdateDayInfo:05EF
+[2024.11.25-11.39.43:736][186]LogScript: Warning: Accessed None trying to read property CallFunc_GetMyGameInstance_myGameInstance_1
+	WB_EndDay_C /Game/Levels/TutorialScene.TutorialScene:WB_EndDay_C_33
+	Function /Game/Widgets/UI/WB_EndDay.WB_EndDay_C:UpdateDayInfo:009B
+[2024.11.25-11.40.10:358][334]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3119.497559
+[2024.11.25-11.40.10:541][345]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2024.11.25-11.40.10:541][345]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3119.666748, Update Interval: 333.209015
+[2024.11.25-11.40.50:240][532]LogEditorTransaction: Undo Edit Bottom
+[2024.11.25-11.40.59:254][ 46]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
+[2024.11.25-11.40.59:257][ 46]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.25-11.40.59:334][ 46]LogScript: Warning: Accessed None trying to read property CallFunc_GetMyGameInstance_myGameInstance_6
+	WB_EndDay_C /Game/Levels/TutorialScene.TutorialScene:WB_EndDay_C_34
+	Function /Game/Widgets/UI/WB_EndDay.WB_EndDay_C:UpdateDayInfo:01E6
+[2024.11.25-11.40.59:334][ 46]LogScript: Warning: Accessed None trying to read property CallFunc_GetMyGameInstance_myGameInstance_5
+	WB_EndDay_C /Game/Levels/TutorialScene.TutorialScene:WB_EndDay_C_34
+	Function /Game/Widgets/UI/WB_EndDay.WB_EndDay_C:UpdateDayInfo:02B7
+[2024.11.25-11.40.59:334][ 46]LogScript: Warning: Accessed None trying to read property CallFunc_GetMyGameInstance_myGameInstance_4
+	WB_EndDay_C /Game/Levels/TutorialScene.TutorialScene:WB_EndDay_C_34
+	Function /Game/Widgets/UI/WB_EndDay.WB_EndDay_C:UpdateDayInfo:0388
+[2024.11.25-11.40.59:334][ 46]LogScript: Warning: Accessed None trying to read property CallFunc_GetMyGameInstance_myGameInstance_4
+	WB_EndDay_C /Game/Levels/TutorialScene.TutorialScene:WB_EndDay_C_34
+	Function /Game/Widgets/UI/WB_EndDay.WB_EndDay_C:UpdateDayInfo:03A7
+[2024.11.25-11.40.59:334][ 46]LogScript: Warning: Accessed None trying to read property CallFunc_GetMyGameInstance_myGameInstance_3
+	WB_EndDay_C /Game/Levels/TutorialScene.TutorialScene:WB_EndDay_C_34
+	Function /Game/Widgets/UI/WB_EndDay.WB_EndDay_C:UpdateDayInfo:049D
+[2024.11.25-11.40.59:334][ 46]LogScript: Warning: Accessed None trying to read property CallFunc_GetMyGameInstance_myGameInstance_2
+	WB_EndDay_C /Game/Levels/TutorialScene.TutorialScene:WB_EndDay_C_34
+	Function /Game/Widgets/UI/WB_EndDay.WB_EndDay_C:UpdateDayInfo:0546
+[2024.11.25-11.40.59:334][ 46]LogScript: Warning: Accessed None trying to read property CallFunc_GetMyGameInstance_myGameInstance
+	WB_EndDay_C /Game/Levels/TutorialScene.TutorialScene:WB_EndDay_C_34
+	Function /Game/Widgets/UI/WB_EndDay.WB_EndDay_C:UpdateDayInfo:05EF
+[2024.11.25-11.40.59:335][ 46]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Widgets/UI/WB_EndDay" FILE="../../../../../../Users/alves/Documents/GitKraken Projects/ArcadeSimulator/Arcade/Content/Widgets/UI/WB_EndDay.uasset" SILENT=true
+[2024.11.25-11.40.59:353][ 46]LogSavePackage: Moving output files for package: /Game/Widgets/UI/WB_EndDay
+[2024.11.25-11.40.59:354][ 46]LogSavePackage: Moving '../../../../../../Users/alves/Documents/GitKraken Projects/ArcadeSimulator/Arcade/Saved/WB_EndDay520F0E474C8987E82E9254993718D6CB.tmp' to '../../../../../../Users/alves/Documents/GitKraken Projects/ArcadeSimulator/Arcade/Content/Widgets/UI/WB_EndDay.uasset'
+[2024.11.25-11.40.59:359][ 46]LogFileHelpers: InternalPromptForCheckoutAndSave took 101 ms (total: 4.40 sec)
+[2024.11.25-11.40.59:360][ 46]AssetCheck: New page: Asset Save: WB_EndDay
+[2024.11.25-11.40.59:360][ 46]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Widgets/UI/WB_EndDay.WB_EndDay
+[2024.11.25-11.41.00:184][ 96]BlueprintLog: New page: Compile WB_EndDay
+[2024.11.25-11.41.00:215][ 96]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2024.11.25-11.41.00:222][ 96]LogScript: Warning: Accessed None trying to read property CallFunc_GetMyGameInstance_myGameInstance_6
+	WB_EndDay_C /Game/Levels/TutorialScene.TutorialScene:WB_EndDay_C_35
+	Function /Game/Widgets/UI/WB_EndDay.WB_EndDay_C:UpdateDayInfo:01E6
+[2024.11.25-11.41.00:222][ 96]LogScript: Warning: Accessed None trying to read property CallFunc_GetMyGameInstance_myGameInstance_5
+	WB_EndDay_C /Game/Levels/TutorialScene.TutorialScene:WB_EndDay_C_35
+	Function /Game/Widgets/UI/WB_EndDay.WB_EndDay_C:UpdateDayInfo:02B7
+[2024.11.25-11.41.00:222][ 96]LogScript: Warning: Accessed None trying to read property CallFunc_GetMyGameInstance_myGameInstance_4
+	WB_EndDay_C /Game/Levels/TutorialScene.TutorialScene:WB_EndDay_C_35
+	Function /Game/Widgets/UI/WB_EndDay.WB_EndDay_C:UpdateDayInfo:0388
+[2024.11.25-11.41.00:222][ 96]LogScript: Warning: Accessed None trying to read property CallFunc_GetMyGameInstance_myGameInstance_4
+	WB_EndDay_C /Game/Levels/TutorialScene.TutorialScene:WB_EndDay_C_35
+	Function /Game/Widgets/UI/WB_EndDay.WB_EndDay_C:UpdateDayInfo:03A7
+[2024.11.25-11.41.00:222][ 96]LogScript: Warning: Accessed None trying to read property CallFunc_GetMyGameInstance_myGameInstance_3
+	WB_EndDay_C /Game/Levels/TutorialScene.TutorialScene:WB_EndDay_C_35
+	Function /Game/Widgets/UI/WB_EndDay.WB_EndDay_C:UpdateDayInfo:049D
+[2024.11.25-11.41.00:222][ 96]LogScript: Warning: Accessed None trying to read property CallFunc_GetMyGameInstance_myGameInstance_2
+	WB_EndDay_C /Game/Levels/TutorialScene.TutorialScene:WB_EndDay_C_35
+	Function /Game/Widgets/UI/WB_EndDay.WB_EndDay_C:UpdateDayInfo:0546
+[2024.11.25-11.41.00:222][ 96]LogScript: Warning: Accessed None trying to read property CallFunc_GetMyGameInstance_myGameInstance
+	WB_EndDay_C /Game/Levels/TutorialScene.TutorialScene:WB_EndDay_C_35
+	Function /Game/Widgets/UI/WB_EndDay.WB_EndDay_C:UpdateDayInfo:05EF
+[2024.11.25-11.41.00:222][ 96]LogScript: Warning: Accessed None trying to read property CallFunc_GetMyGameInstance_myGameInstance_1
+	WB_EndDay_C /Game/Levels/TutorialScene.TutorialScene:WB_EndDay_C_35
+	Function /Game/Widgets/UI/WB_EndDay.WB_EndDay_C:UpdateDayInfo:009B
+[2024.11.25-11.41.00:300][ 98]LogScript: Warning: Accessed None trying to read property CallFunc_GetMyGameInstance_myGameInstance_6
+	WB_EndDay_C /Game/Levels/TutorialScene.TutorialScene:WB_EndDay_C_35
+	Function /Game/Widgets/UI/WB_EndDay.WB_EndDay_C:UpdateDayInfo:01E6
+[2024.11.25-11.41.00:301][ 98]LogScript: Warning: Accessed None trying to read property CallFunc_GetMyGameInstance_myGameInstance_5
+	WB_EndDay_C /Game/Levels/TutorialScene.TutorialScene:WB_EndDay_C_35
+	Function /Game/Widgets/UI/WB_EndDay.WB_EndDay_C:UpdateDayInfo:02B7
+[2024.11.25-11.41.00:301][ 98]LogScript: Warning: Accessed None trying to read property CallFunc_GetMyGameInstance_myGameInstance_4
+	WB_EndDay_C /Game/Levels/TutorialScene.TutorialScene:WB_EndDay_C_35
+	Function /Game/Widgets/UI/WB_EndDay.WB_EndDay_C:UpdateDayInfo:0388
+[2024.11.25-11.41.00:301][ 98]LogScript: Warning: Accessed None trying to read property CallFunc_GetMyGameInstance_myGameInstance_4
+	WB_EndDay_C /Game/Levels/TutorialScene.TutorialScene:WB_EndDay_C_35
+	Function /Game/Widgets/UI/WB_EndDay.WB_EndDay_C:UpdateDayInfo:03A7
+[2024.11.25-11.41.00:301][ 98]LogScript: Warning: Accessed None trying to read property CallFunc_GetMyGameInstance_myGameInstance_3
+	WB_EndDay_C /Game/Levels/TutorialScene.TutorialScene:WB_EndDay_C_35
+	Function /Game/Widgets/UI/WB_EndDay.WB_EndDay_C:UpdateDayInfo:049D
+[2024.11.25-11.41.00:301][ 98]LogScript: Warning: Accessed None trying to read property CallFunc_GetMyGameInstance_myGameInstance_2
+	WB_EndDay_C /Game/Levels/TutorialScene.TutorialScene:WB_EndDay_C_35
+	Function /Game/Widgets/UI/WB_EndDay.WB_EndDay_C:UpdateDayInfo:0546
+[2024.11.25-11.41.00:301][ 98]LogScript: Warning: Accessed None trying to read property CallFunc_GetMyGameInstance_myGameInstance
+	WB_EndDay_C /Game/Levels/TutorialScene.TutorialScene:WB_EndDay_C_35
+	Function /Game/Widgets/UI/WB_EndDay.WB_EndDay_C:UpdateDayInfo:05EF
+[2024.11.25-11.41.00:301][ 98]LogScript: Warning: Accessed None trying to read property CallFunc_GetMyGameInstance_myGameInstance_1
+	WB_EndDay_C /Game/Levels/TutorialScene.TutorialScene:WB_EndDay_C_35
+	Function /Game/Widgets/UI/WB_EndDay.WB_EndDay_C:UpdateDayInfo:009B
