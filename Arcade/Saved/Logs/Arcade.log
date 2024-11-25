@@ -2032,3 +2032,691 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.11.25-04.52.55:014][ 84]LogFileHelpers: InternalPromptForCheckoutAndSave took 237 ms (total: 1.92 sec)
 [2024.11.25-04.52.55:019][ 84]AssetCheck: New page: Asset Save: TutorialScene
 [2024.11.25-04.52.55:019][ 84]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/TutorialScene.TutorialScene
+[2024.11.25-04.53.49:300][634]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2024.11.25-04.56.40:115][142]LogViewport: Scene viewport resized to 293x187, mode Windowed.
+[2024.11.25-04.56.47:566][677]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Builder/Terminals/TerminalBuilds/BP_BuildTerminal_PcBuy.BP_BuildTerminal_PcBuy
+[2024.11.25-04.56.47:566][677]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-04.56.47:567][677]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.25-04.56.49:146][815]LogViewport: Scene viewport resized to 1021x867, mode Windowed.
+[2024.11.25-04.56.49:180][816]LogShaderCompilers: Display: ================================================
+[2024.11.25-04.56.49:180][816]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.11.25-04.56.49:180][816]LogShaderCompilers: Display: Total job queries 371, among them cache hits 184 (49.60%)
+[2024.11.25-04.56.49:180][816]LogShaderCompilers: Display: Tracking 187 distinct input hashes that result in 80 distinct outputs (42.78%)
+[2024.11.25-04.56.49:180][816]LogShaderCompilers: Display: RAM used: 3,91 MiB of 819,20 MiB budget. Usage: 0.48%
+[2024.11.25-04.56.49:180][816]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.11.25-04.56.49:180][816]LogShaderCompilers: Display: Shaders Compiled: 6
+[2024.11.25-04.56.49:180][816]LogShaderCompilers: Display: Jobs assigned 6, completed 6 (100%)
+[2024.11.25-04.56.49:180][816]LogShaderCompilers: Display: Average time worker was idle: 0.31 s
+[2024.11.25-04.56.49:180][816]LogShaderCompilers: Display: Time job spent in pending queue: average 0.08 s, longest 0.20 s
+[2024.11.25-04.56.49:180][816]LogShaderCompilers: Display: Job execution time: average 0.72 s, max 0.94 s
+[2024.11.25-04.56.49:180][816]LogShaderCompilers: Display: Job life time (pending + execution): average 0.80 s, max 0.98
+[2024.11.25-04.56.49:180][816]LogShaderCompilers: Display: Shader code size: average 41,284 KiB, min 4,359 KiB, max 71,469 KiB
+[2024.11.25-04.56.49:180][816]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 2.00 s
+[2024.11.25-04.56.49:180][816]LogShaderCompilers: Display: Jobs were issued in 6 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.11.25-04.56.49:180][816]LogShaderCompilers: Display: Average processing rate: 3.00 jobs/sec
+[2024.11.25-04.56.49:180][816]LogShaderCompilers: Display: Total thread time: 2,172 s
+[2024.11.25-04.56.49:180][816]LogShaderCompilers: Display: Total thread preprocess time: 0,271 s
+[2024.11.25-04.56.49:180][816]LogShaderCompilers: Display: Percentage time preprocessing: 12.48%
+[2024.11.25-04.56.49:180][816]LogShaderCompilers: Display: Effective parallelization: 1.09 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.11.25-04.56.49:180][816]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.11.25-04.56.49:180][816]LogShaderCompilers: Display:                                            FDistortionMeshVS (compiled    1 times, average 0.55 sec, max 0.55 sec, min 0.55 sec)
+[2024.11.25-04.56.49:180][816]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    1 times, average 0.46 sec, max 0.46 sec, min 0.46 sec)
+[2024.11.25-04.56.49:180][816]LogShaderCompilers: Display:                                            FDistortionMeshPS (compiled    1 times, average 0.42 sec, max 0.42 sec, min 0.42 sec)
+[2024.11.25-04.56.49:180][816]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    1 times, average 0.40 sec, max 0.40 sec, min 0.40 sec)
+[2024.11.25-04.56.49:180][816]LogShaderCompilers: Display:                                                  FHitProxyVS (compiled    1 times, average 0.23 sec, max 0.23 sec, min 0.23 sec)
+[2024.11.25-04.56.49:180][816]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.11.25-04.56.49:180][816]LogShaderCompilers: Display:                                            FDistortionMeshVS - 25.26% of total time (compiled    1 times, average 0.55 sec, max 0.55 sec, min 0.55 sec)
+[2024.11.25-04.56.49:180][816]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 21.40% of total time (compiled    1 times, average 0.46 sec, max 0.46 sec, min 0.46 sec)
+[2024.11.25-04.56.49:180][816]LogShaderCompilers: Display:                                            FDistortionMeshPS - 19.47% of total time (compiled    1 times, average 0.42 sec, max 0.42 sec, min 0.42 sec)
+[2024.11.25-04.56.49:180][816]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 18.38% of total time (compiled    1 times, average 0.40 sec, max 0.40 sec, min 0.40 sec)
+[2024.11.25-04.56.49:180][816]LogShaderCompilers: Display:                                                  FHitProxyVS - 10.42% of total time (compiled    1 times, average 0.23 sec, max 0.23 sec, min 0.23 sec)
+[2024.11.25-04.56.49:180][816]LogShaderCompilers: Display: ================================================
+[2024.11.25-04.57.33:842][436]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2024.11.25-04.57.33:858][436]LogContentBrowser: Creating deferred item: NewFolder
+[2024.11.25-04.57.33:875][437]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2024.11.25-04.57.37:176][732]LogContentBrowser: Attempting asset rename: NewFolder -> Pc
+[2024.11.25-04.57.37:176][732]LogContentBrowser: End creating deferred item NewFolder
+[2024.11.25-04.57.45:887][142]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\User\Downloads\SM_PC.fbx)
+[2024.11.25-04.57.45:896][142]LogFbx: Loading FBX Scene from C:\Users\User\Downloads\SM_PC.fbx
+[2024.11.25-04.57.45:900][142]LogFbx: FBX Scene Loaded Succesfully
+[2024.11.25-04.57.47:819][142]LogSlate: Window 'FBX Import Options' being destroyed
+[2024.11.25-04.57.47:934][142]LogFbx: Display: Triangulating static mesh Plane.003
+[2024.11.25-04.57.47:976][142]LogStaticMesh: Display: Building static mesh SM_PC...
+[2024.11.25-04.57.48:037][142]LogStaticMesh: Built static mesh [0.06s] /Game/Meshs/Scenery/Interactables/Pc/SM_PC.SM_PC
+[2024.11.25-04.57.50:715][341]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.25-04.57.50:758][341]LogSavePackage: Moving output files for package: /Game/Meshs/Scenery/Interactables/Pc/SM_PC
+[2024.11.25-04.57.50:758][341]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Saved/SM_PC3D0783F8493E7DA30A0CBCAFDA60DE0D.tmp' to '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/Meshs/Scenery/Interactables/Pc/SM_PC.uasset'
+[2024.11.25-04.57.50:769][341]LogFileHelpers: InternalPromptForCheckoutAndSave took 53 ms (total: 1.97 sec)
+[2024.11.25-04.57.50:769][341]AssetCheck: New page: Asset Save: SM_PC
+[2024.11.25-04.57.50:769][341]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Meshs/Scenery/Interactables/Pc/SM_PC.SM_PC
+[2024.11.25-04.58.01:014][138]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2024.11.25-04.58.01:047][138]LogContentBrowser: Creating deferred item: NewFolder
+[2024.11.25-04.58.01:065][139]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2024.11.25-04.58.02:592][260]LogContentBrowser: Attempting asset rename: NewFolder -> Pc
+[2024.11.25-04.58.02:593][260]LogContentBrowser: End creating deferred item NewFolder
+[2024.11.25-04.58.05:556][472]LogContentBrowser: Deferred new asset file creation: NewMaterial
+[2024.11.25-04.58.05:569][472]LogContentBrowser: Creating deferred item: NewMaterial
+[2024.11.25-04.58.05:600][474]LogContentBrowser: Renaming the item being created (Deferred Item: NewMaterial).
+[2024.11.25-04.58.07:922][686]LogContentBrowser: Attempting asset rename: NewMaterial -> M_Pc
+[2024.11.25-04.58.07:924][686]LogContentBrowser: End creating deferred item NewMaterial
+[2024.11.25-04.58.08:456][731]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.25-04.58.08:502][731]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Meshs/Pc/M_Pc" FILE="../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/Materials/Meshs/Pc/M_Pc.uasset" SILENT=true
+[2024.11.25-04.58.08:503][731]LogSavePackage: Moving output files for package: /Game/Materials/Meshs/Pc/M_Pc
+[2024.11.25-04.58.08:503][731]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Saved/M_Pc41E71872405A14E090CD36A543C10CFF.tmp' to '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/Materials/Meshs/Pc/M_Pc.uasset'
+[2024.11.25-04.58.08:512][731]LogFileHelpers: InternalPromptForCheckoutAndSave took 55 ms (total: 2.03 sec)
+[2024.11.25-04.58.08:513][731]AssetCheck: New page: Asset Save: M_Pc
+[2024.11.25-04.58.08:513][731]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Materials/Meshs/Pc/M_Pc.M_Pc
+[2024.11.25-04.58.13:686][963]LogInterchangeEngine: [Pending] Importing
+[2024.11.25-04.58.13:686][963]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/User/Downloads/SM_PC_DefaultMaterial_Emissive.png]
+[2024.11.25-04.58.13:687][963]LogInterchangeEngine: [Pending] Importing -  (2)
+[2024.11.25-04.58.13:687][963]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/User/Downloads/SM_PC_DefaultMaterial_BaseColor.png]
+[2024.11.25-04.58.13:687][963]LogInterchangeEngine: [Pending] Importing -  (3)
+[2024.11.25-04.58.13:687][963]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/User/Downloads/SM_PC_DefaultMaterial_OcclusionRoughnessMetallic.png]
+[2024.11.25-04.58.13:688][963]LogInterchangeEngine: [Pending] Importing -  (4)
+[2024.11.25-04.58.13:688][963]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/User/Downloads/SM_PC_DefaultMaterial_Normal.png]
+[2024.11.25-04.58.13:718][964]LogInterchangeEngine: [Pending] Importing -  (4)
+[2024.11.25-04.58.13:730][964]LogInterchangeImport: Display: Auto-detected grayscale, image changed to G8
+[2024.11.25-04.58.13:772][964]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background, due to setting PNGInfill == OnlyOnBinaryTransparency
+[2024.11.25-04.58.14:019][964]LogTexture: Display: Building textures: /Game/Materials/Meshs/Pc/SM_PC_DefaultMaterial_Emissive.SM_PC_DefaultMaterial_Emissive (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 276.062484 MB), EncodeSpeed: Fast
+[2024.11.25-04.58.14:080][964]LogInterchangePipeline: Display: Auto-detected normal map
+[2024.11.25-04.58.14:083][964]LogTexture: Display: Building textures: /Game/Materials/Meshs/Pc/SM_PC_DefaultMaterial_Normal.SM_PC_DefaultMaterial_Normal (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 336.562488 MB), EncodeSpeed: Fast
+[2024.11.25-04.58.14:147][964]LogTexture: Display: Building textures: /Game/Materials/Meshs/Pc/SM_PC_DefaultMaterial_OcclusionRoughnessMetallic.SM_PC_DefaultMaterial_OcclusionRoughnessMetallic (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.11.25-04.58.14:233][964]LogTexture: Display: Building textures: /Game/Materials/Meshs/Pc/SM_PC_DefaultMaterial_BaseColor.SM_PC_DefaultMaterial_BaseColor (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.11.25-04.58.14:303][964]LogInterchangeEngine: [Pending] Importing -  (3)
+[2024.11.25-04.58.14:304][964]LogInterchangeEngine: [Pending] Importing -  (2)
+[2024.11.25-04.58.14:304][964]LogInterchangeEngine: [Pending] Importing -  (1)
+[2024.11.25-04.58.14:365][964]LogInterchangeEngine: [Success] Import Done
+[2024.11.25-04.58.14:426][965]LogInterchangeEngine: [Success] Import Done
+[2024.11.25-04.58.16:024][  8]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.25-04.58.16:123][  8]LogSavePackage: Moving output files for package: /Game/Materials/Meshs/Pc/SM_PC_DefaultMaterial_Normal
+[2024.11.25-04.58.16:123][  8]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Saved/SM_PC_DefaultMaterial_Normal35E3EDF0453D0F9EB94565A5D1059719.tmp' to '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/Materials/Meshs/Pc/SM_PC_DefaultMaterial_Normal.uasset'
+[2024.11.25-04.58.16:187][  8]LogSavePackage: Moving output files for package: /Game/Materials/Meshs/Pc/SM_PC_DefaultMaterial_OcclusionRoughnessMetallic
+[2024.11.25-04.58.16:187][  8]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Saved/SM_PC_DefaultMaterial_OcclusionRE700CFF847768A9A8CA764928EEA7DAD.tmp' to '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/Materials/Meshs/Pc/SM_PC_DefaultMaterial_OcclusionRoughnessMetallic.uasset'
+[2024.11.25-04.58.16:247][  8]LogSavePackage: Moving output files for package: /Game/Materials/Meshs/Pc/SM_PC_DefaultMaterial_BaseColor
+[2024.11.25-04.58.16:247][  8]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Saved/SM_PC_DefaultMaterial_BaseColorB4658DE84EE9D3E25221EFA063F115BA.tmp' to '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/Materials/Meshs/Pc/SM_PC_DefaultMaterial_BaseColor.uasset'
+[2024.11.25-04.58.16:265][  8]LogSavePackage: Moving output files for package: /Game/Materials/Meshs/Pc/SM_PC_DefaultMaterial_Emissive
+[2024.11.25-04.58.16:265][  8]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Saved/SM_PC_DefaultMaterial_EmissiveC5AA865646888A2F3283B592643AFDE4.tmp' to '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/Materials/Meshs/Pc/SM_PC_DefaultMaterial_Emissive.uasset'
+[2024.11.25-04.58.16:288][  8]LogFileHelpers: InternalPromptForCheckoutAndSave took 264 ms (total: 2.29 sec)
+[2024.11.25-04.58.16:289][  8]AssetCheck: New page: Asset Save: multiple assets
+[2024.11.25-04.58.16:289][  8]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Materials/Meshs/Pc/SM_PC_DefaultMaterial_Normal.SM_PC_DefaultMaterial_Normal
+[2024.11.25-04.58.16:289][  8]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Materials/Meshs/Pc/SM_PC_DefaultMaterial_OcclusionRoughnessMetallic.SM_PC_DefaultMaterial_OcclusionRoughnessMetallic
+[2024.11.25-04.58.16:289][  8]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Materials/Meshs/Pc/SM_PC_DefaultMaterial_BaseColor.SM_PC_DefaultMaterial_BaseColor
+[2024.11.25-04.58.16:289][  8]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Materials/Meshs/Pc/SM_PC_DefaultMaterial_Emissive.SM_PC_DefaultMaterial_Emissive
+[2024.11.25-04.58.16:845][ 41]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Materials/Meshs/Pc/M_Pc.M_Pc
+[2024.11.25-04.58.16:850][ 41]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-04.58.16:850][ 41]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.25-04.58.17:151][ 41]MaterialEditorStats: Texture samplers: 0/16
+[2024.11.25-04.58.17:151][ 41]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.11.25-04.58.17:151][ 41]MaterialEditorStats: Shader Count: 0
+[2024.11.25-04.58.17:163][ 41]LogViewport: Scene viewport resized to 164x363, mode Windowed.
+[2024.11.25-04.58.17:225][ 43]MaterialEditorStats: Base pass shader: 187 instructions
+[2024.11.25-04.58.17:225][ 43]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.11.25-04.58.17:226][ 43]MaterialEditorStats: Texture samplers: 2/16
+[2024.11.25-04.58.17:226][ 43]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.11.25-04.58.17:226][ 43]MaterialEditorStats: Shader Count: 4
+[2024.11.25-04.58.18:274][ 95]LogViewport: Scene viewport resized to 164x365, mode Windowed.
+[2024.11.25-04.58.18:311][ 95]LogViewport: Scene viewport resized to 164x367, mode Windowed.
+[2024.11.25-04.58.18:378][ 95]LogViewport: Scene viewport resized to 164x366, mode Windowed.
+[2024.11.25-04.58.18:910][119]LogViewport: Scene viewport resized to 164x377, mode Windowed.
+[2024.11.25-04.58.18:982][121]LogViewport: Scene viewport resized to 150x344, mode Windowed.
+[2024.11.25-04.58.19:021][122]LogViewport: Scene viewport resized to 149x340, mode Windowed.
+[2024.11.25-04.58.19:260][133]LogViewport: Scene viewport resized to 376x444, mode Windowed.
+[2024.11.25-04.58.19:655][163]LogViewport: Scene viewport resized to 375x456, mode Windowed.
+[2024.11.25-04.58.19:746][165]LogViewport: Scene viewport resized to 152x155, mode Windowed.
+[2024.11.25-04.58.19:783][166]LogViewport: Scene viewport resized to 151x155, mode Windowed.
+[2024.11.25-04.58.20:107][185]LogViewport: Scene viewport resized to 376x444, mode Windowed.
+[2024.11.25-04.58.20:692][244]LogSlate: Window 'M_Pc' being destroyed
+[2024.11.25-04.58.24:639][644]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/Materials/Meshs/Pc/SM_PC_DefaultMaterial_OcclusionRoughnessMetallic.SM_PC_DefaultMaterial_OcclusionRoughnessMetallic
+[2024.11.25-04.58.24:824][644]LogViewport: Scene viewport resized to 1424x890, mode Windowed.
+[2024.11.25-04.58.33:515][489]MaterialEditorStats: Texture samplers: 0/16
+[2024.11.25-04.58.33:515][489]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.11.25-04.58.33:515][489]MaterialEditorStats: Shader Count: 0
+[2024.11.25-04.58.33:559][490]MaterialEditorStats: Base pass shader: 187 instructions
+[2024.11.25-04.58.33:559][490]MaterialEditorStats: Base pass vertex shader: 131 instructions
+[2024.11.25-04.58.33:559][490]MaterialEditorStats: Texture samplers: 2/16
+[2024.11.25-04.58.33:559][490]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2024.11.25-04.58.33:559][490]MaterialEditorStats: Shader Count: 4
+[2024.11.25-04.58.45:151][686]MaterialEditorStats: Texture samplers: 0/16
+[2024.11.25-04.58.45:151][686]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2024.11.25-04.58.45:151][686]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.11.25-04.58.45:151][686]MaterialEditorStats: Shader Count: 0
+[2024.11.25-04.58.45:226][688]MaterialEditorStats: Base pass shader: 194 instructions
+[2024.11.25-04.58.45:226][688]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.11.25-04.58.45:226][688]MaterialEditorStats: Texture samplers: 3/16
+[2024.11.25-04.58.45:226][688]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2024.11.25-04.58.45:226][688]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.11.25-04.58.45:226][688]MaterialEditorStats: Shader Count: 4
+[2024.11.25-04.58.49:073][ 92]MaterialEditorStats: Texture samplers: 0/16
+[2024.11.25-04.58.49:073][ 92]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2024.11.25-04.58.49:073][ 92]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.11.25-04.58.49:073][ 92]MaterialEditorStats: Shader Count: 0
+[2024.11.25-04.58.49:393][120]MaterialEditorStats: Texture samplers: 2/16
+[2024.11.25-04.58.49:393][120]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2024.11.25-04.58.49:393][120]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.11.25-04.58.49:393][120]MaterialEditorStats: Shader Count: 1
+[2024.11.25-04.58.49:586][138]MaterialEditorStats: Base pass shader: 202 instructions
+[2024.11.25-04.58.49:586][138]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.11.25-04.58.49:586][138]MaterialEditorStats: Texture samplers: 4/16
+[2024.11.25-04.58.49:586][138]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2024.11.25-04.58.49:586][138]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.11.25-04.58.49:586][138]MaterialEditorStats: Shader Count: 4
+[2024.11.25-04.58.53:271][523]MaterialEditorStats: Texture samplers: 0/16
+[2024.11.25-04.58.53:271][523]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2024.11.25-04.58.53:271][523]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.11.25-04.58.53:271][523]MaterialEditorStats: Shader Count: 0
+[2024.11.25-04.58.53:587][550]MaterialEditorStats: Texture samplers: 3/16
+[2024.11.25-04.58.53:587][550]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2024.11.25-04.58.53:587][550]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.11.25-04.58.53:587][550]MaterialEditorStats: Shader Count: 1
+[2024.11.25-04.58.53:789][568]MaterialEditorStats: Base pass shader: 208 instructions
+[2024.11.25-04.58.53:789][568]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.11.25-04.58.53:789][568]MaterialEditorStats: Texture samplers: 5/16
+[2024.11.25-04.58.53:789][568]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2024.11.25-04.58.53:789][568]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.11.25-04.58.53:789][568]MaterialEditorStats: Shader Count: 4
+[2024.11.25-04.59.05:552][738]MaterialEditorStats: Texture samplers: 0/16
+[2024.11.25-04.59.05:552][738]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2024.11.25-04.59.05:552][738]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.11.25-04.59.05:552][738]MaterialEditorStats: Shader Count: 0
+[2024.11.25-04.59.05:806][757]MaterialEditorStats: Texture samplers: 3/16
+[2024.11.25-04.59.05:806][757]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2024.11.25-04.59.05:806][757]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.11.25-04.59.05:806][757]MaterialEditorStats: Shader Count: 1
+[2024.11.25-04.59.06:009][777]MaterialEditorStats: Base pass shader: 208 instructions
+[2024.11.25-04.59.06:009][777]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.11.25-04.59.06:009][777]MaterialEditorStats: Texture samplers: 5/16
+[2024.11.25-04.59.06:009][777]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2024.11.25-04.59.06:009][777]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.11.25-04.59.06:009][777]MaterialEditorStats: Shader Count: 4
+[2024.11.25-04.59.07:226][890]MaterialEditorStats: Texture samplers: 0/16
+[2024.11.25-04.59.07:226][890]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2024.11.25-04.59.07:226][890]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.11.25-04.59.07:226][890]MaterialEditorStats: Shader Count: 0
+[2024.11.25-04.59.07:563][918]MaterialEditorStats: Texture samplers: 3/16
+[2024.11.25-04.59.07:563][918]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2024.11.25-04.59.07:563][918]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.11.25-04.59.07:563][918]MaterialEditorStats: Shader Count: 1
+[2024.11.25-04.59.07:767][936]MaterialEditorStats: Base pass shader: 210 instructions
+[2024.11.25-04.59.07:767][936]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.11.25-04.59.07:767][936]MaterialEditorStats: Texture samplers: 6/16
+[2024.11.25-04.59.07:767][936]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2024.11.25-04.59.07:767][936]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.11.25-04.59.07:767][936]MaterialEditorStats: Shader Count: 4
+[2024.11.25-04.59.08:669][ 16]MaterialEditorStats: Texture samplers: 0/16
+[2024.11.25-04.59.08:669][ 16]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2024.11.25-04.59.08:669][ 16]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.11.25-04.59.08:669][ 16]MaterialEditorStats: Shader Count: 0
+[2024.11.25-04.59.08:712][ 18]MaterialEditorStats: Base pass shader: 212 instructions
+[2024.11.25-04.59.08:712][ 18]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.11.25-04.59.08:712][ 18]MaterialEditorStats: Texture samplers: 6/16
+[2024.11.25-04.59.08:712][ 18]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2024.11.25-04.59.08:712][ 18]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.11.25-04.59.08:712][ 18]MaterialEditorStats: Shader Count: 4
+[2024.11.25-04.59.18:857][116]LogUObjectHash: Compacting FUObjectHashTables data took   2.72ms
+[2024.11.25-04.59.18:868][116]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.25-04.59.18:906][116]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-04.59.18:962][116]LogSavePackage: Moving output files for package: /Game/Blueprints/Builder/Terminals/TerminalBuilds/BP_BuildTerminal_PcBuy
+[2024.11.25-04.59.18:963][116]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Saved/BP_BuildTerminal_PcBuy71EF1421479B7C00AF2247A3CAD5A963.tmp' to '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/Blueprints/Builder/Terminals/TerminalBuilds/BP_BuildTerminal_PcBuy.uasset'
+[2024.11.25-04.59.18:974][116]LogFileHelpers: InternalPromptForCheckoutAndSave took 107 ms (total: 2.40 sec)
+[2024.11.25-04.59.18:977][116]AssetCheck: New page: Asset Save: BP_BuildTerminal_PcBuy
+[2024.11.25-04.59.18:977][116]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Builder/Terminals/TerminalBuilds/BP_BuildTerminal_PcBuy.BP_BuildTerminal_PcBuy
+[2024.11.25-04.59.19:387][152]LogMaterialEditor: Applying material M_Pc
+[2024.11.25-04.59.19:461][152]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2024.11.25-04.59.19:987][152]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2024.11.25-04.59.19:998][152]MaterialEditorStats: Texture samplers: 4/16
+[2024.11.25-04.59.19:998][152]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2024.11.25-04.59.19:998][152]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.11.25-04.59.19:998][152]MaterialEditorStats: Shader Count: 2
+[2024.11.25-04.59.20:012][153]MaterialEditorStats: Base pass shader: 212 instructions
+[2024.11.25-04.59.20:012][153]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.11.25-04.59.20:012][153]MaterialEditorStats: Texture samplers: 6/16
+[2024.11.25-04.59.20:012][153]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2024.11.25-04.59.20:012][153]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.11.25-04.59.20:012][153]MaterialEditorStats: Shader Count: 4
+[2024.11.25-04.59.20:390][191]LogMaterialEditor: Saving and Compiling material M_Pc
+[2024.11.25-04.59.20:394][191]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.25-04.59.21:420][191]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Meshs/Pc/M_Pc" FILE="../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/Materials/Meshs/Pc/M_Pc.uasset" SILENT=true
+[2024.11.25-04.59.21:422][191]LogSavePackage: Moving output files for package: /Game/Materials/Meshs/Pc/M_Pc
+[2024.11.25-04.59.21:424][191]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Saved/M_Pc62DCDA8A4A965C1BB286918719F0C39A.tmp' to '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/Materials/Meshs/Pc/M_Pc.uasset'
+[2024.11.25-04.59.21:433][191]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.03 sec (total: 3.44 sec)
+[2024.11.25-04.59.21:434][191]AssetCheck: New page: Asset Save: M_Pc
+[2024.11.25-04.59.21:434][191]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Materials/Meshs/Pc/M_Pc.M_Pc
+[2024.11.25-04.59.21:435][191]MaterialEditorStats: Base pass shader: 212 instructions
+[2024.11.25-04.59.21:435][191]MaterialEditorStats: Base pass vertex shader: 137 instructions
+[2024.11.25-04.59.21:435][191]MaterialEditorStats: MaxSampler: 276 instructions
+[2024.11.25-04.59.21:435][191]MaterialEditorStats: Texture samplers: 7/16
+[2024.11.25-04.59.21:435][191]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(4)
+[2024.11.25-04.59.21:435][191]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2024.11.25-04.59.21:435][191]MaterialEditorStats: Shader Count: 16
+[2024.11.25-04.59.29:688][978]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2024.11.25-04.59.29:689][978]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.25-04.59.36:703][540]BlueprintLog: New page: Compile BP_BuildTerminal_PcBuy
+[2024.11.25-04.59.36:815][540]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
+[2024.11.25-04.59.37:569][574]LogViewport: Scene viewport resized to 293x187, mode Windowed.
+[2024.11.25-04.59.58:548][733]LogShaderCompilers: Display: ================================================
+[2024.11.25-04.59.58:548][733]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.11.25-04.59.58:548][733]LogShaderCompilers: Display: Total job queries 475, among them cache hits 239 (50.32%)
+[2024.11.25-04.59.58:548][733]LogShaderCompilers: Display: Tracking 235 distinct input hashes that result in 105 distinct outputs (44.68%)
+[2024.11.25-04.59.58:548][733]LogShaderCompilers: Display: RAM used: 4,99 MiB of 819,20 MiB budget. Usage: 0.61%
+[2024.11.25-04.59.58:548][733]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.11.25-04.59.58:548][733]LogShaderCompilers: Display: Shaders Compiled: 40
+[2024.11.25-04.59.58:548][733]LogShaderCompilers: Display: Jobs assigned 40, completed 40 (100%)
+[2024.11.25-04.59.58:548][733]LogShaderCompilers: Display: Average time worker was idle: 152.44 s
+[2024.11.25-04.59.58:548][733]LogShaderCompilers: Display: Time job spent in pending queue: average 0.09 s, longest 0.55 s
+[2024.11.25-04.59.58:548][733]LogShaderCompilers: Display: Job execution time: average 0.55 s, max 0.94 s
+[2024.11.25-04.59.58:548][733]LogShaderCompilers: Display: Job life time (pending + execution): average 0.64 s, max 0.98
+[2024.11.25-04.59.58:548][733]LogShaderCompilers: Display: Shader code size: average 39,46 KiB, min 4,359 KiB, max 71,469 KiB
+[2024.11.25-04.59.58:548][733]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 6.25 s
+[2024.11.25-04.59.58:548][733]LogShaderCompilers: Display: Jobs were issued in 40 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.11.25-04.59.58:548][733]LogShaderCompilers: Display: Average processing rate: 6.40 jobs/sec
+[2024.11.25-04.59.58:548][733]LogShaderCompilers: Display: Total thread time: 15,017 s
+[2024.11.25-04.59.58:548][733]LogShaderCompilers: Display: Total thread preprocess time: 1,844 s
+[2024.11.25-04.59.58:548][733]LogShaderCompilers: Display: Percentage time preprocessing: 12.28%
+[2024.11.25-04.59.58:548][733]LogShaderCompilers: Display: Effective parallelization: 2.40 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.11.25-04.59.58:548][733]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.11.25-04.59.58:548][733]LogShaderCompilers: Display:                                            FDistortionMeshVS (compiled    1 times, average 0.55 sec, max 0.55 sec, min 0.55 sec)
+[2024.11.25-04.59.58:548][733]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight (compiled    1 times, average 0.53 sec, max 0.53 sec, min 0.53 sec)
+[2024.11.25-04.59.58:548][733]LogShaderCompilers: Display:                TBasePassPSFCachedPointIndirectLightingPolicy (compiled    1 times, average 0.51 sec, max 0.51 sec, min 0.51 sec)
+[2024.11.25-04.59.58:548][733]LogShaderCompilers: Display:               TBasePassPSFCachedVolumeIndirectLightingPolicy (compiled    1 times, average 0.49 sec, max 0.49 sec, min 0.49 sec)
+[2024.11.25-04.59.58:548][733]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled    1 times, average 0.49 sec, max 0.49 sec, min 0.49 sec)
+[2024.11.25-04.59.58:548][733]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.11.25-04.59.58:548][733]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 23.61% of total time (compiled    8 times, average 0.44 sec, max 0.59 sec, min 0.34 sec)
+[2024.11.25-04.59.58:548][733]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 22.23% of total time (compiled    8 times, average 0.42 sec, max 0.52 sec, min 0.37 sec)
+[2024.11.25-04.59.58:550][733]LogShaderCompilers: Display:                                                 FLumenCardVS - 9.09% of total time (compiled    4 times, average 0.34 sec, max 0.35 sec, min 0.33 sec)
+[2024.11.25-04.59.58:550][733]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 4.02% of total time (compiled    4 times, average 0.15 sec, max 0.16 sec, min 0.14 sec)
+[2024.11.25-04.59.58:550][733]LogShaderCompilers: Display:                                            FDistortionMeshVS - 3.65% of total time (compiled    1 times, average 0.55 sec, max 0.55 sec, min 0.55 sec)
+[2024.11.25-04.59.58:550][733]LogShaderCompilers: Display: ================================================
+[2024.11.25-05.00.28:629][981]Cmd: MODE GRID=0
+[2024.11.25-05.00.49:052][151]LogSlate: Slate: Had to block on waiting for a draw buffer
+[2024.11.25-05.00.53:659][470]LogUObjectHash: Compacting FUObjectHashTables data took   3.37ms
+[2024.11.25-05.00.53:672][470]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.25-05.00.53:803][470]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2024.11.25-05.00.53:888][470]LogSavePackage: Moving output files for package: /Game/Levels/TutorialScene
+[2024.11.25-05.00.53:888][470]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Saved/TutorialSceneA853AFAD48D5D4C723D2E686F820E484.tmp' to '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/Levels/TutorialScene.umap'
+[2024.11.25-05.00.53:916][470]LogFileHelpers: Saving map 'TutorialScene' took 0.208
+[2024.11.25-05.00.53:953][470]LogSavePackage: Moving output files for package: /Game/Blueprints/Builder/Terminals/TerminalBuilds/BP_BuildTerminal_PcBuy
+[2024.11.25-05.00.53:955][470]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Saved/BP_BuildTerminal_PcBuyF467A0D6433B93A7E13DC4B3194F627E.tmp' to '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/Blueprints/Builder/Terminals/TerminalBuilds/BP_BuildTerminal_PcBuy.uasset'
+[2024.11.25-05.00.53:961][470]LogFileHelpers: InternalPromptForCheckoutAndSave took 288 ms (total: 3.72 sec)
+[2024.11.25-05.00.53:967][470]AssetCheck: New page: Asset Save: multiple assets
+[2024.11.25-05.00.53:967][470]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/TutorialScene.TutorialScene
+[2024.11.25-05.00.53:967][470]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Builder/Terminals/TerminalBuilds/BP_BuildTerminal_PcBuy.BP_BuildTerminal_PcBuy
+[2024.11.25-05.01.09:188][272]Cmd: MODE GRID=1
+[2024.11.25-05.01.51:463][150]LogUObjectHash: Compacting FUObjectHashTables data took   5.25ms
+[2024.11.25-05.01.51:474][150]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.25-05.01.51:640][150]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2024.11.25-05.01.51:733][150]LogSavePackage: Moving output files for package: /Game/Levels/TutorialScene
+[2024.11.25-05.01.51:735][150]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Saved/TutorialScene02166AF9439D321D2F80458D1685990B.tmp' to '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/Levels/TutorialScene.umap'
+[2024.11.25-05.01.51:759][150]LogFileHelpers: Saving map 'TutorialScene' took 0.241
+[2024.11.25-05.01.51:799][150]LogSavePackage: Moving output files for package: /Game/Blueprints/Builder/Terminals/TerminalBuilds/BP_BuildTerminal_PcBuy
+[2024.11.25-05.01.51:800][150]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Saved/BP_BuildTerminal_PcBuyC837EC4D42D4D023FC31D2991286360B.tmp' to '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/Blueprints/Builder/Terminals/TerminalBuilds/BP_BuildTerminal_PcBuy.uasset'
+[2024.11.25-05.01.51:809][150]LogFileHelpers: InternalPromptForCheckoutAndSave took 335 ms (total: 4.06 sec)
+[2024.11.25-05.01.51:815][150]AssetCheck: New page: Asset Save: multiple assets
+[2024.11.25-05.01.51:815][150]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/TutorialScene.TutorialScene
+[2024.11.25-05.01.51:815][150]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Builder/Terminals/TerminalBuilds/BP_BuildTerminal_PcBuy.BP_BuildTerminal_PcBuy
+[2024.11.25-05.01.58:231][665]LogUObjectHash: Compacting FUObjectHashTables data took   2.57ms
+[2024.11.25-05.01.58:245][665]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.25-05.01.58:409][665]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2024.11.25-05.01.58:514][665]LogSavePackage: Moving output files for package: /Game/Levels/TutorialScene
+[2024.11.25-05.01.58:515][665]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Saved/TutorialScene10005046490DBC9A41E2A2A8938F2AF7.tmp' to '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/Levels/TutorialScene.umap'
+[2024.11.25-05.01.58:543][665]LogFileHelpers: Saving map 'TutorialScene' took 0.254
+[2024.11.25-05.01.58:576][665]LogSavePackage: Moving output files for package: /Game/Blueprints/Builder/Terminals/TerminalBuilds/BP_BuildTerminal_PcBuy
+[2024.11.25-05.01.58:577][665]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Saved/BP_BuildTerminal_PcBuy4D883D6544FC2CEAA8034AABA1FF1C8D.tmp' to '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/Blueprints/Builder/Terminals/TerminalBuilds/BP_BuildTerminal_PcBuy.uasset'
+[2024.11.25-05.01.58:584][665]LogFileHelpers: InternalPromptForCheckoutAndSave took 340 ms (total: 4.40 sec)
+[2024.11.25-05.01.58:589][665]AssetCheck: New page: Asset Save: multiple assets
+[2024.11.25-05.01.58:589][665]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/TutorialScene.TutorialScene
+[2024.11.25-05.01.58:589][665]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Builder/Terminals/TerminalBuilds/BP_BuildTerminal_PcBuy.BP_BuildTerminal_PcBuy
+[2024.11.25-05.01.58:736][679]BlueprintLog: New page: Compile BP_BuildTerminal_PcBuy
+[2024.11.25-05.01.58:918][679]LogUObjectHash: Compacting FUObjectHashTables data took   2.08ms
+[2024.11.25-05.01.59:630][697]LogViewport: Scene viewport resized to 293x187, mode Windowed.
+[2024.11.25-05.02.00:438][738]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.25-05.02.00:461][738]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.25-05.02.00:462][738]PIE: New page: PIE session: TutorialScene (24 de nov de 2024 23:02:00)
+[2024.11.25-05.02.00:462][738]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TutorialScene
+[2024.11.25-05.02.00:484][738]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022530s)
+[2024.11.25-05.02.00:484][738]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TutorialScene.TutorialScene to /Game/Levels/UEDPIE_0_TutorialScene.TutorialScene (0.022578s)
+[2024.11.25-05.02.00:562][738]LogUObjectHash: Compacting FUObjectHashTables data took   3.40ms
+[2024.11.25-05.02.00:571][738]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-05.02.00:571][738]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.25-05.02.00:572][738]LogAIModule: Creating AISystem for world TutorialScene
+[2024.11.25-05.02.00:572][738]LogPlayLevel: PIE: World Init took: (0.001233s)
+[2024.11.25-05.02.00:572][738]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2024.11.25-05.02.00:572][738]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.25-05.02.00:572][738]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.25-05.02.00:572][738]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.25-05.02.00:572][738]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.25-05.02.00:572][738]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.25-05.02.00:572][738]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.25-05.02.00:572][738]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.25-05.02.00:572][738]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.25-05.02.00:572][738]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.25-05.02.00:572][738]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.25-05.02.00:572][738]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.25-05.02.00:575][738]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.25-05.02.00:616][738]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (2- USB Audio Device)
+[2024.11.25-05.02.00:616][738]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.25-05.02.00:616][738]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.25-05.02.00:616][738]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.25-05.02.00:617][738]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=7
+[2024.11.25-05.02.00:617][738]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=7
+[2024.11.25-05.02.00:619][738]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=7
+[2024.11.25-05.02.00:619][738]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=7
+[2024.11.25-05.02.00:619][738]LogInit: FAudioDevice initialized with ID 7.
+[2024.11.25-05.02.00:619][738]LogAudio: Display: Audio Device (ID: 7) registered with world 'TutorialScene'.
+[2024.11.25-05.02.00:619][738]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 7
+[2024.11.25-05.02.00:623][738]LogLoad: Game class is 'MyGameGamemode_C'
+[2024.11.25-05.02.00:633][738]PIE: Warning: Trying to simulate physics on ''/Game/Levels/UEDPIE_0_TutorialScene.TutorialScene:PersistentLevel.BP_BuildMachine_PinballV1_C_1.BuildMesh'' but it has ComplexAsSimple collision.
+[2024.11.25-05.02.00:635][738]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TutorialScene.TutorialScene up for play (max tick rate 0) at 2024.11.25-02.02.00
+[2024.11.25-05.02.00:636][738]LogWorld: Bringing up level for play took: 0.013857
+[2024.11.25-05.02.00:640][738]LogOnline: OSS: Created online subsystem instance for: :Context_31
+[2024.11.25-05.02.00:640][738]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.25-05.02.00:640][738]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.25-05.02.00:640][738]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.11.25-05.02.00:661][738]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.11.25-05.02.00:661][738]PIE: Server logged in
+[2024.11.25-05.02.00:662][738]PIE: Play in editor total start time 0,201 seconds.
+[2024.11.25-05.02.04:735][ 52]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.11.25-05.02.04:735][ 52]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2024.11.25-05.02.04:736][ 52]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2024.11.25-05.02.19:863][393]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.25-05.02.19:863][393]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TutorialScene
+[2024.11.25-05.02.19:867][393]LogWorld: UWorld::CleanupWorld for TutorialScene, bSessionEnded=true, bCleanupResources=true
+[2024.11.25-05.02.19:869][393]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.25-05.02.19:882][393]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.25-05.02.19:894][393]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.25-05.02.19:932][393]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.11.25-05.02.19:935][393]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 7
+[2024.11.25-05.02.19:935][393]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2024.11.25-05.02.19:936][393]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2024.11.25-05.02.19:941][393]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.25-05.02.19:951][393]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
+[2024.11.25-05.02.20:125][394]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2024.11.25-05.02.20:201][394]LogViewport: Scene viewport resized to 293x187, mode Windowed.
+[2024.11.25-05.02.21:499][441]LogSlate: Window 'Message Log' being destroyed
+[2024.11.25-05.02.21:511][441]LogSlate: Window 'Message Log' being destroyed
+[2024.11.25-05.02.38:292][537]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.25-05.02.38:318][537]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.25-05.02.38:318][537]PIE: New page: PIE session: TutorialScene (24 de nov de 2024 23:02:38)
+[2024.11.25-05.02.38:318][537]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TutorialScene
+[2024.11.25-05.02.38:338][537]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020868s)
+[2024.11.25-05.02.38:338][537]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TutorialScene.TutorialScene to /Game/Levels/UEDPIE_0_TutorialScene.TutorialScene (0.020911s)
+[2024.11.25-05.02.38:377][537]LogUObjectHash: Compacting FUObjectHashTables data took   2.15ms
+[2024.11.25-05.02.38:386][537]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-05.02.38:386][537]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.25-05.02.38:387][537]LogAIModule: Creating AISystem for world TutorialScene
+[2024.11.25-05.02.38:387][537]LogPlayLevel: PIE: World Init took: (0.001473s)
+[2024.11.25-05.02.38:387][537]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2024.11.25-05.02.38:387][537]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.25-05.02.38:387][537]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.25-05.02.38:387][537]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.25-05.02.38:387][537]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.25-05.02.38:387][537]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.25-05.02.38:387][537]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.25-05.02.38:387][537]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.25-05.02.38:387][537]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.25-05.02.38:388][537]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.25-05.02.38:388][537]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.25-05.02.38:388][537]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.25-05.02.38:390][537]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.25-05.02.38:435][537]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (2- USB Audio Device)
+[2024.11.25-05.02.38:436][537]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.25-05.02.38:436][537]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.25-05.02.38:436][537]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.25-05.02.38:436][537]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=8
+[2024.11.25-05.02.38:436][537]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=8
+[2024.11.25-05.02.38:438][537]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=8
+[2024.11.25-05.02.38:438][537]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=8
+[2024.11.25-05.02.38:438][537]LogInit: FAudioDevice initialized with ID 8.
+[2024.11.25-05.02.38:438][537]LogAudio: Display: Audio Device (ID: 8) registered with world 'TutorialScene'.
+[2024.11.25-05.02.38:438][537]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 8
+[2024.11.25-05.02.38:442][537]LogLoad: Game class is 'MyGameGamemode_C'
+[2024.11.25-05.02.38:451][537]PIE: Warning: Trying to simulate physics on ''/Game/Levels/UEDPIE_0_TutorialScene.TutorialScene:PersistentLevel.BP_BuildMachine_PinballV1_C_1.BuildMesh'' but it has ComplexAsSimple collision.
+[2024.11.25-05.02.38:454][537]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TutorialScene.TutorialScene up for play (max tick rate 0) at 2024.11.25-02.02.38
+[2024.11.25-05.02.38:456][537]LogWorld: Bringing up level for play took: 0.013258
+[2024.11.25-05.02.38:460][537]LogOnline: OSS: Created online subsystem instance for: :Context_32
+[2024.11.25-05.02.38:460][537]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.25-05.02.38:460][537]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.25-05.02.38:460][537]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.11.25-05.02.38:482][537]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.11.25-05.02.38:482][537]PIE: Server logged in
+[2024.11.25-05.02.38:483][537]PIE: Play in editor total start time 0,167 seconds.
+[2024.11.25-05.02.39:162][592]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.25-05.02.39:162][592]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TutorialScene
+[2024.11.25-05.02.39:166][592]LogWorld: UWorld::CleanupWorld for TutorialScene, bSessionEnded=true, bCleanupResources=true
+[2024.11.25-05.02.39:168][592]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.25-05.02.39:191][592]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.25-05.02.39:203][592]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.25-05.02.39:245][592]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.11.25-05.02.39:247][592]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 8
+[2024.11.25-05.02.39:247][592]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2024.11.25-05.02.39:249][592]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2024.11.25-05.02.39:254][592]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.25-05.02.39:263][592]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
+[2024.11.25-05.02.39:421][593]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2024.11.25-05.02.39:450][593]LogViewport: Scene viewport resized to 293x187, mode Windowed.
+[2024.11.25-05.02.45:397][ 46]LogSlate: Window 'Message Log' being destroyed
+[2024.11.25-05.02.45:408][ 46]LogSlate: Window 'Message Log' being destroyed
+[2024.11.25-05.02.46:299][ 94]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2024.11.25-05.03.12:319][177]LogStaticMesh: Display: Building static mesh SM_KeyboardCollider...
+[2024.11.25-05.03.12:323][177]LogStaticMesh: Built static mesh [0.00s] /Game/Meshs/SceneryCollisions/SM_KeyboardCollider.SM_KeyboardCollider
+[2024.11.25-05.03.12:397][179]LogShaderCompilers: Display: ================================================
+[2024.11.25-05.03.12:397][179]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.11.25-05.03.12:397][179]LogShaderCompilers: Display: Total job queries 561, among them cache hits 319 (56.86%)
+[2024.11.25-05.03.12:397][179]LogShaderCompilers: Display: Tracking 242 distinct input hashes that result in 107 distinct outputs (44.21%)
+[2024.11.25-05.03.12:397][179]LogShaderCompilers: Display: RAM used: 5,14 MiB of 819,20 MiB budget. Usage: 0.63%
+[2024.11.25-05.03.12:397][179]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.11.25-05.03.12:397][179]LogShaderCompilers: Display: Shaders Compiled: 41
+[2024.11.25-05.03.12:397][179]LogShaderCompilers: Display: Jobs assigned 41, completed 41 (100%)
+[2024.11.25-05.03.12:397][179]LogShaderCompilers: Display: Average time worker was idle: 148.96 s
+[2024.11.25-05.03.12:397][179]LogShaderCompilers: Display: Time job spent in pending queue: average 0.09 s, longest 0.55 s
+[2024.11.25-05.03.12:397][179]LogShaderCompilers: Display: Job execution time: average 0.55 s, max 0.94 s
+[2024.11.25-05.03.12:397][179]LogShaderCompilers: Display: Job life time (pending + execution): average 0.64 s, max 0.98
+[2024.11.25-05.03.12:397][179]LogShaderCompilers: Display: Shader code size: average 40,137 KiB, min 4,359 KiB, max 71,469 KiB
+[2024.11.25-05.03.12:397][179]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 6.81 s
+[2024.11.25-05.03.12:397][179]LogShaderCompilers: Display: Jobs were issued in 41 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.11.25-05.03.12:397][179]LogShaderCompilers: Display: Average processing rate: 6.02 jobs/sec
+[2024.11.25-05.03.12:397][179]LogShaderCompilers: Display: Total thread time: 15,316 s
+[2024.11.25-05.03.12:397][179]LogShaderCompilers: Display: Total thread preprocess time: 1,878 s
+[2024.11.25-05.03.12:397][179]LogShaderCompilers: Display: Percentage time preprocessing: 12.26%
+[2024.11.25-05.03.12:397][179]LogShaderCompilers: Display: Effective parallelization: 2.25 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.11.25-05.03.12:397][179]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.11.25-05.03.12:397][179]LogShaderCompilers: Display:                                            FDistortionMeshVS (compiled    1 times, average 0.55 sec, max 0.55 sec, min 0.55 sec)
+[2024.11.25-05.03.12:397][179]LogShaderCompilers: Display:       TBasePassPSFCachedVolumeIndirectLightingPolicySkylight (compiled    1 times, average 0.53 sec, max 0.53 sec, min 0.53 sec)
+[2024.11.25-05.03.12:397][179]LogShaderCompilers: Display:                TBasePassPSFCachedPointIndirectLightingPolicy (compiled    1 times, average 0.51 sec, max 0.51 sec, min 0.51 sec)
+[2024.11.25-05.03.12:397][179]LogShaderCompilers: Display:               TBasePassPSFCachedVolumeIndirectLightingPolicy (compiled    1 times, average 0.49 sec, max 0.49 sec, min 0.49 sec)
+[2024.11.25-05.03.12:397][179]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled    1 times, average 0.49 sec, max 0.49 sec, min 0.49 sec)
+[2024.11.25-05.03.12:397][179]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.11.25-05.03.12:397][179]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 23.15% of total time (compiled    8 times, average 0.44 sec, max 0.59 sec, min 0.34 sec)
+[2024.11.25-05.03.12:397][179]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 21.80% of total time (compiled    8 times, average 0.42 sec, max 0.52 sec, min 0.37 sec)
+[2024.11.25-05.03.12:397][179]LogShaderCompilers: Display:                                                 FLumenCardVS - 8.92% of total time (compiled    4 times, average 0.34 sec, max 0.35 sec, min 0.33 sec)
+[2024.11.25-05.03.12:397][179]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 4.53% of total time (compiled    2 times, average 0.35 sec, max 0.40 sec, min 0.30 sec)
+[2024.11.25-05.03.12:397][179]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 3.94% of total time (compiled    4 times, average 0.15 sec, max 0.16 sec, min 0.14 sec)
+[2024.11.25-05.03.12:397][179]LogShaderCompilers: Display: ================================================
+[2024.11.25-05.03.33:461][634]LogEditorFactories: Performing atomic reimport of [C:/Users/User/Downloads/SM_Keyboard.fbx]
+[2024.11.25-05.03.33:467][634]LogFbx: Loading FBX Scene from C:/Users/User/Downloads/SM_Keyboard.fbx
+[2024.11.25-05.03.33:472][634]LogFbx: FBX Scene Loaded Succesfully
+[2024.11.25-05.03.33:529][634]LogFbx: Display: Triangulating static mesh Keyboard
+[2024.11.25-05.03.33:703][634]LogStaticMesh: Display: Building static mesh SM_Computer_Keyboard...
+[2024.11.25-05.03.33:818][634]LogStaticMesh: Built static mesh [0.11s] /Game/Meshs/Scenery/Interactables/Computer/SM_Computer_Keyboard.SM_Computer_Keyboard
+[2024.11.25-05.03.33:880][634]LogEditorFactories: -- imported successfully
+[2024.11.25-05.03.45:966][571]LogEditorTransaction: Undo Modify Component(s)
+[2024.11.25-05.04.16:245][594]Cmd: MODE GRID=0
+[2024.11.25-05.05.06:024][965]LogUObjectHash: Compacting FUObjectHashTables data took   6.66ms
+[2024.11.25-05.05.06:039][965]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.25-05.05.06:185][965]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2024.11.25-05.05.06:274][965]LogSavePackage: Moving output files for package: /Game/Levels/TutorialScene
+[2024.11.25-05.05.06:274][965]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Saved/TutorialScene3CB7360F4CB4277F2153A09D096C7053.tmp' to '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/Levels/TutorialScene.umap'
+[2024.11.25-05.05.06:304][965]LogFileHelpers: Saving map 'TutorialScene' took 0.217
+[2024.11.25-05.05.06:344][965]LogSavePackage: Moving output files for package: /Game/Blueprints/Builder/Terminals/TerminalBuilds/BP_BuildTerminal_PcBuy
+[2024.11.25-05.05.06:345][965]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Saved/BP_BuildTerminal_PcBuy7C98DD56402943963BB31B88389381A5.tmp' to '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/Blueprints/Builder/Terminals/TerminalBuilds/BP_BuildTerminal_PcBuy.uasset'
+[2024.11.25-05.05.06:366][965]LogSavePackage: Moving output files for package: /Game/Meshs/Scenery/Interactables/Computer/SM_Computer_Keyboard
+[2024.11.25-05.05.06:367][965]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Saved/SM_Computer_KeyboardCD31FD8143C167B7C7F403AD4158CFB7.tmp' to '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/Meshs/Scenery/Interactables/Computer/SM_Computer_Keyboard.uasset'
+[2024.11.25-05.05.06:380][965]LogFileHelpers: InternalPromptForCheckoutAndSave took 340 ms (total: 4.74 sec)
+[2024.11.25-05.05.06:386][965]AssetCheck: New page: Asset Save: multiple assets
+[2024.11.25-05.05.06:386][965]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/TutorialScene.TutorialScene
+[2024.11.25-05.05.06:386][965]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Builder/Terminals/TerminalBuilds/BP_BuildTerminal_PcBuy.BP_BuildTerminal_PcBuy
+[2024.11.25-05.05.06:386][965]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Meshs/Scenery/Interactables/Computer/SM_Computer_Keyboard.SM_Computer_Keyboard
+[2024.11.25-05.05.13:375][493]LogEditorTransaction: Undo Modify Component(s)
+[2024.11.25-05.05.14:640][553]LogUObjectHash: Compacting FUObjectHashTables data took   2.33ms
+[2024.11.25-05.05.15:067][592]BlueprintLog: New page: Compile BP_BuildTerminal_PcBuy
+[2024.11.25-05.05.15:191][592]LogUObjectHash: Compacting FUObjectHashTables data took   2.12ms
+[2024.11.25-05.05.18:676][847]LogTexture: Display: Building textures: /Game/Materials/Meshs/Computer/Mouse/SM_Mouse_DefaultMaterial_BaseColor.SM_Mouse_DefaultMaterial_BaseColor (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.11.25-05.05.18:764][847]LogTexture: Display: Building textures: /Game/Materials/Meshs/Computer/Mouse/SM_Mouse_DefaultMaterial_Normal.SM_Mouse_DefaultMaterial_Normal (TFO_BC5, 2048x2048 x1x1x1) (Required Memory Estimate: 336.562488 MB), EncodeSpeed: Fast
+[2024.11.25-05.05.18:858][847]LogTexture: Display: Building textures: /Game/Materials/Meshs/Computer/Mouse/SM_Mouse_DefaultMaterial_OcclusionRoughnessMetallic.SM_Mouse_DefaultMaterial_OcclusionRoughnessMetallic (TFO_AutoDXT, 2048x2048 x1x1x1) (Required Memory Estimate: 288.062484 MB), EncodeSpeed: Fast
+[2024.11.25-05.05.18:919][847]LogStaticMesh: Display: Building static mesh SM_MouseCollider...
+[2024.11.25-05.05.18:925][847]LogStaticMesh: Built static mesh [0.01s] /Game/Meshs/SceneryCollisions/SM_MouseCollider.SM_MouseCollider
+[2024.11.25-05.05.18:938][847]LogStaticMesh: Display: Building static mesh SM_Computer_Mouse...
+[2024.11.25-05.05.18:961][847]LogStaticMesh: Built static mesh [0.02s] /Game/Meshs/Scenery/Interactables/Computer/SM_Computer_Mouse.SM_Computer_Mouse
+[2024.11.25-05.05.21:739][847]LogEditorFactories: Performing atomic reimport of [C:/Users/User/Downloads/SM_Mouse.fbx]
+[2024.11.25-05.05.21:744][847]LogFbx: Loading FBX Scene from C:/Users/User/Downloads/SM_Mouse.fbx
+[2024.11.25-05.05.21:747][847]LogFbx: FBX Scene Loaded Succesfully
+[2024.11.25-05.05.21:798][847]LogFbx: Display: Triangulating static mesh Mouse
+[2024.11.25-05.05.21:842][847]LogStaticMesh: Display: Building static mesh SM_Computer_Mouse...
+[2024.11.25-05.05.21:896][847]LogStaticMesh: Built static mesh [0.05s] /Game/Meshs/Scenery/Interactables/Computer/SM_Computer_Mouse.SM_Computer_Mouse
+[2024.11.25-05.05.21:932][847]LogEditorFactories: -- imported successfully
+[2024.11.25-05.05.22:575][871]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.25-05.05.22:652][871]LogSavePackage: Moving output files for package: /Game/Meshs/Scenery/Interactables/Computer/SM_Computer_Mouse
+[2024.11.25-05.05.22:653][871]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Saved/SM_Computer_Mouse9BF091F54E4A09E02DC4A495F300790E.tmp' to '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/Meshs/Scenery/Interactables/Computer/SM_Computer_Mouse.uasset'
+[2024.11.25-05.05.22:669][871]LogFileHelpers: InternalPromptForCheckoutAndSave took 93 ms (total: 4.84 sec)
+[2024.11.25-05.05.22:671][871]AssetCheck: New page: Asset Save: SM_Computer_Mouse
+[2024.11.25-05.05.22:671][871]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/Meshs/Scenery/Interactables/Computer/SM_Computer_Mouse.SM_Computer_Mouse
+[2024.11.25-05.06.15:855][811]LogUObjectHash: Compacting FUObjectHashTables data took   5.28ms
+[2024.11.25-05.06.15:877][811]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.25-05.06.16:008][811]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2024.11.25-05.06.16:094][811]LogSavePackage: Moving output files for package: /Game/Levels/TutorialScene
+[2024.11.25-05.06.16:095][811]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Saved/TutorialScene22975ABB4B6E2A04DD40159CCFF784DE.tmp' to '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/Levels/TutorialScene.umap'
+[2024.11.25-05.06.16:122][811]LogFileHelpers: Saving map 'TutorialScene' took 0.210
+[2024.11.25-05.06.16:160][811]LogSavePackage: Moving output files for package: /Game/Blueprints/Builder/Terminals/TerminalBuilds/BP_BuildTerminal_PcBuy
+[2024.11.25-05.06.16:161][811]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Saved/BP_BuildTerminal_PcBuyC85B3F1E4BD4ECBFC9B13CA5A7F98248.tmp' to '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/Blueprints/Builder/Terminals/TerminalBuilds/BP_BuildTerminal_PcBuy.uasset'
+[2024.11.25-05.06.16:168][811]LogFileHelpers: InternalPromptForCheckoutAndSave took 291 ms (total: 5.13 sec)
+[2024.11.25-05.06.16:171][811]AssetCheck: New page: Asset Save: multiple assets
+[2024.11.25-05.06.16:171][811]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/TutorialScene.TutorialScene
+[2024.11.25-05.06.16:171][811]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Builder/Terminals/TerminalBuilds/BP_BuildTerminal_PcBuy.BP_BuildTerminal_PcBuy
+[2024.11.25-05.06.16:692][861]BlueprintLog: New page: Compile BP_BuildTerminal_PcBuy
+[2024.11.25-05.06.16:818][861]LogUObjectHash: Compacting FUObjectHashTables data took   1.98ms
+[2024.11.25-05.06.32:886][333]LogUObjectHash: Compacting FUObjectHashTables data took   2.16ms
+[2024.11.25-05.06.33:062][344]LogViewport: Scene viewport resized to 293x187, mode Windowed.
+[2024.11.25-05.06.33:796][379]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.25-05.06.33:816][379]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.25-05.06.33:816][379]PIE: New page: PIE session: TutorialScene (24 de nov de 2024 23:06:33)
+[2024.11.25-05.06.33:817][379]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TutorialScene
+[2024.11.25-05.06.33:838][379]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021680s)
+[2024.11.25-05.06.33:838][379]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TutorialScene.TutorialScene to /Game/Levels/UEDPIE_0_TutorialScene.TutorialScene (0.021723s)
+[2024.11.25-05.06.33:856][379]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2024.11.25-05.06.33:861][379]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-05.06.33:861][379]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.25-05.06.33:862][379]LogAIModule: Creating AISystem for world TutorialScene
+[2024.11.25-05.06.33:862][379]LogPlayLevel: PIE: World Init took: (0.001278s)
+[2024.11.25-05.06.33:862][379]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2024.11.25-05.06.33:862][379]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.25-05.06.33:862][379]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.25-05.06.33:862][379]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.25-05.06.33:862][379]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.25-05.06.33:862][379]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.25-05.06.33:862][379]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.25-05.06.33:862][379]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.25-05.06.33:862][379]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.25-05.06.33:863][379]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.25-05.06.33:863][379]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.25-05.06.33:863][379]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.25-05.06.33:866][379]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.25-05.06.33:906][379]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (2- USB Audio Device)
+[2024.11.25-05.06.33:909][379]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.25-05.06.33:909][379]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.25-05.06.33:909][379]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.25-05.06.33:910][379]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=9
+[2024.11.25-05.06.33:910][379]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=9
+[2024.11.25-05.06.33:912][379]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=9
+[2024.11.25-05.06.33:912][379]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=9
+[2024.11.25-05.06.33:912][379]LogInit: FAudioDevice initialized with ID 9.
+[2024.11.25-05.06.33:912][379]LogAudio: Display: Audio Device (ID: 9) registered with world 'TutorialScene'.
+[2024.11.25-05.06.33:912][379]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 9
+[2024.11.25-05.06.33:915][379]LogLoad: Game class is 'MyGameGamemode_C'
+[2024.11.25-05.06.33:924][379]PIE: Warning: Trying to simulate physics on ''/Game/Levels/UEDPIE_0_TutorialScene.TutorialScene:PersistentLevel.BP_BuildMachine_PinballV1_C_1.BuildMesh'' but it has ComplexAsSimple collision.
+[2024.11.25-05.06.33:928][379]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TutorialScene.TutorialScene up for play (max tick rate 0) at 2024.11.25-02.06.33
+[2024.11.25-05.06.33:929][379]LogWorld: Bringing up level for play took: 0.013307
+[2024.11.25-05.06.33:934][379]LogOnline: OSS: Created online subsystem instance for: :Context_33
+[2024.11.25-05.06.33:934][379]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.25-05.06.33:934][379]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.25-05.06.33:934][379]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.11.25-05.06.33:957][379]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.11.25-05.06.33:957][379]PIE: Server logged in
+[2024.11.25-05.06.33:958][379]PIE: Play in editor total start time 0,143 seconds.
+[2024.11.25-05.06.38:572][748]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.11.25-05.06.38:573][748]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2024.11.25-05.06.38:573][748]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2024.11.25-05.06.42:605][107]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.11.25-05.06.42:605][107]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2024.11.25-05.06.44:315][257]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.11.25-05.06.44:315][257]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2024.11.25-05.06.44:631][286]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.11.25-05.06.44:631][286]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2024.11.25-05.06.46:822][482]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.11.25-05.06.46:822][482]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2024.11.25-05.06.48:282][613]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.11.25-05.06.48:282][613]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2024.11.25-05.06.53:707][116]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.11.25-05.06.53:707][116]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2024.11.25-05.06.53:900][133]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.11.25-05.06.53:900][133]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2024.11.25-05.06.55:153][239]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.11.25-05.06.55:153][239]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2024.11.25-05.06.55:378][260]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.11.25-05.06.55:378][260]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2024.11.25-05.06.56:931][399]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.11.25-05.06.56:931][399]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2024.11.25-05.06.57:297][432]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.11.25-05.06.57:297][432]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2024.11.25-05.07.03:508][981]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.11.25-05.07.03:508][981]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2024.11.25-05.07.03:875][ 15]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.11.25-05.07.03:875][ 15]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2024.11.25-05.07.05:022][113]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.25-05.07.05:022][113]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TutorialScene
+[2024.11.25-05.07.05:026][113]LogWorld: UWorld::CleanupWorld for TutorialScene, bSessionEnded=true, bCleanupResources=true
+[2024.11.25-05.07.05:028][113]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.25-05.07.05:041][113]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.25-05.07.05:051][113]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.25-05.07.05:070][113]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.25-05.07.05:072][113]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 9
+[2024.11.25-05.07.05:072][113]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2024.11.25-05.07.05:074][113]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2024.11.25-05.07.05:089][113]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2024.11.25-05.07.05:260][114]LogPlayLevel: Display: Destroying online subsystem :Context_33
+[2024.11.25-05.07.05:298][114]LogViewport: Scene viewport resized to 293x187, mode Windowed.
+[2024.11.25-05.07.06:381][156]LogSlate: Window 'Message Log' being destroyed
+[2024.11.25-05.07.06:415][156]LogSlate: Window 'Message Log' being destroyed
+[2024.11.25-05.07.09:849][415]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2024.11.25-05.07.09:849][415]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2024.11.25-05.07.09:849][415]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.25-05.07.10:814][485]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2024.11.25-05.07.10:814][485]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2024.11.25-05.07.10:814][485]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.25-05.07.30:434][482]LogUObjectHash: Compacting FUObjectHashTables data took   3.89ms
+[2024.11.25-05.07.30:464][482]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.25-05.07.30:628][482]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
+[2024.11.25-05.07.30:724][482]LogSavePackage: Moving output files for package: /Game/Levels/TutorialScene
+[2024.11.25-05.07.30:725][482]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Saved/TutorialScene190895D641FC1C3640DF2594F77B1246.tmp' to '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/Levels/TutorialScene.umap'
+[2024.11.25-05.07.30:748][482]LogFileHelpers: Saving map 'TutorialScene' took 0.247
+[2024.11.25-05.07.30:787][482]LogSavePackage: Moving output files for package: /Game/Blueprints/Builder/Terminals/TerminalBuilds/BP_BuildTerminal_PcBuy
+[2024.11.25-05.07.30:788][482]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Saved/BP_BuildTerminal_PcBuyAB770EA0448D57D2FD2B3ABBAC6EE7A7.tmp' to '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/Blueprints/Builder/Terminals/TerminalBuilds/BP_BuildTerminal_PcBuy.uasset'
+[2024.11.25-05.07.30:795][482]LogFileHelpers: InternalPromptForCheckoutAndSave took 331 ms (total: 5.46 sec)
+[2024.11.25-05.07.30:801][482]AssetCheck: New page: Asset Save: multiple assets
+[2024.11.25-05.07.30:802][482]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/TutorialScene.TutorialScene
+[2024.11.25-05.07.30:802][482]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Builder/Terminals/TerminalBuilds/BP_BuildTerminal_PcBuy.BP_BuildTerminal_PcBuy
+[2024.11.25-05.07.31:537][550]BlueprintLog: New page: Compile BP_BuildTerminal_PcBuy
+[2024.11.25-05.07.31:794][550]LogUObjectHash: Compacting FUObjectHashTables data took   2.97ms
+[2024.11.25-05.07.53:818][480]LogUObjectHash: Compacting FUObjectHashTables data took   3.11ms
+[2024.11.25-05.07.53:841][480]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.25-05.07.53:980][480]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2024.11.25-05.07.54:068][480]LogSavePackage: Moving output files for package: /Game/Levels/TutorialScene
+[2024.11.25-05.07.54:069][480]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Saved/TutorialScene76D7BFCF4DF6A8E6C67805A767163A3F.tmp' to '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/Levels/TutorialScene.umap'
+[2024.11.25-05.07.54:096][480]LogFileHelpers: Saving map 'TutorialScene' took 0.217
+[2024.11.25-05.07.54:133][480]LogSavePackage: Moving output files for package: /Game/Blueprints/Builder/Terminals/TerminalBuilds/BP_BuildTerminal_PcBuy
+[2024.11.25-05.07.54:134][480]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Saved/BP_BuildTerminal_PcBuyB57DBD6F4BE194CDF6695EB3A2045F44.tmp' to '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/Blueprints/Builder/Terminals/TerminalBuilds/BP_BuildTerminal_PcBuy.uasset'
+[2024.11.25-05.07.54:144][480]LogFileHelpers: InternalPromptForCheckoutAndSave took 302 ms (total: 5.76 sec)
+[2024.11.25-05.07.54:149][480]AssetCheck: New page: Asset Save: multiple assets
+[2024.11.25-05.07.54:149][480]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/TutorialScene.TutorialScene
+[2024.11.25-05.07.54:149][480]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Builder/Terminals/TerminalBuilds/BP_BuildTerminal_PcBuy.BP_BuildTerminal_PcBuy
+[2024.11.25-05.07.54:611][510]BlueprintLog: New page: Compile BP_BuildTerminal_PcBuy
+[2024.11.25-05.07.54:776][510]LogUObjectHash: Compacting FUObjectHashTables data took   2.15ms
+[2024.11.25-05.07.56:029][585]LogUObjectHash: Compacting FUObjectHashTables data took   2.45ms
