@@ -1638,3 +1638,730 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.11.25-01.14.10:279][714]LogViewport: Scene viewport resized to 1095x753, mode Windowed.
 [2024.11.25-01.14.10:315][715]LogViewport: Scene viewport resized to 1095x741, mode Windowed.
 [2024.11.25-01.14.48:858][ 48]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2024.11.25-01.15.47:662][ 66]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.25-01.15.47:682][ 66]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.25-01.15.47:682][ 66]PIE: New page: PIE session: TutorialScene (24 de nov de 2024 19:15:47)
+[2024.11.25-01.15.47:682][ 66]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TutorialScene
+[2024.11.25-01.15.47:698][ 66]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016938s)
+[2024.11.25-01.15.47:698][ 66]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TutorialScene.TutorialScene to /Game/Levels/UEDPIE_0_TutorialScene.TutorialScene (0.016979s)
+[2024.11.25-01.15.47:712][ 66]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2024.11.25-01.15.47:713][ 66]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-01.15.47:713][ 66]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.25-01.15.47:714][ 66]LogAIModule: Creating AISystem for world TutorialScene
+[2024.11.25-01.15.47:714][ 66]LogPlayLevel: PIE: World Init took: (0.001119s)
+[2024.11.25-01.15.47:714][ 66]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2024.11.25-01.15.47:715][ 66]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.25-01.15.47:715][ 66]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.25-01.15.47:715][ 66]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.25-01.15.47:715][ 66]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.25-01.15.47:715][ 66]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.25-01.15.47:715][ 66]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.25-01.15.47:715][ 66]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.25-01.15.47:715][ 66]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.25-01.15.47:715][ 66]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.25-01.15.47:715][ 66]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.25-01.15.47:715][ 66]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.25-01.15.47:717][ 66]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.25-01.15.47:756][ 66]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (2- USB Audio Device)
+[2024.11.25-01.15.47:756][ 66]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.25-01.15.47:757][ 66]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.25-01.15.47:757][ 66]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.25-01.15.47:757][ 66]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2024.11.25-01.15.47:757][ 66]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2024.11.25-01.15.47:759][ 66]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2024.11.25-01.15.47:759][ 66]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2024.11.25-01.15.47:759][ 66]LogInit: FAudioDevice initialized with ID 3.
+[2024.11.25-01.15.47:759][ 66]LogAudio: Display: Audio Device (ID: 3) registered with world 'TutorialScene'.
+[2024.11.25-01.15.47:759][ 66]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 3
+[2024.11.25-01.15.47:763][ 66]LogLoad: Game class is 'MyGameGamemode_C'
+[2024.11.25-01.15.47:769][ 66]PIE: Warning: Trying to simulate physics on ''/Game/Levels/UEDPIE_0_TutorialScene.TutorialScene:PersistentLevel.BP_BuildMachine_PinballV1_C_1.BuildMesh'' but it has ComplexAsSimple collision.
+[2024.11.25-01.15.47:774][ 66]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TutorialScene.TutorialScene up for play (max tick rate 0) at 2024.11.24-22.15.47
+[2024.11.25-01.15.47:775][ 66]LogWorld: Bringing up level for play took: 0.010727
+[2024.11.25-01.15.47:778][ 66]LogOnline: OSS: Created online subsystem instance for: :Context_10
+[2024.11.25-01.15.47:779][ 66]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.25-01.15.47:779][ 66]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.25-01.15.47:779][ 66]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.11.25-01.15.47:801][ 66]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.11.25-01.15.47:801][ 66]PIE: Server logged in
+[2024.11.25-01.15.47:802][ 66]PIE: Play in editor total start time 0,121 seconds.
+[2024.11.25-01.15.51:771][468]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.25-01.15.51:771][468]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TutorialScene
+[2024.11.25-01.15.51:775][468]LogWorld: UWorld::CleanupWorld for TutorialScene, bSessionEnded=true, bCleanupResources=true
+[2024.11.25-01.15.51:777][468]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.25-01.15.51:780][468]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.25-01.15.51:788][468]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.25-01.15.51:804][468]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.25-01.15.51:805][468]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 3
+[2024.11.25-01.15.51:806][468]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2024.11.25-01.15.51:808][468]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2024.11.25-01.15.51:822][468]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2024.11.25-01.15.52:042][469]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2024.11.25-01.15.53:001][535]LogSlate: Window 'Message Log' being destroyed
+[2024.11.25-01.15.53:010][535]LogSlate: Window 'Message Log' being destroyed
+[2024.11.25-01.15.53:760][606]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.25-01.15.53:781][606]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.25-01.15.53:781][606]PIE: New page: PIE session: TutorialScene (24 de nov de 2024 19:15:53)
+[2024.11.25-01.15.53:781][606]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TutorialScene
+[2024.11.25-01.15.53:798][606]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016603s)
+[2024.11.25-01.15.53:798][606]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TutorialScene.TutorialScene to /Game/Levels/UEDPIE_0_TutorialScene.TutorialScene (0.016646s)
+[2024.11.25-01.15.53:812][606]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2024.11.25-01.15.53:816][606]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-01.15.53:816][606]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.25-01.15.53:816][606]LogAIModule: Creating AISystem for world TutorialScene
+[2024.11.25-01.15.53:817][606]LogPlayLevel: PIE: World Init took: (0.001072s)
+[2024.11.25-01.15.53:817][606]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2024.11.25-01.15.53:817][606]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.25-01.15.53:817][606]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.25-01.15.53:817][606]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.25-01.15.53:817][606]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.25-01.15.53:817][606]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.25-01.15.53:817][606]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.25-01.15.53:817][606]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.25-01.15.53:817][606]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.25-01.15.53:817][606]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.25-01.15.53:817][606]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.25-01.15.53:817][606]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.25-01.15.53:820][606]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.25-01.15.53:858][606]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (2- USB Audio Device)
+[2024.11.25-01.15.53:858][606]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.25-01.15.53:858][606]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.25-01.15.53:858][606]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.25-01.15.53:859][606]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2024.11.25-01.15.53:859][606]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2024.11.25-01.15.53:862][606]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2024.11.25-01.15.53:862][606]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2024.11.25-01.15.53:862][606]LogInit: FAudioDevice initialized with ID 4.
+[2024.11.25-01.15.53:862][606]LogAudio: Display: Audio Device (ID: 4) registered with world 'TutorialScene'.
+[2024.11.25-01.15.53:862][606]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 4
+[2024.11.25-01.15.53:865][606]LogLoad: Game class is 'MyGameGamemode_C'
+[2024.11.25-01.15.53:872][606]PIE: Warning: Trying to simulate physics on ''/Game/Levels/UEDPIE_0_TutorialScene.TutorialScene:PersistentLevel.BP_BuildMachine_PinballV1_C_1.BuildMesh'' but it has ComplexAsSimple collision.
+[2024.11.25-01.15.53:875][606]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TutorialScene.TutorialScene up for play (max tick rate 0) at 2024.11.24-22.15.53
+[2024.11.25-01.15.53:876][606]LogWorld: Bringing up level for play took: 0.010707
+[2024.11.25-01.15.53:880][606]LogOnline: OSS: Created online subsystem instance for: :Context_11
+[2024.11.25-01.15.53:881][606]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.25-01.15.53:881][606]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.25-01.15.53:881][606]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.11.25-01.15.53:899][606]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.11.25-01.15.53:899][606]PIE: Server logged in
+[2024.11.25-01.15.53:900][606]PIE: Play in editor total start time 0,12 seconds.
+[2024.11.25-01.16.02:571][533]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.25-01.16.02:571][533]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TutorialScene
+[2024.11.25-01.16.02:575][533]LogWorld: UWorld::CleanupWorld for TutorialScene, bSessionEnded=true, bCleanupResources=true
+[2024.11.25-01.16.02:577][533]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.25-01.16.02:580][533]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.25-01.16.02:588][533]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.25-01.16.02:601][533]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.25-01.16.02:603][533]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 4
+[2024.11.25-01.16.02:603][533]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2024.11.25-01.16.02:606][533]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2024.11.25-01.16.02:619][533]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2024.11.25-01.16.02:796][534]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2024.11.25-01.16.03:728][593]LogSlate: Window 'Message Log' being destroyed
+[2024.11.25-01.16.03:740][593]LogSlate: Window 'Message Log' being destroyed
+[2024.11.25-01.16.37:862][910]LogAutomationController: Ignoring very large delta of 2.27 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.11.25-01.17.31:648][817]Cmd: DUPLICATE
+[2024.11.25-01.17.31:649][817]Cmd: ACTOR DUPLICATE
+[2024.11.25-01.17.42:710][711]LogSlate: Window 'Color Picker' being destroyed
+[2024.11.25-01.17.58:103][958]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2024.11.25-01.17.58:113][958]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.25-01.17.58:241][958]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2024.11.25-01.17.58:307][958]LogSavePackage: Moving output files for package: /Game/Levels/TutorialScene
+[2024.11.25-01.17.58:308][958]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Saved/TutorialSceneBB35501043B8B6844806B8B4C721F024.tmp' to '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/Levels/TutorialScene.umap'
+[2024.11.25-01.17.58:329][958]LogFileHelpers: Saving map 'TutorialScene' took 0.178
+[2024.11.25-01.17.58:337][958]LogFileHelpers: InternalPromptForCheckoutAndSave took 224 ms (total: 838 ms)
+[2024.11.25-01.17.58:339][958]AssetCheck: New page: Asset Save: TutorialScene
+[2024.11.25-01.17.58:339][958]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/TutorialScene.TutorialScene
+[2024.11.25-01.18.20:426][834]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2024.11.25-01.18.20:432][834]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.25-01.18.20:570][834]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2024.11.25-01.18.20:645][834]LogSavePackage: Moving output files for package: /Game/Levels/TutorialScene
+[2024.11.25-01.18.20:646][834]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Saved/TutorialScene69C41E9942E04316E36D89A694F8041E.tmp' to '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/Levels/TutorialScene.umap'
+[2024.11.25-01.18.20:670][834]LogFileHelpers: Saving map 'TutorialScene' took 0.199
+[2024.11.25-01.18.20:684][834]LogFileHelpers: InternalPromptForCheckoutAndSave took 251 ms (total: 1.09 sec)
+[2024.11.25-01.18.20:686][834]AssetCheck: New page: Asset Save: TutorialScene
+[2024.11.25-01.18.20:686][834]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/TutorialScene.TutorialScene
+[2024.11.25-01.18.21:304][886]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.25-01.18.21:323][886]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.25-01.18.21:323][886]PIE: New page: PIE session: TutorialScene (24 de nov de 2024 19:18:21)
+[2024.11.25-01.18.21:360][886]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TutorialScene
+[2024.11.25-01.18.21:378][886]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018335s)
+[2024.11.25-01.18.21:378][886]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TutorialScene.TutorialScene to /Game/Levels/UEDPIE_0_TutorialScene.TutorialScene (0.018388s)
+[2024.11.25-01.18.21:393][886]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2024.11.25-01.18.21:395][886]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-01.18.21:395][886]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.25-01.18.21:395][886]LogAIModule: Creating AISystem for world TutorialScene
+[2024.11.25-01.18.21:397][886]LogPlayLevel: PIE: World Init took: (0.001093s)
+[2024.11.25-01.18.21:397][886]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2024.11.25-01.18.21:397][886]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.25-01.18.21:397][886]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.25-01.18.21:397][886]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.25-01.18.21:397][886]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.25-01.18.21:397][886]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.25-01.18.21:397][886]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.25-01.18.21:397][886]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.25-01.18.21:397][886]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.25-01.18.21:397][886]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.25-01.18.21:397][886]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.25-01.18.21:397][886]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.25-01.18.21:399][886]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.25-01.18.21:437][886]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (2- USB Audio Device)
+[2024.11.25-01.18.21:437][886]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.25-01.18.21:437][886]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.25-01.18.21:437][886]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.25-01.18.21:439][886]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2024.11.25-01.18.21:439][886]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=5
+[2024.11.25-01.18.21:442][886]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2024.11.25-01.18.21:442][886]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2024.11.25-01.18.21:443][886]LogInit: FAudioDevice initialized with ID 5.
+[2024.11.25-01.18.21:443][886]LogAudio: Display: Audio Device (ID: 5) registered with world 'TutorialScene'.
+[2024.11.25-01.18.21:443][886]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 5
+[2024.11.25-01.18.21:446][886]LogLoad: Game class is 'MyGameGamemode_C'
+[2024.11.25-01.18.21:452][886]PIE: Warning: Trying to simulate physics on ''/Game/Levels/UEDPIE_0_TutorialScene.TutorialScene:PersistentLevel.BP_BuildMachine_PinballV1_C_1.BuildMesh'' but it has ComplexAsSimple collision.
+[2024.11.25-01.18.21:455][886]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TutorialScene.TutorialScene up for play (max tick rate 0) at 2024.11.24-22.18.21
+[2024.11.25-01.18.21:457][886]LogWorld: Bringing up level for play took: 0.010890
+[2024.11.25-01.18.21:461][886]LogOnline: OSS: Created online subsystem instance for: :Context_12
+[2024.11.25-01.18.21:461][886]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.25-01.18.21:461][886]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.25-01.18.21:461][886]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.11.25-01.18.21:482][886]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.11.25-01.18.21:482][886]PIE: Server logged in
+[2024.11.25-01.18.21:484][886]PIE: Play in editor total start time 0,161 seconds.
+[2024.11.25-01.18.34:671][188]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.25-01.18.34:671][188]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TutorialScene
+[2024.11.25-01.18.34:676][188]LogWorld: UWorld::CleanupWorld for TutorialScene, bSessionEnded=true, bCleanupResources=true
+[2024.11.25-01.18.34:678][188]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.25-01.18.34:683][188]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.25-01.18.34:691][188]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.25-01.18.34:708][188]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.25-01.18.34:713][188]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 5
+[2024.11.25-01.18.34:713][188]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2024.11.25-01.18.34:715][188]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2024.11.25-01.18.34:730][188]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
+[2024.11.25-01.18.34:925][189]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2024.11.25-01.18.36:146][270]LogSlate: Window 'Message Log' being destroyed
+[2024.11.25-01.18.36:158][270]LogSlate: Window 'Message Log' being destroyed
+[2024.11.25-01.18.46:926][127]Cmd: DUPLICATE
+[2024.11.25-01.18.46:926][127]Cmd: ACTOR DUPLICATE
+[2024.11.25-01.18.52:587][571]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2024.11.25-01.18.52:595][571]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.25-01.18.52:726][571]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2024.11.25-01.18.52:785][571]LogSavePackage: Moving output files for package: /Game/Levels/TutorialScene
+[2024.11.25-01.18.52:786][571]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Saved/TutorialScene512CE36B41AB79630E0F8B93A2894B94.tmp' to '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/Levels/TutorialScene.umap'
+[2024.11.25-01.18.52:806][571]LogFileHelpers: Saving map 'TutorialScene' took 0.172
+[2024.11.25-01.18.52:827][571]LogFileHelpers: InternalPromptForCheckoutAndSave took 231 ms (total: 1.32 sec)
+[2024.11.25-01.18.52:830][571]AssetCheck: New page: Asset Save: TutorialScene
+[2024.11.25-01.18.52:830][571]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/TutorialScene.TutorialScene
+[2024.11.25-01.19.06:172][427]Cmd: DUPLICATE
+[2024.11.25-01.19.06:172][427]Cmd: ACTOR DUPLICATE
+[2024.11.25-01.19.24:015][964]Cmd: DUPLICATE
+[2024.11.25-01.19.24:015][964]Cmd: ACTOR DUPLICATE
+[2024.11.25-01.19.34:592][894]Cmd: DUPLICATE
+[2024.11.25-01.19.34:592][894]Cmd: ACTOR DUPLICATE
+[2024.11.25-01.19.45:677][833]Cmd: DUPLICATE
+[2024.11.25-01.19.45:677][833]Cmd: ACTOR DUPLICATE
+[2024.11.25-01.20.56:329][804]Cmd: DUPLICATE
+[2024.11.25-01.20.56:329][804]Cmd: ACTOR DUPLICATE
+[2024.11.25-01.21.33:074][892]Cmd: DUPLICATE
+[2024.11.25-01.21.33:074][892]Cmd: ACTOR DUPLICATE
+[2024.11.25-01.22.15:937][628]Cmd: DUPLICATE
+[2024.11.25-01.22.15:937][628]Cmd: ACTOR DUPLICATE
+[2024.11.25-01.22.57:795][129]Cmd: DUPLICATE
+[2024.11.25-01.22.57:795][129]Cmd: ACTOR DUPLICATE
+[2024.11.25-01.23.06:592][952]Cmd: DUPLICATE
+[2024.11.25-01.23.06:592][952]Cmd: ACTOR DUPLICATE
+[2024.11.25-01.23.33:039][270]Cmd: DUPLICATE
+[2024.11.25-01.23.33:039][270]Cmd: ACTOR DUPLICATE
+[2024.11.25-01.23.38:086][734]Cmd: DUPLICATE
+[2024.11.25-01.23.38:086][734]Cmd: ACTOR DUPLICATE
+[2024.11.25-01.23.51:705][929]Cmd: DUPLICATE
+[2024.11.25-01.23.51:705][929]Cmd: ACTOR DUPLICATE
+[2024.11.25-01.23.59:580][685]Cmd: DUPLICATE
+[2024.11.25-01.23.59:580][685]Cmd: ACTOR DUPLICATE
+[2024.11.25-01.24.07:813][434]Cmd: DUPLICATE
+[2024.11.25-01.24.07:813][434]Cmd: ACTOR DUPLICATE
+[2024.11.25-01.24.12:445][847]Cmd: DUPLICATE
+[2024.11.25-01.24.12:445][847]Cmd: ACTOR DUPLICATE
+[2024.11.25-01.24.16:758][230]Cmd: DUPLICATE
+[2024.11.25-01.24.16:758][230]Cmd: ACTOR DUPLICATE
+[2024.11.25-01.25.16:756][353]Cmd: DELETE
+[2024.11.25-01.25.16:758][353]Cmd: ACTOR DELETE
+[2024.11.25-01.25.16:777][353]LogEditorActor: Deleted Actor: PointLight
+[2024.11.25-01.25.16:795][353]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
+[2024.11.25-01.25.16:802][353]LogEditorActor: Deleted 1 Actors (0.044 secs)
+[2024.11.25-01.25.18:266][510]Cmd: DELETE
+[2024.11.25-01.25.18:266][510]Cmd: ACTOR DELETE
+[2024.11.25-01.25.18:279][510]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.11.25-01.25.18:293][510]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2024.11.25-01.25.18:297][510]LogEditorActor: Deleted 1 Actors (0.031 secs)
+[2024.11.25-01.25.36:670][280]Cmd: DELETE
+[2024.11.25-01.25.36:670][280]Cmd: ACTOR DELETE
+[2024.11.25-01.25.36:683][280]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.11.25-01.25.36:684][280]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.11.25-01.25.36:684][280]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.11.25-01.25.36:685][280]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.11.25-01.25.36:686][280]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.11.25-01.25.36:686][280]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.11.25-01.25.36:700][280]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2024.11.25-01.25.36:707][280]LogEditorActor: Deleted 6 Actors (0.036 secs)
+[2024.11.25-01.25.38:790][468]Cmd: DELETE
+[2024.11.25-01.25.38:790][468]Cmd: ACTOR DELETE
+[2024.11.25-01.25.38:802][468]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.11.25-01.25.38:816][468]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2024.11.25-01.25.38:820][468]LogEditorActor: Deleted 1 Actors (0.030 secs)
+[2024.11.25-01.25.47:593][483]Cmd: ACTOR SELECT ALL
+[2024.11.25-01.25.47:716][484]LogViewport: Scene viewport resized to 345x233, mode Windowed.
+[2024.11.25-01.25.48:624][545]LogEditorViewport: Clicking Background
+[2024.11.25-01.25.49:017][587]Cmd: TRANSACTION UNDO
+[2024.11.25-01.25.49:017][587]LogEditorTransaction: Undo Clicking Background
+[2024.11.25-01.25.49:428][588]LogViewport: Scene viewport resized to 345x233, mode Windowed.
+[2024.11.25-01.25.50:230][646]Cmd: TRANSACTION UNDO
+[2024.11.25-01.25.50:230][646]LogEditorTransaction: Undo Select All
+[2024.11.25-01.25.51:278][741]Cmd: TRANSACTION UNDO
+[2024.11.25-01.25.51:278][741]LogEditorTransaction: Undo Delete Elements
+[2024.11.25-01.26.18:423][ 74]Cmd: DELETE
+[2024.11.25-01.26.18:423][ 74]Cmd: ACTOR DELETE
+[2024.11.25-01.26.18:435][ 74]LogEditorActor: Deleted Actor: PointLight
+[2024.11.25-01.26.18:436][ 74]LogEditorActor: Deleted Actor: PointLight
+[2024.11.25-01.26.18:437][ 74]LogEditorActor: Deleted Actor: PointLight
+[2024.11.25-01.26.18:438][ 74]LogEditorActor: Deleted Actor: PointLight
+[2024.11.25-01.26.18:439][ 74]LogEditorActor: Deleted Actor: PointLight
+[2024.11.25-01.26.18:439][ 74]LogEditorActor: Deleted Actor: PointLight
+[2024.11.25-01.26.18:439][ 74]LogEditorActor: Deleted Actor: PointLight
+[2024.11.25-01.26.18:440][ 74]LogEditorActor: Deleted Actor: PointLight
+[2024.11.25-01.26.18:441][ 74]LogEditorActor: Deleted Actor: PointLight
+[2024.11.25-01.26.18:441][ 74]LogEditorActor: Deleted Actor: PointLight
+[2024.11.25-01.26.18:442][ 74]LogEditorActor: Deleted Actor: PointLight
+[2024.11.25-01.26.18:442][ 74]LogEditorActor: Deleted Actor: PointLight
+[2024.11.25-01.26.18:443][ 74]LogEditorActor: Deleted Actor: PointLight
+[2024.11.25-01.26.18:458][ 74]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2024.11.25-01.26.18:466][ 74]LogEditorActor: Deleted 13 Actors (0.043 secs)
+[2024.11.25-01.26.41:760][133]Cmd: DELETE
+[2024.11.25-01.26.41:760][133]Cmd: ACTOR DELETE
+[2024.11.25-01.26.41:773][133]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.11.25-01.26.41:774][133]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.11.25-01.26.41:775][133]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.11.25-01.26.41:775][133]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.11.25-01.26.41:776][133]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.11.25-01.26.41:776][133]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.11.25-01.26.41:777][133]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.11.25-01.26.41:778][133]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.11.25-01.26.41:778][133]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.11.25-01.26.41:779][133]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.11.25-01.26.41:779][133]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.11.25-01.26.41:780][133]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.11.25-01.26.41:780][133]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.11.25-01.26.41:794][133]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2024.11.25-01.26.41:800][133]LogEditorActor: Deleted 13 Actors (0.040 secs)
+[2024.11.25-01.27.48:491][313]Cmd: DUPLICATE
+[2024.11.25-01.27.48:491][313]Cmd: ACTOR DUPLICATE
+[2024.11.25-01.27.58:406][194]Cmd: TRANSACTION UNDO
+[2024.11.25-01.27.58:406][194]LogEditorTransaction: Undo Move Elements
+[2024.11.25-01.28.44:746][311]Cmd: DUPLICATE
+[2024.11.25-01.28.44:746][311]Cmd: ACTOR DUPLICATE
+[2024.11.25-01.28.57:205][361]Cmd: DUPLICATE
+[2024.11.25-01.28.57:206][361]Cmd: ACTOR DUPLICATE
+[2024.11.25-01.29.15:003][849]Cmd: DUPLICATE
+[2024.11.25-01.29.15:003][849]Cmd: ACTOR DUPLICATE
+[2024.11.25-01.29.32:393][336]Cmd: DUPLICATE
+[2024.11.25-01.29.32:393][336]Cmd: ACTOR DUPLICATE
+[2024.11.25-01.29.32:393][336]LogConsoleManager: Warning: Performance warning: Many (31) failed FindConsoleObject() for 'ACTOR'. 
+[2024.11.25-01.29.47:012][655]Cmd: DUPLICATE
+[2024.11.25-01.29.47:012][655]Cmd: ACTOR DUPLICATE
+[2024.11.25-01.29.57:499][533]Cmd: DUPLICATE
+[2024.11.25-01.29.57:499][533]Cmd: ACTOR DUPLICATE
+[2024.11.25-01.30.05:116][167]Cmd: DUPLICATE
+[2024.11.25-01.30.05:118][167]Cmd: ACTOR DUPLICATE
+[2024.11.25-01.30.09:273][518]Cmd: DUPLICATE
+[2024.11.25-01.30.09:273][518]Cmd: ACTOR DUPLICATE
+[2024.11.25-01.30.18:841][397]LogEditorViewport: Clicking Background
+[2024.11.25-01.30.29:976][355]Cmd: DUPLICATE
+[2024.11.25-01.30.29:976][355]Cmd: ACTOR DUPLICATE
+[2024.11.25-01.30.37:831][102]Cmd: DUPLICATE
+[2024.11.25-01.30.37:831][102]Cmd: ACTOR DUPLICATE
+[2024.11.25-01.30.52:954][560]Cmd: DUPLICATE
+[2024.11.25-01.30.52:954][560]Cmd: ACTOR DUPLICATE
+[2024.11.25-01.31.03:102][532]Cmd: DUPLICATE
+[2024.11.25-01.31.03:102][532]Cmd: ACTOR DUPLICATE
+[2024.11.25-01.31.12:608][491]Cmd: DUPLICATE
+[2024.11.25-01.31.12:608][491]Cmd: ACTOR DUPLICATE
+[2024.11.25-01.31.24:825][719]Cmd: DUPLICATE
+[2024.11.25-01.31.24:826][719]Cmd: ACTOR DUPLICATE
+[2024.11.25-01.31.30:450][245]Cmd: DUPLICATE
+[2024.11.25-01.31.30:450][245]Cmd: ACTOR DUPLICATE
+[2024.11.25-01.31.35:413][727]Cmd: DUPLICATE
+[2024.11.25-01.31.35:413][727]Cmd: ACTOR DUPLICATE
+[2024.11.25-01.31.39:859][167]Cmd: DUPLICATE
+[2024.11.25-01.31.39:859][167]Cmd: ACTOR DUPLICATE
+[2024.11.25-01.31.44:791][656]Cmd: DUPLICATE
+[2024.11.25-01.31.44:791][656]Cmd: ACTOR DUPLICATE
+[2024.11.25-01.31.49:243][ 88]Cmd: DUPLICATE
+[2024.11.25-01.31.49:243][ 88]Cmd: ACTOR DUPLICATE
+[2024.11.25-01.32.16:512][584]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
+[2024.11.25-01.32.16:521][584]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.25-01.32.16:642][584]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2024.11.25-01.32.16:719][584]LogSavePackage: Moving output files for package: /Game/Levels/TutorialScene
+[2024.11.25-01.32.16:719][584]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Saved/TutorialScene08B0D1C1400C4290335E90BF514ED4A6.tmp' to '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/Levels/TutorialScene.umap'
+[2024.11.25-01.32.16:741][584]LogFileHelpers: Saving map 'TutorialScene' took 0.188
+[2024.11.25-01.32.16:755][584]LogFileHelpers: InternalPromptForCheckoutAndSave took 234 ms (total: 1.55 sec)
+[2024.11.25-01.32.16:759][584]AssetCheck: New page: Asset Save: TutorialScene
+[2024.11.25-01.32.16:759][584]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/TutorialScene.TutorialScene
+[2024.11.25-01.32.17:122][620]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.25-01.32.17:142][620]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.25-01.32.17:142][620]PIE: New page: PIE session: TutorialScene (24 de nov de 2024 19:32:17)
+[2024.11.25-01.32.17:142][620]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TutorialScene
+[2024.11.25-01.32.17:161][620]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019683s)
+[2024.11.25-01.32.17:161][620]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TutorialScene.TutorialScene to /Game/Levels/UEDPIE_0_TutorialScene.TutorialScene (0.019729s)
+[2024.11.25-01.32.17:177][620]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2024.11.25-01.32.17:178][620]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-01.32.17:179][620]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.25-01.32.17:179][620]LogAIModule: Creating AISystem for world TutorialScene
+[2024.11.25-01.32.17:179][620]LogPlayLevel: PIE: World Init took: (0.001162s)
+[2024.11.25-01.32.17:179][620]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2024.11.25-01.32.17:179][620]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.25-01.32.17:179][620]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.25-01.32.17:179][620]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.25-01.32.17:179][620]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.25-01.32.17:179][620]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.25-01.32.17:179][620]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.25-01.32.17:179][620]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.25-01.32.17:179][620]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.25-01.32.17:181][620]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.25-01.32.17:181][620]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.25-01.32.17:181][620]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.25-01.32.17:183][620]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.25-01.32.17:221][620]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (2- USB Audio Device)
+[2024.11.25-01.32.17:221][620]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.25-01.32.17:221][620]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.25-01.32.17:221][620]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.25-01.32.17:222][620]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=6
+[2024.11.25-01.32.17:222][620]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=6
+[2024.11.25-01.32.17:225][620]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=6
+[2024.11.25-01.32.17:225][620]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=6
+[2024.11.25-01.32.17:225][620]LogInit: FAudioDevice initialized with ID 6.
+[2024.11.25-01.32.17:225][620]LogAudio: Display: Audio Device (ID: 6) registered with world 'TutorialScene'.
+[2024.11.25-01.32.17:225][620]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 6
+[2024.11.25-01.32.17:228][620]LogLoad: Game class is 'MyGameGamemode_C'
+[2024.11.25-01.32.17:236][620]PIE: Warning: Trying to simulate physics on ''/Game/Levels/UEDPIE_0_TutorialScene.TutorialScene:PersistentLevel.BP_BuildMachine_PinballV1_C_1.BuildMesh'' but it has ComplexAsSimple collision.
+[2024.11.25-01.32.17:240][620]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TutorialScene.TutorialScene up for play (max tick rate 0) at 2024.11.24-22.32.17
+[2024.11.25-01.32.17:241][620]LogWorld: Bringing up level for play took: 0.012221
+[2024.11.25-01.32.17:245][620]LogOnline: OSS: Created online subsystem instance for: :Context_13
+[2024.11.25-01.32.17:246][620]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.25-01.32.17:246][620]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.25-01.32.17:246][620]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.11.25-01.32.17:264][620]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.11.25-01.32.17:264][620]PIE: Server logged in
+[2024.11.25-01.32.17:266][620]PIE: Play in editor total start time 0,124 seconds.
+[2024.11.25-01.32.40:579][ 32]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.25-01.32.40:579][ 32]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TutorialScene
+[2024.11.25-01.32.40:583][ 32]LogWorld: UWorld::CleanupWorld for TutorialScene, bSessionEnded=true, bCleanupResources=true
+[2024.11.25-01.32.40:585][ 32]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.25-01.32.40:590][ 32]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.25-01.32.40:598][ 32]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.25-01.32.40:619][ 32]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.25-01.32.40:621][ 32]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 6
+[2024.11.25-01.32.40:622][ 32]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2024.11.25-01.32.40:624][ 32]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2024.11.25-01.32.40:638][ 32]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2024.11.25-01.32.40:824][ 33]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2024.11.25-01.32.41:801][103]LogSlate: Window 'Message Log' being destroyed
+[2024.11.25-01.32.41:813][103]LogSlate: Window 'Message Log' being destroyed
+[2024.11.25-01.32.54:932][200]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2024.11.25-01.32.54:940][200]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.25-01.32.55:067][200]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2024.11.25-01.32.55:139][200]LogSavePackage: Moving output files for package: /Game/Levels/TutorialScene
+[2024.11.25-01.32.55:139][200]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Saved/TutorialScene5504F4F84A52AE29723CA8803C9B6FC7.tmp' to '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/Levels/TutorialScene.umap'
+[2024.11.25-01.32.55:160][200]LogFileHelpers: Saving map 'TutorialScene' took 0.183
+[2024.11.25-01.32.55:169][200]LogFileHelpers: InternalPromptForCheckoutAndSave took 229 ms (total: 1.78 sec)
+[2024.11.25-01.32.55:173][200]AssetCheck: New page: Asset Save: TutorialScene
+[2024.11.25-01.32.55:173][200]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/TutorialScene.TutorialScene
+[2024.11.25-01.32.55:944][250]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.25-01.32.55:963][250]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.25-01.32.55:963][250]PIE: New page: PIE session: TutorialScene (24 de nov de 2024 19:32:55)
+[2024.11.25-01.32.55:998][250]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TutorialScene
+[2024.11.25-01.32.56:017][250]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018928s)
+[2024.11.25-01.32.56:017][250]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TutorialScene.TutorialScene to /Game/Levels/UEDPIE_0_TutorialScene.TutorialScene (0.019000s)
+[2024.11.25-01.32.56:032][250]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2024.11.25-01.32.56:033][250]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-01.32.56:033][250]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.25-01.32.56:034][250]LogAIModule: Creating AISystem for world TutorialScene
+[2024.11.25-01.32.56:034][250]LogPlayLevel: PIE: World Init took: (0.001063s)
+[2024.11.25-01.32.56:034][250]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2024.11.25-01.32.56:034][250]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.25-01.32.56:034][250]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.25-01.32.56:034][250]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.25-01.32.56:034][250]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.25-01.32.56:034][250]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.25-01.32.56:034][250]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.25-01.32.56:034][250]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.25-01.32.56:034][250]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.25-01.32.56:035][250]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.25-01.32.56:035][250]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.25-01.32.56:035][250]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.25-01.32.56:038][250]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.25-01.32.56:076][250]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (2- USB Audio Device)
+[2024.11.25-01.32.56:078][250]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.25-01.32.56:078][250]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.25-01.32.56:078][250]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.25-01.32.56:078][250]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=7
+[2024.11.25-01.32.56:078][250]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=7
+[2024.11.25-01.32.56:081][250]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=7
+[2024.11.25-01.32.56:081][250]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=7
+[2024.11.25-01.32.56:081][250]LogInit: FAudioDevice initialized with ID 7.
+[2024.11.25-01.32.56:081][250]LogAudio: Display: Audio Device (ID: 7) registered with world 'TutorialScene'.
+[2024.11.25-01.32.56:081][250]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 7
+[2024.11.25-01.32.56:085][250]LogLoad: Game class is 'MyGameGamemode_C'
+[2024.11.25-01.32.56:092][250]PIE: Warning: Trying to simulate physics on ''/Game/Levels/UEDPIE_0_TutorialScene.TutorialScene:PersistentLevel.BP_BuildMachine_PinballV1_C_1.BuildMesh'' but it has ComplexAsSimple collision.
+[2024.11.25-01.32.56:097][250]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TutorialScene.TutorialScene up for play (max tick rate 0) at 2024.11.24-22.32.56
+[2024.11.25-01.32.56:099][250]LogWorld: Bringing up level for play took: 0.012852
+[2024.11.25-01.32.56:102][250]LogOnline: OSS: Created online subsystem instance for: :Context_14
+[2024.11.25-01.32.56:103][250]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.25-01.32.56:103][250]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.25-01.32.56:103][250]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.11.25-01.32.56:123][250]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.11.25-01.32.56:123][250]PIE: Server logged in
+[2024.11.25-01.32.56:124][250]PIE: Play in editor total start time 0,16 seconds.
+[2024.11.25-01.33.19:589][705]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.25-01.33.19:589][705]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TutorialScene
+[2024.11.25-01.33.19:593][705]LogWorld: UWorld::CleanupWorld for TutorialScene, bSessionEnded=true, bCleanupResources=true
+[2024.11.25-01.33.19:595][705]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.25-01.33.19:598][705]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.25-01.33.19:606][705]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.25-01.33.19:622][705]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.11.25-01.33.19:623][705]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 7
+[2024.11.25-01.33.19:623][705]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2024.11.25-01.33.19:625][705]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2024.11.25-01.33.19:630][705]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.25-01.33.19:640][705]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2024.11.25-01.33.19:902][706]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2024.11.25-01.33.20:896][778]LogSlate: Window 'Message Log' being destroyed
+[2024.11.25-01.33.20:906][778]LogSlate: Window 'Message Log' being destroyed
+[2024.11.25-01.33.51:271][865]Cmd: DUPLICATE
+[2024.11.25-01.33.51:271][865]Cmd: ACTOR DUPLICATE
+[2024.11.25-01.34.34:774][630]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2024.11.25-01.34.34:847][631]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-01.34.34:908][632]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-01.34.36:890][736]Cmd: TRANSACTION UNDO
+[2024.11.25-01.34.36:890][736]LogEditorTransaction: Undo Clicking on Elements
+[2024.11.25-01.34.43:384][ 96]Cmd: DUPLICATE
+[2024.11.25-01.34.43:384][ 96]Cmd: ACTOR DUPLICATE
+[2024.11.25-01.35.49:000][353]Cmd: DUPLICATE
+[2024.11.25-01.35.49:000][353]Cmd: ACTOR DUPLICATE
+[2024.11.25-01.36.00:331][ 83]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
+[2024.11.25-01.36.00:343][ 83]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.25-01.36.00:485][ 83]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2024.11.25-01.36.00:560][ 83]LogSavePackage: Moving output files for package: /Game/Levels/TutorialScene
+[2024.11.25-01.36.00:561][ 83]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Saved/TutorialSceneDA1746A748A88D562FDCDE8B8A63AD9F.tmp' to '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/Levels/TutorialScene.umap'
+[2024.11.25-01.36.00:586][ 83]LogFileHelpers: Saving map 'TutorialScene' took 0.194
+[2024.11.25-01.36.00:596][ 83]LogFileHelpers: InternalPromptForCheckoutAndSave took 252 ms (total: 2.03 sec)
+[2024.11.25-01.36.00:597][ 83]AssetCheck: New page: Asset Save: TutorialScene
+[2024.11.25-01.36.00:597][ 83]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/TutorialScene.TutorialScene
+[2024.11.25-01.36.17:677][528]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2024.11.25-01.36.24:747][997]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.25-01.36.24:770][997]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.25-01.36.24:770][997]PIE: New page: PIE session: TutorialScene (24 de nov de 2024 19:36:24)
+[2024.11.25-01.36.24:770][997]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TutorialScene
+[2024.11.25-01.36.24:791][997]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020051s)
+[2024.11.25-01.36.24:791][997]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TutorialScene.TutorialScene to /Game/Levels/UEDPIE_0_TutorialScene.TutorialScene (0.020094s)
+[2024.11.25-01.36.24:805][997]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2024.11.25-01.36.24:807][997]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-01.36.24:807][997]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.25-01.36.24:807][997]LogAIModule: Creating AISystem for world TutorialScene
+[2024.11.25-01.36.24:808][997]LogPlayLevel: PIE: World Init took: (0.001209s)
+[2024.11.25-01.36.24:808][997]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2024.11.25-01.36.24:808][997]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.25-01.36.24:808][997]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.25-01.36.24:808][997]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.25-01.36.24:808][997]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.25-01.36.24:808][997]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.25-01.36.24:808][997]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.25-01.36.24:808][997]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.25-01.36.24:808][997]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.25-01.36.24:809][997]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.25-01.36.24:809][997]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.25-01.36.24:809][997]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.25-01.36.24:811][997]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.25-01.36.24:853][997]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (2- USB Audio Device)
+[2024.11.25-01.36.24:853][997]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.25-01.36.24:853][997]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.25-01.36.24:854][997]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.25-01.36.24:855][997]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=8
+[2024.11.25-01.36.24:855][997]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=8
+[2024.11.25-01.36.24:859][997]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=8
+[2024.11.25-01.36.24:859][997]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=8
+[2024.11.25-01.36.24:859][997]LogInit: FAudioDevice initialized with ID 8.
+[2024.11.25-01.36.24:859][997]LogAudio: Display: Audio Device (ID: 8) registered with world 'TutorialScene'.
+[2024.11.25-01.36.24:859][997]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 8
+[2024.11.25-01.36.24:865][997]LogLoad: Game class is 'MyGameGamemode_C'
+[2024.11.25-01.36.24:872][997]PIE: Warning: Trying to simulate physics on ''/Game/Levels/UEDPIE_0_TutorialScene.TutorialScene:PersistentLevel.BP_BuildMachine_PinballV1_C_1.BuildMesh'' but it has ComplexAsSimple collision.
+[2024.11.25-01.36.24:878][997]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TutorialScene.TutorialScene up for play (max tick rate 0) at 2024.11.24-22.36.24
+[2024.11.25-01.36.24:879][997]LogWorld: Bringing up level for play took: 0.012999
+[2024.11.25-01.36.24:882][997]LogOnline: OSS: Created online subsystem instance for: :Context_17
+[2024.11.25-01.36.24:884][997]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.25-01.36.24:884][997]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.25-01.36.24:884][997]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.11.25-01.36.24:902][997]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.11.25-01.36.24:902][997]PIE: Server logged in
+[2024.11.25-01.36.24:904][997]PIE: Play in editor total start time 0,134 seconds.
+[2024.11.25-01.36.38:639][382]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.11.25-01.36.38:639][382]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2024.11.25-01.36.39:603][494]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2024.11.25-01.36.39:603][494]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CaptureDuringMouseDown
+[2024.11.25-01.36.39:604][494]LogGameMode: Display: Match State Changed from InProgress to LeavingMap
+[2024.11.25-01.36.39:604][494]LogGameState: Match State Changed from InProgress to LeavingMap
+[2024.11.25-01.36.39:604][494]LogNet: Browse: /Game/Levels/MainMenu_lvl
+[2024.11.25-01.36.39:605][494]LogLoad: LoadMap: /Game/Levels/MainMenu_lvl
+[2024.11.25-01.36.39:605][494]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TutorialScene
+[2024.11.25-01.36.39:610][494]LogWorld: UWorld::CleanupWorld for TutorialScene, bSessionEnded=true, bCleanupResources=true
+[2024.11.25-01.36.39:612][494]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.25-01.36.39:666][494]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.11.25-01.36.39:674][494]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2024.11.25-01.36.40:023][494]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Game/Meshs/SceneryCollisions/SM_WallSingleDoorCollider) ...
+[2024.11.25-01.36.40:205][494]LogAudio: Display: Audio Device (ID: 8) registered with world 'MainMenu_lvl'.
+[2024.11.25-01.36.40:205][494]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-01.36.40:205][494]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.25-01.36.40:205][494]LogAIModule: Creating AISystem for world MainMenu_lvl
+[2024.11.25-01.36.40:205][494]LogPlayLevel: PIE: World Init took: (0.000904s)
+[2024.11.25-01.36.40:205][494]LogLoad: Game class is 'GameModeBase'
+[2024.11.25-01.36.40:205][494]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Meshs/Scenery/NeonFlipStructure/SM_WallSide.SM_WallSide being ready before playing
+[2024.11.25-01.36.40:205][494]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Meshs/Scenery/NeonFlipStructure/SM_WallSingleDoor_WallSingleDoor.SM_WallSingleDoor_WallSingleDoor being ready before playing
+[2024.11.25-01.36.40:208][494]PIE: Warning: Trying to simulate physics on ''/Game/Levels/UEDPIE_0_MainMenu_lvl.MainMenu_lvl:PersistentLevel.BP_BuildMachine_PinballV1_C_1.BuildMesh'' but it has ComplexAsSimple collision.
+[2024.11.25-01.36.40:208][494]PIE: Warning: Trying to simulate physics on ''/Game/Levels/UEDPIE_0_MainMenu_lvl.MainMenu_lvl:PersistentLevel.BP_BuildMachine_PinballV2_C_1.BuildMesh'' but it has ComplexAsSimple collision.
+[2024.11.25-01.36.40:208][494]PIE: Warning: Trying to simulate physics on ''/Game/Levels/UEDPIE_0_MainMenu_lvl.MainMenu_lvl:PersistentLevel.BP_BuildMachine_PinballV3_C_1.BuildMesh'' but it has ComplexAsSimple collision.
+[2024.11.25-01.36.40:217][494]PIE: Warning: Trying to simulate physics on ''/Game/Levels/UEDPIE_0_MainMenu_lvl.MainMenu_lvl:PersistentLevel.BP_BuildMachine_PinballV1_C_1.BuildMesh'' but it has ComplexAsSimple collision.
+[2024.11.25-01.36.40:218][494]PIE: Warning: Trying to simulate physics on ''/Game/Levels/UEDPIE_0_MainMenu_lvl.MainMenu_lvl:PersistentLevel.BP_BuildMachine_PinballV1_C_1.BuildMesh'' but it has ComplexAsSimple collision.
+[2024.11.25-01.36.40:218][494]PIE: Warning: Trying to simulate physics on ''/Game/Levels/UEDPIE_0_MainMenu_lvl.MainMenu_lvl:PersistentLevel.BP_BuildMachine_PinballV2_C_1.BuildMesh'' but it has ComplexAsSimple collision.
+[2024.11.25-01.36.40:219][494]PIE: Warning: Trying to simulate physics on ''/Game/Levels/UEDPIE_0_MainMenu_lvl.MainMenu_lvl:PersistentLevel.BP_BuildMachine_PinballV2_C_1.BuildMesh'' but it has ComplexAsSimple collision.
+[2024.11.25-01.36.40:219][494]PIE: Warning: Trying to simulate physics on ''/Game/Levels/UEDPIE_0_MainMenu_lvl.MainMenu_lvl:PersistentLevel.BP_BuildMachine_PinballV3_C_1.BuildMesh'' but it has ComplexAsSimple collision.
+[2024.11.25-01.36.40:219][494]PIE: Warning: Trying to simulate physics on ''/Game/Levels/UEDPIE_0_MainMenu_lvl.MainMenu_lvl:PersistentLevel.BP_BuildMachine_PinballV3_C_1.BuildMesh'' but it has ComplexAsSimple collision.
+[2024.11.25-01.36.40:220][494]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainMenu_lvl.MainMenu_lvl up for play (max tick rate 0) at 2024.11.24-22.36.40
+[2024.11.25-01.36.40:220][494]LogWorld: Bringing up level for play took: 0.013137
+[2024.11.25-01.36.40:221][494]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2024.11.25-01.36.40:226][494]LogWindows: WindowsPlatformFeatures enabled
+[2024.11.25-01.36.40:226][494]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> NoCapture
+[2024.11.25-01.36.40:227][494]LogLoad: Took 0.622551 seconds to LoadMap(/Game/Levels/MainMenu_lvl)
+[2024.11.25-01.36.40:358][495]LogShaderCompilers: Display: ================================================
+[2024.11.25-01.36.40:358][495]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.11.25-01.36.40:358][495]LogShaderCompilers: Display: Total job queries 380, among them cache hits 208 (54.74%)
+[2024.11.25-01.36.40:358][495]LogShaderCompilers: Display: Tracking 172 distinct input hashes that result in 68 distinct outputs (39.53%)
+[2024.11.25-01.36.40:358][495]LogShaderCompilers: Display: RAM used: 3,80 MiB of 819,20 MiB budget. Usage: 0.46%
+[2024.11.25-01.36.40:358][495]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.11.25-01.36.40:358][495]LogShaderCompilers: Display: Shaders Compiled: 0
+[2024.11.25-01.36.40:358][495]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0%)
+[2024.11.25-01.36.40:358][495]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2024.11.25-01.36.40:358][495]LogShaderCompilers: Display: ================================================
+[2024.11.25-01.36.40:977][561]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.11.25-01.36.40:977][561]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2024.11.25-01.36.40:979][561]LogNet: Browse: /Game/Levels/Ilumination
+[2024.11.25-01.36.40:979][561]LogLoad: LoadMap: /Game/Levels/Ilumination
+[2024.11.25-01.36.40:979][561]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_MainMenu_lvl
+[2024.11.25-01.36.40:980][561]LogWorld: UWorld::CleanupWorld for MainMenu_lvl, bSessionEnded=true, bCleanupResources=true
+[2024.11.25-01.36.40:980][561]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.25-01.36.41:022][561]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.11.25-01.36.41:026][561]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2024.11.25-01.36.42:152][561]LogAudio: Display: Audio Device (ID: 8) registered with world 'Ilumination'.
+[2024.11.25-01.36.42:152][561]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-01.36.42:152][561]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.25-01.36.42:153][561]LogAIModule: Creating AISystem for world Ilumination
+[2024.11.25-01.36.42:153][561]LogPlayLevel: PIE: World Init took: (0.001149s)
+[2024.11.25-01.36.42:153][561]LogLoad: Game class is 'MyGameGamemode_C'
+[2024.11.25-01.36.42:153][561]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Meshs/Scenery/DecorationFloor/SM_SodaCan_SodaCan.SM_SodaCan_SodaCan being ready before playing
+[2024.11.25-01.36.42:153][561]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Meshs/Scenery/DecorationFloor/SM_PizzaBox_PizzaBox.SM_PizzaBox_PizzaBox being ready before playing
+[2024.11.25-01.36.42:153][561]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Meshs/Scenery/DecorationWalls/SM_Switch.SM_Switch being ready before playing
+[2024.11.25-01.36.42:154][561]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Meshs/Scenery/Interactables/Box/SM_BigBox.SM_BigBox being ready before playing
+[2024.11.25-01.36.42:154][561]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Meshs/Scenery/Interactables/Chips/SM_Chip.SM_Chip being ready before playing
+[2024.11.25-01.36.42:154][561]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Meshs/Scenery/Interactables/Dollars/SM_Dollar.SM_Dollar being ready before playing
+[2024.11.25-01.36.42:154][561]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Meshs/Scenery/NeonFlipStructure/SM_FloorPantry.SM_FloorPantry being ready before playing
+[2024.11.25-01.36.42:154][561]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Meshs/Scenery/NeonFlipStructure/SM_Pantry.SM_Pantry being ready before playing
+[2024.11.25-01.36.42:154][561]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Meshs/Scenery/NeonFlipStructure/SM_RoofPantry.SM_RoofPantry being ready before playing
+[2024.11.25-01.36.42:177][561]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Ilumination.Ilumination up for play (max tick rate 0) at 2024.11.24-22.36.42
+[2024.11.25-01.36.42:177][561]LogWorld: Bringing up level for play took: 0.023207
+[2024.11.25-01.36.42:179][561]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.25-01.36.42:179][561]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.25-01.36.42:179][561]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.11.25-01.36.42:194][561]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.11.25-01.36.42:194][561]LogLoad: Took 1.214894 seconds to LoadMap(/Game/Levels/Ilumination)
+[2024.11.25-01.36.44:662][814]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.11.25-01.36.44:662][814]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2024.11.25-01.36.48:855][302]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.11.25-01.36.48:855][302]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2024.11.25-01.36.51:148][548]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.25-01.36.51:148][548]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Ilumination
+[2024.11.25-01.36.51:151][548]LogWorld: UWorld::CleanupWorld for Ilumination, bSessionEnded=true, bCleanupResources=true
+[2024.11.25-01.36.51:153][548]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.25-01.36.51:157][548]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.25-01.36.51:163][548]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.25-01.36.51:182][548]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.11.25-01.36.51:182][548]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 8
+[2024.11.25-01.36.51:182][548]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2024.11.25-01.36.51:184][548]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2024.11.25-01.36.51:189][548]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.25-01.36.51:197][548]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2024.11.25-01.36.51:421][549]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2024.11.25-01.36.52:542][624]LogSlate: Window 'Message Log' being destroyed
+[2024.11.25-01.36.52:557][624]LogSlate: Window 'Message Log' being destroyed
+[2024.11.25-01.36.55:094][808]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.25-01.36.55:117][808]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.25-01.36.55:117][808]PIE: New page: PIE session: TutorialScene (24 de nov de 2024 19:36:55)
+[2024.11.25-01.36.55:148][808]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TutorialScene
+[2024.11.25-01.36.55:174][808]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025083s)
+[2024.11.25-01.36.55:174][808]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TutorialScene.TutorialScene to /Game/Levels/UEDPIE_0_TutorialScene.TutorialScene (0.025153s)
+[2024.11.25-01.36.55:190][808]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2024.11.25-01.36.55:196][808]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.25-01.36.55:196][808]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.25-01.36.55:196][808]LogAIModule: Creating AISystem for world TutorialScene
+[2024.11.25-01.36.55:197][808]LogPlayLevel: PIE: World Init took: (0.001251s)
+[2024.11.25-01.36.55:197][808]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2024.11.25-01.36.55:197][808]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.25-01.36.55:197][808]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.25-01.36.55:197][808]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.25-01.36.55:197][808]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.25-01.36.55:197][808]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.25-01.36.55:197][808]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.25-01.36.55:197][808]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.25-01.36.55:197][808]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.25-01.36.55:197][808]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.25-01.36.55:198][808]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.25-01.36.55:198][808]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.25-01.36.55:200][808]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.25-01.36.55:239][808]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (2- USB Audio Device)
+[2024.11.25-01.36.55:241][808]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.25-01.36.55:241][808]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.25-01.36.55:241][808]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.25-01.36.55:242][808]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=9
+[2024.11.25-01.36.55:242][808]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=9
+[2024.11.25-01.36.55:244][808]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=9
+[2024.11.25-01.36.55:244][808]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=9
+[2024.11.25-01.36.55:244][808]LogInit: FAudioDevice initialized with ID 9.
+[2024.11.25-01.36.55:244][808]LogAudio: Display: Audio Device (ID: 9) registered with world 'TutorialScene'.
+[2024.11.25-01.36.55:245][808]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 9
+[2024.11.25-01.36.55:253][808]LogLoad: Game class is 'MyGameGamemode_C'
+[2024.11.25-01.36.55:261][808]PIE: Warning: Trying to simulate physics on ''/Game/Levels/UEDPIE_0_TutorialScene.TutorialScene:PersistentLevel.BP_BuildMachine_PinballV1_C_1.BuildMesh'' but it has ComplexAsSimple collision.
+[2024.11.25-01.36.55:269][808]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TutorialScene.TutorialScene up for play (max tick rate 0) at 2024.11.24-22.36.55
+[2024.11.25-01.36.55:270][808]LogWorld: Bringing up level for play took: 0.017127
+[2024.11.25-01.36.55:275][808]LogOnline: OSS: Created online subsystem instance for: :Context_18
+[2024.11.25-01.36.55:276][808]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.25-01.36.55:276][808]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.25-01.36.55:276][808]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.11.25-01.36.55:303][808]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.11.25-01.36.55:303][808]PIE: Server logged in
+[2024.11.25-01.36.55:305][808]PIE: Play in editor total start time 0,188 seconds.
+[2024.11.25-01.37.28:178][861]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.25-01.37.28:178][861]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TutorialScene
+[2024.11.25-01.37.28:182][861]LogWorld: UWorld::CleanupWorld for TutorialScene, bSessionEnded=true, bCleanupResources=true
+[2024.11.25-01.37.28:184][861]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.25-01.37.28:189][861]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.25-01.37.28:196][861]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.25-01.37.28:212][861]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.25-01.37.28:213][861]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 9
+[2024.11.25-01.37.28:213][861]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2024.11.25-01.37.28:215][861]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9
+[2024.11.25-01.37.28:229][861]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2024.11.25-01.37.28:485][862]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2024.11.25-01.37.29:543][910]LogSlate: Window 'Message Log' being destroyed
+[2024.11.25-01.37.29:575][910]LogSlate: Window 'Message Log' being destroyed
+[2024.11.25-01.37.31:146][942]LogViewport: Scene viewport resized to 1095x736, mode Windowed.
+[2024.11.25-01.37.31:181][943]LogViewport: Scene viewport resized to 1095x699, mode Windowed.
+[2024.11.25-01.37.31:214][944]LogViewport: Scene viewport resized to 1095x654, mode Windowed.
+[2024.11.25-01.37.31:255][945]LogViewport: Scene viewport resized to 1095x635, mode Windowed.
+[2024.11.25-01.37.31:297][946]LogViewport: Scene viewport resized to 1095x630, mode Windowed.
+[2024.11.25-01.37.31:392][947]LogViewport: Scene viewport resized to 1095x624, mode Windowed.
