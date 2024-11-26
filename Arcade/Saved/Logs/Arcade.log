@@ -7659,3 +7659,845 @@ LogInit: Object subsystem initialized
 [2024.11.26-16.06.13:383][830]LogFileHelpers: InternalPromptForCheckoutAndSave took 341 ms (total: 42.8 sec)
 [2024.11.26-16.06.13:386][830]AssetCheck: New page: Asset Save: TutorialScene
 [2024.11.26-16.06.13:386][830]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/TutorialScene.TutorialScene
+[2024.11.26-16.06.45:810][981]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.26-16.06.45:921][981]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2024.11.26-16.06.45:974][981]LogSavePackage: Moving output files for package: /Game/Levels/TutorialScene
+[2024.11.26-16.06.45:975][981]LogSavePackage: Moving '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Saved/TutorialScene3EB8E47D4859EAEE9CF41880E5D93E95.tmp' to '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Content/Levels/TutorialScene.umap'
+[2024.11.26-16.06.45:988][981]LogFileHelpers: Saving map 'TutorialScene' took 0.122
+[2024.11.26-16.06.45:993][981]LogFileHelpers: InternalPromptForCheckoutAndSave took 182 ms (total: 42.9 sec)
+[2024.11.26-16.06.45:995][981]AssetCheck: New page: Asset Save: TutorialScene
+[2024.11.26-16.06.45:995][981]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/TutorialScene.TutorialScene
+[2024.11.26-16.06.46:846][995]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.26-16.06.46:870][995]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.26-16.06.46:870][995]PIE: New page: PIE session: TutorialScene (26 de nov de 2024 10:06:46)
+[2024.11.26-16.06.46:870][995]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TutorialScene
+[2024.11.26-16.06.46:886][995]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015585s)
+[2024.11.26-16.06.46:886][995]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TutorialScene.TutorialScene to /Game/Levels/UEDPIE_0_TutorialScene.TutorialScene (0.015621s)
+[2024.11.26-16.06.46:894][995]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2024.11.26-16.06.46:895][995]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.26-16.06.46:895][995]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.26-16.06.46:896][995]LogAIModule: Creating AISystem for world TutorialScene
+[2024.11.26-16.06.46:896][995]LogPlayLevel: PIE: World Init took: (0.000884s)
+[2024.11.26-16.06.46:896][995]LogAudio: Display: Creating Audio Device:                 Id: 41, Scope: Unique, Realtime: True
+[2024.11.26-16.06.46:896][995]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.26-16.06.46:896][995]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.26-16.06.46:896][995]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.26-16.06.46:896][995]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.26-16.06.46:896][995]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.26-16.06.46:896][995]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.26-16.06.46:896][995]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.26-16.06.46:896][995]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.26-16.06.46:897][995]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.26-16.06.46:897][995]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.26-16.06.46:897][995]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.26-16.06.46:898][995]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.26-16.06.46:906][995]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (Realtek(R) Audio)
+[2024.11.26-16.06.46:907][995]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.26-16.06.46:907][995]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.26-16.06.46:907][995]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.26-16.06.46:909][995]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=41
+[2024.11.26-16.06.46:909][995]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=41
+[2024.11.26-16.06.46:910][995]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=41
+[2024.11.26-16.06.46:910][995]LogInit: FAudioDevice initialized with ID 41.
+[2024.11.26-16.06.46:910][995]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=41
+[2024.11.26-16.06.46:910][995]LogAudio: Display: Audio Device (ID: 41) registered with world 'TutorialScene'.
+[2024.11.26-16.06.46:910][995]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 41
+[2024.11.26-16.06.46:926][995]LogLoad: Game class is 'MyGameGamemode_C'
+[2024.11.26-16.06.46:935][995]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BP_DayCicleController". Node:  Result Graph:  Transition Function:  Execute Ubergraph BPA Open Close Blueprint:  BPA_OpenClose
+[2024.11.26-16.06.46:936][995]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TutorialScene.TutorialScene up for play (max tick rate 0) at 2024.11.26-13.06.46
+[2024.11.26-16.06.46:936][995]LogWorld: Bringing up level for play took: 0.009896
+[2024.11.26-16.06.46:939][995]LogOnline: OSS: Created online subsystem instance for: :Context_54
+[2024.11.26-16.06.46:940][995]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.26-16.06.46:940][995]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.26-16.06.46:940][995]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.11.26-16.06.46:953][995]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.11.26-16.06.46:953][995]PIE: Server logged in
+[2024.11.26-16.06.46:953][995]PIE: Play in editor total start time 0,083 seconds.
+[2024.11.26-16.07.01:460][289]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.26-16.07.01:460][289]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TutorialScene
+[2024.11.26-16.07.01:463][289]LogWorld: UWorld::CleanupWorld for TutorialScene, bSessionEnded=true, bCleanupResources=true
+[2024.11.26-16.07.01:464][289]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.26-16.07.01:531][289]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.26-16.07.01:535][289]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.26-16.07.01:544][289]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.26-16.07.01:546][289]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 41
+[2024.11.26-16.07.01:546][289]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=41
+[2024.11.26-16.07.01:547][289]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=41
+[2024.11.26-16.07.01:555][289]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2024.11.26-16.07.01:768][290]LogPlayLevel: Display: Destroying online subsystem :Context_54
+[2024.11.26-16.07.03:129][311]LogSlate: Window 'Message Log' being destroyed
+[2024.11.26-16.07.03:195][311]LogSlate: Window 'Message Log' being destroyed
+[2024.11.26-16.07.04:257][328]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.26-16.07.04:472][328]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2024.11.26-16.07.04:526][328]LogSavePackage: Moving output files for package: /Game/Levels/TutorialScene
+[2024.11.26-16.07.04:526][328]LogSavePackage: Moving '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Saved/TutorialSceneC7560F9E473B7C364C60058B2A7FD111.tmp' to '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Content/Levels/TutorialScene.umap'
+[2024.11.26-16.07.04:538][328]LogFileHelpers: Saving map 'TutorialScene' took 0.120
+[2024.11.26-16.07.04:549][328]LogFileHelpers: InternalPromptForCheckoutAndSave took 292 ms (total: 43.2 sec)
+[2024.11.26-16.07.04:551][328]AssetCheck: New page: Asset Save: TutorialScene
+[2024.11.26-16.07.04:551][328]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/TutorialScene.TutorialScene
+[2024.11.26-16.07.08:271][386]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2024.11.26-16.07.08:415][386]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.26-16.07.08:442][386]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Levels/Ilumination.Ilumination
+[2024.11.26-16.07.08:442][386]Cmd: MAP LOAD FILE="../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Content/Levels/Ilumination.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2024.11.26-16.07.08:442][386]LightingResults: New page: Lighting Build
+[2024.11.26-16.07.08:442][386]LoadErrors: New page: Loading map: Ilumination.umap
+[2024.11.26-16.07.08:491][386]LogWorld: UWorld::CleanupWorld for TutorialScene, bSessionEnded=true, bCleanupResources=true
+[2024.11.26-16.07.08:492][386]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.26-16.07.08:492][386]MapCheck: New page: Map Check
+[2024.11.26-16.07.08:492][386]LightingResults: New page: Lighting Build
+[2024.11.26-16.07.08:504][386]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.11.26-16.07.08:512][386]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2024.11.26-16.07.08:515][386]LogWorld: UWorld::CleanupWorld for Ilumination, bSessionEnded=true, bCleanupResources=true
+[2024.11.26-16.07.08:516][386]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.26-16.07.08:529][386]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2024.11.26-16.07.08:538][386]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2024.11.26-16.07.08:552][386]LogAudio: Display: Audio Device (ID: 1) registered with world 'Ilumination'.
+[2024.11.26-16.07.08:552][386]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.26-16.07.08:553][386]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.26-16.07.08:553][386]LogAIModule: Creating AISystem for world Ilumination
+[2024.11.26-16.07.08:592][386]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.11.26-16.07.08:611][386]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2024.11.26-16.07.08:624][386]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.11.26-16.07.08:624][386]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,097ms to complete.
+[2024.11.26-16.07.16:710][487]Cmd: EDIT COPY
+[2024.11.26-16.07.16:938][490]Cmd: EDIT COPY
+[2024.11.26-16.07.17:166][493]Cmd: EDIT COPY
+[2024.11.26-16.07.21:591][550]Cmd: EDIT COPY
+[2024.11.26-16.07.21:891][554]Cmd: EDIT COPY
+[2024.11.26-16.07.22:116][557]Cmd: EDIT COPY
+[2024.11.26-16.07.22:340][560]Cmd: EDIT COPY
+[2024.11.26-16.07.22:340][560]LogConsoleManager: Warning: Performance warning: Many (31) failed FindConsoleObject() for 'EDIT'. 
+[2024.11.26-16.07.22:643][564]Cmd: EDIT COPY
+[2024.11.26-16.07.22:866][567]Cmd: EDIT COPY
+[2024.11.26-16.07.23:092][570]Cmd: EDIT COPY
+[2024.11.26-16.07.24:774][591]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2024.11.26-16.07.24:962][591]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.26-16.07.25:005][591]LogAssetEditorSubsystem: Opening Asset editor for World /Game/Levels/TutorialScene.TutorialScene
+[2024.11.26-16.07.25:005][591]Cmd: MAP LOAD FILE="../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Content/Levels/TutorialScene.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2024.11.26-16.07.25:005][591]LightingResults: New page: Lighting Build
+[2024.11.26-16.07.25:005][591]LoadErrors: New page: Loading map: TutorialScene.umap
+[2024.11.26-16.07.25:053][591]LogWorld: UWorld::CleanupWorld for Ilumination, bSessionEnded=true, bCleanupResources=true
+[2024.11.26-16.07.25:054][591]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.26-16.07.25:054][591]MapCheck: New page: Map Check
+[2024.11.26-16.07.25:054][591]LightingResults: New page: Lighting Build
+[2024.11.26-16.07.25:069][591]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.11.26-16.07.25:076][591]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2024.11.26-16.07.25:079][591]LogWorld: UWorld::CleanupWorld for TutorialScene, bSessionEnded=true, bCleanupResources=true
+[2024.11.26-16.07.25:080][591]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.26-16.07.25:094][591]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2024.11.26-16.07.25:102][591]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2024.11.26-16.07.25:118][591]LogAudio: Display: Audio Device (ID: 1) registered with world 'TutorialScene'.
+[2024.11.26-16.07.25:118][591]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.26-16.07.25:118][591]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.26-16.07.25:118][591]LogAIModule: Creating AISystem for world TutorialScene
+[2024.11.26-16.07.25:185][591]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.11.26-16.07.25:199][591]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2024.11.26-16.07.25:210][591]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.11.26-16.07.25:210][591]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,092ms to complete.
+[2024.11.26-16.07.28:342][638]Cmd: EDIT PASTE
+[2024.11.26-16.07.34:845][730]Cmd: TRANSACTION UNDO
+[2024.11.26-16.07.34:845][730]LogEditorTransaction: Undo Paste
+[2024.11.26-16.07.47:114][947]Cmd: DELETE
+[2024.11.26-16.07.47:114][947]Cmd: ACTOR DELETE
+[2024.11.26-16.07.47:124][947]LogEditorActor: Deleted Actor: PointLight
+[2024.11.26-16.07.47:124][947]LogEditorActor: Deleted Actor: PointLight
+[2024.11.26-16.07.47:125][947]LogEditorActor: Deleted Actor: PointLight
+[2024.11.26-16.07.47:125][947]LogEditorActor: Deleted Actor: PointLight
+[2024.11.26-16.07.47:126][947]LogEditorActor: Deleted Actor: PointLight
+[2024.11.26-16.07.47:126][947]LogEditorActor: Deleted Actor: PointLight
+[2024.11.26-16.07.47:127][947]LogEditorActor: Deleted Actor: PointLight
+[2024.11.26-16.07.47:127][947]LogEditorActor: Deleted Actor: PointLight
+[2024.11.26-16.07.47:127][947]LogEditorActor: Deleted Actor: PointLight
+[2024.11.26-16.07.47:128][947]LogEditorActor: Deleted Actor: PointLight
+[2024.11.26-16.07.47:128][947]LogEditorActor: Deleted Actor: PointLight
+[2024.11.26-16.07.47:129][947]LogEditorActor: Deleted Actor: PointLight
+[2024.11.26-16.07.47:129][947]LogEditorActor: Deleted Actor: PointLight
+[2024.11.26-16.07.47:129][947]LogEditorActor: Deleted Actor: PointLight
+[2024.11.26-16.07.47:130][947]LogEditorActor: Deleted Actor: PointLight
+[2024.11.26-16.07.47:130][947]LogEditorActor: Deleted Actor: PointLight
+[2024.11.26-16.07.47:131][947]LogEditorActor: Deleted Actor: PointLight
+[2024.11.26-16.07.47:131][947]LogEditorActor: Deleted Actor: PointLight
+[2024.11.26-16.07.47:131][947]LogEditorActor: Deleted Actor: PointLight
+[2024.11.26-16.07.47:132][947]LogEditorActor: Deleted Actor: PointLight
+[2024.11.26-16.07.47:132][947]LogEditorActor: Deleted Actor: PointLight
+[2024.11.26-16.07.47:133][947]LogEditorActor: Deleted Actor: PointLight
+[2024.11.26-16.07.47:133][947]LogEditorActor: Deleted Actor: PointLight
+[2024.11.26-16.07.47:133][947]LogEditorActor: Deleted Actor: PointLight
+[2024.11.26-16.07.47:134][947]LogEditorActor: Deleted Actor: PointLight
+[2024.11.26-16.07.47:134][947]LogEditorActor: Deleted Actor: PointLight
+[2024.11.26-16.07.47:135][947]LogEditorActor: Deleted Actor: PointLight
+[2024.11.26-16.07.47:135][947]LogEditorActor: Deleted Actor: PointLight
+[2024.11.26-16.07.47:135][947]LogEditorActor: Deleted Actor: PointLight
+[2024.11.26-16.07.47:136][947]LogEditorActor: Deleted Actor: PointLight
+[2024.11.26-16.07.47:136][947]LogEditorActor: Deleted Actor: PointLight
+[2024.11.26-16.07.47:137][947]LogEditorActor: Deleted Actor: PointLight
+[2024.11.26-16.07.47:137][947]LogEditorActor: Deleted Actor: PointLight
+[2024.11.26-16.07.47:137][947]LogEditorActor: Deleted Actor: PointLight
+[2024.11.26-16.07.47:138][947]LogEditorActor: Deleted Actor: PointLight
+[2024.11.26-16.07.47:138][947]LogEditorActor: Deleted Actor: PointLight
+[2024.11.26-16.07.47:139][947]LogEditorActor: Deleted Actor: PointLight
+[2024.11.26-16.07.47:139][947]LogEditorActor: Deleted Actor: PointLight
+[2024.11.26-16.07.47:139][947]LogEditorActor: Deleted Actor: PointLight
+[2024.11.26-16.07.47:140][947]LogEditorActor: Deleted Actor: PointLight
+[2024.11.26-16.07.47:140][947]LogEditorActor: Deleted Actor: PointLight
+[2024.11.26-16.07.47:141][947]LogEditorActor: Deleted Actor: PointLight
+[2024.11.26-16.07.47:141][947]LogEditorActor: Deleted Actor: PointLight
+[2024.11.26-16.07.47:168][947]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2024.11.26-16.07.47:171][947]LogEditorActor: Deleted 43 Actors (0.057 secs)
+[2024.11.26-16.07.54:362][192]Cmd: EDIT PASTE
+[2024.11.26-16.08.14:083][718]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.26-16.08.14:192][718]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2024.11.26-16.08.14:242][718]LogSavePackage: Moving output files for package: /Game/Levels/TutorialScene
+[2024.11.26-16.08.14:243][718]LogSavePackage: Moving '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Saved/TutorialSceneB22AA1094E7A091832D8B084E000126B.tmp' to '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Content/Levels/TutorialScene.umap'
+[2024.11.26-16.08.14:254][718]LogFileHelpers: Saving map 'TutorialScene' took 0.120
+[2024.11.26-16.08.14:260][718]LogFileHelpers: InternalPromptForCheckoutAndSave took 176 ms (total: 43.4 sec)
+[2024.11.26-16.08.14:262][718]AssetCheck: New page: Asset Save: TutorialScene
+[2024.11.26-16.08.14:262][718]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/TutorialScene.TutorialScene
+[2024.11.26-16.08.19:044][814]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.26-16.08.19:154][814]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2024.11.26-16.08.19:202][814]LogSavePackage: Moving output files for package: /Game/Levels/TutorialScene
+[2024.11.26-16.08.19:203][814]LogSavePackage: Moving '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Saved/TutorialSceneD5E66C764290EE14B69AA6821C6147DD.tmp' to '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Content/Levels/TutorialScene.umap'
+[2024.11.26-16.08.19:215][814]LogFileHelpers: Saving map 'TutorialScene' took 0.116
+[2024.11.26-16.08.19:225][814]LogFileHelpers: InternalPromptForCheckoutAndSave took 181 ms (total: 43.6 sec)
+[2024.11.26-16.08.19:228][814]AssetCheck: New page: Asset Save: TutorialScene
+[2024.11.26-16.08.19:228][814]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/TutorialScene.TutorialScene
+[2024.11.26-16.08.31:835][ 98]Cmd: TRANSACTION UNDO
+[2024.11.26-16.08.31:835][ 98]LogEditorTransaction: Undo Edit Soft Source Radius
+[2024.11.26-16.09.00:059][716]Cmd: DUPLICATE
+[2024.11.26-16.09.00:059][716]Cmd: ACTOR DUPLICATE
+[2024.11.26-16.09.12:391][972]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.26-16.09.12:630][972]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2024.11.26-16.09.12:679][972]LogSavePackage: Moving output files for package: /Game/Levels/TutorialScene
+[2024.11.26-16.09.12:679][972]LogSavePackage: Moving '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Saved/TutorialScene59EE792949329BA17B4B74A1421F4381.tmp' to '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Content/Levels/TutorialScene.umap'
+[2024.11.26-16.09.12:692][972]LogFileHelpers: Saving map 'TutorialScene' took 0.124
+[2024.11.26-16.09.12:698][972]LogFileHelpers: InternalPromptForCheckoutAndSave took 306 ms (total: 43.9 sec)
+[2024.11.26-16.09.12:700][972]AssetCheck: New page: Asset Save: TutorialScene
+[2024.11.26-16.09.12:700][972]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/TutorialScene.TutorialScene
+[2024.11.26-16.09.38:765][521]Cmd: TRANSACTION UNDO
+[2024.11.26-16.09.38:765][521]LogEditorTransaction: Undo Move Elements
+[2024.11.26-16.09.40:820][559]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.26-16.09.41:010][559]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2024.11.26-16.09.41:058][559]LogSavePackage: Moving output files for package: /Game/Levels/TutorialScene
+[2024.11.26-16.09.41:059][559]LogSavePackage: Moving '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Saved/TutorialScene2EFE9DCB4DBE119039D68291FEB7E86D.tmp' to '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Content/Levels/TutorialScene.umap'
+[2024.11.26-16.09.41:071][559]LogFileHelpers: Saving map 'TutorialScene' took 0.119
+[2024.11.26-16.09.41:082][559]LogFileHelpers: InternalPromptForCheckoutAndSave took 262 ms (total: 44.2 sec)
+[2024.11.26-16.09.41:084][559]AssetCheck: New page: Asset Save: TutorialScene
+[2024.11.26-16.09.41:084][559]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/TutorialScene.TutorialScene
+[2024.11.26-16.09.45:100][649]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.26-16.09.45:318][649]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2024.11.26-16.09.45:366][649]LogSavePackage: Moving output files for package: /Game/Levels/TutorialScene
+[2024.11.26-16.09.45:366][649]LogSavePackage: Moving '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Saved/TutorialScene251CD6C54AC8EBC438995FAB42802A8E.tmp' to '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Content/Levels/TutorialScene.umap'
+[2024.11.26-16.09.45:377][649]LogFileHelpers: Saving map 'TutorialScene' took 0.111
+[2024.11.26-16.09.45:382][649]LogFileHelpers: InternalPromptForCheckoutAndSave took 282 ms (total: 44.4 sec)
+[2024.11.26-16.09.45:384][649]AssetCheck: New page: Asset Save: TutorialScene
+[2024.11.26-16.09.45:384][649]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/TutorialScene.TutorialScene
+[2024.11.26-16.09.59:108][941]Cmd: DUPLICATE
+[2024.11.26-16.09.59:108][941]Cmd: ACTOR DUPLICATE
+[2024.11.26-16.10.03:606][ 21]Cmd: TRANSACTION UNDO
+[2024.11.26-16.10.03:606][ 21]LogEditorTransaction: Undo Move Elements
+[2024.11.26-16.10.05:251][ 44]Cmd: TRANSACTION UNDO
+[2024.11.26-16.10.05:251][ 44]LogEditorTransaction: Undo Duplicate Elements
+[2024.11.26-16.10.06:515][ 64]Cmd: TRANSACTION UNDO
+[2024.11.26-16.10.06:515][ 64]LogEditorTransaction: Undo Move Elements
+[2024.11.26-16.10.27:066][521]Cmd: TRANSACTION UNDO
+[2024.11.26-16.10.27:066][521]LogEditorTransaction: Undo Clicking on Elements
+[2024.11.26-16.10.28:060][537]Cmd: TRANSACTION UNDO
+[2024.11.26-16.10.28:060][537]LogEditorTransaction: Undo Clicking on Elements
+[2024.11.26-16.10.28:754][548]Cmd: TRANSACTION UNDO
+[2024.11.26-16.10.28:754][548]LogEditorTransaction: Undo Edit Source Width
+[2024.11.26-16.10.30:865][592]Cmd: TRANSACTION UNDO
+[2024.11.26-16.10.30:866][592]LogEditorTransaction: Undo Edit Source Width
+[2024.11.26-16.11.00:295][260]Cmd: TRANSACTION UNDO
+[2024.11.26-16.11.00:295][260]LogEditorTransaction: Undo Edit Source Width
+[2024.11.26-16.11.20:445][699]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.26-16.11.20:556][699]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2024.11.26-16.11.20:603][699]LogSavePackage: Moving output files for package: /Game/Levels/TutorialScene
+[2024.11.26-16.11.20:604][699]LogSavePackage: Moving '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Saved/TutorialScene7F324FDE4D81DE191E36AB8F2172307A.tmp' to '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Content/Levels/TutorialScene.umap'
+[2024.11.26-16.11.20:615][699]LogFileHelpers: Saving map 'TutorialScene' took 0.118
+[2024.11.26-16.11.20:625][699]LogFileHelpers: InternalPromptForCheckoutAndSave took 179 ms (total: 44.6 sec)
+[2024.11.26-16.11.20:628][699]AssetCheck: New page: Asset Save: TutorialScene
+[2024.11.26-16.11.20:628][699]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/TutorialScene.TutorialScene
+[2024.11.26-16.11.21:685][723]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.26-16.11.21:697][723]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.26-16.11.21:697][723]PIE: New page: PIE session: TutorialScene (26 de nov de 2024 10:11:21)
+[2024.11.26-16.11.21:697][723]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TutorialScene
+[2024.11.26-16.11.21:711][723]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014214s)
+[2024.11.26-16.11.21:712][723]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TutorialScene.TutorialScene to /Game/Levels/UEDPIE_0_TutorialScene.TutorialScene (0.014251s)
+[2024.11.26-16.11.21:719][723]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2024.11.26-16.11.21:720][723]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.26-16.11.21:721][723]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.26-16.11.21:721][723]LogAIModule: Creating AISystem for world TutorialScene
+[2024.11.26-16.11.21:721][723]LogPlayLevel: PIE: World Init took: (0.000811s)
+[2024.11.26-16.11.21:721][723]LogAudio: Display: Creating Audio Device:                 Id: 42, Scope: Unique, Realtime: True
+[2024.11.26-16.11.21:721][723]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.26-16.11.21:721][723]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.26-16.11.21:721][723]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.26-16.11.21:721][723]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.26-16.11.21:721][723]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.26-16.11.21:721][723]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.26-16.11.21:721][723]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.26-16.11.21:721][723]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.26-16.11.21:722][723]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.26-16.11.21:722][723]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.26-16.11.21:722][723]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.26-16.11.21:723][723]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.26-16.11.21:731][723]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (Realtek(R) Audio)
+[2024.11.26-16.11.21:731][723]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.26-16.11.21:731][723]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.26-16.11.21:731][723]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.26-16.11.21:732][723]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=42
+[2024.11.26-16.11.21:732][723]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=42
+[2024.11.26-16.11.21:733][723]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=42
+[2024.11.26-16.11.21:733][723]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=42
+[2024.11.26-16.11.21:733][723]LogInit: FAudioDevice initialized with ID 42.
+[2024.11.26-16.11.21:733][723]LogAudio: Display: Audio Device (ID: 42) registered with world 'TutorialScene'.
+[2024.11.26-16.11.21:733][723]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 42
+[2024.11.26-16.11.21:735][723]LogLoad: Game class is 'MyGameGamemode_C'
+[2024.11.26-16.11.21:743][723]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BP_DayCicleController". Node:  Result Graph:  Transition Function:  Execute Ubergraph BPA Open Close Blueprint:  BPA_OpenClose
+[2024.11.26-16.11.21:744][723]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TutorialScene.TutorialScene up for play (max tick rate 0) at 2024.11.26-13.11.21
+[2024.11.26-16.11.21:745][723]LogWorld: Bringing up level for play took: 0.009507
+[2024.11.26-16.11.21:748][723]LogOnline: OSS: Created online subsystem instance for: :Context_55
+[2024.11.26-16.11.21:748][723]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.26-16.11.21:748][723]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.26-16.11.21:748][723]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.11.26-16.11.21:760][723]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.11.26-16.11.21:761][723]PIE: Server logged in
+[2024.11.26-16.11.21:761][723]PIE: Play in editor total start time 0,064 seconds.
+[2024.11.26-16.11.26:900][858]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.26-16.11.26:900][858]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TutorialScene
+[2024.11.26-16.11.26:902][858]LogWorld: UWorld::CleanupWorld for TutorialScene, bSessionEnded=true, bCleanupResources=true
+[2024.11.26-16.11.26:904][858]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.26-16.11.26:931][858]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.26-16.11.26:935][858]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.26-16.11.26:944][858]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.26-16.11.26:946][858]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 42
+[2024.11.26-16.11.26:946][858]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=42
+[2024.11.26-16.11.26:947][858]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=42
+[2024.11.26-16.11.26:955][858]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2024.11.26-16.11.27:171][859]LogPlayLevel: Display: Destroying online subsystem :Context_55
+[2024.11.26-16.11.28:232][882]LogSlate: Window 'Message Log' being destroyed
+[2024.11.26-16.11.28:278][882]LogSlate: Window 'Message Log' being destroyed
+[2024.11.26-16.11.29:998][923]Cmd: TRANSACTION UNDO
+[2024.11.26-16.11.29:998][923]LogEditorTransaction: Undo Move Elements
+[2024.11.26-16.11.30:862][935]Cmd: TRANSACTION UNDO
+[2024.11.26-16.11.30:862][935]LogEditorTransaction: Undo Edit Source Height
+[2024.11.26-16.11.34:504][ 11]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.26-16.11.34:697][ 11]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2024.11.26-16.11.34:744][ 11]LogSavePackage: Moving output files for package: /Game/Levels/TutorialScene
+[2024.11.26-16.11.34:744][ 11]LogSavePackage: Moving '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Saved/TutorialScene98590F604717D7B6ED337590EF7A66B2.tmp' to '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Content/Levels/TutorialScene.umap'
+[2024.11.26-16.11.34:756][ 11]LogFileHelpers: Saving map 'TutorialScene' took 0.119
+[2024.11.26-16.11.34:762][ 11]LogFileHelpers: InternalPromptForCheckoutAndSave took 256 ms (total: 44.9 sec)
+[2024.11.26-16.11.34:764][ 11]AssetCheck: New page: Asset Save: TutorialScene
+[2024.11.26-16.11.34:764][ 11]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/TutorialScene.TutorialScene
+[2024.11.26-16.11.36:013][ 39]Cmd: DUPLICATE
+[2024.11.26-16.11.36:013][ 39]Cmd: ACTOR DUPLICATE
+[2024.11.26-16.11.44:769][202]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.26-16.11.44:877][202]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2024.11.26-16.11.44:927][202]LogSavePackage: Moving output files for package: /Game/Levels/TutorialScene
+[2024.11.26-16.11.44:927][202]LogSavePackage: Moving '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Saved/TutorialScene78EB03EE4758CBB7286079A1E39C3BCE.tmp' to '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Content/Levels/TutorialScene.umap'
+[2024.11.26-16.11.44:939][202]LogFileHelpers: Saving map 'TutorialScene' took 0.121
+[2024.11.26-16.11.44:945][202]LogFileHelpers: InternalPromptForCheckoutAndSave took 175 ms (total: 45.0 sec)
+[2024.11.26-16.11.44:947][202]AssetCheck: New page: Asset Save: TutorialScene
+[2024.11.26-16.11.44:947][202]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/TutorialScene.TutorialScene
+[2024.11.26-16.11.45:629][223]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.26-16.11.45:646][223]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.26-16.11.45:646][223]PIE: New page: PIE session: TutorialScene (26 de nov de 2024 10:11:45)
+[2024.11.26-16.11.45:646][223]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TutorialScene
+[2024.11.26-16.11.45:660][223]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014321s)
+[2024.11.26-16.11.45:661][223]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TutorialScene.TutorialScene to /Game/Levels/UEDPIE_0_TutorialScene.TutorialScene (0.014354s)
+[2024.11.26-16.11.45:669][223]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2024.11.26-16.11.45:670][223]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.26-16.11.45:670][223]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.26-16.11.45:670][223]LogAIModule: Creating AISystem for world TutorialScene
+[2024.11.26-16.11.45:670][223]LogPlayLevel: PIE: World Init took: (0.000811s)
+[2024.11.26-16.11.45:670][223]LogAudio: Display: Creating Audio Device:                 Id: 43, Scope: Unique, Realtime: True
+[2024.11.26-16.11.45:670][223]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.26-16.11.45:670][223]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.26-16.11.45:670][223]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.26-16.11.45:670][223]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.26-16.11.45:670][223]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.26-16.11.45:670][223]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.26-16.11.45:670][223]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.26-16.11.45:670][223]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.26-16.11.45:671][223]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.26-16.11.45:671][223]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.26-16.11.45:671][223]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.26-16.11.45:672][223]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.26-16.11.45:679][223]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (Realtek(R) Audio)
+[2024.11.26-16.11.45:679][223]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.26-16.11.45:679][223]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.26-16.11.45:679][223]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.26-16.11.45:680][223]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=43
+[2024.11.26-16.11.45:680][223]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=43
+[2024.11.26-16.11.45:681][223]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=43
+[2024.11.26-16.11.45:681][223]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=43
+[2024.11.26-16.11.45:681][223]LogInit: FAudioDevice initialized with ID 43.
+[2024.11.26-16.11.45:681][223]LogAudio: Display: Audio Device (ID: 43) registered with world 'TutorialScene'.
+[2024.11.26-16.11.45:681][223]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 43
+[2024.11.26-16.11.45:684][223]LogLoad: Game class is 'MyGameGamemode_C'
+[2024.11.26-16.11.45:691][223]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BP_DayCicleController". Node:  Result Graph:  Transition Function:  Execute Ubergraph BPA Open Close Blueprint:  BPA_OpenClose
+[2024.11.26-16.11.45:692][223]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TutorialScene.TutorialScene up for play (max tick rate 0) at 2024.11.26-13.11.45
+[2024.11.26-16.11.45:693][223]LogWorld: Bringing up level for play took: 0.009164
+[2024.11.26-16.11.45:695][223]LogOnline: OSS: Created online subsystem instance for: :Context_56
+[2024.11.26-16.11.45:696][223]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.26-16.11.45:696][223]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.26-16.11.45:696][223]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.11.26-16.11.45:708][223]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.11.26-16.11.45:708][223]PIE: Server logged in
+[2024.11.26-16.11.45:709][223]PIE: Play in editor total start time 0,063 seconds.
+[2024.11.26-16.11.50:041][325]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.26-16.11.50:041][325]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TutorialScene
+[2024.11.26-16.11.50:043][325]LogWorld: UWorld::CleanupWorld for TutorialScene, bSessionEnded=true, bCleanupResources=true
+[2024.11.26-16.11.50:044][325]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.26-16.11.50:108][325]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.26-16.11.50:112][325]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.26-16.11.50:120][325]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.11.26-16.11.50:122][325]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 43
+[2024.11.26-16.11.50:122][325]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=43
+[2024.11.26-16.11.50:123][325]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=43
+[2024.11.26-16.11.50:126][325]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.26-16.11.50:132][325]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2024.11.26-16.11.50:353][326]LogPlayLevel: Display: Destroying online subsystem :Context_56
+[2024.11.26-16.11.51:601][345]LogSlate: Window 'Message Log' being destroyed
+[2024.11.26-16.11.51:674][345]LogSlate: Window 'Message Log' being destroyed
+[2024.11.26-16.11.52:651][364]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.26-16.11.52:860][364]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2024.11.26-16.11.52:909][364]LogSavePackage: Moving output files for package: /Game/Levels/TutorialScene
+[2024.11.26-16.11.52:909][364]LogSavePackage: Moving '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Saved/TutorialScene8DCEA31147E6A08FD77B06A7F8930EAF.tmp' to '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Content/Levels/TutorialScene.umap'
+[2024.11.26-16.11.52:921][364]LogFileHelpers: Saving map 'TutorialScene' took 0.117
+[2024.11.26-16.11.52:933][364]LogFileHelpers: InternalPromptForCheckoutAndSave took 281 ms (total: 45.3 sec)
+[2024.11.26-16.11.52:935][364]AssetCheck: New page: Asset Save: TutorialScene
+[2024.11.26-16.11.52:935][364]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/TutorialScene.TutorialScene
+[2024.11.26-16.12.03:688][564]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.26-16.12.03:872][564]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2024.11.26-16.12.03:921][564]LogSavePackage: Moving output files for package: /Game/Levels/TutorialScene
+[2024.11.26-16.12.03:921][564]LogSavePackage: Moving '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Saved/TutorialSceneD9BA2B8C40AFA7BA0EF43CB9CFEEF788.tmp' to '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Content/Levels/TutorialScene.umap'
+[2024.11.26-16.12.03:933][564]LogFileHelpers: Saving map 'TutorialScene' took 0.115
+[2024.11.26-16.12.03:943][564]LogFileHelpers: InternalPromptForCheckoutAndSave took 255 ms (total: 45.6 sec)
+[2024.11.26-16.12.03:945][564]AssetCheck: New page: Asset Save: TutorialScene
+[2024.11.26-16.12.03:945][564]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/TutorialScene.TutorialScene
+[2024.11.26-16.12.16:856][815]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.26-16.12.17:087][815]LogUObjectHash: Compacting FUObjectHashTables data took   0.42ms
+[2024.11.26-16.12.17:136][815]LogSavePackage: Moving output files for package: /Game/Levels/TutorialScene
+[2024.11.26-16.12.17:136][815]LogSavePackage: Moving '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Saved/TutorialSceneFDD76A1F492F295B2B19F08383299695.tmp' to '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Content/Levels/TutorialScene.umap'
+[2024.11.26-16.12.17:149][815]LogFileHelpers: Saving map 'TutorialScene' took 0.116
+[2024.11.26-16.12.17:154][815]LogFileHelpers: InternalPromptForCheckoutAndSave took 298 ms (total: 45.9 sec)
+[2024.11.26-16.12.17:156][815]AssetCheck: New page: Asset Save: TutorialScene
+[2024.11.26-16.12.17:156][815]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/TutorialScene.TutorialScene
+[2024.11.26-16.12.31:969][ 97]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.26-16.12.32:189][ 97]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2024.11.26-16.12.32:240][ 97]LogSavePackage: Moving output files for package: /Game/Levels/TutorialScene
+[2024.11.26-16.12.32:240][ 97]LogSavePackage: Moving '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Saved/TutorialScene172EEC934C2DA9C2758894BB97D17840.tmp' to '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Content/Levels/TutorialScene.umap'
+[2024.11.26-16.12.32:252][ 97]LogFileHelpers: Saving map 'TutorialScene' took 0.117
+[2024.11.26-16.12.32:261][ 97]LogFileHelpers: InternalPromptForCheckoutAndSave took 292 ms (total: 46.2 sec)
+[2024.11.26-16.12.32:263][ 97]AssetCheck: New page: Asset Save: TutorialScene
+[2024.11.26-16.12.32:263][ 97]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/TutorialScene.TutorialScene
+[2024.11.26-16.12.36:976][192]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.26-16.12.37:227][192]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2024.11.26-16.12.37:276][192]LogSavePackage: Moving output files for package: /Game/Levels/TutorialScene
+[2024.11.26-16.12.37:276][192]LogSavePackage: Moving '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Saved/TutorialScene3BAF335F461B215DD6CB99B622E2889D.tmp' to '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Content/Levels/TutorialScene.umap'
+[2024.11.26-16.12.37:288][192]LogFileHelpers: Saving map 'TutorialScene' took 0.119
+[2024.11.26-16.12.37:293][192]LogFileHelpers: InternalPromptForCheckoutAndSave took 316 ms (total: 46.5 sec)
+[2024.11.26-16.12.37:295][192]AssetCheck: New page: Asset Save: TutorialScene
+[2024.11.26-16.12.37:295][192]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/TutorialScene.TutorialScene
+[2024.11.26-16.12.37:808][205]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.26-16.12.37:829][205]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.26-16.12.37:829][205]PIE: New page: PIE session: TutorialScene (26 de nov de 2024 10:12:37)
+[2024.11.26-16.12.37:829][205]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TutorialScene
+[2024.11.26-16.12.37:843][205]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014071s)
+[2024.11.26-16.12.37:843][205]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TutorialScene.TutorialScene to /Game/Levels/UEDPIE_0_TutorialScene.TutorialScene (0.014104s)
+[2024.11.26-16.12.37:851][205]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2024.11.26-16.12.37:852][205]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.26-16.12.37:852][205]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.26-16.12.37:853][205]LogAIModule: Creating AISystem for world TutorialScene
+[2024.11.26-16.12.37:853][205]LogPlayLevel: PIE: World Init took: (0.000722s)
+[2024.11.26-16.12.37:853][205]LogAudio: Display: Creating Audio Device:                 Id: 44, Scope: Unique, Realtime: True
+[2024.11.26-16.12.37:853][205]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.26-16.12.37:853][205]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.26-16.12.37:853][205]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.26-16.12.37:853][205]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.26-16.12.37:853][205]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.26-16.12.37:853][205]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.26-16.12.37:853][205]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.26-16.12.37:853][205]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.26-16.12.37:854][205]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.26-16.12.37:854][205]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.26-16.12.37:854][205]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.26-16.12.37:855][205]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.26-16.12.37:862][205]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (Realtek(R) Audio)
+[2024.11.26-16.12.37:862][205]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.26-16.12.37:862][205]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.26-16.12.37:862][205]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.26-16.12.37:862][205]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=44
+[2024.11.26-16.12.37:863][205]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=44
+[2024.11.26-16.12.37:864][205]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=44
+[2024.11.26-16.12.37:864][205]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=44
+[2024.11.26-16.12.37:864][205]LogInit: FAudioDevice initialized with ID 44.
+[2024.11.26-16.12.37:864][205]LogAudio: Display: Audio Device (ID: 44) registered with world 'TutorialScene'.
+[2024.11.26-16.12.37:864][205]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 44
+[2024.11.26-16.12.37:869][205]LogLoad: Game class is 'MyGameGamemode_C'
+[2024.11.26-16.12.37:877][205]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BP_DayCicleController". Node:  Result Graph:  Transition Function:  Execute Ubergraph BPA Open Close Blueprint:  BPA_OpenClose
+[2024.11.26-16.12.37:878][205]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TutorialScene.TutorialScene up for play (max tick rate 0) at 2024.11.26-13.12.37
+[2024.11.26-16.12.37:879][205]LogWorld: Bringing up level for play took: 0.009103
+[2024.11.26-16.12.37:881][205]LogOnline: OSS: Created online subsystem instance for: :Context_57
+[2024.11.26-16.12.37:881][205]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.26-16.12.37:881][205]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.26-16.12.37:881][205]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.11.26-16.12.37:893][205]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.11.26-16.12.37:893][205]PIE: Server logged in
+[2024.11.26-16.12.37:894][205]PIE: Play in editor total start time 0,065 seconds.
+[2024.11.26-16.12.52:951][698]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.26-16.12.52:951][698]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TutorialScene
+[2024.11.26-16.12.52:953][698]LogWorld: UWorld::CleanupWorld for TutorialScene, bSessionEnded=true, bCleanupResources=true
+[2024.11.26-16.12.52:954][698]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.26-16.12.52:972][698]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.26-16.12.52:976][698]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.26-16.12.52:984][698]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.26-16.12.52:985][698]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 44
+[2024.11.26-16.12.52:985][698]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=44
+[2024.11.26-16.12.52:987][698]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=44
+[2024.11.26-16.12.52:997][698]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2024.11.26-16.12.53:188][699]LogPlayLevel: Display: Destroying online subsystem :Context_57
+[2024.11.26-16.12.54:234][729]LogSlate: Window 'Message Log' being destroyed
+[2024.11.26-16.12.54:270][729]LogSlate: Window 'Message Log' being destroyed
+[2024.11.26-16.12.55:007][753]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.26-16.12.55:157][753]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2024.11.26-16.12.55:205][753]LogSavePackage: Moving output files for package: /Game/Levels/TutorialScene
+[2024.11.26-16.12.55:205][753]LogSavePackage: Moving '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Saved/TutorialSceneE9F0340B4E5084A7A49A1BBFA8826F5C.tmp' to '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Content/Levels/TutorialScene.umap'
+[2024.11.26-16.12.55:217][753]LogFileHelpers: Saving map 'TutorialScene' took 0.114
+[2024.11.26-16.12.55:227][753]LogFileHelpers: InternalPromptForCheckoutAndSave took 220 ms (total: 46.7 sec)
+[2024.11.26-16.12.55:230][753]AssetCheck: New page: Asset Save: TutorialScene
+[2024.11.26-16.12.55:230][753]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/TutorialScene.TutorialScene
+[2024.11.26-16.12.57:338][817]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2024.11.26-16.13.16:276][163]Cmd: DUPLICATE
+[2024.11.26-16.13.16:276][163]Cmd: ACTOR DUPLICATE
+[2024.11.26-16.14.28:188][354]Cmd: TRANSACTION UNDO
+[2024.11.26-16.14.28:188][354]LogEditorTransaction: Undo Edit Source Width
+[2024.11.26-16.15.09:953][ 60]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.26-16.15.10:057][ 60]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2024.11.26-16.15.10:107][ 60]LogSavePackage: Moving output files for package: /Game/Levels/TutorialScene
+[2024.11.26-16.15.10:107][ 60]LogSavePackage: Moving '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Saved/TutorialScene480D6FE64236F11F90607C95C7B32446.tmp' to '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Content/Levels/TutorialScene.umap'
+[2024.11.26-16.15.10:119][ 60]LogFileHelpers: Saving map 'TutorialScene' took 0.120
+[2024.11.26-16.15.10:131][ 60]LogFileHelpers: InternalPromptForCheckoutAndSave took 176 ms (total: 46.9 sec)
+[2024.11.26-16.15.10:134][ 60]AssetCheck: New page: Asset Save: TutorialScene
+[2024.11.26-16.15.10:134][ 60]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/TutorialScene.TutorialScene
+[2024.11.26-16.15.10:786][ 72]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.26-16.15.10:805][ 72]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.26-16.15.10:805][ 72]PIE: New page: PIE session: TutorialScene (26 de nov de 2024 10:15:10)
+[2024.11.26-16.15.10:805][ 72]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TutorialScene
+[2024.11.26-16.15.10:820][ 72]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015116s)
+[2024.11.26-16.15.10:820][ 72]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TutorialScene.TutorialScene to /Game/Levels/UEDPIE_0_TutorialScene.TutorialScene (0.015164s)
+[2024.11.26-16.15.10:833][ 72]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2024.11.26-16.15.10:834][ 72]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.26-16.15.10:834][ 72]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.26-16.15.10:834][ 72]LogAIModule: Creating AISystem for world TutorialScene
+[2024.11.26-16.15.10:834][ 72]LogPlayLevel: PIE: World Init took: (0.000738s)
+[2024.11.26-16.15.10:834][ 72]LogAudio: Display: Creating Audio Device:                 Id: 45, Scope: Unique, Realtime: True
+[2024.11.26-16.15.10:834][ 72]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.26-16.15.10:834][ 72]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.26-16.15.10:834][ 72]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.26-16.15.10:834][ 72]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.26-16.15.10:834][ 72]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.26-16.15.10:834][ 72]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.26-16.15.10:834][ 72]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.26-16.15.10:834][ 72]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.26-16.15.10:835][ 72]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.26-16.15.10:835][ 72]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.26-16.15.10:835][ 72]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.26-16.15.10:836][ 72]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.26-16.15.10:843][ 72]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (Realtek(R) Audio)
+[2024.11.26-16.15.10:843][ 72]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.26-16.15.10:843][ 72]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.26-16.15.10:843][ 72]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.26-16.15.10:844][ 72]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=45
+[2024.11.26-16.15.10:844][ 72]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=45
+[2024.11.26-16.15.10:845][ 72]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=45
+[2024.11.26-16.15.10:845][ 72]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=45
+[2024.11.26-16.15.10:845][ 72]LogInit: FAudioDevice initialized with ID 45.
+[2024.11.26-16.15.10:845][ 72]LogAudio: Display: Audio Device (ID: 45) registered with world 'TutorialScene'.
+[2024.11.26-16.15.10:845][ 72]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 45
+[2024.11.26-16.15.10:854][ 72]LogLoad: Game class is 'MyGameGamemode_C'
+[2024.11.26-16.15.10:862][ 72]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BP_DayCicleController". Node:  Result Graph:  Transition Function:  Execute Ubergraph BPA Open Close Blueprint:  BPA_OpenClose
+[2024.11.26-16.15.10:863][ 72]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TutorialScene.TutorialScene up for play (max tick rate 0) at 2024.11.26-13.15.10
+[2024.11.26-16.15.10:864][ 72]LogWorld: Bringing up level for play took: 0.009133
+[2024.11.26-16.15.10:866][ 72]LogOnline: OSS: Created online subsystem instance for: :Context_58
+[2024.11.26-16.15.10:867][ 72]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.26-16.15.10:867][ 72]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.26-16.15.10:867][ 72]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.11.26-16.15.10:878][ 72]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.11.26-16.15.10:879][ 72]PIE: Server logged in
+[2024.11.26-16.15.10:879][ 72]PIE: Play in editor total start time 0,075 seconds.
+[2024.11.26-16.15.15:942][173]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.26-16.15.15:942][173]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TutorialScene
+[2024.11.26-16.15.15:944][173]LogWorld: UWorld::CleanupWorld for TutorialScene, bSessionEnded=true, bCleanupResources=true
+[2024.11.26-16.15.15:945][173]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.26-16.15.16:012][173]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.26-16.15.16:017][173]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.26-16.15.16:026][173]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.26-16.15.16:028][173]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 45
+[2024.11.26-16.15.16:028][173]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=45
+[2024.11.26-16.15.16:029][173]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=45
+[2024.11.26-16.15.16:038][173]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2024.11.26-16.15.16:270][174]LogPlayLevel: Display: Destroying online subsystem :Context_58
+[2024.11.26-16.15.17:496][195]LogSlate: Window 'Message Log' being destroyed
+[2024.11.26-16.15.17:557][195]LogSlate: Window 'Message Log' being destroyed
+[2024.11.26-16.15.18:328][207]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.26-16.15.18:440][207]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2024.11.26-16.15.18:490][207]LogSavePackage: Moving output files for package: /Game/Levels/TutorialScene
+[2024.11.26-16.15.18:491][207]LogSavePackage: Moving '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Saved/TutorialSceneE13AD0BB46ACDA0BD4BC888E31707462.tmp' to '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Content/Levels/TutorialScene.umap'
+[2024.11.26-16.15.18:502][207]LogFileHelpers: Saving map 'TutorialScene' took 0.117
+[2024.11.26-16.15.18:508][207]LogFileHelpers: InternalPromptForCheckoutAndSave took 180 ms (total: 47.1 sec)
+[2024.11.26-16.15.18:510][207]AssetCheck: New page: Asset Save: TutorialScene
+[2024.11.26-16.15.18:510][207]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/TutorialScene.TutorialScene
+[2024.11.26-16.16.06:776][ 10]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.26-16.16.06:893][ 10]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2024.11.26-16.16.06:944][ 10]LogSavePackage: Moving output files for package: /Game/Levels/TutorialScene
+[2024.11.26-16.16.06:945][ 10]LogSavePackage: Moving '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Saved/TutorialScene88851A2047525F236133E0AFF4AC2F92.tmp' to '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Content/Levels/TutorialScene.umap'
+[2024.11.26-16.16.06:956][ 10]LogFileHelpers: Saving map 'TutorialScene' took 0.125
+[2024.11.26-16.16.06:966][ 10]LogFileHelpers: InternalPromptForCheckoutAndSave took 190 ms (total: 47.3 sec)
+[2024.11.26-16.16.06:968][ 10]AssetCheck: New page: Asset Save: TutorialScene
+[2024.11.26-16.16.06:968][ 10]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/TutorialScene.TutorialScene
+[2024.11.26-16.16.19:417][219]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.26-16.16.19:694][219]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2024.11.26-16.16.19:743][219]LogSavePackage: Moving output files for package: /Game/Levels/TutorialScene
+[2024.11.26-16.16.19:743][219]LogSavePackage: Moving '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Saved/TutorialScene783F2F0C46B5A3CB42D2F1BD7601B436.tmp' to '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Content/Levels/TutorialScene.umap'
+[2024.11.26-16.16.19:755][219]LogFileHelpers: Saving map 'TutorialScene' took 0.122
+[2024.11.26-16.16.19:761][219]LogFileHelpers: InternalPromptForCheckoutAndSave took 343 ms (total: 47.6 sec)
+[2024.11.26-16.16.19:763][219]AssetCheck: New page: Asset Save: TutorialScene
+[2024.11.26-16.16.19:763][219]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/TutorialScene.TutorialScene
+[2024.11.26-16.16.21:281][244]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.26-16.16.21:300][244]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.26-16.16.21:300][244]PIE: New page: PIE session: TutorialScene (26 de nov de 2024 10:16:21)
+[2024.11.26-16.16.21:301][244]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TutorialScene
+[2024.11.26-16.16.21:315][244]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014455s)
+[2024.11.26-16.16.21:315][244]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TutorialScene.TutorialScene to /Game/Levels/UEDPIE_0_TutorialScene.TutorialScene (0.014489s)
+[2024.11.26-16.16.21:323][244]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2024.11.26-16.16.21:324][244]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.26-16.16.21:324][244]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.26-16.16.21:324][244]LogAIModule: Creating AISystem for world TutorialScene
+[2024.11.26-16.16.21:325][244]LogPlayLevel: PIE: World Init took: (0.000824s)
+[2024.11.26-16.16.21:325][244]LogAudio: Display: Creating Audio Device:                 Id: 46, Scope: Unique, Realtime: True
+[2024.11.26-16.16.21:325][244]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.26-16.16.21:325][244]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.26-16.16.21:325][244]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.26-16.16.21:325][244]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.26-16.16.21:325][244]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.26-16.16.21:325][244]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.26-16.16.21:325][244]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.26-16.16.21:325][244]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.26-16.16.21:325][244]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.26-16.16.21:325][244]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.26-16.16.21:325][244]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.26-16.16.21:327][244]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.26-16.16.21:334][244]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (Realtek(R) Audio)
+[2024.11.26-16.16.21:334][244]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.26-16.16.21:334][244]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.26-16.16.21:335][244]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.26-16.16.21:335][244]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=46
+[2024.11.26-16.16.21:335][244]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=46
+[2024.11.26-16.16.21:336][244]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=46
+[2024.11.26-16.16.21:336][244]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=46
+[2024.11.26-16.16.21:336][244]LogInit: FAudioDevice initialized with ID 46.
+[2024.11.26-16.16.21:336][244]LogAudio: Display: Audio Device (ID: 46) registered with world 'TutorialScene'.
+[2024.11.26-16.16.21:336][244]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 46
+[2024.11.26-16.16.21:351][244]LogLoad: Game class is 'MyGameGamemode_C'
+[2024.11.26-16.16.21:359][244]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BP_DayCicleController". Node:  Result Graph:  Transition Function:  Execute Ubergraph BPA Open Close Blueprint:  BPA_OpenClose
+[2024.11.26-16.16.21:360][244]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TutorialScene.TutorialScene up for play (max tick rate 0) at 2024.11.26-13.16.21
+[2024.11.26-16.16.21:360][244]LogWorld: Bringing up level for play took: 0.009523
+[2024.11.26-16.16.21:363][244]LogOnline: OSS: Created online subsystem instance for: :Context_59
+[2024.11.26-16.16.21:363][244]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.26-16.16.21:363][244]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.26-16.16.21:363][244]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.11.26-16.16.21:376][244]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.11.26-16.16.21:376][244]PIE: Server logged in
+[2024.11.26-16.16.21:376][244]PIE: Play in editor total start time 0,076 seconds.
+[2024.11.26-16.16.25:282][320]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.26-16.16.25:282][320]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TutorialScene
+[2024.11.26-16.16.25:284][320]LogWorld: UWorld::CleanupWorld for TutorialScene, bSessionEnded=true, bCleanupResources=true
+[2024.11.26-16.16.25:285][320]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.26-16.16.25:370][320]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.26-16.16.25:374][320]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.26-16.16.25:389][320]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.26-16.16.25:389][320]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 46
+[2024.11.26-16.16.25:389][320]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=46
+[2024.11.26-16.16.25:391][320]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=46
+[2024.11.26-16.16.25:401][320]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2024.11.26-16.16.25:635][321]LogPlayLevel: Display: Destroying online subsystem :Context_59
+[2024.11.26-16.16.26:720][335]LogSlate: Window 'Message Log' being destroyed
+[2024.11.26-16.16.26:802][335]LogSlate: Window 'Message Log' being destroyed
+[2024.11.26-16.16.27:868][349]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.26-16.16.27:953][349]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2024.11.26-16.16.28:002][349]LogSavePackage: Moving output files for package: /Game/Levels/TutorialScene
+[2024.11.26-16.16.28:003][349]LogSavePackage: Moving '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Saved/TutorialScene78054B914866FDA562D9AFA7A7C42743.tmp' to '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Content/Levels/TutorialScene.umap'
+[2024.11.26-16.16.28:014][349]LogFileHelpers: Saving map 'TutorialScene' took 0.115
+[2024.11.26-16.16.28:020][349]LogFileHelpers: InternalPromptForCheckoutAndSave took 151 ms (total: 47.8 sec)
+[2024.11.26-16.16.28:022][349]AssetCheck: New page: Asset Save: TutorialScene
+[2024.11.26-16.16.28:022][349]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/TutorialScene.TutorialScene
+[2024.11.26-16.16.32:554][426]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.26-16.16.32:760][426]LogUObjectHash: Compacting FUObjectHashTables data took   0.39ms
+[2024.11.26-16.16.32:808][426]LogSavePackage: Moving output files for package: /Game/Levels/TutorialScene
+[2024.11.26-16.16.32:808][426]LogSavePackage: Moving '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Saved/TutorialScene1EE1B1E04DB99E205F0FAF8B8EF7C10A.tmp' to '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Content/Levels/TutorialScene.umap'
+[2024.11.26-16.16.32:820][426]LogFileHelpers: Saving map 'TutorialScene' took 0.118
+[2024.11.26-16.16.32:827][426]LogFileHelpers: InternalPromptForCheckoutAndSave took 273 ms (total: 48.0 sec)
+[2024.11.26-16.16.32:829][426]AssetCheck: New page: Asset Save: TutorialScene
+[2024.11.26-16.16.32:829][426]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/TutorialScene.TutorialScene
+[2024.11.26-16.16.42:453][597]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.26-16.16.42:642][597]LogUObjectHash: Compacting FUObjectHashTables data took   0.44ms
+[2024.11.26-16.16.42:693][597]LogSavePackage: Moving output files for package: /Game/Levels/TutorialScene
+[2024.11.26-16.16.42:693][597]LogSavePackage: Moving '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Saved/TutorialScene729A266449767674999B36BB007731EA.tmp' to '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Content/Levels/TutorialScene.umap'
+[2024.11.26-16.16.42:705][597]LogFileHelpers: Saving map 'TutorialScene' took 0.121
+[2024.11.26-16.16.42:727][597]LogFileHelpers: InternalPromptForCheckoutAndSave took 273 ms (total: 48.3 sec)
+[2024.11.26-16.16.42:729][597]AssetCheck: New page: Asset Save: TutorialScene
+[2024.11.26-16.16.42:729][597]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/TutorialScene.TutorialScene
+[2024.11.26-16.16.49:509][732]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.26-16.16.49:623][732]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2024.11.26-16.16.49:673][732]LogSavePackage: Moving output files for package: /Game/Levels/TutorialScene
+[2024.11.26-16.16.49:673][732]LogSavePackage: Moving '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Saved/TutorialScene750D9F5D4A33639EA19492AAF4D3F492.tmp' to '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Content/Levels/TutorialScene.umap'
+[2024.11.26-16.16.49:685][732]LogFileHelpers: Saving map 'TutorialScene' took 0.120
+[2024.11.26-16.16.49:696][732]LogFileHelpers: InternalPromptForCheckoutAndSave took 186 ms (total: 48.5 sec)
+[2024.11.26-16.16.49:698][732]AssetCheck: New page: Asset Save: TutorialScene
+[2024.11.26-16.16.49:698][732]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/TutorialScene.TutorialScene
+[2024.11.26-16.16.50:606][748]Cmd: DUPLICATE
+[2024.11.26-16.16.50:606][748]Cmd: ACTOR DUPLICATE
+[2024.11.26-16.16.57:222][873]Cmd: TRANSACTION UNDO
+[2024.11.26-16.16.57:222][873]LogEditorTransaction: Undo Move Elements
+[2024.11.26-16.17.15:543][155]Cmd: TRANSACTION UNDO
+[2024.11.26-16.17.15:543][155]LogEditorTransaction: Undo Clicking on Elements
+[2024.11.26-16.17.21:730][258]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.26-16.17.21:977][258]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2024.11.26-16.17.22:025][258]LogSavePackage: Moving output files for package: /Game/Levels/TutorialScene
+[2024.11.26-16.17.22:026][258]LogSavePackage: Moving '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Saved/TutorialSceneEB6702A04A7D158F6F9F5C9F306AC52E.tmp' to '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Content/Levels/TutorialScene.umap'
+[2024.11.26-16.17.22:038][258]LogFileHelpers: Saving map 'TutorialScene' took 0.121
+[2024.11.26-16.17.22:047][258]LogFileHelpers: InternalPromptForCheckoutAndSave took 317 ms (total: 48.8 sec)
+[2024.11.26-16.17.22:049][258]AssetCheck: New page: Asset Save: TutorialScene
+[2024.11.26-16.17.22:049][258]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/TutorialScene.TutorialScene
+[2024.11.26-16.17.24:436][306]Cmd: DUPLICATE
+[2024.11.26-16.17.24:436][306]Cmd: ACTOR DUPLICATE
+[2024.11.26-16.17.49:396][702]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.26-16.17.49:656][702]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2024.11.26-16.17.49:706][702]LogSavePackage: Moving output files for package: /Game/Levels/TutorialScene
+[2024.11.26-16.17.49:706][702]LogSavePackage: Moving '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Saved/TutorialScene0174603A4B584DE26EC5458B7278B89E.tmp' to '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Content/Levels/TutorialScene.umap'
+[2024.11.26-16.17.49:720][702]LogFileHelpers: Saving map 'TutorialScene' took 0.119
+[2024.11.26-16.17.49:730][702]LogFileHelpers: InternalPromptForCheckoutAndSave took 334 ms (total: 49.1 sec)
+[2024.11.26-16.17.49:732][702]AssetCheck: New page: Asset Save: TutorialScene
+[2024.11.26-16.17.49:732][702]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/TutorialScene.TutorialScene
+[2024.11.26-16.17.50:216][714]Cmd: DUPLICATE
+[2024.11.26-16.17.50:216][714]Cmd: ACTOR DUPLICATE
+[2024.11.26-16.18.07:418][987]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.26-16.18.07:506][987]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2024.11.26-16.18.07:559][987]LogSavePackage: Moving output files for package: /Game/Levels/TutorialScene
+[2024.11.26-16.18.07:559][987]LogSavePackage: Moving '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Saved/TutorialSceneDD87447D43E53569CC0185AC982866A2.tmp' to '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Content/Levels/TutorialScene.umap'
+[2024.11.26-16.18.07:571][987]LogFileHelpers: Saving map 'TutorialScene' took 0.122
+[2024.11.26-16.18.07:581][987]LogFileHelpers: InternalPromptForCheckoutAndSave took 162 ms (total: 49.3 sec)
+[2024.11.26-16.18.07:584][987]AssetCheck: New page: Asset Save: TutorialScene
+[2024.11.26-16.18.07:584][987]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/TutorialScene.TutorialScene
+[2024.11.26-16.18.08:606][  6]Cmd: DUPLICATE
+[2024.11.26-16.18.08:606][  6]Cmd: ACTOR DUPLICATE
+[2024.11.26-16.18.31:732][340]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.26-16.18.31:820][340]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2024.11.26-16.18.31:873][340]LogSavePackage: Moving output files for package: /Game/Levels/TutorialScene
+[2024.11.26-16.18.31:873][340]LogSavePackage: Moving '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Saved/TutorialSceneEB4086884F61B341359F06834F2E6ABD.tmp' to '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Content/Levels/TutorialScene.umap'
+[2024.11.26-16.18.31:887][340]LogFileHelpers: Saving map 'TutorialScene' took 0.123
+[2024.11.26-16.18.31:897][340]LogFileHelpers: InternalPromptForCheckoutAndSave took 165 ms (total: 49.5 sec)
+[2024.11.26-16.18.31:899][340]AssetCheck: New page: Asset Save: TutorialScene
+[2024.11.26-16.18.31:899][340]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/TutorialScene.TutorialScene
+[2024.11.26-16.18.33:123][359]Cmd: DUPLICATE
+[2024.11.26-16.18.33:123][359]Cmd: ACTOR DUPLICATE
+[2024.11.26-16.18.50:568][612]Cmd: TRANSACTION UNDO
+[2024.11.26-16.18.50:568][612]LogEditorTransaction: Undo Clicking on Elements
+[2024.11.26-16.18.57:553][757]LogDerivedDataCache: C:/Users/ra00333610/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:22.175 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 11958 files in 13960 folders with total size 859 MiB.
+[2024.11.26-16.20.11:703][933]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.26-16.20.11:788][933]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2024.11.26-16.20.11:842][933]LogSavePackage: Moving output files for package: /Game/Levels/TutorialScene
+[2024.11.26-16.20.11:843][933]LogSavePackage: Moving '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Saved/TutorialScene7C85225841E5100CADF967B69F3615A6.tmp' to '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Content/Levels/TutorialScene.umap'
+[2024.11.26-16.20.11:854][933]LogFileHelpers: Saving map 'TutorialScene' took 0.123
+[2024.11.26-16.20.11:860][933]LogFileHelpers: InternalPromptForCheckoutAndSave took 157 ms (total: 49.6 sec)
+[2024.11.26-16.20.11:862][933]AssetCheck: New page: Asset Save: TutorialScene
+[2024.11.26-16.20.11:862][933]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/TutorialScene.TutorialScene
+[2024.11.26-16.20.33:672][295]Cmd: DUPLICATE
+[2024.11.26-16.20.33:672][295]Cmd: ACTOR DUPLICATE
+[2024.11.26-16.20.50:798][580]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.26-16.20.50:912][580]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2024.11.26-16.20.50:966][580]LogSavePackage: Moving output files for package: /Game/Levels/TutorialScene
+[2024.11.26-16.20.50:966][580]LogSavePackage: Moving '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Saved/TutorialSceneB734F5BF4305F89F3AA8749E94B03C7F.tmp' to '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Content/Levels/TutorialScene.umap'
+[2024.11.26-16.20.50:981][580]LogFileHelpers: Saving map 'TutorialScene' took 0.129
+[2024.11.26-16.20.50:986][580]LogFileHelpers: InternalPromptForCheckoutAndSave took 186 ms (total: 49.8 sec)
+[2024.11.26-16.20.50:988][580]AssetCheck: New page: Asset Save: TutorialScene
+[2024.11.26-16.20.50:988][580]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/TutorialScene.TutorialScene
+[2024.11.26-16.20.52:146][599]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.26-16.20.52:171][599]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.26-16.20.52:171][599]PIE: New page: PIE session: TutorialScene (26 de nov de 2024 10:20:52)
+[2024.11.26-16.20.52:171][599]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_TutorialScene
+[2024.11.26-16.20.52:186][599]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015204s)
+[2024.11.26-16.20.52:186][599]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/TutorialScene.TutorialScene to /Game/Levels/UEDPIE_0_TutorialScene.TutorialScene (0.015239s)
+[2024.11.26-16.20.52:194][599]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2024.11.26-16.20.52:196][599]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.26-16.20.52:196][599]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.26-16.20.52:196][599]LogAIModule: Creating AISystem for world TutorialScene
+[2024.11.26-16.20.52:196][599]LogPlayLevel: PIE: World Init took: (0.000754s)
+[2024.11.26-16.20.52:196][599]LogAudio: Display: Creating Audio Device:                 Id: 47, Scope: Unique, Realtime: True
+[2024.11.26-16.20.52:196][599]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.26-16.20.52:196][599]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.26-16.20.52:196][599]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.26-16.20.52:196][599]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.26-16.20.52:196][599]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.26-16.20.52:196][599]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.26-16.20.52:196][599]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.26-16.20.52:196][599]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.26-16.20.52:197][599]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.26-16.20.52:197][599]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.26-16.20.52:197][599]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.26-16.20.52:198][599]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.26-16.20.52:205][599]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (Realtek(R) Audio)
+[2024.11.26-16.20.52:206][599]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.26-16.20.52:206][599]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.26-16.20.52:206][599]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.26-16.20.52:206][599]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=47
+[2024.11.26-16.20.52:206][599]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=47
+[2024.11.26-16.20.52:208][599]LogInit: FAudioDevice initialized with ID 47.
+[2024.11.26-16.20.52:208][599]LogAudio: Display: Audio Device (ID: 47) registered with world 'TutorialScene'.
+[2024.11.26-16.20.52:208][599]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 47
+[2024.11.26-16.20.52:208][599]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=47
+[2024.11.26-16.20.52:208][599]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=47
+[2024.11.26-16.20.52:214][599]LogLoad: Game class is 'MyGameGamemode_C'
+[2024.11.26-16.20.52:222][599]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BP_DayCicleController". Node:  Result Graph:  Transition Function:  Execute Ubergraph BPA Open Close Blueprint:  BPA_OpenClose
+[2024.11.26-16.20.52:223][599]LogWorld: Bringing World /Game/Levels/UEDPIE_0_TutorialScene.TutorialScene up for play (max tick rate 0) at 2024.11.26-13.20.52
+[2024.11.26-16.20.52:224][599]LogWorld: Bringing up level for play took: 0.009333
+[2024.11.26-16.20.52:227][599]LogOnline: OSS: Created online subsystem instance for: :Context_60
+[2024.11.26-16.20.52:227][599]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.26-16.20.52:227][599]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.26-16.20.52:227][599]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.11.26-16.20.52:239][599]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.11.26-16.20.52:239][599]PIE: Server logged in
+[2024.11.26-16.20.52:240][599]PIE: Play in editor total start time 0,069 seconds.
+[2024.11.26-16.21.34:275][372]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.26-16.21.34:275][372]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_TutorialScene
+[2024.11.26-16.21.34:278][372]LogWorld: UWorld::CleanupWorld for TutorialScene, bSessionEnded=true, bCleanupResources=true
+[2024.11.26-16.21.34:279][372]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.26-16.21.34:355][372]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.26-16.21.34:360][372]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.26-16.21.34:373][372]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.11.26-16.21.34:374][372]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 47
+[2024.11.26-16.21.34:374][372]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=47
+[2024.11.26-16.21.34:375][372]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=47
+[2024.11.26-16.21.34:379][372]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.26-16.21.34:385][372]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2024.11.26-16.21.34:660][373]LogPlayLevel: Display: Destroying online subsystem :Context_60
+[2024.11.26-16.21.36:001][392]LogSlate: Window 'Message Log' being destroyed
+[2024.11.26-16.21.36:075][392]LogSlate: Window 'Message Log' being destroyed
+[2024.11.26-16.21.36:990][404]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.26-16.21.37:074][404]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2024.11.26-16.21.37:127][404]LogSavePackage: Moving output files for package: /Game/Levels/TutorialScene
+[2024.11.26-16.21.37:128][404]LogSavePackage: Moving '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Saved/TutorialSceneA9768E104F28D2199A9B4E9CD9DEF586.tmp' to '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Content/Levels/TutorialScene.umap'
+[2024.11.26-16.21.37:139][404]LogFileHelpers: Saving map 'TutorialScene' took 0.121
+[2024.11.26-16.21.37:150][404]LogFileHelpers: InternalPromptForCheckoutAndSave took 160 ms (total: 50.0 sec)
+[2024.11.26-16.21.37:152][404]AssetCheck: New page: Asset Save: TutorialScene
+[2024.11.26-16.21.37:152][404]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/TutorialScene.TutorialScene
+[2024.11.26-16.21.40:313][447]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.26-16.21.40:423][447]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2024.11.26-16.21.40:477][447]LogSavePackage: Moving output files for package: /Game/Levels/TutorialScene
+[2024.11.26-16.21.40:478][447]LogSavePackage: Moving '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Saved/TutorialSceneB99CAD664AC30E30AA937F8AF03CBFDE.tmp' to '../../../../../../Users/ra00333610/Desktop/Trabalhos Git/ArcadeSimulator/Arcade/Content/Levels/TutorialScene.umap'
+[2024.11.26-16.21.40:490][447]LogFileHelpers: Saving map 'TutorialScene' took 0.122
+[2024.11.26-16.21.40:502][447]LogFileHelpers: InternalPromptForCheckoutAndSave took 188 ms (total: 50.2 sec)
+[2024.11.26-16.21.40:505][447]AssetCheck: New page: Asset Save: TutorialScene
+[2024.11.26-16.21.40:505][447]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/TutorialScene.TutorialScene
