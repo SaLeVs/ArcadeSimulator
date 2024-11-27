@@ -2519,3 +2519,201 @@ LogConfig: CVar [[r.Occlusion.SingleRHIThreadStall:1]] deferred - dummy variable
 [2024.11.27-00.05.39:950][ 67]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2024.11.27-00.05.39:955][ 67]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
 [2024.11.27-00.05.40:014][ 68]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2024.11.27-00.06.23:326][183]LogD3D12RHI: Warning: Descriptor cache ran out of sub allocated descriptor blocks! Moving to Context local View heap strategy
+[2024.11.27-00.06.23:326][183]LogD3D12RHI: This should only happen in the Editor where it doesn't matter as much. If it happens in game you should increase the device global heap size!
+[2024.11.27-00.06.51:424][539]LogD3D12RHI: OnlineHeap RollOver Detected. Increase the heap size to prevent creation of additional heaps
+[2024.11.27-00.14.51:149][761]LogAssetEditorSubsystem: Opening Asset editor for DataTable /Game/Blueprints/Expanses/DT_Expanses.DT_Expanses
+[2024.11.27-00.15.41:851][763]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2024.11.27-00.15.41:852][763]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/Ilumination' took 0.012
+[2024.11.27-00.15.41:853][763]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Expanses/DT_Expanses] ([1] browsable assets)...
+[2024.11.27-00.15.41:853][763]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Expanses/DT_Expanses]
+[2024.11.27-00.15.41:854][763]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/Expanses/DT_Expanses_Auto1
+[2024.11.27-00.15.41:854][763]LogSavePackage: Moving 'F:/UnrealProjects/ArcadeSimulator/Arcade/Saved/DT_Expanses_Auto11FC7040C4C69FFBDDB52CBAF09E4EB5B.tmp' to 'F:/UnrealProjects/ArcadeSimulator/Arcade/Saved/Autosaves/Game/Blueprints/Expanses/DT_Expanses_Auto1.uasset'
+[2024.11.27-00.15.41:855][763]LogFileHelpers: Auto-saving content packages took 0.003
+[2024.11.27-00.16.37:676][450]LogSlate: Took 0.000870 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2024.11.27-00.16.40:158][722]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.27-00.16.40:185][722]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Expanses/DT_Expanses" FILE="F:/UnrealProjects/ArcadeSimulator/Arcade/Content/Blueprints/Expanses/DT_Expanses.uasset" SILENT=true
+[2024.11.27-00.16.40:186][722]LogSavePackage: Moving output files for package: /Game/Blueprints/Expanses/DT_Expanses
+[2024.11.27-00.16.40:187][722]LogSavePackage: Moving 'F:/UnrealProjects/ArcadeSimulator/Arcade/Saved/DT_Expanses4631B6654A3ECAC75981E983E9020823.tmp' to 'F:/UnrealProjects/ArcadeSimulator/Arcade/Content/Blueprints/Expanses/DT_Expanses.uasset'
+[2024.11.27-00.16.40:194][722]LogFileHelpers: InternalPromptForCheckoutAndSave took 35 ms (total: 158 ms)
+[2024.11.27-00.16.40:194][722]AssetCheck: New page: Asset Save: DT_Expanses
+[2024.11.27-00.16.40:194][722]LogContentValidation: Display: Validating /Script/Engine.DataTable /Game/Blueprints/Expanses/DT_Expanses.DT_Expanses
+[2024.11.27-00.16.47:724][623]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.27-00.16.47:750][623]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Expanses/DT_Expanses" FILE="F:/UnrealProjects/ArcadeSimulator/Arcade/Content/Blueprints/Expanses/DT_Expanses.uasset" SILENT=true
+[2024.11.27-00.16.47:750][623]LogSavePackage: Moving output files for package: /Game/Blueprints/Expanses/DT_Expanses
+[2024.11.27-00.16.47:751][623]LogSavePackage: Moving 'F:/UnrealProjects/ArcadeSimulator/Arcade/Saved/DT_Expanses22B1A1A5485F0C6DF71859BB9BD1F36C.tmp' to 'F:/UnrealProjects/ArcadeSimulator/Arcade/Content/Blueprints/Expanses/DT_Expanses.uasset'
+[2024.11.27-00.16.47:757][623]LogFileHelpers: InternalPromptForCheckoutAndSave took 32 ms (total: 191 ms)
+[2024.11.27-00.16.47:758][623]AssetCheck: New page: Asset Save: DT_Expanses
+[2024.11.27-00.16.47:758][623]LogContentValidation: Display: Validating /Script/Engine.DataTable /Game/Blueprints/Expanses/DT_Expanses.DT_Expanses
+[2024.11.27-00.16.55:994][243]LogSlate: Window 'Message' being destroyed
+[2024.11.27-00.16.56:003][243]Message dialog closed, result: Ok, title: Message, text: 'Rent' is already used as a row name in this table
+[2024.11.27-00.17.14:806][487]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.27-00.17.14:830][487]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Expanses/DT_Expanses" FILE="F:/UnrealProjects/ArcadeSimulator/Arcade/Content/Blueprints/Expanses/DT_Expanses.uasset" SILENT=true
+[2024.11.27-00.17.14:831][487]LogSavePackage: Moving output files for package: /Game/Blueprints/Expanses/DT_Expanses
+[2024.11.27-00.17.14:831][487]LogSavePackage: Moving 'F:/UnrealProjects/ArcadeSimulator/Arcade/Saved/DT_Expanses8AD624544D79A319C517D085D1A29022.tmp' to 'F:/UnrealProjects/ArcadeSimulator/Arcade/Content/Blueprints/Expanses/DT_Expanses.uasset'
+[2024.11.27-00.17.14:838][487]LogFileHelpers: InternalPromptForCheckoutAndSave took 32 ms (total: 223 ms)
+[2024.11.27-00.17.14:839][487]AssetCheck: New page: Asset Save: DT_Expanses
+[2024.11.27-00.17.14:839][487]LogContentValidation: Display: Validating /Script/Engine.DataTable /Game/Blueprints/Expanses/DT_Expanses.DT_Expanses
+[2024.11.27-00.17.41:592][689]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.27-00.17.41:618][689]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Expanses/DT_Expanses" FILE="F:/UnrealProjects/ArcadeSimulator/Arcade/Content/Blueprints/Expanses/DT_Expanses.uasset" SILENT=true
+[2024.11.27-00.17.41:619][689]LogSavePackage: Moving output files for package: /Game/Blueprints/Expanses/DT_Expanses
+[2024.11.27-00.17.41:619][689]LogSavePackage: Moving 'F:/UnrealProjects/ArcadeSimulator/Arcade/Saved/DT_Expanses26330DBC45E4B0129348BEB33A6840AF.tmp' to 'F:/UnrealProjects/ArcadeSimulator/Arcade/Content/Blueprints/Expanses/DT_Expanses.uasset'
+[2024.11.27-00.17.41:626][689]LogFileHelpers: InternalPromptForCheckoutAndSave took 33 ms (total: 257 ms)
+[2024.11.27-00.17.41:626][689]AssetCheck: New page: Asset Save: DT_Expanses
+[2024.11.27-00.17.41:626][689]LogContentValidation: Display: Validating /Script/Engine.DataTable /Game/Blueprints/Expanses/DT_Expanses.DT_Expanses
+[2024.11.27-00.18.07:654][801]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.27-00.18.07:678][801]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Expanses/DT_Expanses" FILE="F:/UnrealProjects/ArcadeSimulator/Arcade/Content/Blueprints/Expanses/DT_Expanses.uasset" SILENT=true
+[2024.11.27-00.18.07:679][801]LogSavePackage: Moving output files for package: /Game/Blueprints/Expanses/DT_Expanses
+[2024.11.27-00.18.07:679][801]LogSavePackage: Moving 'F:/UnrealProjects/ArcadeSimulator/Arcade/Saved/DT_ExpansesE6586FA44399A9F01BA6F686D0A0C3B6.tmp' to 'F:/UnrealProjects/ArcadeSimulator/Arcade/Content/Blueprints/Expanses/DT_Expanses.uasset'
+[2024.11.27-00.18.07:687][801]LogFileHelpers: InternalPromptForCheckoutAndSave took 32 ms (total: 289 ms)
+[2024.11.27-00.18.07:687][801]AssetCheck: New page: Asset Save: DT_Expanses
+[2024.11.27-00.18.07:688][801]LogContentValidation: Display: Validating /Script/Engine.DataTable /Game/Blueprints/Expanses/DT_Expanses.DT_Expanses
+[2024.11.27-00.18.24:379][803]ImportText (/Game/Blueprints/Expanses/S_Expanses.S_Expanses): Missing opening parenthesis: Supplies
+[2024.11.27-00.18.37:279][252]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.27-00.18.37:305][252]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Expanses/DT_Expanses" FILE="F:/UnrealProjects/ArcadeSimulator/Arcade/Content/Blueprints/Expanses/DT_Expanses.uasset" SILENT=true
+[2024.11.27-00.18.37:306][252]LogSavePackage: Moving output files for package: /Game/Blueprints/Expanses/DT_Expanses
+[2024.11.27-00.18.37:306][252]LogSavePackage: Moving 'F:/UnrealProjects/ArcadeSimulator/Arcade/Saved/DT_Expanses89D82736434D7242F3B63198C0476F80.tmp' to 'F:/UnrealProjects/ArcadeSimulator/Arcade/Content/Blueprints/Expanses/DT_Expanses.uasset'
+[2024.11.27-00.18.37:312][252]LogFileHelpers: InternalPromptForCheckoutAndSave took 32 ms (total: 322 ms)
+[2024.11.27-00.18.37:313][252]AssetCheck: New page: Asset Save: DT_Expanses
+[2024.11.27-00.18.37:313][252]LogContentValidation: Display: Validating /Script/Engine.DataTable /Game/Blueprints/Expanses/DT_Expanses.DT_Expanses
+[2024.11.27-00.19.07:227][838]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.27-00.19.07:255][838]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Expanses/DT_Expanses" FILE="F:/UnrealProjects/ArcadeSimulator/Arcade/Content/Blueprints/Expanses/DT_Expanses.uasset" SILENT=true
+[2024.11.27-00.19.07:256][838]LogSavePackage: Moving output files for package: /Game/Blueprints/Expanses/DT_Expanses
+[2024.11.27-00.19.07:256][838]LogSavePackage: Moving 'F:/UnrealProjects/ArcadeSimulator/Arcade/Saved/DT_Expanses177001EE41935578989A328A81044454.tmp' to 'F:/UnrealProjects/ArcadeSimulator/Arcade/Content/Blueprints/Expanses/DT_Expanses.uasset'
+[2024.11.27-00.19.07:263][838]LogFileHelpers: InternalPromptForCheckoutAndSave took 35 ms (total: 358 ms)
+[2024.11.27-00.19.07:263][838]AssetCheck: New page: Asset Save: DT_Expanses
+[2024.11.27-00.19.07:263][838]LogContentValidation: Display: Validating /Script/Engine.DataTable /Game/Blueprints/Expanses/DT_Expanses.DT_Expanses
+[2024.11.27-00.19.15:326][784]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.27-00.19.15:346][784]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Expanses/DT_Expanses" FILE="F:/UnrealProjects/ArcadeSimulator/Arcade/Content/Blueprints/Expanses/DT_Expanses.uasset" SILENT=true
+[2024.11.27-00.19.15:347][784]LogSavePackage: Moving output files for package: /Game/Blueprints/Expanses/DT_Expanses
+[2024.11.27-00.19.15:348][784]LogSavePackage: Moving 'F:/UnrealProjects/ArcadeSimulator/Arcade/Saved/DT_ExpansesF785EB434DFC3F2C0AC48E9C042F2EDA.tmp' to 'F:/UnrealProjects/ArcadeSimulator/Arcade/Content/Blueprints/Expanses/DT_Expanses.uasset'
+[2024.11.27-00.19.15:354][784]LogFileHelpers: InternalPromptForCheckoutAndSave took 28 ms (total: 386 ms)
+[2024.11.27-00.19.15:355][784]AssetCheck: New page: Asset Save: DT_Expanses
+[2024.11.27-00.19.15:355][784]LogContentValidation: Display: Validating /Script/Engine.DataTable /Game/Blueprints/Expanses/DT_Expanses.DT_Expanses
+[2024.11.27-00.19.28:215][ 86]LogSlate: Window 'Message' being destroyed
+[2024.11.27-00.19.28:224][ 86]Message dialog closed, result: Ok, title: Message, text: 'Pest Control' is not a valid row name
+[2024.11.27-00.19.44:307][979]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.27-00.19.44:324][979]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Expanses/DT_Expanses" FILE="F:/UnrealProjects/ArcadeSimulator/Arcade/Content/Blueprints/Expanses/DT_Expanses.uasset" SILENT=true
+[2024.11.27-00.19.44:325][979]LogSavePackage: Moving output files for package: /Game/Blueprints/Expanses/DT_Expanses
+[2024.11.27-00.19.44:326][979]LogSavePackage: Moving 'F:/UnrealProjects/ArcadeSimulator/Arcade/Saved/DT_Expanses3C82574D46AA67B5853F21B37429C083.tmp' to 'F:/UnrealProjects/ArcadeSimulator/Arcade/Content/Blueprints/Expanses/DT_Expanses.uasset'
+[2024.11.27-00.19.44:331][979]LogFileHelpers: InternalPromptForCheckoutAndSave took 23 ms (total: 410 ms)
+[2024.11.27-00.19.44:332][979]AssetCheck: New page: Asset Save: DT_Expanses
+[2024.11.27-00.19.44:332][979]LogContentValidation: Display: Validating /Script/Engine.DataTable /Game/Blueprints/Expanses/DT_Expanses.DT_Expanses
+[2024.11.27-00.20.12:577][246]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.27-00.20.12:599][246]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Expanses/DT_Expanses" FILE="F:/UnrealProjects/ArcadeSimulator/Arcade/Content/Blueprints/Expanses/DT_Expanses.uasset" SILENT=true
+[2024.11.27-00.20.12:600][246]LogSavePackage: Moving output files for package: /Game/Blueprints/Expanses/DT_Expanses
+[2024.11.27-00.20.12:600][246]LogSavePackage: Moving 'F:/UnrealProjects/ArcadeSimulator/Arcade/Saved/DT_ExpansesDA50556E43327BD4F48E158CECC8317C.tmp' to 'F:/UnrealProjects/ArcadeSimulator/Arcade/Content/Blueprints/Expanses/DT_Expanses.uasset'
+[2024.11.27-00.20.12:606][246]LogFileHelpers: InternalPromptForCheckoutAndSave took 30 ms (total: 440 ms)
+[2024.11.27-00.20.12:607][246]AssetCheck: New page: Asset Save: DT_Expanses
+[2024.11.27-00.20.12:607][246]LogContentValidation: Display: Validating /Script/Engine.DataTable /Game/Blueprints/Expanses/DT_Expanses.DT_Expanses
+[2024.11.27-00.20.31:321][446]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.27-00.20.43:619][736]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.27-00.20.43:646][736]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Expanses/DT_Expanses" FILE="F:/UnrealProjects/ArcadeSimulator/Arcade/Content/Blueprints/Expanses/DT_Expanses.uasset" SILENT=true
+[2024.11.27-00.20.43:647][736]LogSavePackage: Moving output files for package: /Game/Blueprints/Expanses/DT_Expanses
+[2024.11.27-00.20.43:648][736]LogSavePackage: Moving 'F:/UnrealProjects/ArcadeSimulator/Arcade/Saved/DT_ExpansesB1DEDEFB4362002A0CEB10ADA4B43538.tmp' to 'F:/UnrealProjects/ArcadeSimulator/Arcade/Content/Blueprints/Expanses/DT_Expanses.uasset'
+[2024.11.27-00.20.43:654][736]LogFileHelpers: InternalPromptForCheckoutAndSave took 35 ms (total: 475 ms)
+[2024.11.27-00.20.43:656][736]AssetCheck: New page: Asset Save: DT_Expanses
+[2024.11.27-00.20.43:656][736]LogContentValidation: Display: Validating /Script/Engine.DataTable /Game/Blueprints/Expanses/DT_Expanses.DT_Expanses
+[2024.11.27-00.35.45:763][665]LogSlate: Window 'Message' being destroyed
+[2024.11.27-00.35.45:768][665]Message dialog closed, result: Ok, title: Message, text: 'Emergency FundContributions' is not a valid row name
+[2024.11.27-00.36.09:206][468]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.27-00.36.09:233][468]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Expanses/DT_Expanses" FILE="F:/UnrealProjects/ArcadeSimulator/Arcade/Content/Blueprints/Expanses/DT_Expanses.uasset" SILENT=true
+[2024.11.27-00.36.09:234][468]LogSavePackage: Moving output files for package: /Game/Blueprints/Expanses/DT_Expanses
+[2024.11.27-00.36.09:234][468]LogSavePackage: Moving 'F:/UnrealProjects/ArcadeSimulator/Arcade/Saved/DT_Expanses2244C62B4A9F554C631F25AF7130AC24.tmp' to 'F:/UnrealProjects/ArcadeSimulator/Arcade/Content/Blueprints/Expanses/DT_Expanses.uasset'
+[2024.11.27-00.36.09:240][468]LogFileHelpers: InternalPromptForCheckoutAndSave took 34 ms (total: 509 ms)
+[2024.11.27-00.36.09:241][468]AssetCheck: New page: Asset Save: DT_Expanses
+[2024.11.27-00.36.09:242][468]LogContentValidation: Display: Validating /Script/Engine.DataTable /Game/Blueprints/Expanses/DT_Expanses.DT_Expanses
+[2024.11.27-00.36.10:648][637]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.27-00.36.10:667][637]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Expanses/DT_Expanses" FILE="F:/UnrealProjects/ArcadeSimulator/Arcade/Content/Blueprints/Expanses/DT_Expanses.uasset" SILENT=true
+[2024.11.27-00.36.10:668][637]LogSavePackage: Moving output files for package: /Game/Blueprints/Expanses/DT_Expanses
+[2024.11.27-00.36.10:668][637]LogSavePackage: Moving 'F:/UnrealProjects/ArcadeSimulator/Arcade/Saved/DT_Expanses8B2C9D674129E24EA62BDD8E4220C899.tmp' to 'F:/UnrealProjects/ArcadeSimulator/Arcade/Content/Blueprints/Expanses/DT_Expanses.uasset'
+[2024.11.27-00.36.10:675][637]LogFileHelpers: InternalPromptForCheckoutAndSave took 27 ms (total: 536 ms)
+[2024.11.27-00.36.10:676][637]AssetCheck: New page: Asset Save: DT_Expanses
+[2024.11.27-00.36.10:676][637]LogContentValidation: Display: Validating /Script/Engine.DataTable /Game/Blueprints/Expanses/DT_Expanses.DT_Expanses
+[2024.11.27-00.37.42:944][647]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.27-00.37.42:968][647]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Expanses/DT_Expanses" FILE="F:/UnrealProjects/ArcadeSimulator/Arcade/Content/Blueprints/Expanses/DT_Expanses.uasset" SILENT=true
+[2024.11.27-00.37.42:969][647]LogSavePackage: Moving output files for package: /Game/Blueprints/Expanses/DT_Expanses
+[2024.11.27-00.37.42:970][647]LogSavePackage: Moving 'F:/UnrealProjects/ArcadeSimulator/Arcade/Saved/DT_Expanses720B8B154145B8C5C5269390D4D7ECD2.tmp' to 'F:/UnrealProjects/ArcadeSimulator/Arcade/Content/Blueprints/Expanses/DT_Expanses.uasset'
+[2024.11.27-00.37.42:977][647]LogFileHelpers: InternalPromptForCheckoutAndSave took 33 ms (total: 570 ms)
+[2024.11.27-00.37.42:978][647]AssetCheck: New page: Asset Save: DT_Expanses
+[2024.11.27-00.37.42:978][647]LogContentValidation: Display: Validating /Script/Engine.DataTable /Game/Blueprints/Expanses/DT_Expanses.DT_Expanses
+[2024.11.27-01.00.47:318][643]LogDerivedDataCache: C:/Users/jfkab/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:15.123 and deleted 26 files with total size 1 MiB and 26 empty folders. Scanned 8096 files in 9736 folders with total size 895 MiB.
+[2024.11.27-01.13.43:798][903]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.27-01.13.43:876][904]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.27-01.13.43:878][904]LogShaderCompilers: Display: ================================================
+[2024.11.27-01.13.43:878][904]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.11.27-01.13.43:878][904]LogShaderCompilers: Display: Total job queries 305, among them cache hits 162 (53.11%)
+[2024.11.27-01.13.43:878][904]LogShaderCompilers: Display: Tracking 143 distinct input hashes that result in 62 distinct outputs (43.36%)
+[2024.11.27-01.13.43:878][904]LogShaderCompilers: Display: RAM used: 3.12 MiB of 1.60 GiB budget. Usage: 0.19%
+[2024.11.27-01.13.43:878][904]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.11.27-01.13.43:878][904]LogShaderCompilers: Display: Shaders Compiled: 0
+[2024.11.27-01.13.43:878][904]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0%)
+[2024.11.27-01.13.43:878][904]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2024.11.27-01.13.43:878][904]LogShaderCompilers: Display: ================================================
+[2024.11.27-01.13.44:001][906]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.27-01.13.44:111][909]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.27-01.13.44:162][912]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.27-01.13.44:224][916]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.27-01.13.44:281][920]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.27-01.13.44:334][924]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.27-01.13.44:410][929]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.27-01.13.44:475][934]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.27-01.13.44:550][940]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.27-01.13.44:625][946]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.27-01.13.44:708][952]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.27-01.13.44:804][959]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.27-01.13.44:899][966]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.27-01.13.45:003][974]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.27-01.13.45:109][982]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.27-01.13.45:224][991]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.27-01.13.45:348][  0]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.27-01.13.45:492][ 10]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.27-01.13.45:619][ 20]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.27-01.13.50:344][558]LogViewport: Scene viewport resized to 1343x846, mode Windowed.
+[2024.11.27-01.13.50:371][559]LogViewport: Scene viewport resized to 1343x817, mode Windowed.
+[2024.11.27-01.13.50:395][560]LogViewport: Scene viewport resized to 1343x780, mode Windowed.
+[2024.11.27-01.13.50:425][561]LogViewport: Scene viewport resized to 1343x731, mode Windowed.
+[2024.11.27-01.13.50:446][562]LogViewport: Scene viewport resized to 1343x696, mode Windowed.
+[2024.11.27-01.13.50:471][563]LogViewport: Scene viewport resized to 1343x655, mode Windowed.
+[2024.11.27-01.13.50:495][564]LogViewport: Scene viewport resized to 1343x619, mode Windowed.
+[2024.11.27-01.13.50:517][565]LogViewport: Scene viewport resized to 1343x597, mode Windowed.
+[2024.11.27-01.13.50:544][566]LogViewport: Scene viewport resized to 1343x584, mode Windowed.
+[2024.11.27-01.13.50:565][567]LogViewport: Scene viewport resized to 1343x582, mode Windowed.
+[2024.11.27-01.13.52:868][822]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/AI/NPCMasters/BP_NPCMaster.BP_NPCMaster
+[2024.11.27-01.13.52:870][822]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.27-01.13.52:870][822]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.27-01.13.53:286][823]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.27-01.13.53:815][828]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.27-01.13.54:694][911]LogViewport: Scene viewport resized to 1330x1235, mode Windowed.
+[2024.11.27-01.21.47:177][434]LogWorld: UWorld::CleanupWorld for World_29, bSessionEnded=true, bCleanupResources=true
+[2024.11.27-01.21.47:177][434]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.27-01.24.43:588][450]LogViewport: Scene viewport resized to 1343x583, mode Windowed.
+[2024.11.27-01.24.43:607][451]LogViewport: Scene viewport resized to 1343x584, mode Windowed.
+[2024.11.27-01.24.45:671][695]LogViewport: Scene viewport resized to 1343x586, mode Windowed.
+[2024.11.27-01.24.45:688][696]LogViewport: Scene viewport resized to 1343x593, mode Windowed.
+[2024.11.27-01.24.45:711][697]LogViewport: Scene viewport resized to 1343x606, mode Windowed.
+[2024.11.27-01.24.45:733][698]LogViewport: Scene viewport resized to 1343x624, mode Windowed.
+[2024.11.27-01.24.45:755][699]LogViewport: Scene viewport resized to 1343x643, mode Windowed.
+[2024.11.27-01.24.45:777][700]LogViewport: Scene viewport resized to 1343x662, mode Windowed.
+[2024.11.27-01.24.45:801][701]LogViewport: Scene viewport resized to 1343x684, mode Windowed.
+[2024.11.27-01.24.45:822][702]LogViewport: Scene viewport resized to 1343x705, mode Windowed.
+[2024.11.27-01.24.45:845][703]LogViewport: Scene viewport resized to 1343x738, mode Windowed.
+[2024.11.27-01.24.45:868][704]LogViewport: Scene viewport resized to 1343x777, mode Windowed.
+[2024.11.27-01.24.45:892][705]LogViewport: Scene viewport resized to 1343x805, mode Windowed.
+[2024.11.27-01.24.45:915][706]LogViewport: Scene viewport resized to 1343x821, mode Windowed.
+[2024.11.27-01.24.45:937][707]LogViewport: Scene viewport resized to 1343x830, mode Windowed.
+[2024.11.27-01.24.45:957][708]LogViewport: Scene viewport resized to 1343x831, mode Windowed.
+[2024.11.27-01.24.46:063][719]LogViewport: Scene viewport resized to 1343x832, mode Windowed.
+[2024.11.27-01.24.46:081][720]LogViewport: Scene viewport resized to 1343x833, mode Windowed.
+[2024.11.27-01.24.46:145][726]LogViewport: Scene viewport resized to 1343x832, mode Windowed.
+[2024.11.27-01.27.27:368][ 23]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.27-01.27.35:067][924]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Expanses/BP_ExpansesController.BP_ExpansesController
+[2024.11.27-01.27.35:067][924]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.27-01.27.35:067][924]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.27-01.28.35:844][ 98]LogUObjectHash: Compacting FUObjectHashTables data took   2.83ms
+[2024.11.27-01.28.35:845][ 98]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/Ilumination' took 0.044
+[2024.11.27-01.28.35:847][ 98]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Expanses/BP_ExpansesController] ([2] browsable assets)...
+[2024.11.27-01.28.35:847][ 98]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Expanses/BP_ExpansesController]
+[2024.11.27-01.28.35:867][ 98]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/Expanses/BP_ExpansesController_Auto2
+[2024.11.27-01.28.35:867][ 98]LogSavePackage: Moving 'F:/UnrealProjects/ArcadeSimulator/Arcade/Saved/BP_ExpansesController_Auto29D834BED42211B6CBE28F19C2306BED0.tmp' to 'F:/UnrealProjects/ArcadeSimulator/Arcade/Saved/Autosaves/Game/Blueprints/Expanses/BP_ExpansesController_Auto2.uasset'
+[2024.11.27-01.28.35:868][ 98]LogFileHelpers: Auto-saving content packages took 0.023
