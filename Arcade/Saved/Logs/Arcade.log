@@ -1984,3 +1984,742 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.11.29-10.32.33:028][619]LogFileHelpers: InternalPromptForCheckoutAndSave took 105 ms (total: 4.87 sec)
 [2024.11.29-10.32.33:077][619]AssetCheck: New page: Asset Save: BP_BuildPropsPreviewMaster_BigTrash
 [2024.11.29-10.32.33:077][619]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreviewMaster_BigTrash.BP_BuildPropsPreviewMaster_BigTrash
+[2024.11.29-10.34.20:730][612]LogAssetEditorSubsystem: Opening Asset editor for DataTable /Game/Blueprints/Builder/BuilderStuff/DT_BuildParts.DT_BuildParts
+[2024.11.29-10.35.03:086][150]LogContentBrowser: Attempting asset rename: BP_BuildPropsMaster_BigTrash -> BP_BuildProps_BigTrash
+[2024.11.29-10.35.03:138][150]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildProps_BigTrash.BP_BuildProps_BigTrash:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildPropsMaster_BigTrash.PackageMetaData'
+[2024.11.29-10.35.03:138][150]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildProps_BigTrash.SKEL_BP_BuildProps_BigTrash_C' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildPropsMaster_BigTrash.PackageMetaData'
+[2024.11.29-10.35.03:138][150]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildProps_BigTrash.BP_BuildProps_BigTrash_C' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildPropsMaster_BigTrash.PackageMetaData'
+[2024.11.29-10.35.03:138][150]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildProps_BigTrash.BP_BuildProps_BigTrash:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildPropsMaster_BigTrash.PackageMetaData'
+[2024.11.29-10.35.03:138][150]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildProps_BigTrash.BP_BuildProps_BigTrash:EventGraph.K2Node_CallParentFunction_0' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildPropsMaster_BigTrash.PackageMetaData'
+[2024.11.29-10.35.03:138][150]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildProps_BigTrash.BP_BuildProps_BigTrash:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildPropsMaster_BigTrash.PackageMetaData'
+[2024.11.29-10.35.03:138][150]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildProps_BigTrash.BP_BuildProps_BigTrash:EventGraph.K2Node_CallParentFunction_1' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildPropsMaster_BigTrash.PackageMetaData'
+[2024.11.29-10.35.03:138][150]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildProps_BigTrash.BP_BuildProps_BigTrash:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildPropsMaster_BigTrash.PackageMetaData'
+[2024.11.29-10.35.03:138][150]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildProps_BigTrash.BP_BuildProps_BigTrash:EventGraph.K2Node_CallParentFunction_2' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildPropsMaster_BigTrash.PackageMetaData'
+[2024.11.29-10.35.03:138][150]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildProps_BigTrash.SKEL_BP_BuildProps_BigTrash_C:ReceiveBeginPlay' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildPropsMaster_BigTrash.PackageMetaData'
+[2024.11.29-10.35.03:138][150]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildProps_BigTrash.SKEL_BP_BuildProps_BigTrash_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildPropsMaster_BigTrash.PackageMetaData'
+[2024.11.29-10.35.03:138][150]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildProps_BigTrash.SKEL_BP_BuildProps_BigTrash_C:ReceiveTick' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildPropsMaster_BigTrash.PackageMetaData'
+[2024.11.29-10.35.03:138][150]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildProps_BigTrash.SKEL_BP_BuildProps_BigTrash_C:UserConstructionScript' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildPropsMaster_BigTrash.PackageMetaData'
+[2024.11.29-10.35.03:203][150]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.29-10.35.03:257][150]LogSavePackage: Moving output files for package: /Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildProps_BigTrash
+[2024.11.29-10.35.03:257][150]LogSavePackage: Moving 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Saved/BP_BuildProps_BigTrash9CFF431248B95EA9D8E8DE9F5A2B0FC1.tmp' to 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Content/Blueprints/Builder/Props/PropsBuilds/BP_BuildProps_BigTrash.uasset'
+[2024.11.29-10.35.03:272][150]LogFileHelpers: InternalPromptForCheckoutAndSave took 68 ms (total: 4.94 sec)
+[2024.11.29-10.35.03:325][150]LogUObjectHash: Compacting FUObjectHashTables data took   3.19ms
+[2024.11.29-10.35.03:367][150]LogUObjectHash: Compacting FUObjectHashTables data took   3.25ms
+[2024.11.29-10.35.03:393][150]LogUObjectHash: Compacting FUObjectHashTables data took   0.95ms
+[2024.11.29-10.35.03:396][150]AssetCheck: New page: Asset Save: BP_BuildProps_BigTrash
+[2024.11.29-10.35.03:396][150]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildProps_BigTrash.BP_BuildProps_BigTrash
+[2024.11.29-10.35.03:396][150]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.29-10.35.11:412][550]LogContentBrowser: Attempting asset rename: BP_BuildPropsMaster_PackOfSoda -> BP_BuildProps_PackOfSoda
+[2024.11.29-10.35.11:460][550]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildProps_PackOfSoda.BP_BuildProps_PackOfSoda:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildPropsMaster_PackOfSoda.PackageMetaData'
+[2024.11.29-10.35.11:460][550]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildProps_PackOfSoda.SKEL_BP_BuildProps_PackOfSoda_C:ReceiveBeginPlay' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildPropsMaster_PackOfSoda.PackageMetaData'
+[2024.11.29-10.35.11:460][550]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildProps_PackOfSoda.SKEL_BP_BuildProps_PackOfSoda_C' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildPropsMaster_PackOfSoda.PackageMetaData'
+[2024.11.29-10.35.11:460][550]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildProps_PackOfSoda.BP_BuildProps_PackOfSoda_C' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildPropsMaster_PackOfSoda.PackageMetaData'
+[2024.11.29-10.35.11:460][550]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildProps_PackOfSoda.BP_BuildProps_PackOfSoda:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildPropsMaster_PackOfSoda.PackageMetaData'
+[2024.11.29-10.35.11:460][550]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildProps_PackOfSoda.BP_BuildProps_PackOfSoda:EventGraph.K2Node_CallParentFunction_0' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildPropsMaster_PackOfSoda.PackageMetaData'
+[2024.11.29-10.35.11:461][550]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildProps_PackOfSoda.BP_BuildProps_PackOfSoda:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildPropsMaster_PackOfSoda.PackageMetaData'
+[2024.11.29-10.35.11:461][550]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildProps_PackOfSoda.BP_BuildProps_PackOfSoda:EventGraph.K2Node_CallParentFunction_1' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildPropsMaster_PackOfSoda.PackageMetaData'
+[2024.11.29-10.35.11:461][550]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildProps_PackOfSoda.BP_BuildProps_PackOfSoda:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildPropsMaster_PackOfSoda.PackageMetaData'
+[2024.11.29-10.35.11:461][550]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildProps_PackOfSoda.BP_BuildProps_PackOfSoda:EventGraph.K2Node_CallParentFunction_2' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildPropsMaster_PackOfSoda.PackageMetaData'
+[2024.11.29-10.35.11:461][550]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildProps_PackOfSoda.SKEL_BP_BuildProps_PackOfSoda_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildPropsMaster_PackOfSoda.PackageMetaData'
+[2024.11.29-10.35.11:461][550]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildProps_PackOfSoda.SKEL_BP_BuildProps_PackOfSoda_C:ReceiveTick' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildPropsMaster_PackOfSoda.PackageMetaData'
+[2024.11.29-10.35.11:461][550]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildProps_PackOfSoda.SKEL_BP_BuildProps_PackOfSoda_C:UserConstructionScript' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildPropsMaster_PackOfSoda.PackageMetaData'
+[2024.11.29-10.35.11:522][550]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.29-10.35.11:570][550]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.29-10.35.11:609][550]LogSavePackage: Moving output files for package: /Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildProps_PackOfSoda
+[2024.11.29-10.35.11:609][550]LogSavePackage: Moving 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Saved/BP_BuildProps_PackOfSoda37E52E574959F16EDAD925A926F7A058.tmp' to 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Content/Blueprints/Builder/Props/PropsBuilds/BP_BuildProps_PackOfSoda.uasset'
+[2024.11.29-10.35.11:626][550]LogFileHelpers: InternalPromptForCheckoutAndSave took 103 ms (total: 5.04 sec)
+[2024.11.29-10.35.11:678][550]LogUObjectHash: Compacting FUObjectHashTables data took   2.79ms
+[2024.11.29-10.35.11:708][550]LogUObjectHash: Compacting FUObjectHashTables data took   2.22ms
+[2024.11.29-10.35.11:736][550]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2024.11.29-10.35.11:739][550]AssetCheck: New page: Asset Save: BP_BuildProps_PackOfSoda
+[2024.11.29-10.35.11:739][550]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildProps_PackOfSoda.BP_BuildProps_PackOfSoda
+[2024.11.29-10.35.19:385][918]LogContentBrowser: Attempting asset rename: BP_BuildPropsMaster_Rack -> BP_BuildProps_Rack
+[2024.11.29-10.35.19:444][918]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildProps_Rack.BP_BuildProps_Rack:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildPropsMaster_Rack.PackageMetaData'
+[2024.11.29-10.35.19:445][918]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildProps_Rack.SKEL_BP_BuildProps_Rack_C' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildPropsMaster_Rack.PackageMetaData'
+[2024.11.29-10.35.19:445][918]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildProps_Rack.BP_BuildProps_Rack_C' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildPropsMaster_Rack.PackageMetaData'
+[2024.11.29-10.35.19:445][918]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildProps_Rack.BP_BuildProps_Rack:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildPropsMaster_Rack.PackageMetaData'
+[2024.11.29-10.35.19:445][918]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildProps_Rack.BP_BuildProps_Rack:EventGraph.K2Node_CallParentFunction_0' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildPropsMaster_Rack.PackageMetaData'
+[2024.11.29-10.35.19:445][918]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildProps_Rack.BP_BuildProps_Rack:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildPropsMaster_Rack.PackageMetaData'
+[2024.11.29-10.35.19:445][918]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildProps_Rack.BP_BuildProps_Rack:EventGraph.K2Node_CallParentFunction_1' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildPropsMaster_Rack.PackageMetaData'
+[2024.11.29-10.35.19:445][918]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildProps_Rack.BP_BuildProps_Rack:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildPropsMaster_Rack.PackageMetaData'
+[2024.11.29-10.35.19:445][918]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildProps_Rack.BP_BuildProps_Rack:EventGraph.K2Node_CallParentFunction_2' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildPropsMaster_Rack.PackageMetaData'
+[2024.11.29-10.35.19:445][918]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildProps_Rack.SKEL_BP_BuildProps_Rack_C:ReceiveBeginPlay' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildPropsMaster_Rack.PackageMetaData'
+[2024.11.29-10.35.19:445][918]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildProps_Rack.SKEL_BP_BuildProps_Rack_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildPropsMaster_Rack.PackageMetaData'
+[2024.11.29-10.35.19:445][918]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildProps_Rack.SKEL_BP_BuildProps_Rack_C:ReceiveTick' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildPropsMaster_Rack.PackageMetaData'
+[2024.11.29-10.35.19:445][918]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildProps_Rack.SKEL_BP_BuildProps_Rack_C:UserConstructionScript' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildPropsMaster_Rack.PackageMetaData'
+[2024.11.29-10.35.19:506][918]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.29-10.35.19:562][918]LogSavePackage: Moving output files for package: /Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildProps_Rack
+[2024.11.29-10.35.19:562][918]LogSavePackage: Moving 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Saved/BP_BuildProps_Rack52E4CF3A42B6B0C27454DAB3AE249E39.tmp' to 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Content/Blueprints/Builder/Props/PropsBuilds/BP_BuildProps_Rack.uasset'
+[2024.11.29-10.35.19:576][918]LogFileHelpers: InternalPromptForCheckoutAndSave took 69 ms (total: 5.11 sec)
+[2024.11.29-10.35.19:618][918]LogUObjectHash: Compacting FUObjectHashTables data took   2.01ms
+[2024.11.29-10.35.19:645][918]LogUObjectHash: Compacting FUObjectHashTables data took   2.17ms
+[2024.11.29-10.35.19:670][918]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2024.11.29-10.35.19:673][918]AssetCheck: New page: Asset Save: BP_BuildProps_Rack
+[2024.11.29-10.35.19:673][918]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildProps_Rack.BP_BuildProps_Rack
+[2024.11.29-10.35.19:673][918]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.29-10.35.29:159][374]LogContentBrowser: Attempting asset rename: BP_BuildPropsMaster_SmallTrash -> BP_BuildProps_SmallTrash
+[2024.11.29-10.35.29:208][374]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildProps_SmallTrash.BP_BuildProps_SmallTrash:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildPropsMaster_SmallTrash.PackageMetaData'
+[2024.11.29-10.35.29:208][374]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildProps_SmallTrash.SKEL_BP_BuildProps_SmallTrash_C' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildPropsMaster_SmallTrash.PackageMetaData'
+[2024.11.29-10.35.29:208][374]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildProps_SmallTrash.BP_BuildProps_SmallTrash_C' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildPropsMaster_SmallTrash.PackageMetaData'
+[2024.11.29-10.35.29:208][374]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildProps_SmallTrash.BP_BuildProps_SmallTrash:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildPropsMaster_SmallTrash.PackageMetaData'
+[2024.11.29-10.35.29:208][374]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildProps_SmallTrash.BP_BuildProps_SmallTrash:EventGraph.K2Node_CallParentFunction_0' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildPropsMaster_SmallTrash.PackageMetaData'
+[2024.11.29-10.35.29:208][374]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildProps_SmallTrash.BP_BuildProps_SmallTrash:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildPropsMaster_SmallTrash.PackageMetaData'
+[2024.11.29-10.35.29:208][374]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildProps_SmallTrash.BP_BuildProps_SmallTrash:EventGraph.K2Node_CallParentFunction_1' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildPropsMaster_SmallTrash.PackageMetaData'
+[2024.11.29-10.35.29:209][374]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildProps_SmallTrash.BP_BuildProps_SmallTrash:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildPropsMaster_SmallTrash.PackageMetaData'
+[2024.11.29-10.35.29:209][374]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildProps_SmallTrash.BP_BuildProps_SmallTrash:EventGraph.K2Node_CallParentFunction_2' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildPropsMaster_SmallTrash.PackageMetaData'
+[2024.11.29-10.35.29:209][374]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildProps_SmallTrash.SKEL_BP_BuildProps_SmallTrash_C:ReceiveBeginPlay' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildPropsMaster_SmallTrash.PackageMetaData'
+[2024.11.29-10.35.29:209][374]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildProps_SmallTrash.SKEL_BP_BuildProps_SmallTrash_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildPropsMaster_SmallTrash.PackageMetaData'
+[2024.11.29-10.35.29:209][374]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildProps_SmallTrash.SKEL_BP_BuildProps_SmallTrash_C:ReceiveTick' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildPropsMaster_SmallTrash.PackageMetaData'
+[2024.11.29-10.35.29:209][374]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildProps_SmallTrash.SKEL_BP_BuildProps_SmallTrash_C:UserConstructionScript' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildPropsMaster_SmallTrash.PackageMetaData'
+[2024.11.29-10.35.29:276][374]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.29-10.35.29:337][374]LogSavePackage: Moving output files for package: /Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildProps_SmallTrash
+[2024.11.29-10.35.29:337][374]LogSavePackage: Moving 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Saved/BP_BuildProps_SmallTrash17FC1F9B48D97BF196D2DE99B704570D.tmp' to 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Content/Blueprints/Builder/Props/PropsBuilds/BP_BuildProps_SmallTrash.uasset'
+[2024.11.29-10.35.29:357][374]LogFileHelpers: InternalPromptForCheckoutAndSave took 80 ms (total: 5.19 sec)
+[2024.11.29-10.35.29:415][374]LogUObjectHash: Compacting FUObjectHashTables data took   2.77ms
+[2024.11.29-10.35.29:449][374]LogUObjectHash: Compacting FUObjectHashTables data took   2.30ms
+[2024.11.29-10.35.29:479][374]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2024.11.29-10.35.29:482][374]AssetCheck: New page: Asset Save: BP_BuildProps_SmallTrash
+[2024.11.29-10.35.29:482][374]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildProps_SmallTrash.BP_BuildProps_SmallTrash
+[2024.11.29-10.35.29:482][374]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.29-10.35.35:046][638]LogContentBrowser: Attempting asset rename: BP_BuildPropsMaster_Stood -> BP_BuildProps_Stood
+[2024.11.29-10.35.35:092][638]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildProps_Stood.BP_BuildProps_Stood:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildPropsMaster_Stood.PackageMetaData'
+[2024.11.29-10.35.35:093][638]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildProps_Stood.SKEL_BP_BuildProps_Stood_C' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildPropsMaster_Stood.PackageMetaData'
+[2024.11.29-10.35.35:093][638]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildProps_Stood.BP_BuildProps_Stood_C' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildPropsMaster_Stood.PackageMetaData'
+[2024.11.29-10.35.35:093][638]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildProps_Stood.BP_BuildProps_Stood:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildPropsMaster_Stood.PackageMetaData'
+[2024.11.29-10.35.35:093][638]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildProps_Stood.BP_BuildProps_Stood:EventGraph.K2Node_CallParentFunction_0' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildPropsMaster_Stood.PackageMetaData'
+[2024.11.29-10.35.35:093][638]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildProps_Stood.BP_BuildProps_Stood:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildPropsMaster_Stood.PackageMetaData'
+[2024.11.29-10.35.35:093][638]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildProps_Stood.BP_BuildProps_Stood:EventGraph.K2Node_CallParentFunction_1' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildPropsMaster_Stood.PackageMetaData'
+[2024.11.29-10.35.35:093][638]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildProps_Stood.BP_BuildProps_Stood:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildPropsMaster_Stood.PackageMetaData'
+[2024.11.29-10.35.35:093][638]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildProps_Stood.BP_BuildProps_Stood:EventGraph.K2Node_CallParentFunction_2' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildPropsMaster_Stood.PackageMetaData'
+[2024.11.29-10.35.35:093][638]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildProps_Stood.SKEL_BP_BuildProps_Stood_C:ReceiveBeginPlay' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildPropsMaster_Stood.PackageMetaData'
+[2024.11.29-10.35.35:093][638]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildProps_Stood.SKEL_BP_BuildProps_Stood_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildPropsMaster_Stood.PackageMetaData'
+[2024.11.29-10.35.35:093][638]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildProps_Stood.SKEL_BP_BuildProps_Stood_C:ReceiveTick' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildPropsMaster_Stood.PackageMetaData'
+[2024.11.29-10.35.35:093][638]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildProps_Stood.SKEL_BP_BuildProps_Stood_C:UserConstructionScript' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildPropsMaster_Stood.PackageMetaData'
+[2024.11.29-10.35.35:152][638]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.29-10.35.35:205][638]LogSavePackage: Moving output files for package: /Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildProps_Stood
+[2024.11.29-10.35.35:205][638]LogSavePackage: Moving 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Saved/BP_BuildProps_Stood0C1CE0034520BAAA08E91CAED58A27AE.tmp' to 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Content/Blueprints/Builder/Props/PropsBuilds/BP_BuildProps_Stood.uasset'
+[2024.11.29-10.35.35:220][638]LogFileHelpers: InternalPromptForCheckoutAndSave took 67 ms (total: 5.26 sec)
+[2024.11.29-10.35.35:262][638]LogUObjectHash: Compacting FUObjectHashTables data took   2.81ms
+[2024.11.29-10.35.35:291][638]LogUObjectHash: Compacting FUObjectHashTables data took   2.85ms
+[2024.11.29-10.35.35:322][638]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2024.11.29-10.35.35:324][638]AssetCheck: New page: Asset Save: BP_BuildProps_Stood
+[2024.11.29-10.35.35:324][638]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildProps_Stood.BP_BuildProps_Stood
+[2024.11.29-10.35.35:325][638]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.29-10.35.40:800][897]LogContentBrowser: Attempting asset rename: BP_BuildPropsMaster_Table -> BP_BuildProps_Table
+[2024.11.29-10.35.40:848][897]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildProps_Table.BP_BuildProps_Table:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildPropsMaster_Table.PackageMetaData'
+[2024.11.29-10.35.40:848][897]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildProps_Table.SKEL_BP_BuildProps_Table_C:ReceiveBeginPlay' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildPropsMaster_Table.PackageMetaData'
+[2024.11.29-10.35.40:848][897]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildProps_Table.SKEL_BP_BuildProps_Table_C' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildPropsMaster_Table.PackageMetaData'
+[2024.11.29-10.35.40:848][897]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildProps_Table.BP_BuildProps_Table_C' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildPropsMaster_Table.PackageMetaData'
+[2024.11.29-10.35.40:848][897]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildProps_Table.BP_BuildProps_Table:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildPropsMaster_Table.PackageMetaData'
+[2024.11.29-10.35.40:848][897]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildProps_Table.BP_BuildProps_Table:EventGraph.K2Node_CallParentFunction_0' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildPropsMaster_Table.PackageMetaData'
+[2024.11.29-10.35.40:848][897]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildProps_Table.BP_BuildProps_Table:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildPropsMaster_Table.PackageMetaData'
+[2024.11.29-10.35.40:848][897]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildProps_Table.BP_BuildProps_Table:EventGraph.K2Node_CallParentFunction_1' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildPropsMaster_Table.PackageMetaData'
+[2024.11.29-10.35.40:848][897]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildProps_Table.BP_BuildProps_Table:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildPropsMaster_Table.PackageMetaData'
+[2024.11.29-10.35.40:848][897]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildProps_Table.BP_BuildProps_Table:EventGraph.K2Node_CallParentFunction_2' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildPropsMaster_Table.PackageMetaData'
+[2024.11.29-10.35.40:848][897]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildProps_Table.SKEL_BP_BuildProps_Table_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildPropsMaster_Table.PackageMetaData'
+[2024.11.29-10.35.40:848][897]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildProps_Table.SKEL_BP_BuildProps_Table_C:ReceiveTick' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildPropsMaster_Table.PackageMetaData'
+[2024.11.29-10.35.40:848][897]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildProps_Table.SKEL_BP_BuildProps_Table_C:UserConstructionScript' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildPropsMaster_Table.PackageMetaData'
+[2024.11.29-10.35.40:908][897]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.29-10.35.40:972][897]LogSavePackage: Moving output files for package: /Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildProps_Table
+[2024.11.29-10.35.40:972][897]LogSavePackage: Moving 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Saved/BP_BuildProps_Table8AC3724F4E2C9D5945EAD4832C039DC3.tmp' to 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Content/Blueprints/Builder/Props/PropsBuilds/BP_BuildProps_Table.uasset'
+[2024.11.29-10.35.40:988][897]LogFileHelpers: InternalPromptForCheckoutAndSave took 79 ms (total: 5.34 sec)
+[2024.11.29-10.35.41:032][897]LogUObjectHash: Compacting FUObjectHashTables data took   2.62ms
+[2024.11.29-10.35.41:064][897]LogUObjectHash: Compacting FUObjectHashTables data took   2.78ms
+[2024.11.29-10.35.41:098][897]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2024.11.29-10.35.41:101][897]AssetCheck: New page: Asset Save: BP_BuildProps_Table
+[2024.11.29-10.35.41:101][897]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildProps_Table.BP_BuildProps_Table
+[2024.11.29-10.35.41:101][897]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.29-10.35.50:879][320]LogContentBrowser: Attempting asset rename: BP_BuildPropsMaster_Television -> BP_BuildProps_Television
+[2024.11.29-10.35.50:926][320]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildProps_Television.BP_BuildProps_Television_C' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildPropsMaster_Television.PackageMetaData'
+[2024.11.29-10.35.50:926][320]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildProps_Television.SKEL_BP_BuildProps_Television_C' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildPropsMaster_Television.PackageMetaData'
+[2024.11.29-10.35.50:926][320]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildProps_Television.SKEL_BP_BuildProps_Television_C:ReceiveBeginPlay' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildPropsMaster_Television.PackageMetaData'
+[2024.11.29-10.35.50:926][320]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildProps_Television.BP_BuildProps_Television:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildPropsMaster_Television.PackageMetaData'
+[2024.11.29-10.35.50:926][320]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildProps_Television.BP_BuildProps_Television:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildPropsMaster_Television.PackageMetaData'
+[2024.11.29-10.35.50:926][320]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildProps_Television.BP_BuildProps_Television:EventGraph.K2Node_CallParentFunction_0' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildPropsMaster_Television.PackageMetaData'
+[2024.11.29-10.35.50:926][320]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildProps_Television.BP_BuildProps_Television:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildPropsMaster_Television.PackageMetaData'
+[2024.11.29-10.35.50:926][320]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildProps_Television.BP_BuildProps_Television:EventGraph.K2Node_CallParentFunction_1' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildPropsMaster_Television.PackageMetaData'
+[2024.11.29-10.35.50:926][320]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildProps_Television.BP_BuildProps_Television:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildPropsMaster_Television.PackageMetaData'
+[2024.11.29-10.35.50:926][320]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildProps_Television.BP_BuildProps_Television:EventGraph.K2Node_CallParentFunction_2' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildPropsMaster_Television.PackageMetaData'
+[2024.11.29-10.35.50:926][320]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildProps_Television.SKEL_BP_BuildProps_Television_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildPropsMaster_Television.PackageMetaData'
+[2024.11.29-10.35.50:926][320]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildProps_Television.SKEL_BP_BuildProps_Television_C:ReceiveTick' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildPropsMaster_Television.PackageMetaData'
+[2024.11.29-10.35.50:926][320]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildProps_Television.SKEL_BP_BuildProps_Television_C:UserConstructionScript' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildPropsMaster_Television.PackageMetaData'
+[2024.11.29-10.35.50:985][320]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.29-10.35.51:039][320]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.29-10.35.51:073][320]LogSavePackage: Moving output files for package: /Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildProps_Television
+[2024.11.29-10.35.51:073][320]LogSavePackage: Moving 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Saved/BP_BuildProps_TelevisionFD6B794A4D404FCB0D6852BCC38D23CB.tmp' to 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Content/Blueprints/Builder/Props/PropsBuilds/BP_BuildProps_Television.uasset'
+[2024.11.29-10.35.51:090][320]LogFileHelpers: InternalPromptForCheckoutAndSave took 104 ms (total: 5.44 sec)
+[2024.11.29-10.35.51:181][320]LogUObjectHash: Compacting FUObjectHashTables data took   2.71ms
+[2024.11.29-10.35.51:214][320]LogUObjectHash: Compacting FUObjectHashTables data took   2.66ms
+[2024.11.29-10.35.51:245][320]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2024.11.29-10.35.51:248][320]AssetCheck: New page: Asset Save: BP_BuildProps_Television
+[2024.11.29-10.35.51:248][320]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Builder/Props/PropsBuilds/BP_BuildProps_Television.BP_BuildProps_Television
+[2024.11.29-10.36.28:517][949]LogContentBrowser: Attempting asset rename: BP_BuildPropsPreviewMaster_Television -> BP_BuildPropsPreview_Television
+[2024.11.29-10.36.28:565][949]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreview_Television.BP_BuildPropsPreview_Television:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreviewMaster_Television.PackageMetaData'
+[2024.11.29-10.36.28:565][949]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreview_Television.SKEL_BP_BuildPropsPreview_Television_C' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreviewMaster_Television.PackageMetaData'
+[2024.11.29-10.36.28:565][949]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreview_Television.BP_BuildPropsPreview_Television_C' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreviewMaster_Television.PackageMetaData'
+[2024.11.29-10.36.28:565][949]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreview_Television.BP_BuildPropsPreview_Television:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreviewMaster_Television.PackageMetaData'
+[2024.11.29-10.36.28:565][949]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreview_Television.BP_BuildPropsPreview_Television:EventGraph.K2Node_CallParentFunction_0' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreviewMaster_Television.PackageMetaData'
+[2024.11.29-10.36.28:565][949]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreview_Television.BP_BuildPropsPreview_Television:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreviewMaster_Television.PackageMetaData'
+[2024.11.29-10.36.28:565][949]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreview_Television.BP_BuildPropsPreview_Television:EventGraph.K2Node_CallParentFunction_1' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreviewMaster_Television.PackageMetaData'
+[2024.11.29-10.36.28:565][949]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreview_Television.BP_BuildPropsPreview_Television:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreviewMaster_Television.PackageMetaData'
+[2024.11.29-10.36.28:565][949]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreview_Television.BP_BuildPropsPreview_Television:EventGraph.K2Node_CallParentFunction_2' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreviewMaster_Television.PackageMetaData'
+[2024.11.29-10.36.28:565][949]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreview_Television.SKEL_BP_BuildPropsPreview_Television_C:ReceiveBeginPlay' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreviewMaster_Television.PackageMetaData'
+[2024.11.29-10.36.28:565][949]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreview_Television.SKEL_BP_BuildPropsPreview_Television_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreviewMaster_Television.PackageMetaData'
+[2024.11.29-10.36.28:565][949]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreview_Television.SKEL_BP_BuildPropsPreview_Television_C:ReceiveTick' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreviewMaster_Television.PackageMetaData'
+[2024.11.29-10.36.28:565][949]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreview_Television.SKEL_BP_BuildPropsPreview_Television_C:UserConstructionScript' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreviewMaster_Television.PackageMetaData'
+[2024.11.29-10.36.28:626][949]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.29-10.36.28:683][949]LogSavePackage: Moving output files for package: /Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreview_Television
+[2024.11.29-10.36.28:683][949]LogSavePackage: Moving 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Saved/BP_BuildPropsPreview_TelevisionA096885B4DBFA33794950597B63FF4E6.tmp' to 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Content/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreview_Television.uasset'
+[2024.11.29-10.36.28:701][949]LogFileHelpers: InternalPromptForCheckoutAndSave took 74 ms (total: 5.52 sec)
+[2024.11.29-10.36.28:749][949]LogUObjectHash: Compacting FUObjectHashTables data took   2.93ms
+[2024.11.29-10.36.28:787][949]LogUObjectHash: Compacting FUObjectHashTables data took   4.43ms
+[2024.11.29-10.36.28:815][949]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2024.11.29-10.36.28:818][949]AssetCheck: New page: Asset Save: BP_BuildPropsPreview_Television
+[2024.11.29-10.36.28:818][949]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreview_Television.BP_BuildPropsPreview_Television
+[2024.11.29-10.36.28:818][949]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.29-10.36.36:457][309]LogContentBrowser: Attempting asset rename: BP_BuildPropsPreviewMaster_Table -> BP_BuildPropsPreview_Table
+[2024.11.29-10.36.36:505][309]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreview_Table.BP_BuildPropsPreview_Table:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreviewMaster_Table.PackageMetaData'
+[2024.11.29-10.36.36:505][309]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreview_Table.SKEL_BP_BuildPropsPreview_Table_C' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreviewMaster_Table.PackageMetaData'
+[2024.11.29-10.36.36:505][309]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreview_Table.BP_BuildPropsPreview_Table_C' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreviewMaster_Table.PackageMetaData'
+[2024.11.29-10.36.36:505][309]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreview_Table.BP_BuildPropsPreview_Table:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreviewMaster_Table.PackageMetaData'
+[2024.11.29-10.36.36:505][309]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreview_Table.BP_BuildPropsPreview_Table:EventGraph.K2Node_CallParentFunction_0' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreviewMaster_Table.PackageMetaData'
+[2024.11.29-10.36.36:505][309]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreview_Table.BP_BuildPropsPreview_Table:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreviewMaster_Table.PackageMetaData'
+[2024.11.29-10.36.36:506][309]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreview_Table.BP_BuildPropsPreview_Table:EventGraph.K2Node_CallParentFunction_1' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreviewMaster_Table.PackageMetaData'
+[2024.11.29-10.36.36:506][309]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreview_Table.BP_BuildPropsPreview_Table:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreviewMaster_Table.PackageMetaData'
+[2024.11.29-10.36.36:506][309]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreview_Table.BP_BuildPropsPreview_Table:EventGraph.K2Node_CallParentFunction_2' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreviewMaster_Table.PackageMetaData'
+[2024.11.29-10.36.36:506][309]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreview_Table.SKEL_BP_BuildPropsPreview_Table_C:ReceiveBeginPlay' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreviewMaster_Table.PackageMetaData'
+[2024.11.29-10.36.36:506][309]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreview_Table.SKEL_BP_BuildPropsPreview_Table_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreviewMaster_Table.PackageMetaData'
+[2024.11.29-10.36.36:506][309]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreview_Table.SKEL_BP_BuildPropsPreview_Table_C:ReceiveTick' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreviewMaster_Table.PackageMetaData'
+[2024.11.29-10.36.36:506][309]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreview_Table.SKEL_BP_BuildPropsPreview_Table_C:UserConstructionScript' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreviewMaster_Table.PackageMetaData'
+[2024.11.29-10.36.36:564][309]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.29-10.36.36:617][309]LogSavePackage: Moving output files for package: /Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreview_Table
+[2024.11.29-10.36.36:617][309]LogSavePackage: Moving 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Saved/BP_BuildPropsPreview_TableCA2154AE453E5B4A608214A11C7EFB07.tmp' to 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Content/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreview_Table.uasset'
+[2024.11.29-10.36.36:635][309]LogFileHelpers: InternalPromptForCheckoutAndSave took 70 ms (total: 5.59 sec)
+[2024.11.29-10.36.36:689][309]LogUObjectHash: Compacting FUObjectHashTables data took   4.68ms
+[2024.11.29-10.36.36:720][309]LogUObjectHash: Compacting FUObjectHashTables data took   2.07ms
+[2024.11.29-10.36.36:748][309]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2024.11.29-10.36.36:751][309]AssetCheck: New page: Asset Save: BP_BuildPropsPreview_Table
+[2024.11.29-10.36.36:751][309]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreview_Table.BP_BuildPropsPreview_Table
+[2024.11.29-10.36.36:751][309]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.29-10.36.43:264][606]LogContentBrowser: Attempting asset rename: BP_BuildPropsPreviewMaster_Stood -> BP_BuildPropsPreview_Stood
+[2024.11.29-10.36.43:313][606]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreview_Stood.BP_BuildPropsPreview_Stood:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreviewMaster_Stood.PackageMetaData'
+[2024.11.29-10.36.43:313][606]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreview_Stood.SKEL_BP_BuildPropsPreview_Stood_C' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreviewMaster_Stood.PackageMetaData'
+[2024.11.29-10.36.43:314][606]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreview_Stood.BP_BuildPropsPreview_Stood_C' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreviewMaster_Stood.PackageMetaData'
+[2024.11.29-10.36.43:314][606]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreview_Stood.BP_BuildPropsPreview_Stood:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreviewMaster_Stood.PackageMetaData'
+[2024.11.29-10.36.43:314][606]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreview_Stood.BP_BuildPropsPreview_Stood:EventGraph.K2Node_CallParentFunction_0' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreviewMaster_Stood.PackageMetaData'
+[2024.11.29-10.36.43:314][606]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreview_Stood.BP_BuildPropsPreview_Stood:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreviewMaster_Stood.PackageMetaData'
+[2024.11.29-10.36.43:314][606]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreview_Stood.BP_BuildPropsPreview_Stood:EventGraph.K2Node_CallParentFunction_1' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreviewMaster_Stood.PackageMetaData'
+[2024.11.29-10.36.43:314][606]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreview_Stood.BP_BuildPropsPreview_Stood:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreviewMaster_Stood.PackageMetaData'
+[2024.11.29-10.36.43:314][606]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreview_Stood.BP_BuildPropsPreview_Stood:EventGraph.K2Node_CallParentFunction_2' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreviewMaster_Stood.PackageMetaData'
+[2024.11.29-10.36.43:314][606]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreview_Stood.SKEL_BP_BuildPropsPreview_Stood_C:ReceiveBeginPlay' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreviewMaster_Stood.PackageMetaData'
+[2024.11.29-10.36.43:314][606]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreview_Stood.SKEL_BP_BuildPropsPreview_Stood_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreviewMaster_Stood.PackageMetaData'
+[2024.11.29-10.36.43:314][606]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreview_Stood.SKEL_BP_BuildPropsPreview_Stood_C:ReceiveTick' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreviewMaster_Stood.PackageMetaData'
+[2024.11.29-10.36.43:314][606]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreview_Stood.SKEL_BP_BuildPropsPreview_Stood_C:UserConstructionScript' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreviewMaster_Stood.PackageMetaData'
+[2024.11.29-10.36.43:374][606]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.29-10.36.43:425][606]LogSavePackage: Moving output files for package: /Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreview_Stood
+[2024.11.29-10.36.43:425][606]LogSavePackage: Moving 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Saved/BP_BuildPropsPreview_Stood7F31F94C4D969D9029BA64845644EE22.tmp' to 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Content/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreview_Stood.uasset'
+[2024.11.29-10.36.43:439][606]LogFileHelpers: InternalPromptForCheckoutAndSave took 64 ms (total: 5.65 sec)
+[2024.11.29-10.36.43:478][606]LogUObjectHash: Compacting FUObjectHashTables data took   2.49ms
+[2024.11.29-10.36.43:506][606]LogUObjectHash: Compacting FUObjectHashTables data took   2.10ms
+[2024.11.29-10.36.43:533][606]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2024.11.29-10.36.43:536][606]AssetCheck: New page: Asset Save: BP_BuildPropsPreview_Stood
+[2024.11.29-10.36.43:536][606]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreview_Stood.BP_BuildPropsPreview_Stood
+[2024.11.29-10.36.43:536][606]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.29-10.36.50:562][938]LogContentBrowser: Attempting asset rename: BP_BuildPropsPreviewMaster_SmallTrash -> BP_BuildPropsPreview_SmallTrash
+[2024.11.29-10.36.50:613][938]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreview_SmallTrash.BP_BuildPropsPreview_SmallTrash:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreviewMaster_SmallTrash.PackageMetaData'
+[2024.11.29-10.36.50:613][938]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreview_SmallTrash.SKEL_BP_BuildPropsPreview_SmallTrash_C' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreviewMaster_SmallTrash.PackageMetaData'
+[2024.11.29-10.36.50:613][938]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreview_SmallTrash.BP_BuildPropsPreview_SmallTrash_C' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreviewMaster_SmallTrash.PackageMetaData'
+[2024.11.29-10.36.50:613][938]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreview_SmallTrash.BP_BuildPropsPreview_SmallTrash:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreviewMaster_SmallTrash.PackageMetaData'
+[2024.11.29-10.36.50:613][938]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreview_SmallTrash.BP_BuildPropsPreview_SmallTrash:EventGraph.K2Node_CallParentFunction_0' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreviewMaster_SmallTrash.PackageMetaData'
+[2024.11.29-10.36.50:613][938]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreview_SmallTrash.BP_BuildPropsPreview_SmallTrash:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreviewMaster_SmallTrash.PackageMetaData'
+[2024.11.29-10.36.50:613][938]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreview_SmallTrash.BP_BuildPropsPreview_SmallTrash:EventGraph.K2Node_CallParentFunction_1' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreviewMaster_SmallTrash.PackageMetaData'
+[2024.11.29-10.36.50:613][938]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreview_SmallTrash.BP_BuildPropsPreview_SmallTrash:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreviewMaster_SmallTrash.PackageMetaData'
+[2024.11.29-10.36.50:613][938]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreview_SmallTrash.BP_BuildPropsPreview_SmallTrash:EventGraph.K2Node_CallParentFunction_2' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreviewMaster_SmallTrash.PackageMetaData'
+[2024.11.29-10.36.50:613][938]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreview_SmallTrash.SKEL_BP_BuildPropsPreview_SmallTrash_C:ReceiveBeginPlay' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreviewMaster_SmallTrash.PackageMetaData'
+[2024.11.29-10.36.50:613][938]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreview_SmallTrash.SKEL_BP_BuildPropsPreview_SmallTrash_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreviewMaster_SmallTrash.PackageMetaData'
+[2024.11.29-10.36.50:613][938]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreview_SmallTrash.SKEL_BP_BuildPropsPreview_SmallTrash_C:ReceiveTick' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreviewMaster_SmallTrash.PackageMetaData'
+[2024.11.29-10.36.50:613][938]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreview_SmallTrash.SKEL_BP_BuildPropsPreview_SmallTrash_C:UserConstructionScript' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreviewMaster_SmallTrash.PackageMetaData'
+[2024.11.29-10.36.50:673][938]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.29-10.36.50:734][938]LogSavePackage: Moving output files for package: /Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreview_SmallTrash
+[2024.11.29-10.36.50:734][938]LogSavePackage: Moving 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Saved/BP_BuildPropsPreview_SmallTrash6DC442514010309F0F28B0A4AD955A69.tmp' to 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Content/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreview_SmallTrash.uasset'
+[2024.11.29-10.36.50:749][938]LogFileHelpers: InternalPromptForCheckoutAndSave took 76 ms (total: 5.73 sec)
+[2024.11.29-10.36.50:795][938]LogUObjectHash: Compacting FUObjectHashTables data took   2.51ms
+[2024.11.29-10.36.50:823][938]LogUObjectHash: Compacting FUObjectHashTables data took   2.16ms
+[2024.11.29-10.36.50:852][938]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2024.11.29-10.36.50:855][938]AssetCheck: New page: Asset Save: BP_BuildPropsPreview_SmallTrash
+[2024.11.29-10.36.50:855][938]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreview_SmallTrash.BP_BuildPropsPreview_SmallTrash
+[2024.11.29-10.36.50:856][938]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.29-10.37.02:275][402]LogContentBrowser: Attempting asset rename: BP_BuildPropsPreviewMaster_Rack -> BP_BuildPropsPreview_Rack
+[2024.11.29-10.37.02:324][402]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreview_Rack.BP_BuildPropsPreview_Rack:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreviewMaster_Rack.PackageMetaData'
+[2024.11.29-10.37.02:324][402]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreview_Rack.SKEL_BP_BuildPropsPreview_Rack_C' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreviewMaster_Rack.PackageMetaData'
+[2024.11.29-10.37.02:324][402]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreview_Rack.BP_BuildPropsPreview_Rack_C' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreviewMaster_Rack.PackageMetaData'
+[2024.11.29-10.37.02:324][402]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreview_Rack.BP_BuildPropsPreview_Rack:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreviewMaster_Rack.PackageMetaData'
+[2024.11.29-10.37.02:324][402]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreview_Rack.BP_BuildPropsPreview_Rack:EventGraph.K2Node_CallParentFunction_0' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreviewMaster_Rack.PackageMetaData'
+[2024.11.29-10.37.02:324][402]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreview_Rack.BP_BuildPropsPreview_Rack:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreviewMaster_Rack.PackageMetaData'
+[2024.11.29-10.37.02:324][402]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreview_Rack.BP_BuildPropsPreview_Rack:EventGraph.K2Node_CallParentFunction_1' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreviewMaster_Rack.PackageMetaData'
+[2024.11.29-10.37.02:324][402]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreview_Rack.BP_BuildPropsPreview_Rack:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreviewMaster_Rack.PackageMetaData'
+[2024.11.29-10.37.02:324][402]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreview_Rack.BP_BuildPropsPreview_Rack:EventGraph.K2Node_CallParentFunction_2' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreviewMaster_Rack.PackageMetaData'
+[2024.11.29-10.37.02:324][402]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreview_Rack.SKEL_BP_BuildPropsPreview_Rack_C:ReceiveBeginPlay' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreviewMaster_Rack.PackageMetaData'
+[2024.11.29-10.37.02:324][402]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreview_Rack.SKEL_BP_BuildPropsPreview_Rack_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreviewMaster_Rack.PackageMetaData'
+[2024.11.29-10.37.02:324][402]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreview_Rack.SKEL_BP_BuildPropsPreview_Rack_C:ReceiveTick' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreviewMaster_Rack.PackageMetaData'
+[2024.11.29-10.37.02:324][402]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreview_Rack.SKEL_BP_BuildPropsPreview_Rack_C:UserConstructionScript' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreviewMaster_Rack.PackageMetaData'
+[2024.11.29-10.37.02:387][402]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.29-10.37.02:442][402]LogSavePackage: Moving output files for package: /Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreview_Rack
+[2024.11.29-10.37.02:443][402]LogSavePackage: Moving 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Saved/BP_BuildPropsPreview_RackCD76E9D5417C8449DD7E088CAC755D09.tmp' to 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Content/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreview_Rack.uasset'
+[2024.11.29-10.37.02:459][402]LogFileHelpers: InternalPromptForCheckoutAndSave took 72 ms (total: 5.80 sec)
+[2024.11.29-10.37.02:514][402]LogUObjectHash: Compacting FUObjectHashTables data took   2.83ms
+[2024.11.29-10.37.02:544][402]LogUObjectHash: Compacting FUObjectHashTables data took   2.17ms
+[2024.11.29-10.37.02:572][402]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2024.11.29-10.37.02:575][402]AssetCheck: New page: Asset Save: BP_BuildPropsPreview_Rack
+[2024.11.29-10.37.02:575][402]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreview_Rack.BP_BuildPropsPreview_Rack
+[2024.11.29-10.37.02:575][402]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.29-10.37.13:919][951]LogContentBrowser: Attempting asset rename: BP_BuildPropsPreviewMaster_PackOfSoda -> BP_BuildPropsPreview_PackOfSoda
+[2024.11.29-10.37.13:966][951]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreview_PackOfSoda.BP_BuildPropsPreview_PackOfSoda:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreviewMaster_PackOfSoda.PackageMetaData'
+[2024.11.29-10.37.13:967][951]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreview_PackOfSoda.SKEL_BP_BuildPropsPreview_PackOfSoda_C:ReceiveBeginPlay' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreviewMaster_PackOfSoda.PackageMetaData'
+[2024.11.29-10.37.13:967][951]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreview_PackOfSoda.SKEL_BP_BuildPropsPreview_PackOfSoda_C' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreviewMaster_PackOfSoda.PackageMetaData'
+[2024.11.29-10.37.13:967][951]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreview_PackOfSoda.BP_BuildPropsPreview_PackOfSoda_C' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreviewMaster_PackOfSoda.PackageMetaData'
+[2024.11.29-10.37.13:967][951]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreview_PackOfSoda.BP_BuildPropsPreview_PackOfSoda:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreviewMaster_PackOfSoda.PackageMetaData'
+[2024.11.29-10.37.13:967][951]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreview_PackOfSoda.BP_BuildPropsPreview_PackOfSoda:EventGraph.K2Node_CallParentFunction_0' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreviewMaster_PackOfSoda.PackageMetaData'
+[2024.11.29-10.37.13:967][951]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreview_PackOfSoda.BP_BuildPropsPreview_PackOfSoda:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreviewMaster_PackOfSoda.PackageMetaData'
+[2024.11.29-10.37.13:967][951]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreview_PackOfSoda.BP_BuildPropsPreview_PackOfSoda:EventGraph.K2Node_CallParentFunction_1' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreviewMaster_PackOfSoda.PackageMetaData'
+[2024.11.29-10.37.13:967][951]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreview_PackOfSoda.BP_BuildPropsPreview_PackOfSoda:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreviewMaster_PackOfSoda.PackageMetaData'
+[2024.11.29-10.37.13:967][951]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreview_PackOfSoda.BP_BuildPropsPreview_PackOfSoda:EventGraph.K2Node_CallParentFunction_2' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreviewMaster_PackOfSoda.PackageMetaData'
+[2024.11.29-10.37.13:967][951]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreview_PackOfSoda.SKEL_BP_BuildPropsPreview_PackOfSoda_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreviewMaster_PackOfSoda.PackageMetaData'
+[2024.11.29-10.37.13:967][951]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreview_PackOfSoda.SKEL_BP_BuildPropsPreview_PackOfSoda_C:ReceiveTick' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreviewMaster_PackOfSoda.PackageMetaData'
+[2024.11.29-10.37.13:967][951]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreview_PackOfSoda.SKEL_BP_BuildPropsPreview_PackOfSoda_C:UserConstructionScript' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreviewMaster_PackOfSoda.PackageMetaData'
+[2024.11.29-10.37.14:026][951]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.29-10.37.14:080][951]LogSavePackage: Moving output files for package: /Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreview_PackOfSoda
+[2024.11.29-10.37.14:081][951]LogSavePackage: Moving 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Saved/BP_BuildPropsPreview_PackOfSoda13B579644D2E196CE0F7C581F0FA94CE.tmp' to 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Content/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreview_PackOfSoda.uasset'
+[2024.11.29-10.37.14:098][951]LogFileHelpers: InternalPromptForCheckoutAndSave took 71 ms (total: 5.87 sec)
+[2024.11.29-10.37.14:146][951]LogUObjectHash: Compacting FUObjectHashTables data took   2.54ms
+[2024.11.29-10.37.14:183][951]LogUObjectHash: Compacting FUObjectHashTables data took   8.25ms
+[2024.11.29-10.37.14:216][951]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2024.11.29-10.37.14:218][951]AssetCheck: New page: Asset Save: BP_BuildPropsPreview_PackOfSoda
+[2024.11.29-10.37.14:218][951]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreview_PackOfSoda.BP_BuildPropsPreview_PackOfSoda
+[2024.11.29-10.37.14:218][951]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.29-10.37.22:633][340]LogContentBrowser: Attempting asset rename: BP_BuildPropsPreviewMaster_BigTrash -> BP_BuildPropsPreview_BigTrash
+[2024.11.29-10.37.22:681][340]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreview_BigTrash.BP_BuildPropsPreview_BigTrash_C' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreviewMaster_BigTrash.PackageMetaData'
+[2024.11.29-10.37.22:681][340]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreview_BigTrash.SKEL_BP_BuildPropsPreview_BigTrash_C' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreviewMaster_BigTrash.PackageMetaData'
+[2024.11.29-10.37.22:681][340]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreview_BigTrash.BP_BuildPropsPreview_BigTrash:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreviewMaster_BigTrash.PackageMetaData'
+[2024.11.29-10.37.22:681][340]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreview_BigTrash.BP_BuildPropsPreview_BigTrash:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreviewMaster_BigTrash.PackageMetaData'
+[2024.11.29-10.37.22:681][340]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreview_BigTrash.BP_BuildPropsPreview_BigTrash:EventGraph.K2Node_CallParentFunction_0' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreviewMaster_BigTrash.PackageMetaData'
+[2024.11.29-10.37.22:681][340]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreview_BigTrash.BP_BuildPropsPreview_BigTrash:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreviewMaster_BigTrash.PackageMetaData'
+[2024.11.29-10.37.22:681][340]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreview_BigTrash.BP_BuildPropsPreview_BigTrash:EventGraph.K2Node_CallParentFunction_1' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreviewMaster_BigTrash.PackageMetaData'
+[2024.11.29-10.37.22:681][340]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreview_BigTrash.BP_BuildPropsPreview_BigTrash:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreviewMaster_BigTrash.PackageMetaData'
+[2024.11.29-10.37.22:681][340]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreview_BigTrash.BP_BuildPropsPreview_BigTrash:EventGraph.K2Node_CallParentFunction_2' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreviewMaster_BigTrash.PackageMetaData'
+[2024.11.29-10.37.22:681][340]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreview_BigTrash.SKEL_BP_BuildPropsPreview_BigTrash_C:ReceiveBeginPlay' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreviewMaster_BigTrash.PackageMetaData'
+[2024.11.29-10.37.22:681][340]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreview_BigTrash.SKEL_BP_BuildPropsPreview_BigTrash_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreviewMaster_BigTrash.PackageMetaData'
+[2024.11.29-10.37.22:681][340]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreview_BigTrash.SKEL_BP_BuildPropsPreview_BigTrash_C:ReceiveTick' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreviewMaster_BigTrash.PackageMetaData'
+[2024.11.29-10.37.22:681][340]LogMetaData: Removing '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreview_BigTrash.SKEL_BP_BuildPropsPreview_BigTrash_C:UserConstructionScript' ref from Metadata '/Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreviewMaster_BigTrash.PackageMetaData'
+[2024.11.29-10.37.22:742][340]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.29-10.37.22:797][340]LogSavePackage: Moving output files for package: /Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreview_BigTrash
+[2024.11.29-10.37.22:797][340]LogSavePackage: Moving 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Saved/BP_BuildPropsPreview_BigTrashCD977F744A878D36E8B611B9A204E0AD.tmp' to 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Content/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreview_BigTrash.uasset'
+[2024.11.29-10.37.22:817][340]LogFileHelpers: InternalPromptForCheckoutAndSave took 74 ms (total: 5.95 sec)
+[2024.11.29-10.37.22:861][340]LogUObjectHash: Compacting FUObjectHashTables data took   2.26ms
+[2024.11.29-10.37.22:892][340]LogUObjectHash: Compacting FUObjectHashTables data took   2.31ms
+[2024.11.29-10.37.22:919][340]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2024.11.29-10.37.22:922][340]AssetCheck: New page: Asset Save: BP_BuildPropsPreview_BigTrash
+[2024.11.29-10.37.22:922][340]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Builder/Props/PropsBuildsPreview/BP_BuildPropsPreview_BigTrash.BP_BuildPropsPreview_BigTrash
+[2024.11.29-10.37.22:923][340]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2024.11.29-10.37.22:923][340]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.29-10.37.22:929][340]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2024.11.29-10.37.22:929][340]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.29-10.37.22:934][340]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2024.11.29-10.37.22:934][340]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.29-10.37.22:940][340]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2024.11.29-10.37.22:940][340]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.29-10.37.22:945][340]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2024.11.29-10.37.22:945][340]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.29-10.37.22:950][340]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2024.11.29-10.37.22:950][340]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.29-10.37.22:955][340]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2024.11.29-10.37.22:955][340]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.29-10.37.22:959][340]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2024.11.29-10.37.22:959][340]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.29-10.37.22:964][340]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2024.11.29-10.37.22:964][340]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.29-10.37.22:969][340]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2024.11.29-10.37.22:969][340]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.29-10.37.22:974][340]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2024.11.29-10.37.22:974][340]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.29-10.37.22:979][340]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2024.11.29-10.37.22:980][340]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.29-10.37.22:985][340]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2024.11.29-10.37.22:985][340]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.29-10.37.22:990][340]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2024.11.29-10.37.22:990][340]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.29-10.37.22:997][340]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2024.11.29-10.37.22:997][340]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.29-10.37.23:002][340]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2024.11.29-10.37.23:002][340]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.29-10.37.23:009][340]LogWorld: UWorld::CleanupWorld for World_20, bSessionEnded=true, bCleanupResources=true
+[2024.11.29-10.37.23:009][340]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.29-10.37.23:014][340]LogWorld: UWorld::CleanupWorld for World_21, bSessionEnded=true, bCleanupResources=true
+[2024.11.29-10.37.23:014][340]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.29-10.37.23:020][340]LogWorld: UWorld::CleanupWorld for World_22, bSessionEnded=true, bCleanupResources=true
+[2024.11.29-10.37.23:020][340]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.29-10.37.23:027][340]LogWorld: UWorld::CleanupWorld for World_23, bSessionEnded=true, bCleanupResources=true
+[2024.11.29-10.37.23:027][340]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.29-10.37.23:031][340]LogWorld: UWorld::CleanupWorld for World_24, bSessionEnded=true, bCleanupResources=true
+[2024.11.29-10.37.23:031][340]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.29-10.37.23:036][340]LogWorld: UWorld::CleanupWorld for World_25, bSessionEnded=true, bCleanupResources=true
+[2024.11.29-10.37.23:036][340]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.29-10.37.23:041][340]LogWorld: UWorld::CleanupWorld for World_26, bSessionEnded=true, bCleanupResources=true
+[2024.11.29-10.37.23:041][340]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.29-10.37.23:046][340]LogWorld: UWorld::CleanupWorld for World_27, bSessionEnded=true, bCleanupResources=true
+[2024.11.29-10.37.23:046][340]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.29-10.37.23:051][340]LogWorld: UWorld::CleanupWorld for World_28, bSessionEnded=true, bCleanupResources=true
+[2024.11.29-10.37.23:051][340]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.29-10.37.23:056][340]LogWorld: UWorld::CleanupWorld for World_29, bSessionEnded=true, bCleanupResources=true
+[2024.11.29-10.37.23:056][340]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.29-10.37.23:061][340]LogWorld: UWorld::CleanupWorld for World_30, bSessionEnded=true, bCleanupResources=true
+[2024.11.29-10.37.23:061][340]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.29-10.37.23:066][340]LogWorld: UWorld::CleanupWorld for World_31, bSessionEnded=true, bCleanupResources=true
+[2024.11.29-10.37.23:066][340]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.29-10.37.23:071][340]LogWorld: UWorld::CleanupWorld for World_32, bSessionEnded=true, bCleanupResources=true
+[2024.11.29-10.37.23:071][340]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.29-10.37.23:077][340]LogWorld: UWorld::CleanupWorld for World_33, bSessionEnded=true, bCleanupResources=true
+[2024.11.29-10.37.23:077][340]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.29-10.37.23:082][340]LogWorld: UWorld::CleanupWorld for World_34, bSessionEnded=true, bCleanupResources=true
+[2024.11.29-10.37.23:082][340]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.29-10.37.23:088][340]LogWorld: UWorld::CleanupWorld for World_35, bSessionEnded=true, bCleanupResources=true
+[2024.11.29-10.37.23:088][340]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.29-10.37.23:093][340]LogWorld: UWorld::CleanupWorld for World_36, bSessionEnded=true, bCleanupResources=true
+[2024.11.29-10.37.23:093][340]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.29-10.37.23:098][340]LogWorld: UWorld::CleanupWorld for World_37, bSessionEnded=true, bCleanupResources=true
+[2024.11.29-10.37.23:098][340]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.29-10.37.23:104][340]LogWorld: UWorld::CleanupWorld for World_38, bSessionEnded=true, bCleanupResources=true
+[2024.11.29-10.37.23:104][340]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.29-10.37.23:108][340]LogWorld: UWorld::CleanupWorld for World_40, bSessionEnded=true, bCleanupResources=true
+[2024.11.29-10.37.23:109][340]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.29-10.37.23:113][340]LogWorld: UWorld::CleanupWorld for World_41, bSessionEnded=true, bCleanupResources=true
+[2024.11.29-10.37.23:113][340]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.29-10.37.23:118][340]LogWorld: UWorld::CleanupWorld for World_42, bSessionEnded=true, bCleanupResources=true
+[2024.11.29-10.37.23:118][340]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.29-10.37.23:123][340]LogWorld: UWorld::CleanupWorld for World_43, bSessionEnded=true, bCleanupResources=true
+[2024.11.29-10.37.23:123][340]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.29-10.37.23:128][340]LogWorld: UWorld::CleanupWorld for World_44, bSessionEnded=true, bCleanupResources=true
+[2024.11.29-10.37.23:128][340]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.29-10.37.23:133][340]LogWorld: UWorld::CleanupWorld for World_46, bSessionEnded=true, bCleanupResources=true
+[2024.11.29-10.37.23:133][340]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.29-10.37.23:138][340]LogWorld: UWorld::CleanupWorld for World_52, bSessionEnded=true, bCleanupResources=true
+[2024.11.29-10.37.23:138][340]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.29-10.37.23:143][340]LogWorld: UWorld::CleanupWorld for World_53, bSessionEnded=true, bCleanupResources=true
+[2024.11.29-10.37.23:143][340]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.29-10.37.23:149][340]LogWorld: UWorld::CleanupWorld for World_54, bSessionEnded=true, bCleanupResources=true
+[2024.11.29-10.37.23:149][340]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.29-10.37.23:155][340]LogWorld: UWorld::CleanupWorld for World_55, bSessionEnded=true, bCleanupResources=true
+[2024.11.29-10.37.23:155][340]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.29-10.37.23:160][340]LogWorld: UWorld::CleanupWorld for World_56, bSessionEnded=true, bCleanupResources=true
+[2024.11.29-10.37.23:160][340]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.29-10.37.23:164][340]LogWorld: UWorld::CleanupWorld for World_57, bSessionEnded=true, bCleanupResources=true
+[2024.11.29-10.37.23:165][340]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.29-10.37.23:170][340]LogWorld: UWorld::CleanupWorld for World_58, bSessionEnded=true, bCleanupResources=true
+[2024.11.29-10.37.23:170][340]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.29-10.37.23:175][340]LogWorld: UWorld::CleanupWorld for World_59, bSessionEnded=true, bCleanupResources=true
+[2024.11.29-10.37.23:175][340]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.29-10.37.23:182][340]LogWorld: UWorld::CleanupWorld for World_60, bSessionEnded=true, bCleanupResources=true
+[2024.11.29-10.37.23:182][340]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.29-10.37.23:187][340]LogWorld: UWorld::CleanupWorld for World_61, bSessionEnded=true, bCleanupResources=true
+[2024.11.29-10.37.23:187][340]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.29-10.37.23:191][340]LogWorld: UWorld::CleanupWorld for World_62, bSessionEnded=true, bCleanupResources=true
+[2024.11.29-10.37.23:192][340]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.29-10.37.23:197][340]LogWorld: UWorld::CleanupWorld for World_63, bSessionEnded=true, bCleanupResources=true
+[2024.11.29-10.37.23:197][340]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.29-10.37.23:201][340]LogWorld: UWorld::CleanupWorld for World_64, bSessionEnded=true, bCleanupResources=true
+[2024.11.29-10.37.23:202][340]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.29-10.37.23:206][340]LogWorld: UWorld::CleanupWorld for World_65, bSessionEnded=true, bCleanupResources=true
+[2024.11.29-10.37.23:206][340]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.29-10.37.23:211][340]LogWorld: UWorld::CleanupWorld for World_66, bSessionEnded=true, bCleanupResources=true
+[2024.11.29-10.37.23:211][340]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.29-10.37.23:216][340]LogWorld: UWorld::CleanupWorld for World_67, bSessionEnded=true, bCleanupResources=true
+[2024.11.29-10.37.23:216][340]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.29-10.37.23:221][340]LogWorld: UWorld::CleanupWorld for World_68, bSessionEnded=true, bCleanupResources=true
+[2024.11.29-10.37.23:221][340]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.29-10.37.23:226][340]LogWorld: UWorld::CleanupWorld for World_69, bSessionEnded=true, bCleanupResources=true
+[2024.11.29-10.37.23:226][340]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.29-10.37.23:231][340]LogWorld: UWorld::CleanupWorld for World_70, bSessionEnded=true, bCleanupResources=true
+[2024.11.29-10.37.23:231][340]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.29-10.37.23:237][340]LogWorld: UWorld::CleanupWorld for World_71, bSessionEnded=true, bCleanupResources=true
+[2024.11.29-10.37.23:237][340]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.29-10.37.23:242][340]LogWorld: UWorld::CleanupWorld for World_72, bSessionEnded=true, bCleanupResources=true
+[2024.11.29-10.37.23:242][340]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.29-10.37.23:247][340]LogWorld: UWorld::CleanupWorld for World_73, bSessionEnded=true, bCleanupResources=true
+[2024.11.29-10.37.23:247][340]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.29-10.37.23:252][340]LogWorld: UWorld::CleanupWorld for World_74, bSessionEnded=true, bCleanupResources=true
+[2024.11.29-10.37.23:253][340]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.29-10.37.23:258][340]LogWorld: UWorld::CleanupWorld for World_75, bSessionEnded=true, bCleanupResources=true
+[2024.11.29-10.37.23:258][340]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.29-10.37.23:263][340]LogWorld: UWorld::CleanupWorld for World_76, bSessionEnded=true, bCleanupResources=true
+[2024.11.29-10.37.23:263][340]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.29-10.37.23:268][340]LogWorld: UWorld::CleanupWorld for World_77, bSessionEnded=true, bCleanupResources=true
+[2024.11.29-10.37.23:268][340]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.29-10.37.23:273][340]LogWorld: UWorld::CleanupWorld for World_78, bSessionEnded=true, bCleanupResources=true
+[2024.11.29-10.37.23:273][340]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.29-10.37.23:278][340]LogWorld: UWorld::CleanupWorld for World_79, bSessionEnded=true, bCleanupResources=true
+[2024.11.29-10.37.23:278][340]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.29-10.37.23:283][340]LogWorld: UWorld::CleanupWorld for World_80, bSessionEnded=true, bCleanupResources=true
+[2024.11.29-10.37.23:283][340]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.29-10.37.23:288][340]LogWorld: UWorld::CleanupWorld for World_81, bSessionEnded=true, bCleanupResources=true
+[2024.11.29-10.37.23:288][340]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.29-10.37.23:293][340]LogWorld: UWorld::CleanupWorld for World_82, bSessionEnded=true, bCleanupResources=true
+[2024.11.29-10.37.23:293][340]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.29-10.37.23:298][340]LogWorld: UWorld::CleanupWorld for World_83, bSessionEnded=true, bCleanupResources=true
+[2024.11.29-10.37.23:298][340]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.29-10.37.23:303][340]LogWorld: UWorld::CleanupWorld for World_84, bSessionEnded=true, bCleanupResources=true
+[2024.11.29-10.37.23:303][340]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.29-10.37.23:309][340]LogWorld: UWorld::CleanupWorld for World_85, bSessionEnded=true, bCleanupResources=true
+[2024.11.29-10.37.23:309][340]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.29-10.37.23:314][340]LogWorld: UWorld::CleanupWorld for World_86, bSessionEnded=true, bCleanupResources=true
+[2024.11.29-10.37.23:315][340]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.29-10.37.23:320][340]LogWorld: UWorld::CleanupWorld for World_87, bSessionEnded=true, bCleanupResources=true
+[2024.11.29-10.37.23:320][340]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.29-10.37.23:326][340]LogWorld: UWorld::CleanupWorld for World_88, bSessionEnded=true, bCleanupResources=true
+[2024.11.29-10.37.23:326][340]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.29-10.37.23:331][340]LogWorld: UWorld::CleanupWorld for World_90, bSessionEnded=true, bCleanupResources=true
+[2024.11.29-10.37.23:331][340]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.29-10.37.23:337][340]LogWorld: UWorld::CleanupWorld for World_92, bSessionEnded=true, bCleanupResources=true
+[2024.11.29-10.37.23:337][340]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.29-10.37.23:342][340]LogWorld: UWorld::CleanupWorld for World_98, bSessionEnded=true, bCleanupResources=true
+[2024.11.29-10.37.23:342][340]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.29-10.37.23:347][340]LogWorld: UWorld::CleanupWorld for World_99, bSessionEnded=true, bCleanupResources=true
+[2024.11.29-10.37.23:347][340]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.29-10.37.23:352][340]LogWorld: UWorld::CleanupWorld for World_101, bSessionEnded=true, bCleanupResources=true
+[2024.11.29-10.37.23:352][340]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.29-10.37.23:357][340]LogWorld: UWorld::CleanupWorld for World_102, bSessionEnded=true, bCleanupResources=true
+[2024.11.29-10.37.23:357][340]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.29-10.37.23:361][340]LogWorld: UWorld::CleanupWorld for World_103, bSessionEnded=true, bCleanupResources=true
+[2024.11.29-10.37.23:361][340]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.29-10.37.23:366][340]LogWorld: UWorld::CleanupWorld for World_106, bSessionEnded=true, bCleanupResources=true
+[2024.11.29-10.37.23:366][340]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.29-10.37.23:371][340]LogWorld: UWorld::CleanupWorld for World_107, bSessionEnded=true, bCleanupResources=true
+[2024.11.29-10.37.23:371][340]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.29-10.37.23:376][340]LogWorld: UWorld::CleanupWorld for World_110, bSessionEnded=true, bCleanupResources=true
+[2024.11.29-10.37.23:376][340]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.29-10.37.23:381][340]LogWorld: UWorld::CleanupWorld for World_111, bSessionEnded=true, bCleanupResources=true
+[2024.11.29-10.37.23:381][340]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.29-10.37.23:386][340]LogWorld: UWorld::CleanupWorld for World_112, bSessionEnded=true, bCleanupResources=true
+[2024.11.29-10.37.23:386][340]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.29-10.37.23:391][340]LogWorld: UWorld::CleanupWorld for World_113, bSessionEnded=true, bCleanupResources=true
+[2024.11.29-10.37.23:391][340]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.29-10.37.23:396][340]LogWorld: UWorld::CleanupWorld for World_114, bSessionEnded=true, bCleanupResources=true
+[2024.11.29-10.37.23:396][340]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.29-10.37.23:403][340]LogWorld: UWorld::CleanupWorld for World_115, bSessionEnded=true, bCleanupResources=true
+[2024.11.29-10.37.23:403][340]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.29-10.37.23:408][340]LogWorld: UWorld::CleanupWorld for World_116, bSessionEnded=true, bCleanupResources=true
+[2024.11.29-10.37.23:408][340]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.29-10.37.23:414][340]LogWorld: UWorld::CleanupWorld for World_117, bSessionEnded=true, bCleanupResources=true
+[2024.11.29-10.37.23:414][340]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.29-10.37.23:419][340]LogWorld: UWorld::CleanupWorld for World_118, bSessionEnded=true, bCleanupResources=true
+[2024.11.29-10.37.23:419][340]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.29-10.37.23:425][340]LogWorld: UWorld::CleanupWorld for World_119, bSessionEnded=true, bCleanupResources=true
+[2024.11.29-10.37.23:425][340]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.29-10.37.23:430][340]LogWorld: UWorld::CleanupWorld for World_120, bSessionEnded=true, bCleanupResources=true
+[2024.11.29-10.37.23:430][340]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.29-10.37.23:435][340]LogWorld: UWorld::CleanupWorld for World_121, bSessionEnded=true, bCleanupResources=true
+[2024.11.29-10.37.23:435][340]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.29-10.37.23:440][340]LogWorld: UWorld::CleanupWorld for World_122, bSessionEnded=true, bCleanupResources=true
+[2024.11.29-10.37.23:440][340]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.29-10.37.23:514][340]LogUObjectHash: Compacting FUObjectHashTables data took   3.07ms
+[2024.11.29-10.37.23:518][340]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.29-10.37.23:597][341]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.29-10.37.23:812][344]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.29-10.37.48:291][454]LogUObjectHash: Compacting FUObjectHashTables data took   2.78ms
+[2024.11.29-10.37.48:294][454]LogFileHelpers: Editor autosave (incl. external actors) for '/Temp/Untitled_1' took 0.034
+[2024.11.29-10.37.48:294][454]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Builder/BuilderStuff/DT_BuildParts] ([1] browsable assets)...
+[2024.11.29-10.37.48:294][454]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Builder/BuilderStuff/DT_BuildParts]
+[2024.11.29-10.37.48:309][454]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/Builder/BuilderStuff/DT_BuildParts_Auto4
+[2024.11.29-10.37.48:310][454]LogSavePackage: Moving 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Saved/DT_BuildParts_Auto4E5F0DF7A42796B4050B9918CACB986C4.tmp' to 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Saved/Autosaves/Game/Blueprints/Builder/BuilderStuff/DT_BuildParts_Auto4.uasset'
+[2024.11.29-10.37.48:311][454]LogFileHelpers: Auto-saving content packages took 0.017
+[2024.11.29-10.38.20:727][597]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.29-10.38.20:825][601]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.29-10.38.21:412][623]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.29-10.38.23:161][720]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.29-10.38.23:454][733]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.29-10.38.31:957][331]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.29-10.38.31:995][332]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.29-10.38.32:491][349]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.29-10.38.32:525][350]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.29-10.38.32:560][351]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.29-10.38.33:464][395]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.29-10.38.33:524][397]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.29-10.38.33:637][402]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.29-10.38.34:040][428]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.29-10.38.36:965][602]LogContentBrowser: Attempting asset rename: BP_BuildPropsPreview_BigTrash -> BP_BuildPropsPreview_BigTrash
+[2024.11.29-10.41.06:638][898]LogInterchangeEngine: [Pending] Importing
+[2024.11.29-10.41.06:638][898]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/pedro/Downl...amille/PrintsModelos/Stood.png]
+[2024.11.29-10.41.06:640][898]LogInterchangeEngine: [Pending] Importing -  (2)
+[2024.11.29-10.41.06:640][898]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/pedro/Downl...amille/PrintsModelos/PackOfSodaPc.png]
+[2024.11.29-10.41.06:641][898]LogInterchangeEngine: [Pending] Importing -  (3)
+[2024.11.29-10.41.06:641][898]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/pedro/Downl...amille/PrintsModelos/BigTrashPcTemporary.png]
+[2024.11.29-10.41.06:642][898]LogInterchangeEngine: [Pending] Importing -  (4)
+[2024.11.29-10.41.06:643][898]LogInterchangeEngine: [Pending] Importing -  (5)
+[2024.11.29-10.41.06:676][899]LogAutomationController: Ignoring very large delta of 63.55 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.11.29-10.41.06:686][899]LogTexture: Display: Building textures: /Game/UI_Assets/NotifyBox/img/3dmodels/PackOfSodaPc.PackOfSodaPc (TFO_AutoDXT, 500x500 x1x1x1) (Required Memory Estimate: 44.620799 MB), EncodeSpeed: Fast
+[2024.11.29-10.41.06:704][899]LogTexture: Display: Building textures: /Game/UI_Assets/NotifyBox/img/3dmodels/Stood.Stood (TFO_AutoDXT, 500x500 x1x1x1) (Required Memory Estimate: 44.620799 MB), EncodeSpeed: Fast
+[2024.11.29-10.41.06:715][899]LogTexture: Display: Building textures: /Game/UI_Assets/NotifyBox/img/3dmodels/BigTrashPcTemporary.BigTrashPcTemporary (TFO_AutoDXT, 500x500 x1x1x1) (Required Memory Estimate: 44.620799 MB), EncodeSpeed: Fast
+[2024.11.29-10.41.06:740][899]LogInterchangeEngine: [Pending] Importing -  (2)
+[2024.11.29-10.41.06:740][899]LogInterchangeEngine: [Pending] Importing -  (4)
+[2024.11.29-10.41.06:740][899]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/pedro/Downl...amille/PrintsModelos/SmallTrashPc.png]
+[2024.11.29-10.41.06:740][899]LogInterchangeEngine: [Pending] Importing -  (2)
+[2024.11.29-10.41.06:740][899]LogInterchangeEngine: [Pending] Importing -  (3)
+[2024.11.29-10.41.06:740][899]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/pedro/Downl...amille/PrintsModelos/TablePc.png]
+[2024.11.29-10.41.06:740][899]LogInterchangeEngine: [Pending] Importing -  (2)
+[2024.11.29-10.41.06:746][899]LogInterchangeEngine: [Pending] Importing -  (2)
+[2024.11.29-10.41.06:784][900]LogTexture: Display: Building textures: /Game/UI_Assets/NotifyBox/img/3dmodels/TablePc.TablePc (TFO_AutoDXT, 500x500 x1x1x1) (Required Memory Estimate: 44.620799 MB), EncodeSpeed: Fast
+[2024.11.29-10.41.06:792][900]LogTexture: Display: Building textures: /Game/UI_Assets/NotifyBox/img/3dmodels/SmallTrashPc.SmallTrashPc (TFO_AutoDXT, 500x500 x1x1x1) (Required Memory Estimate: 44.620799 MB), EncodeSpeed: Fast
+[2024.11.29-10.41.06:797][900]LogInterchangeEngine: [Pending] Importing -  (1)
+[2024.11.29-10.41.06:798][900]LogInterchangeEngine: [Success] Import Done
+[2024.11.29-10.41.06:823][900]LogInterchangeEngine: [Success] Import Done
+[2024.11.29-10.41.11:797][140]LogContentBrowser: Attempting asset rename: PcTable -> PcTable
+[2024.11.29-10.41.22:539][779]LogContentBrowser: Attempting asset rename: BigTrashPcTemporary -> image_BigTrash
+[2024.11.29-10.41.22:590][779]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.29-10.41.22:662][779]LogSavePackage: Moving output files for package: /Game/UI_Assets/NotifyBox/img/3dmodels/image_BigTrash
+[2024.11.29-10.41.22:662][779]LogSavePackage: Moving 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Saved/image_BigTrash234AF8DD43867DFCBCAC5085A8E9A96E.tmp' to 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Content/UI_Assets/NotifyBox/img/3dmodels/image_BigTrash.uasset'
+[2024.11.29-10.41.22:687][779]LogFileHelpers: InternalPromptForCheckoutAndSave took 98 ms (total: 6.05 sec)
+[2024.11.29-10.41.22:735][779]LogUObjectHash: Compacting FUObjectHashTables data took   2.69ms
+[2024.11.29-10.41.22:770][779]LogUObjectHash: Compacting FUObjectHashTables data took   2.63ms
+[2024.11.29-10.41.22:797][779]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2024.11.29-10.41.22:800][779]AssetCheck: New page: Asset Save: image_BigTrash
+[2024.11.29-10.41.22:800][779]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/UI_Assets/NotifyBox/img/3dmodels/image_BigTrash.image_BigTrash
+[2024.11.29-10.41.28:489][ 91]LogContentBrowser: Attempting asset rename: Stood -> image_Stood
+[2024.11.29-10.41.28:536][ 91]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.29-10.41.28:594][ 91]LogSavePackage: Moving output files for package: /Game/UI_Assets/NotifyBox/img/3dmodels/image_Stood
+[2024.11.29-10.41.28:594][ 91]LogSavePackage: Moving 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Saved/image_Stood89AAEB0B44DBE28727704C8DF4938002.tmp' to 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Content/UI_Assets/NotifyBox/img/3dmodels/image_Stood.uasset'
+[2024.11.29-10.41.28:606][ 91]LogFileHelpers: InternalPromptForCheckoutAndSave took 69 ms (total: 6.12 sec)
+[2024.11.29-10.41.28:643][ 91]LogUObjectHash: Compacting FUObjectHashTables data took   2.09ms
+[2024.11.29-10.41.28:671][ 91]LogUObjectHash: Compacting FUObjectHashTables data took   2.70ms
+[2024.11.29-10.41.28:695][ 91]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2024.11.29-10.41.28:697][ 91]AssetCheck: New page: Asset Save: image_Stood
+[2024.11.29-10.41.28:697][ 91]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/UI_Assets/NotifyBox/img/3dmodels/image_Stood.image_Stood
+[2024.11.29-10.41.32:757][318]LogContentBrowser: Attempting asset rename: TablePc -> image_TablePc
+[2024.11.29-10.41.32:824][318]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.29-10.41.32:909][318]LogSavePackage: Moving output files for package: /Game/UI_Assets/NotifyBox/img/3dmodels/image_TablePc
+[2024.11.29-10.41.32:909][318]LogSavePackage: Moving 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Saved/image_TablePc89A8B47C49B1480710F3DEA083CBAF01.tmp' to 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Content/UI_Assets/NotifyBox/img/3dmodels/image_TablePc.uasset'
+[2024.11.29-10.41.32:924][318]LogFileHelpers: InternalPromptForCheckoutAndSave took 99 ms (total: 6.22 sec)
+[2024.11.29-10.41.32:966][318]LogUObjectHash: Compacting FUObjectHashTables data took   1.99ms
+[2024.11.29-10.41.32:993][318]LogUObjectHash: Compacting FUObjectHashTables data took   2.10ms
+[2024.11.29-10.41.33:022][318]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2024.11.29-10.41.33:024][318]AssetCheck: New page: Asset Save: image_TablePc
+[2024.11.29-10.41.33:024][318]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/UI_Assets/NotifyBox/img/3dmodels/image_TablePc.image_TablePc
+[2024.11.29-10.41.39:874][701]LogContentBrowser: Attempting asset rename: SmallTrashPc -> image_SmallTrash
+[2024.11.29-10.41.39:922][701]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.29-10.41.39:990][701]LogSavePackage: Moving output files for package: /Game/UI_Assets/NotifyBox/img/3dmodels/image_SmallTrash
+[2024.11.29-10.41.39:990][701]LogSavePackage: Moving 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Saved/image_SmallTrash8495DC6948D17F6054EE7BA76F987F7B.tmp' to 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Content/UI_Assets/NotifyBox/img/3dmodels/image_SmallTrash.uasset'
+[2024.11.29-10.41.40:009][701]LogFileHelpers: InternalPromptForCheckoutAndSave took 86 ms (total: 6.30 sec)
+[2024.11.29-10.41.40:047][701]LogUObjectHash: Compacting FUObjectHashTables data took   2.07ms
+[2024.11.29-10.41.40:076][701]LogUObjectHash: Compacting FUObjectHashTables data took   2.77ms
+[2024.11.29-10.41.40:104][701]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2024.11.29-10.41.40:106][701]AssetCheck: New page: Asset Save: image_SmallTrash
+[2024.11.29-10.41.40:106][701]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/UI_Assets/NotifyBox/img/3dmodels/image_SmallTrash.image_SmallTrash
+[2024.11.29-10.41.46:907][ 83]LogContentBrowser: Attempting asset rename: PackOfSodaPc -> image_PackOfSoda
+[2024.11.29-10.41.46:955][ 83]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.29-10.41.47:019][ 83]LogSavePackage: Moving output files for package: /Game/UI_Assets/NotifyBox/img/3dmodels/image_PackOfSoda
+[2024.11.29-10.41.47:019][ 83]LogSavePackage: Moving 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Saved/image_PackOfSoda6C9E431842B4F5C2CCFA968978A1C4ED.tmp' to 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Content/UI_Assets/NotifyBox/img/3dmodels/image_PackOfSoda.uasset'
+[2024.11.29-10.41.47:031][ 83]LogFileHelpers: InternalPromptForCheckoutAndSave took 76 ms (total: 6.38 sec)
+[2024.11.29-10.41.47:067][ 83]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
+[2024.11.29-10.41.47:092][ 83]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2024.11.29-10.41.47:119][ 83]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2024.11.29-10.41.47:121][ 83]AssetCheck: New page: Asset Save: image_PackOfSoda
+[2024.11.29-10.41.47:121][ 83]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/UI_Assets/NotifyBox/img/3dmodels/image_PackOfSoda.image_PackOfSoda
+[2024.11.29-10.42.15:202][903]LogContentBrowser: Attempting asset rename: image_TablePc -> image_TallTable
+[2024.11.29-10.42.15:250][903]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.29-10.42.15:299][903]LogSavePackage: Moving output files for package: /Game/UI_Assets/NotifyBox/img/3dmodels/image_TallTable
+[2024.11.29-10.42.15:299][903]LogSavePackage: Moving 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Saved/image_TallTable8A3462B543CF1F09CBB4B2A45EF2DCDE.tmp' to 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Content/UI_Assets/NotifyBox/img/3dmodels/image_TallTable.uasset'
+[2024.11.29-10.42.15:313][903]LogFileHelpers: InternalPromptForCheckoutAndSave took 63 ms (total: 6.44 sec)
+[2024.11.29-10.42.15:354][903]LogUObjectHash: Compacting FUObjectHashTables data took   2.16ms
+[2024.11.29-10.42.15:390][903]LogUObjectHash: Compacting FUObjectHashTables data took   3.00ms
+[2024.11.29-10.42.15:422][903]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2024.11.29-10.42.15:425][903]AssetCheck: New page: Asset Save: image_TallTable
+[2024.11.29-10.42.15:425][903]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/UI_Assets/NotifyBox/img/3dmodels/image_TallTable.image_TallTable
+[2024.11.29-10.48.26:520][198]LogInterchangeEngine: [Pending] Importing
+[2024.11.29-10.48.26:520][198]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/pedro/Downl...amille/PrintsModelos/BearClawV1Pc.png]
+[2024.11.29-10.48.26:636][198]LogTexture: Display: Building textures: /Game/UI_Assets/NotifyBox/img/3dmodels/image_clawpink.image_clawpink (TFO_AutoDXT, 500x500 x1x1x1) (Required Memory Estimate: 44.620799 MB), EncodeSpeed: Fast
+[2024.11.29-10.48.26:647][198]LogInterchangeEngine: [Success] Import Done
+[2024.11.29-10.48.26:672][199]LogInterchangeEngine: [Success] Import Done
+[2024.11.29-10.48.31:541][392]LogInterchangeEngine: [Pending] Importing
+[2024.11.29-10.48.31:541][392]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/pedro/Downl...amille/PrintsModelos/BearClawV2Pc.png]
+[2024.11.29-10.48.31:549][392]LogInterchangeEngine: [Pending] Importing -  (2)
+[2024.11.29-10.48.31:549][392]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/pedro/Downl...amille/PrintsModelos/BallsClawV2Pc.png]
+[2024.11.29-10.48.31:559][392]LogInterchangeEngine: [Pending] Importing -  (3)
+[2024.11.29-10.48.31:559][392]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/pedro/Downl...amille/PrintsModelos/BallsClawV1Pc.png]
+[2024.11.29-10.48.31:658][392]LogTexture: Display: Building textures: /Game/UI_Assets/NotifyBox/img/3dmodels/image_clawyellow.image_clawyellow (TFO_AutoDXT, 500x500 x1x1x1) (Required Memory Estimate: 44.620799 MB), EncodeSpeed: Fast
+[2024.11.29-10.48.31:729][392]LogTexture: Display: Building textures: /Game/UI_Assets/NotifyBox/img/3dmodels/image_clawpurple.image_clawpurple (TFO_AutoDXT, 500x500 x1x1x1) (Required Memory Estimate: 44.620799 MB), EncodeSpeed: Fast
+[2024.11.29-10.48.31:816][392]LogTexture: Display: Building textures: /Game/UI_Assets/NotifyBox/img/3dmodels/image_clawgreen.image_clawgreen (TFO_AutoDXT, 500x500 x1x1x1) (Required Memory Estimate: 44.620799 MB), EncodeSpeed: Fast
+[2024.11.29-10.48.31:824][392]LogInterchangeEngine: [Pending] Importing -  (2)
+[2024.11.29-10.48.31:824][392]LogInterchangeEngine: [Pending] Importing -  (1)
+[2024.11.29-10.48.31:825][392]LogInterchangeEngine: [Success] Import Done
+[2024.11.29-10.48.31:846][393]LogInterchangeEngine: [Success] Import Done
+[2024.11.29-10.48.33:540][469]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.29-10.48.33:619][469]LogSavePackage: Moving output files for package: /Game/UI_Assets/NotifyBox/img/3dmodels/image_clawpurple
+[2024.11.29-10.48.33:619][469]LogSavePackage: Moving 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Saved/image_clawpurple9F8387B446E8DDD045BCF89E538B4766.tmp' to 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Content/UI_Assets/NotifyBox/img/3dmodels/image_clawpurple.uasset'
+[2024.11.29-10.48.33:655][469]LogSavePackage: Moving output files for package: /Game/UI_Assets/NotifyBox/img/3dmodels/image_clawyellow
+[2024.11.29-10.48.33:656][469]LogSavePackage: Moving 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Saved/image_clawyellow5C5DB4884B186010FF6346A043613D72.tmp' to 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Content/UI_Assets/NotifyBox/img/3dmodels/image_clawyellow.uasset'
+[2024.11.29-10.48.33:681][469]LogSavePackage: Moving output files for package: /Game/UI_Assets/NotifyBox/img/3dmodels/image_clawgreen
+[2024.11.29-10.48.33:682][469]LogSavePackage: Moving 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Saved/image_clawgreenEB6CD45A4A23CE7C58279EAE932EA2D9.tmp' to 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Content/UI_Assets/NotifyBox/img/3dmodels/image_clawgreen.uasset'
+[2024.11.29-10.48.33:717][469]LogFileHelpers: InternalPromptForCheckoutAndSave took 176 ms (total: 6.62 sec)
+[2024.11.29-10.48.33:720][469]AssetCheck: New page: Asset Save: multiple assets
+[2024.11.29-10.48.33:720][469]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/UI_Assets/NotifyBox/img/3dmodels/image_clawpurple.image_clawpurple
+[2024.11.29-10.48.33:720][469]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/UI_Assets/NotifyBox/img/3dmodels/image_clawyellow.image_clawyellow
+[2024.11.29-10.48.33:720][469]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/UI_Assets/NotifyBox/img/3dmodels/image_clawgreen.image_clawgreen
+[2024.11.29-10.48.35:017][523]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.29-10.48.35:088][523]LogSavePackage: Moving output files for package: /Game/UI_Assets/NotifyBox/img/3dmodels/image_clawpink
+[2024.11.29-10.48.35:089][523]LogSavePackage: Moving 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Saved/image_clawpink8891B78743E789A58BD9279ADCE1EAB9.tmp' to 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Content/UI_Assets/NotifyBox/img/3dmodels/image_clawpink.uasset'
+[2024.11.29-10.48.35:109][523]LogFileHelpers: InternalPromptForCheckoutAndSave took 91 ms (total: 6.71 sec)
+[2024.11.29-10.48.35:110][523]AssetCheck: New page: Asset Save: image_clawpink
+[2024.11.29-10.48.35:110][523]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/UI_Assets/NotifyBox/img/3dmodels/image_clawpink.image_clawpink
+[2024.11.29-10.48.39:776][704]LogInterchangeEngine: [Pending] Importing
+[2024.11.29-10.48.39:776][704]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/pedro/Downl...amille/PrintsModelos/PotionArcadePc.png]
+[2024.11.29-10.48.39:792][704]LogInterchangeEngine: [Pending] Importing -  (2)
+[2024.11.29-10.48.39:792][704]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/pedro/Downl...amille/PrintsModelos/MechaninesArcadePc.png]
+[2024.11.29-10.48.39:886][704]LogTexture: Display: Building textures: /Game/UI_Assets/NotifyBox/img/3dmodels/image_arcadepotion.image_arcadepotion (TFO_AutoDXT, 500x500 x1x1x1) (Required Memory Estimate: 44.620799 MB), EncodeSpeed: Fast
+[2024.11.29-10.48.39:965][704]LogTexture: Display: Building textures: /Game/UI_Assets/NotifyBox/img/3dmodels/image_arcademechanines.image_arcademechanines (TFO_AutoDXT, 500x500 x1x1x1) (Required Memory Estimate: 44.620799 MB), EncodeSpeed: Fast
+[2024.11.29-10.48.39:973][704]LogInterchangeEngine: [Pending] Importing -  (1)
+[2024.11.29-10.48.39:973][704]LogInterchangeEngine: [Success] Import Done
+[2024.11.29-10.48.40:002][705]LogInterchangeEngine: [Success] Import Done
+[2024.11.29-10.48.47:361][795]LogAutomationController: Ignoring very large delta of 5.34 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.11.29-10.48.56:248][274]LogInterchangeEngine: [Pending] Importing
+[2024.11.29-10.48.56:248][274]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/pedro/Downl...amille/PrintsModelos/MiloArcadePc.png]
+[2024.11.29-10.48.56:354][274]LogTexture: Display: Building textures: /Game/UI_Assets/NotifyBox/img/3dmodels/image_arcademilo.image_arcademilo (TFO_AutoDXT, 500x500 x1x1x1) (Required Memory Estimate: 44.620799 MB), EncodeSpeed: Fast
+[2024.11.29-10.48.56:362][274]LogInterchangeEngine: [Success] Import Done
+[2024.11.29-10.48.56:387][275]LogInterchangeEngine: [Success] Import Done
+[2024.11.29-10.48.58:109][341]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.29-10.48.58:192][341]LogSavePackage: Moving output files for package: /Game/UI_Assets/NotifyBox/img/3dmodels/image_arcadepotion
+[2024.11.29-10.48.58:192][341]LogSavePackage: Moving 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Saved/image_arcadepotionD5D4F7074AC362361F0DDC9D582EA3C4.tmp' to 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Content/UI_Assets/NotifyBox/img/3dmodels/image_arcadepotion.uasset'
+[2024.11.29-10.48.58:241][341]LogSavePackage: Moving output files for package: /Game/UI_Assets/NotifyBox/img/3dmodels/image_arcademechanines
+[2024.11.29-10.48.58:242][341]LogSavePackage: Moving 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Saved/image_arcademechanines8CD4849F41511B1F5F78C08C1F8B2C41.tmp' to 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Content/UI_Assets/NotifyBox/img/3dmodels/image_arcademechanines.uasset'
+[2024.11.29-10.48.58:282][341]LogSavePackage: Moving output files for package: /Game/UI_Assets/NotifyBox/img/3dmodels/image_arcademilo
+[2024.11.29-10.48.58:283][341]LogSavePackage: Moving 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Saved/image_arcademilo456C4B804EA7D19E745E20A843A871FA.tmp' to 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Content/UI_Assets/NotifyBox/img/3dmodels/image_arcademilo.uasset'
+[2024.11.29-10.48.58:303][341]LogFileHelpers: InternalPromptForCheckoutAndSave took 194 ms (total: 6.91 sec)
+[2024.11.29-10.48.58:306][341]AssetCheck: New page: Asset Save: multiple assets
+[2024.11.29-10.48.58:306][341]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/UI_Assets/NotifyBox/img/3dmodels/image_arcadepotion.image_arcadepotion
+[2024.11.29-10.48.58:306][341]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/UI_Assets/NotifyBox/img/3dmodels/image_arcademechanines.image_arcademechanines
+[2024.11.29-10.48.58:306][341]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/UI_Assets/NotifyBox/img/3dmodels/image_arcademilo.image_arcademilo
+[2024.11.29-10.49.29:961][797]LogUObjectHash: Compacting FUObjectHashTables data took   2.19ms
+[2024.11.29-10.49.29:973][797]LogFileHelpers: Editor autosave (incl. external actors) for '/Temp/Untitled_1' took 0.044
+[2024.11.29-10.49.29:973][797]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Builder/BuilderStuff/DT_BuildParts] ([1] browsable assets)...
+[2024.11.29-10.49.29:973][797]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Builder/BuilderStuff/DT_BuildParts]
+[2024.11.29-10.49.29:988][797]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/Builder/BuilderStuff/DT_BuildParts_Auto5
+[2024.11.29-10.49.29:988][797]LogSavePackage: Moving 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Saved/DT_BuildParts_Auto51BAF193D4EBCEE07D069B1A2BC9A7718.tmp' to 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Saved/Autosaves/Game/Blueprints/Builder/BuilderStuff/DT_BuildParts_Auto5.uasset'
+[2024.11.29-10.49.29:989][797]LogFileHelpers: Auto-saving content packages took 0.016
+[2024.11.29-10.54.02:205][296]LogAutomationController: Ignoring very large delta of 29.35 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.11.29-10.54.02:976][329]LogSlate: Warning: Unable to rasterize '../../../Engine/Content/Editor/Slate/Starship/AssetIcons/SpecularProfile_64.svg'. File could not be found
+[2024.11.29-10.54.05:225][362]LogInterchangeEngine: [Pending] Importing
+[2024.11.29-10.54.05:225][362]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/pedro/Downl...amille/PrintsModelos/image_Tv.png]
+[2024.11.29-10.54.05:273][362]LogTexture: Display: Building textures: /Game/UI_Assets/NotifyBox/img/3dmodels/image_Tv.image_Tv (TFO_AutoDXT, 500x500 x1x1x1) (Required Memory Estimate: 44.620799 MB), EncodeSpeed: Fast
+[2024.11.29-10.54.05:279][362]LogInterchangeEngine: [Success] Import Done
+[2024.11.29-10.54.05:311][363]LogInterchangeEngine: [Success] Import Done
+[2024.11.29-10.54.07:840][457]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.29-10.54.07:901][457]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI_Assets/NotifyBox/img/3dmodels/image_Tv" FILE="D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Content/UI_Assets/NotifyBox/img/3dmodels/image_Tv.uasset" SILENT=true
+[2024.11.29-10.54.07:921][457]LogSavePackage: Moving output files for package: /Game/UI_Assets/NotifyBox/img/3dmodels/image_Tv
+[2024.11.29-10.54.07:921][457]LogSavePackage: Moving 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Saved/image_Tv75E71F324146EAAC5699F980B9C475B8.tmp' to 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Content/UI_Assets/NotifyBox/img/3dmodels/image_Tv.uasset'
+[2024.11.29-10.54.07:939][457]LogFileHelpers: InternalPromptForCheckoutAndSave took 98 ms (total: 7.00 sec)
+[2024.11.29-10.54.07:940][457]AssetCheck: New page: Asset Save: image_Tv
+[2024.11.29-10.54.07:940][457]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/UI_Assets/NotifyBox/img/3dmodels/image_Tv.image_Tv
+[2024.11.29-10.54.11:991][602]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.29-10.54.18:978][963]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.29-10.54.19:036][963]LogSavePackage: Moving output files for package: /Game/Blueprints/Builder/BuilderStuff/DT_BuildParts
+[2024.11.29-10.54.19:037][963]LogSavePackage: Moving 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Saved/DT_BuildPartsB6C2C40C4CF5574AEA0C1ABB9FEE9125.tmp' to 'D:/Faculdade/Tutorias/ArcadeSimulator/Arcade/Content/Blueprints/Builder/BuilderStuff/DT_BuildParts.uasset'
+[2024.11.29-10.54.19:060][963]LogFileHelpers: InternalPromptForCheckoutAndSave took 82 ms (total: 7.09 sec)
+[2024.11.29-10.54.19:064][963]AssetCheck: New page: Asset Save: DT_BuildParts
+[2024.11.29-10.54.19:064][963]LogContentValidation: Display: Validating /Script/Engine.DataTable /Game/Blueprints/Builder/BuilderStuff/DT_BuildParts.DT_BuildParts
