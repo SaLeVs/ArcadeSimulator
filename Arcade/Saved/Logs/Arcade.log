@@ -5683,3 +5683,1060 @@ Script call stack:
 [2024.11.30-23.25.02:383][ 16]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2024.11.30-23.25.02:391][ 16]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
 [2024.11.30-23.25.02:484][ 17]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2024.11.30-23.25.30:381][232]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.30-23.25.30:405][232]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.30-23.25.30:405][232]PIE: New page: PIE session: Ilumination (Nov 30, 2024, 5:25:30 PM)
+[2024.11.30-23.25.30:405][232]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Ilumination
+[2024.11.30-23.25.30:430][232]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024244s)
+[2024.11.30-23.25.30:430][232]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Ilumination.Ilumination to /Game/Levels/UEDPIE_0_Ilumination.Ilumination (0.024289s)
+[2024.11.30-23.25.30:445][232]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2024.11.30-23.25.30:447][232]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.30-23.25.30:448][232]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.30-23.25.30:448][232]LogAIModule: Creating AISystem for world Ilumination
+[2024.11.30-23.25.30:449][232]LogPlayLevel: PIE: World Init took: (0.001362s)
+[2024.11.30-23.25.30:449][232]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2024.11.30-23.25.30:449][232]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.30-23.25.30:449][232]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.30-23.25.30:449][232]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.30-23.25.30:449][232]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.30-23.25.30:449][232]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.30-23.25.30:449][232]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.30-23.25.30:449][232]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.30-23.25.30:449][232]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.30-23.25.30:449][232]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.30-23.25.30:449][232]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.30-23.25.30:449][232]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.30-23.25.30:452][232]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.30-23.25.30:509][232]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Galaxy Buds Pro (67AC))
+[2024.11.30-23.25.30:510][232]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.30-23.25.30:510][232]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.30-23.25.30:510][232]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.30-23.25.30:511][232]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=12
+[2024.11.30-23.25.30:511][232]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=12
+[2024.11.30-23.25.30:513][232]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=12
+[2024.11.30-23.25.30:513][232]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=12
+[2024.11.30-23.25.30:513][232]LogInit: FAudioDevice initialized with ID 12.
+[2024.11.30-23.25.30:513][232]LogAudio: Display: Audio Device (ID: 12) registered with world 'Ilumination'.
+[2024.11.30-23.25.30:513][232]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 12
+[2024.11.30-23.25.30:517][232]LogLoad: Game class is 'MyGameGamemode_C'
+[2024.11.30-23.25.30:525][232]LogScript: Warning: Accessed None trying to read property BP_DayCicleController
+	BPA_OpenClose_C /Game/Levels/UEDPIE_0_Ilumination.Ilumination:PersistentLevel.BPP_OpenCloseArcade_C_1.OpenClosed.BPA_OpenClose_C_0
+	Function /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.BPA_OpenClose_C:ExecuteUbergraph_BPA_OpenClose:00C2
+[2024.11.30-23.25.30:525][232]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BP_DayCicleController". Node:  Result Graph:  Transition Function:  Execute Ubergraph BPA Open Close Blueprint:  BPA_OpenClose
+[2024.11.30-23.25.30:525][232]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Ilumination.Ilumination up for play (max tick rate 60) at 2024.11.30-20.25.30
+[2024.11.30-23.25.30:526][232]LogWorld: Bringing up level for play took: 0.008372
+[2024.11.30-23.25.30:529][232]LogOnline: OSS: Created online subsystem instance for: :Context_28
+[2024.11.30-23.25.30:529][232]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.30-23.25.30:529][232]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.30-23.25.30:529][232]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.11.30-23.25.30:544][232]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.11.30-23.25.30:544][232]PIE: Server logged in
+[2024.11.30-23.25.30:546][232]PIE: Play in editor total start time 0.141 seconds.
+[2024.11.30-23.25.42:781][962]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.30-23.25.42:781][962]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Ilumination
+[2024.11.30-23.25.42:783][962]LogWorld: UWorld::CleanupWorld for Ilumination, bSessionEnded=true, bCleanupResources=true
+[2024.11.30-23.25.42:785][962]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.30-23.25.42:790][962]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.30-23.25.42:797][962]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.30-23.25.42:810][962]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.30-23.25.42:812][962]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 12
+[2024.11.30-23.25.42:812][962]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2024.11.30-23.25.42:816][962]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12
+[2024.11.30-23.25.42:828][962]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2024.11.30-23.25.42:931][963]LogPlayLevel: Display: Destroying online subsystem :Context_28
+[2024.11.30-23.25.43:941][ 10]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.30-23.25.43:958][ 10]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.30-23.25.43:958][ 10]PIE: New page: PIE session: Ilumination (Nov 30, 2024, 5:25:43 PM)
+[2024.11.30-23.25.43:990][ 10]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Ilumination
+[2024.11.30-23.25.44:009][ 10]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019179s)
+[2024.11.30-23.25.44:009][ 10]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Ilumination.Ilumination to /Game/Levels/UEDPIE_0_Ilumination.Ilumination (0.019250s)
+[2024.11.30-23.25.44:022][ 10]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2024.11.30-23.25.44:024][ 10]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.30-23.25.44:024][ 10]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.30-23.25.44:024][ 10]LogAIModule: Creating AISystem for world Ilumination
+[2024.11.30-23.25.44:025][ 10]LogPlayLevel: PIE: World Init took: (0.001010s)
+[2024.11.30-23.25.44:025][ 10]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2024.11.30-23.25.44:025][ 10]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.30-23.25.44:025][ 10]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.30-23.25.44:025][ 10]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.30-23.25.44:025][ 10]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.30-23.25.44:025][ 10]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.30-23.25.44:025][ 10]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.30-23.25.44:025][ 10]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.30-23.25.44:025][ 10]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.30-23.25.44:026][ 10]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.30-23.25.44:026][ 10]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.30-23.25.44:026][ 10]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.30-23.25.44:028][ 10]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.30-23.25.44:072][ 10]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Galaxy Buds Pro (67AC))
+[2024.11.30-23.25.44:072][ 10]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.30-23.25.44:073][ 10]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.30-23.25.44:073][ 10]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.30-23.25.44:073][ 10]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=13
+[2024.11.30-23.25.44:073][ 10]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=13
+[2024.11.30-23.25.44:076][ 10]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=13
+[2024.11.30-23.25.44:076][ 10]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=13
+[2024.11.30-23.25.44:077][ 10]LogInit: FAudioDevice initialized with ID 13.
+[2024.11.30-23.25.44:077][ 10]LogAudio: Display: Audio Device (ID: 13) registered with world 'Ilumination'.
+[2024.11.30-23.25.44:077][ 10]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 13
+[2024.11.30-23.25.44:081][ 10]LogLoad: Game class is 'MyGameGamemode_C'
+[2024.11.30-23.25.44:089][ 10]LogScript: Warning: Accessed None trying to read property BP_DayCicleController
+	BPA_OpenClose_C /Game/Levels/UEDPIE_0_Ilumination.Ilumination:PersistentLevel.BPP_OpenCloseArcade_C_1.OpenClosed.BPA_OpenClose_C_0
+	Function /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.BPA_OpenClose_C:ExecuteUbergraph_BPA_OpenClose:00C2
+[2024.11.30-23.25.44:089][ 10]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BP_DayCicleController". Node:  Result Graph:  Transition Function:  Execute Ubergraph BPA Open Close Blueprint:  BPA_OpenClose
+[2024.11.30-23.25.44:089][ 10]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Ilumination.Ilumination up for play (max tick rate 60) at 2024.11.30-20.25.44
+[2024.11.30-23.25.44:089][ 10]LogWorld: Bringing up level for play took: 0.008613
+[2024.11.30-23.25.44:093][ 10]LogOnline: OSS: Created online subsystem instance for: :Context_29
+[2024.11.30-23.25.44:093][ 10]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.30-23.25.44:093][ 10]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.30-23.25.44:093][ 10]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.11.30-23.25.44:107][ 10]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.11.30-23.25.44:107][ 10]PIE: Server logged in
+[2024.11.30-23.25.44:108][ 10]PIE: Play in editor total start time 0.15 seconds.
+[2024.11.30-23.25.50:636][400]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.11.30-23.25.50:636][400]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2024.11.30-23.25.50:636][400]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2024.11.30-23.25.53:369][564]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.11.30-23.25.53:369][564]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2024.11.30-23.26.09:138][510]LogBlueprintUserMessages: [BTTask_MoveToTokenCashier_C_1] Fail move to token cashier queueBP_NPC2_Child80
+[2024.11.30-23.26.19:461][129]LogBlueprintUserMessages: [BTTask_MoveToTokenCashier_C_1] Fail move to token cashier queueBP_NPC_Child70
+[2024.11.30-23.26.28:012][642]LogBlueprintUserMessages: [BTTask_MoveToTokenCashier_C_1] Fail move to token cashier queueBP_NPC2_Child190
+[2024.11.30-23.27.03:010][733]LogShaderCompilers: Display: ================================================
+[2024.11.30-23.27.03:010][733]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.11.30-23.27.03:010][733]LogShaderCompilers: Display: Total job queries 243, among them cache hits 135 (55.56%)
+[2024.11.30-23.27.03:010][733]LogShaderCompilers: Display: Tracking 108 distinct input hashes that result in 44 distinct outputs (40.74%)
+[2024.11.30-23.27.03:010][733]LogShaderCompilers: Display: RAM used: 2.40 MiB of 819.20 MiB budget. Usage: 0.29%
+[2024.11.30-23.27.03:010][733]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.11.30-23.27.03:010][733]LogShaderCompilers: Display: Shaders Compiled: 0
+[2024.11.30-23.27.03:010][733]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0%)
+[2024.11.30-23.27.03:010][733]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2024.11.30-23.27.03:010][733]LogShaderCompilers: Display: ================================================
+[2024.11.30-23.27.20:187][764]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1656.123535
+[2024.11.30-23.27.20:402][777]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2024.11.30-23.27.20:402][777]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1656.322021, Update Interval: 356.835846
+[2024.11.30-23.27.25:095][ 58]LogBlueprintUserMessages: [BTTask_ThanksForChange_C_0] Fail move to machines queueBP_NPC2_Child190
+[2024.11.30-23.27.28:862][274]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.30-23.28.20:642][172]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.30-23.28.20:642][172]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Ilumination
+[2024.11.30-23.28.20:645][172]LogWorld: UWorld::CleanupWorld for Ilumination, bSessionEnded=true, bCleanupResources=true
+[2024.11.30-23.28.20:647][172]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.30-23.28.20:652][172]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.30-23.28.20:659][172]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.30-23.28.20:672][172]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.30-23.28.20:674][172]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 13
+[2024.11.30-23.28.20:675][172]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2024.11.30-23.28.20:677][172]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2024.11.30-23.28.20:691][172]LogUObjectHash: Compacting FUObjectHashTables data took   1.92ms
+[2024.11.30-23.28.20:781][173]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2024.11.30-23.28.23:210][305]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2024.11.30-23.28.23:210][305]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.30-23.28.23:768][334]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2024.11.30-23.28.23:768][334]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2024.11.30-23.28.23:768][334]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.30-23.28.24:160][353]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2024.11.30-23.28.24:160][353]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.30-23.28.24:524][367]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2024.11.30-23.28.24:524][367]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2024.11.30-23.28.24:525][367]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.30-23.28.24:953][388]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2024.11.30-23.28.24:953][388]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2024.11.30-23.28.24:953][388]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.30-23.28.25:351][408]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2024.11.30-23.28.25:351][408]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2024.11.30-23.28.25:351][408]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.30-23.28.35:176][984]LogAssetEditorSubsystem: Opening Asset editor for BehaviorTree /Game/Blueprints/AI/BT_NPC.BT_NPC
+[2024.11.30-23.28.40:987][323]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/AI/Tasks/BTTask_MoveToMachines.BTTask_MoveToMachines
+[2024.11.30-23.28.40:988][323]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.30-23.28.40:988][323]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.30-23.28.46:137][609]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Interfaces/BPI_PlaySound.BPI_PlaySound
+[2024.11.30-23.28.46:138][609]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.30-23.28.46:138][609]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.30-23.28.59:087][368]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Interfaces/MyGameInstance.MyGameInstance
+[2024.11.30-23.28.59:087][368]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.30-23.28.59:087][368]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.30-23.29.22:918][758]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.30-23.29.22:939][758]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.30-23.29.22:939][758]PIE: New page: PIE session: Ilumination (Nov 30, 2024, 5:29:22 PM)
+[2024.11.30-23.29.22:939][758]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Ilumination
+[2024.11.30-23.29.22:956][758]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017958s)
+[2024.11.30-23.29.22:956][758]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Ilumination.Ilumination to /Game/Levels/UEDPIE_0_Ilumination.Ilumination (0.018001s)
+[2024.11.30-23.29.23:074][758]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2024.11.30-23.29.23:078][758]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.30-23.29.23:078][758]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.30-23.29.23:079][758]LogAIModule: Creating AISystem for world Ilumination
+[2024.11.30-23.29.23:079][758]LogPlayLevel: PIE: World Init took: (0.001502s)
+[2024.11.30-23.29.23:079][758]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2024.11.30-23.29.23:079][758]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.30-23.29.23:079][758]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.30-23.29.23:079][758]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.30-23.29.23:079][758]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.30-23.29.23:079][758]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.30-23.29.23:079][758]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.30-23.29.23:079][758]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.30-23.29.23:079][758]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.30-23.29.23:080][758]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.30-23.29.23:080][758]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.30-23.29.23:080][758]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.30-23.29.23:083][758]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.30-23.29.23:133][758]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Galaxy Buds Pro (67AC))
+[2024.11.30-23.29.23:134][758]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.30-23.29.23:134][758]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.30-23.29.23:134][758]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.30-23.29.23:134][758]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=14
+[2024.11.30-23.29.23:134][758]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=14
+[2024.11.30-23.29.23:137][758]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=14
+[2024.11.30-23.29.23:137][758]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=14
+[2024.11.30-23.29.23:137][758]LogInit: FAudioDevice initialized with ID 14.
+[2024.11.30-23.29.23:137][758]LogAudio: Display: Audio Device (ID: 14) registered with world 'Ilumination'.
+[2024.11.30-23.29.23:137][758]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 14
+[2024.11.30-23.29.23:140][758]LogLoad: Game class is 'MyGameGamemode_C'
+[2024.11.30-23.29.23:152][758]LogScript: Warning: Accessed None trying to read property BP_DayCicleController
+	BPA_OpenClose_C /Game/Levels/UEDPIE_0_Ilumination.Ilumination:PersistentLevel.BPP_OpenCloseArcade_C_1.OpenClosed.BPA_OpenClose_C_0
+	Function /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.BPA_OpenClose_C:ExecuteUbergraph_BPA_OpenClose:00C2
+[2024.11.30-23.29.23:152][758]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BP_DayCicleController". Node:  Result Graph:  Transition Function:  Execute Ubergraph BPA Open Close Blueprint:  BPA_OpenClose
+[2024.11.30-23.29.23:153][758]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Ilumination.Ilumination up for play (max tick rate 60) at 2024.11.30-20.29.23
+[2024.11.30-23.29.23:154][758]LogWorld: Bringing up level for play took: 0.012059
+[2024.11.30-23.29.23:158][758]LogOnline: OSS: Created online subsystem instance for: :Context_34
+[2024.11.30-23.29.23:158][758]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.30-23.29.23:158][758]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.30-23.29.23:158][758]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.11.30-23.29.23:172][758]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.11.30-23.29.23:172][758]PIE: Server logged in
+[2024.11.30-23.29.23:173][758]PIE: Play in editor total start time 0.239 seconds.
+[2024.11.30-23.29.30:033][168]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.11.30-23.29.30:033][168]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2024.11.30-23.29.30:033][168]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2024.11.30-23.29.32:882][339]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.11.30-23.29.32:882][339]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2024.11.30-23.29.55:412][689]LogBlueprintUserMessages: [BTTask_MoveToTokenCashier_C_1] Fail move to token cashier queueBP_NPC2_Child50
+[2024.11.30-23.30.03:479][173]LogBlueprintUserMessages: [BTTask_MoveToTokenCashier_C_1] Fail move to token cashier queueBP_NPC2_Child60
+[2024.11.30-23.30.16:194][928]LogShaderCompilers: Display: ================================================
+[2024.11.30-23.30.16:194][928]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.11.30-23.30.16:194][928]LogShaderCompilers: Display: Total job queries 279, among them cache hits 163 (58.42%)
+[2024.11.30-23.30.16:194][928]LogShaderCompilers: Display: Tracking 116 distinct input hashes that result in 49 distinct outputs (42.24%)
+[2024.11.30-23.30.16:194][928]LogShaderCompilers: Display: RAM used: 2.60 MiB of 819.20 MiB budget. Usage: 0.32%
+[2024.11.30-23.30.16:194][928]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.11.30-23.30.16:194][928]LogShaderCompilers: Display: Shaders Compiled: 0
+[2024.11.30-23.30.16:194][928]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0%)
+[2024.11.30-23.30.16:194][928]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2024.11.30-23.30.16:194][928]LogShaderCompilers: Display: ================================================
+[2024.11.30-23.30.28:405][604]LogBlueprintUserMessages: [BTTask_ThanksForChange_C_0] Fail move to machines queueBP_NPC2_Child50
+[2024.11.30-23.30.40:905][353]LogBlueprintUserMessages: [BTTask_ThanksForChange_C_0] Fail to update machines queueBP_NPC_Child170
+[2024.11.30-23.31.03:688][696]Cmd: LevelEditor.ToggleImmersive
+[2024.11.30-23.31.03:703][696]LogViewport: Scene viewport resized to 812x172, mode Windowed.
+[2024.11.30-23.31.03:712][696]LogSlate: Took 0.000315 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2024.11.30-23.31.03:713][696]LogViewport: Scene viewport resized to 198x172, mode Windowed.
+[2024.11.30-23.31.03:724][696]LogViewport: Scene viewport resized to 198x172, mode Windowed.
+[2024.11.30-23.31.03:735][696]LogViewport: Scene viewport resized to 1364x608, mode Windowed.
+[2024.11.30-23.31.03:759][697]LogViewport: Scene viewport resized to 1826x951, mode Windowed.
+[2024.11.30-23.31.03:779][698]LogViewport: Scene viewport resized to 1884x995, mode Windowed.
+[2024.11.30-23.31.03:799][699]LogViewport: Scene viewport resized to 1912x1015, mode Windowed.
+[2024.11.30-23.31.03:840][700]LogViewport: Scene viewport resized to 1920x1020, mode Windowed.
+[2024.11.30-23.31.28:473][178]Cmd: LevelEditor.ToggleImmersive
+[2024.11.30-23.31.28:489][178]LogViewport: Scene viewport resized to 1651x820, mode Windowed.
+[2024.11.30-23.31.28:511][179]LogViewport: Scene viewport resized to 1473x688, mode Windowed.
+[2024.11.30-23.31.28:532][180]LogViewport: Scene viewport resized to 1292x554, mode Windowed.
+[2024.11.30-23.31.28:553][181]LogViewport: Scene viewport resized to 1179x471, mode Windowed.
+[2024.11.30-23.31.28:575][182]LogViewport: Scene viewport resized to 1107x418, mode Windowed.
+[2024.11.30-23.31.28:595][183]LogViewport: Scene viewport resized to 1058x382, mode Windowed.
+[2024.11.30-23.31.28:619][184]LogViewport: Scene viewport resized to 1029x360, mode Windowed.
+[2024.11.30-23.31.28:639][185]LogViewport: Scene viewport resized to 1019x353, mode Windowed.
+[2024.11.30-23.31.28:659][186]LogViewport: Scene viewport resized to 1017x351, mode Windowed.
+[2024.11.30-23.31.28:692][188]LogViewport: Scene viewport resized to 1016x350, mode Windowed.
+[2024.11.30-23.31.32:493][391]LogViewport: Scene viewport resized to 1444x668, mode Windowed.
+[2024.11.30-23.31.32:535][392]LogViewport: Scene viewport resized to 1784x919, mode Windowed.
+[2024.11.30-23.31.32:582][393]LogViewport: Scene viewport resized to 1911x1013, mode Windowed.
+[2024.11.30-23.31.32:633][394]LogViewport: Scene viewport resized to 1920x1020, mode Windowed.
+[2024.11.30-23.32.43:243][619]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.30-23.32.43:244][619]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Ilumination
+[2024.11.30-23.32.43:246][619]LogWorld: UWorld::CleanupWorld for Ilumination, bSessionEnded=true, bCleanupResources=true
+[2024.11.30-23.32.43:249][619]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.30-23.32.43:254][619]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.30-23.32.43:260][619]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.30-23.32.43:279][619]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.11.30-23.32.43:279][619]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 14
+[2024.11.30-23.32.43:279][619]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2024.11.30-23.32.43:282][619]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14
+[2024.11.30-23.32.43:289][619]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.30-23.32.43:296][619]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2024.11.30-23.32.43:399][620]LogPlayLevel: Display: Destroying online subsystem :Context_34
+[2024.11.30-23.32.44:522][674]LogViewport: Scene viewport resized to 1500x709, mode Windowed.
+[2024.11.30-23.32.44:560][675]LogViewport: Scene viewport resized to 1172x466, mode Windowed.
+[2024.11.30-23.32.44:585][676]LogViewport: Scene viewport resized to 1091x406, mode Windowed.
+[2024.11.30-23.32.44:604][677]LogViewport: Scene viewport resized to 1055x379, mode Windowed.
+[2024.11.30-23.32.44:622][678]LogViewport: Scene viewport resized to 1034x363, mode Windowed.
+[2024.11.30-23.32.44:637][679]LogViewport: Scene viewport resized to 1022x355, mode Windowed.
+[2024.11.30-23.32.44:653][680]LogViewport: Scene viewport resized to 1017x351, mode Windowed.
+[2024.11.30-23.32.44:704][683]LogViewport: Scene viewport resized to 1016x350, mode Windowed.
+[2024.11.30-23.32.52:581][973]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/DayCicle/BPP_OpenCloseArcade.BPP_OpenCloseArcade
+[2024.11.30-23.32.52:582][973]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.30-23.32.52:582][973]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.30-23.32.52:741][973]LogScript: Warning: Accessed None trying to read property BP_DayCicleController
+	BPA_OpenClose_C /Engine/Transient.World_21:PersistentLevel.BPP_OpenCloseArcade_C_0.OpenClosed.BPA_OpenClose_C_0
+	Function /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.BPA_OpenClose_C:ExecuteUbergraph_BPA_OpenClose:00C2
+[2024.11.30-23.32.52:798][974]LogScript: Warning: Accessed None trying to read property BP_DayCicleController
+	BPA_OpenClose_C /Engine/Transient.World_21:PersistentLevel.BPP_OpenCloseArcade_C_0.OpenClosed.BPA_OpenClose_C_0
+	Function /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.BPA_OpenClose_C:ExecuteUbergraph_BPA_OpenClose:00C2
+[2024.11.30-23.32.52:827][975]LogScript: Warning: Accessed None trying to read property BP_DayCicleController
+	BPA_OpenClose_C /Engine/Transient.World_21:PersistentLevel.BPP_OpenCloseArcade_C_0.OpenClosed.BPA_OpenClose_C_0
+	Function /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.BPA_OpenClose_C:ExecuteUbergraph_BPA_OpenClose:00C2
+[2024.11.30-23.32.52:844][976]LogScript: Warning: Accessed None trying to read property BP_DayCicleController
+	BPA_OpenClose_C /Engine/Transient.World_21:PersistentLevel.BPP_OpenCloseArcade_C_0.OpenClosed.BPA_OpenClose_C_0
+	Function /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.BPA_OpenClose_C:ExecuteUbergraph_BPA_OpenClose:00C2
+[2024.11.30-23.32.52:860][977]LogScript: Warning: Accessed None trying to read property BP_DayCicleController
+	BPA_OpenClose_C /Engine/Transient.World_21:PersistentLevel.BPP_OpenCloseArcade_C_0.OpenClosed.BPA_OpenClose_C_0
+	Function /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.BPA_OpenClose_C:ExecuteUbergraph_BPA_OpenClose:00C2
+[2024.11.30-23.32.52:878][978]LogScript: Warning: Accessed None trying to read property BP_DayCicleController
+	BPA_OpenClose_C /Engine/Transient.World_21:PersistentLevel.BPP_OpenCloseArcade_C_0.OpenClosed.BPA_OpenClose_C_0
+	Function /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.BPA_OpenClose_C:ExecuteUbergraph_BPA_OpenClose:00C2
+[2024.11.30-23.32.52:894][979]LogScript: Warning: Accessed None trying to read property BP_DayCicleController
+	BPA_OpenClose_C /Engine/Transient.World_21:PersistentLevel.BPP_OpenCloseArcade_C_0.OpenClosed.BPA_OpenClose_C_0
+	Function /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.BPA_OpenClose_C:ExecuteUbergraph_BPA_OpenClose:00C2
+[2024.11.30-23.32.52:910][980]LogScript: Warning: Accessed None trying to read property BP_DayCicleController
+	BPA_OpenClose_C /Engine/Transient.World_21:PersistentLevel.BPP_OpenCloseArcade_C_0.OpenClosed.BPA_OpenClose_C_0
+	Function /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.BPA_OpenClose_C:ExecuteUbergraph_BPA_OpenClose:00C2
+[2024.11.30-23.32.52:927][981]LogScript: Warning: Accessed None trying to read property BP_DayCicleController
+	BPA_OpenClose_C /Engine/Transient.World_21:PersistentLevel.BPP_OpenCloseArcade_C_0.OpenClosed.BPA_OpenClose_C_0
+	Function /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.BPA_OpenClose_C:ExecuteUbergraph_BPA_OpenClose:00C2
+[2024.11.30-23.32.52:945][982]LogScript: Warning: Accessed None trying to read property BP_DayCicleController
+	BPA_OpenClose_C /Engine/Transient.World_21:PersistentLevel.BPP_OpenCloseArcade_C_0.OpenClosed.BPA_OpenClose_C_0
+	Function /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.BPA_OpenClose_C:ExecuteUbergraph_BPA_OpenClose:00C2
+[2024.11.30-23.32.52:961][983]LogScript: Warning: Accessed None trying to read property BP_DayCicleController
+	BPA_OpenClose_C /Engine/Transient.World_21:PersistentLevel.BPP_OpenCloseArcade_C_0.OpenClosed.BPA_OpenClose_C_0
+	Function /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.BPA_OpenClose_C:ExecuteUbergraph_BPA_OpenClose:00C2
+[2024.11.30-23.32.52:978][984]LogScript: Warning: Accessed None trying to read property BP_DayCicleController
+	BPA_OpenClose_C /Engine/Transient.World_21:PersistentLevel.BPP_OpenCloseArcade_C_0.OpenClosed.BPA_OpenClose_C_0
+	Function /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.BPA_OpenClose_C:ExecuteUbergraph_BPA_OpenClose:00C2
+[2024.11.30-23.32.52:994][985]LogScript: Warning: Accessed None trying to read property BP_DayCicleController
+	BPA_OpenClose_C /Engine/Transient.World_21:PersistentLevel.BPP_OpenCloseArcade_C_0.OpenClosed.BPA_OpenClose_C_0
+	Function /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.BPA_OpenClose_C:ExecuteUbergraph_BPA_OpenClose:00C2
+[2024.11.30-23.32.53:011][986]LogScript: Warning: Accessed None trying to read property BP_DayCicleController
+	BPA_OpenClose_C /Engine/Transient.World_21:PersistentLevel.BPP_OpenCloseArcade_C_0.OpenClosed.BPA_OpenClose_C_0
+	Function /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.BPA_OpenClose_C:ExecuteUbergraph_BPA_OpenClose:00C2
+[2024.11.30-23.32.53:028][987]LogScript: Warning: Accessed None trying to read property BP_DayCicleController
+	BPA_OpenClose_C /Engine/Transient.World_21:PersistentLevel.BPP_OpenCloseArcade_C_0.OpenClosed.BPA_OpenClose_C_0
+	Function /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.BPA_OpenClose_C:ExecuteUbergraph_BPA_OpenClose:00C2
+[2024.11.30-23.32.53:044][988]LogScript: Warning: Accessed None trying to read property BP_DayCicleController
+	BPA_OpenClose_C /Engine/Transient.World_21:PersistentLevel.BPP_OpenCloseArcade_C_0.OpenClosed.BPA_OpenClose_C_0
+	Function /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.BPA_OpenClose_C:ExecuteUbergraph_BPA_OpenClose:00C2
+[2024.11.30-23.32.53:061][989]LogScript: Warning: Accessed None trying to read property BP_DayCicleController
+	BPA_OpenClose_C /Engine/Transient.World_21:PersistentLevel.BPP_OpenCloseArcade_C_0.OpenClosed.BPA_OpenClose_C_0
+	Function /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.BPA_OpenClose_C:ExecuteUbergraph_BPA_OpenClose:00C2
+[2024.11.30-23.32.53:078][990]LogScript: Warning: Accessed None trying to read property BP_DayCicleController
+	BPA_OpenClose_C /Engine/Transient.World_21:PersistentLevel.BPP_OpenCloseArcade_C_0.OpenClosed.BPA_OpenClose_C_0
+	Function /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.BPA_OpenClose_C:ExecuteUbergraph_BPA_OpenClose:00C2
+[2024.11.30-23.32.53:094][991]LogScript: Warning: Accessed None trying to read property BP_DayCicleController
+	BPA_OpenClose_C /Engine/Transient.World_21:PersistentLevel.BPP_OpenCloseArcade_C_0.OpenClosed.BPA_OpenClose_C_0
+	Function /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.BPA_OpenClose_C:ExecuteUbergraph_BPA_OpenClose:00C2
+[2024.11.30-23.32.53:111][992]LogScript: Warning: Accessed None trying to read property BP_DayCicleController
+	BPA_OpenClose_C /Engine/Transient.World_21:PersistentLevel.BPP_OpenCloseArcade_C_0.OpenClosed.BPA_OpenClose_C_0
+	Function /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.BPA_OpenClose_C:ExecuteUbergraph_BPA_OpenClose:00C2
+[2024.11.30-23.32.53:128][993]LogScript: Warning: Accessed None trying to read property BP_DayCicleController
+	BPA_OpenClose_C /Engine/Transient.World_21:PersistentLevel.BPP_OpenCloseArcade_C_0.OpenClosed.BPA_OpenClose_C_0
+	Function /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.BPA_OpenClose_C:ExecuteUbergraph_BPA_OpenClose:00C2
+[2024.11.30-23.32.53:144][994]LogScript: Warning: Accessed None trying to read property BP_DayCicleController
+	BPA_OpenClose_C /Engine/Transient.World_21:PersistentLevel.BPP_OpenCloseArcade_C_0.OpenClosed.BPA_OpenClose_C_0
+	Function /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.BPA_OpenClose_C:ExecuteUbergraph_BPA_OpenClose:00C2
+[2024.11.30-23.32.53:161][995]LogScript: Warning: Accessed None trying to read property BP_DayCicleController
+	BPA_OpenClose_C /Engine/Transient.World_21:PersistentLevel.BPP_OpenCloseArcade_C_0.OpenClosed.BPA_OpenClose_C_0
+	Function /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.BPA_OpenClose_C:ExecuteUbergraph_BPA_OpenClose:00C2
+[2024.11.30-23.32.53:178][996]LogScript: Warning: Accessed None trying to read property BP_DayCicleController
+	BPA_OpenClose_C /Engine/Transient.World_21:PersistentLevel.BPP_OpenCloseArcade_C_0.OpenClosed.BPA_OpenClose_C_0
+	Function /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.BPA_OpenClose_C:ExecuteUbergraph_BPA_OpenClose:00C2
+[2024.11.30-23.32.53:194][997]LogScript: Warning: Accessed None trying to read property BP_DayCicleController
+	BPA_OpenClose_C /Engine/Transient.World_21:PersistentLevel.BPP_OpenCloseArcade_C_0.OpenClosed.BPA_OpenClose_C_0
+	Function /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.BPA_OpenClose_C:ExecuteUbergraph_BPA_OpenClose:00C2
+[2024.11.30-23.32.53:210][998]LogScript: Warning: Accessed None trying to read property BP_DayCicleController
+	BPA_OpenClose_C /Engine/Transient.World_21:PersistentLevel.BPP_OpenCloseArcade_C_0.OpenClosed.BPA_OpenClose_C_0
+	Function /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.BPA_OpenClose_C:ExecuteUbergraph_BPA_OpenClose:00C2
+[2024.11.30-23.32.53:227][999]LogScript: Warning: Accessed None trying to read property BP_DayCicleController
+	BPA_OpenClose_C /Engine/Transient.World_21:PersistentLevel.BPP_OpenCloseArcade_C_0.OpenClosed.BPA_OpenClose_C_0
+	Function /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.BPA_OpenClose_C:ExecuteUbergraph_BPA_OpenClose:00C2
+[2024.11.30-23.32.53:245][  0]LogScript: Warning: Accessed None trying to read property BP_DayCicleController
+	BPA_OpenClose_C /Engine/Transient.World_21:PersistentLevel.BPP_OpenCloseArcade_C_0.OpenClosed.BPA_OpenClose_C_0
+	Function /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.BPA_OpenClose_C:ExecuteUbergraph_BPA_OpenClose:00C2
+[2024.11.30-23.32.53:261][  1]LogScript: Warning: Accessed None trying to read property BP_DayCicleController
+	BPA_OpenClose_C /Engine/Transient.World_21:PersistentLevel.BPP_OpenCloseArcade_C_0.OpenClosed.BPA_OpenClose_C_0
+	Function /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.BPA_OpenClose_C:ExecuteUbergraph_BPA_OpenClose:00C2
+[2024.11.30-23.32.53:278][  2]LogScript: Warning: Accessed None trying to read property BP_DayCicleController
+	BPA_OpenClose_C /Engine/Transient.World_21:PersistentLevel.BPP_OpenCloseArcade_C_0.OpenClosed.BPA_OpenClose_C_0
+	Function /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.BPA_OpenClose_C:ExecuteUbergraph_BPA_OpenClose:00C2
+[2024.11.30-23.32.53:377][  8]LogScript: Warning: Accessed None trying to read property BP_DayCicleController
+	BPA_OpenClose_C /Engine/Transient.World_21:PersistentLevel.BPP_OpenCloseArcade_C_0.OpenClosed.BPA_OpenClose_C_0
+	Function /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.BPA_OpenClose_C:ExecuteUbergraph_BPA_OpenClose:00C2
+[2024.11.30-23.32.53:395][  9]LogScript: Warning: Accessed None trying to read property BP_DayCicleController
+	BPA_OpenClose_C /Engine/Transient.World_21:PersistentLevel.BPP_OpenCloseArcade_C_0.OpenClosed.BPA_OpenClose_C_0
+	Function /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.BPA_OpenClose_C:ExecuteUbergraph_BPA_OpenClose:00C2
+[2024.11.30-23.32.56:805][206]LogScript: Warning: Accessed None trying to read property BP_DayCicleController
+	BPA_OpenClose_C /Engine/Transient.World_21:PersistentLevel.BPP_OpenCloseArcade_C_0.OpenClosed.BPA_OpenClose_C_0
+	Function /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.BPA_OpenClose_C:ExecuteUbergraph_BPA_OpenClose:00C2
+[2024.11.30-23.32.57:357][238]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2024.11.30-23.32.57:357][238]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.30-23.32.57:792][257]LogScript: Warning: Accessed None trying to read property BP_DayCicleController
+	BPA_OpenClose_C /Engine/Transient.World_21:PersistentLevel.BPP_OpenCloseArcade_C_0.OpenClosed.BPA_OpenClose_C_0
+	Function /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.BPA_OpenClose_C:ExecuteUbergraph_BPA_OpenClose:00C2
+[2024.11.30-23.32.57:960][266]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2024.11.30-23.32.57:960][266]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.30-23.32.58:631][302]LogWorld: UWorld::CleanupWorld for World_20, bSessionEnded=true, bCleanupResources=true
+[2024.11.30-23.32.58:631][302]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.30-23.33.00:558][409]LogViewport: Scene viewport resized to 984x805, mode Windowed.
+[2024.11.30-23.33.02:730][539]LogViewport: Scene viewport resized to 978x805, mode Windowed.
+[2024.11.30-23.33.02:749][540]LogViewport: Scene viewport resized to 957x805, mode Windowed.
+[2024.11.30-23.33.02:764][541]LogViewport: Scene viewport resized to 926x805, mode Windowed.
+[2024.11.30-23.33.02:783][542]LogViewport: Scene viewport resized to 893x805, mode Windowed.
+[2024.11.30-23.33.02:800][543]LogViewport: Scene viewport resized to 868x805, mode Windowed.
+[2024.11.30-23.33.02:819][544]LogViewport: Scene viewport resized to 845x805, mode Windowed.
+[2024.11.30-23.33.02:837][545]LogViewport: Scene viewport resized to 830x805, mode Windowed.
+[2024.11.30-23.33.02:852][546]LogViewport: Scene viewport resized to 824x805, mode Windowed.
+[2024.11.30-23.33.02:870][547]LogViewport: Scene viewport resized to 820x805, mode Windowed.
+[2024.11.30-23.33.03:037][557]LogViewport: Scene viewport resized to 822x805, mode Windowed.
+[2024.11.30-23.33.03:052][558]LogViewport: Scene viewport resized to 828x805, mode Windowed.
+[2024.11.30-23.33.03:069][559]LogViewport: Scene viewport resized to 833x805, mode Windowed.
+[2024.11.30-23.33.03:085][560]LogViewport: Scene viewport resized to 839x805, mode Windowed.
+[2024.11.30-23.33.03:102][561]LogViewport: Scene viewport resized to 842x805, mode Windowed.
+[2024.11.30-23.33.03:121][562]LogViewport: Scene viewport resized to 843x805, mode Windowed.
+[2024.11.30-23.33.03:136][563]LogViewport: Scene viewport resized to 844x805, mode Windowed.
+[2024.11.30-23.33.03:169][565]LogViewport: Scene viewport resized to 848x805, mode Windowed.
+[2024.11.30-23.33.03:184][566]LogViewport: Scene viewport resized to 850x805, mode Windowed.
+[2024.11.30-23.33.03:203][567]LogViewport: Scene viewport resized to 853x805, mode Windowed.
+[2024.11.30-23.33.03:220][568]LogViewport: Scene viewport resized to 856x805, mode Windowed.
+[2024.11.30-23.33.03:236][569]LogViewport: Scene viewport resized to 861x805, mode Windowed.
+[2024.11.30-23.33.03:251][570]LogViewport: Scene viewport resized to 869x805, mode Windowed.
+[2024.11.30-23.33.03:268][571]LogViewport: Scene viewport resized to 877x805, mode Windowed.
+[2024.11.30-23.33.03:285][572]LogViewport: Scene viewport resized to 885x805, mode Windowed.
+[2024.11.30-23.33.03:302][573]LogViewport: Scene viewport resized to 891x805, mode Windowed.
+[2024.11.30-23.33.03:320][574]LogViewport: Scene viewport resized to 893x805, mode Windowed.
+[2024.11.30-23.33.08:832][896]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.30-23.33.08:884][897]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.30-23.33.08:911][898]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.30-23.33.08:948][899]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.30-23.33.08:986][900]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.30-23.33.09:010][901]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.30-23.33.09:039][902]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.30-23.33.09:064][903]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.30-23.33.09:123][906]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.30-23.33.09:180][909]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.30-23.33.09:199][910]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.30-23.33.09:229][911]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.30-23.33.09:253][912]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.30-23.33.09:281][913]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.30-23.33.09:315][914]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.30-23.33.09:511][923]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.30-23.33.09:671][932]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.30-23.33.09:960][941]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.30-23.33.09:986][942]LogScript: Warning: Accessed None trying to read property BP_DayCicleController
+	BPA_OpenClose_C /Engine/Transient.World_21:PersistentLevel.BPP_OpenCloseArcade_C_0.OpenClosed.BPA_OpenClose_C_0
+	Function /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.BPA_OpenClose_C:ExecuteUbergraph_BPA_OpenClose:00C2
+[2024.11.30-23.33.10:127][949]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.30-23.33.10:367][958]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.30-23.33.10:674][967]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.30-23.33.11:070][974]LogScript: Warning: Accessed None trying to read property BP_DayCicleController
+	BPA_OpenClose_C /Engine/Transient.World_21:PersistentLevel.BPP_OpenCloseArcade_C_0.OpenClosed.BPA_OpenClose_C_0
+	Function /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.BPA_OpenClose_C:ExecuteUbergraph_BPA_OpenClose:00C2
+[2024.11.30-23.33.11:146][979]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.30-23.33.21:647][596]BlueprintLog: New page: Compile BPP_OpenCloseArcade
+[2024.11.30-23.33.21:702][596]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
+[2024.11.30-23.33.21:739][596]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.30-23.33.21:823][596]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.30-23.33.21:862][596]LogSavePackage: Moving output files for package: /Game/Blueprints/DayCicle/BPP_OpenCloseArcade
+[2024.11.30-23.33.21:863][596]LogSavePackage: Moving '../../../../../../Users/jfkab/Documents/Unreal Projects/ArcadeSimulator/Arcade/Saved/BPP_OpenCloseArcade3631C95046821E628E35208B1D94F709.tmp' to '../../../../../../Users/jfkab/Documents/Unreal Projects/ArcadeSimulator/Arcade/Content/Blueprints/DayCicle/BPP_OpenCloseArcade.uasset'
+[2024.11.30-23.33.21:881][596]LogFileHelpers: InternalPromptForCheckoutAndSave took 141 ms (total: 2.41 sec)
+[2024.11.30-23.33.21:887][596]AssetCheck: New page: Asset Save: BPP_OpenCloseArcade
+[2024.11.30-23.33.21:887][596]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/DayCicle/BPP_OpenCloseArcade.BPP_OpenCloseArcade
+[2024.11.30-23.33.25:881][831]LogScript: Warning: Accessed None trying to read property BP_DayCicleController
+	BPA_OpenClose_C /Engine/Transient.World_21:PersistentLevel.BPP_OpenCloseArcade_C_0.OpenClosed.BPA_OpenClose_C_0
+	Function /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.BPA_OpenClose_C:ExecuteUbergraph_BPA_OpenClose:00C2
+[2024.11.30-23.33.28:924][ 12]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.30-23.33.28:945][ 12]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.30-23.33.28:945][ 12]PIE: New page: PIE session: Ilumination (Nov 30, 2024, 5:33:28 PM)
+[2024.11.30-23.33.28:970][ 12]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Ilumination
+[2024.11.30-23.33.28:988][ 12]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017525s)
+[2024.11.30-23.33.28:988][ 12]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Ilumination.Ilumination to /Game/Levels/UEDPIE_0_Ilumination.Ilumination (0.017573s)
+[2024.11.30-23.33.29:003][ 12]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2024.11.30-23.33.29:009][ 12]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.30-23.33.29:010][ 12]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.30-23.33.29:010][ 12]LogAIModule: Creating AISystem for world Ilumination
+[2024.11.30-23.33.29:011][ 12]LogPlayLevel: PIE: World Init took: (0.001356s)
+[2024.11.30-23.33.29:011][ 12]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2024.11.30-23.33.29:011][ 12]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.30-23.33.29:011][ 12]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.30-23.33.29:011][ 12]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.30-23.33.29:011][ 12]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.30-23.33.29:011][ 12]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.30-23.33.29:011][ 12]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.30-23.33.29:011][ 12]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.30-23.33.29:011][ 12]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.30-23.33.29:012][ 12]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.30-23.33.29:012][ 12]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.30-23.33.29:012][ 12]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.30-23.33.29:015][ 12]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.30-23.33.29:066][ 12]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Galaxy Buds Pro (67AC))
+[2024.11.30-23.33.29:067][ 12]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.30-23.33.29:067][ 12]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.30-23.33.29:067][ 12]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.30-23.33.29:069][ 12]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=15
+[2024.11.30-23.33.29:069][ 12]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=15
+[2024.11.30-23.33.29:071][ 12]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=15
+[2024.11.30-23.33.29:071][ 12]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=15
+[2024.11.30-23.33.29:071][ 12]LogInit: FAudioDevice initialized with ID 15.
+[2024.11.30-23.33.29:071][ 12]LogAudio: Display: Audio Device (ID: 15) registered with world 'Ilumination'.
+[2024.11.30-23.33.29:071][ 12]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 15
+[2024.11.30-23.33.29:075][ 12]LogLoad: Game class is 'MyGameGamemode_C'
+[2024.11.30-23.33.29:083][ 12]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property BP_DayCicleController". Node:  Result Graph:  Transition Function:  Execute Ubergraph BPA Open Close Blueprint:  BPA_OpenClose
+[2024.11.30-23.33.29:084][ 12]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Ilumination.Ilumination up for play (max tick rate 60) at 2024.11.30-20.33.29
+[2024.11.30-23.33.29:084][ 12]LogWorld: Bringing up level for play took: 0.009058
+[2024.11.30-23.33.29:088][ 12]LogOnline: OSS: Created online subsystem instance for: :Context_59
+[2024.11.30-23.33.29:088][ 12]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.30-23.33.29:088][ 12]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.30-23.33.29:088][ 12]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.11.30-23.33.29:101][ 12]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.11.30-23.33.29:101][ 12]PIE: Server logged in
+[2024.11.30-23.33.29:103][ 12]PIE: Play in editor total start time 0.158 seconds.
+[2024.11.30-23.33.31:741][167]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.30-23.33.31:741][167]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Ilumination
+[2024.11.30-23.33.31:745][167]LogWorld: UWorld::CleanupWorld for Ilumination, bSessionEnded=true, bCleanupResources=true
+[2024.11.30-23.33.31:749][167]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.30-23.33.31:756][167]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.30-23.33.31:763][167]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.30-23.33.31:780][167]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.11.30-23.33.31:780][167]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 15
+[2024.11.30-23.33.31:780][167]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2024.11.30-23.33.31:783][167]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=15
+[2024.11.30-23.33.31:791][167]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.30-23.33.31:799][167]LogUObjectHash: Compacting FUObjectHashTables data took   1.99ms
+[2024.11.30-23.33.31:932][168]LogPlayLevel: Display: Destroying online subsystem :Context_59
+[2024.11.30-23.33.38:760][552]LogScript: Warning: Accessed None trying to read property BP_DayCicleController
+	BPA_OpenClose_C /Engine/Transient.World_21:PersistentLevel.BPP_OpenCloseArcade_C_0.OpenClosed.BPA_OpenClose_C_0
+	Function /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.BPA_OpenClose_C:ExecuteUbergraph_BPA_OpenClose:00C2
+[2024.11.30-23.34.00:927][869]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2056.857910
+[2024.11.30-23.34.01:132][881]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2024.11.30-23.34.01:132][881]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2057.042480, Update Interval: 337.466370
+[2024.11.30-23.34.49:101][721]LogScript: Warning: Accessed None trying to read property BP_DayCicleController
+	BPA_OpenClose_C /Engine/Transient.World_21:PersistentLevel.BPP_OpenCloseArcade_C_0.OpenClosed.BPA_OpenClose_C_0
+	Function /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.BPA_OpenClose_C:ExecuteUbergraph_BPA_OpenClose:00C2
+[2024.11.30-23.34.49:134][722]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.30-23.34.49:560][747]LogScript: Warning: Accessed None trying to read property BPP_OpenCloseArcade
+	BPA_OpenClose_C /Engine/Transient.World_45:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_OpenClose_C_1
+	Function /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.BPA_OpenClose_C:ExecuteUbergraph_BPA_OpenClose:00AD
+[2024.11.30-23.34.49:561][747]LogScript: Warning: Accessed None
+	BPA_OpenClose_C /Engine/Transient.World_45:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_OpenClose_C_1
+	Function /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.BPA_OpenClose_C:ExecuteUbergraph_BPA_OpenClose:00C2
+[2024.11.30-23.34.49:577][748]LogScript: Warning: Accessed None trying to read property BPP_OpenCloseArcade
+	BPA_OpenClose_C /Engine/Transient.World_45:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_OpenClose_C_2
+	Function /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.BPA_OpenClose_C:ExecuteUbergraph_BPA_OpenClose:00AD
+[2024.11.30-23.34.49:578][748]LogScript: Warning: Accessed None
+	BPA_OpenClose_C /Engine/Transient.World_45:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_OpenClose_C_2
+	Function /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.BPA_OpenClose_C:ExecuteUbergraph_BPA_OpenClose:00C2
+[2024.11.30-23.34.49:594][749]LogScript: Warning: Accessed None trying to read property BPP_OpenCloseArcade
+	BPA_OpenClose_C /Engine/Transient.World_45:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_OpenClose_C_3
+	Function /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.BPA_OpenClose_C:ExecuteUbergraph_BPA_OpenClose:00AD
+[2024.11.30-23.34.49:594][749]LogScript: Warning: Accessed None
+	BPA_OpenClose_C /Engine/Transient.World_45:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_OpenClose_C_3
+	Function /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.BPA_OpenClose_C:ExecuteUbergraph_BPA_OpenClose:00C2
+[2024.11.30-23.34.49:595][749]LogScript: Warning: Accessed None trying to read property BP_DayCicleController
+	BPA_OpenClose_C /Engine/Transient.World_21:PersistentLevel.BPP_OpenCloseArcade_C_0.OpenClosed.BPA_OpenClose_C_0
+	Function /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.BPA_OpenClose_C:ExecuteUbergraph_BPA_OpenClose:00C2
+[2024.11.30-23.34.49:611][750]LogScript: Warning: Accessed None trying to read property BPP_OpenCloseArcade
+	BPA_OpenClose_C /Engine/Transient.World_45:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_OpenClose_C_4
+	Function /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.BPA_OpenClose_C:ExecuteUbergraph_BPA_OpenClose:00AD
+[2024.11.30-23.34.49:611][750]LogScript: Warning: Accessed None
+	BPA_OpenClose_C /Engine/Transient.World_45:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_OpenClose_C_4
+	Function /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.BPA_OpenClose_C:ExecuteUbergraph_BPA_OpenClose:00C2
+[2024.11.30-23.34.49:627][751]LogScript: Warning: Accessed None trying to read property BPP_OpenCloseArcade
+	BPA_OpenClose_C /Engine/Transient.World_45:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_OpenClose_C_5
+	Function /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.BPA_OpenClose_C:ExecuteUbergraph_BPA_OpenClose:00AD
+[2024.11.30-23.34.49:627][751]LogScript: Warning: Accessed None
+	BPA_OpenClose_C /Engine/Transient.World_45:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_OpenClose_C_5
+	Function /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.BPA_OpenClose_C:ExecuteUbergraph_BPA_OpenClose:00C2
+[2024.11.30-23.34.49:644][752]LogScript: Warning: Accessed None trying to read property BPP_OpenCloseArcade
+	BPA_OpenClose_C /Engine/Transient.World_45:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_OpenClose_C_6
+	Function /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.BPA_OpenClose_C:ExecuteUbergraph_BPA_OpenClose:00AD
+[2024.11.30-23.34.49:644][752]LogScript: Warning: Accessed None
+	BPA_OpenClose_C /Engine/Transient.World_45:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_OpenClose_C_6
+	Function /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.BPA_OpenClose_C:ExecuteUbergraph_BPA_OpenClose:00C2
+[2024.11.30-23.34.49:660][753]LogScript: Warning: Accessed None trying to read property BPP_OpenCloseArcade
+	BPA_OpenClose_C /Engine/Transient.World_45:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_OpenClose_C_7
+	Function /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.BPA_OpenClose_C:ExecuteUbergraph_BPA_OpenClose:00AD
+[2024.11.30-23.34.49:660][753]LogScript: Warning: Accessed None
+	BPA_OpenClose_C /Engine/Transient.World_45:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_OpenClose_C_7
+	Function /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.BPA_OpenClose_C:ExecuteUbergraph_BPA_OpenClose:00C2
+[2024.11.30-23.34.49:844][762]LogScript: Warning: Accessed None trying to read property BPP_OpenCloseArcade
+	BPA_OpenClose_C /Engine/Transient.World_45:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_OpenClose_C_8
+	Function /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.BPA_OpenClose_C:ExecuteUbergraph_BPA_OpenClose:00AD
+[2024.11.30-23.34.49:844][762]LogScript: Warning: Accessed None
+	BPA_OpenClose_C /Engine/Transient.World_45:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_OpenClose_C_8
+	Function /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.BPA_OpenClose_C:ExecuteUbergraph_BPA_OpenClose:00C2
+[2024.11.30-23.34.49:860][763]LogScript: Warning: Accessed None trying to read property BPP_OpenCloseArcade
+	BPA_OpenClose_C /Engine/Transient.World_45:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_OpenClose_C_9
+	Function /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.BPA_OpenClose_C:ExecuteUbergraph_BPA_OpenClose:00AD
+[2024.11.30-23.34.49:860][763]LogScript: Warning: Accessed None
+	BPA_OpenClose_C /Engine/Transient.World_45:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_OpenClose_C_9
+	Function /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.BPA_OpenClose_C:ExecuteUbergraph_BPA_OpenClose:00C2
+[2024.11.30-23.34.49:875][764]LogScript: Warning: Accessed None trying to read property BPP_OpenCloseArcade
+	BPA_OpenClose_C /Engine/Transient.World_45:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_OpenClose_C_10
+	Function /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.BPA_OpenClose_C:ExecuteUbergraph_BPA_OpenClose:00AD
+[2024.11.30-23.34.49:875][764]LogScript: Warning: Accessed None
+	BPA_OpenClose_C /Engine/Transient.World_45:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_OpenClose_C_10
+	Function /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.BPA_OpenClose_C:ExecuteUbergraph_BPA_OpenClose:00C2
+[2024.11.30-23.34.49:891][765]LogScript: Warning: Accessed None trying to read property BPP_OpenCloseArcade
+	BPA_OpenClose_C /Engine/Transient.World_45:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_OpenClose_C_11
+	Function /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.BPA_OpenClose_C:ExecuteUbergraph_BPA_OpenClose:00AD
+[2024.11.30-23.34.49:891][765]LogScript: Warning: Accessed None
+	BPA_OpenClose_C /Engine/Transient.World_45:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_OpenClose_C_11
+	Function /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.BPA_OpenClose_C:ExecuteUbergraph_BPA_OpenClose:00C2
+[2024.11.30-23.34.49:908][766]LogScript: Warning: Accessed None trying to read property BPP_OpenCloseArcade
+	BPA_OpenClose_C /Engine/Transient.World_45:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_OpenClose_C_12
+	Function /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.BPA_OpenClose_C:ExecuteUbergraph_BPA_OpenClose:00AD
+[2024.11.30-23.34.49:909][766]LogScript: Warning: Accessed None
+	BPA_OpenClose_C /Engine/Transient.World_45:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_OpenClose_C_12
+	Function /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.BPA_OpenClose_C:ExecuteUbergraph_BPA_OpenClose:00C2
+[2024.11.30-23.34.49:926][767]LogScript: Warning: Accessed None trying to read property BPP_OpenCloseArcade
+	BPA_OpenClose_C /Engine/Transient.World_45:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_OpenClose_C_13
+	Function /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.BPA_OpenClose_C:ExecuteUbergraph_BPA_OpenClose:00AD
+[2024.11.30-23.34.49:926][767]LogScript: Warning: Accessed None
+	BPA_OpenClose_C /Engine/Transient.World_45:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_OpenClose_C_13
+	Function /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.BPA_OpenClose_C:ExecuteUbergraph_BPA_OpenClose:00C2
+[2024.11.30-23.34.49:942][768]LogScript: Warning: Accessed None trying to read property BPP_OpenCloseArcade
+	BPA_OpenClose_C /Engine/Transient.World_45:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_OpenClose_C_14
+	Function /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.BPA_OpenClose_C:ExecuteUbergraph_BPA_OpenClose:00AD
+[2024.11.30-23.34.49:943][768]LogScript: Warning: Accessed None
+	BPA_OpenClose_C /Engine/Transient.World_45:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_OpenClose_C_14
+	Function /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.BPA_OpenClose_C:ExecuteUbergraph_BPA_OpenClose:00C2
+[2024.11.30-23.34.49:959][769]LogScript: Warning: Accessed None trying to read property BPP_OpenCloseArcade
+	BPA_OpenClose_C /Engine/Transient.World_45:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_OpenClose_C_15
+	Function /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.BPA_OpenClose_C:ExecuteUbergraph_BPA_OpenClose:00AD
+[2024.11.30-23.34.49:959][769]LogScript: Warning: Accessed None
+	BPA_OpenClose_C /Engine/Transient.World_45:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_OpenClose_C_15
+	Function /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.BPA_OpenClose_C:ExecuteUbergraph_BPA_OpenClose:00C2
+[2024.11.30-23.34.49:976][770]LogScript: Warning: Accessed None trying to read property BPP_OpenCloseArcade
+	BPA_OpenClose_C /Engine/Transient.World_45:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_OpenClose_C_16
+	Function /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.BPA_OpenClose_C:ExecuteUbergraph_BPA_OpenClose:00AD
+[2024.11.30-23.34.49:976][770]LogScript: Warning: Accessed None
+	BPA_OpenClose_C /Engine/Transient.World_45:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_OpenClose_C_16
+	Function /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.BPA_OpenClose_C:ExecuteUbergraph_BPA_OpenClose:00C2
+[2024.11.30-23.34.49:993][771]LogScript: Warning: Accessed None trying to read property BPP_OpenCloseArcade
+	BPA_OpenClose_C /Engine/Transient.World_45:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_OpenClose_C_17
+	Function /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.BPA_OpenClose_C:ExecuteUbergraph_BPA_OpenClose:00AD
+[2024.11.30-23.34.49:993][771]LogScript: Warning: Accessed None
+	BPA_OpenClose_C /Engine/Transient.World_45:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_OpenClose_C_17
+	Function /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.BPA_OpenClose_C:ExecuteUbergraph_BPA_OpenClose:00C2
+[2024.11.30-23.34.50:010][772]LogScript: Warning: Accessed None trying to read property BPP_OpenCloseArcade
+	BPA_OpenClose_C /Engine/Transient.World_45:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_OpenClose_C_18
+	Function /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.BPA_OpenClose_C:ExecuteUbergraph_BPA_OpenClose:00AD
+[2024.11.30-23.34.50:010][772]LogScript: Warning: Accessed None
+	BPA_OpenClose_C /Engine/Transient.World_45:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_OpenClose_C_18
+	Function /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.BPA_OpenClose_C:ExecuteUbergraph_BPA_OpenClose:00C2
+[2024.11.30-23.34.50:025][773]LogScript: Warning: Accessed None trying to read property BPP_OpenCloseArcade
+	BPA_OpenClose_C /Engine/Transient.World_45:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_OpenClose_C_19
+	Function /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.BPA_OpenClose_C:ExecuteUbergraph_BPA_OpenClose:00AD
+[2024.11.30-23.34.50:025][773]LogScript: Warning: Accessed None
+	BPA_OpenClose_C /Engine/Transient.World_45:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_OpenClose_C_19
+	Function /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.BPA_OpenClose_C:ExecuteUbergraph_BPA_OpenClose:00C2
+[2024.11.30-23.34.50:044][774]LogScript: Warning: Accessed None trying to read property BPP_OpenCloseArcade
+	BPA_OpenClose_C /Engine/Transient.World_45:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_OpenClose_C_20
+	Function /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.BPA_OpenClose_C:ExecuteUbergraph_BPA_OpenClose:00AD
+[2024.11.30-23.34.50:044][774]LogScript: Warning: Accessed None
+	BPA_OpenClose_C /Engine/Transient.World_45:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_OpenClose_C_20
+	Function /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.BPA_OpenClose_C:ExecuteUbergraph_BPA_OpenClose:00C2
+[2024.11.30-23.34.50:045][774]LogScript: Warning: Accessed None trying to read property BP_DayCicleController
+	BPA_OpenClose_C /Engine/Transient.World_21:PersistentLevel.BPP_OpenCloseArcade_C_0.OpenClosed.BPA_OpenClose_C_0
+	Function /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.BPA_OpenClose_C:ExecuteUbergraph_BPA_OpenClose:00C2
+[2024.11.30-23.34.50:060][775]LogScript: Warning: Accessed None trying to read property BPP_OpenCloseArcade
+	BPA_OpenClose_C /Engine/Transient.World_45:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_OpenClose_C_21
+	Function /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.BPA_OpenClose_C:ExecuteUbergraph_BPA_OpenClose:00AD
+[2024.11.30-23.34.50:060][775]LogScript: Warning: Accessed None
+	BPA_OpenClose_C /Engine/Transient.World_45:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_OpenClose_C_21
+	Function /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.BPA_OpenClose_C:ExecuteUbergraph_BPA_OpenClose:00C2
+[2024.11.30-23.34.50:079][776]LogScript: Warning: Accessed None trying to read property BPP_OpenCloseArcade
+	BPA_OpenClose_C /Engine/Transient.World_45:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_OpenClose_C_22
+	Function /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.BPA_OpenClose_C:ExecuteUbergraph_BPA_OpenClose:00AD
+[2024.11.30-23.34.50:079][776]LogScript: Warning: Accessed None
+	BPA_OpenClose_C /Engine/Transient.World_45:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_OpenClose_C_22
+	Function /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.BPA_OpenClose_C:ExecuteUbergraph_BPA_OpenClose:00C2
+[2024.11.30-23.34.50:080][776]LogScript: Warning: Accessed None trying to read property BP_DayCicleController
+	BPA_OpenClose_C /Engine/Transient.World_21:PersistentLevel.BPP_OpenCloseArcade_C_0.OpenClosed.BPA_OpenClose_C_0
+	Function /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.BPA_OpenClose_C:ExecuteUbergraph_BPA_OpenClose:00C2
+[2024.11.30-23.34.50:095][777]LogScript: Warning: Accessed None trying to read property BPP_OpenCloseArcade
+	BPA_OpenClose_C /Engine/Transient.World_45:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_OpenClose_C_23
+	Function /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.BPA_OpenClose_C:ExecuteUbergraph_BPA_OpenClose:00AD
+[2024.11.30-23.34.50:095][777]LogScript: Warning: Accessed None
+	BPA_OpenClose_C /Engine/Transient.World_45:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_OpenClose_C_23
+	Function /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.BPA_OpenClose_C:ExecuteUbergraph_BPA_OpenClose:00C2
+[2024.11.30-23.34.50:111][778]LogScript: Warning: Accessed None trying to read property BPP_OpenCloseArcade
+	BPA_OpenClose_C /Engine/Transient.World_45:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_OpenClose_C_24
+	Function /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.BPA_OpenClose_C:ExecuteUbergraph_BPA_OpenClose:00AD
+[2024.11.30-23.34.50:111][778]LogScript: Warning: Accessed None
+	BPA_OpenClose_C /Engine/Transient.World_45:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_OpenClose_C_24
+	Function /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.BPA_OpenClose_C:ExecuteUbergraph_BPA_OpenClose:00C2
+[2024.11.30-23.34.50:126][779]LogScript: Warning: Accessed None trying to read property BPP_OpenCloseArcade
+	BPA_OpenClose_C /Engine/Transient.World_45:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_OpenClose_C_25
+	Function /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.BPA_OpenClose_C:ExecuteUbergraph_BPA_OpenClose:00AD
+[2024.11.30-23.34.50:126][779]LogScript: Warning: Accessed None
+	BPA_OpenClose_C /Engine/Transient.World_45:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_OpenClose_C_25
+	Function /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.BPA_OpenClose_C:ExecuteUbergraph_BPA_OpenClose:00C2
+[2024.11.30-23.34.50:143][780]LogScript: Warning: Accessed None trying to read property BPP_OpenCloseArcade
+	BPA_OpenClose_C /Engine/Transient.World_45:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_OpenClose_C_26
+	Function /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.BPA_OpenClose_C:ExecuteUbergraph_BPA_OpenClose:00AD
+[2024.11.30-23.34.50:143][780]LogScript: Warning: Accessed None
+	BPA_OpenClose_C /Engine/Transient.World_45:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_OpenClose_C_26
+	Function /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.BPA_OpenClose_C:ExecuteUbergraph_BPA_OpenClose:00C2
+[2024.11.30-23.34.50:159][781]LogScript: Warning: Accessed None trying to read property BPP_OpenCloseArcade
+	BPA_OpenClose_C /Engine/Transient.World_45:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_OpenClose_C_27
+	Function /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.BPA_OpenClose_C:ExecuteUbergraph_BPA_OpenClose:00AD
+[2024.11.30-23.34.50:159][781]LogScript: Warning: Accessed None
+	BPA_OpenClose_C /Engine/Transient.World_45:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_OpenClose_C_27
+	Function /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.BPA_OpenClose_C:ExecuteUbergraph_BPA_OpenClose:00C2
+[2024.11.30-23.34.50:175][782]LogScript: Warning: Accessed None trying to read property BPP_OpenCloseArcade
+	BPA_OpenClose_C /Engine/Transient.World_45:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_OpenClose_C_28
+	Function /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.BPA_OpenClose_C:ExecuteUbergraph_BPA_OpenClose:00AD
+[2024.11.30-23.34.50:175][782]LogScript: Warning: Accessed None
+	BPA_OpenClose_C /Engine/Transient.World_45:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_OpenClose_C_28
+	Function /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.BPA_OpenClose_C:ExecuteUbergraph_BPA_OpenClose:00C2
+[2024.11.30-23.34.50:191][783]LogScript: Warning: Accessed None trying to read property BPP_OpenCloseArcade
+	BPA_OpenClose_C /Engine/Transient.World_45:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_OpenClose_C_29
+	Function /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.BPA_OpenClose_C:ExecuteUbergraph_BPA_OpenClose:00AD
+[2024.11.30-23.34.50:191][783]LogScript: Warning: Accessed None
+	BPA_OpenClose_C /Engine/Transient.World_45:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_OpenClose_C_29
+	Function /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.BPA_OpenClose_C:ExecuteUbergraph_BPA_OpenClose:00C2
+[2024.11.30-23.34.50:209][784]LogScript: Warning: Accessed None trying to read property BPP_OpenCloseArcade
+	BPA_OpenClose_C /Engine/Transient.World_45:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_OpenClose_C_30
+	Function /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.BPA_OpenClose_C:ExecuteUbergraph_BPA_OpenClose:00AD
+[2024.11.30-23.34.50:209][784]LogScript: Warning: Accessed None
+	BPA_OpenClose_C /Engine/Transient.World_45:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_OpenClose_C_30
+	Function /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.BPA_OpenClose_C:ExecuteUbergraph_BPA_OpenClose:00C2
+[2024.11.30-23.34.50:343][792]LogScript: Warning: Accessed None trying to read property BPP_OpenCloseArcade
+	BPA_OpenClose_C /Engine/Transient.World_45:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_OpenClose_C_31
+	Function /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.BPA_OpenClose_C:ExecuteUbergraph_BPA_OpenClose:00AD
+[2024.11.30-23.34.50:344][792]LogScript: Warning: Accessed None
+	BPA_OpenClose_C /Engine/Transient.World_45:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_OpenClose_C_31
+	Function /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.BPA_OpenClose_C:ExecuteUbergraph_BPA_OpenClose:00C2
+[2024.11.30-23.34.50:360][793]LogScript: Warning: Accessed None trying to read property BPP_OpenCloseArcade
+	BPA_OpenClose_C /Engine/Transient.World_45:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_OpenClose_C_32
+	Function /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.BPA_OpenClose_C:ExecuteUbergraph_BPA_OpenClose:00AD
+[2024.11.30-23.34.50:360][793]LogScript: Warning: Accessed None
+	BPA_OpenClose_C /Engine/Transient.World_45:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_OpenClose_C_32
+	Function /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.BPA_OpenClose_C:ExecuteUbergraph_BPA_OpenClose:00C2
+[2024.11.30-23.34.50:375][794]LogScript: Warning: Accessed None trying to read property BPP_OpenCloseArcade
+	BPA_OpenClose_C /Engine/Transient.World_45:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_OpenClose_C_33
+	Function /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.BPA_OpenClose_C:ExecuteUbergraph_BPA_OpenClose:00AD
+[2024.11.30-23.34.50:375][794]LogScript: Warning: Accessed None
+	BPA_OpenClose_C /Engine/Transient.World_45:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_OpenClose_C_33
+	Function /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.BPA_OpenClose_C:ExecuteUbergraph_BPA_OpenClose:00C2
+[2024.11.30-23.34.50:393][795]LogScript: Warning: Accessed None trying to read property BPP_OpenCloseArcade
+	BPA_OpenClose_C /Engine/Transient.World_45:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_OpenClose_C_34
+	Function /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.BPA_OpenClose_C:ExecuteUbergraph_BPA_OpenClose:00AD
+[2024.11.30-23.34.50:393][795]LogScript: Warning: Accessed None
+	BPA_OpenClose_C /Engine/Transient.World_45:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_OpenClose_C_34
+	Function /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.BPA_OpenClose_C:ExecuteUbergraph_BPA_OpenClose:00C2
+[2024.11.30-23.34.50:407][796]LogAssetEditorSubsystem: Opening Asset editor for AnimBlueprint /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.BPA_OpenClose
+[2024.11.30-23.34.50:409][796]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.30-23.34.50:409][796]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.30-23.34.50:452][796]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.30-23.34.50:452][796]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.30-23.34.50:647][796]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_47:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.11.30-23.34.51:299][796]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.30-23.34.51:299][796]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.30-23.34.51:501][796]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.30-23.34.51:667][796]LogViewport: Scene viewport resized to 472x370, mode Windowed.
+[2024.11.30-23.34.51:713][796]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find Color 'Graph.Node.Comment.TextColor'.'
+[2024.11.30-23.34.52:018][810]LogScript: Warning: Accessed None trying to read property BP_DayCicleController
+	BPA_OpenClose_C /Engine/Transient.World_21:PersistentLevel.BPP_OpenCloseArcade_C_0.OpenClosed.BPA_OpenClose_C_0
+	Function /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.BPA_OpenClose_C:ExecuteUbergraph_BPA_OpenClose:00C2
+[2024.11.30-23.34.52:034][811]LogScript: Warning: Accessed None trying to read property BP_DayCicleController
+	BPA_OpenClose_C /Engine/Transient.World_21:PersistentLevel.BPP_OpenCloseArcade_C_0.OpenClosed.BPA_OpenClose_C_0
+	Function /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.BPA_OpenClose_C:ExecuteUbergraph_BPA_OpenClose:00C2
+[2024.11.30-23.34.52:183][819]LogScript: Warning: Accessed None trying to read property BP_DayCicleController
+	BPA_OpenClose_C /Engine/Transient.World_21:PersistentLevel.BPP_OpenCloseArcade_C_0.OpenClosed.BPA_OpenClose_C_0
+	Function /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.BPA_OpenClose_C:ExecuteUbergraph_BPA_OpenClose:00C2
+[2024.11.30-23.34.57:896][155]LogScript: Warning: Accessed None trying to read property BP_DayCicleController
+	BPA_OpenClose_C /Engine/Transient.World_21:PersistentLevel.BPP_OpenCloseArcade_C_0.OpenClosed.BPA_OpenClose_C_0
+	Function /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.BPA_OpenClose_C:ExecuteUbergraph_BPA_OpenClose:00C2
+[2024.11.30-23.35.11:554][956]LogViewport: Scene viewport resized to 471x385, mode Windowed.
+[2024.11.30-23.35.11:644][958]LogViewport: Scene viewport resized to 193x90, mode Windowed.
+[2024.11.30-23.35.12:035][981]LogViewport: Scene viewport resized to 472x370, mode Windowed.
+[2024.11.30-23.35.12:351][  0]LogSlate: Window 'BPA_OpenClose' being destroyed
+[2024.11.30-23.35.54:871][530]LogViewport: Scene viewport resized to 1016x360, mode Windowed.
+[2024.11.30-23.35.54:895][531]LogViewport: Scene viewport resized to 1016x393, mode Windowed.
+[2024.11.30-23.35.54:918][532]LogViewport: Scene viewport resized to 1016x426, mode Windowed.
+[2024.11.30-23.35.54:944][533]LogViewport: Scene viewport resized to 1016x458, mode Windowed.
+[2024.11.30-23.35.54:965][534]LogViewport: Scene viewport resized to 1016x494, mode Windowed.
+[2024.11.30-23.35.54:988][535]LogViewport: Scene viewport resized to 1016x524, mode Windowed.
+[2024.11.30-23.35.55:008][536]LogViewport: Scene viewport resized to 1016x553, mode Windowed.
+[2024.11.30-23.35.55:028][537]LogViewport: Scene viewport resized to 1016x575, mode Windowed.
+[2024.11.30-23.35.55:054][538]LogViewport: Scene viewport resized to 1016x591, mode Windowed.
+[2024.11.30-23.35.55:075][539]LogViewport: Scene viewport resized to 1016x605, mode Windowed.
+[2024.11.30-23.35.55:097][540]LogViewport: Scene viewport resized to 1016x622, mode Windowed.
+[2024.11.30-23.35.55:120][541]LogViewport: Scene viewport resized to 1016x635, mode Windowed.
+[2024.11.30-23.35.55:140][542]LogViewport: Scene viewport resized to 1016x638, mode Windowed.
+[2024.11.30-23.35.55:229][547]LogViewport: Scene viewport resized to 1016x643, mode Windowed.
+[2024.11.30-23.36.00:815][873]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/DayCicle/BP_DayCicleController.BP_DayCicleController
+[2024.11.30-23.36.00:815][873]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.30-23.36.00:815][873]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.30-23.36.45:236][377]BlueprintLog: New page: Compile BPP_OpenCloseArcade
+[2024.11.30-23.36.45:301][377]LogUObjectHash: Compacting FUObjectHashTables data took   2.03ms
+[2024.11.30-23.36.45:352][377]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.30-23.36.45:500][377]LogSavePackage: Moving output files for package: /Game/Blueprints/DayCicle/BPP_OpenCloseArcade
+[2024.11.30-23.36.45:501][377]LogSavePackage: Moving '../../../../../../Users/jfkab/Documents/Unreal Projects/ArcadeSimulator/Arcade/Saved/BPP_OpenCloseArcade1B3D43D747199A61E25EC29C779E85B0.tmp' to '../../../../../../Users/jfkab/Documents/Unreal Projects/ArcadeSimulator/Arcade/Content/Blueprints/DayCicle/BPP_OpenCloseArcade.uasset'
+[2024.11.30-23.36.45:510][377]LogFileHelpers: InternalPromptForCheckoutAndSave took 158 ms (total: 2.57 sec)
+[2024.11.30-23.36.45:519][377]AssetCheck: New page: Asset Save: BPP_OpenCloseArcade
+[2024.11.30-23.36.45:519][377]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/DayCicle/BPP_OpenCloseArcade.BPP_OpenCloseArcade
+[2024.11.30-23.36.45:519][377]LogScript: Warning: Accessed None trying to read property BPP_OpenCloseArcade
+	BPA_OpenClose_C /Engine/Transient.World_45:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_OpenClose_C_35
+	Function /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.BPA_OpenClose_C:ExecuteUbergraph_BPA_OpenClose:00AD
+[2024.11.30-23.36.45:519][377]LogScript: Warning: Accessed None
+	BPA_OpenClose_C /Engine/Transient.World_45:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_OpenClose_C_35
+	Function /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.BPA_OpenClose_C:ExecuteUbergraph_BPA_OpenClose:00C2
+[2024.11.30-23.36.45:614][379]LogScript: Warning: Accessed None trying to read property BPP_OpenCloseArcade
+	BPA_OpenClose_C /Engine/Transient.World_45:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_OpenClose_C_36
+	Function /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.BPA_OpenClose_C:ExecuteUbergraph_BPA_OpenClose:00AD
+[2024.11.30-23.36.45:614][379]LogScript: Warning: Accessed None
+	BPA_OpenClose_C /Engine/Transient.World_45:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_OpenClose_C_36
+	Function /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.BPA_OpenClose_C:ExecuteUbergraph_BPA_OpenClose:00C2
+[2024.11.30-23.37.07:988][683]BlueprintLog: New page: Compile BPA_OpenClose
+[2024.11.30-23.37.08:017][683]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2024.11.30-23.37.08:033][683]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.30-23.37.08:115][683]LogScript: Warning: Accessed None trying to read property BPP_OpenCloseArcade
+	BPA_OpenClose_C /Engine/Transient.World_45:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_OpenClose_C_41
+	Function /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.BPA_OpenClose_C:ExecuteUbergraph_BPA_OpenClose:00AC
+[2024.11.30-23.37.08:146][683]LogSavePackage: Moving output files for package: /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose
+[2024.11.30-23.37.08:147][683]LogSavePackage: Moving '../../../../../../Users/jfkab/Documents/Unreal Projects/ArcadeSimulator/Arcade/Saved/BPA_OpenCloseAFB20B324714EAFCE89AF3832D0BDA9A.tmp' to '../../../../../../Users/jfkab/Documents/Unreal Projects/ArcadeSimulator/Arcade/Content/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.uasset'
+[2024.11.30-23.37.08:158][683]LogFileHelpers: InternalPromptForCheckoutAndSave took 123 ms (total: 2.69 sec)
+[2024.11.30-23.37.08:161][683]AssetCheck: New page: Asset Save: BPA_OpenClose
+[2024.11.30-23.37.08:161][683]LogContentValidation: Display: Validating /Script/Engine.AnimBlueprint /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.BPA_OpenClose
+[2024.11.30-23.37.08:161][683]LogScript: Warning: Accessed None trying to read property BPP_OpenCloseArcade
+	BPA_OpenClose_C /Engine/Transient.World_45:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_OpenClose_C_42
+	Function /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.BPA_OpenClose_C:ExecuteUbergraph_BPA_OpenClose:00AC
+[2024.11.30-23.37.08:205][685]LogScript: Warning: Accessed None trying to read property BPP_OpenCloseArcade
+	BPA_OpenClose_C /Engine/Transient.World_45:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_OpenClose_C_43
+	Function /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.BPA_OpenClose_C:ExecuteUbergraph_BPA_OpenClose:00AC
+[2024.11.30-23.37.33:781][174]BlueprintLog: New page: Compile BPA_OpenClose
+[2024.11.30-23.37.33:811][174]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2024.11.30-23.37.33:826][174]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.30-23.37.33:917][174]LogScript: Warning: Accessed None trying to read property BPP_OpenCloseArcade
+	BPA_OpenClose_C /Engine/Transient.World_45:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_OpenClose_C_52
+	Function /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.BPA_OpenClose_C:ExecuteUbergraph_BPA_OpenClose:00AC
+[2024.11.30-23.37.33:949][174]LogSavePackage: Moving output files for package: /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose
+[2024.11.30-23.37.33:950][174]LogSavePackage: Moving '../../../../../../Users/jfkab/Documents/Unreal Projects/ArcadeSimulator/Arcade/Saved/BPA_OpenClose718194ED4F419F01FB68A99D326D2E21.tmp' to '../../../../../../Users/jfkab/Documents/Unreal Projects/ArcadeSimulator/Arcade/Content/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.uasset'
+[2024.11.30-23.37.33:961][174]LogFileHelpers: InternalPromptForCheckoutAndSave took 135 ms (total: 2.83 sec)
+[2024.11.30-23.37.33:964][174]AssetCheck: New page: Asset Save: BPA_OpenClose
+[2024.11.30-23.37.33:964][174]LogContentValidation: Display: Validating /Script/Engine.AnimBlueprint /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.BPA_OpenClose
+[2024.11.30-23.37.33:964][174]LogScript: Warning: Accessed None trying to read property BPP_OpenCloseArcade
+	BPA_OpenClose_C /Engine/Transient.World_45:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_OpenClose_C_53
+	Function /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.BPA_OpenClose_C:ExecuteUbergraph_BPA_OpenClose:00AC
+[2024.11.30-23.37.34:009][176]LogScript: Warning: Accessed None trying to read property BPP_OpenCloseArcade
+	BPA_OpenClose_C /Engine/Transient.World_45:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_OpenClose_C_54
+	Function /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.BPA_OpenClose_C:ExecuteUbergraph_BPA_OpenClose:00AC
+[2024.11.30-23.37.35:924][289]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.30-23.37.35:942][289]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.30-23.37.35:942][289]PIE: New page: PIE session: Ilumination (Nov 30, 2024, 5:37:35 PM)
+[2024.11.30-23.37.35:942][289]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Ilumination
+[2024.11.30-23.37.35:961][289]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018413s)
+[2024.11.30-23.37.35:961][289]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Ilumination.Ilumination to /Game/Levels/UEDPIE_0_Ilumination.Ilumination (0.018450s)
+[2024.11.30-23.37.35:977][289]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2024.11.30-23.37.35:980][289]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.30-23.37.35:980][289]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.30-23.37.35:981][289]LogAIModule: Creating AISystem for world Ilumination
+[2024.11.30-23.37.35:982][289]LogPlayLevel: PIE: World Init took: (0.001125s)
+[2024.11.30-23.37.35:982][289]LogAudio: Display: Creating Audio Device:                 Id: 16, Scope: Unique, Realtime: True
+[2024.11.30-23.37.35:982][289]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.30-23.37.35:982][289]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.30-23.37.35:982][289]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.30-23.37.35:982][289]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.30-23.37.35:982][289]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.30-23.37.35:982][289]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.30-23.37.35:982][289]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.30-23.37.35:982][289]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.30-23.37.35:982][289]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.30-23.37.35:982][289]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.30-23.37.35:982][289]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.30-23.37.35:985][289]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.30-23.37.36:033][289]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Galaxy Buds Pro (67AC))
+[2024.11.30-23.37.36:034][289]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.30-23.37.36:034][289]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.30-23.37.36:034][289]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.30-23.37.36:035][289]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=16
+[2024.11.30-23.37.36:035][289]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=16
+[2024.11.30-23.37.36:037][289]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=16
+[2024.11.30-23.37.36:037][289]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=16
+[2024.11.30-23.37.36:037][289]LogInit: FAudioDevice initialized with ID 16.
+[2024.11.30-23.37.36:037][289]LogAudio: Display: Audio Device (ID: 16) registered with world 'Ilumination'.
+[2024.11.30-23.37.36:037][289]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 16
+[2024.11.30-23.37.36:041][289]LogLoad: Game class is 'MyGameGamemode_C'
+[2024.11.30-23.37.36:053][289]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Ilumination.Ilumination up for play (max tick rate 60) at 2024.11.30-20.37.36
+[2024.11.30-23.37.36:053][289]LogWorld: Bringing up level for play took: 0.012238
+[2024.11.30-23.37.36:058][289]LogOnline: OSS: Created online subsystem instance for: :Context_66
+[2024.11.30-23.37.36:059][289]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.30-23.37.36:059][289]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.30-23.37.36:059][289]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.11.30-23.37.36:074][289]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.11.30-23.37.36:074][289]PIE: Server logged in
+[2024.11.30-23.37.36:076][289]PIE: Play in editor total start time 0.133 seconds.
+[2024.11.30-23.37.41:111][583]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.30-23.37.41:111][583]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Ilumination
+[2024.11.30-23.37.41:114][583]LogWorld: UWorld::CleanupWorld for Ilumination, bSessionEnded=true, bCleanupResources=true
+[2024.11.30-23.37.41:116][583]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.30-23.37.41:163][583]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.30-23.37.41:171][583]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.30-23.37.41:184][583]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.11.30-23.37.41:185][583]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 16
+[2024.11.30-23.37.41:185][583]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2024.11.30-23.37.41:187][583]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2024.11.30-23.37.41:192][583]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.30-23.37.41:200][583]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2024.11.30-23.37.41:281][584]LogPlayLevel: Display: Destroying online subsystem :Context_66
+[2024.11.30-23.37.42:826][675]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.30-23.37.42:843][675]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.30-23.37.42:843][675]PIE: New page: PIE session: Ilumination (Nov 30, 2024, 5:37:42 PM)
+[2024.11.30-23.37.42:844][675]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Ilumination
+[2024.11.30-23.37.42:862][675]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018438s)
+[2024.11.30-23.37.42:862][675]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Ilumination.Ilumination to /Game/Levels/UEDPIE_0_Ilumination.Ilumination (0.018475s)
+[2024.11.30-23.37.42:874][675]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2024.11.30-23.37.42:877][675]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.30-23.37.42:877][675]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.30-23.37.42:879][675]LogAIModule: Creating AISystem for world Ilumination
+[2024.11.30-23.37.42:880][675]LogPlayLevel: PIE: World Init took: (0.001371s)
+[2024.11.30-23.37.42:880][675]LogAudio: Display: Creating Audio Device:                 Id: 17, Scope: Unique, Realtime: True
+[2024.11.30-23.37.42:880][675]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.30-23.37.42:880][675]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.30-23.37.42:880][675]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.30-23.37.42:880][675]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.30-23.37.42:880][675]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.30-23.37.42:880][675]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.11.30-23.37.42:880][675]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.30-23.37.42:880][675]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.30-23.37.42:881][675]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.30-23.37.42:881][675]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.30-23.37.42:881][675]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.30-23.37.42:883][675]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.30-23.37.42:933][675]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Galaxy Buds Pro (67AC))
+[2024.11.30-23.37.42:934][675]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.30-23.37.42:934][675]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.30-23.37.42:934][675]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.30-23.37.42:935][675]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=17
+[2024.11.30-23.37.42:935][675]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=17
+[2024.11.30-23.37.42:937][675]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=17
+[2024.11.30-23.37.42:937][675]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=17
+[2024.11.30-23.37.42:937][675]LogInit: FAudioDevice initialized with ID 17.
+[2024.11.30-23.37.42:937][675]LogAudio: Display: Audio Device (ID: 17) registered with world 'Ilumination'.
+[2024.11.30-23.37.42:937][675]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 17
+[2024.11.30-23.37.42:941][675]LogLoad: Game class is 'MyGameGamemode_C'
+[2024.11.30-23.37.42:952][675]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Ilumination.Ilumination up for play (max tick rate 60) at 2024.11.30-20.37.42
+[2024.11.30-23.37.42:953][675]LogWorld: Bringing up level for play took: 0.010658
+[2024.11.30-23.37.42:956][675]LogOnline: OSS: Created online subsystem instance for: :Context_67
+[2024.11.30-23.37.42:957][675]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.30-23.37.42:957][675]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.30-23.37.42:957][675]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.11.30-23.37.42:973][675]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.11.30-23.37.42:973][675]PIE: Server logged in
+[2024.11.30-23.37.42:974][675]PIE: Play in editor total start time 0.13 seconds.
+[2024.11.30-23.37.46:011][853]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.30-23.37.46:012][853]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Ilumination
+[2024.11.30-23.37.46:013][853]LogWorld: UWorld::CleanupWorld for Ilumination, bSessionEnded=true, bCleanupResources=true
+[2024.11.30-23.37.46:015][853]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.30-23.37.46:022][853]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.30-23.37.46:027][853]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.30-23.37.46:040][853]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.30-23.37.46:042][853]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 17
+[2024.11.30-23.37.46:042][853]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2024.11.30-23.37.46:046][853]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2024.11.30-23.37.46:060][853]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2024.11.30-23.37.46:132][854]LogPlayLevel: Display: Destroying online subsystem :Context_67
+[2024.11.30-23.37.56:423][449]BlueprintLog: New page: Compile BPA_OpenClose
+[2024.11.30-23.37.56:453][449]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2024.11.30-23.37.56:469][449]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.30-23.37.56:569][449]LogScript: Warning: Accessed None trying to read property BPP_OpenCloseArcade
+	BPA_OpenClose_C /Engine/Transient.World_45:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_OpenClose_C_59
+	Function /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.BPA_OpenClose_C:ExecuteUbergraph_BPA_OpenClose:00AC
+[2024.11.30-23.37.56:602][449]LogSavePackage: Moving output files for package: /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose
+[2024.11.30-23.37.56:602][449]LogSavePackage: Moving '../../../../../../Users/jfkab/Documents/Unreal Projects/ArcadeSimulator/Arcade/Saved/BPA_OpenClose220A41A24C08D16C3C4C10BF0BB249AF.tmp' to '../../../../../../Users/jfkab/Documents/Unreal Projects/ArcadeSimulator/Arcade/Content/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.uasset'
+[2024.11.30-23.37.56:621][449]LogFileHelpers: InternalPromptForCheckoutAndSave took 152 ms (total: 2.98 sec)
+[2024.11.30-23.37.56:634][449]AssetCheck: New page: Asset Save: BPA_OpenClose
+[2024.11.30-23.37.56:634][449]LogContentValidation: Display: Validating /Script/Engine.AnimBlueprint /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.BPA_OpenClose
+[2024.11.30-23.37.56:635][449]LogScript: Warning: Accessed None trying to read property BPP_OpenCloseArcade
+	BPA_OpenClose_C /Engine/Transient.World_45:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_OpenClose_C_60
+	Function /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.BPA_OpenClose_C:ExecuteUbergraph_BPA_OpenClose:00AC
+[2024.11.30-23.37.56:667][450]LogScript: Warning: Accessed None trying to read property BPP_OpenCloseArcade
+	BPA_OpenClose_C /Engine/Transient.World_45:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_OpenClose_C_61
+	Function /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.BPA_OpenClose_C:ExecuteUbergraph_BPA_OpenClose:00AC
+[2024.11.30-23.37.56:783][457]LogScript: Warning: Accessed None trying to read property BPP_OpenCloseArcade
+	BPA_OpenClose_C /Engine/Transient.World_45:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_OpenClose_C_62
+	Function /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.BPA_OpenClose_C:ExecuteUbergraph_BPA_OpenClose:00AC
+[2024.11.30-23.38.07:757][109]BlueprintLog: New page: Compile BPA_OpenClose
+[2024.11.30-23.38.07:787][109]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2024.11.30-23.38.07:804][109]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.30-23.38.07:883][109]LogScript: Warning: Accessed None trying to read property BPP_OpenCloseArcade
+	BPA_OpenClose_C /Engine/Transient.World_45:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_OpenClose_C_65
+	Function /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.BPA_OpenClose_C:ExecuteUbergraph_BPA_OpenClose:00AC
+[2024.11.30-23.38.07:917][109]LogSavePackage: Moving output files for package: /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose
+[2024.11.30-23.38.07:917][109]LogSavePackage: Moving '../../../../../../Users/jfkab/Documents/Unreal Projects/ArcadeSimulator/Arcade/Saved/BPA_OpenCloseC9FB88584020BEA5A0BF48A96878027F.tmp' to '../../../../../../Users/jfkab/Documents/Unreal Projects/ArcadeSimulator/Arcade/Content/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.uasset'
+[2024.11.30-23.38.07:928][109]LogFileHelpers: InternalPromptForCheckoutAndSave took 125 ms (total: 3.10 sec)
+[2024.11.30-23.38.07:931][109]AssetCheck: New page: Asset Save: BPA_OpenClose
+[2024.11.30-23.38.07:931][109]LogContentValidation: Display: Validating /Script/Engine.AnimBlueprint /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.BPA_OpenClose
+[2024.11.30-23.38.07:932][109]LogScript: Warning: Accessed None trying to read property BPP_OpenCloseArcade
+	BPA_OpenClose_C /Engine/Transient.World_45:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_OpenClose_C_66
+	Function /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.BPA_OpenClose_C:ExecuteUbergraph_BPA_OpenClose:00AC
+[2024.11.30-23.38.07:973][110]LogScript: Warning: Accessed None trying to read property BPP_OpenCloseArcade
+	BPA_OpenClose_C /Engine/Transient.World_45:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.BPA_OpenClose_C_67
+	Function /Game/Blueprints/AnimationControler/OpenClose/BPA_OpenClose.BPA_OpenClose_C:ExecuteUbergraph_BPA_OpenClose:00AC
+[2024.11.30-23.38.09:226][182]LogWorld: UWorld::CleanupWorld for World_46, bSessionEnded=true, bCleanupResources=true
+[2024.11.30-23.38.09:226][182]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.30-23.38.09:267][182]LogWorld: UWorld::CleanupWorld for World_47, bSessionEnded=true, bCleanupResources=true
+[2024.11.30-23.38.09:267][182]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.30-23.38.09:339][182]LogWorld: UWorld::CleanupWorld for World_48, bSessionEnded=true, bCleanupResources=true
+[2024.11.30-23.38.09:339][182]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.30-23.38.11:197][286]LogWorld: UWorld::CleanupWorld for World_50, bSessionEnded=true, bCleanupResources=true
+[2024.11.30-23.38.11:197][286]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.30-23.38.21:520][896]BlueprintLog: New page: Compile BPP_OpenCloseArcade
+[2024.11.30-23.38.21:569][896]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2024.11.30-23.38.21:610][896]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.30-23.38.21:725][896]LogSavePackage: Moving output files for package: /Game/Blueprints/DayCicle/BPP_OpenCloseArcade
+[2024.11.30-23.38.21:726][896]LogSavePackage: Moving '../../../../../../Users/jfkab/Documents/Unreal Projects/ArcadeSimulator/Arcade/Saved/BPP_OpenCloseArcadeD89EBBA143AE6009B5A60AB96B34DD30.tmp' to '../../../../../../Users/jfkab/Documents/Unreal Projects/ArcadeSimulator/Arcade/Content/Blueprints/DayCicle/BPP_OpenCloseArcade.uasset'
+[2024.11.30-23.38.21:739][896]LogFileHelpers: InternalPromptForCheckoutAndSave took 128 ms (total: 3.23 sec)
+[2024.11.30-23.38.21:741][896]AssetCheck: New page: Asset Save: BPP_OpenCloseArcade
+[2024.11.30-23.38.21:741][896]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/DayCicle/BPP_OpenCloseArcade.BPP_OpenCloseArcade
+[2024.11.30-23.38.22:307][926]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2024.11.30-23.38.22:307][926]LogWorld: UWorld::CleanupWorld for World_21, bSessionEnded=true, bCleanupResources=true
+[2024.11.30-23.38.22:307][926]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.30-23.38.23:650][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2024.11.30-23.38.23:661][  0]LogStall: Shutdown...
+[2024.11.30-23.38.23:667][  0]LogStall: Shutdown complete.
+[2024.11.30-23.38.23:777][  0]LogSlate: Window 'Arcade - Unreal Editor' being destroyed
+[2024.11.30-23.38.23:953][  1]Cmd: QUIT_EDITOR
+[2024.11.30-23.38.23:955][  1]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2024.11.30-23.38.23:974][  1]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2024.11.30-23.38.23:975][  1]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2024.11.30-23.38.23:975][  1]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2024.11.30-23.38.23:986][  1]LogWorld: UWorld::CleanupWorld for Ilumination, bSessionEnded=true, bCleanupResources=true
+[2024.11.30-23.38.23:986][  1]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.30-23.38.24:007][  1]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2024.11.30-23.38.24:940][  1]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2024.11.30-23.38.24:940][  1]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2024.11.30-23.38.24:940][  1]LogAudio: Display: Audio Device unregistered from world 'Ilumination'.
+[2024.11.30-23.38.24:940][  1]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 1
+[2024.11.30-23.38.24:949][  1]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2024.11.30-23.38.24:951][  1]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2024.11.30-23.38.24:967][  1]LogAudio: Display: Audio Device Manager Shutdown
+[2024.11.30-23.38.24:970][  1]LogWindowsTextInputMethodSystem: Activated input method: English (United States) - (Keyboard).
+[2024.11.30-23.38.24:978][  1]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2024.11.30-23.38.24:978][  1]LogExit: Preparing to exit.
+[2024.11.30-23.38.25:015][  1]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2024.11.30-23.38.25:027][  1]LogPython: Display: Object '/Engine/PythonTypes.add_controls_for_selected_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.11.30-23.38.25:027][  1]LogPython: Display: Object '/Engine/PythonTypes.add_controls_for_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.11.30-23.38.25:029][  1]LogPython: Display: Object '/Engine/PythonTypes.add_null_above_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.11.30-23.38.25:029][  1]LogPython: Display: Object '/Engine/PythonTypes.align_translation_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.11.30-23.38.25:029][  1]LogPython: Display: Object '/Engine/PythonTypes.align_translation_all' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.11.30-23.38.25:029][  1]LogPython: Display: Object '/Engine/PythonTypes.align_translation_x' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.11.30-23.38.25:029][  1]LogPython: Display: Object '/Engine/PythonTypes.align_translation_y' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.11.30-23.38.25:029][  1]LogPython: Display: Object '/Engine/PythonTypes.align_translation_z' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.11.30-23.38.25:029][  1]LogPython: Display: Object '/Engine/PythonTypes.align_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.11.30-23.38.25:029][  1]LogPython: Display: Object '/Engine/PythonTypes.align_scale' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.11.30-23.38.25:029][  1]LogPython: Display: Object '/Engine/PythonTypes.search_replace_name_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.11.30-23.38.25:029][  1]LogPython: Display: Object '/Engine/PythonTypes.search_replace_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.11.30-23.38.25:030][  1]LogPython: Display: Object '/Engine/PythonTypes.add_prefix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.11.30-23.38.25:030][  1]LogPython: Display: Object '/Engine/PythonTypes.add_prefix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.11.30-23.38.25:030][  1]LogPython: Display: Object '/Engine/PythonTypes.add_suffix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.11.30-23.38.25:030][  1]LogPython: Display: Object '/Engine/PythonTypes.add_suffix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.11.30-23.38.25:030][  1]LogPython: Display: Object '/Engine/PythonTypes.do_rename_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.11.30-23.38.25:030][  1]LogPython: Display: Object '/Engine/PythonTypes.do_rename_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.11.30-23.38.25:030][  1]LogPython: Display: Object '/Engine/PythonTypes.set_bone_reference_pose' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2024.11.30-23.38.25:030][  1]LogPython: Display: Object '/Engine/PythonTypes.ControlOutputFormat' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
