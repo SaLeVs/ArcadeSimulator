@@ -1951,3 +1951,256 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.12.01-20.20.32:771][902]AssetCheck: New page: Asset Save: DT_BuildParts
 [2024.12.01-20.20.32:771][902]LogContentValidation: Display: Validating /Script/Engine.DataTable /Game/Blueprints/Builder/BuilderStuff/DT_BuildParts.DT_BuildParts
 [2024.12.01-20.21.13:587][249]LogUObjectHash: Compacting FUObjectHashTables data took   2.70ms
+[2024.12.01-20.22.14:589][372]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.12.01-20.22.14:613][372]LogWorldPartition: Display: GenerateStreaming for 'TestingPlayerV3' started...
+[2024.12.01-20.22.19:652][372]LogWorldPartition: Display: GenerateStreaming for 'TestingPlayerV3' took 5.03 sec
+[2024.12.01-20.22.19:652][372]LogWorldPartition: Display: GenerateStreaming for 'TestingPlayer' started...
+[2024.12.01-20.22.20:426][372]LogWorldPartition: Display: GenerateStreaming for 'TestingPlayer' took 773 ms (total: 5.81 sec)
+[2024.12.01-20.22.20:429][372]BlueprintLog: New page: Pre-Play auto-recompile
+[2024.12.01-20.22.20:430][372]LogPlayLevel: [PlayLevel] Compiling BP_EntraceDoorController before play...
+[2024.12.01-20.22.20:484][372]LogUObjectHash: Compacting FUObjectHashTables data took   2.73ms
+[2024.12.01-20.22.20:491][372]LogPlayLevel: PlayLevel: Blueprint regeneration took 61 ms (1 blueprints)
+[2024.12.01-20.22.20:491][372]PIE: New page: PIE session: Ilumination (1 de dez de 2024 14:22:20)
+[2024.12.01-20.22.20:495][372]LogOnline: OSS: Created online subsystem instance for: NULL
+[2024.12.01-20.22.20:495][372]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for type [NULL]
+[2024.12.01-20.22.20:495][372]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Ilumination
+[2024.12.01-20.22.20:524][372]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027660s)
+[2024.12.01-20.22.20:524][372]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Ilumination.Ilumination to /Game/Levels/UEDPIE_0_Ilumination.Ilumination (0.027722s)
+[2024.12.01-20.22.20:542][372]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2024.12.01-20.22.20:544][372]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.12.01-20.22.20:544][372]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.12.01-20.22.20:544][372]LogAIModule: Creating AISystem for world Ilumination
+[2024.12.01-20.22.20:546][372]LogPlayLevel: PIE: World Init took: (0.001493s)
+[2024.12.01-20.22.20:546][372]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2024.12.01-20.22.20:546][372]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.12.01-20.22.20:546][372]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.12.01-20.22.20:546][372]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.12.01-20.22.20:546][372]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.12.01-20.22.20:546][372]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.12.01-20.22.20:546][372]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.12.01-20.22.20:546][372]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.12.01-20.22.20:546][372]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.12.01-20.22.20:546][372]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.12.01-20.22.20:546][372]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.12.01-20.22.20:546][372]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.12.01-20.22.20:549][372]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.12.01-20.22.20:593][372]LogAudioMixer: Display: Using Audio Hardware Device Alto-falantes (2- USB Audio Device)
+[2024.12.01-20.22.20:593][372]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.12.01-20.22.20:593][372]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.12.01-20.22.20:593][372]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.12.01-20.22.20:594][372]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2024.12.01-20.22.20:594][372]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=2
+[2024.12.01-20.22.20:596][372]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2024.12.01-20.22.20:596][372]LogInit: FAudioDevice initialized with ID 2.
+[2024.12.01-20.22.20:596][372]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2024.12.01-20.22.20:596][372]LogAudio: Display: Audio Device (ID: 2) registered with world 'Ilumination'.
+[2024.12.01-20.22.20:596][372]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 2
+[2024.12.01-20.22.20:601][372]LogLoad: Game class is 'MyGameGamemode_C'
+[2024.12.01-20.22.20:614][372]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Ilumination.Ilumination up for play (max tick rate 0) at 2024.12.01-17.22.20
+[2024.12.01-20.22.20:614][372]LogWorld: Bringing up level for play took: 0.012909
+[2024.12.01-20.22.20:618][372]LogOnline: OSS: Created online subsystem instance for: :Context_7
+[2024.12.01-20.22.20:630][372]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.12.01-20.22.20:630][372]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.12.01-20.22.20:631][372]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.12.01-20.22.20:632][372]LogWindows: WindowsPlatformFeatures enabled
+[2024.12.01-20.22.20:650][372]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.12.01-20.22.20:650][372]PIE: Server logged in
+[2024.12.01-20.22.20:651][372]PIE: Play in editor total start time 6,038 seconds.
+[2024.12.01-20.22.20:741][373]LogAutomationController: Ignoring very large delta of 6.15 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.12.01-20.22.20:796][373]LogShaderCompilers: Display: ================================================
+[2024.12.01-20.22.20:796][373]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.12.01-20.22.20:796][373]LogShaderCompilers: Display: Total job queries 421, among them cache hits 261 (62.00%)
+[2024.12.01-20.22.20:796][373]LogShaderCompilers: Display: Tracking 160 distinct input hashes that result in 69 distinct outputs (43.12%)
+[2024.12.01-20.22.20:796][373]LogShaderCompilers: Display: RAM used: 3,45 MiB of 819,20 MiB budget. Usage: 0.42%
+[2024.12.01-20.22.20:796][373]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.12.01-20.22.20:796][373]LogShaderCompilers: Display: Shaders Compiled: 0
+[2024.12.01-20.22.20:796][373]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0%)
+[2024.12.01-20.22.20:796][373]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2024.12.01-20.22.20:796][373]LogShaderCompilers: Display: ================================================
+[2024.12.01-20.22.43:117][907]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.12.01-20.22.43:117][907]LogViewport: Display: Viewport HideCursorDuringCapture Changed, False -> True
+[2024.12.01-20.22.43:117][907]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2024.12.01-20.22.46:977][172]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2024.12.01-20.22.46:977][172]LogViewport: Display: Viewport MouseCaptureMode Changed, CaptureDuringMouseDown -> CapturePermanently
+[2024.12.01-20.22.53:842][637]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> LockInFullscreen
+[2024.12.01-20.22.53:842][637]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> CaptureDuringMouseDown
+[2024.12.01-20.22.55:150][726]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.12.01-20.22.55:150][726]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_Ilumination
+[2024.12.01-20.22.55:154][726]LogWorld: UWorld::CleanupWorld for Ilumination, bSessionEnded=true, bCleanupResources=true
+[2024.12.01-20.22.55:157][726]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.01-20.22.55:161][726]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.12.01-20.22.55:174][726]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.01-20.22.55:205][726]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.12.01-20.22.55:212][726]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 2
+[2024.12.01-20.22.55:212][726]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2024.12.01-20.22.55:213][726]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2024.12.01-20.22.55:237][726]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
+[2024.12.01-20.22.55:320][727]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2024.12.01-20.23.07:278][602]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.12.01-20.23.07:303][603]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.12.01-20.23.07:332][604]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.12.01-20.23.07:358][605]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.12.01-20.23.07:388][606]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.12.01-20.23.08:883][710]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Builder/Machines/MachineBuilds/Claw/BP_BuildMachine_ClawV2.BP_BuildMachine_ClawV2
+[2024.12.01-20.23.08:883][710]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.12.01-20.23.08:883][710]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.12.01-20.23.11:111][903]LogWorld: UWorld::CleanupWorld for World_23, bSessionEnded=true, bCleanupResources=true
+[2024.12.01-20.23.11:111][903]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.01-20.23.11:162][903]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Builder/Machines/MachineBuilds/Claw/BP_BuildMachine_ClawV2.BP_BuildMachine_ClawV2
+[2024.12.01-20.23.11:163][903]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.12.01-20.23.11:163][903]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.12.01-20.23.13:633][ 64]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.12.01-20.23.14:687][135]LogViewport: Scene viewport resized to 932x707, mode Windowed.
+[2024.12.01-20.23.17:473][294]LogSlate: Took 0.000217 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2024.12.01-20.24.10:349][571]LogUObjectHash: Compacting FUObjectHashTables data took   2.02ms
+[2024.12.01-20.24.10:354][571]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/Ilumination' took 0.036
+[2024.12.01-20.24.10:355][571]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/Builder/Machines/MachineBuilds/Claw/BP_BuildMachine_ClawV2] ([2] browsable assets)...
+[2024.12.01-20.24.10:372][571]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Builder/Machines/MachineBuilds/Claw/BP_BuildMachine_ClawV2.BP_BuildMachine_ClawV2]
+[2024.12.01-20.24.10:372][571]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Builder/Machines/MachineBuilds/Claw/BP_BuildMachine_ClawV2]
+[2024.12.01-20.24.10:379][571]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/Builder/Machines/MachineBuilds/Claw/BP_BuildMachine_ClawV2_Auto1
+[2024.12.01-20.24.10:380][571]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Saved/BP_BuildMachine_ClawV2_Auto1C5F55B754E10C58391DAE697C67E7EA6.tmp' to '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Saved/Autosaves/Game/Blueprints/Builder/Machines/MachineBuilds/Claw/BP_BuildMachine_ClawV2_Auto1.uasset'
+[2024.12.01-20.24.10:381][571]LogFileHelpers: Auto-saving content packages took 0.027
+[2024.12.01-20.25.25:344][800]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.12.01-20.25.25:388][800]LogSavePackage: Moving output files for package: /Game/Blueprints/Builder/Machines/MachineBuilds/Claw/BP_BuildMachine_ClawV2
+[2024.12.01-20.25.25:389][800]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Saved/BP_BuildMachine_ClawV22A7C34264AE396E42E99C89C1C21305E.tmp' to '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/Blueprints/Builder/Machines/MachineBuilds/Claw/BP_BuildMachine_ClawV2.uasset'
+[2024.12.01-20.25.25:397][800]LogFileHelpers: InternalPromptForCheckoutAndSave took 52 ms (total: 9.49 sec)
+[2024.12.01-20.25.25:401][800]AssetCheck: New page: Asset Save: BP_BuildMachine_ClawV2
+[2024.12.01-20.25.25:401][800]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Builder/Machines/MachineBuilds/Claw/BP_BuildMachine_ClawV2.BP_BuildMachine_ClawV2
+[2024.12.01-20.29.21:013][976]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.12.01-20.29.21:072][977]LogShaderCompilers: Display: ================================================
+[2024.12.01-20.29.21:072][977]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.12.01-20.29.21:072][977]LogShaderCompilers: Display: Total job queries 562, among them cache hits 378 (67.26%)
+[2024.12.01-20.29.21:072][977]LogShaderCompilers: Display: Tracking 184 distinct input hashes that result in 81 distinct outputs (44.02%)
+[2024.12.01-20.29.21:072][977]LogShaderCompilers: Display: RAM used: 4,02 MiB of 819,20 MiB budget. Usage: 0.49%
+[2024.12.01-20.29.21:072][977]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.12.01-20.29.21:072][977]LogShaderCompilers: Display: Shaders Compiled: 0
+[2024.12.01-20.29.21:072][977]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0%)
+[2024.12.01-20.29.21:072][977]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2024.12.01-20.29.21:072][977]LogShaderCompilers: Display: ================================================
+[2024.12.01-20.29.21:085][978]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.12.01-20.29.21:147][979]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.12.01-20.29.21:317][982]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.12.01-20.29.21:419][983]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.12.01-20.29.21:524][984]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.12.01-20.29.21:672][985]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.12.01-20.29.21:778][986]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.12.01-20.29.21:989][987]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.12.01-20.29.22:090][988]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.12.01-20.29.22:224][991]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.12.01-20.29.22:336][992]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.12.01-20.29.22:446][993]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.12.01-20.29.22:697][  1]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.12.01-20.29.22:782][  2]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.12.01-20.29.22:897][  3]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.12.01-20.29.23:034][  4]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.12.01-20.29.24:286][103]LogAssetEditorSubsystem: Opening Asset editor for BehaviorTree /Game/Blueprints/AI/BT_NPC.BT_NPC
+[2024.12.01-20.29.25:960][277]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/AI/Tasks/BTTask_DraftTokens.BTTask_DraftTokens
+[2024.12.01-20.29.25:960][277]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.12.01-20.29.25:960][277]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.12.01-20.29.28:909][594]LogWorld: UWorld::CleanupWorld for World_43, bSessionEnded=true, bCleanupResources=true
+[2024.12.01-20.29.28:909][594]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.01-20.29.29:684][679]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/AI/Tasks/BTTask_MoveToTokenCashier.BTTask_MoveToTokenCashier
+[2024.12.01-20.29.29:684][679]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.12.01-20.29.29:684][679]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.12.01-20.29.57:249][643]BlueprintLog: New page: Compile BTTask_MoveToTokenCashier
+[2024.12.01-20.29.57:312][643]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
+[2024.12.01-20.29.57:343][643]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.12.01-20.29.57:407][643]LogSavePackage: Moving output files for package: /Game/Blueprints/AI/Tasks/BTTask_MoveToTokenCashier
+[2024.12.01-20.29.57:408][643]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Saved/BTTask_MoveToTokenCashier6BF3F9434322677B6A833296551ABFE5.tmp' to '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/Blueprints/AI/Tasks/BTTask_MoveToTokenCashier.uasset'
+[2024.12.01-20.29.57:417][643]LogFileHelpers: InternalPromptForCheckoutAndSave took 73 ms (total: 9.56 sec)
+[2024.12.01-20.29.57:419][643]AssetCheck: New page: Asset Save: BTTask_MoveToTokenCashier
+[2024.12.01-20.29.57:419][643]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/AI/Tasks/BTTask_MoveToTokenCashier.BTTask_MoveToTokenCashier
+[2024.12.01-20.29.58:733][780]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/AI/Tasks/BTTask_RoamAround.BTTask_RoamAround
+[2024.12.01-20.29.58:733][780]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.12.01-20.29.58:733][780]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.12.01-20.30.08:304][862]BlueprintLog: New page: Compile BTTask_RoamAround
+[2024.12.01-20.30.08:346][862]LogUObjectHash: Compacting FUObjectHashTables data took   2.01ms
+[2024.12.01-20.30.08:360][862]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.12.01-20.30.08:404][862]LogSavePackage: Moving output files for package: /Game/Blueprints/AI/Tasks/BTTask_RoamAround
+[2024.12.01-20.30.08:405][862]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Saved/BTTask_RoamAround7110E96A42284A22D2A7B0B3D957159A.tmp' to '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/Blueprints/AI/Tasks/BTTask_RoamAround.uasset'
+[2024.12.01-20.30.08:414][862]LogFileHelpers: InternalPromptForCheckoutAndSave took 53 ms (total: 9.62 sec)
+[2024.12.01-20.30.08:414][862]AssetCheck: New page: Asset Save: BTTask_RoamAround
+[2024.12.01-20.30.08:414][862]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/AI/Tasks/BTTask_RoamAround.BTTask_RoamAround
+[2024.12.01-20.30.12:431][331]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/AI/Tasks/BTTask_RecieveTokensOnTokenCashier.BTTask_RecieveTokensOnTokenCashier
+[2024.12.01-20.30.12:431][331]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.12.01-20.30.12:431][331]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.12.01-20.30.29:185][961]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/AI/Tasks/BTTask_MoveToMachines.BTTask_MoveToMachines
+[2024.12.01-20.30.29:187][961]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.12.01-20.30.29:187][961]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.12.01-20.30.44:464][385]BlueprintLog: New page: Compile BTTask_MoveToMachines
+[2024.12.01-20.30.44:527][385]LogUObjectHash: Compacting FUObjectHashTables data took   2.63ms
+[2024.12.01-20.30.44:571][385]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.12.01-20.30.44:655][385]LogSavePackage: Moving output files for package: /Game/Blueprints/AI/Tasks/BTTask_MoveToMachines
+[2024.12.01-20.30.44:655][385]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Saved/BTTask_MoveToMachinesF08D96DF41898C24AB3924B842C0B0FE.tmp' to '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/Blueprints/AI/Tasks/BTTask_MoveToMachines.uasset'
+[2024.12.01-20.30.44:662][385]LogFileHelpers: InternalPromptForCheckoutAndSave took 91 ms (total: 9.71 sec)
+[2024.12.01-20.30.44:667][385]AssetCheck: New page: Asset Save: BTTask_MoveToMachines
+[2024.12.01-20.30.44:667][385]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/AI/Tasks/BTTask_MoveToMachines.BTTask_MoveToMachines
+[2024.12.01-20.30.52:855][219]BlueprintLog: New page: Compile BTTask_MoveToMachines
+[2024.12.01-20.30.52:916][219]LogUObjectHash: Compacting FUObjectHashTables data took   2.09ms
+[2024.12.01-20.30.52:963][219]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.12.01-20.30.53:048][219]LogSavePackage: Moving output files for package: /Game/Blueprints/AI/Tasks/BTTask_MoveToMachines
+[2024.12.01-20.30.53:049][219]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Saved/BTTask_MoveToMachinesC81D315746CA38CCBEEAEB8C6F7B121E.tmp' to '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/Blueprints/AI/Tasks/BTTask_MoveToMachines.uasset'
+[2024.12.01-20.30.53:058][219]LogFileHelpers: InternalPromptForCheckoutAndSave took 95 ms (total: 9.80 sec)
+[2024.12.01-20.30.53:059][219]AssetCheck: New page: Asset Save: BTTask_MoveToMachines
+[2024.12.01-20.30.53:059][219]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/AI/Tasks/BTTask_MoveToMachines.BTTask_MoveToMachines
+[2024.12.01-20.31.01:963][125]BlueprintLog: New page: Compile BTTask_MoveToMachines
+[2024.12.01-20.31.02:023][125]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
+[2024.12.01-20.31.02:070][125]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.12.01-20.31.02:154][125]LogSavePackage: Moving output files for package: /Game/Blueprints/AI/Tasks/BTTask_MoveToMachines
+[2024.12.01-20.31.02:155][125]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Saved/BTTask_MoveToMachinesBC56C87E4FF5A8A7B0DA0796B4A92892.tmp' to '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/Blueprints/AI/Tasks/BTTask_MoveToMachines.uasset'
+[2024.12.01-20.31.02:163][125]LogFileHelpers: InternalPromptForCheckoutAndSave took 92 ms (total: 9.90 sec)
+[2024.12.01-20.31.02:164][125]AssetCheck: New page: Asset Save: BTTask_MoveToMachines
+[2024.12.01-20.31.02:164][125]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/AI/Tasks/BTTask_MoveToMachines.BTTask_MoveToMachines
+[2024.12.01-20.31.11:968][ 12]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/AI/Tasks/BTTask_MoveToCashier.BTTask_MoveToCashier
+[2024.12.01-20.31.11:968][ 12]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.12.01-20.31.11:968][ 12]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.12.01-20.31.26:004][169]BlueprintLog: New page: Compile BTTask_MoveToCashier
+[2024.12.01-20.31.26:062][169]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
+[2024.12.01-20.31.26:098][169]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.12.01-20.31.26:160][169]LogSavePackage: Moving output files for package: /Game/Blueprints/AI/Tasks/BTTask_MoveToCashier
+[2024.12.01-20.31.26:161][169]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Saved/BTTask_MoveToCashier0AB2542E463E19B37B0AB5AB7E708CD1.tmp' to '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/Blueprints/AI/Tasks/BTTask_MoveToCashier.uasset'
+[2024.12.01-20.31.26:169][169]LogFileHelpers: InternalPromptForCheckoutAndSave took 71 ms (total: 9.97 sec)
+[2024.12.01-20.31.26:172][169]AssetCheck: New page: Asset Save: BTTask_MoveToCashier
+[2024.12.01-20.31.26:172][169]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/AI/Tasks/BTTask_MoveToCashier.BTTask_MoveToCashier
+[2024.12.01-20.31.41:372][719]BlueprintLog: New page: Compile BTTask_MoveToCashier
+[2024.12.01-20.31.41:432][719]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2024.12.01-20.31.41:468][719]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.12.01-20.31.41:529][719]LogSavePackage: Moving output files for package: /Game/Blueprints/AI/Tasks/BTTask_MoveToCashier
+[2024.12.01-20.31.41:530][719]LogSavePackage: Moving '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Saved/BTTask_MoveToCashier588AF7954DA1182CA90DBA83B4D1A4E3.tmp' to '../../../../../../Users/User/Documents/GitKrakenProjects/ArcadeSimulator/Arcade/Content/Blueprints/AI/Tasks/BTTask_MoveToCashier.uasset'
+[2024.12.01-20.31.41:538][719]LogFileHelpers: InternalPromptForCheckoutAndSave took 70 ms (total: 10.0 sec)
+[2024.12.01-20.31.41:541][719]AssetCheck: New page: Asset Save: BTTask_MoveToCashier
+[2024.12.01-20.31.41:541][719]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/AI/Tasks/BTTask_MoveToCashier.BTTask_MoveToCashier
+[2024.12.01-20.31.52:510][623]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/AI/Tasks/BTTask_DraftMoney.BTTask_DraftMoney
+[2024.12.01-20.31.52:510][623]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.12.01-20.31.52:510][623]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.12.01-20.31.59:058][352]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/AI/Tasks/BTTask_GiveMoneyOnCashier.BTTask_GiveMoneyOnCashier
+[2024.12.01-20.31.59:058][352]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.12.01-20.31.59:058][352]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.12.01-20.32.15:789][985]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/AI/Tasks/BTTask_LeaveArcade.BTTask_LeaveArcade
+[2024.12.01-20.32.15:789][985]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.12.01-20.32.15:789][985]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.12.01-20.32.21:604][642]LogWorld: UWorld::CleanupWorld for World_44, bSessionEnded=true, bCleanupResources=true
+[2024.12.01-20.32.21:605][642]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.01-20.32.23:174][749]LogWorld: UWorld::CleanupWorld for World_45, bSessionEnded=true, bCleanupResources=true
+[2024.12.01-20.32.23:174][749]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.01-20.32.24:031][821]LogWorld: UWorld::CleanupWorld for World_46, bSessionEnded=true, bCleanupResources=true
+[2024.12.01-20.32.24:031][821]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.01-20.32.24:861][893]LogWorld: UWorld::CleanupWorld for World_47, bSessionEnded=true, bCleanupResources=true
+[2024.12.01-20.32.24:861][893]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.01-20.32.25:759][970]LogWorld: UWorld::CleanupWorld for World_48, bSessionEnded=true, bCleanupResources=true
+[2024.12.01-20.32.25:759][970]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.01-20.32.26:660][ 52]LogWorld: UWorld::CleanupWorld for World_49, bSessionEnded=true, bCleanupResources=true
+[2024.12.01-20.32.26:660][ 52]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.01-20.32.27:257][103]LogWorld: UWorld::CleanupWorld for World_50, bSessionEnded=true, bCleanupResources=true
+[2024.12.01-20.32.27:257][103]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.01-20.32.27:774][142]LogWorld: UWorld::CleanupWorld for World_51, bSessionEnded=true, bCleanupResources=true
+[2024.12.01-20.32.27:774][142]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.01-20.32.28:723][223]LogWorld: UWorld::CleanupWorld for World_24, bSessionEnded=true, bCleanupResources=true
+[2024.12.01-20.32.28:723][223]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.01-20.32.29:093][244]LogScript: Warning: Accessed None trying to read property CallFunc_GetActorOfClass_ReturnValue
+	WB_Computer_C /Engine/Transient.World_4:WB_Computer_C_24
+	Function /Game/Widgets/Computer/WB_Computer.WB_Computer_C:ExecuteUbergraph_WB_Computer:004C
+[2024.12.01-20.32.29:572][279]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2024.12.01-20.32.29:572][279]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.01-20.32.29:600][279]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2024.12.01-20.32.29:601][279]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
